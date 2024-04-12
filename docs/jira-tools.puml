@@ -1,0 +1,113 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generator       : it.brunasti.java.diagrammer.ClassDiagrammer
+' Path            : [/Users/paolobrunasti/Work/Mine/java_tools/target/classes/]
+' Configuration   : [/Users/paolobrunasti/Work/Mine/java_tools/docs/config.json]
+' Generated at    : Fri Apr 12 10:11:34 CEST 2024
+
+
+
+' CLASSES =======
+class it.brunasti.engine.inferential.FactsBase
+class it.brunasti.javatools.jira.JiraTicket
+class it.brunasti.engine.inferential.Rule
+class it.brunasti.engine.inferential.RuleEngine
+class it.brunasti.engine.inferential.utils.RuleUtils
+class it.brunasti.engine.inferential.Fact
+class it.brunasti.engine.inferential.exceptions.FactParsingException
+class it.brunasti.engine.inferential.Formula$FormulaBuilder
+class it.brunasti.javatools.json.ParseJSON
+class it.brunasti.engine.inferential.utils.RPNExecutor
+class it.brunasti.javatools.jira.FieldDescriptor
+enum it.brunasti.engine.inferential.utils.Associativity{
+  LEFT
+  RIGHT
+}
+class it.brunasti.engine.inferential.utils.RuleEngineUtils
+class it.brunasti.engine.inferential.utils.InfixToRPNConverter
+class it.brunasti.javatools.jira.JiraTiketLinks
+class it.brunasti.engine.inferential.RulesBase
+class it.brunasti.engine.inferential.utils.Utils
+class it.brunasti.javatools.jira.JiraTicketLinkDescriptor
+class it.brunasti.engine.inferential.utils.RPNExecutor$1
+class it.brunasti.engine.inferential.Formula
+class it.brunasti.engine.inferential.utils.ExecutionTracer
+class it.brunasti.engine.inferential.exceptions.RuleParsingException
+enum it.brunasti.engine.inferential.utils.Operator{
+  ADDITION
+  SUBTRACTION
+  DIVISION
+  MULTIPLICATION
+  MODULUS
+  POWER
+  NOT
+  AND
+  OR
+  MAX
+  MIN
+  AVG
+}
+class it.brunasti.engine.inferential.utils.ExecutionTracer$ExecutionTracerBuilder
+class it.brunasti.engine.inferential.utils.FactUtils
+class it.brunasti.engine.inferential.Rule$RuleBuilder
+class it.brunasti.engine.inferential.Fact$FactBuilder
+class it.brunasti.engine.inferential.exceptions.UnknownElementException
+interface it.brunasti.engine.inferential.utils.Constants
+class it.brunasti.javatools.jira.ParseJiraTicketsCsv
+class it.brunasti.javatools.App
+class it.brunasti.engine.inferential.Main
+
+' INHERITANCES =======
+java.lang.Exception <|-- it.brunasti.engine.inferential.exceptions.FactParsingException
+java.lang.Enum <|-- it.brunasti.engine.inferential.utils.Associativity
+java.lang.Exception <|-- it.brunasti.engine.inferential.exceptions.RuleParsingException
+java.lang.Enum <|-- it.brunasti.engine.inferential.utils.Operator
+java.lang.Exception <|-- it.brunasti.engine.inferential.exceptions.UnknownElementException
+
+' IMPLEMENT INTERFACE =======
+java.io.Serializable <|.. it.brunasti.engine.inferential.FactsBase
+java.io.Serializable <|.. it.brunasti.engine.inferential.Rule
+java.io.Serializable <|.. it.brunasti.engine.inferential.RuleEngine
+it.brunasti.engine.inferential.utils.Constants <|.. it.brunasti.engine.inferential.utils.RuleUtils
+java.io.Serializable <|.. it.brunasti.engine.inferential.Fact
+it.brunasti.engine.inferential.utils.Constants <|.. it.brunasti.engine.inferential.utils.RuleEngineUtils
+java.io.Serializable <|.. it.brunasti.engine.inferential.RulesBase
+java.io.Serializable <|.. it.brunasti.engine.inferential.Formula
+java.lang.Comparable <|.. it.brunasti.engine.inferential.utils.Operator
+it.brunasti.engine.inferential.utils.Constants <|.. it.brunasti.engine.inferential.utils.FactUtils
+
+' FIELDS =======
+it.brunasti.javatools.jira.JiraTicket --> org.apache.logging.log4j.Logger
+it.brunasti.javatools.jira.JiraTicket --> it.brunasti.javatools.jira.FieldDescriptor
+it.brunasti.javatools.jira.JiraTicket --> it.brunasti.javatools.jira.FieldDescriptor
+it.brunasti.javatools.jira.JiraTicket --> it.brunasti.javatools.jira.FieldDescriptor
+it.brunasti.javatools.jira.JiraTicket --> it.brunasti.javatools.jira.FieldDescriptor
+it.brunasti.javatools.jira.JiraTicket --> it.brunasti.javatools.jira.FieldDescriptor
+it.brunasti.javatools.jira.JiraTicket --> it.brunasti.javatools.jira.FieldDescriptor
+it.brunasti.javatools.jira.JiraTicket --> it.brunasti.javatools.jira.FieldDescriptor
+it.brunasti.javatools.jira.JiraTicket --> it.brunasti.javatools.jira.FieldDescriptor
+it.brunasti.javatools.jira.JiraTicket --> it.brunasti.javatools.jira.JiraTicket
+it.brunasti.javatools.jira.JiraTicketLinkDescriptor --> it.brunasti.javatools.jira.FieldDescriptor
+it.brunasti.engine.inferential.utils.ExecutionTracer --> java.io.PrintWriter
+it.brunasti.engine.inferential.utils.ExecutionTracer$ExecutionTracerBuilder --> java.io.PrintWriter
+it.brunasti.javatools.jira.ParseJiraTicketsCsv --> org.apache.logging.log4j.Logger
+it.brunasti.javatools.jira.ParseJiraTicketsCsv --> java.io.PrintStream
+
+' USES =======
+it.brunasti.javatools.jira.JiraTicket ..> it.brunasti.javatools.jira.FieldDescriptor
+it.brunasti.javatools.jira.JiraTicket ..> it.brunasti.javatools.jira.JiraTicket
+it.brunasti.javatools.jira.JiraTicket ..> it.brunasti.javatools.jira.JiraTiketLinks
+it.brunasti.javatools.jira.JiraTicketLinkDescriptor ..> it.brunasti.javatools.jira.FieldDescriptor
+it.brunasti.engine.inferential.utils.ExecutionTracer ..> java.io.PrintWriter
+it.brunasti.engine.inferential.utils.ExecutionTracer$ExecutionTracerBuilder ..> java.io.PrintWriter
+it.brunasti.javatools.jira.ParseJiraTicketsCsv ..> it.brunasti.javatools.jira.JiraTicket
+it.brunasti.javatools.jira.ParseJiraTicketsCsv ..> it.brunasti.javatools.jira.JiraTicketLinkDescriptor
+it.brunasti.javatools.jira.ParseJiraTicketsCsv ..> it.brunasti.javatools.jira.JiraTiketLinks
+
+' IMPORTS =======
+' Java Files Path : 
+
+
+@enduml
