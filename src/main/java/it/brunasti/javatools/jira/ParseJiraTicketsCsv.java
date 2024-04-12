@@ -32,7 +32,7 @@ public class ParseJiraTicketsCsv {
 
   public static JiraTicket findFromKey(Map<String, JiraTicket> jiraTickets, String key) {
     try {
-      return jiraTickets.values().stream().filter(jiraTicket -> jiraTicket.issue_Key.get(0).equalsIgnoreCase(key)).findFirst().get();
+      return jiraTickets.values().stream().filter(jiraTicket -> jiraTicket.issueKey.getFirst().equalsIgnoreCase(key)).findFirst().get();
     } catch (NoSuchElementException nsee) {
       log.error("findFromKey  : [{}] {}", key, nsee.getMessage());
       return null;
@@ -51,19 +51,19 @@ public class ParseJiraTicketsCsv {
   }
 
   private static long countTicketsInStatus(Collection<JiraTicket> jiraTickets, String status) {
-    return jiraTickets.stream().filter(jiraTicket -> jiraTicket.status.get(0).equals(status) ).count();
+    return jiraTickets.stream().filter(jiraTicket -> jiraTicket.status.getFirst().equals(status) ).count();
   }
 
   private static long countTicketsOfType(Collection<JiraTicket> jiraTickets, String type) {
-    return jiraTickets.stream().filter(jiraTicket -> jiraTicket.issue_Type.get(0).equals(type) ).count();
+    return jiraTickets.stream().filter(jiraTicket -> jiraTicket.issueType.getFirst().equals(type) ).count();
   }
 
   private static void generateTextLegend(final HashMap<String, JiraTicket> selectedJiraTickets) {
     HashSet<String> stata = new HashSet<>();
     HashSet<String> types = new HashSet<>();
 
-    selectedJiraTickets.values().forEach(jiraTicket -> stata.add(jiraTicket.status.get(0)));
-    selectedJiraTickets.values().forEach(jiraTicket -> types.add(jiraTicket.issue_Type.get(0)));
+    selectedJiraTickets.values().forEach(jiraTicket -> stata.add(jiraTicket.status.getFirst()));
+    selectedJiraTickets.values().forEach(jiraTicket -> types.add(jiraTicket.issueType.getFirst()));
 
     output.println("legend");
     output.println("Jira Ticket Status");
@@ -84,16 +84,16 @@ public class ParseJiraTicketsCsv {
   private static void generateLegend(final Collection<JiraTicket> jiraTickets, String linkKind) {
     HashMap<String, JiraTicket> selectedJiraTickets = new HashMap<>();
 
-    jiraTickets.forEach(jiraTicket -> {
-      jiraTicket.inward_Issue_Link.forEach(links -> {
+    jiraTickets.forEach(jiraTicket ->
+      jiraTicket.inwardIssueLink.forEach(links -> {
         if (links.name.contains(linkKind)) {
           links.jiraTikets.forEach(link -> {
-            selectedJiraTickets.put(jiraTicket.issue_Key.get(0), jiraTicket);
-            selectedJiraTickets.put(link.issue_Key.get(0), link);
+            selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
+            selectedJiraTickets.put(link.issueKey.getFirst(), link);
           });
         }
-      });
-    });
+      })
+    );
 
     generateTextLegend(selectedJiraTickets);
   }
@@ -103,11 +103,11 @@ public class ParseJiraTicketsCsv {
     HashMap<String, JiraTicket> selectedJiraTickets = new HashMap<>();
 
     jiraTickets.forEach(jiraTicket -> {
-      if ((!jiraTicket.assignee.isEmpty()) && (jiraTicket.assignee.get(0).equalsIgnoreCase(person))) {
-        selectedJiraTickets.put(jiraTicket.issue_Key.get(0), jiraTicket);
-        jiraTicket.inward_Issue_Link.forEach(links -> {
+      if ((!jiraTicket.assignee.isEmpty()) && (jiraTicket.assignee.getFirst().equalsIgnoreCase(person))) {
+        selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
+        jiraTicket.inwardIssueLink.forEach(links -> {
           if (links.name.contains(linkKind)) {
-            links.jiraTikets.forEach(link -> selectedJiraTickets.put(link.issue_Key.get(0), link));
+            links.jiraTikets.forEach(link -> selectedJiraTickets.put(link.issueKey.getFirst(), link));
           }
         });
       }
@@ -118,7 +118,7 @@ public class ParseJiraTicketsCsv {
 
 
   private static String createClassHead(JiraTicket jiraTicket) {
-    String type = jiraTicket.issue_Type.get(0).toLowerCase();
+    String type = jiraTicket.issueType.getFirst().toLowerCase();
     String header;
 
     switch (type) {
@@ -133,21 +133,21 @@ public class ParseJiraTicketsCsv {
       case "task" -> header = DEFINITION_CLASS_MIDDLE + "T" + DEFINITION_CLASS_FULL_END;
       case "work request" -> header = DEFINITION_CLASS_MIDDLE + "W" + DEFINITION_CLASS_FULL_END;
       default -> {
-        log.error("createClassHead unknown type [{}] [{}]", type, jiraTicket.issue_Key.get(0));
+        log.error("createClassHead unknown type [{}] [{}]", type, jiraTicket.issueKey.getFirst());
         header = DEFINITION_CLASS_MIDDLE + "X" + DEFINITION_CLASS_FULL_END;
       }
     }
 
-    return DEFINITION_CLASS_START + jiraTicket.issue_Key.get(0) + header;
+    return DEFINITION_CLASS_START + jiraTicket.issueKey.getFirst() + header;
   }
 
   private static void generateTicket(JiraTicket jiraTicket) {
     output.println(createClassHead(jiraTicket));
     if (!jiraTicket.assignee.isEmpty()) {
-      output.println(DEFINITION_CLASS_ASSIGNED_TO + jiraTicket.assignee.get(0));
+      output.println(DEFINITION_CLASS_ASSIGNED_TO + jiraTicket.assignee.getFirst());
     }
-    output.println(DEFINITION_CLASS_STATUS + jiraTicket.status.get(0));
-    output.println(DEFINITION_CLASS_TYPE + jiraTicket.issue_Type.get(0));
+    output.println(DEFINITION_CLASS_STATUS + jiraTicket.status.getFirst());
+    output.println(DEFINITION_CLASS_TYPE + jiraTicket.issueType.getFirst());
     output.println("}");
     output.println();
   }
@@ -163,11 +163,11 @@ public class ParseJiraTicketsCsv {
     HashMap<String, JiraTicket> selectedJiraTickets = new HashMap<>();
 
     jiraTickets.forEach(jiraTicket ->
-      jiraTicket.inward_Issue_Link.forEach(links -> {
+      jiraTicket.inwardIssueLink.forEach(links -> {
         if (links.name.contains(kind)) {
           links.jiraTikets.forEach(link -> {
-            selectedJiraTickets.put(jiraTicket.issue_Key.get(0), jiraTicket);
-            selectedJiraTickets.put(link.issue_Key.get(0), link);
+            selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
+            selectedJiraTickets.put(link.issueKey.getFirst(), link);
           });
         }
       })
@@ -184,11 +184,11 @@ public class ParseJiraTicketsCsv {
     log.debug("generateTicketsPerPersonLinks ({})", person);
 
     jiraTickets.forEach(jiraTicket -> {
-      if ((!jiraTicket.assignee.isEmpty()) && (jiraTicket.assignee.get(0).equalsIgnoreCase(person))) {
-          log.debug("generateTicketsPerPersonLinks [{}]", jiraTicket.issue_Key.get(0));
-          selectedJiraTickets.put(jiraTicket.issue_Key.get(0), jiraTicket);
-          jiraTicket.inward_Issue_Link.forEach(links ->
-              links.jiraTikets.forEach(link -> selectedJiraTickets.put(link.issue_Key.get(0), link))
+      if ((!jiraTicket.assignee.isEmpty()) && (jiraTicket.assignee.getFirst().equalsIgnoreCase(person))) {
+          log.debug("generateTicketsPerPersonLinks [{}]", jiraTicket.issueKey.getFirst());
+          selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
+          jiraTicket.inwardIssueLink.forEach(links ->
+              links.jiraTikets.forEach(link -> selectedJiraTickets.put(link.issueKey.getFirst(), link))
           );
         }
     });
@@ -204,9 +204,9 @@ public class ParseJiraTicketsCsv {
     log.debug("personHasDependingTickets ({})", person);
 
     jiraTickets.forEach(jiraTicket -> {
-    if ((!jiraTicket.assignee.isEmpty()) && (jiraTicket.assignee.get(0).equalsIgnoreCase(person))) {
-        log.debug("personHasDependingTickets ({}) -> [{}]", person, jiraTicket.issue_Key);
-        selectedJiraTickets.put(jiraTicket.issue_Key.get(0), jiraTicket);
+    if ((!jiraTicket.assignee.isEmpty()) && (jiraTicket.assignee.getFirst().equalsIgnoreCase(person))) {
+        log.debug("personHasDependingTickets ({}) -> [{}]", person, jiraTicket.issueKey);
+        selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
       }
     });
 
@@ -218,7 +218,7 @@ public class ParseJiraTicketsCsv {
     output.println("' Parents =======");
     jiraTickets.forEach(jiraTicket -> {
       if(jiraTicket.parentJira != null) {
-        output.println("\"" + jiraTicket.parentJira.issue_Key.get(0) + "\" <|-- \"" + jiraTicket.issue_Key.get(0)+ "\"");
+        output.println("\"" + jiraTicket.parentJira.issueKey.getFirst() + "\" <|-- \"" + jiraTicket.issueKey.getFirst()+ "\"");
       }
     });
     output.println();
@@ -228,9 +228,9 @@ public class ParseJiraTicketsCsv {
     output.println();
     output.println(HEADER_LINKS);
     jiraTickets.forEach(jiraTicket ->
-      jiraTicket.inward_Issue_Link.forEach(links ->
+      jiraTicket.inwardIssueLink.forEach(links ->
         links.jiraTikets.forEach(link ->
-          output.println("\"" + jiraTicket.issue_Key.get(0) + DEFINITION_LINK_SIMPLE_MIDDLE + link.issue_Key.get(0)+ DEFINITION_LINK_SIMPLE_END +links.getShortName())
+          output.println("\"" + jiraTicket.issueKey.getFirst() + DEFINITION_LINK_SIMPLE_MIDDLE + link.issueKey.getFirst()+ DEFINITION_LINK_SIMPLE_END +links.getShortName())
         )
       )
     );
@@ -241,10 +241,10 @@ public class ParseJiraTicketsCsv {
     output.println();
     output.println(HEADER_LINKS);
     jiraTickets.forEach(jiraTicket ->
-      jiraTicket.inward_Issue_Link.forEach(links -> {
+      jiraTicket.inwardIssueLink.forEach(links -> {
         if (links.name.contains(kind)) {
           links.jiraTikets.forEach(link ->
-            output.println("\"" + jiraTicket.issue_Key.get(0) + DEFINITION_LINK_SIMPLE_MIDDLE + link.issue_Key.get(0) + DEFINITION_LINK_SIMPLE_END + links.getShortName())
+            output.println("\"" + jiraTicket.issueKey.getFirst() + DEFINITION_LINK_SIMPLE_MIDDLE + link.issueKey.getFirst() + DEFINITION_LINK_SIMPLE_END + links.getShortName())
           );
         }
       })
@@ -256,10 +256,10 @@ public class ParseJiraTicketsCsv {
     output.println();
     output.println(HEADER_LINKS);
     jiraTickets.forEach(jiraTicket -> {
-      if ((!jiraTicket.assignee.isEmpty()) && (jiraTicket.assignee.get(0).equalsIgnoreCase(person)))
-          jiraTicket.inward_Issue_Link.forEach(links ->
+      if ((!jiraTicket.assignee.isEmpty()) && (jiraTicket.assignee.getFirst().equalsIgnoreCase(person)))
+          jiraTicket.inwardIssueLink.forEach(links ->
             links.jiraTikets.forEach(link ->
-              output.println("\"" + jiraTicket.issue_Key.get(0) + DEFINITION_LINK_SIMPLE_MIDDLE + link.issue_Key.get(0) + DEFINITION_LINK_SIMPLE_END + links.getShortName())
+              output.println("\"" + jiraTicket.issueKey.getFirst() + DEFINITION_LINK_SIMPLE_MIDDLE + link.issueKey.getFirst() + DEFINITION_LINK_SIMPLE_END + links.getShortName())
             )
           );
         }
@@ -279,7 +279,7 @@ public class ParseJiraTicketsCsv {
 
     jiraTickets.values().forEach(jiraTicket -> {
       if (!jiraTicket.assignee.isEmpty()) {
-        String person = jiraTicket.assignee.get(0);
+        String person = jiraTicket.assignee.getFirst();
         people.add(person);
       }
     });
@@ -295,7 +295,7 @@ public class ParseJiraTicketsCsv {
     try (CSVReader reader = new CSVReader(new FileReader(fileName))) {
       List<String[]> r = reader.readAll();
 
-      String[] header = r.get(0);
+      String[] header = r.getFirst();
 
       log.info("Header  : [{}]", Arrays.toString(header));
       log.info("Fields  : [{}]", header.length);
@@ -329,7 +329,7 @@ public class ParseJiraTicketsCsv {
 
       for (int i=1; i<r.size(); i++) {
         JiraTicket jiraTicket = new JiraTicket(r.get(i));
-        jiraTickets.put(jiraTicket.issue_Id.get(0), jiraTicket);
+        jiraTickets.put(jiraTicket.issueId.getFirst(), jiraTicket);
       }
 
       // Create link pointers from ticket id

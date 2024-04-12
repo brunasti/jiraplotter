@@ -15,30 +15,30 @@ public class JiraTicket {
   static Logger log = LogManager.getLogger(JiraTicket.class);
 
 
-  static final String Field_Name_Assignee = "Assignee";
-  static final String Field_Name_Description = "Description";
-  static final String Field_Name_Issue_type = "Issue type";
-  static final String Field_Name_Issue_id = "Issue id";
-  static final String Field_Name_Issue_key = "Issue key";
-  static final String Field_Name_Parent = "Parent";
-  static final String Field_Name_Priority = "Priority";
-  static final String Field_Name_Status = "Status";
+  static final String FIELD_NAME_ASSIGNEE = "Assignee";
+  static final String FIELD_NAME_DESCRIPTION = "Description";
+  static final String FIELD_NAME_ISSUE_TYPE = "Issue type";
+  static final String FIELD_NAME_ISSUE_ID = "Issue id";
+  static final String FIELD_NAME_ISSUE_KEY = "Issue key";
+  static final String FIELD_NAME_PARENT = "Parent";
+  static final String FIELD_NAME_PRIORITY = "Priority";
+  static final String FIELD_NAME_STATUS = "Status";
 
-  static final String Field_Name_Inward_issue_link = "Inward issue link";
-  static final String Field_Name_Outward_issue_link = "Outward issue link";
+  static final String FIELD_NAME_INWARD_ISSUE_LINK = "Inward issue link";
+  static final String FIELD_NAME_OUTWARD_ISSUE_LINK = "Outward issue link";
 
 
-  static FieldDescriptor assignee_field_descriptor;
-  static FieldDescriptor description_field_descriptor;
-  static FieldDescriptor issue_Type_field_descriptor;
-  static FieldDescriptor issue_Id_field_descriptor;
-  static FieldDescriptor issue_Key_field_descriptor;
-  static FieldDescriptor parent_field_descriptor;
-  static FieldDescriptor priority_field_descriptor;
-  static FieldDescriptor status_field_descriptor;
+  static FieldDescriptor assigneeFieldDescriptor;
+  static FieldDescriptor descriptionFieldDescriptor;
+  static FieldDescriptor issueTypeFieldDescriptor;
+  static FieldDescriptor issueIdFieldDescriptor;
+  static FieldDescriptor issueKeyFieldDescriptor;
+  static FieldDescriptor parentFieldDescriptor;
+  static FieldDescriptor priorityFieldDescriptor;
+  static FieldDescriptor statusFieldDescriptor;
 
-  static ArrayList<FieldDescriptor> inward_Issue_Link_field_descriptor;
-  static ArrayList<FieldDescriptor> outward_Issue_Link_field_descriptor;
+  static ArrayList<FieldDescriptor> inwardIssueLinkFieldDescriptor;
+  static ArrayList<FieldDescriptor> outwardIssueLinkFieldDescriptor;
 
 
   static FieldDescriptor findFieldDescriptor(ArrayList<FieldDescriptor> fieldDescriptors, String fieldName) {
@@ -68,30 +68,30 @@ public class JiraTicket {
 
   static void readCSVDefinition(ArrayList<FieldDescriptor> fieldDescriptors) {
     log.debug("readCSVDefinition");
-    assignee_field_descriptor = findFieldDescriptor(fieldDescriptors, Field_Name_Assignee);
-    description_field_descriptor = findFieldDescriptor(fieldDescriptors, Field_Name_Description);
-    issue_Type_field_descriptor = findFieldDescriptor(fieldDescriptors, Field_Name_Issue_type);
-    issue_Id_field_descriptor = findFieldDescriptor(fieldDescriptors, Field_Name_Issue_id);
-    issue_Key_field_descriptor = findFieldDescriptor(fieldDescriptors, Field_Name_Issue_key);
-    parent_field_descriptor = findFieldDescriptor(fieldDescriptors, Field_Name_Parent);
-    priority_field_descriptor = findFieldDescriptor(fieldDescriptors, Field_Name_Priority);
-    status_field_descriptor = findFieldDescriptor(fieldDescriptors, Field_Name_Status);
-    inward_Issue_Link_field_descriptor = findLinksFieldDescriptors(fieldDescriptors, Field_Name_Inward_issue_link);
-    outward_Issue_Link_field_descriptor = findLinksFieldDescriptors(fieldDescriptors, Field_Name_Outward_issue_link);
+    assigneeFieldDescriptor = findFieldDescriptor(fieldDescriptors, FIELD_NAME_ASSIGNEE);
+    descriptionFieldDescriptor = findFieldDescriptor(fieldDescriptors, FIELD_NAME_DESCRIPTION);
+    issueTypeFieldDescriptor = findFieldDescriptor(fieldDescriptors, FIELD_NAME_ISSUE_TYPE);
+    issueIdFieldDescriptor = findFieldDescriptor(fieldDescriptors, FIELD_NAME_ISSUE_ID);
+    issueKeyFieldDescriptor = findFieldDescriptor(fieldDescriptors, FIELD_NAME_ISSUE_KEY);
+    parentFieldDescriptor = findFieldDescriptor(fieldDescriptors, FIELD_NAME_PARENT);
+    priorityFieldDescriptor = findFieldDescriptor(fieldDescriptors, FIELD_NAME_PRIORITY);
+    statusFieldDescriptor = findFieldDescriptor(fieldDescriptors, FIELD_NAME_STATUS);
+    inwardIssueLinkFieldDescriptor = findLinksFieldDescriptors(fieldDescriptors, FIELD_NAME_INWARD_ISSUE_LINK);
+    outwardIssueLinkFieldDescriptor = findLinksFieldDescriptors(fieldDescriptors, FIELD_NAME_OUTWARD_ISSUE_LINK);
   }
 
 
-  ArrayList<String>  assignee;
-  ArrayList<String>  description;
-  ArrayList<String>  issue_Type;
-  ArrayList<String>  issue_Id;
-  ArrayList<String>  issue_Key;
-  ArrayList<String>  parent;
-  ArrayList<String>  priority;
-  ArrayList<String>  status;
+  ArrayList<String> assignee;
+  ArrayList<String> description;
+  ArrayList<String> issueType;
+  ArrayList<String> issueId;
+  ArrayList<String> issueKey;
+  ArrayList<String> parent;
+  ArrayList<String> priority;
+  ArrayList<String> status;
 
-  ArrayList<JiraTiketLinks> inward_Issue_Link;
-  ArrayList<JiraTiketLinks> outward_Issue_Link;
+  ArrayList<JiraTiketLinks> inwardIssueLink;
+  ArrayList<JiraTiketLinks> outwardIssueLink;
 
   JiraTicket parentJira;
 
@@ -126,34 +126,34 @@ public class JiraTicket {
   }
 
   void readFromCSVRow(String[] fields) {
-    assignee = readField(fields, assignee_field_descriptor);
-    description = readField(fields, description_field_descriptor);
-    issue_Type = readField(fields, issue_Type_field_descriptor);
-    issue_Id = readField(fields, issue_Id_field_descriptor);
-    issue_Key = readField(fields, issue_Key_field_descriptor);
-    parent = readField(fields, parent_field_descriptor);
-    priority = readField(fields, priority_field_descriptor);
-    status = readField(fields, status_field_descriptor);
-    inward_Issue_Link = readLinks(fields, inward_Issue_Link_field_descriptor);
-    outward_Issue_Link = readLinks(fields, outward_Issue_Link_field_descriptor);
+    assignee = readField(fields, assigneeFieldDescriptor);
+    description = readField(fields, descriptionFieldDescriptor);
+    issueType = readField(fields, issueTypeFieldDescriptor);
+    issueId = readField(fields, issueIdFieldDescriptor);
+    issueKey = readField(fields, issueKeyFieldDescriptor);
+    parent = readField(fields, parentFieldDescriptor);
+    priority = readField(fields, priorityFieldDescriptor);
+    status = readField(fields, statusFieldDescriptor);
+    inwardIssueLink = readLinks(fields, inwardIssueLinkFieldDescriptor);
+    outwardIssueLink = readLinks(fields, outwardIssueLinkFieldDescriptor);
   }
 
 
   void connectLinks(HashMap<String, JiraTicket> jiraTickets) {
-    if (parent.size() > 0) {
-      parentJira = jiraTickets.get(parent.get(0));
+    if (!parent.isEmpty()) {
+      parentJira = jiraTickets.get(parent.getFirst());
     }
 
-    inward_Issue_Link.forEach(links -> {
+    inwardIssueLink.forEach(links ->
       links.getLinks().forEach(link -> {
         JiraTicket ticket = ParseJiraTicketsCsv.findFromKey(jiraTickets, link);
         if (ticket != null) {
           links.jiraTikets.add(ticket);
         } else {
-          log.error("connectLinks  not possible : [{}] to [{}]", issue_Key, link);
+          log.error("connectLinks  not possible : [{}] to [{}]", issueKey, link);
         }
-      });
-    });
+      })
+    );
 
   }
 
