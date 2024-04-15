@@ -10,12 +10,6 @@
     ],
     "packages": [
       {
-        "package": "org.apache.."
-      },
-      {
-        "package": "it.brunasti.engine."
-      },
-      {
         "package": "Ljava.lang."
       },
       {

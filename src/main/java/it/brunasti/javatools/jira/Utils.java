@@ -3,6 +3,7 @@ package it.brunasti.javatools.jira;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.io.PrintStream;
 import java.util.*;
 
 public class Utils {
@@ -10,6 +11,30 @@ public class Utils {
   static Logger log = LogManager.getLogger(Utils.class);
 
   private Utils() {}
+
+
+
+  /**
+   * Writes to the passes PrintStream the content of the Object[] array.
+   *
+   * @param title Identification title of the output text.
+   * @param array Array of Objects to be dumped to the output PrintStream
+   * @param output PrintStream to be written to.
+   */
+  public static void dump(final String title, final Object[] array, PrintStream output) {
+    output.println("--------" + title + "-------------");
+    if (array != null) {
+      if (array.length == 0) {
+        output.println("-- EMPTY --");
+      } else {
+        for (int i = 0; i < array.length; i++) {
+          output.println("#" + i + "='" + array[i] + "'");
+        }
+      }
+    } else {
+      output.println("-- NULL --");
+    }
+  }
 
   public static String getShortName(String name) {
     return name.substring(name.indexOf('(')+1, name.lastIndexOf(')'));

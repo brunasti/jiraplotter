@@ -207,9 +207,8 @@ public class ParseJiraTicketsCsv {
 
 
   // TODO: Decompose in smaller functions....
-  public static void main(String[] args) throws IOException, CsvException {
+  public void generateDiagrams(String fileName, String outputDir) throws IOException, CsvException {
 
-    String fileName = "./src/test/resources/jira-open.csv";
     try (CSVReader reader = new CSVReader(new FileReader(fileName))) {
 
       // Load full file
@@ -235,7 +234,7 @@ public class ParseJiraTicketsCsv {
 
 
       // Reports generation -------------------------
-      FileOutputStream file = new FileOutputStream("./temp/jira.puml");
+      FileOutputStream file = new FileOutputStream(outputDir + "jira.puml");
       output = new PrintStream(file, true);
       generateHeader();
       generateLegend(jiraTickets.values(), "");
@@ -256,7 +255,7 @@ public class ParseJiraTicketsCsv {
         log.debug("jiraTicketLinkDescriptor : [{}] = {}",jiraTicketLinkDescriptor, ticketsNumber);
         if (ticketsNumber > 0) {
           try {
-            FileOutputStream subfile = new FileOutputStream("./temp/jira" + jiraTicketLinkDescriptor.getShortName() + ".puml");
+            FileOutputStream subfile = new FileOutputStream(outputDir + "jira" + jiraTicketLinkDescriptor.getShortName() + ".puml");
             output = new PrintStream(subfile, true);
             generateHeader();
             generateLegend(jiraTickets.values(), jiraTicketLinkDescriptor.getShortName());
@@ -277,7 +276,7 @@ public class ParseJiraTicketsCsv {
         log.debug("people : [{}]",person);
         if (Utils.personHasDependingTickets(jiraTickets.values(),person)) {
           try {
-            FileOutputStream subfile = new FileOutputStream("./temp/jira-" + person + ".puml");
+            FileOutputStream subfile = new FileOutputStream(outputDir + "jira-" + person + ".puml");
             output = new PrintStream(subfile, true);
             generateHeader();
             generateLegendPersona(jiraTickets.values(), "", person);
