@@ -78,6 +78,10 @@ public class ParseJiraTicketsCsv {
   }
 
   private static void generateLegend(final Collection<JiraTicket> jiraTickets, String linkKind) {
+    generateTextLegend(getTicketsForLinkKind(jiraTickets, linkKind));
+  }
+
+  private static HashMap<String, JiraTicket> getTicketsForLinkKind(final Collection<JiraTicket> jiraTickets, String linkKind) {
     HashMap<String, JiraTicket> selectedJiraTickets = new HashMap<>();
 
     jiraTickets.forEach(jiraTicket ->
@@ -91,11 +95,16 @@ public class ParseJiraTicketsCsv {
       })
     );
 
-    generateTextLegend(selectedJiraTickets);
+    return selectedJiraTickets;
+  }
+
+  private static int countTicketsForLinkKind(final Collection<JiraTicket> jiraTickets, String linkKind) {
+    return getTicketsForLinkKind(jiraTickets, linkKind).size();
   }
 
   private static void generateLegendPersona(final Collection<JiraTicket> jiraTickets, String linkKind, String person) {
     log.debug("generateLegendPersona ({}) ({}) ", linkKind, person);
+
     HashMap<String, JiraTicket> selectedJiraTickets = new HashMap<>();
 
     jiraTickets.forEach(jiraTicket -> {
@@ -355,22 +364,26 @@ public class ParseJiraTicketsCsv {
 
 
       // Generate reports for each links kind
-      // TODO: Check if there are tickets with such kind....
       jiraTicketLinkDescriptors.forEach(jiraTicketLinkDescriptor -> {
-        log.debug("jiraTicketLinkDescriptor : short name [{}]",jiraTicketLinkDescriptor.getShortName());
+        String shortName = jiraTicketLinkDescriptor.getShortName();
+        log.debug("jiraTicketLinkDescriptor : short name [{}]",shortName);
         log.debug("jiraTicketLinkDescriptor : [{}]",jiraTicketLinkDescriptor);
 
-        try {
-          FileOutputStream subfile = new FileOutputStream("./temp/jira" + jiraTicketLinkDescriptor.getShortName() + ".puml");
-          output = new PrintStream(subfile, true);
-          generateHeader();
-          generateLegend(jiraTickets.values(), jiraTicketLinkDescriptor.getShortName());
-          generateTicketsPerKindLinks(jiraTickets.values(), jiraTicketLinkDescriptor.getShortName());
-          generateSingleKindLinks(jiraTickets.values(), jiraTicketLinkDescriptor.getShortName());
-          generateFooter();
-          output.close();
-        } catch (Exception ex) {
-          log.error(ex);
+        int ticketsNumber = countTicketsForLinkKind(jiraTickets.values(), shortName);
+        log.debug("jiraTicketLinkDescriptor : [{}] = {}",jiraTicketLinkDescriptor, ticketsNumber);
+        if (ticketsNumber > 0) {
+          try {
+            FileOutputStream subfile = new FileOutputStream("./temp/jira" + jiraTicketLinkDescriptor.getShortName() + ".puml");
+            output = new PrintStream(subfile, true);
+            generateHeader();
+            generateLegend(jiraTickets.values(), jiraTicketLinkDescriptor.getShortName());
+            generateTicketsPerKindLinks(jiraTickets.values(), jiraTicketLinkDescriptor.getShortName());
+            generateSingleKindLinks(jiraTickets.values(), jiraTicketLinkDescriptor.getShortName());
+            generateFooter();
+            output.close();
+          } catch (Exception ex) {
+            log.error(ex);
+          }
         }
       });
 
