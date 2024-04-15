@@ -76,7 +76,7 @@ class UtilsTest {
   }
 
   @Test
-  void findFromKey() {
+  void test_findFromKey() {
     Map<String, JiraTicket> jiraTickets = new HashMap<>();
     String key = "CNG-1388";
 
@@ -92,5 +92,6 @@ class UtilsTest {
     assertNotNull(Utils.findFromKey(jiraTickets, key));
     jiraTickets.put("A", jiraTicket);
     assertNotNull(Utils.findFromKey(jiraTickets, "A"));
+    assertNull(Utils.findFromKey(jiraTickets, "X"));
   }
 }

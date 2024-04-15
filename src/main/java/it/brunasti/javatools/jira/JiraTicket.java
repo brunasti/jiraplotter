@@ -14,7 +14,7 @@ import java.util.concurrent.atomic.AtomicReference;
 public class JiraTicket {
   static Logger log = LogManager.getLogger(JiraTicket.class);
 
-
+// TODO: Move these statics to a different class, JiraTicketDescriptor
   static final String FIELD_NAME_ASSIGNEE = "Assignee";
   static final String FIELD_NAME_DESCRIPTION = "Description";
   static final String FIELD_NAME_ISSUE_TYPE = "Issue type";
