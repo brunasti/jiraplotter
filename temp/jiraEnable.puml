@@ -2,66 +2,23 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 11:44:38 CEST 2024
+' Generated at    : Mon Apr 15 12:32:40 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(To Do) : 5
-(In Progress) : 1
 ----
 Jira Ticket Types
 ----
-(Task) : 3
-(Story) : 3
 end legend
 
 
 ' Tickets =======
-class "CNG-647" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-68" << (S,lightgreen) >> {
-  Assigned to : Anand Jajoo
-  Status : To Do
-  Type : Story
-}
-
-class "CNG-709" << (T,lightblue) >> {
-  Assigned to : Anand Dixit
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-71" << (S,lightgreen) >> {
-  Assigned to : BharathKum Sarangarajan
-  Status : To Do
-  Type : Story
-}
-
-class "CNG-214" << (S,lightgreen) >> {
-  Assigned to : Narayana Golla
-  Status : In Progress
-  Type : Story
-}
-
-class "CNG-1066" << (T,lightblue) >> {
-  Assigned to : Sam Miles
-  Status : To Do
-  Type : Task
-}
-
 
 
 ' Links =======
-"CNG-71" <.. "CNG-647" : Enable
-"CNG-214" <.. "CNG-1066" : Enable
-"CNG-68" <.. "CNG-709" : Enable
 
 
 @enduml

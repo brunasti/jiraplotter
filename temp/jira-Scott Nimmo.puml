@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 11:44:38 CEST 2024
+' Generated at    : Mon Apr 15 12:32:40 CEST 2024
 
 hide empty members
 
@@ -10,12 +10,10 @@ legend
 Jira Ticket Status
 ----
 (To Do) : 1
-(In Progress) : 1
 ----
 Jira Ticket Types
 ----
 (Work Request) : 1
-(Sub-task) : 1
 end legend
 
 
@@ -26,16 +24,9 @@ class "CNG-944" << (W,lightblue) >> {
   Type : Work Request
 }
 
-class "CNG-961" << (S,lightblue) >> {
-  Assigned to : Anand Jajoo
-  Status : In Progress
-  Type : Sub-task
-}
-
 
 
 ' Links =======
-"CNG-944" <.. "CNG-961" : Dependent
 
 
 @enduml

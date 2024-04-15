@@ -30,14 +30,8 @@ public class ParseJiraTicketsCsv {
   static ArrayList<FieldDescriptor> fieldDescriptors = new ArrayList<>();
   static ArrayList<JiraTicketLinkDescriptor> jiraTicketLinkDescriptors = new ArrayList<>();
 
-  public static JiraTicket findFromKey(Map<String, JiraTicket> jiraTickets, String key) {
-    try {
-      return jiraTickets.values().stream().filter(jiraTicket -> jiraTicket.issueKey.getFirst().equalsIgnoreCase(key)).findFirst().get();
-    } catch (NoSuchElementException nsee) {
-      log.error("findFromKey  : [{}] {}", key, nsee.getMessage());
-      return null;
-    }
-  }
+
+
 
   private static void generateHeader() {
     output.println("@startuml");
@@ -50,10 +44,12 @@ public class ParseJiraTicketsCsv {
     output.println();
   }
 
+  // TODO: Move to Utils
   private static long countTicketsInStatus(Collection<JiraTicket> jiraTickets, String status) {
     return jiraTickets.stream().filter(jiraTicket -> jiraTicket.status.getFirst().equals(status) ).count();
   }
 
+  // TODO: Move to Utils
   private static long countTicketsOfType(Collection<JiraTicket> jiraTickets, String type) {
     return jiraTickets.stream().filter(jiraTicket -> jiraTicket.issueType.getFirst().equals(type) ).count();
   }
@@ -274,6 +270,7 @@ public class ParseJiraTicketsCsv {
   }
 
 
+  // TODO: Move to Utils
   private static HashSet<String> findPeople(HashMap<String, JiraTicket> jiraTickets) {
     HashSet<String> people = new HashSet<>();
 
@@ -288,42 +285,50 @@ public class ParseJiraTicketsCsv {
   }
 
 
+  static void loadDefinitions(String[] header) {
+    // Load record definition and FieldDescriptors
+
+    log.info("Header  : [{}]", Arrays.toString(header));
+    log.info("Fields  : [{}]", header.length);
+
+    HashSet<String> fields = new HashSet<>();
+    fields.addAll(Arrays.stream(header).toList());
+
+    log.info("Unique Fields  : [{}]", fields.size());
+    fields.stream().sorted().forEach(field -> {
+      if (!field.startsWith("Custom field (")) {
+        log.info("   - Unique Field  : [{}][{}]",field, Utils.countSameFields(header,field));
+        FieldDescriptor fieldDescriptor = new FieldDescriptor(header, field);
+        fieldDescriptors.add(fieldDescriptor);
+        log.info("                   ->  FieldDescriptor  : [{}]",fieldDescriptor);
+        if (fieldDescriptor.name.contains("link")) {
+          log.info("                   ->  LINK : FieldDescriptor  : [{}]", fieldDescriptor);
+          JiraTicketLinkDescriptor jiraTicketLinkDescriptor = new JiraTicketLinkDescriptor(field, fieldDescriptor);
+          jiraTicketLinkDescriptors.add(jiraTicketLinkDescriptor);
+        }
+      }
+    });
+    log.info("Unique Unique Fields  : [{}]", fieldDescriptors.size());
+    log.info("Links Fields  : [{}]", jiraTicketLinkDescriptors.size());
+
+    JiraTicket.readCSVDefinition(fieldDescriptors);
+  }
 
   // TODO: Decompose in smaller functions....
   public static void main(String[] args) throws IOException, CsvException {
 
     String fileName = "./src/test/resources/jira-open.csv";
     try (CSVReader reader = new CSVReader(new FileReader(fileName))) {
+
+      // Load full file
       List<String[]> r = reader.readAll();
-
-      String[] header = r.getFirst();
-
-      log.info("Header  : [{}]", Arrays.toString(header));
-      log.info("Fields  : [{}]", header.length);
       log.info("Records : [{}]", r.size());
 
-      HashSet<String> fields = new HashSet<>();
-      fields.addAll(Arrays.stream(header).toList());
+      // Load record definition and FieldDescriptors
+      loadDefinitions(r.getFirst());
 
-      log.info("Unique Fields  : [{}]", fields.size());
-      fields.stream().sorted().forEach(field -> {
-        if (!field.startsWith("Custom field (")) {
-          log.info("   - Unique Field  : [{}][{}]",field, Utils.countSameFields(header,field));
-          FieldDescriptor fieldDescriptor = new FieldDescriptor(header, field);
-          fieldDescriptors.add(fieldDescriptor);
-          log.info("                   ->  FieldDescriptor  : [{}]",fieldDescriptor);
-          if (fieldDescriptor.name.contains("link")) {
-            log.info("                   ->  LINK : FieldDescriptor  : [{}]", fieldDescriptor);
-            JiraTicketLinkDescriptor jiraTicketLinkDescriptor = new JiraTicketLinkDescriptor(field, fieldDescriptor);
-            jiraTicketLinkDescriptors.add(jiraTicketLinkDescriptor);
-          }
-        }
-      });
-      log.info("Unique Unique Fields  : [{}]", fieldDescriptors.size());
-      log.info("Links Fields  : [{}]", jiraTicketLinkDescriptors.size());
 
-      JiraTicket.readCSVDefinition(fieldDescriptors);
-
+      // Jira Ticket Records loading
       HashMap<String, JiraTicket> jiraTickets = new HashMap<>();
 
       for (int i=1; i<r.size(); i++) {
@@ -336,6 +341,8 @@ public class ParseJiraTicketsCsv {
 
       log.info("Records : [{}]",jiraTickets.size());
 
+
+      // Reports generation -------------------------
       FileOutputStream file = new FileOutputStream("./temp/jira.puml");
       output = new PrintStream(file, true);
       generateHeader();
@@ -347,6 +354,7 @@ public class ParseJiraTicketsCsv {
       output.close();
 
 
+      // Generate reports for each links kind
       jiraTicketLinkDescriptors.forEach(jiraTicketLinkDescriptor -> {
         log.debug("jiraTicketLinkDescriptor : short name [{}]",jiraTicketLinkDescriptor.getShortName());
         log.debug("jiraTicketLinkDescriptor : [{}]",jiraTicketLinkDescriptor);
@@ -365,6 +373,7 @@ public class ParseJiraTicketsCsv {
         }
       });
 
+      // Generate reports for each person
       HashSet<String> people = findPeople(jiraTickets);
       people.forEach(person -> {
         log.debug("people : [{}]",person);

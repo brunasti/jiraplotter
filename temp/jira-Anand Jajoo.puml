@@ -2,23 +2,23 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 11:44:38 CEST 2024
+' Generated at    : Mon Apr 15 12:32:40 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(To Do) : 12
+(To Do) : 9
 (In Work) : 2
 (In Progress) : 3
 (In System Test) : 1
 ----
 Jira Ticket Types
 ----
-(Task) : 4
+(Task) : 2
 (Bug) : 3
-(Sub-task) : 9
+(Sub-task) : 8
 (Story) : 2
 end legend
 
@@ -30,12 +30,6 @@ class "CNG-1040" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-1060" << (T,lightblue) >> {
-  Assigned to : Rukaya Ogazi-Khan
-  Status : To Do
-  Type : Task
-}
-
 class "CNG-68" << (S,lightgreen) >> {
   Assigned to : Anand Jajoo
   Status : To Do
@@ -44,17 +38,6 @@ class "CNG-68" << (S,lightgreen) >> {
 
 class "CNG-1209" << (S,lightblue) >> {
   Assigned to : Anand Jajoo
-  Status : To Do
-  Type : Sub-task
-}
-
-class "CNG-709" << (T,lightblue) >> {
-  Assigned to : Anand Dixit
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-1207" << (S,lightblue) >> {
   Status : To Do
   Type : Sub-task
 }
@@ -134,11 +117,6 @@ class "CNG-975" << (T,lightblue) >> {
 
 
 ' Links =======
-"CNG-68" <.. "CNG-709" : Enable
-"CNG-68" <.. "CNG-1207" : Feature
-"CNG-1049" <.. "CNG-68" : Dependent
-"CNG-1049" <.. "CNG-1207" : Feature
-"CNG-961" <.. "CNG-1060" : Approval
 
 
 @enduml

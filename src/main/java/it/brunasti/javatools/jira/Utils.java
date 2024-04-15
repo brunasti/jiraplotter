@@ -1,8 +1,15 @@
 package it.brunasti.javatools.jira;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.Arrays;
+import java.util.Map;
+import java.util.NoSuchElementException;
 
 public class Utils {
+
+  static Logger log = LogManager.getLogger(Utils.class);
 
   private Utils() {}
 
@@ -22,5 +29,17 @@ public class Utils {
     }
     return shortMark.substring(shortMark.length()-1);
   }
+
+
+  public static JiraTicket findFromKey(Map<String, JiraTicket> jiraTickets, String key) {
+    try {
+//      return jiraTickets.values().stream().filter(jiraTicket -> jiraTicket.issueKey.getFirst().equalsIgnoreCase(key)).findFirst().get();
+      return jiraTickets.get(key);
+    } catch (NoSuchElementException nsee) {
+      log.error("findFromKey  : [{}] {}", key, nsee.getMessage());
+      return null;
+    }
+  }
+
 
 }

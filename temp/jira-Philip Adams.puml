@@ -9,13 +9,27 @@ hide empty members
 legend
 Jira Ticket Status
 ----
+(To Do) : 2
 ----
 Jira Ticket Types
 ----
+(Task) : 2
 end legend
 
 
 ' Tickets =======
+class "CNG-1383" << (T,lightblue) >> {
+  Assigned to : Philip Adams
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1382" << (T,lightblue) >> {
+  Assigned to : Philip Adams
+  Status : To Do
+  Type : Task
+}
+
 
 
 ' Links =======

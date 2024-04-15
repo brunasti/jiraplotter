@@ -2,32 +2,25 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 11:44:38 CEST 2024
+' Generated at    : Mon Apr 15 12:32:40 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(To Do) : 36
+(To Do) : 31
 (Dev Review) : 1
-(In Progress) : 23
+(In Progress) : 18
 (Design Review) : 1
 ----
 Jira Ticket Types
 ----
-(Task) : 57
-(Sub-task) : 4
+(Task) : 51
 end legend
 
 
 ' Tickets =======
-class "CNG-1163" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
 class "CNG-1280" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
   Status : To Do
@@ -94,12 +87,6 @@ class "CNG-1201" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-733" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : In Progress
-  Type : Task
-}
-
 class "CNG-1287" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
   Status : To Do
@@ -124,19 +111,8 @@ class "CNG-1175" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-1173" << (S,lightblue) >> {
-  Status : To Do
-  Type : Sub-task
-}
-
 class "CNG-1250" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-1290" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
   Status : To Do
   Type : Task
 }
@@ -163,12 +139,6 @@ class "CNG-906" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
   Status : To Do
   Type : Task
-}
-
-class "CNG-589" << (S,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : In Progress
-  Type : Sub-task
 }
 
 class "CNG-1299" << (T,lightblue) >> {
@@ -204,12 +174,6 @@ class "CNG-1374" << (T,lightblue) >> {
 class "CNG-1331" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
   Status : To Do
-  Type : Task
-}
-
-class "CNG-1254" << (T,lightblue) >> {
-  Assigned to : Dileep
-  Status : In Progress
   Type : Task
 }
 
@@ -321,12 +285,6 @@ class "CNG-529" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-726" << (S,lightblue) >> {
-  Assigned to : Abinaya Arumugasamy
-  Status : To Do
-  Type : Sub-task
-}
-
 class "CNG-1237" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
   Status : In Progress
@@ -339,33 +297,9 @@ class "CNG-1279" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-961" << (S,lightblue) >> {
-  Assigned to : Anand Jajoo
-  Status : In Progress
-  Type : Sub-task
-}
-
-class "CNG-1233" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : In Progress
-  Type : Task
-}
-
 class "CNG-1156" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
   Status : To Do
-  Type : Task
-}
-
-class "CNG-1234" << (T,lightblue) >> {
-  Assigned to : Nigel Hassett
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-1198" << (T,lightblue) >> {
-  Assigned to : Rukaya Ogazi-Khan
-  Status : In Progress
   Type : Task
 }
 
@@ -381,6 +315,12 @@ class "CNG-1275" << (T,lightblue) >> {
   Type : Task
 }
 
+class "CNG-1198" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : In Progress
+  Type : Task
+}
+
 class "CNG-1155" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
   Status : In Progress
@@ -390,48 +330,6 @@ class "CNG-1155" << (T,lightblue) >> {
 
 
 ' Links =======
-"CNG-906" <.. "CNG-733" : Relates
-"CNG-1155" <.. "CNG-1163" : Dependent
-"CNG-1155" <.. "CNG-1198" : Dependent
-"CNG-1155" <.. "CNG-1233" : Dependent
-"CNG-1155" <.. "CNG-1234" : Dependent
-"CNG-1179" <.. "CNG-733" : Relates
-"CNG-1156" <.. "CNG-733" : Relates
-"CNG-508" <.. "CNG-726" : Dependent
-"CNG-508" <.. "CNG-733" : Relates
-"CNG-1189" <.. "CNG-733" : Relates
-"CNG-1244" <.. "CNG-1237" : Dependent
-"CNG-902" <.. "CNG-733" : Relates
-"CNG-1246" <.. "CNG-1237" : Dependent
-"CNG-1183" <.. "CNG-733" : Relates
-"CNG-1184" <.. "CNG-1290" : Dependent
-"CNG-1075" <.. "CNG-733" : Relates
-"CNG-1303" <.. "CNG-733" : Dependent
-"CNG-1252" <.. "CNG-1274" : Cloners
-"CNG-529" <.. "CNG-733" : Relates
-"CNG-1279" <.. "CNG-733" : Relates
-"CNG-1185" <.. "CNG-733" : Dependent
-"CNG-1185" <.. "CNG-1173" : Dependent
-"CNG-1195" <.. "CNG-733" : Approval
-"CNG-1196" <.. "CNG-733" : Approval
-"CNG-1280" <.. "CNG-733" : Dependent
-"CNG-1288" <.. "CNG-733" : Dependent
-"CNG-530" <.. "CNG-1237" : Dependent
-"CNG-1260" <.. "CNG-1254" : Dependent
-"CNG-1250" <.. "CNG-1237" : Dependent
-"CNG-1251" <.. "CNG-1303" : Dependent
-"CNG-1256" <.. "CNG-1254" : Dependent
-"CNG-870" <.. "CNG-733" : Relates
-"CNG-1367" <.. "CNG-589" : Dependent
-"CNG-1327" <.. "CNG-961" : Dependent
-"CNG-1237" <.. "CNG-733" : Dependent
-"CNG-1175" <.. "CNG-733" : Relates
-"CNG-1217" <.. "CNG-1179" : Dependent
-"CNG-1217" <.. "CNG-733" : Dependent
-"CNG-1374" <.. "CNG-589" : Dependent
-"CNG-1198" <.. "CNG-733" : Approval
-"CNG-1201" <.. "CNG-733" : Approval
-"CNG-1180" <.. "CNG-1290" : Dependent
 
 
 @enduml

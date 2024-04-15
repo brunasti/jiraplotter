@@ -150,7 +150,7 @@ public class JiraTicket {
 
     inwardIssueLink.forEach(links ->
       links.getLinks().forEach(link -> {
-        JiraTicket ticket = ParseJiraTicketsCsv.findFromKey(jiraTickets, link);
+        JiraTicket ticket = Utils.findFromKey(jiraTickets, link);
         if (ticket != null) {
           links.getJiraTickets().add(ticket);
         } else {

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 11:44:38 CEST 2024
+' Generated at    : Mon Apr 15 12:32:40 CEST 2024
 
 hide empty members
 
@@ -33,7 +33,6 @@ class "CNG-990" << (T,lightblue) >> {
 
 
 ' Links =======
-"CNG-989" <.. "CNG-990" : Cloners
 
 
 @enduml
