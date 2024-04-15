@@ -7,9 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -47,7 +45,7 @@ class UtilsTest {
       testRecord = r.get(1);
     };
 
-    complexName = JiraTicket.FIELD_NAME_PARENT;
+    complexName = ParseJiraTicketsConstants.FIELD_NAME_PARENT;
   }
 
 
@@ -93,5 +91,22 @@ class UtilsTest {
     jiraTickets.put("A", jiraTicket);
     assertNotNull(Utils.findFromKey(jiraTickets, "A"));
     assertNull(Utils.findFromKey(jiraTickets, "X"));
+  }
+
+  @Test
+  void test_createClassHead() {
+    ParseJiraTicketsCsv.loadDefinitions(header);
+
+    JiraTicket jiraTicket = new JiraTicket(testRecord);
+    String header = Utils.createClassHead(jiraTicket);
+    assertNotNull(header);
+
+    jiraTicket.issueType = new ArrayList<>();
+    assertThrows(NoSuchElementException.class, () -> Utils.createClassHead(jiraTicket));
+
+    jiraTicket.issueType.add("XXXXXXX");
+    header = Utils.createClassHead(jiraTicket);
+    assertNotNull(header);
+    assertEquals("class \"CNG-1388\" << (X,lightblue) >> {", header);
   }
 }

@@ -45,7 +45,7 @@ public class Utils {
   }
 
 
-  public static HashSet<String> findPeople(HashMap<String, JiraTicket> jiraTickets) {
+  public static Set<String> findPeople(Map<String, JiraTicket> jiraTickets) {
     HashSet<String> people = new HashSet<>();
 
     jiraTickets.values().forEach(jiraTicket -> {
@@ -59,5 +59,29 @@ public class Utils {
   }
 
 
+
+  public static String createClassHead(JiraTicket jiraTicket) {
+    String type = jiraTicket.issueType.getFirst().toLowerCase();
+    String header;
+
+    switch (type) {
+      case "bug" -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "B,red" + ParseJiraTicketsConstants.DEFINITION_CLASS_END;
+      case "risks" -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "R,red" + ParseJiraTicketsConstants.DEFINITION_CLASS_END;
+      case "impediment (issue)", "issue" -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "I,orange" + ParseJiraTicketsConstants.DEFINITION_CLASS_END;
+      case "story" -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "S,lightgreen" + ParseJiraTicketsConstants.DEFINITION_CLASS_END;
+      case "new feature" -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "N,lightgreen" + ParseJiraTicketsConstants.DEFINITION_CLASS_END;
+      case "improvement" -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "I" + ParseJiraTicketsConstants.DEFINITION_CLASS_FULL_END;
+      case "project request package" -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "P" + ParseJiraTicketsConstants.DEFINITION_CLASS_FULL_END;
+      case "sub-task" -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "S" + ParseJiraTicketsConstants.DEFINITION_CLASS_FULL_END;
+      case "task" -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "T" + ParseJiraTicketsConstants.DEFINITION_CLASS_FULL_END;
+      case "work request" -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "W" + ParseJiraTicketsConstants.DEFINITION_CLASS_FULL_END;
+      default -> {
+        log.error("createClassHead unknown type [{}] [{}]", type, jiraTicket.issueKey.getFirst());
+        header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "X" + ParseJiraTicketsConstants.DEFINITION_CLASS_FULL_END;
+      }
+    }
+
+    return ParseJiraTicketsConstants.DEFINITION_CLASS_START + jiraTicket.issueKey.getFirst() + header;
+  }
 
 }

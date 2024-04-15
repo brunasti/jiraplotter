@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 14:04:21 CEST 2024
+' Generated at    : Mon Apr 15 15:10:51 CEST 2024
 
 hide empty members
 
@@ -315,6 +315,9 @@ class "CNG-667" << (S,lightblue) >> {
 "CNG-773" <.. "CNG-55" : Relates
 "CNG-773" <.. "CNG-717" : Dependent
 "CNG-773" <.. "CNG-716" : Dependent
+"CNG-773" <.. "CNG-55" : Relates
+"CNG-773" <.. "CNG-717" : Dependent
+"CNG-773" <.. "CNG-716" : Dependent
 "CNG-773" <.. "CNG-717" : Dependent
 "CNG-773" <.. "CNG-716" : Dependent
 "CNG-654" <.. "CNG-536" : Relates
@@ -324,10 +327,16 @@ class "CNG-667" << (S,lightblue) >> {
 "CNG-670" <.. "CNG-533" : Dependent
 "CNG-670" <.. "CNG-533" : Dependent
 "CNG-670" <.. "CNG-533" : Dependent
+"CNG-670" <.. "CNG-533" : Dependent
+"CNG-2" <.. "CNG-609" : Approval
+"CNG-2" <.. "CNG-681" : Relates
 "CNG-2" <.. "CNG-609" : Approval
 "CNG-2" <.. "CNG-681" : Relates
 "CNG-2" <.. "CNG-609" : Approval
 "CNG-2" <.. "CNG-609" : Approval
+"CNG-685" <.. "CNG-269" : Relates
+"CNG-685" <.. "CNG-1153" : Relates
+"CNG-685" <.. "CNG-1205" : Relates
 "CNG-685" <.. "CNG-269" : Relates
 "CNG-685" <.. "CNG-1153" : Relates
 "CNG-685" <.. "CNG-1205" : Relates
@@ -349,9 +358,17 @@ class "CNG-667" << (S,lightblue) >> {
 "CNG-826" <.. "CNG-667" : Dependent
 "CNG-826" <.. "CNG-395" : Dependent
 "CNG-826" <.. "CNG-667" : Dependent
+"CNG-826" <.. "CNG-395" : Dependent
+"CNG-826" <.. "CNG-667" : Dependent
 "CNG-725" <.. "CNG-727" : Dependent
 "CNG-725" <.. "CNG-727" : Dependent
 "CNG-725" <.. "CNG-727" : Dependent
+"CNG-725" <.. "CNG-727" : Dependent
+"CNG-394" <.. "CNG-395" : Cloners
+"CNG-394" <.. "CNG-73" : Dependent
+"CNG-394" <.. "CNG-654" : Relates
+"CNG-394" <.. "CNG-1007" : Relates
+"CNG-394" <.. "CNG-681" : Relates
 "CNG-394" <.. "CNG-395" : Cloners
 "CNG-394" <.. "CNG-73" : Dependent
 "CNG-394" <.. "CNG-654" : Relates
@@ -369,17 +386,29 @@ class "CNG-667" << (S,lightblue) >> {
 "CNG-395" <.. "CNG-385" : Relates
 "CNG-395" <.. "CNG-50" : Relates
 "CNG-395" <.. "CNG-1007" : Relates
+"CNG-395" <.. "CNG-394" : Defect
+"CNG-395" <.. "CNG-383" : Relates
+"CNG-395" <.. "CNG-629" : Relates
+"CNG-395" <.. "CNG-385" : Relates
+"CNG-395" <.. "CNG-50" : Relates
+"CNG-395" <.. "CNG-1007" : Relates
 "CNG-395" <.. "CNG-73" : Relates
 "CNG-395" <.. "CNG-73" : Relates
+"CNG-366" <.. "CNG-680" : Relates
 "CNG-366" <.. "CNG-680" : Relates
 "CNG-366" <.. "CNG-984" : Relates
 "CNG-366" <.. "CNG-984" : Relates
 "CNG-90" <.. "CNG-684" : Relates
 "CNG-90" <.. "CNG-686" : Relates
 "CNG-90" <.. "CNG-687" : Relates
+"CNG-90" <.. "CNG-684" : Relates
+"CNG-90" <.. "CNG-686" : Relates
+"CNG-90" <.. "CNG-687" : Relates
 "CNG-90" <.. "CNG-69" : Relates
 "CNG-90" <.. "CNG-69" : Relates
 "CNG-1379" <.. "CNG-873" : Relates
+"CNG-1379" <.. "CNG-873" : Relates
+"CNG-1225" <.. "CNG-685" : Relates
 "CNG-1225" <.. "CNG-685" : Relates
 
 

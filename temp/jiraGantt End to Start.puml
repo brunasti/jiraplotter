@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 14:04:21 CEST 2024
+' Generated at    : Mon Apr 15 15:10:51 CEST 2024
 
 hide empty members
 
@@ -136,6 +136,10 @@ class "CNG-733" << (T,lightblue) >> {
 ' Links =======
 "CNG-873" <.. "CNG-1273" : Gantt End to Start
 "CNG-873" <.. "CNG-1274" : Gantt End to Start
+"CNG-873" <.. "CNG-1273" : Gantt End to Start
+"CNG-873" <.. "CNG-1274" : Gantt End to Start
+"CNG-681" <.. "CNG-42" : Gantt End to Start
+"CNG-681" <.. "CNG-383" : Gantt End to Start
 "CNG-681" <.. "CNG-42" : Gantt End to Start
 "CNG-681" <.. "CNG-383" : Gantt End to Start
 "CNG-559" <.. "CNG-558" : Gantt End to Start
@@ -144,8 +148,14 @@ class "CNG-733" << (T,lightblue) >> {
 "CNG-559" <.. "CNG-814" : Gantt End to Start
 "CNG-679" <.. "CNG-1190" : Gantt End to Start
 "CNG-679" <.. "CNG-357" : Gantt End to Start
+"CNG-679" <.. "CNG-1190" : Gantt End to Start
+"CNG-679" <.. "CNG-357" : Gantt End to Start
 "CNG-687" <.. "CNG-217" : Gantt End to Start
 "CNG-687" <.. "CNG-269" : Gantt End to Start
+"CNG-687" <.. "CNG-217" : Gantt End to Start
+"CNG-687" <.. "CNG-269" : Gantt End to Start
+"CNG-733" <.. "CNG-1301" : Gantt End to Start
+"CNG-733" <.. "CNG-1330" : Gantt End to Start
 "CNG-733" <.. "CNG-1301" : Gantt End to Start
 "CNG-733" <.. "CNG-1330" : Gantt End to Start
 

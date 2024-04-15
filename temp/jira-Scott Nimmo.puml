@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 14:04:21 CEST 2024
+' Generated at    : Mon Apr 15 15:10:51 CEST 2024
 
 hide empty members
 
@@ -35,6 +35,7 @@ class "CNG-961" << (S,lightblue) >> {
 
 
 ' Links =======
+"CNG-944" <.. "CNG-961" : Dependent
 "CNG-944" <.. "CNG-961" : Dependent
 "CNG-944" <.. "CNG-961" : Dependent
 "CNG-944" <.. "CNG-961" : Dependent

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 14:04:21 CEST 2024
+' Generated at    : Mon Apr 15 15:10:51 CEST 2024
 
 hide empty members
 
@@ -91,6 +91,9 @@ class "CNG-536" << (B,red) >> {
 "CNG-214" <.. "CNG-1066" : End To Start
 "CNG-214" <.. "CNG-536" : Relates
 "CNG-214" <.. "CNG-393" : Dependent
+"CNG-214" <.. "CNG-1066" : End To Start
+"CNG-214" <.. "CNG-536" : Relates
+"CNG-214" <.. "CNG-393" : Dependent
 "CNG-214" <.. "CNG-1066" : Enable
 "CNG-214" <.. "CNG-1203" : Feature
 "CNG-214" <.. "CNG-210" : Relates
@@ -99,8 +102,10 @@ class "CNG-536" << (B,red) >> {
 "CNG-214" <.. "CNG-1203" : Feature
 "CNG-214" <.. "CNG-210" : Relates
 "CNG-1283" <.. "CNG-1205" : Feature
+"CNG-1283" <.. "CNG-1205" : Feature
 "CNG-1283" <.. "CNG-1205" : End To Start
 "CNG-1283" <.. "CNG-1205" : End To Start
+"CNG-1372" <.. "CNG-589" : Dependent
 "CNG-1372" <.. "CNG-589" : Dependent
 "CNG-1372" <.. "CNG-589" : Dependent
 "CNG-1372" <.. "CNG-589" : Dependent

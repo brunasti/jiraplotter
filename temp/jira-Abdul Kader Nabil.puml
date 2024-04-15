@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 14:04:21 CEST 2024
+' Generated at    : Mon Apr 15 15:10:51 CEST 2024
 
 hide empty members
 
@@ -147,6 +147,11 @@ class "CNG-558" << (S,lightblue) >> {
 "CNG-874" <.. "CNG-81" : Dependent
 "CNG-874" <.. "CNG-79" : Dependent
 "CNG-874" <.. "CNG-81" : Dependent
+"CNG-874" <.. "CNG-79" : Dependent
+"CNG-874" <.. "CNG-81" : Dependent
+"CNG-376" <.. "CNG-79" : Dependent
+"CNG-376" <.. "CNG-81" : Dependent
+"CNG-376" <.. "CNG-559" : Relates
 "CNG-376" <.. "CNG-79" : Dependent
 "CNG-376" <.. "CNG-81" : Dependent
 "CNG-376" <.. "CNG-559" : Relates
@@ -165,6 +170,12 @@ class "CNG-558" << (S,lightblue) >> {
 "CNG-269" <.. "CNG-415" : Approval
 "CNG-269" <.. "CNG-596" : Dependent
 "CNG-269" <.. "CNG-393" : Dependent
+"CNG-269" <.. "CNG-558" : Relates
+"CNG-269" <.. "CNG-687" : Relates
+"CNG-269" <.. "CNG-686" : Relates
+"CNG-269" <.. "CNG-415" : Approval
+"CNG-269" <.. "CNG-596" : Dependent
+"CNG-269" <.. "CNG-393" : Dependent
 "CNG-269" <.. "CNG-684" : Feature
 "CNG-269" <.. "CNG-1203" : Feature
 "CNG-269" <.. "CNG-685" : Relates
@@ -174,6 +185,9 @@ class "CNG-558" << (S,lightblue) >> {
 "CNG-269" <.. "CNG-684" : Feature
 "CNG-269" <.. "CNG-1203" : Feature
 "CNG-269" <.. "CNG-685" : Relates
+"CNG-369" <.. "CNG-79" : Dependent
+"CNG-369" <.. "CNG-81" : Dependent
+"CNG-369" <.. "CNG-559" : Relates
 "CNG-369" <.. "CNG-79" : Dependent
 "CNG-369" <.. "CNG-81" : Dependent
 "CNG-369" <.. "CNG-559" : Relates

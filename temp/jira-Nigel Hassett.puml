@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 14:04:21 CEST 2024
+' Generated at    : Mon Apr 15 15:10:51 CEST 2024
 
 hide empty members
 
@@ -166,8 +166,11 @@ class "CNG-953" << (T,lightblue) >> {
 "CNG-1218" <.. "CNG-733" : Dependent
 "CNG-1218" <.. "CNG-733" : Dependent
 "CNG-1218" <.. "CNG-733" : Dependent
+"CNG-1218" <.. "CNG-733" : Dependent
 "CNG-352" <.. "CNG-679" : Relates
 "CNG-352" <.. "CNG-679" : Relates
+"CNG-865" <.. "CNG-961" : Dependent
+"CNG-865" <.. "CNG-710" : Relates
 "CNG-865" <.. "CNG-961" : Dependent
 "CNG-865" <.. "CNG-710" : Relates
 "CNG-865" <.. "CNG-961" : Dependent
@@ -178,8 +181,11 @@ class "CNG-953" << (T,lightblue) >> {
 "CNG-953" <.. "CNG-795" : Relates
 "CNG-48" <.. "CNG-626" : Automates
 "CNG-48" <.. "CNG-682" : Relates
+"CNG-48" <.. "CNG-626" : Automates
+"CNG-48" <.. "CNG-682" : Relates
 "CNG-48" <.. "CNG-626" : Relates
 "CNG-48" <.. "CNG-626" : Relates
+"CNG-364" <.. "CNG-679" : Relates
 "CNG-364" <.. "CNG-679" : Relates
 "CNG-75" <.. "CNG-1173" : Feature
 "CNG-75" <.. "CNG-1173" : Feature
@@ -187,6 +193,7 @@ class "CNG-953" << (T,lightblue) >> {
 "CNG-1222" <.. "CNG-873" : Relates
 "CNG-294" <.. "CNG-679" : Relates
 "CNG-294" <.. "CNG-679" : Relates
+"CNG-1234" <.. "CNG-1233" : Dependent
 "CNG-1234" <.. "CNG-1233" : Dependent
 "CNG-1234" <.. "CNG-1233" : Dependent
 "CNG-1234" <.. "CNG-1233" : Dependent

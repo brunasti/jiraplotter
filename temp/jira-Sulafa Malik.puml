@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 14:04:21 CEST 2024
+' Generated at    : Mon Apr 15 15:10:51 CEST 2024
 
 hide empty members
 
@@ -420,6 +420,8 @@ class "CNG-887" << (B,red) >> {
 ' Links =======
 "CNG-536" <.. "CNG-654" : Relates
 "CNG-536" <.. "CNG-687" : Relates
+"CNG-536" <.. "CNG-654" : Relates
+"CNG-536" <.. "CNG-687" : Relates
 "CNG-536" <.. "CNG-214" : Relates
 "CNG-536" <.. "CNG-684" : Relates
 "CNG-536" <.. "CNG-777" : Relates
@@ -427,8 +429,12 @@ class "CNG-887" << (B,red) >> {
 "CNG-536" <.. "CNG-684" : Relates
 "CNG-536" <.. "CNG-777" : Relates
 "CNG-777" <.. "CNG-536" : Relates
+"CNG-777" <.. "CNG-536" : Relates
 "CNG-646" <.. "CNG-687" : Relates
 "CNG-646" <.. "CNG-687" : Relates
+"CNG-210" <.. "CNG-393" : Dependent
+"CNG-210" <.. "CNG-214" : Relates
+"CNG-210" <.. "CNG-686" : Relates
 "CNG-210" <.. "CNG-393" : Dependent
 "CNG-210" <.. "CNG-214" : Relates
 "CNG-210" <.. "CNG-686" : Relates
@@ -439,9 +445,13 @@ class "CNG-887" << (B,red) >> {
 "CNG-217" <.. "CNG-393" : Dependent
 "CNG-217" <.. "CNG-687" : Relates
 "CNG-217" <.. "CNG-393" : Dependent
+"CNG-217" <.. "CNG-687" : Relates
+"CNG-217" <.. "CNG-393" : Dependent
 "CNG-217" <.. "CNG-1203" : Feature
 "CNG-217" <.. "CNG-393" : Dependent
 "CNG-217" <.. "CNG-1203" : Feature
+"CNG-681" <.. "CNG-42" : Gantt End to Start
+"CNG-681" <.. "CNG-383" : Gantt End to Start
 "CNG-681" <.. "CNG-42" : Gantt End to Start
 "CNG-681" <.. "CNG-383" : Gantt End to Start
 "CNG-681" <.. "CNG-494" : Relates
@@ -467,6 +477,8 @@ class "CNG-887" << (B,red) >> {
 "CNG-559" <.. "CNG-560" : Dependent
 "CNG-559" <.. "CNG-312" : Relates
 "CNG-559" <.. "CNG-560" : Dependent
+"CNG-559" <.. "CNG-312" : Relates
+"CNG-559" <.. "CNG-560" : Dependent
 "CNG-559" <.. "CNG-558" : Gantt End to Start
 "CNG-559" <.. "CNG-814" : Gantt End to Start
 "CNG-559" <.. "CNG-79" : Relates
@@ -486,6 +498,17 @@ class "CNG-887" << (B,red) >> {
 "CNG-559" <.. "CNG-376" : Relates
 "CNG-312" <.. "CNG-559" : Relates
 "CNG-312" <.. "CNG-559" : Relates
+"CNG-687" <.. "CNG-217" : Gantt End to Start
+"CNG-687" <.. "CNG-269" : Gantt End to Start
+"CNG-687" <.. "CNG-49" : Issue split
+"CNG-687" <.. "CNG-51" : Polaris issue link
+"CNG-687" <.. "CNG-536" : Relates
+"CNG-687" <.. "CNG-46" : Relates
+"CNG-687" <.. "CNG-57" : Relates
+"CNG-687" <.. "CNG-887" : Relates
+"CNG-687" <.. "CNG-394" : Relates
+"CNG-687" <.. "CNG-646" : Relates
+"CNG-687" <.. "CNG-623" : Relates
 "CNG-687" <.. "CNG-217" : Gantt End to Start
 "CNG-687" <.. "CNG-269" : Gantt End to Start
 "CNG-687" <.. "CNG-49" : Issue split
@@ -530,10 +553,12 @@ class "CNG-887" << (B,red) >> {
 "CNG-730" <.. "CNG-760" : Dependent
 "CNG-730" <.. "CNG-760" : Dependent
 "CNG-730" <.. "CNG-760" : Dependent
+"CNG-730" <.. "CNG-760" : Dependent
 "CNG-623" <.. "CNG-687" : Relates
 "CNG-623" <.. "CNG-687" : Relates
 "CNG-606" <.. "CNG-686" : Relates
 "CNG-606" <.. "CNG-686" : Relates
+"CNG-51" <.. "CNG-687" : Relates
 "CNG-51" <.. "CNG-687" : Relates
 "CNG-51" <.. "CNG-741" : Feature
 "CNG-51" <.. "CNG-741" : Feature
@@ -543,6 +568,9 @@ class "CNG-887" << (B,red) >> {
 "CNG-57" <.. "CNG-79" : Dependent
 "CNG-57" <.. "CNG-81" : Dependent
 "CNG-57" <.. "CNG-393" : Dependent
+"CNG-57" <.. "CNG-79" : Dependent
+"CNG-57" <.. "CNG-81" : Dependent
+"CNG-57" <.. "CNG-393" : Dependent
 "CNG-57" <.. "CNG-1203" : Feature
 "CNG-57" <.. "CNG-687" : Relates
 "CNG-57" <.. "CNG-79" : Dependent
@@ -552,9 +580,12 @@ class "CNG-887" << (B,red) >> {
 "CNG-57" <.. "CNG-687" : Relates
 "CNG-65" <.. "CNG-393" : Dependent
 "CNG-65" <.. "CNG-393" : Dependent
+"CNG-65" <.. "CNG-393" : Dependent
 "CNG-65" <.. "CNG-1203" : Feature
 "CNG-65" <.. "CNG-393" : Dependent
 "CNG-65" <.. "CNG-1203" : Feature
+"CNG-66" <.. "CNG-393" : Dependent
+"CNG-66" <.. "CNG-687" : Relates
 "CNG-66" <.. "CNG-393" : Dependent
 "CNG-66" <.. "CNG-687" : Relates
 "CNG-66" <.. "CNG-393" : Dependent
@@ -563,6 +594,14 @@ class "CNG-887" << (B,red) >> {
 "CNG-66" <.. "CNG-393" : Dependent
 "CNG-66" <.. "CNG-684" : Feature
 "CNG-66" <.. "CNG-1203" : Feature
+"CNG-69" <.. "CNG-346" : Automates
+"CNG-69" <.. "CNG-388" : Cloners
+"CNG-69" <.. "CNG-67" : Dependent
+"CNG-69" <.. "CNG-485" : Relates
+"CNG-69" <.. "CNG-46" : Relates
+"CNG-69" <.. "CNG-90" : Relates
+"CNG-69" <.. "CNG-687" : Relates
+"CNG-69" <.. "CNG-1235" : Relates
 "CNG-69" <.. "CNG-346" : Automates
 "CNG-69" <.. "CNG-388" : Cloners
 "CNG-69" <.. "CNG-67" : Dependent
@@ -586,6 +625,11 @@ class "CNG-887" << (B,red) >> {
 "CNG-30" <.. "CNG-32" : Relates
 "CNG-30" <.. "CNG-681" : Relates
 "CNG-30" <.. "CNG-687" : Relates
+"CNG-30" <.. "CNG-32" : Relates
+"CNG-30" <.. "CNG-681" : Relates
+"CNG-30" <.. "CNG-687" : Relates
+"CNG-32" <.. "CNG-681" : Relates
+"CNG-32" <.. "CNG-1235" : Relates
 "CNG-32" <.. "CNG-681" : Relates
 "CNG-32" <.. "CNG-1235" : Relates
 "CNG-32" <.. "CNG-28" : Relates
@@ -594,8 +638,14 @@ class "CNG-887" << (B,red) >> {
 "CNG-32" <.. "CNG-30" : Relates
 "CNG-37" <.. "CNG-681" : Relates
 "CNG-37" <.. "CNG-687" : Relates
+"CNG-37" <.. "CNG-681" : Relates
+"CNG-37" <.. "CNG-687" : Relates
 "CNG-42" <.. "CNG-681" : Relates
 "CNG-42" <.. "CNG-687" : Relates
+"CNG-42" <.. "CNG-681" : Relates
+"CNG-42" <.. "CNG-687" : Relates
+"CNG-46" <.. "CNG-67" : Dependent
+"CNG-46" <.. "CNG-1235" : Relates
 "CNG-46" <.. "CNG-67" : Dependent
 "CNG-46" <.. "CNG-1235" : Relates
 "CNG-46" <.. "CNG-67" : Dependent
@@ -616,9 +666,17 @@ class "CNG-887" << (B,red) >> {
 "CNG-904" <.. "CNG-559" : Dependent
 "CNG-904" <.. "CNG-557" : Dependent
 "CNG-904" <.. "CNG-559" : Dependent
+"CNG-904" <.. "CNG-557" : Dependent
+"CNG-904" <.. "CNG-559" : Dependent
 "CNG-28" <.. "CNG-32" : Relates
 "CNG-28" <.. "CNG-681" : Relates
 "CNG-28" <.. "CNG-687" : Relates
+"CNG-28" <.. "CNG-32" : Relates
+"CNG-28" <.. "CNG-681" : Relates
+"CNG-28" <.. "CNG-687" : Relates
+"CNG-383" <.. "CNG-50" : Relates
+"CNG-383" <.. "CNG-1007" : Relates
+"CNG-383" <.. "CNG-681" : Relates
 "CNG-383" <.. "CNG-50" : Relates
 "CNG-383" <.. "CNG-1007" : Relates
 "CNG-383" <.. "CNG-681" : Relates
@@ -628,11 +686,17 @@ class "CNG-887" << (B,red) >> {
 "CNG-387" <.. "CNG-67" : Dependent
 "CNG-387" <.. "CNG-687" : Relates
 "CNG-387" <.. "CNG-1235" : Relates
+"CNG-387" <.. "CNG-69" : Defect
+"CNG-387" <.. "CNG-67" : Dependent
+"CNG-387" <.. "CNG-687" : Relates
+"CNG-387" <.. "CNG-1235" : Relates
 "CNG-387" <.. "CNG-67" : Dependent
 "CNG-387" <.. "CNG-684" : Feature
 "CNG-387" <.. "CNG-67" : Dependent
 "CNG-387" <.. "CNG-684" : Feature
 "CNG-494" <.. "CNG-681" : Relates
+"CNG-494" <.. "CNG-681" : Relates
+"CNG-485" <.. "CNG-67" : Dependent
 "CNG-485" <.. "CNG-67" : Dependent
 "CNG-485" <.. "CNG-67" : Dependent
 "CNG-485" <.. "CNG-69" : Relates

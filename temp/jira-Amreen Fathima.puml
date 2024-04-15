@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 14:04:21 CEST 2024
+' Generated at    : Mon Apr 15 15:10:51 CEST 2024
 
 hide empty members
 
@@ -234,11 +234,20 @@ class "CNG-689" << (S,lightblue) >> {
 "CNG-999" <.. "CNG-81" : Dependent
 "CNG-999" <.. "CNG-79" : Dependent
 "CNG-999" <.. "CNG-393" : Dependent
+"CNG-999" <.. "CNG-684" : Relates
+"CNG-999" <.. "CNG-685" : Relates
+"CNG-999" <.. "CNG-1223" : Relates
+"CNG-999" <.. "CNG-686" : Relates
+"CNG-999" <.. "CNG-81" : Dependent
+"CNG-999" <.. "CNG-79" : Dependent
+"CNG-999" <.. "CNG-393" : Dependent
 "CNG-999" <.. "CNG-700" : Relates
 "CNG-999" <.. "CNG-81" : Dependent
 "CNG-999" <.. "CNG-79" : Dependent
 "CNG-999" <.. "CNG-393" : Dependent
 "CNG-999" <.. "CNG-700" : Relates
+"CNG-346" <.. "CNG-69" : Approval
+"CNG-346" <.. "CNG-69" : Relates
 "CNG-346" <.. "CNG-69" : Approval
 "CNG-346" <.. "CNG-69" : Relates
 "CNG-346" <.. "CNG-69" : Approval
@@ -249,6 +258,9 @@ class "CNG-689" << (S,lightblue) >> {
 "CNG-708" <.. "CNG-81" : Dependent
 "CNG-708" <.. "CNG-79" : Dependent
 "CNG-708" <.. "CNG-81" : Dependent
+"CNG-708" <.. "CNG-79" : Dependent
+"CNG-708" <.. "CNG-81" : Dependent
+"CNG-807" <.. "CNG-558" : Dependent
 "CNG-807" <.. "CNG-558" : Dependent
 "CNG-807" <.. "CNG-558" : Dependent
 "CNG-807" <.. "CNG-558" : Dependent
@@ -258,8 +270,11 @@ class "CNG-689" << (S,lightblue) >> {
 "CNG-610" <.. "CNG-686" : Relates
 "CNG-609" <.. "CNG-2" : Automates
 "CNG-609" <.. "CNG-49" : Relates
+"CNG-609" <.. "CNG-2" : Automates
+"CNG-609" <.. "CNG-49" : Relates
 "CNG-609" <.. "CNG-686" : Relates
 "CNG-609" <.. "CNG-686" : Relates
+"CNG-49" <.. "CNG-687" : Relates
 "CNG-49" <.. "CNG-687" : Relates
 "CNG-49" <.. "CNG-684" : Feature
 "CNG-49" <.. "CNG-609" : Relates
@@ -271,6 +286,7 @@ class "CNG-689" << (S,lightblue) >> {
 "CNG-1141" <.. "CNG-1039" : Relates
 "CNG-1140" <.. "CNG-1039" : Relates
 "CNG-1140" <.. "CNG-1039" : Relates
+"CNG-357" <.. "CNG-679" : Relates
 "CNG-357" <.. "CNG-679" : Relates
 "CNG-1139" <.. "CNG-1039" : Relates
 "CNG-1139" <.. "CNG-1039" : Relates

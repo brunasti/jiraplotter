@@ -46,17 +46,9 @@ class JiraTicketTest {
       testRecord = r.get(1);
     };
 
-    complexName = JiraTicket.FIELD_NAME_PARENT;
+    complexName = ParseJiraTicketsConstants.FIELD_NAME_PARENT;
   }
 
-
-  @Test
-  void readLinks() {
-  }
-
-  @Test
-  void readField() {
-  }
 
   @Test
   void readFromCSVRow() {
@@ -85,11 +77,4 @@ class JiraTicketTest {
     assertDoesNotThrow(()->jiraTicket.connectLinks(null));
   }
 
-  @Test
-  void getParentJira() {
-  }
-
-  @Test
-  void testToString() {
-  }
 }

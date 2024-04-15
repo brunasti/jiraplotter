@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 14:04:21 CEST 2024
+' Generated at    : Mon Apr 15 15:10:51 CEST 2024
 
 hide empty members
 
@@ -221,11 +221,18 @@ class "CNG-624" << (T,lightblue) >> {
 
 ' Links =======
 "CNG-415" <.. "CNG-269" : Automates
+"CNG-415" <.. "CNG-269" : Automates
+"CNG-871" <.. "CNG-626" : Automates
 "CNG-871" <.. "CNG-626" : Automates
 "CNG-647" <.. "CNG-626" : Automates
+"CNG-647" <.. "CNG-626" : Automates
+"CNG-684" <.. "CNG-367" : Automates
 "CNG-684" <.. "CNG-367" : Automates
 "CNG-917" <.. "CNG-626" : Automates
+"CNG-917" <.. "CNG-626" : Automates
 "CNG-615" <.. "CNG-626" : Automates
+"CNG-615" <.. "CNG-626" : Automates
+"CNG-733" <.. "CNG-1195" : Automates
 "CNG-733" <.. "CNG-1195" : Automates
 "CNG-733" <.. "CNG-1360" : Automates
 "CNG-733" <.. "CNG-1385" : Automates
@@ -234,16 +241,26 @@ class "CNG-624" << (T,lightblue) >> {
 "CNG-984" <.. "CNG-988" : Automates
 "CNG-984" <.. "CNG-988" : Automates
 "CNG-624" <.. "CNG-626" : Automates
+"CNG-624" <.. "CNG-626" : Automates
 "CNG-724" <.. "CNG-993" : Automates
 "CNG-724" <.. "CNG-993" : Automates
 "CNG-609" <.. "CNG-2" : Automates
+"CNG-609" <.. "CNG-2" : Automates
+"CNG-68" <.. "CNG-93" : Automates
 "CNG-68" <.. "CNG-93" : Automates
 "CNG-69" <.. "CNG-346" : Automates
+"CNG-69" <.. "CNG-346" : Automates
+"CNG-48" <.. "CNG-626" : Automates
 "CNG-48" <.. "CNG-626" : Automates
 "CNG-1060" <.. "CNG-961" : Automates
+"CNG-1060" <.. "CNG-961" : Automates
+"CNG-1022" <.. "CNG-810" : Automates
 "CNG-1022" <.. "CNG-810" : Automates
 "CNG-74" <.. "CNG-626" : Automates
+"CNG-74" <.. "CNG-626" : Automates
 "CNG-82" <.. "CNG-626" : Automates
+"CNG-82" <.. "CNG-626" : Automates
+"CNG-85" <.. "CNG-626" : Automates
 "CNG-85" <.. "CNG-626" : Automates
 
 

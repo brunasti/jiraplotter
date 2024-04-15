@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 14:04:21 CEST 2024
+' Generated at    : Mon Apr 15 15:10:51 CEST 2024
 
 hide empty members
 
@@ -118,12 +118,16 @@ class "CNG-388" << (S,lightgreen) >> {
 
 ' Links =======
 "CNG-1205" <.. "CNG-1151" : Cloners
+"CNG-1205" <.. "CNG-1151" : Cloners
+"CNG-977" <.. "CNG-1216" : Cloners
 "CNG-977" <.. "CNG-1216" : Cloners
 "CNG-977" <.. "CNG-1216" : Cloners
 "CNG-977" <.. "CNG-1216" : Cloners
 "CNG-989" <.. "CNG-990" : Cloners
 "CNG-989" <.. "CNG-990" : Cloners
 "CNG-989" <.. "CNG-990" : Cloners
+"CNG-989" <.. "CNG-990" : Cloners
+"CNG-69" <.. "CNG-388" : Cloners
 "CNG-69" <.. "CNG-388" : Cloners
 "CNG-69" <.. "CNG-388" : Cloners
 "CNG-69" <.. "CNG-387" : Cloners
@@ -132,9 +136,12 @@ class "CNG-388" << (S,lightgreen) >> {
 "CNG-394" <.. "CNG-395" : Cloners
 "CNG-394" <.. "CNG-395" : Cloners
 "CNG-394" <.. "CNG-395" : Cloners
+"CNG-394" <.. "CNG-395" : Cloners
 "CNG-1252" <.. "CNG-1274" : Cloners
 "CNG-1252" <.. "CNG-1274" : Cloners
 "CNG-1252" <.. "CNG-1274" : Cloners
+"CNG-1252" <.. "CNG-1274" : Cloners
+"CNG-87" <.. "CNG-391" : Cloners
 "CNG-87" <.. "CNG-391" : Cloners
 "CNG-87" <.. "CNG-391" : Cloners
 "CNG-87" <.. "CNG-391" : Cloners

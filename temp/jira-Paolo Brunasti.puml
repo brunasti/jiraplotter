@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 14:04:21 CEST 2024
+' Generated at    : Mon Apr 15 15:10:51 CEST 2024
 
 hide empty members
 
@@ -215,6 +215,14 @@ class "CNG-1210" << (S,lightblue) >> {
 
 ' Links =======
 "CNG-1216" <.. "CNG-977" : Defect
+"CNG-1216" <.. "CNG-977" : Defect
+"CNG-873" <.. "CNG-1273" : Gantt End to Start
+"CNG-873" <.. "CNG-1274" : Gantt End to Start
+"CNG-873" <.. "CNG-1305" : Polaris issue link
+"CNG-873" <.. "CNG-1229" : Relates
+"CNG-873" <.. "CNG-1379" : Relates
+"CNG-873" <.. "CNG-1222" : Relates
+"CNG-873" <.. "CNG-1235" : Relates
 "CNG-873" <.. "CNG-1273" : Gantt End to Start
 "CNG-873" <.. "CNG-1274" : Gantt End to Start
 "CNG-873" <.. "CNG-1305" : Polaris issue link
@@ -255,6 +263,9 @@ class "CNG-1210" << (S,lightblue) >> {
 "CNG-977" <.. "CNG-1216" : Cloners
 "CNG-977" <.. "CNG-1216" : Cloners
 "CNG-977" <.. "CNG-1216" : Cloners
+"CNG-977" <.. "CNG-1216" : Cloners
+"CNG-1107" <.. "CNG-556" : Dependent
+"CNG-1107" <.. "CNG-873" : Relates
 "CNG-1107" <.. "CNG-556" : Dependent
 "CNG-1107" <.. "CNG-873" : Relates
 "CNG-1107" <.. "CNG-556" : Dependent

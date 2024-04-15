@@ -13,16 +13,6 @@ import java.util.*;
 
 public class ParseJiraTicketsCsv {
 
-  public static final String HEADER_LINKS = "' Links =======";
-  public static final String DEFINITION_CLASS_START = "class \"";
-  public static final String DEFINITION_CLASS_MIDDLE = "\" << (";
-  public static final String DEFINITION_CLASS_FULL_END = ",lightblue) >> {";
-  public static final String DEFINITION_CLASS_END = ") >> {";
-  public static final String DEFINITION_CLASS_ASSIGNED_TO = "  Assigned to : ";
-  public static final String DEFINITION_CLASS_STATUS = "  Status : ";
-  public static final String DEFINITION_CLASS_TYPE = "  Type : ";
-  public static final String DEFINITION_LINK_SIMPLE_MIDDLE = "\" <.. \"";
-  public static final String DEFINITION_LINK_SIMPLE_END = "\" : ";
   static PrintStream output;
 
   static Logger log = LogManager.getLogger(ParseJiraTicketsCsv.class);
@@ -111,38 +101,13 @@ public class ParseJiraTicketsCsv {
     generateTextLegend(selectedJiraTickets);
   }
 
-
-  private static String createClassHead(JiraTicket jiraTicket) {
-    String type = jiraTicket.issueType.getFirst().toLowerCase();
-    String header;
-
-    switch (type) {
-      case "bug" -> header = DEFINITION_CLASS_MIDDLE + "B,red" + DEFINITION_CLASS_END;
-      case "risks" -> header = DEFINITION_CLASS_MIDDLE + "R,red" + DEFINITION_CLASS_END;
-      case "impediment (issue)", "issue" -> header = DEFINITION_CLASS_MIDDLE + "I,orange" + DEFINITION_CLASS_END;
-      case "story" -> header = DEFINITION_CLASS_MIDDLE + "S,lightgreen" + DEFINITION_CLASS_END;
-      case "new feature" -> header = DEFINITION_CLASS_MIDDLE + "N,lightgreen" + DEFINITION_CLASS_END;
-      case "improvement" -> header = DEFINITION_CLASS_MIDDLE + "I" + DEFINITION_CLASS_FULL_END;
-      case "project request package" -> header = DEFINITION_CLASS_MIDDLE + "P" + DEFINITION_CLASS_FULL_END;
-      case "sub-task" -> header = DEFINITION_CLASS_MIDDLE + "S" + DEFINITION_CLASS_FULL_END;
-      case "task" -> header = DEFINITION_CLASS_MIDDLE + "T" + DEFINITION_CLASS_FULL_END;
-      case "work request" -> header = DEFINITION_CLASS_MIDDLE + "W" + DEFINITION_CLASS_FULL_END;
-      default -> {
-        log.error("createClassHead unknown type [{}] [{}]", type, jiraTicket.issueKey.getFirst());
-        header = DEFINITION_CLASS_MIDDLE + "X" + DEFINITION_CLASS_FULL_END;
-      }
-    }
-
-    return DEFINITION_CLASS_START + jiraTicket.issueKey.getFirst() + header;
-  }
-
   private static void generateTicket(JiraTicket jiraTicket) {
-    output.println(createClassHead(jiraTicket));
+    output.println(Utils.createClassHead(jiraTicket));
     if (!jiraTicket.assignee.isEmpty()) {
-      output.println(DEFINITION_CLASS_ASSIGNED_TO + jiraTicket.assignee.getFirst());
+      output.println(ParseJiraTicketsConstants.DEFINITION_CLASS_ASSIGNED_TO + jiraTicket.assignee.getFirst());
     }
-    output.println(DEFINITION_CLASS_STATUS + jiraTicket.status.getFirst());
-    output.println(DEFINITION_CLASS_TYPE + jiraTicket.issueType.getFirst());
+    output.println(ParseJiraTicketsConstants.DEFINITION_CLASS_STATUS + jiraTicket.status.getFirst());
+    output.println(ParseJiraTicketsConstants.DEFINITION_CLASS_TYPE + jiraTicket.issueType.getFirst());
     output.println("}");
     output.println();
   }
@@ -208,6 +173,7 @@ public class ParseJiraTicketsCsv {
     return !selectedJiraTickets.isEmpty();
   }
 
+  // TODO: find a test case for the parent links
   private static void generateParents(final Collection<JiraTicket> jiraTickets) {
     output.println();
     output.println("' Parents =======");
@@ -221,11 +187,13 @@ public class ParseJiraTicketsCsv {
 
   private static void generateLinks(final Collection<JiraTicket> jiraTickets) {
     output.println();
-    output.println(HEADER_LINKS);
+    output.println(ParseJiraTicketsConstants.HEADER_LINKS);
     jiraTickets.forEach(jiraTicket ->
       jiraTicket.inwardIssueLink.forEach(links ->
         links.getJiraTickets().forEach(link ->
-          output.println("\"" + jiraTicket.issueKey.getFirst() + DEFINITION_LINK_SIMPLE_MIDDLE + link.issueKey.getFirst()+ DEFINITION_LINK_SIMPLE_END +links.getShortName())
+          output.println("\"" + jiraTicket.issueKey.getFirst()
+                  + ParseJiraTicketsConstants.DEFINITION_LINK_SIMPLE_MIDDLE + link.issueKey.getFirst()
+                  + ParseJiraTicketsConstants.DEFINITION_LINK_SIMPLE_END +links.getShortName())
         )
       )
     );
@@ -234,12 +202,14 @@ public class ParseJiraTicketsCsv {
 
   private static void generateSingleKindLinks(final Collection<JiraTicket> jiraTickets, String kind) {
     output.println();
-    output.println(HEADER_LINKS);
+    output.println(ParseJiraTicketsConstants.HEADER_LINKS);
     jiraTickets.forEach(jiraTicket ->
       jiraTicket.inwardIssueLink.forEach(links -> {
         if (links.getName().contains(kind)) {
           links.getJiraTickets().forEach(link ->
-            output.println("\"" + jiraTicket.issueKey.getFirst() + DEFINITION_LINK_SIMPLE_MIDDLE + link.issueKey.getFirst() + DEFINITION_LINK_SIMPLE_END + links.getShortName())
+            output.println("\"" + jiraTicket.issueKey.getFirst()
+                    + ParseJiraTicketsConstants.DEFINITION_LINK_SIMPLE_MIDDLE + link.issueKey.getFirst()
+                    + ParseJiraTicketsConstants.DEFINITION_LINK_SIMPLE_END + links.getShortName())
           );
         }
       })
@@ -249,12 +219,14 @@ public class ParseJiraTicketsCsv {
 
   private static void generateSinglePersonLinks(final Collection<JiraTicket> jiraTickets, String person) {
     output.println();
-    output.println(HEADER_LINKS);
+    output.println(ParseJiraTicketsConstants.HEADER_LINKS);
     jiraTickets.forEach(jiraTicket -> {
       if ((!jiraTicket.assignee.isEmpty()) && (jiraTicket.assignee.getFirst().equalsIgnoreCase(person)))
           jiraTicket.inwardIssueLink.forEach(links ->
             links.getJiraTickets().forEach(link ->
-              output.println("\"" + jiraTicket.issueKey.getFirst() + DEFINITION_LINK_SIMPLE_MIDDLE + link.issueKey.getFirst() + DEFINITION_LINK_SIMPLE_END + links.getShortName())
+              output.println("\"" + jiraTicket.issueKey.getFirst()
+                      + ParseJiraTicketsConstants.DEFINITION_LINK_SIMPLE_MIDDLE + link.issueKey.getFirst()
+                      + ParseJiraTicketsConstants.DEFINITION_LINK_SIMPLE_END + links.getShortName())
             )
           );
         }
@@ -358,12 +330,13 @@ public class ParseJiraTicketsCsv {
             output.close();
           } catch (Exception ex) {
             log.error(ex);
+            ex.printStackTrace();
           }
         }
       });
 
       // Generate reports for each person
-      HashSet<String> people = Utils.findPeople(jiraTickets);
+      Set<String> people = Utils.findPeople(jiraTickets);
       people.forEach(person -> {
         log.debug("people : [{}]",person);
         if (personHasDependingTickets(jiraTickets.values(),person)) {

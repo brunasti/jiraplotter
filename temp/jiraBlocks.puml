@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 14:04:21 CEST 2024
+' Generated at    : Mon Apr 15 15:10:51 CEST 2024
 
 hide empty members
 
@@ -100,6 +100,13 @@ class "CNG-1199" << (T,lightblue) >> {
 
 ' Links =======
 "CNG-993" <.. "CNG-724" : Blocks
+"CNG-993" <.. "CNG-724" : Blocks
+"CNG-733" <.. "CNG-1198" : Blocks
+"CNG-733" <.. "CNG-1199" : Blocks
+"CNG-733" <.. "CNG-1201" : Blocks
+"CNG-733" <.. "CNG-1202" : Blocks
+"CNG-733" <.. "CNG-1360" : Blocks
+"CNG-733" <.. "CNG-1385" : Blocks
 "CNG-733" <.. "CNG-1198" : Blocks
 "CNG-733" <.. "CNG-1199" : Blocks
 "CNG-733" <.. "CNG-1201" : Blocks
@@ -107,12 +114,18 @@ class "CNG-1199" << (T,lightblue) >> {
 "CNG-733" <.. "CNG-1360" : Blocks
 "CNG-733" <.. "CNG-1385" : Blocks
 "CNG-988" <.. "CNG-984" : Blocks
+"CNG-988" <.. "CNG-984" : Blocks
+"CNG-984" <.. "CNG-988" : Blocks
 "CNG-984" <.. "CNG-988" : Blocks
 "CNG-724" <.. "CNG-993" : Blocks
+"CNG-724" <.. "CNG-993" : Blocks
+"CNG-1385" <.. "CNG-733" : Blocks
 "CNG-1385" <.. "CNG-733" : Blocks
 "CNG-1151" <.. "CNG-1205" : Blocks
 "CNG-1151" <.. "CNG-1205" : Blocks
 "CNG-1151" <.. "CNG-1205" : Blocks
+"CNG-1151" <.. "CNG-1205" : Blocks
+"CNG-1360" <.. "CNG-733" : Blocks
 "CNG-1360" <.. "CNG-733" : Blocks
 
 

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 14:04:21 CEST 2024
+' Generated at    : Mon Apr 15 15:10:51 CEST 2024
 
 hide empty members
 
@@ -173,10 +173,16 @@ class "CNG-500" << (B,red) >> {
 
 ' Links =======
 "CNG-521" <.. "CNG-46" : Relates
+"CNG-521" <.. "CNG-46" : Relates
 "CNG-521" <.. "CNG-686" : Relates
 "CNG-521" <.. "CNG-686" : Relates
 "CNG-765" <.. "CNG-1172" : Relates
 "CNG-765" <.. "CNG-1174" : Relates
+"CNG-765" <.. "CNG-1172" : Relates
+"CNG-765" <.. "CNG-1174" : Relates
+"CNG-804" <.. "CNG-67" : Dependent
+"CNG-804" <.. "CNG-1172" : Relates
+"CNG-804" <.. "CNG-1174" : Relates
 "CNG-804" <.. "CNG-67" : Dependent
 "CNG-804" <.. "CNG-1172" : Relates
 "CNG-804" <.. "CNG-1174" : Relates
@@ -186,10 +192,13 @@ class "CNG-500" << (B,red) >> {
 "CNG-67" <.. "CNG-1173" : Feature
 "CNG-41" <.. "CNG-560" : Relates
 "CNG-41" <.. "CNG-681" : Relates
+"CNG-41" <.. "CNG-560" : Relates
+"CNG-41" <.. "CNG-681" : Relates
 "CNG-41" <.. "CNG-741" : Feature
 "CNG-41" <.. "CNG-741" : Feature
 "CNG-1192" <.. "CNG-70" : Issue split
 "CNG-1192" <.. "CNG-70" : Issue split
+"CNG-1048" <.. "CNG-68" : Dependent
 "CNG-1048" <.. "CNG-68" : Dependent
 "CNG-1048" <.. "CNG-68" : Dependent
 "CNG-1048" <.. "CNG-1207" : Feature
@@ -197,11 +206,13 @@ class "CNG-500" << (B,red) >> {
 "CNG-1048" <.. "CNG-1207" : Feature
 "CNG-93" <.. "CNG-68" : Approval
 "CNG-93" <.. "CNG-68" : Approval
+"CNG-93" <.. "CNG-68" : Approval
 "CNG-93" <.. "CNG-1207" : Feature
 "CNG-93" <.. "CNG-68" : Approval
 "CNG-93" <.. "CNG-1207" : Feature
 "CNG-72" <.. "CNG-70" : Relates
 "CNG-72" <.. "CNG-70" : Relates
+"CNG-77" <.. "CNG-688" : Relates
 "CNG-77" <.. "CNG-688" : Relates
 "CNG-77" <.. "CNG-741" : Feature
 "CNG-77" <.. "CNG-741" : Feature

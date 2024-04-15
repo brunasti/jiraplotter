@@ -15,19 +15,6 @@ public class JiraTicket {
   static Logger log = LogManager.getLogger(JiraTicket.class);
 
 // TODO: Move these statics to a different class, JiraTicketDescriptor
-  static final String FIELD_NAME_ASSIGNEE = "Assignee";
-  static final String FIELD_NAME_DESCRIPTION = "Description";
-  static final String FIELD_NAME_ISSUE_TYPE = "Issue type";
-  static final String FIELD_NAME_ISSUE_ID = "Issue id";
-  static final String FIELD_NAME_ISSUE_KEY = "Issue key";
-  static final String FIELD_NAME_PARENT = "Parent";
-  static final String FIELD_NAME_PRIORITY = "Priority";
-  static final String FIELD_NAME_STATUS = "Status";
-
-  static final String FIELD_NAME_INWARD_ISSUE_LINK = "Inward issue link";
-  static final String FIELD_NAME_OUTWARD_ISSUE_LINK = "Outward issue link";
-
-
   static FieldDescriptor assigneeFieldDescriptor;
   static FieldDescriptor descriptionFieldDescriptor;
   static FieldDescriptor issueTypeFieldDescriptor;
@@ -68,16 +55,16 @@ public class JiraTicket {
 
   static void readCSVDefinition(ArrayList<FieldDescriptor> fieldDescriptors) {
     log.debug("readCSVDefinition");
-    assigneeFieldDescriptor = findFieldDescriptor(fieldDescriptors, FIELD_NAME_ASSIGNEE);
-    descriptionFieldDescriptor = findFieldDescriptor(fieldDescriptors, FIELD_NAME_DESCRIPTION);
-    issueTypeFieldDescriptor = findFieldDescriptor(fieldDescriptors, FIELD_NAME_ISSUE_TYPE);
-    issueIdFieldDescriptor = findFieldDescriptor(fieldDescriptors, FIELD_NAME_ISSUE_ID);
-    issueKeyFieldDescriptor = findFieldDescriptor(fieldDescriptors, FIELD_NAME_ISSUE_KEY);
-    parentFieldDescriptor = findFieldDescriptor(fieldDescriptors, FIELD_NAME_PARENT);
-    priorityFieldDescriptor = findFieldDescriptor(fieldDescriptors, FIELD_NAME_PRIORITY);
-    statusFieldDescriptor = findFieldDescriptor(fieldDescriptors, FIELD_NAME_STATUS);
-    inwardIssueLinkFieldDescriptor = findLinksFieldDescriptors(fieldDescriptors, FIELD_NAME_INWARD_ISSUE_LINK);
-    outwardIssueLinkFieldDescriptor = findLinksFieldDescriptors(fieldDescriptors, FIELD_NAME_OUTWARD_ISSUE_LINK);
+    assigneeFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_ASSIGNEE);
+    descriptionFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_DESCRIPTION);
+    issueTypeFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_ISSUE_TYPE);
+    issueIdFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_ISSUE_ID);
+    issueKeyFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_ISSUE_KEY);
+    parentFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_PARENT);
+    priorityFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_PRIORITY);
+    statusFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_STATUS);
+    inwardIssueLinkFieldDescriptor = findLinksFieldDescriptors(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_INWARD_ISSUE_LINK);
+    outwardIssueLinkFieldDescriptor = findLinksFieldDescriptors(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_OUTWARD_ISSUE_LINK);
   }
 
 
