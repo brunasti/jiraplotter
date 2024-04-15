@@ -103,25 +103,31 @@ public class JiraTicket {
   ArrayList<JiraTiketLinks> readLinks(String[] fields, ArrayList<FieldDescriptor> fieldDescriptors) {
     ArrayList<JiraTiketLinks> links = new ArrayList<>();
 
-    fieldDescriptors.forEach(fieldDescriptor -> {
-      JiraTiketLinks jiraTiketLinks = new JiraTiketLinks();
-      jiraTiketLinks.name = fieldDescriptor.name;
-      jiraTiketLinks.links = readField(fields, fieldDescriptor);
-      links.add(jiraTiketLinks);
-    });
-
+    if (fieldDescriptors != null) {
+      fieldDescriptors.forEach(fieldDescriptor -> {
+        JiraTiketLinks jiraTiketLinks = new JiraTiketLinks();
+        jiraTiketLinks.name = fieldDescriptor.name;
+        jiraTiketLinks.links = readField(fields, fieldDescriptor);
+        links.add(jiraTiketLinks);
+      });
+    } else {
+      log.error("readLinks : fieldDescriptors is null");
+    }
     return links;
   }
 
   ArrayList<String> readField(String[] fields, FieldDescriptor fieldDescriptor) {
     ArrayList<String> values = new ArrayList<>();
 
-    fieldDescriptor.indexes.forEach(index -> {
-      if ((fields[index] != null) && (!fields[index].isBlank())) {
-        values.add(fields[index]);
-      }
-    });
-
+    if (fieldDescriptor != null) {
+      fieldDescriptor.indexes.forEach(index -> {
+        if ((fields[index] != null) && (!fields[index].isBlank())) {
+          values.add(fields[index]);
+        }
+      });
+    } else {
+      log.error("readField : fieldDescriptor is null");
+    }
     return values;
   }
 

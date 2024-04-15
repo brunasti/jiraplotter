@@ -1,14 +1,15 @@
 package it.brunasti.javatools.jira;
 
+import lombok.Getter;
+import lombok.ToString;
+
 import java.util.ArrayList;
 
+@ToString
+@Getter
 public class FieldDescriptor {
   String name;
   ArrayList<Integer> indexes = new ArrayList<>();
-
-  public String toString() {
-    return "["+name+"] ["+indexes.toString()+"]";
-  }
 
   public FieldDescriptor(String[] fields, String name) {
     this.name = name;

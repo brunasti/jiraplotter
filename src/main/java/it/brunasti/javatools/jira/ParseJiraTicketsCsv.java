@@ -289,6 +289,7 @@ public class ParseJiraTicketsCsv {
 
 
 
+  // TODO: Decompose in smaller functions....
   public static void main(String[] args) throws IOException, CsvException {
 
     String fileName = "./src/test/resources/jira-full.csv";
