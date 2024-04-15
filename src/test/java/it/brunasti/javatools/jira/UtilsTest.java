@@ -111,4 +111,23 @@ class UtilsTest {
     assertNotNull(header);
     assertEquals("class \"CNG-1388\" << (X,lightblue) >> {", header);
   }
+
+
+  @Test
+  public void testDump()
+  {
+    String t = "Title";
+    String[] arr = {"A", "B"};
+    Utils.dump(t, arr, System.out);
+  }
+
+  @Test
+  public void testDump_errors()
+  {
+    String t = "Title";
+    String[] arr = {"A", "B"};
+    Utils.dump(null, arr, System.out);
+    Utils.dump(t, null, System.out);
+  }
+
 }

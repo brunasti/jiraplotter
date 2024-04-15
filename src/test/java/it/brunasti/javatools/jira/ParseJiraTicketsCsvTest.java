@@ -16,8 +16,11 @@ class ParseJiraTicketsCsvTest {
   @Test
   void generateDiagrams_noArgs() {
     ParseJiraTicketsCsv parseJiraTicketsCsv = new ParseJiraTicketsCsv();
-    assertThrows(NullPointerException.class, ()-> parseJiraTicketsCsv.generateDiagrams(null, null));
-    assertThrows(FileNotFoundException.class, ()-> parseJiraTicketsCsv.generateDiagrams("", ""));
+    assertDoesNotThrow( ()-> {
+      assertFalse(parseJiraTicketsCsv.generateDiagrams(null, null));
+      assertFalse(parseJiraTicketsCsv.generateDiagrams("", ""));
+            }
+    );
   }
 
   @Test
@@ -25,7 +28,18 @@ class ParseJiraTicketsCsvTest {
     String fileName = "./src/test/resources/jira-open.csv";
     String outputDir = "./temp/";
     ParseJiraTicketsCsv parseJiraTicketsCsv = new ParseJiraTicketsCsv();
-    assertDoesNotThrow(()-> parseJiraTicketsCsv.generateDiagrams(fileName, outputDir));
+    assertDoesNotThrow( ()-> {
+              assertTrue(parseJiraTicketsCsv.generateDiagrams(fileName, outputDir));
+            }
+    );
+  }
+
+  @Test
+  void generateDiagrams_fail_test() {
+    String fileName = "./src/test/resources/jira-xxx.csv";
+    String outputDir = "./temp/";
+    ParseJiraTicketsCsv parseJiraTicketsCsv = new ParseJiraTicketsCsv();
+    assertThrows(FileNotFoundException.class, ()-> parseJiraTicketsCsv.generateDiagrams(fileName, outputDir));
   }
 
 }

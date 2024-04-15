@@ -207,7 +207,13 @@ public class ParseJiraTicketsCsv {
 
 
   // TODO: Decompose in smaller functions....
-  public void generateDiagrams(String fileName, String outputDir) throws IOException, CsvException {
+  public boolean generateDiagrams(String fileName, String outputDir) throws IOException, CsvException {
+    log.info("generateDiagrams [{}] [{}]", fileName, outputDir);
+
+    if ((fileName == null) || (fileName.isBlank())) {
+      log.error("generateDiagrams Input File not defined [{}]", fileName, outputDir);
+      return false;
+    }
 
     try (CSVReader reader = new CSVReader(new FileReader(fileName))) {
 
@@ -290,6 +296,8 @@ public class ParseJiraTicketsCsv {
           }
         }
       });
+
+      return true;
     }
   }
 
