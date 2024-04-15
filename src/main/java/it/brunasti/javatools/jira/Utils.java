@@ -84,4 +84,27 @@ public class Utils {
     return ParseJiraTicketsConstants.DEFINITION_CLASS_START + jiraTicket.issueKey.getFirst() + header;
   }
 
+
+
+  public static HashMap<String, JiraTicket> getTicketsForLinkKind(final Collection<JiraTicket> jiraTickets, String linkKind) {
+    HashMap<String, JiraTicket> selectedJiraTickets = new HashMap<>();
+
+    jiraTickets.forEach(jiraTicket ->
+            jiraTicket.inwardIssueLink.forEach(links -> {
+              if (links.getName().contains(linkKind)) {
+                links.getJiraTickets().forEach(link -> {
+                  selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
+                  selectedJiraTickets.put(link.issueKey.getFirst(), link);
+                });
+              }
+            })
+    );
+
+    return selectedJiraTickets;
+  }
+
+  public static int countTicketsForLinkKind(final Collection<JiraTicket> jiraTickets, String linkKind) {
+    return getTicketsForLinkKind(jiraTickets, linkKind).size();
+  }
+
 }

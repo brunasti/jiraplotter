@@ -58,28 +58,7 @@ public class ParseJiraTicketsCsv {
   }
 
   private static void generateLegend(final Collection<JiraTicket> jiraTickets, String linkKind) {
-    generateTextLegend(getTicketsForLinkKind(jiraTickets, linkKind));
-  }
-
-  private static HashMap<String, JiraTicket> getTicketsForLinkKind(final Collection<JiraTicket> jiraTickets, String linkKind) {
-    HashMap<String, JiraTicket> selectedJiraTickets = new HashMap<>();
-
-    jiraTickets.forEach(jiraTicket ->
-      jiraTicket.inwardIssueLink.forEach(links -> {
-        if (links.getName().contains(linkKind)) {
-          links.getJiraTickets().forEach(link -> {
-            selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
-            selectedJiraTickets.put(link.issueKey.getFirst(), link);
-          });
-        }
-      })
-    );
-
-    return selectedJiraTickets;
-  }
-
-  private static int countTicketsForLinkKind(final Collection<JiraTicket> jiraTickets, String linkKind) {
-    return getTicketsForLinkKind(jiraTickets, linkKind).size();
+    generateTextLegend(Utils.getTicketsForLinkKind(jiraTickets, linkKind));
   }
 
   private static void generateLegendPersona(final Collection<JiraTicket> jiraTickets, String linkKind, String person) {
@@ -316,7 +295,7 @@ public class ParseJiraTicketsCsv {
         log.debug("jiraTicketLinkDescriptor : short name [{}]",shortName);
         log.debug("jiraTicketLinkDescriptor : [{}]",jiraTicketLinkDescriptor);
 
-        int ticketsNumber = countTicketsForLinkKind(jiraTickets.values(), shortName);
+        int ticketsNumber = Utils.countTicketsForLinkKind(jiraTickets.values(), shortName);
         log.debug("jiraTicketLinkDescriptor : [{}] = {}",jiraTicketLinkDescriptor, ticketsNumber);
         if (ticketsNumber > 0) {
           try {
