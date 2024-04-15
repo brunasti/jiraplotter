@@ -13,17 +13,17 @@ import java.util.*;
 
 public class ParseJiraTicketsCsv {
 
-  static PrintStream output;
 
   static Logger log = LogManager.getLogger(ParseJiraTicketsCsv.class);
 
-  static List<FieldDescriptor> fieldDescriptors = new ArrayList<>();
-  static ArrayList<JiraTicketLinkDescriptor> jiraTicketLinkDescriptors = new ArrayList<>();
+  List<FieldDescriptor> fieldDescriptors = new ArrayList<>();
+  ArrayList<JiraTicketLinkDescriptor> jiraTicketLinkDescriptors = new ArrayList<>();
+  PrintStream output;
 
 
 
 
-  private static void generateHeader() {
+  private void generateHeader() {
     output.println("@startuml");
     output.println("'https://plantuml.com/class-diagram");
     output.println();
@@ -34,7 +34,7 @@ public class ParseJiraTicketsCsv {
     output.println();
   }
 
-  private static void generateTextLegend(final HashMap<String, JiraTicket> selectedJiraTickets) {
+  private void generateTextLegend(final HashMap<String, JiraTicket> selectedJiraTickets) {
     HashSet<String> stata = new HashSet<>();
     HashSet<String> types = new HashSet<>();
 
@@ -57,11 +57,11 @@ public class ParseJiraTicketsCsv {
     output.println();
   }
 
-  private static void generateLegend(final Collection<JiraTicket> jiraTickets, String linkKind) {
+  private void generateLegend(final Collection<JiraTicket> jiraTickets, String linkKind) {
     generateTextLegend(Utils.getTicketsForLinkKind(jiraTickets, linkKind));
   }
 
-  private static void generateLegendPersona(final Collection<JiraTicket> jiraTickets, String linkKind, String person) {
+  private void generateLegendPersona(final Collection<JiraTicket> jiraTickets, String linkKind, String person) {
     log.debug("generateLegendPersona ({}) ({}) ", linkKind, person);
 
     HashMap<String, JiraTicket> selectedJiraTickets = new HashMap<>();
@@ -80,7 +80,7 @@ public class ParseJiraTicketsCsv {
     generateTextLegend(selectedJiraTickets);
   }
 
-  private static void generateTicket(JiraTicket jiraTicket) {
+  private void generateTicket(JiraTicket jiraTicket) {
     output.println(Utils.createClassHead(jiraTicket));
     if (!jiraTicket.assignee.isEmpty()) {
       output.println(ParseJiraTicketsConstants.DEFINITION_CLASS_ASSIGNED_TO + jiraTicket.assignee.getFirst());
@@ -91,14 +91,14 @@ public class ParseJiraTicketsCsv {
     output.println();
   }
 
-  private static void generateTickets(final Collection<JiraTicket> jiraTickets) {
+  private void generateTickets(final Collection<JiraTicket> jiraTickets) {
     output.println();
     output.println("' Jira Tickets =======");
     jiraTickets.forEach(jiraTicket -> generateTicket(jiraTicket));
     output.println();
   }
 
-  private static void generateTicketsPerKindLinks(final Collection<JiraTicket> jiraTickets, String kind) {
+  private void generateTicketsPerKindLinks(final Collection<JiraTicket> jiraTickets, String kind) {
     HashMap<String, JiraTicket> selectedJiraTickets = new HashMap<>();
 
     jiraTickets.forEach(jiraTicket ->
@@ -118,7 +118,7 @@ public class ParseJiraTicketsCsv {
     output.println();
   }
 
-  private static void generateTicketsPerPersonLinks(final Collection<JiraTicket> jiraTickets, String person) {
+  private void generateTicketsPerPersonLinks(final Collection<JiraTicket> jiraTickets, String person) {
     HashMap<String, JiraTicket> selectedJiraTickets = new HashMap<>();
     log.debug("generateTicketsPerPersonLinks ({})", person);
 
@@ -139,7 +139,7 @@ public class ParseJiraTicketsCsv {
   }
 
   // TODO: find a test case for the parent links
-  private static void generateParents(final Collection<JiraTicket> jiraTickets) {
+  private void generateParents(final Collection<JiraTicket> jiraTickets) {
     output.println();
     output.println("' Parents =======");
     jiraTickets.forEach(jiraTicket -> {
@@ -150,7 +150,7 @@ public class ParseJiraTicketsCsv {
     output.println();
   }
 
-  private static void generateLinks(final Collection<JiraTicket> jiraTickets) {
+  private void generateLinks(final Collection<JiraTicket> jiraTickets) {
     output.println();
     output.println(ParseJiraTicketsConstants.HEADER_LINKS);
     jiraTickets.forEach(jiraTicket ->
@@ -165,7 +165,7 @@ public class ParseJiraTicketsCsv {
     output.println();
   }
 
-  private static void generateSingleKindLinks(final Collection<JiraTicket> jiraTickets, String kind) {
+  private void generateSingleKindLinks(final Collection<JiraTicket> jiraTickets, String kind) {
     output.println();
     output.println(ParseJiraTicketsConstants.HEADER_LINKS);
     jiraTickets.forEach(jiraTicket ->
@@ -182,7 +182,7 @@ public class ParseJiraTicketsCsv {
     output.println();
   }
 
-  private static void generateSinglePersonLinks(final Collection<JiraTicket> jiraTickets, String person) {
+  private void generateSinglePersonLinks(final Collection<JiraTicket> jiraTickets, String person) {
     output.println();
     output.println(ParseJiraTicketsConstants.HEADER_LINKS);
     jiraTickets.forEach(jiraTicket -> {
@@ -200,7 +200,7 @@ public class ParseJiraTicketsCsv {
   }
 
 
-  private static void generateFooter() {
+  private void generateFooter() {
     output.println();
     output.println("@enduml");
   }

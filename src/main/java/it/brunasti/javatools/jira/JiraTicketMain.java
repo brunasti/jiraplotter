@@ -19,6 +19,7 @@ import org.apache.logging.log4j.Logger;
  * <a href="https://commons.apache.org/proper/commons-cli/usage.html">commons-cli</a>
  */
 public class JiraTicketMain {
+
   static CommandLine commandLine;
   static Logger log = LogManager.getLogger(JiraTicketMain.class);
 
@@ -100,15 +101,15 @@ public class JiraTicketMain {
       }
       if (commandLine.hasOption(optionConfigFile.getOpt())) {
         configurationFile = commandLine.getOptionValue(optionConfigFile.getOpt());
-        log.debug("{} set to [{}]", optionConfigFile.getDescription(), configurationFile);
+        log.debug(ParseJiraTicketsConstants.SET_TO_TEXT_TEMPLATE, optionConfigFile.getDescription(), configurationFile);
       }
       if (commandLine.hasOption(optionInputFile.getOpt())) {
         inputCsvFile = commandLine.getOptionValue(optionInputFile.getOpt());
-        log.debug("{} set to [{}]", optionInputFile.getDescription(), inputCsvFile);
+        log.debug(ParseJiraTicketsConstants.SET_TO_TEXT_TEMPLATE, optionInputFile.getDescription(), inputCsvFile);
       }
       if (commandLine.hasOption(optionOutputDirectory.getOpt())) {
         outputDirectory = commandLine.getOptionValue(optionOutputDirectory.getOpt());
-        log.debug("{} set to [{}]", optionOutputDirectory.getDescription(), outputDirectory);
+        log.debug(ParseJiraTicketsConstants.SET_TO_TEXT_TEMPLATE, optionOutputDirectory.getDescription(), outputDirectory);
       }
 
     } catch (ParseException | NullPointerException e) {
@@ -131,7 +132,7 @@ public class JiraTicketMain {
 
     HelpFormatter helper = new HelpFormatter();
 
-    String className = ParseJiraTicketsCsv.class.getCanonicalName();
+    String className = JiraTicketMain.class.getCanonicalName();
     PrintWriter outError = new PrintWriter(System.err);
 
     helper.printHelp(outError,
@@ -153,7 +154,7 @@ public class JiraTicketMain {
 
     HelpFormatter helper = new HelpFormatter();
 
-    String className = ParseJiraTicketsCsv.class.getCanonicalName();
+    String className = JiraTicketMain.class.getCanonicalName();
     PrintWriter outError = new PrintWriter(System.err);
 
     helper.printUsage(outError, 100, "java " + className, options);

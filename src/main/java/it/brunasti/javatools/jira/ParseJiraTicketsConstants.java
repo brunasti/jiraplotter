@@ -29,4 +29,8 @@ public final class ParseJiraTicketsConstants {
   static final String FIELD_NAME_OUTWARD_ISSUE_LINK = "Outward issue link";
 
 
+
+  public static final String SET_TO_TEXT_TEMPLATE = "{} set to [{}]";
+
+
 }
