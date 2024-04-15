@@ -44,16 +44,6 @@ public class ParseJiraTicketsCsv {
     output.println();
   }
 
-  // TODO: Move to Utils
-  private static long countTicketsInStatus(Collection<JiraTicket> jiraTickets, String status) {
-    return jiraTickets.stream().filter(jiraTicket -> jiraTicket.status.getFirst().equals(status) ).count();
-  }
-
-  // TODO: Move to Utils
-  private static long countTicketsOfType(Collection<JiraTicket> jiraTickets, String type) {
-    return jiraTickets.stream().filter(jiraTicket -> jiraTicket.issueType.getFirst().equals(type) ).count();
-  }
-
   private static void generateTextLegend(final HashMap<String, JiraTicket> selectedJiraTickets) {
     HashSet<String> stata = new HashSet<>();
     HashSet<String> types = new HashSet<>();
@@ -65,13 +55,13 @@ public class ParseJiraTicketsCsv {
     output.println("Jira Ticket Status");
     output.println("----");
     stata.forEach(status ->
-      output.println("("+status+") : " + countTicketsInStatus(selectedJiraTickets.values(),status))
+      output.println("("+status+") : " + Utils.countTicketsInStatus(selectedJiraTickets.values(),status))
     );
     output.println("----");
     output.println("Jira Ticket Types");
     output.println("----");
     types.forEach(type ->
-      output.println("("+type+") : "+countTicketsOfType(selectedJiraTickets.values(),type))
+      output.println("("+type+") : "+Utils.countTicketsOfType(selectedJiraTickets.values(),type))
     );
     output.println("end legend");
     output.println();
@@ -279,21 +269,6 @@ public class ParseJiraTicketsCsv {
   }
 
 
-  // TODO: Move to Utils
-  private static HashSet<String> findPeople(HashMap<String, JiraTicket> jiraTickets) {
-    HashSet<String> people = new HashSet<>();
-
-    jiraTickets.values().forEach(jiraTicket -> {
-      if (!jiraTicket.assignee.isEmpty()) {
-        String person = jiraTicket.assignee.getFirst();
-        people.add(person);
-      }
-    });
-
-    return people;
-  }
-
-
   static void loadDefinitions(String[] header) {
     // Load record definition and FieldDescriptors
 
@@ -388,7 +363,7 @@ public class ParseJiraTicketsCsv {
       });
 
       // Generate reports for each person
-      HashSet<String> people = findPeople(jiraTickets);
+      HashSet<String> people = Utils.findPeople(jiraTickets);
       people.forEach(person -> {
         log.debug("people : [{}]",person);
         if (personHasDependingTickets(jiraTickets.values(),person)) {

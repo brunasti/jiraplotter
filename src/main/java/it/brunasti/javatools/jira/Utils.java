@@ -3,9 +3,7 @@ package it.brunasti.javatools.jira;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.Arrays;
-import java.util.Map;
-import java.util.NoSuchElementException;
+import java.util.*;
 
 public class Utils {
 
@@ -41,6 +39,31 @@ public class Utils {
       return null;
     }
   }
+
+
+
+  public static long countTicketsInStatus(Collection<JiraTicket> jiraTickets, String status) {
+    return jiraTickets.stream().filter(jiraTicket -> jiraTicket.status.getFirst().equals(status) ).count();
+  }
+
+  public static long countTicketsOfType(Collection<JiraTicket> jiraTickets, String type) {
+    return jiraTickets.stream().filter(jiraTicket -> jiraTicket.issueType.getFirst().equals(type) ).count();
+  }
+
+
+  public static HashSet<String> findPeople(HashMap<String, JiraTicket> jiraTickets) {
+    HashSet<String> people = new HashSet<>();
+
+    jiraTickets.values().forEach(jiraTicket -> {
+      if (!jiraTicket.assignee.isEmpty()) {
+        String person = jiraTicket.assignee.getFirst();
+        people.add(person);
+      }
+    });
+
+    return people;
+  }
+
 
 
 }
