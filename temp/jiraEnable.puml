@@ -2,23 +2,83 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 12:32:40 CEST 2024
+' Generated at    : Mon Apr 15 12:46:42 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
+(To Do) : 5
+(In Progress) : 2
+(Design Review) : 1
 ----
 Jira Ticket Types
 ----
+(Task) : 3
+(Story) : 5
 end legend
 
 
 ' Tickets =======
+class "CNG-87" << (S,lightgreen) >> {
+  Assigned to : Deepak Ingwale
+  Status : Design Review
+  Type : Story
+}
+
+class "CNG-647" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-68" << (S,lightgreen) >> {
+  Assigned to : Anand Jajoo
+  Status : To Do
+  Type : Story
+}
+
+class "CNG-393" << (S,lightgreen) >> {
+  Assigned to : Deepak Ingwale
+  Status : In Progress
+  Type : Story
+}
+
+class "CNG-709" << (T,lightblue) >> {
+  Assigned to : Anand Dixit
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-71" << (S,lightgreen) >> {
+  Assigned to : BharathKum Sarangarajan
+  Status : To Do
+  Type : Story
+}
+
+class "CNG-214" << (S,lightgreen) >> {
+  Assigned to : Narayana Golla
+  Status : In Progress
+  Type : Story
+}
+
+class "CNG-1066" << (T,lightblue) >> {
+  Assigned to : Sam Miles
+  Status : To Do
+  Type : Task
+}
+
 
 
 ' Links =======
+"CNG-214" <.. "CNG-1066" : Enable
+"CNG-214" <.. "CNG-1066" : Enable
+"CNG-68" <.. "CNG-709" : Enable
+"CNG-68" <.. "CNG-709" : Enable
+"CNG-393" <.. "CNG-87" : Enable
+"CNG-71" <.. "CNG-647" : Enable
+"CNG-71" <.. "CNG-647" : Enable
 
 
 @enduml

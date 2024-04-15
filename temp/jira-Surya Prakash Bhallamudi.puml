@@ -2,22 +2,29 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 12:32:40 CEST 2024
+' Generated at    : Mon Apr 15 12:46:43 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(To Do) : 2
+(To Do) : 3
 ----
 Jira Ticket Types
 ----
 (Task) : 2
+(Sub-task) : 1
 end legend
 
 
 ' Tickets =======
+class "CNG-590" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Sub-task
+}
+
 class "CNG-1368" << (T,lightblue) >> {
   Assigned to : Surya Prakash Bhallamudi
   Status : To Do
@@ -33,6 +40,9 @@ class "CNG-1388" << (T,lightblue) >> {
 
 
 ' Links =======
+"CNG-1368" <.. "CNG-590" : Dependent
+"CNG-1368" <.. "CNG-590" : Dependent
+"CNG-1368" <.. "CNG-590" : Dependent
 
 
 @enduml

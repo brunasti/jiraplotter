@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 12:32:40 CEST 2024
+' Generated at    : Mon Apr 15 12:46:43 CEST 2024
 
 hide empty members
 
@@ -24,13 +24,13 @@ class "CNG-1347" << (B,red) >> {
   Type : Bug
 }
 
-class "CNG-1342" << (B,red) >> {
+class "CNG-1375" << (B,red) >> {
   Assigned to : Sankaranarayanan Kopparasukavi
   Status : In Work
   Type : Bug
 }
 
-class "CNG-1375" << (B,red) >> {
+class "CNG-1342" << (B,red) >> {
   Assigned to : Sankaranarayanan Kopparasukavi
   Status : In Work
   Type : Bug

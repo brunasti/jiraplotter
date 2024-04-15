@@ -2,43 +2,54 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 12:32:40 CEST 2024
+' Generated at    : Mon Apr 15 12:46:43 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(To Do) : 2
+(To Do) : 4
 (Denied) : 1
-(In Progress) : 1
+(In Progress) : 3
 (Accepted) : 1
 ----
 Jira Ticket Types
 ----
 (Risks) : 2
-(Task) : 1
+(Task) : 3
+(Sub-task) : 2
 (Project Request Package) : 2
 end legend
 
 
 ' Tickets =======
+class "CNG-724" << (S,lightblue) >> {
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-1008" << (T,lightblue) >> {
+  Status : To Do
+  Type : Task
+}
+
 class "CNG-299" << (T,lightblue) >> {
   Assigned to : Sana Fathima
   Status : To Do
   Type : Task
 }
 
-class "CNG-1004" << (R,red) >> {
-  Assigned to : Sana Fathima
-  Status : In Progress
-  Type : Risks
-}
-
 class "CNG-895" << (P,lightblue) >> {
   Assigned to : Sana Fathima
   Status : Accepted
   Type : Project Request Package
+}
+
+class "CNG-1004" << (R,red) >> {
+  Assigned to : Sana Fathima
+  Status : In Progress
+  Type : Risks
 }
 
 class "CNG-993" << (R,red) >> {
@@ -53,9 +64,25 @@ class "CNG-897" << (P,lightblue) >> {
   Type : Project Request Package
 }
 
+class "CNG-984" << (T,lightblue) >> {
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-679" << (S,lightblue) >> {
+  Status : In Progress
+  Type : Sub-task
+}
+
 
 
 ' Links =======
+"CNG-993" <.. "CNG-724" : Blocks
+"CNG-993" <.. "CNG-984" : Relates
+"CNG-993" <.. "CNG-1008" : Relates
+"CNG-993" <.. "CNG-1008" : Relates
+"CNG-299" <.. "CNG-679" : Relates
+"CNG-1004" <.. "CNG-984" : Relates
 
 
 @enduml

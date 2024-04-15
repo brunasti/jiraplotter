@@ -2,23 +2,83 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 12:32:40 CEST 2024
+' Generated at    : Mon Apr 15 12:46:42 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
+(QA) : 1
+(To Do) : 5
+(In Progress) : 2
 ----
 Jira Ticket Types
 ----
+(Task) : 5
+(Sub-task) : 1
+(Story) : 2
 end legend
 
 
 ' Tickets =======
+class "CNG-1329" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1192" << (T,lightblue) >> {
+  Assigned to : Jon Funnell
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-49" << (S,lightgreen) >> {
+  Assigned to : Amreen Fathima
+  Status : QA
+  Type : Story
+}
+
+class "CNG-1190" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-385" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-70" << (S,lightgreen) >> {
+  Assigned to : Sushant Khandelwal
+  Status : In Progress
+  Type : Story
+}
+
+class "CNG-687" << (S,lightblue) >> {
+  Assigned to : Sulafa Malik
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-733" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Progress
+  Type : Task
+}
+
 
 
 ' Links =======
+"CNG-687" <.. "CNG-49" : Issue split
+"CNG-733" <.. "CNG-1329" : Issue split
+"CNG-1192" <.. "CNG-70" : Issue split
+"CNG-1192" <.. "CNG-70" : Issue split
+"CNG-1190" <.. "CNG-385" : Issue split
+"CNG-1190" <.. "CNG-385" : Issue split
 
 
 @enduml

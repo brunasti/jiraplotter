@@ -2,24 +2,24 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 12:32:40 CEST 2024
+' Generated at    : Mon Apr 15 12:46:43 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(To Do) : 9
+(To Do) : 16
 (In Work) : 2
-(In Progress) : 3
+(In Progress) : 4
 (In System Test) : 1
 ----
 Jira Ticket Types
 ----
-(Task) : 2
+(Task) : 6
 (Bug) : 3
-(Sub-task) : 8
-(Story) : 2
+(Sub-task) : 11
+(Story) : 3
 end legend
 
 
@@ -28,6 +28,18 @@ class "CNG-1040" << (S,lightblue) >> {
   Assigned to : Anand Jajoo
   Status : In Progress
   Type : Sub-task
+}
+
+class "CNG-1060" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-93" << (S,lightgreen) >> {
+  Assigned to : Jon Funnell
+  Status : To Do
+  Type : Story
 }
 
 class "CNG-68" << (S,lightgreen) >> {
@@ -42,7 +54,24 @@ class "CNG-1209" << (S,lightblue) >> {
   Type : Sub-task
 }
 
+class "CNG-709" << (T,lightblue) >> {
+  Assigned to : Anand Dixit
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1207" << (S,lightblue) >> {
+  Status : To Do
+  Type : Sub-task
+}
+
 class "CNG-1215" << (S,lightblue) >> {
+  Assigned to : Anand Jajoo
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-1213" << (S,lightblue) >> {
   Assigned to : Anand Jajoo
   Status : To Do
   Type : Sub-task
@@ -54,16 +83,16 @@ class "CNG-961" << (S,lightblue) >> {
   Type : Sub-task
 }
 
+class "CNG-873" << (T,lightblue) >> {
+  Assigned to : Paolo Brunasti
+  Status : In Progress
+  Type : Task
+}
+
 class "CNG-1356" << (B,red) >> {
   Assigned to : Anand Jajoo
   Status : In Work
   Type : Bug
-}
-
-class "CNG-1213" << (S,lightblue) >> {
-  Assigned to : Anand Jajoo
-  Status : To Do
-  Type : Sub-task
 }
 
 class "CNG-1214" << (S,lightblue) >> {
@@ -80,6 +109,12 @@ class "CNG-1049" << (S,lightgreen) >> {
 
 class "CNG-1211" << (S,lightblue) >> {
   Assigned to : Anand Jajoo
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-710" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
   Status : To Do
   Type : Sub-task
 }
@@ -102,21 +137,50 @@ class "CNG-1022" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-1353" << (B,red) >> {
-  Assigned to : Anand Jajoo
-  Status : In Work
-  Type : Bug
-}
-
 class "CNG-975" << (T,lightblue) >> {
   Assigned to : Anand Jajoo
   Status : In Progress
   Type : Task
 }
 
+class "CNG-865" << (T,lightblue) >> {
+  Assigned to : Nigel Hassett
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-810" << (S,lightblue) >> {
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-1353" << (B,red) >> {
+  Assigned to : Anand Jajoo
+  Status : In Work
+  Type : Bug
+}
+
 
 
 ' Links =======
+"CNG-975" <.. "CNG-710" : Relates
+"CNG-961" <.. "CNG-1060" : Approval
+"CNG-961" <.. "CNG-873" : Relates
+"CNG-961" <.. "CNG-1060" : Approval
+"CNG-961" <.. "CNG-1060" : Approval
+"CNG-68" <.. "CNG-93" : Automates
+"CNG-68" <.. "CNG-709" : End To Start
+"CNG-68" <.. "CNG-865" : Relates
+"CNG-68" <.. "CNG-709" : Enable
+"CNG-68" <.. "CNG-1207" : Feature
+"CNG-68" <.. "CNG-709" : Enable
+"CNG-68" <.. "CNG-1207" : Feature
+"CNG-1049" <.. "CNG-68" : Dependent
+"CNG-1049" <.. "CNG-68" : Dependent
+"CNG-1049" <.. "CNG-1207" : Feature
+"CNG-1049" <.. "CNG-68" : Dependent
+"CNG-1049" <.. "CNG-1207" : Feature
+"CNG-1022" <.. "CNG-810" : Automates
 
 
 @enduml

@@ -2,23 +2,36 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 12:32:40 CEST 2024
+' Generated at    : Mon Apr 15 12:46:43 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(To Do) : 1
-(In Progress) : 2
+(To Do) : 2
+(In Progress) : 6
 ----
 Jira Ticket Types
 ----
-(Task) : 3
+(Task) : 7
+(Sub-task) : 1
 end legend
 
 
 ' Tickets =======
+class "CNG-1151" << (T,lightblue) >> {
+  Assigned to : BharathKum Sarangarajan
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-1283" << (T,lightblue) >> {
+  Assigned to : Narayana Golla
+  Status : In Progress
+  Type : Task
+}
+
 class "CNG-1294" << (T,lightblue) >> {
   Assigned to : Sivagami S
   Status : In Progress
@@ -31,15 +44,44 @@ class "CNG-1205" << (T,lightblue) >> {
   Type : Task
 }
 
+class "CNG-873" << (T,lightblue) >> {
+  Assigned to : Paolo Brunasti
+  Status : In Progress
+  Type : Task
+}
+
 class "CNG-1202" << (T,lightblue) >> {
   Assigned to : Sivagami S
   Status : To Do
   Type : Task
 }
 
+class "CNG-685" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-733" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Progress
+  Type : Task
+}
+
 
 
 ' Links =======
+"CNG-1205" <.. "CNG-1151" : Cloners
+"CNG-1205" <.. "CNG-1283" : Feature
+"CNG-1205" <.. "CNG-873" : Relates
+"CNG-1205" <.. "CNG-685" : Relates
+"CNG-1205" <.. "CNG-685" : Relates
+"CNG-1202" <.. "CNG-733" : Approval
+"CNG-1202" <.. "CNG-733" : Approval
+"CNG-1202" <.. "CNG-733" : Approval
+"CNG-1294" <.. "CNG-1205" : Dependent
+"CNG-1294" <.. "CNG-1205" : Dependent
+"CNG-1294" <.. "CNG-1205" : Dependent
 
 
 @enduml

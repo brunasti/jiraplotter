@@ -333,7 +333,7 @@ public class ParseJiraTicketsCsv {
 
       for (int i=1; i<r.size(); i++) {
         JiraTicket jiraTicket = new JiraTicket(r.get(i));
-        jiraTickets.put(jiraTicket.issueId.getFirst(), jiraTicket);
+        jiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
       }
 
       // Create link pointers from ticket id
@@ -355,6 +355,7 @@ public class ParseJiraTicketsCsv {
 
 
       // Generate reports for each links kind
+      // TODO: Check if there are tickets with such kind....
       jiraTicketLinkDescriptors.forEach(jiraTicketLinkDescriptor -> {
         log.debug("jiraTicketLinkDescriptor : short name [{}]",jiraTicketLinkDescriptor.getShortName());
         log.debug("jiraTicketLinkDescriptor : [{}]",jiraTicketLinkDescriptor);

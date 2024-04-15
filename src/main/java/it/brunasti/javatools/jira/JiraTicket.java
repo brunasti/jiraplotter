@@ -154,7 +154,7 @@ public class JiraTicket {
         if (ticket != null) {
           links.getJiraTickets().add(ticket);
         } else {
-          log.error("connectLinks  not possible : [{}] to [{}]", issueKey, link);
+          log.error("connectLinks  not possible : [{}] to [{}]", issueKey.getFirst(), link);
         }
       })
     );

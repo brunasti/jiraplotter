@@ -2,23 +2,118 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 12:32:40 CEST 2024
+' Generated at    : Mon Apr 15 12:46:42 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
+(To Do) : 6
+(In Progress) : 7
 ----
 Jira Ticket Types
 ----
+(Risks) : 2
+(Task) : 10
+(Sub-task) : 1
 end legend
 
 
 ' Tickets =======
+class "CNG-1360" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-1151" << (T,lightblue) >> {
+  Assigned to : BharathKum Sarangarajan
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-724" << (S,lightblue) >> {
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-988" << (R,red) >> {
+  Status : To Do
+  Type : Risks
+}
+
+class "CNG-1205" << (T,lightblue) >> {
+  Assigned to : Sivagami S
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-1202" << (T,lightblue) >> {
+  Assigned to : Sivagami S
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-993" << (R,red) >> {
+  Assigned to : Sana Fathima
+  Status : To Do
+  Type : Risks
+}
+
+class "CNG-1201" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-984" << (T,lightblue) >> {
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1198" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-1385" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-733" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-1199" << (T,lightblue) >> {
+  Assigned to : BharathKum Sarangarajan
+  Status : To Do
+  Type : Task
+}
+
 
 
 ' Links =======
+"CNG-993" <.. "CNG-724" : Blocks
+"CNG-733" <.. "CNG-1198" : Blocks
+"CNG-733" <.. "CNG-1199" : Blocks
+"CNG-733" <.. "CNG-1201" : Blocks
+"CNG-733" <.. "CNG-1202" : Blocks
+"CNG-733" <.. "CNG-1360" : Blocks
+"CNG-733" <.. "CNG-1385" : Blocks
+"CNG-988" <.. "CNG-984" : Blocks
+"CNG-984" <.. "CNG-988" : Blocks
+"CNG-724" <.. "CNG-993" : Blocks
+"CNG-1385" <.. "CNG-733" : Blocks
+"CNG-1151" <.. "CNG-1205" : Blocks
+"CNG-1151" <.. "CNG-1205" : Blocks
+"CNG-1151" <.. "CNG-1205" : Blocks
+"CNG-1360" <.. "CNG-733" : Blocks
 
 
 @enduml

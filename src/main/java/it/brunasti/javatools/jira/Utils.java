@@ -33,6 +33,7 @@ public class Utils {
 
   public static JiraTicket findFromKey(Map<String, JiraTicket> jiraTickets, String key) {
     try {
+      log.debug("findFromKey : [{}]", key);
 //      return jiraTickets.values().stream().filter(jiraTicket -> jiraTicket.issueKey.getFirst().equalsIgnoreCase(key)).findFirst().get();
       return jiraTickets.get(key);
     } catch (NoSuchElementException nsee) {
