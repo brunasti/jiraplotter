@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Fri Apr 12 19:54:48 CEST 2024
+' Generated at    : Mon Apr 15 11:44:38 CEST 2024
 
 hide empty members
 
@@ -12,14 +12,14 @@ Jira Ticket Status
 (To Do) : 10
 (Dev Review) : 2
 (Build) : 1
-(In Progress) : 7
-(Raised) : 4
-(Design Review) : 4
+(In Progress) : 6
+(Rejected) : 1
+(Design Review) : 3
 ----
 Jira Ticket Types
 ----
-(Task) : 11
-(Bug) : 4
+(Task) : 9
+(Bug) : 1
 (Sub-task) : 6
 (Story) : 6
 (New Feature) : 1
@@ -27,78 +27,7 @@ end legend
 
 
 ' Tickets =======
-class "CNG-1340" << (B,red) >> {
-  Assigned to : Deepak Ingwale
-  Status : Raised
-  Type : Bug
-}
-
-class "CNG-79" << (S,lightgreen) >> {
-  Assigned to : Deepak Ingwale
-  Status : Build
-  Type : Story
-}
-
-class "CNG-1325" << (B,red) >> {
-  Assigned to : Deepak Ingwale
-  Status : Raised
-  Type : Bug
-}
-
-class "CNG-255" << (T,lightblue) >> {
-  Assigned to : Deepak Ingwale
-  Status : Dev Review
-  Type : Task
-}
-
-class "CNG-1369" << (T,lightblue) >> {
-  Assigned to : Deepak Ingwale
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-873" << (T,lightblue) >> {
-  Assigned to : Paolo Brunasti
-  Status : In Progress
-  Type : Task
-}
-
-class "CNG-1203" << (S,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : In Progress
-  Type : Sub-task
-}
-
-class "CNG-1123" << (T,lightblue) >> {
-  Assigned to : Deepak Ingwale
-  Status : In Progress
-  Type : Task
-}
-
-class "CNG-655" << (N,lightgreen) >> {
-  Status : To Do
-  Type : New Feature
-}
-
-class "CNG-1366" << (T,lightblue) >> {
-  Assigned to : Deepak Ingwale
-  Status : In Progress
-  Type : Task
-}
-
-class "CNG-557" << (S,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : In Progress
-  Type : Sub-task
-}
-
-class "CNG-1221" << (T,lightblue) >> {
-  Assigned to : Deepak Ingwale
-  Status : Design Review
-  Type : Task
-}
-
-class "CNG-1372" << (T,lightblue) >> {
+class "CNG-1384" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
   Status : To Do
   Type : Task
@@ -158,16 +87,46 @@ class "CNG-87" << (S,lightgreen) >> {
   Type : Story
 }
 
+class "CNG-79" << (S,lightgreen) >> {
+  Assigned to : Deepak Ingwale
+  Status : Build
+  Type : Story
+}
+
+class "CNG-255" << (T,lightblue) >> {
+  Assigned to : Deepak Ingwale
+  Status : Dev Review
+  Type : Task
+}
+
 class "CNG-684" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : To Do
   Type : Sub-task
 }
 
-class "CNG-1357" << (B,red) >> {
+class "CNG-1369" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
-  Status : Raised
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1348" << (B,red) >> {
+  Assigned to : Deepak Ingwale
+  Status : Rejected
   Type : Bug
+}
+
+class "CNG-1203" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-1123" << (T,lightblue) >> {
+  Assigned to : Deepak Ingwale
+  Status : In Progress
+  Type : Task
 }
 
 class "CNG-589" << (S,lightblue) >> {
@@ -176,9 +135,20 @@ class "CNG-589" << (S,lightblue) >> {
   Type : Sub-task
 }
 
+class "CNG-655" << (N,lightgreen) >> {
+  Status : To Do
+  Type : New Feature
+}
+
 class "CNG-1277" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
   Status : To Do
+  Type : Task
+}
+
+class "CNG-1366" << (T,lightblue) >> {
+  Assigned to : Deepak Ingwale
+  Status : In Progress
   Type : Task
 }
 
@@ -188,10 +158,10 @@ class "CNG-1278" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-1375" << (B,red) >> {
-  Assigned to : Deepak Ingwale
-  Status : Raised
-  Type : Bug
+class "CNG-557" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Progress
+  Type : Sub-task
 }
 
 
@@ -215,8 +185,6 @@ class "CNG-1375" << (B,red) >> {
 "CNG-1369" <.. "CNG-590" : Dependent
 "CNG-1371" <.. "CNG-590" : Dependent
 "CNG-1370" <.. "CNG-590" : Dependent
-"CNG-1221" <.. "CNG-873" : Relates
-"CNG-1372" <.. "CNG-589" : Dependent
 
 
 @enduml

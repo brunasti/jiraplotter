@@ -90,8 +90,8 @@ public class JiraTicket {
   ArrayList<String> priority;
   ArrayList<String> status;
 
-  ArrayList<JiraTiketLinks> inwardIssueLink;
-  ArrayList<JiraTiketLinks> outwardIssueLink;
+  ArrayList<JiraTicketLinks> inwardIssueLink;
+  ArrayList<JiraTicketLinks> outwardIssueLink;
 
   JiraTicket parentJira;
 
@@ -100,15 +100,13 @@ public class JiraTicket {
   }
 
 
-  ArrayList<JiraTiketLinks> readLinks(String[] fields, ArrayList<FieldDescriptor> fieldDescriptors) {
-    ArrayList<JiraTiketLinks> links = new ArrayList<>();
+  ArrayList<JiraTicketLinks> readLinks(String[] fields, ArrayList<FieldDescriptor> fieldDescriptors) {
+    ArrayList<JiraTicketLinks> links = new ArrayList<>();
 
     if (fieldDescriptors != null) {
       fieldDescriptors.forEach(fieldDescriptor -> {
-        JiraTiketLinks jiraTiketLinks = new JiraTiketLinks();
-        jiraTiketLinks.name = fieldDescriptor.name;
-        jiraTiketLinks.links = readField(fields, fieldDescriptor);
-        links.add(jiraTiketLinks);
+        JiraTicketLinks jiraTicketLinks = new JiraTicketLinks(fieldDescriptor.getName(), readField(fields, fieldDescriptor), new ArrayList<>());
+        links.add(jiraTicketLinks);
       });
     } else {
       log.error("readLinks : fieldDescriptors is null");
@@ -154,7 +152,7 @@ public class JiraTicket {
       links.getLinks().forEach(link -> {
         JiraTicket ticket = ParseJiraTicketsCsv.findFromKey(jiraTickets, link);
         if (ticket != null) {
-          links.jiraTikets.add(ticket);
+          links.getJiraTickets().add(ticket);
         } else {
           log.error("connectLinks  not possible : [{}] to [{}]", issueKey, link);
         }

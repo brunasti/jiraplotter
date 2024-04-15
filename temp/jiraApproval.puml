@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Fri Apr 12 19:54:48 CEST 2024
+' Generated at    : Mon Apr 15 11:44:38 CEST 2024
 
 hide empty members
 
@@ -11,19 +11,19 @@ Jira Ticket Status
 ----
 (QA) : 1
 (To Do) : 18
+(In Work) : 1
 (Dev Review) : 1
 (Build) : 1
 (UAT) : 1
 (In Progress) : 7
 (In System Test) : 1
-(Raised) : 1
 ----
 Jira Ticket Types
 ----
 (Task) : 17
 (Bug) : 2
-(Sub-task) : 2
-(Story) : 10
+(Sub-task) : 3
+(Story) : 9
 end legend
 
 
@@ -50,12 +50,6 @@ class "CNG-615" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : To Do
   Type : Task
-}
-
-class "CNG-55" << (S,lightgreen) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Story
 }
 
 class "CNG-917" << (T,lightblue) >> {
@@ -171,6 +165,18 @@ class "CNG-609" << (T,lightblue) >> {
   Type : Task
 }
 
+class "CNG-684" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-367" << (B,red) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Work
+  Type : Bug
+}
+
 class "CNG-961" << (S,lightblue) >> {
   Assigned to : Anand Jajoo
   Status : In Progress
@@ -207,12 +213,6 @@ class "CNG-1199" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-502" << (B,red) >> {
-  Assigned to : Jon Funnell
-  Status : Raised
-  Type : Bug
-}
-
 
 
 ' Links =======
@@ -225,10 +225,10 @@ class "CNG-502" << (B,red) >> {
 "CNG-626" <.. "CNG-647" : Approval
 "CNG-626" <.. "CNG-871" : Approval
 "CNG-626" <.. "CNG-917" : Approval
+"CNG-367" <.. "CNG-684" : Approval
 "CNG-346" <.. "CNG-69" : Approval
 "CNG-269" <.. "CNG-415" : Approval
 "CNG-1199" <.. "CNG-733" : Approval
-"CNG-502" <.. "CNG-55" : Approval
 "CNG-93" <.. "CNG-68" : Approval
 "CNG-2" <.. "CNG-609" : Approval
 "CNG-1195" <.. "CNG-733" : Approval

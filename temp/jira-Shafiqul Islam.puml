@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Fri Apr 12 19:54:48 CEST 2024
+' Generated at    : Mon Apr 15 11:44:38 CEST 2024
 
 hide empty members
 
@@ -12,24 +12,22 @@ Jira Ticket Status
 (QA) : 4
 (In Review (migrated)) : 3
 (To Do) : 78
+(In Work) : 1
 (Dev Review) : 2
 (Under Investigation) : 1
 (UAT) : 1
-(In Progress) : 22
-(Resolved (Closed)) : 1
-(Raised) : 1
+(In Progress) : 21
 (On Hold / Monitoring) : 1
 ----
 Jira Ticket Types
 ----
 (Risks) : 4
-(Task) : 70
+(Task) : 69
 (Issue) : 1
 (Work Request) : 1
 (Bug) : 3
 (Sub-task) : 23
 (Story) : 10
-(Impediment (Issue)) : 1
 (New Feature) : 1
 end legend
 
@@ -57,12 +55,6 @@ class "CNG-55" << (S,lightgreen) >> {
   Assigned to : Shafiqul Islam
   Status : To Do
   Type : Story
-}
-
-class "CNG-658" << (I,orange) >> {
-  Assigned to : Shafiqul Islam
-  Status : Resolved (Closed)
-  Type : Impediment (Issue)
 }
 
 class "CNG-1329" << (T,lightblue) >> {
@@ -190,7 +182,7 @@ class "CNG-388" << (S,lightgreen) >> {
 }
 
 class "CNG-1299" << (T,lightblue) >> {
-  Assigned to : Dileep
+  Assigned to : Rukaya Ogazi-Khan
   Status : In Progress
   Type : Task
 }
@@ -297,6 +289,12 @@ class "CNG-1300" << (T,lightblue) >> {
   Type : Task
 }
 
+class "CNG-1385" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : To Do
+  Type : Task
+}
+
 class "CNG-997" << (R,red) >> {
   Assigned to : Shafiqul Islam
   Status : To Do
@@ -307,12 +305,6 @@ class "CNG-1032" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : In Review (migrated)
   Type : Sub-task
-}
-
-class "CNG-1274" << (T,lightblue) >> {
-  Assigned to : Rukaya Ogazi-Khan
-  Status : To Do
-  Type : Task
 }
 
 class "CNG-647" << (T,lightblue) >> {
@@ -343,6 +335,12 @@ class "CNG-760" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : In Progress
   Type : Task
+}
+
+class "CNG-367" << (B,red) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Work
+  Type : Bug
 }
 
 class "CNG-762" << (T,lightblue) >> {
@@ -453,12 +451,6 @@ class "CNG-733" << (T,lightblue) >> {
 
 class "CNG-975" << (T,lightblue) >> {
   Assigned to : Anand Jajoo
-  Status : In Progress
-  Type : Task
-}
-
-class "CNG-1252" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
   Status : In Progress
   Type : Task
 }
@@ -675,12 +667,6 @@ class "CNG-85" << (S,lightgreen) >> {
   Type : Story
 }
 
-class "CNG-966" << (B,red) >> {
-  Assigned to : Nigel Hassett
-  Status : Raised
-  Type : Bug
-}
-
 class "CNG-684" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : To Do
@@ -731,13 +717,13 @@ class "CNG-722" << (S,lightblue) >> {
 "CNG-760" <.. "CNG-1008" : Dependent
 "CNG-518" <.. "CNG-684" : Relates
 "CNG-518" <.. "CNG-739" : Relates
+"CNG-367" <.. "CNG-684" : Approval
 "CNG-55" <.. "CNG-393" : Dependent
 "CNG-55" <.. "CNG-1203" : Feature
 "CNG-55" <.. "CNG-684" : Relates
 "CNG-55" <.. "CNG-773" : Relates
 "CNG-1186" <.. "CNG-1173" : Dependent
 "CNG-684" <.. "CNG-90" : Relates
-"CNG-684" <.. "CNG-966" : Relates
 "CNG-684" <.. "CNG-999" : Relates
 "CNG-1190" <.. "CNG-385" : Issue split
 "CNG-1310" <.. "CNG-1163" : Dependent
@@ -749,10 +735,11 @@ class "CNG-722" << (S,lightblue) >> {
 "CNG-1290" <.. "CNG-1233" : Dependent
 "CNG-1291" <.. "CNG-1233" : Dependent
 "CNG-1292" <.. "CNG-1233" : Dependent
-"CNG-1293" <.. "CNG-1233" : Dependent
 "CNG-1308" <.. "CNG-1163" : Dependent
+"CNG-1293" <.. "CNG-1233" : Dependent
 "CNG-1309" <.. "CNG-1163" : Dependent
 "CNG-733" <.. "CNG-1360" : Automates
+"CNG-733" <.. "CNG-1385" : Automates
 "CNG-733" <.. "CNG-776" : Relates
 "CNG-733" <.. "CNG-1060" : Relates
 "CNG-733" <.. "CNG-1154" : Relates
@@ -765,7 +752,6 @@ class "CNG-722" << (S,lightblue) >> {
 "CNG-733" <.. "CNG-1330" : Relates
 "CNG-733" <.. "CNG-1331" : Relates
 "CNG-733" <.. "CNG-1329" : Relates
-"CNG-1252" <.. "CNG-1274" : Cloners
 "CNG-589" <.. "CNG-1363" : Relates
 "CNG-795" <.. "CNG-887" : Relates
 "CNG-591" <.. "CNG-339" : Relates

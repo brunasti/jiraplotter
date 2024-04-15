@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Fri Apr 12 19:54:48 CEST 2024
+' Generated at    : Mon Apr 15 11:44:38 CEST 2024
 
 hide empty members
 
@@ -11,14 +11,12 @@ Jira Ticket Status
 ----
 (To Do) : 36
 (Dev Review) : 1
-(In Progress) : 20
-(Raised) : 1
+(In Progress) : 23
 (Design Review) : 1
 ----
 Jira Ticket Types
 ----
-(Task) : 54
-(Bug) : 1
+(Task) : 57
 (Sub-task) : 4
 end legend
 
@@ -114,6 +112,12 @@ class "CNG-1251" << (T,lightblue) >> {
   Type : Task
 }
 
+class "CNG-1252" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : In Progress
+  Type : Task
+}
+
 class "CNG-1175" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
   Status : In Progress
@@ -165,6 +169,12 @@ class "CNG-589" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : In Progress
   Type : Sub-task
+}
+
+class "CNG-1299" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : In Progress
+  Type : Task
 }
 
 class "CNG-1179" << (T,lightblue) >> {
@@ -269,12 +279,6 @@ class "CNG-1301" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-1346" << (B,red) >> {
-  Assigned to : Rukaya Ogazi-Khan
-  Status : Raised
-  Type : Bug
-}
-
 class "CNG-1189" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
   Status : To Do
@@ -371,6 +375,12 @@ class "CNG-1154" << (T,lightblue) >> {
   Type : Task
 }
 
+class "CNG-1275" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : In Progress
+  Type : Task
+}
+
 class "CNG-1155" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
   Status : In Progress
@@ -397,6 +407,7 @@ class "CNG-1155" << (T,lightblue) >> {
 "CNG-1184" <.. "CNG-1290" : Dependent
 "CNG-1075" <.. "CNG-733" : Relates
 "CNG-1303" <.. "CNG-733" : Dependent
+"CNG-1252" <.. "CNG-1274" : Cloners
 "CNG-529" <.. "CNG-733" : Relates
 "CNG-1279" <.. "CNG-733" : Relates
 "CNG-1185" <.. "CNG-733" : Dependent

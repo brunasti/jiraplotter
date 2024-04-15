@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Fri Apr 12 19:54:48 CEST 2024
+' Generated at    : Mon Apr 15 11:44:38 CEST 2024
 
 hide empty members
 
@@ -11,17 +11,16 @@ Jira Ticket Status
 ----
 (QA) : 2
 (To Do) : 14
-(In Work) : 1
+(In Work) : 2
 (Dev Review) : 4
 (UAT) : 4
-(In Progress) : 15
-(Raised) : 1
+(In Progress) : 14
 (Design Review) : 2
 ----
 Jira Ticket Types
 ----
 (Risks) : 1
-(Task) : 16
+(Task) : 15
 (Bug) : 2
 (Sub-task) : 13
 (Story) : 11
@@ -200,12 +199,6 @@ class "CNG-629" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-1319" << (T,lightblue) >> {
-  Assigned to : Sushant Khandelwal
-  Status : In Progress
-  Type : Task
-}
-
 class "CNG-28" << (S,lightgreen) >> {
   Assigned to : Sulafa Malik
   Status : UAT
@@ -220,7 +213,7 @@ class "CNG-684" << (S,lightblue) >> {
 
 class "CNG-1336" << (B,red) >> {
   Assigned to : Sushant Khandelwal
-  Status : Raised
+  Status : In Work
   Type : Bug
 }
 
@@ -281,12 +274,12 @@ class "CNG-1011" << (R,red) >> {
 ' Links =======
 "CNG-356" <.. "CNG-73" : Relates
 "CNG-356" <.. "CNG-726" : Relates
-"CNG-82" <.. "CNG-393" : Dependent
-"CNG-82" <.. "CNG-1203" : Feature
 "CNG-388" <.. "CNG-67" : Dependent
 "CNG-388" <.. "CNG-809" : Feature
 "CNG-388" <.. "CNG-1173" : Feature
 "CNG-388" <.. "CNG-686" : Relates
+"CNG-82" <.. "CNG-393" : Dependent
+"CNG-82" <.. "CNG-1203" : Feature
 "CNG-620" <.. "CNG-604" : Dependent
 "CNG-70" <.. "CNG-1080" : Dependent
 "CNG-70" <.. "CNG-1082" : Dependent

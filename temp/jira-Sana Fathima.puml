@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Fri Apr 12 19:54:48 CEST 2024
+' Generated at    : Mon Apr 15 11:44:38 CEST 2024
 
 hide empty members
 
@@ -12,12 +12,13 @@ Jira Ticket Status
 (To Do) : 3
 (Denied) : 1
 (In Progress) : 1
+(Accepted) : 1
 ----
 Jira Ticket Types
 ----
 (Risks) : 2
 (Task) : 2
-(Project Request Package) : 1
+(Project Request Package) : 2
 end legend
 
 
@@ -37,6 +38,12 @@ class "CNG-1004" << (R,red) >> {
   Assigned to : Sana Fathima
   Status : In Progress
   Type : Risks
+}
+
+class "CNG-895" << (P,lightblue) >> {
+  Assigned to : Sana Fathima
+  Status : Accepted
+  Type : Project Request Package
 }
 
 class "CNG-993" << (R,red) >> {

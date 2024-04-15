@@ -2,22 +2,35 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Fri Apr 12 19:54:48 CEST 2024
+' Generated at    : Mon Apr 15 11:40:17 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
+(Withdrawn) : 2
 (Raised) : 1
 ----
 Jira Ticket Types
 ----
-(Bug) : 1
+(Bug) : 3
 end legend
 
 
 ' Tickets =======
+class "CNG-515" << (B,red) >> {
+  Assigned to : Pooja Ravi
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-442" << (B,red) >> {
+  Assigned to : Pooja Ravi
+  Status : Withdrawn
+  Type : Bug
+}
+
 class "CNG-854" << (B,red) >> {
   Assigned to : Pooja Ravi
   Status : Raised

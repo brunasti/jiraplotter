@@ -2,14 +2,14 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Fri Apr 12 19:54:48 CEST 2024
+' Generated at    : Mon Apr 15 11:44:38 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(QA) : 1
+(QA) : 2
 (To Do) : 3
 (Dev Review) : 1
 (Build) : 1
@@ -18,7 +18,7 @@ Jira Ticket Status
 ----
 Jira Ticket Types
 ----
-(Task) : 5
+(Task) : 6
 (Work Request) : 2
 (Bug) : 3
 (Sub-task) : 5
@@ -54,6 +54,12 @@ class "CNG-916" << (B,red) >> {
   Assigned to : Stephy Aniyan
   Status : In System Test
   Type : Bug
+}
+
+class "CNG-1319" << (T,lightblue) >> {
+  Assigned to : Stephy Aniyan
+  Status : QA
+  Type : Task
 }
 
 class "CNG-1039" << (S,lightblue) >> {

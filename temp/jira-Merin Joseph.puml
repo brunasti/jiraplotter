@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Fri Apr 12 19:54:48 CEST 2024
+' Generated at    : Mon Apr 15 11:44:38 CEST 2024
 
 hide empty members
 
@@ -11,20 +11,20 @@ Jira Ticket Status
 ----
 (QA) : 5
 (IN UAT) : 1
-(To Do) : 8
+(To Do) : 9
 (Dev Review) : 1
+(In Work) : 1
 (Build) : 1
 (Under Investigation) : 1
 (UAT) : 1
-(In Progress) : 11
+(In Progress) : 12
 (In System Test) : 1
-(Raised) : 3
 (Design Review) : 1
 ----
 Jira Ticket Types
 ----
-(Task) : 12
-(Bug) : 6
+(Task) : 14
+(Bug) : 4
 (Sub-task) : 10
 (Story) : 6
 end legend
@@ -73,22 +73,10 @@ class "CNG-717" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-937" << (B,red) >> {
-  Assigned to : Merin Joseph
-  Status : Raised
-  Type : Bug
-}
-
 class "CNG-255" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
   Status : Dev Review
   Type : Task
-}
-
-class "CNG-851" << (B,red) >> {
-  Assigned to : Merin Joseph
-  Status : Raised
-  Type : Bug
 }
 
 class "CNG-773" << (T,lightblue) >> {
@@ -106,12 +94,6 @@ class "CNG-1225" << (S,lightblue) >> {
 class "CNG-1344" << (B,red) >> {
   Assigned to : Merin Joseph
   Status : Under Investigation
-  Type : Bug
-}
-
-class "CNG-852" << (B,red) >> {
-  Assigned to : Merin Joseph
-  Status : Raised
   Type : Bug
 }
 
@@ -204,6 +186,18 @@ class "CNG-609" << (T,lightblue) >> {
   Type : Task
 }
 
+class "CNG-1379" << (T,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-366" << (B,red) >> {
+  Assigned to : Merin Joseph
+  Status : In Work
+  Type : Bug
+}
+
 class "CNG-685" << (S,lightblue) >> {
   Assigned to : Merin Joseph
   Status : To Do
@@ -222,6 +216,11 @@ class "CNG-1137" << (T,lightblue) >> {
   Type : Task
 }
 
+class "CNG-984" << (T,lightblue) >> {
+  Status : To Do
+  Type : Task
+}
+
 class "CNG-687" << (S,lightblue) >> {
   Assigned to : Sulafa Malik
   Status : To Do
@@ -237,6 +236,7 @@ class "CNG-667" << (S,lightblue) >> {
 
 ' Links =======
 "CNG-90" <.. "CNG-69" : Relates
+"CNG-366" <.. "CNG-984" : Relates
 "CNG-773" <.. "CNG-717" : Dependent
 "CNG-773" <.. "CNG-716" : Dependent
 "CNG-395" <.. "CNG-73" : Relates

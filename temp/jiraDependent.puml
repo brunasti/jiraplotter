@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Fri Apr 12 19:54:48 CEST 2024
+' Generated at    : Mon Apr 15 11:44:38 CEST 2024
 
 hide empty members
 
@@ -11,13 +11,13 @@ Jira Ticket Status
 ----
 (QA) : 5
 (In Review (migrated)) : 1
+(IN UAT) : 1
 (To Do) : 97
 (Dev Review) : 11
 (Build) : 2
 (UAT) : 13
 (In Progress) : 50
 (In System Test) : 2
-(Raised) : 1
 (Design Review) : 5
 ----
 Jira Ticket Types
@@ -750,7 +750,7 @@ class "CNG-1251" << (T,lightblue) >> {
 }
 
 class "CNG-1372" << (T,lightblue) >> {
-  Assigned to : Deepak Ingwale
+  Assigned to : Narayana Golla
   Status : To Do
   Type : Task
 }
@@ -801,6 +801,12 @@ class "CNG-508" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
   Status : To Do
   Type : Task
+}
+
+class "CNG-904" << (B,red) >> {
+  Assigned to : Sulafa Malik
+  Status : IN UAT
+  Type : Bug
 }
 
 class "CNG-629" << (T,lightblue) >> {
@@ -1035,12 +1041,6 @@ class "CNG-724" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-966" << (B,red) >> {
-  Assigned to : Nigel Hassett
-  Status : Raised
-  Type : Bug
-}
-
 class "CNG-727" << (S,lightblue) >> {
   Status : In Progress
   Type : Sub-task
@@ -1123,11 +1123,11 @@ class "CNG-689" << (S,lightblue) >> {
 "CNG-377" <.. "CNG-393" : Dependent
 "CNG-1017" <.. "CNG-388" : Dependent
 "CNG-944" <.. "CNG-961" : Dependent
-"CNG-210" <.. "CNG-393" : Dependent
 "CNG-257" <.. "CNG-393" : Dependent
+"CNG-210" <.. "CNG-393" : Dependent
 "CNG-1163" <.. "CNG-733" : Dependent
-"CNG-82" <.. "CNG-393" : Dependent
 "CNG-388" <.. "CNG-67" : Dependent
+"CNG-82" <.. "CNG-393" : Dependent
 "CNG-71" <.. "CNG-672" : Dependent
 "CNG-71" <.. "CNG-67" : Dependent
 "CNG-214" <.. "CNG-393" : Dependent
@@ -1183,18 +1183,20 @@ class "CNG-689" << (S,lightblue) >> {
 "CNG-1291" <.. "CNG-1233" : Dependent
 "CNG-559" <.. "CNG-560" : Dependent
 "CNG-1292" <.. "CNG-1233" : Dependent
-"CNG-1293" <.. "CNG-1233" : Dependent
 "CNG-1308" <.. "CNG-1163" : Dependent
+"CNG-1293" <.. "CNG-1233" : Dependent
 "CNG-940" <.. "CNG-592" : Dependent
 "CNG-932" <.. "CNG-809" : Dependent
 "CNG-1309" <.. "CNG-1163" : Dependent
-"CNG-69" <.. "CNG-67" : Dependent
 "CNG-339" <.. "CNG-393" : Dependent
+"CNG-69" <.. "CNG-67" : Dependent
+"CNG-904" <.. "CNG-557" : Dependent
+"CNG-904" <.. "CNG-559" : Dependent
 "CNG-1303" <.. "CNG-733" : Dependent
+"CNG-1285" <.. "CNG-1290" : Dependent
 "CNG-255" <.. "CNG-79" : Dependent
 "CNG-255" <.. "CNG-81" : Dependent
 "CNG-255" <.. "CNG-393" : Dependent
-"CNG-1285" <.. "CNG-1290" : Dependent
 "CNG-807" <.. "CNG-558" : Dependent
 "CNG-689" <.. "CNG-533" : Dependent
 "CNG-826" <.. "CNG-395" : Dependent
@@ -1271,8 +1273,8 @@ class "CNG-689" << (S,lightblue) >> {
 "CNG-731" <.. "CNG-760" : Dependent
 "CNG-730" <.. "CNG-760" : Dependent
 "CNG-66" <.. "CNG-393" : Dependent
-"CNG-333" <.. "CNG-68" : Dependent
 "CNG-924" <.. "CNG-558" : Dependent
+"CNG-333" <.. "CNG-68" : Dependent
 "CNG-1267" <.. "CNG-1253" : Dependent
 "CNG-1266" <.. "CNG-1253" : Dependent
 "CNG-1265" <.. "CNG-1253" : Dependent
@@ -1288,9 +1290,8 @@ class "CNG-689" << (S,lightblue) >> {
 "CNG-645" <.. "CNG-81" : Dependent
 "CNG-1180" <.. "CNG-1290" : Dependent
 "CNG-1045" <.. "CNG-68" : Dependent
-"CNG-391" <.. "CNG-393" : Dependent
 "CNG-647" <.. "CNG-67" : Dependent
-"CNG-966" <.. "CNG-70" : Dependent
+"CNG-391" <.. "CNG-393" : Dependent
 
 
 @enduml

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Fri Apr 12 19:54:48 CEST 2024
+' Generated at    : Mon Apr 15 11:44:38 CEST 2024
 
 hide empty members
 
@@ -10,16 +10,13 @@ legend
 Jira Ticket Status
 ----
 (To Do) : 14
-(Done) : 1
 (Dev Review) : 1
 (Build) : 1
 (In Progress) : 9
-(Raised) : 1
 ----
 Jira Ticket Types
 ----
-(Task) : 14
-(Bug) : 1
+(Task) : 13
 (Sub-task) : 10
 (Story) : 2
 end legend
@@ -36,12 +33,6 @@ class "CNG-738" << (T,lightblue) >> {
   Assigned to : Anand Dixit
   Status : To Do
   Type : Task
-}
-
-class "CNG-539" << (B,red) >> {
-  Assigned to : Anand Dixit
-  Status : Raised
-  Type : Bug
 }
 
 class "CNG-596" << (S,lightblue) >> {
@@ -90,12 +81,6 @@ class "CNG-592" << (S,lightblue) >> {
   Assigned to : Anand Dixit
   Status : To Do
   Type : Sub-task
-}
-
-class "CNG-493" << (T,lightblue) >> {
-  Assigned to : Anand Dixit
-  Status : Done
-  Type : Task
 }
 
 class "CNG-393" << (S,lightgreen) >> {

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Fri Apr 12 19:54:48 CEST 2024
+' Generated at    : Mon Apr 15 11:44:38 CEST 2024
 
 hide empty members
 
@@ -12,12 +12,13 @@ Jira Ticket Status
 (To Do) : 6
 (Dev Review) : 1
 (UAT) : 4
-(In Progress) : 15
+(In Progress) : 17
 (Design Review) : 2
 ----
 Jira Ticket Types
 ----
-(Task) : 12
+(Task) : 13
+(Issue) : 1
 (Sub-task) : 11
 (Story) : 5
 end legend
@@ -64,6 +65,12 @@ class "CNG-1305" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
   Status : In Progress
   Type : Task
+}
+
+class "CNG-1229" << (I,orange) >> {
+  Assigned to : Dileep
+  Status : In Progress
+  Type : Issue
 }
 
 class "CNG-1205" << (T,lightblue) >> {
@@ -180,8 +187,14 @@ class "CNG-388" << (S,lightgreen) >> {
   Type : Story
 }
 
+class "CNG-1379" << (T,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : In Progress
+  Type : Task
+}
+
 class "CNG-1275" << (T,lightblue) >> {
-  Assigned to : Paolo Brunasti
+  Assigned to : Rukaya Ogazi-Khan
   Status : In Progress
   Type : Task
 }
@@ -217,6 +230,8 @@ class "CNG-1210" << (S,lightblue) >> {
 "CNG-873" <.. "CNG-1275" : Relates
 "CNG-873" <.. "CNG-1305" : Relates
 "CNG-873" <.. "CNG-1315" : Relates
+"CNG-873" <.. "CNG-1229" : Relates
+"CNG-873" <.. "CNG-1379" : Relates
 
 
 @enduml

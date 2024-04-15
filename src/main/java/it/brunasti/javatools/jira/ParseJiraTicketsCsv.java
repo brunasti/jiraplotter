@@ -86,8 +86,8 @@ public class ParseJiraTicketsCsv {
 
     jiraTickets.forEach(jiraTicket ->
       jiraTicket.inwardIssueLink.forEach(links -> {
-        if (links.name.contains(linkKind)) {
-          links.jiraTikets.forEach(link -> {
+        if (links.getName().contains(linkKind)) {
+          links.getJiraTickets().forEach(link -> {
             selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
             selectedJiraTickets.put(link.issueKey.getFirst(), link);
           });
@@ -106,8 +106,8 @@ public class ParseJiraTicketsCsv {
       if ((!jiraTicket.assignee.isEmpty()) && (jiraTicket.assignee.getFirst().equalsIgnoreCase(person))) {
         selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
         jiraTicket.inwardIssueLink.forEach(links -> {
-          if (links.name.contains(linkKind)) {
-            links.jiraTikets.forEach(link -> selectedJiraTickets.put(link.issueKey.getFirst(), link));
+          if (links.getName().contains(linkKind)) {
+            links.getJiraTickets().forEach(link -> selectedJiraTickets.put(link.issueKey.getFirst(), link));
           }
         });
       }
@@ -164,8 +164,8 @@ public class ParseJiraTicketsCsv {
 
     jiraTickets.forEach(jiraTicket ->
       jiraTicket.inwardIssueLink.forEach(links -> {
-        if (links.name.contains(kind)) {
-          links.jiraTikets.forEach(link -> {
+        if (links.getName().contains(kind)) {
+          links.getJiraTickets().forEach(link -> {
             selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
             selectedJiraTickets.put(link.issueKey.getFirst(), link);
           });
@@ -188,7 +188,7 @@ public class ParseJiraTicketsCsv {
           log.debug("generateTicketsPerPersonLinks [{}]", jiraTicket.issueKey.getFirst());
           selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
           jiraTicket.inwardIssueLink.forEach(links ->
-              links.jiraTikets.forEach(link -> selectedJiraTickets.put(link.issueKey.getFirst(), link))
+              links.getJiraTickets().forEach(link -> selectedJiraTickets.put(link.issueKey.getFirst(), link))
           );
         }
     });
@@ -229,7 +229,7 @@ public class ParseJiraTicketsCsv {
     output.println(HEADER_LINKS);
     jiraTickets.forEach(jiraTicket ->
       jiraTicket.inwardIssueLink.forEach(links ->
-        links.jiraTikets.forEach(link ->
+        links.getJiraTickets().forEach(link ->
           output.println("\"" + jiraTicket.issueKey.getFirst() + DEFINITION_LINK_SIMPLE_MIDDLE + link.issueKey.getFirst()+ DEFINITION_LINK_SIMPLE_END +links.getShortName())
         )
       )
@@ -242,8 +242,8 @@ public class ParseJiraTicketsCsv {
     output.println(HEADER_LINKS);
     jiraTickets.forEach(jiraTicket ->
       jiraTicket.inwardIssueLink.forEach(links -> {
-        if (links.name.contains(kind)) {
-          links.jiraTikets.forEach(link ->
+        if (links.getName().contains(kind)) {
+          links.getJiraTickets().forEach(link ->
             output.println("\"" + jiraTicket.issueKey.getFirst() + DEFINITION_LINK_SIMPLE_MIDDLE + link.issueKey.getFirst() + DEFINITION_LINK_SIMPLE_END + links.getShortName())
           );
         }
@@ -258,7 +258,7 @@ public class ParseJiraTicketsCsv {
     jiraTickets.forEach(jiraTicket -> {
       if ((!jiraTicket.assignee.isEmpty()) && (jiraTicket.assignee.getFirst().equalsIgnoreCase(person)))
           jiraTicket.inwardIssueLink.forEach(links ->
-            links.jiraTikets.forEach(link ->
+            links.getJiraTickets().forEach(link ->
               output.println("\"" + jiraTicket.issueKey.getFirst() + DEFINITION_LINK_SIMPLE_MIDDLE + link.issueKey.getFirst() + DEFINITION_LINK_SIMPLE_END + links.getShortName())
             )
           );
@@ -292,7 +292,7 @@ public class ParseJiraTicketsCsv {
   // TODO: Decompose in smaller functions....
   public static void main(String[] args) throws IOException, CsvException {
 
-    String fileName = "./src/test/resources/jira-full.csv";
+    String fileName = "./src/test/resources/jira-open.csv";
     try (CSVReader reader = new CSVReader(new FileReader(fileName))) {
       List<String[]> r = reader.readAll();
 
@@ -314,9 +314,7 @@ public class ParseJiraTicketsCsv {
           log.info("                   ->  FieldDescriptor  : [{}]",fieldDescriptor);
           if (fieldDescriptor.name.contains("link")) {
             log.info("                   ->  LINK : FieldDescriptor  : [{}]", fieldDescriptor);
-            JiraTicketLinkDescriptor jiraTicketLinkDescriptor = new JiraTicketLinkDescriptor();
-            jiraTicketLinkDescriptor.name = field;
-            jiraTicketLinkDescriptor.fieldDescriptor = fieldDescriptor;
+            JiraTicketLinkDescriptor jiraTicketLinkDescriptor = new JiraTicketLinkDescriptor(field, fieldDescriptor);
             jiraTicketLinkDescriptors.add(jiraTicketLinkDescriptor);
           }
         }
