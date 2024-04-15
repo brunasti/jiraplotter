@@ -10,7 +10,6 @@ public class JiraTicketLinkDescriptor {
   String name;
   FieldDescriptor fieldDescriptor;
 
-
   public String getShortName() {
     return Utils.getShortName(name);
   }

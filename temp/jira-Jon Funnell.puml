@@ -1,0 +1,169 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Fri Apr 12 19:54:48 CEST 2024
+
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(QA) : 1
+(IN UAT) : 2
+(To Do) : 14
+(Under Investigation) : 1
+(In Progress) : 2
+(Raised) : 1
+----
+Jira Ticket Types
+----
+(Task) : 3
+(Bug) : 4
+(Sub-task) : 5
+(Story) : 9
+end legend
+
+
+' Tickets =======
+class "CNG-1173" << (S,lightblue) >> {
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-1192" << (T,lightblue) >> {
+  Assigned to : Jon Funnell
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-70" << (S,lightgreen) >> {
+  Assigned to : Sushant Khandelwal
+  Status : In Progress
+  Type : Story
+}
+
+class "CNG-93" << (S,lightgreen) >> {
+  Assigned to : Jon Funnell
+  Status : To Do
+  Type : Story
+}
+
+class "CNG-72" << (S,lightgreen) >> {
+  Assigned to : Jon Funnell
+  Status : To Do
+  Type : Story
+}
+
+class "CNG-41" << (S,lightgreen) >> {
+  Assigned to : Jon Funnell
+  Status : To Do
+  Type : Story
+}
+
+class "CNG-77" << (S,lightgreen) >> {
+  Assigned to : Jon Funnell
+  Status : To Do
+  Type : Story
+}
+
+class "CNG-55" << (S,lightgreen) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Story
+}
+
+class "CNG-845" << (T,lightblue) >> {
+  Assigned to : Jon Funnell
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-67" << (S,lightgreen) >> {
+  Assigned to : Jon Funnell
+  Status : To Do
+  Type : Story
+}
+
+class "CNG-804" << (S,lightblue) >> {
+  Assigned to : Jon Funnell
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-68" << (S,lightgreen) >> {
+  Assigned to : Anand Jajoo
+  Status : To Do
+  Type : Story
+}
+
+class "CNG-1207" << (S,lightblue) >> {
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-741" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1048" << (S,lightgreen) >> {
+  Assigned to : Jon Funnell
+  Status : To Do
+  Type : Story
+}
+
+class "CNG-521" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : IN UAT
+  Type : Bug
+}
+
+class "CNG-686" << (S,lightblue) >> {
+  Status : QA
+  Type : Sub-task
+}
+
+class "CNG-765" << (S,lightblue) >> {
+  Assigned to : Jon Funnell
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-336" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : IN UAT
+  Type : Bug
+}
+
+class "CNG-500" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Under Investigation
+  Type : Bug
+}
+
+class "CNG-502" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Raised
+  Type : Bug
+}
+
+
+
+' Links =======
+"CNG-72" <.. "CNG-70" : Relates
+"CNG-1192" <.. "CNG-70" : Issue split
+"CNG-77" <.. "CNG-741" : Feature
+"CNG-67" <.. "CNG-1173" : Feature
+"CNG-41" <.. "CNG-741" : Feature
+"CNG-502" <.. "CNG-55" : Approval
+"CNG-93" <.. "CNG-68" : Approval
+"CNG-93" <.. "CNG-1207" : Feature
+"CNG-1048" <.. "CNG-68" : Dependent
+"CNG-1048" <.. "CNG-1207" : Feature
+"CNG-804" <.. "CNG-67" : Dependent
+"CNG-521" <.. "CNG-686" : Relates
+
+
+@enduml

@@ -1,0 +1,78 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Fri Apr 12 19:54:48 CEST 2024
+
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 2
+(In Progress) : 6
+----
+Jira Ticket Types
+----
+(Task) : 7
+(Issue) : 1
+end legend
+
+
+' Tickets =======
+class "CNG-1271" << (T,lightblue) >> {
+  Assigned to : BharathKum Sarangarajan
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1360" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-1229" << (I,orange) >> {
+  Assigned to : Dileep
+  Status : In Progress
+  Type : Issue
+}
+
+class "CNG-1299" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-1300" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-1286" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1253" << (T,lightblue) >> {
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-1254" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : In Progress
+  Type : Task
+}
+
+
+
+' Links =======
+"CNG-1286" <.. "CNG-1254" : Dependent
+"CNG-1254" <.. "CNG-1253" : Dependent
+"CNG-1254" <.. "CNG-1271" : Dependent
+
+
+@enduml

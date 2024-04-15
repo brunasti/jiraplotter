@@ -1,0 +1,40 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Fri Apr 12 19:54:48 CEST 2024
+
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(QA) : 1
+(In Progress) : 1
+----
+Jira Ticket Types
+----
+(Task) : 2
+end legend
+
+
+' Tickets =======
+class "CNG-1153" << (T,lightblue) >> {
+  Assigned to : Stephy Aniyan
+  Status : QA
+  Type : Task
+}
+
+class "CNG-1151" << (T,lightblue) >> {
+  Assigned to : BharathKum Sarangarajan
+  Status : In Progress
+  Type : Task
+}
+
+
+
+' Links =======
+"CNG-1153" <.. "CNG-1151" : Polaris issue link
+
+
+@enduml

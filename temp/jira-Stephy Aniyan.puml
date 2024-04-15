@@ -1,0 +1,129 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Fri Apr 12 19:54:48 CEST 2024
+
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(QA) : 1
+(To Do) : 3
+(Dev Review) : 1
+(Build) : 1
+(In Progress) : 6
+(In System Test) : 3
+----
+Jira Ticket Types
+----
+(Task) : 5
+(Work Request) : 2
+(Bug) : 3
+(Sub-task) : 5
+end legend
+
+
+' Tickets =======
+class "CNG-1295" << (W,lightblue) >> {
+  Assigned to : Stephy Aniyan
+  Status : In Progress
+  Type : Work Request
+}
+
+class "CNG-1153" << (T,lightblue) >> {
+  Assigned to : Stephy Aniyan
+  Status : QA
+  Type : Task
+}
+
+class "CNG-1142" << (T,lightblue) >> {
+  Assigned to : Stephy Aniyan
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1151" << (T,lightblue) >> {
+  Assigned to : BharathKum Sarangarajan
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-916" << (B,red) >> {
+  Assigned to : Stephy Aniyan
+  Status : In System Test
+  Type : Bug
+}
+
+class "CNG-1039" << (S,lightblue) >> {
+  Assigned to : Stephy Aniyan
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-1038" << (S,lightblue) >> {
+  Assigned to : Stephy Aniyan
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-685" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-1013" << (B,red) >> {
+  Assigned to : Stephy Aniyan
+  Status : In System Test
+  Type : Bug
+}
+
+class "CNG-1134" << (T,lightblue) >> {
+  Assigned to : Stephy Aniyan
+  Status : Build
+  Type : Task
+}
+
+class "CNG-1058" << (T,lightblue) >> {
+  Assigned to : Stephy Aniyan
+  Status : Dev Review
+  Type : Task
+}
+
+class "CNG-1146" << (W,lightblue) >> {
+  Assigned to : Stephy Aniyan
+  Status : In Progress
+  Type : Work Request
+}
+
+class "CNG-558" << (S,lightblue) >> {
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-1012" << (B,red) >> {
+  Assigned to : Stephy Aniyan
+  Status : In System Test
+  Type : Bug
+}
+
+class "CNG-557" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Progress
+  Type : Sub-task
+}
+
+
+
+' Links =======
+"CNG-1013" <.. "CNG-558" : Relates
+"CNG-1012" <.. "CNG-558" : Relates
+"CNG-1153" <.. "CNG-1151" : Polaris issue link
+"CNG-1153" <.. "CNG-685" : Relates
+"CNG-916" <.. "CNG-557" : Dependent
+"CNG-1142" <.. "CNG-1039" : Relates
+
+
+@enduml

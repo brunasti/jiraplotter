@@ -1,0 +1,167 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Fri Apr 12 19:54:48 CEST 2024
+
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 3
+(Dev Review) : 5
+(In Work) : 5
+(Build) : 1
+(In Progress) : 4
+(Raised) : 2
+----
+Jira Ticket Types
+----
+(Task) : 2
+(Bug) : 7
+(Sub-task) : 4
+(Story) : 7
+end legend
+
+
+' Tickets =======
+class "CNG-393" << (S,lightgreen) >> {
+  Assigned to : Deepak Ingwale
+  Status : In Progress
+  Type : Story
+}
+
+class "CNG-81" << (S,lightgreen) >> {
+  Assigned to : Sushant Khandelwal
+  Status : Dev Review
+  Type : Story
+}
+
+class "CNG-79" << (S,lightgreen) >> {
+  Assigned to : Deepak Ingwale
+  Status : Build
+  Type : Story
+}
+
+class "CNG-376" << (S,lightgreen) >> {
+  Assigned to : Abdul Kader Nabil
+  Status : Dev Review
+  Type : Story
+}
+
+class "CNG-596" << (S,lightblue) >> {
+  Assigned to : Anand Dixit
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-684" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-1358" << (B,red) >> {
+  Assigned to : Abdul Kader Nabil
+  Status : Raised
+  Type : Bug
+}
+
+class "CNG-1348" << (B,red) >> {
+  Assigned to : Abdul Kader Nabil
+  Status : In Work
+  Type : Bug
+}
+
+class "CNG-377" << (S,lightgreen) >> {
+  Assigned to : Abinaya Arumugasamy
+  Status : Dev Review
+  Type : Story
+}
+
+class "CNG-1203" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-685" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-1365" << (B,red) >> {
+  Assigned to : Abdul Kader Nabil
+  Status : In Work
+  Type : Bug
+}
+
+class "CNG-369" << (S,lightgreen) >> {
+  Assigned to : Abdul Kader Nabil
+  Status : Dev Review
+  Type : Story
+}
+
+class "CNG-1354" << (B,red) >> {
+  Assigned to : Abdul Kader Nabil
+  Status : Raised
+  Type : Bug
+}
+
+class "CNG-874" << (T,lightblue) >> {
+  Assigned to : Abdul Kader Nabil
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-269" << (S,lightgreen) >> {
+  Assigned to : Abdul Kader Nabil
+  Status : Dev Review
+  Type : Story
+}
+
+class "CNG-1355" << (B,red) >> {
+  Assigned to : Abdul Kader Nabil
+  Status : In Work
+  Type : Bug
+}
+
+class "CNG-1352" << (B,red) >> {
+  Assigned to : Abdul Kader Nabil
+  Status : In Work
+  Type : Bug
+}
+
+class "CNG-415" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1364" << (B,red) >> {
+  Assigned to : Abdul Kader Nabil
+  Status : In Work
+  Type : Bug
+}
+
+
+
+' Links =======
+"CNG-874" <.. "CNG-79" : Dependent
+"CNG-874" <.. "CNG-81" : Dependent
+"CNG-376" <.. "CNG-79" : Dependent
+"CNG-376" <.. "CNG-81" : Dependent
+"CNG-376" <.. "CNG-377" : Relates
+"CNG-269" <.. "CNG-415" : Approval
+"CNG-269" <.. "CNG-596" : Dependent
+"CNG-269" <.. "CNG-393" : Dependent
+"CNG-269" <.. "CNG-684" : Feature
+"CNG-269" <.. "CNG-1203" : Feature
+"CNG-269" <.. "CNG-685" : Relates
+"CNG-369" <.. "CNG-79" : Dependent
+"CNG-369" <.. "CNG-81" : Dependent
+
+
+@enduml

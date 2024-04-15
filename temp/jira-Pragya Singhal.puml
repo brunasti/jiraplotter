@@ -1,0 +1,41 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Fri Apr 12 19:54:48 CEST 2024
+
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 1
+(In Progress) : 1
+----
+Jira Ticket Types
+----
+(Task) : 1
+(Sub-task) : 1
+end legend
+
+
+' Tickets =======
+class "CNG-961" << (S,lightblue) >> {
+  Assigned to : Anand Jajoo
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-974" << (T,lightblue) >> {
+  Assigned to : Pragya Singhal
+  Status : To Do
+  Type : Task
+}
+
+
+
+' Links =======
+"CNG-974" <.. "CNG-961" : Dependent
+
+
+@enduml

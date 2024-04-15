@@ -1,0 +1,151 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Fri Apr 12 19:54:48 CEST 2024
+
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 12
+(In Work) : 2
+(Under Investigation) : 1
+(In Progress) : 3
+(Raised) : 1
+----
+Jira Ticket Types
+----
+(Task) : 4
+(Bug) : 4
+(Sub-task) : 9
+(Story) : 2
+end legend
+
+
+' Tickets =======
+class "CNG-1040" << (S,lightblue) >> {
+  Assigned to : Anand Jajoo
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-1060" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-68" << (S,lightgreen) >> {
+  Assigned to : Anand Jajoo
+  Status : To Do
+  Type : Story
+}
+
+class "CNG-1209" << (S,lightblue) >> {
+  Assigned to : Anand Jajoo
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-709" << (T,lightblue) >> {
+  Assigned to : Anand Dixit
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1207" << (S,lightblue) >> {
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-1215" << (S,lightblue) >> {
+  Assigned to : Anand Jajoo
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-1337" << (B,red) >> {
+  Assigned to : Anand Jajoo
+  Status : Raised
+  Type : Bug
+}
+
+class "CNG-961" << (S,lightblue) >> {
+  Assigned to : Anand Jajoo
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-1356" << (B,red) >> {
+  Assigned to : Anand Jajoo
+  Status : In Work
+  Type : Bug
+}
+
+class "CNG-1213" << (S,lightblue) >> {
+  Assigned to : Anand Jajoo
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-1214" << (S,lightblue) >> {
+  Assigned to : Anand Jajoo
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-1049" << (S,lightgreen) >> {
+  Assigned to : Anand Jajoo
+  Status : To Do
+  Type : Story
+}
+
+class "CNG-1211" << (S,lightblue) >> {
+  Assigned to : Anand Jajoo
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-1333" << (B,red) >> {
+  Assigned to : Anand Jajoo
+  Status : Under Investigation
+  Type : Bug
+}
+
+class "CNG-1212" << (S,lightblue) >> {
+  Assigned to : Anand Jajoo
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-1022" << (T,lightblue) >> {
+  Assigned to : Anand Jajoo
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1353" << (B,red) >> {
+  Assigned to : Anand Jajoo
+  Status : In Work
+  Type : Bug
+}
+
+class "CNG-975" << (T,lightblue) >> {
+  Assigned to : Anand Jajoo
+  Status : In Progress
+  Type : Task
+}
+
+
+
+' Links =======
+"CNG-68" <.. "CNG-709" : Enable
+"CNG-68" <.. "CNG-1207" : Feature
+"CNG-1049" <.. "CNG-68" : Dependent
+"CNG-1049" <.. "CNG-1207" : Feature
+"CNG-961" <.. "CNG-1060" : Approval
+
+
+@enduml
