@@ -2,14 +2,14 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 15:18:49 CEST 2024
+' Generated at    : Mon Apr 15 15:33:04 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(To Do) : 13
+(To Do) : 11
 (Under Investigation) : 1
 (In Progress) : 7
 (On Hold / Monitoring) : 1
@@ -19,7 +19,7 @@ Jira Ticket Types
 ----
 (Task) : 12
 (Bug) : 2
-(Sub-task) : 6
+(Sub-task) : 4
 (Story) : 3
 end legend
 
@@ -40,11 +40,6 @@ class "CNG-352" << (B,red) >> {
   Assigned to : Nigel Hassett
   Status : On Hold / Monitoring
   Type : Bug
-}
-
-class "CNG-682" << (S,lightblue) >> {
-  Status : To Do
-  Type : Sub-task
 }
 
 class "CNG-75" << (S,lightgreen) >> {
@@ -107,12 +102,6 @@ class "CNG-795" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-710" << (S,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Sub-task
-}
-
 class "CNG-1222" << (T,lightblue) >> {
   Assigned to : Nigel Hassett
   Status : To Do
@@ -164,38 +153,14 @@ class "CNG-953" << (T,lightblue) >> {
 
 ' Links =======
 "CNG-1218" <.. "CNG-733" : Dependent
-"CNG-1218" <.. "CNG-733" : Dependent
-"CNG-1218" <.. "CNG-733" : Dependent
-"CNG-1218" <.. "CNG-733" : Dependent
 "CNG-352" <.. "CNG-679" : Relates
-"CNG-352" <.. "CNG-679" : Relates
-"CNG-865" <.. "CNG-961" : Dependent
-"CNG-865" <.. "CNG-710" : Relates
-"CNG-865" <.. "CNG-961" : Dependent
-"CNG-865" <.. "CNG-710" : Relates
-"CNG-865" <.. "CNG-961" : Dependent
-"CNG-865" <.. "CNG-68" : Relates
 "CNG-865" <.. "CNG-961" : Dependent
 "CNG-865" <.. "CNG-68" : Relates
 "CNG-953" <.. "CNG-795" : Relates
-"CNG-953" <.. "CNG-795" : Relates
-"CNG-48" <.. "CNG-626" : Automates
-"CNG-48" <.. "CNG-682" : Relates
-"CNG-48" <.. "CNG-626" : Automates
-"CNG-48" <.. "CNG-682" : Relates
 "CNG-48" <.. "CNG-626" : Relates
-"CNG-48" <.. "CNG-626" : Relates
-"CNG-364" <.. "CNG-679" : Relates
-"CNG-364" <.. "CNG-679" : Relates
-"CNG-75" <.. "CNG-1173" : Feature
 "CNG-75" <.. "CNG-1173" : Feature
 "CNG-1222" <.. "CNG-873" : Relates
-"CNG-1222" <.. "CNG-873" : Relates
 "CNG-294" <.. "CNG-679" : Relates
-"CNG-294" <.. "CNG-679" : Relates
-"CNG-1234" <.. "CNG-1233" : Dependent
-"CNG-1234" <.. "CNG-1233" : Dependent
-"CNG-1234" <.. "CNG-1233" : Dependent
 "CNG-1234" <.. "CNG-1233" : Dependent
 
 

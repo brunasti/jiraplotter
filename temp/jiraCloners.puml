@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 15:18:49 CEST 2024
+' Generated at    : Mon Apr 15 15:33:04 CEST 2024
 
 hide empty members
 
@@ -12,12 +12,12 @@ Jira Ticket Status
 (QA) : 2
 (To Do) : 3
 (UAT) : 2
-(In Progress) : 5
+(In Progress) : 3
 (Design Review) : 3
 ----
 Jira Ticket Types
 ----
-(Task) : 8
+(Task) : 6
 (Sub-task) : 2
 (Story) : 5
 end legend
@@ -33,12 +33,6 @@ class "CNG-1252" << (T,lightblue) >> {
 class "CNG-1274" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
   Status : To Do
-  Type : Task
-}
-
-class "CNG-1151" << (T,lightblue) >> {
-  Assigned to : BharathKum Sarangarajan
-  Status : In Progress
   Type : Task
 }
 
@@ -96,12 +90,6 @@ class "CNG-387" << (S,lightgreen) >> {
   Type : Story
 }
 
-class "CNG-1205" << (T,lightblue) >> {
-  Assigned to : Sivagami S
-  Status : In Progress
-  Type : Task
-}
-
 class "CNG-1216" << (S,lightblue) >> {
   Assigned to : Paolo Brunasti
   Status : In Progress
@@ -117,33 +105,12 @@ class "CNG-388" << (S,lightgreen) >> {
 
 
 ' Links =======
-"CNG-1205" <.. "CNG-1151" : Cloners
-"CNG-1205" <.. "CNG-1151" : Cloners
-"CNG-977" <.. "CNG-1216" : Cloners
-"CNG-977" <.. "CNG-1216" : Cloners
-"CNG-977" <.. "CNG-1216" : Cloners
 "CNG-977" <.. "CNG-1216" : Cloners
 "CNG-989" <.. "CNG-990" : Cloners
-"CNG-989" <.. "CNG-990" : Cloners
-"CNG-989" <.. "CNG-990" : Cloners
-"CNG-989" <.. "CNG-990" : Cloners
-"CNG-69" <.. "CNG-388" : Cloners
-"CNG-69" <.. "CNG-388" : Cloners
-"CNG-69" <.. "CNG-388" : Cloners
-"CNG-69" <.. "CNG-387" : Cloners
 "CNG-69" <.. "CNG-388" : Cloners
 "CNG-69" <.. "CNG-387" : Cloners
 "CNG-394" <.. "CNG-395" : Cloners
-"CNG-394" <.. "CNG-395" : Cloners
-"CNG-394" <.. "CNG-395" : Cloners
-"CNG-394" <.. "CNG-395" : Cloners
 "CNG-1252" <.. "CNG-1274" : Cloners
-"CNG-1252" <.. "CNG-1274" : Cloners
-"CNG-1252" <.. "CNG-1274" : Cloners
-"CNG-1252" <.. "CNG-1274" : Cloners
-"CNG-87" <.. "CNG-391" : Cloners
-"CNG-87" <.. "CNG-391" : Cloners
-"CNG-87" <.. "CNG-391" : Cloners
 "CNG-87" <.. "CNG-391" : Cloners
 
 

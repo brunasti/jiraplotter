@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 15:18:49 CEST 2024
+' Generated at    : Mon Apr 15 15:33:04 CEST 2024
 
 hide empty members
 
@@ -10,11 +10,11 @@ legend
 Jira Ticket Status
 ----
 (In Review (migrated)) : 1
-(In Progress) : 3
+(In Progress) : 2
 ----
 Jira Ticket Types
 ----
-(Task) : 2
+(Task) : 1
 (Sub-task) : 2
 end legend
 
@@ -32,12 +32,6 @@ class "CNG-1030" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-1151" << (T,lightblue) >> {
-  Assigned to : BharathKum Sarangarajan
-  Status : In Progress
-  Type : Task
-}
-
 class "CNG-1123" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
   Status : In Progress
@@ -47,11 +41,6 @@ class "CNG-1123" << (T,lightblue) >> {
 
 
 ' Links =======
-"CNG-1030" <.. "CNG-1123" : Dependent
-"CNG-1030" <.. "CNG-1151" : Relates
-"CNG-1030" <.. "CNG-1123" : Dependent
-"CNG-1030" <.. "CNG-1151" : Relates
-"CNG-1030" <.. "CNG-1123" : Dependent
 "CNG-1030" <.. "CNG-1123" : Dependent
 
 

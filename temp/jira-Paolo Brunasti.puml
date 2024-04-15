@@ -2,14 +2,14 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 15:18:49 CEST 2024
+' Generated at    : Mon Apr 15 15:33:04 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(To Do) : 7
+(To Do) : 6
 (Dev Review) : 1
 (UAT) : 4
 (In Progress) : 17
@@ -17,7 +17,7 @@ Jira Ticket Status
 ----
 Jira Ticket Types
 ----
-(Task) : 14
+(Task) : 13
 (Issue) : 1
 (Sub-task) : 11
 (Story) : 5
@@ -55,14 +55,14 @@ class "CNG-977" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-1305" << (T,lightblue) >> {
-  Assigned to : Rukaya Ogazi-Khan
+class "CNG-1107" << (T,lightblue) >> {
+  Assigned to : Paolo Brunasti
   Status : In Progress
   Type : Task
 }
 
-class "CNG-1107" << (T,lightblue) >> {
-  Assigned to : Paolo Brunasti
+class "CNG-1305" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
   Status : In Progress
   Type : Task
 }
@@ -82,12 +82,6 @@ class "CNG-1205" << (T,lightblue) >> {
 class "CNG-873" << (T,lightblue) >> {
   Assigned to : Paolo Brunasti
   Status : In Progress
-  Type : Task
-}
-
-class "CNG-1222" << (T,lightblue) >> {
-  Assigned to : Nigel Hassett
-  Status : To Do
   Type : Task
 }
 
@@ -133,15 +127,15 @@ class "CNG-1273" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-1274" << (T,lightblue) >> {
-  Assigned to : Rukaya Ogazi-Khan
-  Status : To Do
-  Type : Task
-}
-
 class "CNG-1230" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : In Progress
+  Type : Task
+}
+
+class "CNG-1274" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : To Do
   Type : Task
 }
 
@@ -175,16 +169,16 @@ class "CNG-1315" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-1235" << (T,lightblue) >> {
-  Assigned to : Paolo Brunasti
-  Status : In Progress
-  Type : Task
-}
-
 class "CNG-961" << (S,lightblue) >> {
   Assigned to : Anand Jajoo
   Status : In Progress
   Type : Sub-task
+}
+
+class "CNG-1235" << (T,lightblue) >> {
+  Assigned to : Paolo Brunasti
+  Status : In Progress
+  Type : Task
 }
 
 class "CNG-1379" << (T,lightblue) >> {
@@ -214,37 +208,6 @@ class "CNG-1210" << (S,lightblue) >> {
 
 
 ' Links =======
-"CNG-1216" <.. "CNG-977" : Defect
-"CNG-1216" <.. "CNG-977" : Defect
-"CNG-873" <.. "CNG-1273" : Gantt End to Start
-"CNG-873" <.. "CNG-1274" : Gantt End to Start
-"CNG-873" <.. "CNG-1305" : Polaris issue link
-"CNG-873" <.. "CNG-1229" : Relates
-"CNG-873" <.. "CNG-1379" : Relates
-"CNG-873" <.. "CNG-1222" : Relates
-"CNG-873" <.. "CNG-1235" : Relates
-"CNG-873" <.. "CNG-1273" : Gantt End to Start
-"CNG-873" <.. "CNG-1274" : Gantt End to Start
-"CNG-873" <.. "CNG-1305" : Polaris issue link
-"CNG-873" <.. "CNG-1229" : Relates
-"CNG-873" <.. "CNG-1379" : Relates
-"CNG-873" <.. "CNG-1222" : Relates
-"CNG-873" <.. "CNG-1235" : Relates
-"CNG-873" <.. "CNG-1107" : Relates
-"CNG-873" <.. "CNG-1123" : Relates
-"CNG-873" <.. "CNG-1205" : Relates
-"CNG-873" <.. "CNG-961" : Relates
-"CNG-873" <.. "CNG-710" : Relates
-"CNG-873" <.. "CNG-711" : Relates
-"CNG-873" <.. "CNG-1230" : Relates
-"CNG-873" <.. "CNG-557" : Relates
-"CNG-873" <.. "CNG-1273" : Relates
-"CNG-873" <.. "CNG-1274" : Relates
-"CNG-873" <.. "CNG-1275" : Relates
-"CNG-873" <.. "CNG-1305" : Relates
-"CNG-873" <.. "CNG-1315" : Relates
-"CNG-873" <.. "CNG-1229" : Relates
-"CNG-873" <.. "CNG-1379" : Relates
 "CNG-873" <.. "CNG-1107" : Relates
 "CNG-873" <.. "CNG-1123" : Relates
 "CNG-873" <.. "CNG-1205" : Relates
@@ -261,22 +224,7 @@ class "CNG-1210" << (S,lightblue) >> {
 "CNG-873" <.. "CNG-1229" : Relates
 "CNG-873" <.. "CNG-1379" : Relates
 "CNG-977" <.. "CNG-1216" : Cloners
-"CNG-977" <.. "CNG-1216" : Cloners
-"CNG-977" <.. "CNG-1216" : Cloners
-"CNG-977" <.. "CNG-1216" : Cloners
 "CNG-1107" <.. "CNG-556" : Dependent
-"CNG-1107" <.. "CNG-873" : Relates
-"CNG-1107" <.. "CNG-556" : Dependent
-"CNG-1107" <.. "CNG-873" : Relates
-"CNG-1107" <.. "CNG-556" : Dependent
-"CNG-1107" <.. "CNG-556" : Dependent
-"CNG-1235" <.. "CNG-388" : Relates
-"CNG-1235" <.. "CNG-32" : Relates
-"CNG-1235" <.. "CNG-46" : Relates
-"CNG-1235" <.. "CNG-69" : Relates
-"CNG-1235" <.. "CNG-387" : Relates
-"CNG-1235" <.. "CNG-873" : Relates
-"CNG-1235" <.. "CNG-1185" : Relates
 "CNG-1235" <.. "CNG-388" : Relates
 "CNG-1235" <.. "CNG-32" : Relates
 "CNG-1235" <.. "CNG-46" : Relates

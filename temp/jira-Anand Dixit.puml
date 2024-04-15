@@ -2,25 +2,23 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 15:18:49 CEST 2024
+' Generated at    : Mon Apr 15 15:33:04 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(To Do) : 16
+(To Do) : 14
 (Dev Review) : 1
 (Build) : 1
-(UAT) : 1
 (In Progress) : 9
-(Design Review) : 1
 ----
 Jira Ticket Types
 ----
-(Task) : 15
+(Task) : 13
 (Sub-task) : 10
-(Story) : 4
+(Story) : 2
 end legend
 
 
@@ -41,12 +39,6 @@ class "CNG-596" << (S,lightblue) >> {
   Assigned to : Anand Dixit
   Status : In Progress
   Type : Sub-task
-}
-
-class "CNG-257" << (S,lightgreen) >> {
-  Assigned to : Tony Cassidy
-  Status : UAT
-  Type : Story
 }
 
 class "CNG-531" << (T,lightblue) >> {
@@ -109,21 +101,9 @@ class "CNG-593" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-84" << (S,lightgreen) >> {
-  Assigned to : Deepak Ingwale
-  Status : Design Review
-  Type : Story
-}
-
 class "CNG-604" << (T,lightblue) >> {
   Assigned to : Anand Dixit
   Status : Dev Review
-  Type : Task
-}
-
-class "CNG-626" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
   Type : Task
 }
 
@@ -191,49 +171,16 @@ class "CNG-723" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-700" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
 
 
 ' Links =======
 "CNG-533" <.. "CNG-732" : Dependent
-"CNG-533" <.. "CNG-732" : Dependent
-"CNG-533" <.. "CNG-732" : Dependent
-"CNG-533" <.. "CNG-688" : Relates
-"CNG-533" <.. "CNG-732" : Dependent
 "CNG-533" <.. "CNG-688" : Relates
 "CNG-644" <.. "CNG-393" : Dependent
-"CNG-644" <.. "CNG-393" : Dependent
-"CNG-644" <.. "CNG-393" : Dependent
-"CNG-644" <.. "CNG-393" : Dependent
-"CNG-592" <.. "CNG-257" : Relates
-"CNG-592" <.. "CNG-84" : Relates
-"CNG-592" <.. "CNG-257" : Relates
-"CNG-592" <.. "CNG-84" : Relates
-"CNG-707" <.. "CNG-393" : Dependent
-"CNG-707" <.. "CNG-700" : Relates
-"CNG-707" <.. "CNG-393" : Dependent
-"CNG-707" <.. "CNG-700" : Relates
-"CNG-707" <.. "CNG-393" : Dependent
-"CNG-707" <.. "CNG-1203" : Feature
 "CNG-707" <.. "CNG-393" : Dependent
 "CNG-707" <.. "CNG-1203" : Feature
 "CNG-800" <.. "CNG-548" : Relates
-"CNG-800" <.. "CNG-548" : Relates
-"CNG-738" <.. "CNG-604" : Relates
-"CNG-738" <.. "CNG-604" : Relates
-"CNG-624" <.. "CNG-626" : Automates
 "CNG-624" <.. "CNG-531" : Dependent
-"CNG-624" <.. "CNG-626" : Automates
-"CNG-624" <.. "CNG-531" : Dependent
-"CNG-624" <.. "CNG-531" : Dependent
-"CNG-624" <.. "CNG-531" : Dependent
-"CNG-604" <.. "CNG-738" : Relates
-"CNG-604" <.. "CNG-723" : Relates
 "CNG-604" <.. "CNG-738" : Relates
 "CNG-604" <.. "CNG-723" : Relates
 

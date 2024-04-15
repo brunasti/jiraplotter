@@ -2,14 +2,13 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 15:18:49 CEST 2024
+' Generated at    : Mon Apr 15 15:33:04 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(IN UAT) : 1
 (To Do) : 2
 (UAT) : 1
 (In Progress) : 6
@@ -17,7 +16,6 @@ Jira Ticket Status
 Jira Ticket Types
 ----
 (Task) : 4
-(Bug) : 1
 (Sub-task) : 2
 (Story) : 3
 end legend
@@ -78,36 +76,14 @@ class "CNG-1066" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-536" << (B,red) >> {
-  Assigned to : Sulafa Malik
-  Status : IN UAT
-  Type : Bug
-}
-
 
 
 ' Links =======
 "CNG-214" <.. "CNG-393" : Dependent
-"CNG-214" <.. "CNG-1066" : End To Start
-"CNG-214" <.. "CNG-536" : Relates
-"CNG-214" <.. "CNG-393" : Dependent
-"CNG-214" <.. "CNG-1066" : End To Start
-"CNG-214" <.. "CNG-536" : Relates
-"CNG-214" <.. "CNG-393" : Dependent
 "CNG-214" <.. "CNG-1066" : Enable
 "CNG-214" <.. "CNG-1203" : Feature
 "CNG-214" <.. "CNG-210" : Relates
-"CNG-214" <.. "CNG-393" : Dependent
-"CNG-214" <.. "CNG-1066" : Enable
-"CNG-214" <.. "CNG-1203" : Feature
-"CNG-214" <.. "CNG-210" : Relates
-"CNG-1283" <.. "CNG-1205" : Feature
-"CNG-1283" <.. "CNG-1205" : Feature
 "CNG-1283" <.. "CNG-1205" : End To Start
-"CNG-1283" <.. "CNG-1205" : End To Start
-"CNG-1372" <.. "CNG-589" : Dependent
-"CNG-1372" <.. "CNG-589" : Dependent
-"CNG-1372" <.. "CNG-589" : Dependent
 "CNG-1372" <.. "CNG-589" : Dependent
 
 

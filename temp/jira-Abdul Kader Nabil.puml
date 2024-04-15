@@ -2,15 +2,14 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 15:18:49 CEST 2024
+' Generated at    : Mon Apr 15 15:33:04 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(QA) : 1
-(To Do) : 6
+(To Do) : 3
 (Dev Review) : 5
 (In Work) : 2
 (Build) : 1
@@ -20,7 +19,7 @@ Jira Ticket Types
 ----
 (Task) : 2
 (Bug) : 2
-(Sub-task) : 8
+(Sub-task) : 4
 (Story) : 7
 end legend
 
@@ -36,12 +35,6 @@ class "CNG-81" << (S,lightgreen) >> {
   Assigned to : Sushant Khandelwal
   Status : Dev Review
   Type : Story
-}
-
-class "CNG-559" << (S,lightblue) >> {
-  Assigned to : Sulafa Malik
-  Status : To Do
-  Type : Sub-task
 }
 
 class "CNG-79" << (S,lightgreen) >> {
@@ -72,11 +65,6 @@ class "CNG-1358" << (B,red) >> {
   Assigned to : Abdul Kader Nabil
   Status : In Work
   Type : Bug
-}
-
-class "CNG-686" << (S,lightblue) >> {
-  Status : QA
-  Type : Sub-task
 }
 
 class "CNG-377" << (S,lightgreen) >> {
@@ -121,21 +109,10 @@ class "CNG-269" << (S,lightgreen) >> {
   Type : Story
 }
 
-class "CNG-687" << (S,lightblue) >> {
-  Assigned to : Sulafa Malik
-  Status : To Do
-  Type : Sub-task
-}
-
 class "CNG-415" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : To Do
   Type : Task
-}
-
-class "CNG-558" << (S,lightblue) >> {
-  Status : To Do
-  Type : Sub-task
 }
 
 
@@ -143,56 +120,15 @@ class "CNG-558" << (S,lightblue) >> {
 ' Links =======
 "CNG-874" <.. "CNG-79" : Dependent
 "CNG-874" <.. "CNG-81" : Dependent
-"CNG-874" <.. "CNG-79" : Dependent
-"CNG-874" <.. "CNG-81" : Dependent
-"CNG-874" <.. "CNG-79" : Dependent
-"CNG-874" <.. "CNG-81" : Dependent
-"CNG-874" <.. "CNG-79" : Dependent
-"CNG-874" <.. "CNG-81" : Dependent
-"CNG-376" <.. "CNG-79" : Dependent
-"CNG-376" <.. "CNG-81" : Dependent
-"CNG-376" <.. "CNG-559" : Relates
-"CNG-376" <.. "CNG-79" : Dependent
-"CNG-376" <.. "CNG-81" : Dependent
-"CNG-376" <.. "CNG-559" : Relates
-"CNG-376" <.. "CNG-79" : Dependent
-"CNG-376" <.. "CNG-81" : Dependent
-"CNG-376" <.. "CNG-377" : Relates
 "CNG-376" <.. "CNG-79" : Dependent
 "CNG-376" <.. "CNG-81" : Dependent
 "CNG-376" <.. "CNG-377" : Relates
 "CNG-269" <.. "CNG-415" : Approval
 "CNG-269" <.. "CNG-596" : Dependent
 "CNG-269" <.. "CNG-393" : Dependent
-"CNG-269" <.. "CNG-558" : Relates
-"CNG-269" <.. "CNG-687" : Relates
-"CNG-269" <.. "CNG-686" : Relates
-"CNG-269" <.. "CNG-415" : Approval
-"CNG-269" <.. "CNG-596" : Dependent
-"CNG-269" <.. "CNG-393" : Dependent
-"CNG-269" <.. "CNG-558" : Relates
-"CNG-269" <.. "CNG-687" : Relates
-"CNG-269" <.. "CNG-686" : Relates
-"CNG-269" <.. "CNG-415" : Approval
-"CNG-269" <.. "CNG-596" : Dependent
-"CNG-269" <.. "CNG-393" : Dependent
 "CNG-269" <.. "CNG-684" : Feature
 "CNG-269" <.. "CNG-1203" : Feature
 "CNG-269" <.. "CNG-685" : Relates
-"CNG-269" <.. "CNG-415" : Approval
-"CNG-269" <.. "CNG-596" : Dependent
-"CNG-269" <.. "CNG-393" : Dependent
-"CNG-269" <.. "CNG-684" : Feature
-"CNG-269" <.. "CNG-1203" : Feature
-"CNG-269" <.. "CNG-685" : Relates
-"CNG-369" <.. "CNG-79" : Dependent
-"CNG-369" <.. "CNG-81" : Dependent
-"CNG-369" <.. "CNG-559" : Relates
-"CNG-369" <.. "CNG-79" : Dependent
-"CNG-369" <.. "CNG-81" : Dependent
-"CNG-369" <.. "CNG-559" : Relates
-"CNG-369" <.. "CNG-79" : Dependent
-"CNG-369" <.. "CNG-81" : Dependent
 "CNG-369" <.. "CNG-79" : Dependent
 "CNG-369" <.. "CNG-81" : Dependent
 

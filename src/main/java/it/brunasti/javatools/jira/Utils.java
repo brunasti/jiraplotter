@@ -64,6 +64,7 @@ public class Utils {
     String type = jiraTicket.issueType.getFirst().toLowerCase();
     String header;
 
+    // TODO: transform the case strings to constants
     switch (type) {
       case "bug" -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "B,red" + ParseJiraTicketsConstants.DEFINITION_CLASS_END;
       case "risks" -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "R,red" + ParseJiraTicketsConstants.DEFINITION_CLASS_END;
@@ -105,6 +106,56 @@ public class Utils {
 
   public static int countTicketsForLinkKind(final Collection<JiraTicket> jiraTickets, String linkKind) {
     return getTicketsForLinkKind(jiraTickets, linkKind).size();
+  }
+
+
+
+  public static boolean personHasDependingTickets(final Collection<JiraTicket> jiraTickets, String person) {
+    HashMap<String, JiraTicket> selectedJiraTickets = new HashMap<>();
+    log.debug("personHasDependingTickets ({})", person);
+
+    jiraTickets.forEach(jiraTicket -> {
+      if ((!jiraTicket.assignee.isEmpty()) && (jiraTicket.assignee.getFirst().equalsIgnoreCase(person))) {
+        log.debug("personHasDependingTickets ({}) -> [{}]", person, jiraTicket.issueKey);
+        selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
+      }
+    });
+
+    return !selectedJiraTickets.isEmpty();
+  }
+
+
+
+  public static List<FieldDescriptor>  loadDefinitions(String[] header, ArrayList<JiraTicketLinkDescriptor> jiraTicketLinkDescriptors) {
+    // Load record definition and FieldDescriptors
+    ArrayList<FieldDescriptor> fieldDescriptors = new ArrayList<>();
+
+    log.info("Header  : [{}]", Arrays.toString(header));
+    log.info("Fields  : [{}]", header.length);
+
+    HashSet<String> fields = new HashSet<>();
+    fields.addAll(Arrays.stream(header).toList());
+
+    log.info("Unique Fields  : [{}]", fields.size());
+    fields.stream().sorted().forEach(field -> {
+      if (!field.startsWith("Custom field (")) {
+        log.info("   - Unique Field  : [{}][{}]",field, Utils.countSameFields(header,field));
+        FieldDescriptor fieldDescriptor = new FieldDescriptor(header, field);
+        fieldDescriptors.add(fieldDescriptor);
+        log.info("                   ->  FieldDescriptor  : [{}]",fieldDescriptor);
+        if (fieldDescriptor.name.contains("link")) {
+          log.info("                   ->  LINK : FieldDescriptor  : [{}]", fieldDescriptor);
+          JiraTicketLinkDescriptor jiraTicketLinkDescriptor = new JiraTicketLinkDescriptor(field, fieldDescriptor);
+          jiraTicketLinkDescriptors.add(jiraTicketLinkDescriptor);
+        }
+      }
+    });
+    log.info("Unique Unique Fields  : [{}]", fieldDescriptors.size());
+    log.info("Links Fields  : [{}]", jiraTicketLinkDescriptors.size());
+
+    JiraTicket.readCSVDefinition(fieldDescriptors);
+
+    return fieldDescriptors;
   }
 
 }

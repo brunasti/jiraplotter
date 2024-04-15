@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 15:18:49 CEST 2024
+' Generated at    : Mon Apr 15 15:33:04 CEST 2024
 
 hide empty members
 
@@ -49,12 +49,6 @@ class "CNG-645" << (T,lightblue) >> {
 
 
 ' Links =======
-"CNG-645" <.. "CNG-79" : Dependent
-"CNG-645" <.. "CNG-81" : Dependent
-"CNG-645" <.. "CNG-79" : Dependent
-"CNG-645" <.. "CNG-81" : Dependent
-"CNG-645" <.. "CNG-79" : Dependent
-"CNG-645" <.. "CNG-81" : Dependent
 "CNG-645" <.. "CNG-79" : Dependent
 "CNG-645" <.. "CNG-81" : Dependent
 

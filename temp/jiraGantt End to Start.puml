@@ -2,66 +2,23 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 15:18:49 CEST 2024
+' Generated at    : Mon Apr 15 15:33:04 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(To Do) : 7
-(Dev Review) : 1
-(UAT) : 3
-(In Progress) : 5
-(In System Test) : 1
-(Design Review) : 1
+(To Do) : 2
+(In Progress) : 1
 ----
 Jira Ticket Types
 ----
-(Task) : 8
-(Bug) : 1
-(Sub-task) : 6
-(Story) : 3
+(Sub-task) : 3
 end legend
 
 
 ' Tickets =======
-class "CNG-1273" << (T,lightblue) >> {
-  Assigned to : Rukaya Ogazi-Khan
-  Status : Design Review
-  Type : Task
-}
-
-class "CNG-1274" << (T,lightblue) >> {
-  Assigned to : Rukaya Ogazi-Khan
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-383" << (T,lightblue) >> {
-  Assigned to : Sulafa Malik
-  Status : UAT
-  Type : Task
-}
-
-class "CNG-1190" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-681" << (S,lightblue) >> {
-  Assigned to : Sulafa Malik
-  Status : In Progress
-  Type : Sub-task
-}
-
-class "CNG-42" << (S,lightgreen) >> {
-  Assigned to : Sulafa Malik
-  Status : UAT
-  Type : Story
-}
-
 class "CNG-559" << (S,lightblue) >> {
   Assigned to : Sulafa Malik
   Status : To Do
@@ -73,91 +30,16 @@ class "CNG-814" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-873" << (T,lightblue) >> {
-  Assigned to : Paolo Brunasti
-  Status : In Progress
-  Type : Task
-}
-
-class "CNG-1301" << (T,lightblue) >> {
-  Assigned to : Rukaya Ogazi-Khan
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-357" << (B,red) >> {
-  Assigned to : Amreen Fathima
-  Status : In System Test
-  Type : Bug
-}
-
-class "CNG-687" << (S,lightblue) >> {
-  Assigned to : Sulafa Malik
-  Status : To Do
-  Type : Sub-task
-}
-
-class "CNG-269" << (S,lightgreen) >> {
-  Assigned to : Abdul Kader Nabil
-  Status : Dev Review
-  Type : Story
-}
-
 class "CNG-558" << (S,lightblue) >> {
   Status : To Do
   Type : Sub-task
 }
 
-class "CNG-679" << (S,lightblue) >> {
-  Status : In Progress
-  Type : Sub-task
-}
-
-class "CNG-217" << (S,lightgreen) >> {
-  Assigned to : Sulafa Malik
-  Status : UAT
-  Type : Story
-}
-
-class "CNG-1330" << (T,lightblue) >> {
-  Assigned to : Rukaya Ogazi-Khan
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-733" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : In Progress
-  Type : Task
-}
-
 
 
 ' Links =======
-"CNG-873" <.. "CNG-1273" : Gantt End to Start
-"CNG-873" <.. "CNG-1274" : Gantt End to Start
-"CNG-873" <.. "CNG-1273" : Gantt End to Start
-"CNG-873" <.. "CNG-1274" : Gantt End to Start
-"CNG-681" <.. "CNG-42" : Gantt End to Start
-"CNG-681" <.. "CNG-383" : Gantt End to Start
-"CNG-681" <.. "CNG-42" : Gantt End to Start
-"CNG-681" <.. "CNG-383" : Gantt End to Start
 "CNG-559" <.. "CNG-558" : Gantt End to Start
 "CNG-559" <.. "CNG-814" : Gantt End to Start
-"CNG-559" <.. "CNG-558" : Gantt End to Start
-"CNG-559" <.. "CNG-814" : Gantt End to Start
-"CNG-679" <.. "CNG-1190" : Gantt End to Start
-"CNG-679" <.. "CNG-357" : Gantt End to Start
-"CNG-679" <.. "CNG-1190" : Gantt End to Start
-"CNG-679" <.. "CNG-357" : Gantt End to Start
-"CNG-687" <.. "CNG-217" : Gantt End to Start
-"CNG-687" <.. "CNG-269" : Gantt End to Start
-"CNG-687" <.. "CNG-217" : Gantt End to Start
-"CNG-687" <.. "CNG-269" : Gantt End to Start
-"CNG-733" <.. "CNG-1301" : Gantt End to Start
-"CNG-733" <.. "CNG-1330" : Gantt End to Start
-"CNG-733" <.. "CNG-1301" : Gantt End to Start
-"CNG-733" <.. "CNG-1330" : Gantt End to Start
 
 
 @enduml

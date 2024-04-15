@@ -2,62 +2,27 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 15:18:49 CEST 2024
+' Generated at    : Mon Apr 15 15:33:04 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(QA) : 2
-(To Do) : 4
-(UAT) : 2
-(In Progress) : 3
-(Design Review) : 4
+(To Do) : 1
+(Design Review) : 1
 ----
 Jira Ticket Types
 ----
-(Task) : 6
-(Sub-task) : 2
-(Story) : 7
+(Story) : 2
 end legend
 
 
 ' Tickets =======
-class "CNG-1274" << (T,lightblue) >> {
-  Assigned to : Rukaya Ogazi-Khan
+class "CNG-1223" << (S,lightgreen) >> {
+  Assigned to : BharathKum Sarangarajan
   Status : To Do
-  Type : Task
-}
-
-class "CNG-1252" << (T,lightblue) >> {
-  Assigned to : Rukaya Ogazi-Khan
-  Status : In Progress
-  Type : Task
-}
-
-class "CNG-391" << (S,lightgreen) >> {
-  Assigned to : Abinaya Arumugasamy
-  Status : Design Review
   Type : Story
-}
-
-class "CNG-394" << (T,lightblue) >> {
-  Assigned to : Merin Joseph
-  Status : QA
-  Type : Task
-}
-
-class "CNG-990" << (T,lightblue) >> {
-  Assigned to : Dheeraj Kumar
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-395" << (T,lightblue) >> {
-  Assigned to : Merin Joseph
-  Status : QA
-  Type : Task
 }
 
 class "CNG-73" << (S,lightgreen) >> {
@@ -66,72 +31,9 @@ class "CNG-73" << (S,lightgreen) >> {
   Type : Story
 }
 
-class "CNG-989" << (T,lightblue) >> {
-  Assigned to : Dheeraj Kumar
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-87" << (S,lightgreen) >> {
-  Assigned to : Deepak Ingwale
-  Status : Design Review
-  Type : Story
-}
-
-class "CNG-977" << (S,lightblue) >> {
-  Assigned to : Paolo Brunasti
-  Status : Design Review
-  Type : Sub-task
-}
-
-class "CNG-69" << (S,lightgreen) >> {
-  Assigned to : Sulafa Malik
-  Status : UAT
-  Type : Story
-}
-
-class "CNG-387" << (S,lightgreen) >> {
-  Assigned to : Sulafa Malik
-  Status : UAT
-  Type : Story
-}
-
-class "CNG-1216" << (S,lightblue) >> {
-  Assigned to : Paolo Brunasti
-  Status : In Progress
-  Type : Sub-task
-}
-
-class "CNG-388" << (S,lightgreen) >> {
-  Assigned to : Sushant Khandelwal
-  Status : In Progress
-  Type : Story
-}
-
-class "CNG-1223" << (S,lightgreen) >> {
-  Assigned to : BharathKum Sarangarajan
-  Status : To Do
-  Type : Story
-}
-
 
 
 ' Links =======
-"CNG-1216" <.. "CNG-977" : Defect
-"CNG-1216" <.. "CNG-977" : Defect
-"CNG-990" <.. "CNG-989" : Defect
-"CNG-990" <.. "CNG-989" : Defect
-"CNG-391" <.. "CNG-87" : Defect
-"CNG-391" <.. "CNG-87" : Defect
-"CNG-395" <.. "CNG-394" : Defect
-"CNG-395" <.. "CNG-394" : Defect
-"CNG-387" <.. "CNG-69" : Defect
-"CNG-387" <.. "CNG-69" : Defect
-"CNG-388" <.. "CNG-69" : Defect
-"CNG-388" <.. "CNG-69" : Defect
-"CNG-1274" <.. "CNG-1252" : Defect
-"CNG-1274" <.. "CNG-1252" : Defect
-"CNG-1223" <.. "CNG-73" : Defect
 "CNG-1223" <.. "CNG-73" : Defect
 
 

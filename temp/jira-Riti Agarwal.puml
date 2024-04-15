@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 15:18:49 CEST 2024
+' Generated at    : Mon Apr 15 15:33:04 CEST 2024
 
 hide empty members
 
@@ -12,12 +12,12 @@ Jira Ticket Status
 (In Review (migrated)) : 3
 (To Do) : 4
 (Under Investigation) : 1
-(In Progress) : 4
+(In Progress) : 3
 (Design Review) : 1
 ----
 Jira Ticket Types
 ----
-(Task) : 4
+(Task) : 3
 (Bug) : 1
 (Sub-task) : 7
 (Story) : 1
@@ -31,12 +31,6 @@ class "CNG-491" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-73" << (S,lightgreen) >> {
-  Assigned to : Sushant Khandelwal
-  Status : Design Review
-  Type : Story
-}
-
 class "CNG-1314" << (S,lightblue) >> {
   Assigned to : Riti Agarwal
   Status : To Do
@@ -47,12 +41,6 @@ class "CNG-1026" << (S,lightblue) >> {
   Assigned to : Riti Agarwal
   Status : In Review (migrated)
   Type : Sub-task
-}
-
-class "CNG-795" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : In Progress
-  Type : Task
 }
 
 class "CNG-1027" << (S,lightblue) >> {
@@ -71,6 +59,12 @@ class "CNG-1025" << (S,lightblue) >> {
   Assigned to : Riti Agarwal
   Status : In Progress
   Type : Sub-task
+}
+
+class "CNG-73" << (S,lightgreen) >> {
+  Assigned to : Sushant Khandelwal
+  Status : Design Review
+  Type : Story
 }
 
 class "CNG-723" << (T,lightblue) >> {
@@ -105,12 +99,7 @@ class "CNG-1034" << (S,lightblue) >> {
 
 
 ' Links =======
-"CNG-887" <.. "CNG-795" : Relates
-"CNG-887" <.. "CNG-795" : Relates
 "CNG-887" <.. "CNG-687" : Relates
-"CNG-887" <.. "CNG-687" : Relates
-"CNG-491" <.. "CNG-73" : Relates
-"CNG-491" <.. "CNG-723" : Relates
 "CNG-491" <.. "CNG-73" : Relates
 "CNG-491" <.. "CNG-723" : Relates
 

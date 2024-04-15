@@ -75,12 +75,13 @@ class UtilsTest {
 
   @Test
   void test_findFromKey() {
+    ArrayList<JiraTicketLinkDescriptor> jiraTicketLinkDescriptors = new ArrayList<>();
     Map<String, JiraTicket> jiraTickets = new HashMap<>();
     String key = "CNG-1388";
 
     assertNull(Utils.findFromKey(jiraTickets, key));
 
-    ParseJiraTicketsCsv.loadDefinitions(header);
+    Utils.loadDefinitions(header, jiraTicketLinkDescriptors);
 
     JiraTicket jiraTicket = new JiraTicket(testRecord);
     System.out.println("Jira ticket : " + jiraTicket);
@@ -95,7 +96,8 @@ class UtilsTest {
 
   @Test
   void test_createClassHead() {
-    ParseJiraTicketsCsv.loadDefinitions(header);
+    ArrayList<JiraTicketLinkDescriptor> jiraTicketLinkDescriptors = new ArrayList<>();
+    Utils.loadDefinitions(header, jiraTicketLinkDescriptors);
 
     JiraTicket jiraTicket = new JiraTicket(testRecord);
     String header = Utils.createClassHead(jiraTicket);

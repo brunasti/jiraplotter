@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 15:18:49 CEST 2024
+' Generated at    : Mon Apr 15 15:33:04 CEST 2024
 
 hide empty members
 
@@ -48,11 +48,6 @@ class "CNG-1203" << (S,lightblue) >> {
 
 
 ' Links =======
-"CNG-257" <.. "CNG-393" : Dependent
-"CNG-257" <.. "CNG-393" : Dependent
-"CNG-257" <.. "CNG-393" : Dependent
-"CNG-257" <.. "CNG-1203" : Feature
-"CNG-257" <.. "CNG-592" : Relates
 "CNG-257" <.. "CNG-393" : Dependent
 "CNG-257" <.. "CNG-1203" : Feature
 "CNG-257" <.. "CNG-592" : Relates

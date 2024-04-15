@@ -2,140 +2,25 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 15:18:49 CEST 2024
+' Generated at    : Mon Apr 15 15:33:04 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(QA) : 1
-(To Do) : 20
-(In Work) : 1
-(Dev Review) : 1
-(Build) : 1
-(UAT) : 1
-(In Progress) : 6
-(In System Test) : 1
+(To Do) : 4
+(In Progress) : 3
 ----
 Jira Ticket Types
 ----
 (Risks) : 2
-(Task) : 15
-(Bug) : 2
-(Sub-task) : 4
-(Story) : 9
+(Task) : 4
+(Sub-task) : 1
 end legend
 
 
 ' Tickets =======
-class "CNG-1360" << (T,lightblue) >> {
-  Assigned to : Dileep
-  Status : In Progress
-  Type : Task
-}
-
-class "CNG-1060" << (T,lightblue) >> {
-  Assigned to : Rukaya Ogazi-Khan
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-93" << (S,lightgreen) >> {
-  Assigned to : Jon Funnell
-  Status : To Do
-  Type : Story
-}
-
-class "CNG-74" << (S,lightgreen) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Story
-}
-
-class "CNG-615" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-917" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-871" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-993" << (R,red) >> {
-  Assigned to : Sana Fathima
-  Status : To Do
-  Type : Risks
-}
-
-class "CNG-415" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-1385" << (T,lightblue) >> {
-  Assigned to : Dileep
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-1022" << (T,lightblue) >> {
-  Assigned to : Anand Jajoo
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-733" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : In Progress
-  Type : Task
-}
-
-class "CNG-810" << (S,lightblue) >> {
-  Status : To Do
-  Type : Sub-task
-}
-
-class "CNG-1195" << (T,lightblue) >> {
-  Assigned to : Rukaya Ogazi-Khan
-  Status : In Progress
-  Type : Task
-}
-
-class "CNG-82" << (S,lightgreen) >> {
-  Assigned to : Sushant Khandelwal
-  Status : In Progress
-  Type : Story
-}
-
-class "CNG-85" << (S,lightgreen) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Story
-}
-
-class "CNG-626" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-647" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
 class "CNG-988" << (R,red) >> {
   Status : To Do
   Type : Risks
@@ -146,58 +31,16 @@ class "CNG-724" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-68" << (S,lightgreen) >> {
-  Assigned to : Anand Jajoo
-  Status : To Do
-  Type : Story
-}
-
-class "CNG-69" << (S,lightgreen) >> {
-  Assigned to : Sulafa Malik
-  Status : UAT
-  Type : Story
-}
-
-class "CNG-2" << (S,lightgreen) >> {
-  Assigned to : Merin Joseph
-  Status : Build
-  Type : Story
-}
-
-class "CNG-48" << (S,lightgreen) >> {
-  Assigned to : Nigel Hassett
-  Status : To Do
-  Type : Story
-}
-
-class "CNG-609" << (T,lightblue) >> {
-  Assigned to : Amreen Fathima
-  Status : QA
+class "CNG-1360" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : In Progress
   Type : Task
 }
 
-class "CNG-684" << (S,lightblue) >> {
-  Assigned to : Shafiqul Islam
+class "CNG-993" << (R,red) >> {
+  Assigned to : Sana Fathima
   Status : To Do
-  Type : Sub-task
-}
-
-class "CNG-367" << (B,red) >> {
-  Assigned to : Shafiqul Islam
-  Status : In Work
-  Type : Bug
-}
-
-class "CNG-961" << (S,lightblue) >> {
-  Assigned to : Anand Jajoo
-  Status : In Progress
-  Type : Sub-task
-}
-
-class "CNG-269" << (S,lightgreen) >> {
-  Assigned to : Abdul Kader Nabil
-  Status : Dev Review
-  Type : Story
+  Type : Risks
 }
 
 class "CNG-984" << (T,lightblue) >> {
@@ -205,63 +48,25 @@ class "CNG-984" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-346" << (B,red) >> {
-  Assigned to : Amreen Fathima
-  Status : In System Test
-  Type : Bug
+class "CNG-1385" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : To Do
+  Type : Task
 }
 
-class "CNG-624" << (T,lightblue) >> {
-  Assigned to : Anand Dixit
-  Status : To Do
+class "CNG-733" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Progress
   Type : Task
 }
 
 
 
 ' Links =======
-"CNG-415" <.. "CNG-269" : Automates
-"CNG-415" <.. "CNG-269" : Automates
-"CNG-871" <.. "CNG-626" : Automates
-"CNG-871" <.. "CNG-626" : Automates
-"CNG-647" <.. "CNG-626" : Automates
-"CNG-647" <.. "CNG-626" : Automates
-"CNG-684" <.. "CNG-367" : Automates
-"CNG-684" <.. "CNG-367" : Automates
-"CNG-917" <.. "CNG-626" : Automates
-"CNG-917" <.. "CNG-626" : Automates
-"CNG-615" <.. "CNG-626" : Automates
-"CNG-615" <.. "CNG-626" : Automates
-"CNG-733" <.. "CNG-1195" : Automates
-"CNG-733" <.. "CNG-1195" : Automates
-"CNG-733" <.. "CNG-1360" : Automates
-"CNG-733" <.. "CNG-1385" : Automates
 "CNG-733" <.. "CNG-1360" : Automates
 "CNG-733" <.. "CNG-1385" : Automates
 "CNG-984" <.. "CNG-988" : Automates
-"CNG-984" <.. "CNG-988" : Automates
-"CNG-624" <.. "CNG-626" : Automates
-"CNG-624" <.. "CNG-626" : Automates
 "CNG-724" <.. "CNG-993" : Automates
-"CNG-724" <.. "CNG-993" : Automates
-"CNG-609" <.. "CNG-2" : Automates
-"CNG-609" <.. "CNG-2" : Automates
-"CNG-68" <.. "CNG-93" : Automates
-"CNG-68" <.. "CNG-93" : Automates
-"CNG-69" <.. "CNG-346" : Automates
-"CNG-69" <.. "CNG-346" : Automates
-"CNG-48" <.. "CNG-626" : Automates
-"CNG-48" <.. "CNG-626" : Automates
-"CNG-1060" <.. "CNG-961" : Automates
-"CNG-1060" <.. "CNG-961" : Automates
-"CNG-1022" <.. "CNG-810" : Automates
-"CNG-1022" <.. "CNG-810" : Automates
-"CNG-74" <.. "CNG-626" : Automates
-"CNG-74" <.. "CNG-626" : Automates
-"CNG-82" <.. "CNG-626" : Automates
-"CNG-82" <.. "CNG-626" : Automates
-"CNG-85" <.. "CNG-626" : Automates
-"CNG-85" <.. "CNG-626" : Automates
 
 
 @enduml

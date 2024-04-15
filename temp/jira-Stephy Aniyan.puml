@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 15:18:49 CEST 2024
+' Generated at    : Mon Apr 15 15:33:04 CEST 2024
 
 hide empty members
 
@@ -10,15 +10,15 @@ legend
 Jira Ticket Status
 ----
 (QA) : 2
-(To Do) : 5
+(To Do) : 3
 (Dev Review) : 1
 (Build) : 1
-(In Progress) : 7
+(In Progress) : 6
 (In System Test) : 3
 ----
 Jira Ticket Types
 ----
-(Task) : 9
+(Task) : 6
 (Work Request) : 2
 (Bug) : 3
 (Sub-task) : 5
@@ -30,12 +30,6 @@ class "CNG-1295" << (W,lightblue) >> {
   Assigned to : Stephy Aniyan
   Status : In Progress
   Type : Work Request
-}
-
-class "CNG-1141" << (T,lightblue) >> {
-  Assigned to : Amreen Fathima
-  Status : To Do
-  Type : Task
 }
 
 class "CNG-1142" << (T,lightblue) >> {
@@ -56,12 +50,6 @@ class "CNG-1151" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-1140" << (T,lightblue) >> {
-  Assigned to : Amreen Fathima
-  Status : To Do
-  Type : Task
-}
-
 class "CNG-916" << (B,red) >> {
   Assigned to : Stephy Aniyan
   Status : In System Test
@@ -78,12 +66,6 @@ class "CNG-1039" << (S,lightblue) >> {
   Assigned to : Stephy Aniyan
   Status : In Progress
   Type : Sub-task
-}
-
-class "CNG-1139" << (T,lightblue) >> {
-  Assigned to : Amreen Fathima
-  Status : In Progress
-  Type : Task
 }
 
 class "CNG-685" << (S,lightblue) >> {
@@ -143,26 +125,10 @@ class "CNG-1012" << (B,red) >> {
 
 ' Links =======
 "CNG-916" <.. "CNG-557" : Dependent
-"CNG-916" <.. "CNG-557" : Dependent
-"CNG-916" <.. "CNG-557" : Dependent
-"CNG-916" <.. "CNG-557" : Dependent
-"CNG-1142" <.. "CNG-1039" : Relates
 "CNG-1142" <.. "CNG-1039" : Relates
 "CNG-1153" <.. "CNG-1151" : Polaris issue link
 "CNG-1153" <.. "CNG-685" : Relates
-"CNG-1153" <.. "CNG-1151" : Polaris issue link
-"CNG-1153" <.. "CNG-685" : Relates
-"CNG-1039" <.. "CNG-1139" : Relates
-"CNG-1039" <.. "CNG-1140" : Relates
-"CNG-1039" <.. "CNG-1141" : Relates
-"CNG-1039" <.. "CNG-1142" : Relates
-"CNG-1039" <.. "CNG-1139" : Relates
-"CNG-1039" <.. "CNG-1140" : Relates
-"CNG-1039" <.. "CNG-1141" : Relates
-"CNG-1039" <.. "CNG-1142" : Relates
 "CNG-1013" <.. "CNG-558" : Relates
-"CNG-1013" <.. "CNG-558" : Relates
-"CNG-1012" <.. "CNG-558" : Relates
 "CNG-1012" <.. "CNG-558" : Relates
 
 

@@ -2,24 +2,24 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 15:18:49 CEST 2024
+' Generated at    : Mon Apr 15 15:33:04 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(To Do) : 16
+(To Do) : 12
 (In Work) : 2
-(In Progress) : 4
+(In Progress) : 3
 (In System Test) : 1
 ----
 Jira Ticket Types
 ----
-(Task) : 6
+(Task) : 4
 (Bug) : 3
-(Sub-task) : 11
-(Story) : 3
+(Sub-task) : 9
+(Story) : 2
 end legend
 
 
@@ -34,12 +34,6 @@ class "CNG-1060" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
   Status : To Do
   Type : Task
-}
-
-class "CNG-93" << (S,lightgreen) >> {
-  Assigned to : Jon Funnell
-  Status : To Do
-  Type : Story
 }
 
 class "CNG-68" << (S,lightgreen) >> {
@@ -83,12 +77,6 @@ class "CNG-961" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-873" << (T,lightblue) >> {
-  Assigned to : Paolo Brunasti
-  Status : In Progress
-  Type : Task
-}
-
 class "CNG-1356" << (B,red) >> {
   Assigned to : Anand Jajoo
   Status : In Work
@@ -109,12 +97,6 @@ class "CNG-1049" << (S,lightgreen) >> {
 
 class "CNG-1211" << (S,lightblue) >> {
   Assigned to : Anand Jajoo
-  Status : To Do
-  Type : Sub-task
-}
-
-class "CNG-710" << (S,lightblue) >> {
-  Assigned to : Shafiqul Islam
   Status : To Do
   Type : Sub-task
 }
@@ -143,17 +125,6 @@ class "CNG-975" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-865" << (T,lightblue) >> {
-  Assigned to : Nigel Hassett
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-810" << (S,lightblue) >> {
-  Status : To Do
-  Type : Sub-task
-}
-
 class "CNG-1353" << (B,red) >> {
   Assigned to : Anand Jajoo
   Status : In Work
@@ -163,32 +134,11 @@ class "CNG-1353" << (B,red) >> {
 
 
 ' Links =======
-"CNG-975" <.. "CNG-710" : Relates
-"CNG-975" <.. "CNG-710" : Relates
 "CNG-961" <.. "CNG-1060" : Approval
-"CNG-961" <.. "CNG-873" : Relates
-"CNG-961" <.. "CNG-1060" : Approval
-"CNG-961" <.. "CNG-873" : Relates
-"CNG-961" <.. "CNG-1060" : Approval
-"CNG-961" <.. "CNG-1060" : Approval
-"CNG-68" <.. "CNG-93" : Automates
-"CNG-68" <.. "CNG-709" : End To Start
-"CNG-68" <.. "CNG-865" : Relates
-"CNG-68" <.. "CNG-93" : Automates
-"CNG-68" <.. "CNG-709" : End To Start
-"CNG-68" <.. "CNG-865" : Relates
-"CNG-68" <.. "CNG-709" : Enable
-"CNG-68" <.. "CNG-1207" : Feature
 "CNG-68" <.. "CNG-709" : Enable
 "CNG-68" <.. "CNG-1207" : Feature
 "CNG-1049" <.. "CNG-68" : Dependent
-"CNG-1049" <.. "CNG-68" : Dependent
-"CNG-1049" <.. "CNG-68" : Dependent
 "CNG-1049" <.. "CNG-1207" : Feature
-"CNG-1049" <.. "CNG-68" : Dependent
-"CNG-1049" <.. "CNG-1207" : Feature
-"CNG-1022" <.. "CNG-810" : Automates
-"CNG-1022" <.. "CNG-810" : Automates
 
 
 @enduml

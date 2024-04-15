@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon Apr 15 15:18:49 CEST 2024
+' Generated at    : Mon Apr 15 15:33:04 CEST 2024
 
 hide empty members
 
@@ -13,24 +13,18 @@ Jira Ticket Status
 (To Do) : 21
 (Dev Review) : 3
 (UAT) : 10
-(In Progress) : 11
+(In Progress) : 9
 (Design Review) : 5
 ----
 Jira Ticket Types
 ----
-(Task) : 6
+(Task) : 4
 (Sub-task) : 6
 (Story) : 39
 end legend
 
 
 ' Tickets =======
-class "CNG-1283" << (T,lightblue) >> {
-  Assigned to : Narayana Golla
-  Status : In Progress
-  Type : Task
-}
-
 class "CNG-93" << (S,lightgreen) >> {
   Assigned to : Jon Funnell
   Status : To Do
@@ -68,12 +62,6 @@ class "CNG-1207" << (S,lightblue) >> {
 class "CNG-255" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
   Status : Dev Review
-  Type : Task
-}
-
-class "CNG-1205" << (T,lightblue) >> {
-  Assigned to : Sivagami S
-  Status : In Progress
   Type : Task
 }
 
@@ -325,97 +313,49 @@ class "CNG-684" << (S,lightblue) >> {
 
 
 ' Links =======
-"CNG-1205" <.. "CNG-1283" : Feature
-"CNG-1205" <.. "CNG-1283" : Feature
-"CNG-647" <.. "CNG-1173" : Feature
 "CNG-647" <.. "CNG-1173" : Feature
 "CNG-210" <.. "CNG-1203" : Feature
-"CNG-210" <.. "CNG-1203" : Feature
-"CNG-214" <.. "CNG-1203" : Feature
 "CNG-214" <.. "CNG-1203" : Feature
 "CNG-217" <.. "CNG-1203" : Feature
-"CNG-217" <.. "CNG-1203" : Feature
-"CNG-935" <.. "CNG-1203" : Feature
 "CNG-935" <.. "CNG-1203" : Feature
 "CNG-707" <.. "CNG-1203" : Feature
-"CNG-707" <.. "CNG-1203" : Feature
-"CNG-51" <.. "CNG-741" : Feature
 "CNG-51" <.. "CNG-741" : Feature
 "CNG-55" <.. "CNG-1203" : Feature
-"CNG-55" <.. "CNG-1203" : Feature
 "CNG-57" <.. "CNG-1203" : Feature
-"CNG-57" <.. "CNG-1203" : Feature
-"CNG-65" <.. "CNG-1203" : Feature
 "CNG-65" <.. "CNG-1203" : Feature
 "CNG-66" <.. "CNG-684" : Feature
 "CNG-66" <.. "CNG-1203" : Feature
-"CNG-66" <.. "CNG-684" : Feature
-"CNG-66" <.. "CNG-1203" : Feature
-"CNG-67" <.. "CNG-1173" : Feature
 "CNG-67" <.. "CNG-1173" : Feature
 "CNG-68" <.. "CNG-1207" : Feature
-"CNG-68" <.. "CNG-1207" : Feature
-"CNG-69" <.. "CNG-684" : Feature
 "CNG-69" <.. "CNG-684" : Feature
 "CNG-41" <.. "CNG-741" : Feature
-"CNG-41" <.. "CNG-741" : Feature
-"CNG-46" <.. "CNG-684" : Feature
 "CNG-46" <.. "CNG-684" : Feature
 "CNG-49" <.. "CNG-684" : Feature
-"CNG-49" <.. "CNG-684" : Feature
-"CNG-1283" <.. "CNG-1205" : Feature
-"CNG-1283" <.. "CNG-1205" : Feature
-"CNG-255" <.. "CNG-684" : Feature
 "CNG-255" <.. "CNG-684" : Feature
 "CNG-1048" <.. "CNG-1207" : Feature
-"CNG-1048" <.. "CNG-1207" : Feature
-"CNG-257" <.. "CNG-1203" : Feature
 "CNG-257" <.. "CNG-1203" : Feature
 "CNG-1049" <.. "CNG-1207" : Feature
-"CNG-1049" <.. "CNG-1207" : Feature
-"CNG-377" <.. "CNG-1203" : Feature
 "CNG-377" <.. "CNG-1203" : Feature
 "CNG-1046" <.. "CNG-1207" : Feature
-"CNG-1046" <.. "CNG-1207" : Feature
-"CNG-1047" <.. "CNG-1207" : Feature
 "CNG-1047" <.. "CNG-1207" : Feature
 "CNG-1045" <.. "CNG-1207" : Feature
-"CNG-1045" <.. "CNG-1207" : Feature
-"CNG-391" <.. "CNG-1203" : Feature
 "CNG-391" <.. "CNG-1203" : Feature
 "CNG-1050" <.. "CNG-1207" : Feature
-"CNG-1050" <.. "CNG-1207" : Feature
 "CNG-387" <.. "CNG-684" : Feature
-"CNG-387" <.. "CNG-684" : Feature
-"CNG-388" <.. "CNG-809" : Feature
-"CNG-388" <.. "CNG-1173" : Feature
 "CNG-388" <.. "CNG-809" : Feature
 "CNG-388" <.. "CNG-1173" : Feature
 "CNG-269" <.. "CNG-684" : Feature
 "CNG-269" <.. "CNG-1203" : Feature
-"CNG-269" <.. "CNG-684" : Feature
-"CNG-269" <.. "CNG-1203" : Feature
-"CNG-93" <.. "CNG-1207" : Feature
 "CNG-93" <.. "CNG-1207" : Feature
 "CNG-70" <.. "CNG-696" : Feature
-"CNG-70" <.. "CNG-696" : Feature
-"CNG-71" <.. "CNG-1173" : Feature
 "CNG-71" <.. "CNG-1173" : Feature
 "CNG-73" <.. "CNG-724" : Feature
-"CNG-73" <.. "CNG-724" : Feature
-"CNG-75" <.. "CNG-1173" : Feature
 "CNG-75" <.. "CNG-1173" : Feature
 "CNG-77" <.. "CNG-741" : Feature
-"CNG-77" <.. "CNG-741" : Feature
-"CNG-78" <.. "CNG-1203" : Feature
 "CNG-78" <.. "CNG-1203" : Feature
 "CNG-1223" <.. "CNG-1203" : Feature
-"CNG-1223" <.. "CNG-1203" : Feature
-"CNG-82" <.. "CNG-1203" : Feature
 "CNG-82" <.. "CNG-1203" : Feature
 "CNG-84" <.. "CNG-1203" : Feature
-"CNG-84" <.. "CNG-1203" : Feature
-"CNG-87" <.. "CNG-1203" : Feature
 "CNG-87" <.. "CNG-1203" : Feature
 
 
