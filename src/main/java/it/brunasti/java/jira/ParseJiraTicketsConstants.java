@@ -33,4 +33,19 @@ public final class ParseJiraTicketsConstants {
   public static final String SET_TO_TEXT_TEMPLATE = "{} set to [{}]";
 
 
+
+
+
+  public static final String TYPE_BUG = "bug";
+  public static final String TYPE_RISK = "risks";
+  public static final String TYPE_IMPEDIMENT = "impediment (issue)";
+  public static final String TYPE_ISSUE = "issue";
+  public static final String TYPE_STORY = "story";
+  public static final String TYPE_NEW = "new feature";
+  public static final String TYPE_IMPROVEMENT = "improvement";
+  public static final String TYPE_REQUEST = "project request package";
+  public static final String TYPE_SUBTASK = "sub-task";
+  public static final String TYPE_TASK = "task";
+  public static final String TYPE_WORK_REQUEST = "work request";
+  
 }

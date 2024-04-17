@@ -89,18 +89,27 @@ public class Utils {
     String type = jiraTicket.issueType.getFirst().toLowerCase();
     String header;
 
-    // TODO: transform the case strings to constants
     switch (type) {
-      case "bug" -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "B,red" + ParseJiraTicketsConstants.DEFINITION_CLASS_END;
-      case "risks" -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "R,red" + ParseJiraTicketsConstants.DEFINITION_CLASS_END;
-      case "impediment (issue)", "issue" -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "I,orange" + ParseJiraTicketsConstants.DEFINITION_CLASS_END;
-      case "story" -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "S,lightgreen" + ParseJiraTicketsConstants.DEFINITION_CLASS_END;
-      case "new feature" -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "N,lightgreen" + ParseJiraTicketsConstants.DEFINITION_CLASS_END;
-      case "improvement" -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "I" + ParseJiraTicketsConstants.DEFINITION_CLASS_FULL_END;
-      case "project request package" -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "P" + ParseJiraTicketsConstants.DEFINITION_CLASS_FULL_END;
-      case "sub-task" -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "S" + ParseJiraTicketsConstants.DEFINITION_CLASS_FULL_END;
-      case "task" -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "T" + ParseJiraTicketsConstants.DEFINITION_CLASS_FULL_END;
-      case "work request" -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "W" + ParseJiraTicketsConstants.DEFINITION_CLASS_FULL_END;
+      case ParseJiraTicketsConstants.TYPE_BUG
+              -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "B,red" + ParseJiraTicketsConstants.DEFINITION_CLASS_END;
+      case ParseJiraTicketsConstants.TYPE_RISK
+              -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "R,red" + ParseJiraTicketsConstants.DEFINITION_CLASS_END;
+      case ParseJiraTicketsConstants.TYPE_IMPEDIMENT, ParseJiraTicketsConstants.TYPE_ISSUE
+              -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "I,orange" + ParseJiraTicketsConstants.DEFINITION_CLASS_END;
+      case ParseJiraTicketsConstants.TYPE_STORY
+              -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "S,lightgreen" + ParseJiraTicketsConstants.DEFINITION_CLASS_END;
+      case ParseJiraTicketsConstants.TYPE_NEW
+              -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "N,lightgreen" + ParseJiraTicketsConstants.DEFINITION_CLASS_END;
+      case ParseJiraTicketsConstants.TYPE_IMPROVEMENT
+              -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "I" + ParseJiraTicketsConstants.DEFINITION_CLASS_FULL_END;
+      case ParseJiraTicketsConstants.TYPE_REQUEST
+              -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "P" + ParseJiraTicketsConstants.DEFINITION_CLASS_FULL_END;
+      case ParseJiraTicketsConstants.TYPE_SUBTASK
+              -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "S" + ParseJiraTicketsConstants.DEFINITION_CLASS_FULL_END;
+      case ParseJiraTicketsConstants.TYPE_TASK
+              -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "T" + ParseJiraTicketsConstants.DEFINITION_CLASS_FULL_END;
+      case ParseJiraTicketsConstants.TYPE_WORK_REQUEST
+              -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "W" + ParseJiraTicketsConstants.DEFINITION_CLASS_FULL_END;
       default -> {
         log.error("createClassHead unknown type [{}] [{}]", type, jiraTicket.issueKey.getFirst());
         header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "X" + ParseJiraTicketsConstants.DEFINITION_CLASS_FULL_END;
@@ -151,7 +160,7 @@ public class Utils {
 
 
 
-  public static List<FieldDescriptor>  loadDefinitions(String[] header, ArrayList<JiraTicketLinkDescriptor> jiraTicketLinkDescriptors) {
+  public static List<FieldDescriptor>  loadDefinitions(String[] header, List<JiraTicketLinkDescriptor> jiraTicketLinkDescriptors) {
     // Load record definition and FieldDescriptors
     ArrayList<FieldDescriptor> fieldDescriptors = new ArrayList<>();
 
