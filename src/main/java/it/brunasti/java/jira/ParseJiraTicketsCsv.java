@@ -206,12 +206,90 @@ public class ParseJiraTicketsCsv {
   }
 
 
-  // TODO: Decompose in smaller functions....
+// Generate reports for each links kind
+  public boolean generateLinkKindReports(Map<String, JiraTicket> jiraTickets, String outputDir) {
+    log.info("generateLinkKindReports [{}]", outputDir);
+
+    // Generate reports for each links kind
+    jiraTicketLinkDescriptors.forEach(jiraTicketLinkDescriptor -> {
+      String shortName = jiraTicketLinkDescriptor.getShortName();
+      log.debug("jiraTicketLinkDescriptor : short name [{}]",shortName);
+      log.debug("jiraTicketLinkDescriptor : [{}]",jiraTicketLinkDescriptor);
+
+      int ticketsNumber = Utils.countTicketsForLinkKind(jiraTickets.values(), shortName);
+      log.debug("jiraTicketLinkDescriptor : [{}] = {}",jiraTicketLinkDescriptor, ticketsNumber);
+      if (ticketsNumber > 0) {
+        try {
+          String name = jiraTicketLinkDescriptor.getShortName().replace(' ','_');
+          FileOutputStream subfile = new FileOutputStream(outputDir + "jira-LinkType-" + name + ".puml");
+          output = new PrintStream(subfile, true);
+          generateHeader();
+          generateLegend(jiraTickets.values(), jiraTicketLinkDescriptor.getShortName());
+          generateTicketsPerKindLinks(jiraTickets.values(), jiraTicketLinkDescriptor.getShortName());
+          generateSingleKindLinks(jiraTickets.values(), jiraTicketLinkDescriptor.getShortName());
+          generateFooter();
+          output.close();
+        } catch (Exception ex) {
+          log.error(ex);
+          ex.printStackTrace();
+        }
+      }
+    });
+
+    return true;
+  }
+
+
+  public boolean generatePersonReports(Map<String, JiraTicket> jiraTickets, String outputDir) {
+    log.info("generatePersonReports [{}]", outputDir);
+
+    // Generate reports for each person
+    Set<String> people = Utils.findPeople(jiraTickets);
+    people.forEach(person -> {
+      log.debug("people : [{}]",person);
+      if (Utils.personHasDependingTickets(jiraTickets.values(),person)) {
+        try {
+          String name = person.replace(' ','_');
+          FileOutputStream subfile = new FileOutputStream(outputDir + "jira-Person-" + name + ".puml");
+          output = new PrintStream(subfile, true);
+          generateHeader();
+          generateLegendPersona(jiraTickets.values(), "", person);
+          generateTicketsPerPersonLinks(jiraTickets.values(), person);
+          generateSinglePersonLinks(jiraTickets.values(), person);
+          generateFooter();
+          output.close();
+        } catch (Exception ex) {
+          log.error(ex);
+          ex.printStackTrace();
+        }
+      }
+    });
+
+    return true;
+  }
+
+  public boolean generateBaseDiagram(Map<String, JiraTicket> jiraTickets, String outputDir) throws IOException {
+    log.info("generateBaseDiagram [{}]", outputDir);
+
+    // Reports generation -------------------------
+    FileOutputStream file = new FileOutputStream(outputDir + "jira.puml");
+    output = new PrintStream(file, true);
+    generateHeader();
+    generateLegend(jiraTickets.values(), "");
+    generateTickets(jiraTickets.values());
+    generateParents(jiraTickets.values());
+    generateLinks(jiraTickets.values());
+    generateFooter();
+    output.close();
+
+    return true;
+  }
+
   public boolean generateDiagrams(String fileName, String outputDir) throws IOException, CsvException {
     log.info("generateDiagrams [{}] [{}]", fileName, outputDir);
 
     if ((fileName == null) || (fileName.isBlank())) {
-      log.error("generateDiagrams Input File not defined [{}]", fileName, outputDir);
+      log.error("generateDiagrams Input File not defined [{}]", outputDir);
       return false;
     }
 
@@ -240,64 +318,13 @@ public class ParseJiraTicketsCsv {
 
 
       // Reports generation -------------------------
-      FileOutputStream file = new FileOutputStream(outputDir + "jira.puml");
-      output = new PrintStream(file, true);
-      generateHeader();
-      generateLegend(jiraTickets.values(), "");
-      generateTickets(jiraTickets.values());
-      generateParents(jiraTickets.values());
-      generateLinks(jiraTickets.values());
-      generateFooter();
-      output.close();
-
+      generateBaseDiagram(jiraTickets, outputDir);
 
       // Generate reports for each links kind
-      jiraTicketLinkDescriptors.forEach(jiraTicketLinkDescriptor -> {
-        String shortName = jiraTicketLinkDescriptor.getShortName();
-        log.debug("jiraTicketLinkDescriptor : short name [{}]",shortName);
-        log.debug("jiraTicketLinkDescriptor : [{}]",jiraTicketLinkDescriptor);
-
-        int ticketsNumber = Utils.countTicketsForLinkKind(jiraTickets.values(), shortName);
-        log.debug("jiraTicketLinkDescriptor : [{}] = {}",jiraTicketLinkDescriptor, ticketsNumber);
-        if (ticketsNumber > 0) {
-          try {
-            String name = jiraTicketLinkDescriptor.getShortName().replace(' ','_');
-            FileOutputStream subfile = new FileOutputStream(outputDir + "jira-LinkType-" + name + ".puml");
-            output = new PrintStream(subfile, true);
-            generateHeader();
-            generateLegend(jiraTickets.values(), jiraTicketLinkDescriptor.getShortName());
-            generateTicketsPerKindLinks(jiraTickets.values(), jiraTicketLinkDescriptor.getShortName());
-            generateSingleKindLinks(jiraTickets.values(), jiraTicketLinkDescriptor.getShortName());
-            generateFooter();
-            output.close();
-          } catch (Exception ex) {
-            log.error(ex);
-            ex.printStackTrace();
-          }
-        }
-      });
+      generateLinkKindReports(jiraTickets, outputDir);
 
       // Generate reports for each person
-      Set<String> people = Utils.findPeople(jiraTickets);
-      people.forEach(person -> {
-        log.debug("people : [{}]",person);
-        if (Utils.personHasDependingTickets(jiraTickets.values(),person)) {
-          try {
-            String name = person.replace(' ','_');
-            FileOutputStream subfile = new FileOutputStream(outputDir + "jira-Person-" + name + ".puml");
-            output = new PrintStream(subfile, true);
-            generateHeader();
-            generateLegendPersona(jiraTickets.values(), "", person);
-            generateTicketsPerPersonLinks(jiraTickets.values(), person);
-            generateSinglePersonLinks(jiraTickets.values(), person);
-            generateFooter();
-            output.close();
-          } catch (Exception ex) {
-            log.error(ex);
-            ex.printStackTrace();
-          }
-        }
-      });
+      generatePersonReports(jiraTickets, outputDir);
 
       return true;
     }
