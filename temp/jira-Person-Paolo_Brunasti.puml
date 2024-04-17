@@ -1,0 +1,216 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Wed Apr 17 17:35:20 CEST 2024
+
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 5
+(Dev Review) : 1
+(UAT) : 4
+(In Progress) : 14
+(Design Review) : 3
+----
+Jira Ticket Types
+----
+(Task) : 11
+(Issue) : 1
+(Sub-task) : 10
+(Story) : 5
+end legend
+
+
+' Tickets =======
+class "CNG-1240" << (S,lightblue) >> {
+  Assigned to : Paolo Brunasti
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-1185" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1241" << (S,lightblue) >> {
+  Assigned to : Paolo Brunasti
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-32" << (S,lightgreen) >> {
+  Assigned to : Sulafa Malik
+  Status : UAT
+  Type : Story
+}
+
+class "CNG-977" << (S,lightblue) >> {
+  Assigned to : Paolo Brunasti
+  Status : Design Review
+  Type : Sub-task
+}
+
+class "CNG-1107" << (T,lightblue) >> {
+  Assigned to : Paolo Brunasti
+  Status : Design Review
+  Type : Task
+}
+
+class "CNG-1305" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-1229" << (I,orange) >> {
+  Assigned to : Dileep
+  Status : In Progress
+  Type : Issue
+}
+
+class "CNG-873" << (T,lightblue) >> {
+  Assigned to : Paolo Brunasti
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-710" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-556" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Dev Review
+  Type : Sub-task
+}
+
+class "CNG-1242" << (S,lightblue) >> {
+  Assigned to : Paolo Brunasti
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-557" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-1273" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : Design Review
+  Type : Task
+}
+
+class "CNG-1230" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-1274" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-46" << (S,lightgreen) >> {
+  Assigned to : Sulafa Malik
+  Status : UAT
+  Type : Story
+}
+
+class "CNG-69" << (S,lightgreen) >> {
+  Assigned to : Sulafa Malik
+  Status : UAT
+  Type : Story
+}
+
+class "CNG-387" << (S,lightgreen) >> {
+  Assigned to : Sulafa Malik
+  Status : UAT
+  Type : Story
+}
+
+class "CNG-1216" << (S,lightblue) >> {
+  Assigned to : Paolo Brunasti
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-1315" << (T,lightblue) >> {
+  Assigned to : BharathKum Sarangarajan
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-961" << (S,lightblue) >> {
+  Assigned to : Anand Jajoo
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-1235" << (T,lightblue) >> {
+  Assigned to : Paolo Brunasti
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-1379" << (T,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-388" << (S,lightgreen) >> {
+  Assigned to : Sushant Khandelwal
+  Status : In Progress
+  Type : Story
+}
+
+class "CNG-1275" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-1210" << (S,lightblue) >> {
+  Assigned to : Paolo Brunasti
+  Status : In Progress
+  Type : Sub-task
+}
+
+
+
+' Links =======
+"CNG-873" <.. "CNG-1107" : Relates
+"CNG-873" <.. "CNG-961" : Relates
+"CNG-873" <.. "CNG-710" : Relates
+"CNG-873" <.. "CNG-1230" : Relates
+"CNG-873" <.. "CNG-557" : Relates
+"CNG-873" <.. "CNG-1273" : Relates
+"CNG-873" <.. "CNG-1274" : Relates
+"CNG-873" <.. "CNG-1275" : Relates
+"CNG-873" <.. "CNG-1305" : Relates
+"CNG-873" <.. "CNG-1315" : Relates
+"CNG-873" <.. "CNG-1229" : Relates
+"CNG-873" <.. "CNG-1379" : Relates
+"CNG-977" <.. "CNG-1216" : Cloners
+"CNG-1107" <.. "CNG-556" : Dependent
+"CNG-1235" <.. "CNG-388" : Relates
+"CNG-1235" <.. "CNG-32" : Relates
+"CNG-1235" <.. "CNG-46" : Relates
+"CNG-1235" <.. "CNG-69" : Relates
+"CNG-1235" <.. "CNG-387" : Relates
+"CNG-1235" <.. "CNG-873" : Relates
+"CNG-1235" <.. "CNG-1185" : Relates
+
+
+@enduml

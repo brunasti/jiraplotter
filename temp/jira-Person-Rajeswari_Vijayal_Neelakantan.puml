@@ -1,0 +1,32 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Wed Apr 17 17:35:20 CEST 2024
+
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(In System Test) : 1
+----
+Jira Ticket Types
+----
+(Bug) : 1
+end legend
+
+
+' Tickets =======
+class "CNG-1357" << (B,red) >> {
+  Assigned to : Rajeswari Vijayal Neelakantan
+  Status : In System Test
+  Type : Bug
+}
+
+
+
+' Links =======
+
+
+@enduml

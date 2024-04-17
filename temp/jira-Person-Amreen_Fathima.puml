@@ -1,0 +1,217 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Wed Apr 17 17:35:20 CEST 2024
+
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(QA) : 8
+(To Do) : 8
+(Dev Review) : 1
+(UAT) : 1
+(In System Test) : 6
+(In Progress) : 4
+----
+Jira Ticket Types
+----
+(Task) : 9
+(Bug) : 6
+(Sub-task) : 8
+(Story) : 5
+end legend
+
+
+' Tickets =======
+class "CNG-1141" << (T,lightblue) >> {
+  Assigned to : Amreen Fathima
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1140" << (T,lightblue) >> {
+  Assigned to : Amreen Fathima
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-999" << (T,lightblue) >> {
+  Assigned to : Amreen Fathima
+  Status : QA
+  Type : Task
+}
+
+class "CNG-317" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : In System Test
+  Type : Bug
+}
+
+class "CNG-79" << (S,lightgreen) >> {
+  Assigned to : Deepak Ingwale
+  Status : QA
+  Type : Story
+}
+
+class "CNG-398" << (T,lightblue) >> {
+  Assigned to : Amreen Fathima
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-314" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : In System Test
+  Type : Bug
+}
+
+class "CNG-611" << (S,lightblue) >> {
+  Assigned to : Amreen Fathima
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-610" << (S,lightblue) >> {
+  Assigned to : Amreen Fathima
+  Status : QA
+  Type : Sub-task
+}
+
+class "CNG-357" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : In System Test
+  Type : Bug
+}
+
+class "CNG-316" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : In System Test
+  Type : Bug
+}
+
+class "CNG-558" << (S,lightblue) >> {
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-393" << (S,lightgreen) >> {
+  Assigned to : Deepak Ingwale
+  Status : In Progress
+  Type : Story
+}
+
+class "CNG-81" << (S,lightgreen) >> {
+  Assigned to : Sushant Khandelwal
+  Status : Dev Review
+  Type : Story
+}
+
+class "CNG-69" << (S,lightgreen) >> {
+  Assigned to : Sulafa Malik
+  Status : UAT
+  Type : Story
+}
+
+class "CNG-49" << (S,lightgreen) >> {
+  Assigned to : Amreen Fathima
+  Status : QA
+  Type : Story
+}
+
+class "CNG-708" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : In System Test
+  Type : Bug
+}
+
+class "CNG-807" << (T,lightblue) >> {
+  Assigned to : Amreen Fathima
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-609" << (T,lightblue) >> {
+  Assigned to : Amreen Fathima
+  Status : QA
+  Type : Task
+}
+
+class "CNG-563" << (T,lightblue) >> {
+  Assigned to : Amreen Fathima
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-684" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-1039" << (S,lightblue) >> {
+  Assigned to : Stephy Aniyan
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-1138" << (S,lightblue) >> {
+  Assigned to : Amreen Fathima
+  Status : QA
+  Type : Sub-task
+}
+
+class "CNG-1139" << (T,lightblue) >> {
+  Assigned to : Amreen Fathima
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-686" << (S,lightblue) >> {
+  Status : QA
+  Type : Sub-task
+}
+
+class "CNG-346" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : In System Test
+  Type : Bug
+}
+
+class "CNG-700" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-689" << (S,lightblue) >> {
+  Status : QA
+  Type : Sub-task
+}
+
+
+
+' Links =======
+"CNG-999" <.. "CNG-81" : Dependent
+"CNG-999" <.. "CNG-79" : Dependent
+"CNG-999" <.. "CNG-393" : Dependent
+"CNG-999" <.. "CNG-700" : Relates
+"CNG-346" <.. "CNG-69" : Approval
+"CNG-708" <.. "CNG-79" : Dependent
+"CNG-708" <.. "CNG-81" : Dependent
+"CNG-807" <.. "CNG-558" : Dependent
+"CNG-611" <.. "CNG-686" : Relates
+"CNG-610" <.. "CNG-686" : Relates
+"CNG-609" <.. "CNG-686" : Relates
+"CNG-49" <.. "CNG-684" : Feature
+"CNG-49" <.. "CNG-609" : Relates
+"CNG-49" <.. "CNG-689" : Relates
+"CNG-1141" <.. "CNG-1039" : Relates
+"CNG-1140" <.. "CNG-1039" : Relates
+"CNG-1139" <.. "CNG-1039" : Relates
+"CNG-398" <.. "CNG-689" : Relates
+
+
+@enduml

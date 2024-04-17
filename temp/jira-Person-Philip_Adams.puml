@@ -1,0 +1,94 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Wed Apr 17 17:35:20 CEST 2024
+
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 10
+(Raised) : 1
+----
+Jira Ticket Types
+----
+(Task) : 10
+(Bug) : 1
+end legend
+
+
+' Tickets =======
+class "CNG-1383" << (T,lightblue) >> {
+  Assigned to : Philip Adams
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1382" << (T,lightblue) >> {
+  Assigned to : Philip Adams
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1406" << (T,lightblue) >> {
+  Assigned to : Philip Adams
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1404" << (T,lightblue) >> {
+  Assigned to : Philip Adams
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1405" << (T,lightblue) >> {
+  Assigned to : Philip Adams
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1402" << (T,lightblue) >> {
+  Assigned to : Philip Adams
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1403" << (T,lightblue) >> {
+  Assigned to : Philip Adams
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1400" << (T,lightblue) >> {
+  Assigned to : Philip Adams
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1401" << (T,lightblue) >> {
+  Assigned to : Philip Adams
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1399" << (T,lightblue) >> {
+  Assigned to : Philip Adams
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1396" << (B,red) >> {
+  Assigned to : Philip Adams
+  Status : Raised
+  Type : Bug
+}
+
+
+
+' Links =======
+
+
+@enduml

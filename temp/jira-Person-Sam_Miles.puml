@@ -1,0 +1,32 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Wed Apr 17 17:35:20 CEST 2024
+
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 1
+----
+Jira Ticket Types
+----
+(Task) : 1
+end legend
+
+
+' Tickets =======
+class "CNG-1066" << (T,lightblue) >> {
+  Assigned to : Sam Miles
+  Status : To Do
+  Type : Task
+}
+
+
+
+' Links =======
+
+
+@enduml
