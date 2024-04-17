@@ -7,29 +7,19 @@ import org.junit.jupiter.api.Test;
 
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class JiraTicketTest {
 
-//  String[] simpleFields;
   String[] complexFields;
   String[] testRecord;
-//  String name;
   String complexName;
 
   @BeforeEach
   void setup() throws IOException, CsvException {
-//    simpleFields = new String[5];
-//    simpleFields[0] = "A";
-//    simpleFields[1] = "B";
-//    simpleFields[2] = "C";
-//    simpleFields[3] = "A";
-//    simpleFields[4] = "E";
-//
-//    name = "A";
-
     String fileName = "./src/test/resources/jira-open.csv";
     try (CSVReader reader = new CSVReader(new FileReader(fileName))) {
       List<String[]> r = reader.readAll();
@@ -52,10 +42,7 @@ class JiraTicketTest {
   void readFromCSVRow() {
     JiraTicket jiraTicket = new JiraTicket(testRecord);
     assertNotNull(jiraTicket);
-//    assertEquals(0,jiraTicket.getAssignee().size());
-//    assertEquals(0,jiraTicket.getInwardIssueLink().size());
     assertNotNull(jiraTicket.toString());
-//    System.out.println(jiraTicket.toString());
   }
 
   @Test
@@ -65,4 +52,19 @@ class JiraTicketTest {
     assertDoesNotThrow(()->jiraTicket.connectLinks(null));
   }
 
+  @Test
+  void readLinks() {
+    JiraTicket jiraTicket = new JiraTicket(complexFields);
+    ArrayList<FieldDescriptor> fieldDescriptors = new ArrayList<>();
+    assertDoesNotThrow(()->jiraTicket.readLinks(testRecord, fieldDescriptors));
+    assertDoesNotThrow(()->jiraTicket.readLinks(testRecord, null));
+  }
+
+  @Test
+  void readField() {
+    JiraTicket jiraTicket = new JiraTicket(complexFields);
+    FieldDescriptor fieldDescriptor = new FieldDescriptor(complexFields, "NULL");
+    assertDoesNotThrow(()->jiraTicket.readField(testRecord, fieldDescriptor));
+    assertDoesNotThrow(()->jiraTicket.readField(testRecord, null));
+  }
 }
