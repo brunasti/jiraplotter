@@ -30,14 +30,14 @@ class JiraTicketTest {
 //
 //    name = "A";
 
-    String fileName = "./src/test/resources/jira-full.csv";
+    String fileName = "./src/test/resources/jira-open.csv";
     try (CSVReader reader = new CSVReader(new FileReader(fileName))) {
       List<String[]> r = reader.readAll();
 
       complexFields = r.getFirst();
     };
 
-    fileName = "./src/test/resources/jira-full.csv";
+    fileName = "./src/test/resources/jira-open.csv";
     try (CSVReader reader = new CSVReader(new FileReader(fileName))) {
       List<String[]> r = reader.readAll();
 

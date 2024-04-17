@@ -178,7 +178,7 @@ public class Utils {
     log.info("Unique Unique Fields  : [{}]", fieldDescriptors.size());
     log.info("Links Fields  : [{}]", jiraTicketLinkDescriptors.size());
 
-    JiraTicket.readCSVDefinition(fieldDescriptors);
+    JiraTicketDescriptor.readCSVDefinition(fieldDescriptors);
 
     return fieldDescriptors;
   }

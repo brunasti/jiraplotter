@@ -261,7 +261,8 @@ public class ParseJiraTicketsCsv {
         log.debug("jiraTicketLinkDescriptor : [{}] = {}",jiraTicketLinkDescriptor, ticketsNumber);
         if (ticketsNumber > 0) {
           try {
-            FileOutputStream subfile = new FileOutputStream(outputDir + "jira" + jiraTicketLinkDescriptor.getShortName() + ".puml");
+            String name = jiraTicketLinkDescriptor.getShortName().replace(' ','_');
+            FileOutputStream subfile = new FileOutputStream(outputDir + "jira-LinkType-" + name + ".puml");
             output = new PrintStream(subfile, true);
             generateHeader();
             generateLegend(jiraTickets.values(), jiraTicketLinkDescriptor.getShortName());
@@ -282,7 +283,8 @@ public class ParseJiraTicketsCsv {
         log.debug("people : [{}]",person);
         if (Utils.personHasDependingTickets(jiraTickets.values(),person)) {
           try {
-            FileOutputStream subfile = new FileOutputStream(outputDir + "jira-" + person + ".puml");
+            String name = person.replace(' ','_');
+            FileOutputStream subfile = new FileOutputStream(outputDir + "jira-Person-" + name + ".puml");
             output = new PrintStream(subfile, true);
             generateHeader();
             generateLegendPersona(jiraTickets.values(), "", person);
