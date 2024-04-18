@@ -23,6 +23,8 @@ public class JiraTicketDescriptor {
   static ArrayList<FieldDescriptor> inwardIssueLinkFieldDescriptor;
   static ArrayList<FieldDescriptor> outwardIssueLinkFieldDescriptor;
 
+  private JiraTicketDescriptor() {
+  }
 
   static FieldDescriptor findFieldDescriptor(ArrayList<FieldDescriptor> fieldDescriptors, String fieldName) {
     log.debug("findFieldDescriptor for {}",fieldName);

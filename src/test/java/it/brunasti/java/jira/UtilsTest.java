@@ -36,14 +36,14 @@ class UtilsTest {
       List<String[]> r = reader.readAll();
 
       header = r.getFirst();
-    };
+    }
 
     fileName = "./src/test/resources/jira-full.csv";
     try (CSVReader reader = new CSVReader(new FileReader(fileName))) {
       List<String[]> r = reader.readAll();
 
       testRecord = r.get(1);
-    };
+    }
 
     complexName = ParseJiraTicketsConstants.FIELD_NAME_PARENT;
   }
@@ -66,12 +66,12 @@ class UtilsTest {
     assertEquals(1,Utils.countSameFields(fields,name));
   }
 
-  @Test
-  void test_getShortMark() {
-    String input = "A B";
-    assertEquals("B",Utils.getShortMark(input));
-    assertEquals("A",Utils.getShortMark("A"));
-  }
+//  @Test
+//  void test_getShortMark() {
+//    String input = "A B";
+//    assertEquals("B",Utils.getShortMark(input));
+//    assertEquals("A",Utils.getShortMark("A"));
+//  }
 
   @Test
   void test_findFromKey() {

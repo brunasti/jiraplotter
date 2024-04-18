@@ -41,11 +41,10 @@ public class JiraTicketsPlotterMain {
 
 
 
-  private static boolean setDebugOption(Option optionDebug) {
+  private static void setDebugOption(Option optionDebug) {
     if (commandLine.hasOption(optionDebug.getOpt())) {
       debug = true;
     }
-    return true;
   }
 
   private static boolean processCommandLine(String[] args) {
@@ -126,7 +125,7 @@ public class JiraTicketsPlotterMain {
 
   static void printHelp(Options options) {
     if (null == options) {
-      System.err.println("ERROR: No options provided to printHelp");
+      log.error("ERROR: No options provided to printHelp");
       return;
     }
 
@@ -148,7 +147,7 @@ public class JiraTicketsPlotterMain {
 
   static void printUsage(Options options) {
     if (null == options) {
-      System.err.println("ERROR: No options provided to printUsage");
+      log.error("ERROR: No options provided to printUsage");
       return;
     }
 
