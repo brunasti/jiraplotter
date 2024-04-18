@@ -53,8 +53,8 @@ class UtilsTest {
   void test_getShortName() {
     String input = "A (B)";
     assertEquals("B",Utils.getShortName(input));
-    // TODO: Manage this situation in the getShortName function
-    assertThrows(StringIndexOutOfBoundsException.class, ()->Utils.getShortName(""));
+    assertDoesNotThrow(()->Utils.getShortName(""));
+    assertEquals("B",Utils.getShortName("B"));
   }
 
   @Test

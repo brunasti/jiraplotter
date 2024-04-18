@@ -37,6 +37,12 @@ public class Utils {
   }
 
   public static String getShortName(String name) {
+    if ((name == null) || (name.isBlank())) {
+      return "";
+    }
+    if (name.indexOf('(') < 0) {
+      return name;
+    }
     return name.substring(name.indexOf('(')+1, name.lastIndexOf(')'));
   }
 
