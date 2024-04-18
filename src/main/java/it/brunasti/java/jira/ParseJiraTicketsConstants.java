@@ -4,6 +4,8 @@ public final class ParseJiraTicketsConstants {
 
   private ParseJiraTicketsConstants() {}
 
+  public static final String PUML_FILE_EXTENSION = ".puml";
+  public static final String HEADER_TICKETS = "' Tickets =======";
   public static final String HEADER_LINKS = "' Links =======";
   public static final String DEFINITION_CLASS_START = "class \"";
   public static final String DEFINITION_CLASS_MIDDLE = "\" << (";

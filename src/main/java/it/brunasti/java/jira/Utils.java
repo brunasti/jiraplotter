@@ -141,6 +141,45 @@ public class Utils {
 
 
 
+  public static Map<String, JiraTicket> getPersonaTickets(final Collection<JiraTicket> jiraTickets, String linkKind, String person) {
+    log.debug("getPersonaTickets ({}) ({}) ", linkKind, person);
+
+    Map<String, JiraTicket> selectedJiraTickets = new HashMap<>();
+
+    jiraTickets.forEach(jiraTicket -> {
+      if ((!jiraTicket.assignee.isEmpty()) && (jiraTicket.assignee.getFirst().equalsIgnoreCase(person))) {
+        selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
+        jiraTicket.inwardIssueLink.forEach(links -> {
+          if (links.getName().contains(linkKind)) {
+            links.getJiraTickets().forEach(link -> selectedJiraTickets.put(link.issueKey.getFirst(), link));
+          }
+        });
+      }
+    });
+
+    return selectedJiraTickets;
+  }
+
+  public static Map<String, JiraTicket> getStatusTickets(final Collection<JiraTicket> jiraTickets, String linkKind, String status) {
+    log.debug("getStatusTickets ({}) ({}) ", linkKind, status);
+
+    HashMap<String, JiraTicket> selectedJiraTickets = new HashMap<>();
+
+    jiraTickets.forEach(jiraTicket -> {
+      if ((!jiraTicket.status.isEmpty()) && (jiraTicket.status.getFirst().equalsIgnoreCase(status))) {
+        selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
+        jiraTicket.inwardIssueLink.forEach(links -> {
+          if (links.getName().contains(linkKind)) {
+            links.getJiraTickets().forEach(link -> selectedJiraTickets.put(link.issueKey.getFirst(), link));
+          }
+        });
+      }
+    });
+    return selectedJiraTickets;
+  }
+
+
+
   public static Map<String, JiraTicket> getTicketsForLinkKind(final Collection<JiraTicket> jiraTickets, String linkKind) {
     Map<String, JiraTicket> selectedJiraTickets = new HashMap<>();
 

@@ -58,55 +58,16 @@ public class ParseJiraTicketsCsv {
     generateTextLegend(Utils.getTicketsForLinkKind(jiraTickets, linkKind));
   }
 
-  private void generateLegendPersona(final Collection<JiraTicket> jiraTickets, String linkKind, String person) {
-    log.debug("generateLegendPersona ({}) ({}) ", linkKind, person);
+  private void generateLegendPersona(final Collection<JiraTicket> jiraTickets, String person) {
+    log.debug("generateLegendPersona ({}) ", person);
 
-    generateTextLegend(getPersonaTickets(jiraTickets, linkKind, person));
+    generateTextLegend(Utils.getPersonaTickets(jiraTickets, "", person));
   }
 
+  private void generateLegendStatus(final Collection<JiraTicket> jiraTickets, String status) {
+    log.debug("generateLegendStatus ({}) ", status);
 
-  private Map<String, JiraTicket> getPersonaTickets(final Collection<JiraTicket> jiraTickets, String linkKind, String person) {
-    log.debug("getPersonaTickets ({}) ({}) ", linkKind, person);
-
-    Map<String, JiraTicket> selectedJiraTickets = new HashMap<>();
-
-    jiraTickets.forEach(jiraTicket -> {
-      if ((!jiraTicket.assignee.isEmpty()) && (jiraTicket.assignee.getFirst().equalsIgnoreCase(person))) {
-        selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
-        jiraTicket.inwardIssueLink.forEach(links -> {
-          if (links.getName().contains(linkKind)) {
-            links.getJiraTickets().forEach(link -> selectedJiraTickets.put(link.issueKey.getFirst(), link));
-          }
-        });
-      }
-    });
-
-    return selectedJiraTickets;
-  }
-
-  private Map<String, JiraTicket> getStatusTickets(final Collection<JiraTicket> jiraTickets, String linkKind, String status) {
-    log.debug("getStatusTickets ({}) ({}) ", linkKind, status);
-
-    HashMap<String, JiraTicket> selectedJiraTickets = new HashMap<>();
-
-    jiraTickets.forEach(jiraTicket -> {
-      if ((!jiraTicket.status.isEmpty()) && (jiraTicket.status.getFirst().equalsIgnoreCase(status))) {
-        selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
-        jiraTicket.inwardIssueLink.forEach(links -> {
-          if (links.getName().contains(linkKind)) {
-            links.getJiraTickets().forEach(link -> selectedJiraTickets.put(link.issueKey.getFirst(), link));
-          }
-        });
-      }
-    });
-    return selectedJiraTickets;
-  }
-
-
-  private void generateLegendStatus(final Collection<JiraTicket> jiraTickets, String linkKind, String status) {
-    log.debug("generateLegendStatus ({}) ({}) ", linkKind, status);
-
-    generateTextLegend(getStatusTickets(jiraTickets, linkKind, status));
+    generateTextLegend(Utils.getStatusTickets(jiraTickets, "", status));
   }
 
   private void generateTicket(JiraTicket jiraTicket) {
@@ -143,27 +104,27 @@ public class ParseJiraTicketsCsv {
     );
 
     output.println();
-    output.println("' Tickets =======");
+    output.println(ParseJiraTicketsConstants.HEADER_TICKETS);
     selectedJiraTickets.values().forEach(jiraTicket -> generateTicket(jiraTicket));
     output.println();
   }
 
   private void generateTicketsPerPersonLinks(final Collection<JiraTicket> jiraTickets, String person) {
-    Map<String, JiraTicket> selectedJiraTickets = getPersonaTickets(jiraTickets, "", person);
+    Map<String, JiraTicket> selectedJiraTickets = Utils.getPersonaTickets(jiraTickets, "", person);
     log.debug("generateTicketsPerPersonLinks ({})", person);
 
     output.println();
-    output.println("' Tickets =======");
+    output.println(ParseJiraTicketsConstants.HEADER_TICKETS);
     selectedJiraTickets.values().forEach(jiraTicket -> generateTicket(jiraTicket));
     output.println();
   }
 
   private void generateTicketsPerStatusLinks(final Collection<JiraTicket> jiraTickets, String status) {
-    Map<String, JiraTicket> selectedJiraTickets = getStatusTickets(jiraTickets, "", status);
+    Map<String, JiraTicket> selectedJiraTickets = Utils.  getStatusTickets(jiraTickets, "", status);
     log.debug("generateTicketsPerStatusLinks ({})", status);
 
     output.println();
-    output.println("' Tickets =======");
+    output.println(ParseJiraTicketsConstants.HEADER_TICKETS);
     selectedJiraTickets.values().forEach(jiraTicket -> generateTicket(jiraTicket));
     output.println();
   }
@@ -254,7 +215,7 @@ public class ParseJiraTicketsCsv {
 
 
   // Generate reports for each links kind
-  public boolean generateLinkKindReports(Map<String, JiraTicket> jiraTickets, String outputDir) {
+  public void generateLinkKindReports(Map<String, JiraTicket> jiraTickets, String outputDir) {
     log.info("generateLinkKindReports [{}]", outputDir);
 
     jiraTicketLinkDescriptors.forEach(jiraTicketLinkDescriptor -> {
@@ -267,7 +228,7 @@ public class ParseJiraTicketsCsv {
       if (ticketsNumber > 0) {
         try {
           String name = jiraTicketLinkDescriptor.getShortName().replace(' ','_');
-          FileOutputStream subfile = new FileOutputStream(outputDir + "jira-LinkType-" + name + ".puml");
+          FileOutputStream subfile = new FileOutputStream(outputDir + "jira-LinkType-" + name + ParseJiraTicketsConstants.PUML_FILE_EXTENSION);
           output = new PrintStream(subfile, true);
           generateHeader("Jira Tickets for Link Type " + jiraTicketLinkDescriptor.getShortName());
           generateLegend(jiraTickets.values(), jiraTicketLinkDescriptor.getShortName());
@@ -281,14 +242,12 @@ public class ParseJiraTicketsCsv {
         }
       }
     });
-
-    return true;
   }
 
 
 
 
-  public boolean generateStatusReports(Map<String, JiraTicket> jiraTickets, String outputDir) {
+  public void generateStatusReports(Map<String, JiraTicket> jiraTickets, String outputDir) {
     log.info("generateStatusReports [{}]", outputDir);
 
     // Generate reports for each status
@@ -297,10 +256,10 @@ public class ParseJiraTicketsCsv {
       log.debug("stata : [{}]",status);
       try {
         String name = status.replace(' ','_');
-        FileOutputStream subfile = new FileOutputStream(outputDir + "jira-Status-" + name + ".puml");
+        FileOutputStream subfile = new FileOutputStream(outputDir + "jira-Status-" + name + ParseJiraTicketsConstants.PUML_FILE_EXTENSION);
         output = new PrintStream(subfile, true);
         generateHeader("Jira Tickets for Status " + status);
-        generateLegendStatus(jiraTickets.values(), "", status);
+        generateLegendStatus(jiraTickets.values(), status);
         generateTicketsPerStatusLinks(jiraTickets.values(), status);
         generateSingleStatusLinks(jiraTickets.values(), status);
         generateFooter();
@@ -310,12 +269,10 @@ public class ParseJiraTicketsCsv {
         ex.printStackTrace();
       }
     });
-
-    return true;
   }
 
 
-  public boolean generatePersonReports(Map<String, JiraTicket> jiraTickets, String outputDir) {
+  public void generatePersonReports(Map<String, JiraTicket> jiraTickets, String outputDir) {
     log.info("generatePersonReports [{}]", outputDir);
 
     // Generate reports for each person
@@ -325,10 +282,10 @@ public class ParseJiraTicketsCsv {
       if (Utils.personHasDependingTickets(jiraTickets.values(),person)) {
         try {
           String name = person.replace(' ','_');
-          FileOutputStream subfile = new FileOutputStream(outputDir + "jira-Person-" + name + ".puml");
+          FileOutputStream subfile = new FileOutputStream(outputDir + "jira-Person-" + name + ParseJiraTicketsConstants.PUML_FILE_EXTENSION);
           output = new PrintStream(subfile, true);
           generateHeader("Jira Tickets for Person " + person);
-          generateLegendPersona(jiraTickets.values(), "", person);
+          generateLegendPersona(jiraTickets.values(), person);
           generateTicketsPerPersonLinks(jiraTickets.values(), person);
           generateSinglePersonLinks(jiraTickets.values(), person);
           generateFooter();
@@ -339,11 +296,9 @@ public class ParseJiraTicketsCsv {
         }
       }
     });
-
-    return true;
   }
 
-  public boolean generateBaseDiagram(Map<String, JiraTicket> jiraTickets, String outputDir) throws IOException {
+  public void generateBaseDiagram(Map<String, JiraTicket> jiraTickets, String outputDir) throws IOException {
     log.info("generateBaseDiagram [{}]", outputDir);
 
     // Reports generation -------------------------
@@ -356,8 +311,6 @@ public class ParseJiraTicketsCsv {
     generateLinks(jiraTickets.values());
     generateFooter();
     output.close();
-
-    return true;
   }
 
   public boolean generateDiagrams(String fileName, String outputDir) throws IOException, CsvException {
