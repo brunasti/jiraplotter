@@ -13,24 +13,20 @@ import java.util.*;
 
 public class ParseJiraTicketsCsv {
 
-  // TODO: Create title in diagrams
-
   static Logger log = LogManager.getLogger(ParseJiraTicketsCsv.class);
 
   List<FieldDescriptor> fieldDescriptors = new ArrayList<>();
   ArrayList<JiraTicketLinkDescriptor> jiraTicketLinkDescriptors = new ArrayList<>();
   PrintStream output;
 
-
-
-
-  private void generateHeader() {
+  private void generateHeader(String title) {
     output.println("@startuml");
     output.println("'https://plantuml.com/class-diagram");
     output.println();
     output.println("' GENERATE CLASS DIAGRAM ===========");
     output.println("' Generated at    : " + new Date());
     output.println();
+    output.println("title "+title);
     output.println("hide empty members");
     output.println();
   }
@@ -132,7 +128,7 @@ public class ParseJiraTicketsCsv {
   }
 
   private void generateTicketsPerKindLinks(final Collection<JiraTicket> jiraTickets, String kind) {
-    // TODO
+    // TODO: check if there is a duplication of code with the selection of these tickets based on links....
     HashMap<String, JiraTicket> selectedJiraTickets = new HashMap<>();
 
     jiraTickets.forEach(jiraTicket ->
@@ -273,7 +269,7 @@ public class ParseJiraTicketsCsv {
           String name = jiraTicketLinkDescriptor.getShortName().replace(' ','_');
           FileOutputStream subfile = new FileOutputStream(outputDir + "jira-LinkType-" + name + ".puml");
           output = new PrintStream(subfile, true);
-          generateHeader();
+          generateHeader("Jira Tickets for Link Type " + jiraTicketLinkDescriptor.getShortName());
           generateLegend(jiraTickets.values(), jiraTicketLinkDescriptor.getShortName());
           generateTicketsPerKindLinks(jiraTickets.values(), jiraTicketLinkDescriptor.getShortName());
           generateSingleKindLinks(jiraTickets.values(), jiraTicketLinkDescriptor.getShortName());
@@ -303,7 +299,7 @@ public class ParseJiraTicketsCsv {
         String name = status.replace(' ','_');
         FileOutputStream subfile = new FileOutputStream(outputDir + "jira-Status-" + name + ".puml");
         output = new PrintStream(subfile, true);
-        generateHeader();
+        generateHeader("Jira Tickets for Status " + status);
         generateLegendStatus(jiraTickets.values(), "", status);
         generateTicketsPerStatusLinks(jiraTickets.values(), status);
         generateSingleStatusLinks(jiraTickets.values(), status);
@@ -331,7 +327,7 @@ public class ParseJiraTicketsCsv {
           String name = person.replace(' ','_');
           FileOutputStream subfile = new FileOutputStream(outputDir + "jira-Person-" + name + ".puml");
           output = new PrintStream(subfile, true);
-          generateHeader();
+          generateHeader("Jira Tickets for Person " + person);
           generateLegendPersona(jiraTickets.values(), "", person);
           generateTicketsPerPersonLinks(jiraTickets.values(), person);
           generateSinglePersonLinks(jiraTickets.values(), person);
@@ -353,7 +349,7 @@ public class ParseJiraTicketsCsv {
     // Reports generation -------------------------
     FileOutputStream file = new FileOutputStream(outputDir + "jira.puml");
     output = new PrintStream(file, true);
-    generateHeader();
+    generateHeader("Jira Tickets general diagram");
     generateLegend(jiraTickets.values(), "");
     generateTickets(jiraTickets.values());
     generateParents(jiraTickets.values());
