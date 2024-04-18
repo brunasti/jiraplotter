@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Person Stephy Aniyan
 hide empty members
@@ -10,94 +10,35 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(QA) : 12
-(To Do) : 3
-(Dev Review) : 2
+(QA) : 3
+(To Do) : 2
+(Done) : 2
+(Dev Review) : 1
 (Build) : 1
-(UAT) : 1
+(In Progress) : 6
 (In System Test) : 3
-(In Progress) : 8
+(Work Complete) : 1
 ----
 Jira Ticket Types
 ----
 (Task) : 7
 (Work Request) : 2
-(Bug) : 3
-(Sub-task) : 7
-(Story) : 11
+(Bug) : 4
+(Sub-task) : 6
 end legend
 
 
 ' Tickets =======
-class "CNG-1142" << (T,lightblue) >> {
-  Assigned to : Stephy Aniyan
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-90" << (S,lightgreen) >> {
-  Assigned to : Stephy Aniyan
-  Status : QA
-  Type : Story
-}
-
-class "CNG-78" << (S,lightgreen) >> {
-  Assigned to : Stephy Aniyan
-  Status : QA
-  Type : Story
-}
-
-class "CNG-79" << (S,lightgreen) >> {
-  Assigned to : Stephy Aniyan
-  Status : QA
-  Type : Story
-}
-
-class "CNG-916" << (B,red) >> {
-  Assigned to : Stephy Aniyan
-  Status : In System Test
-  Type : Bug
-}
-
-class "CNG-376" << (S,lightgreen) >> {
-  Assigned to : Stephy Aniyan
-  Status : QA
-  Type : Story
-}
-
-class "CNG-377" << (S,lightgreen) >> {
-  Assigned to : Abinaya Arumugasamy
-  Status : Dev Review
-  Type : Story
-}
-
-class "CNG-1203" << (S,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : In Progress
-  Type : Sub-task
-}
-
-class "CNG-1146" << (W,lightblue) >> {
-  Assigned to : Stephy Aniyan
-  Status : In Progress
-  Type : Work Request
-}
-
-class "CNG-558" << (S,lightblue) >> {
-  Status : To Do
-  Type : Sub-task
-}
-
-class "CNG-557" << (S,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : In Progress
-  Type : Sub-task
-}
-
 class "CNG-1295" << (W,lightblue) >> {
   Assigned to : Stephy Aniyan
   Status : In Progress
   Type : Work Request
+}
+
+class "CNG-1142" << (T,lightblue) >> {
+  Assigned to : Stephy Aniyan
+  Status : To Do
+  Type : Task
 }
 
 class "CNG-1153" << (T,lightblue) >> {
@@ -106,56 +47,32 @@ class "CNG-1153" << (T,lightblue) >> {
   Type : Task
 }
 
+class "CNG-1194" << (T,lightblue) >> {
+  Assigned to : Sulafa Malik
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1041" << (S,lightblue) >> {
+  Assigned to : Stephy Aniyan
+  Status : Done
+  Type : Sub-task
+}
+
 class "CNG-1151" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
   Status : In Progress
   Type : Task
 }
 
-class "CNG-592" << (S,lightblue) >> {
-  Assigned to : Anand Dixit
-  Status : To Do
-  Type : Sub-task
-}
-
-class "CNG-393" << (S,lightgreen) >> {
-  Assigned to : Deepak Ingwale
-  Status : In Progress
-  Type : Story
-}
-
-class "CNG-81" << (S,lightgreen) >> {
+class "CNG-916" << (B,red) >> {
   Assigned to : Stephy Aniyan
-  Status : QA
-  Type : Story
-}
-
-class "CNG-84" << (S,lightgreen) >> {
-  Assigned to : Stephy Aniyan
-  Status : QA
-  Type : Story
-}
-
-class "CNG-69" << (S,lightgreen) >> {
-  Assigned to : Sulafa Malik
-  Status : UAT
-  Type : Story
-}
-
-class "CNG-2" << (S,lightgreen) >> {
-  Assigned to : Stephy Aniyan
-  Status : QA
-  Type : Story
+  Status : In System Test
+  Type : Bug
 }
 
 class "CNG-1319" << (T,lightblue) >> {
   Assigned to : Stephy Aniyan
-  Status : QA
-  Type : Task
-}
-
-class "CNG-609" << (T,lightblue) >> {
-  Assigned to : Amreen Fathima
   Status : QA
   Type : Task
 }
@@ -177,12 +94,6 @@ class "CNG-1038" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-369" << (S,lightgreen) >> {
-  Assigned to : Stephy Aniyan
-  Status : QA
-  Type : Story
-}
-
 class "CNG-1013" << (B,red) >> {
   Assigned to : Stephy Aniyan
   Status : In System Test
@@ -201,6 +112,29 @@ class "CNG-1058" << (T,lightblue) >> {
   Type : Task
 }
 
+class "CNG-863" << (B,red) >> {
+  Assigned to : Stephy Aniyan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1146" << (W,lightblue) >> {
+  Assigned to : Stephy Aniyan
+  Status : In Progress
+  Type : Work Request
+}
+
+class "CNG-558" << (S,lightblue) >> {
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-557" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Progress
+  Type : Sub-task
+}
+
 class "CNG-1012" << (B,red) >> {
   Assigned to : Stephy Aniyan
   Status : In System Test
@@ -210,26 +144,14 @@ class "CNG-1012" << (B,red) >> {
 
 
 ' Links =======
-"CNG-2" <.. "CNG-609" : Approval
 "CNG-916" <.. "CNG-557" : Dependent
-"CNG-376" <.. "CNG-79" : Dependent
-"CNG-376" <.. "CNG-81" : Dependent
-"CNG-376" <.. "CNG-377" : Relates
+"CNG-1041" <.. "CNG-1194" : Checklist
+"CNG-1013" <.. "CNG-558" : Relates
+"CNG-1012" <.. "CNG-558" : Relates
+"CNG-863" <.. "CNG-558" : Relates
 "CNG-1142" <.. "CNG-1039" : Relates
 "CNG-1153" <.. "CNG-1151" : Jira Product Discovery issue link
 "CNG-1153" <.. "CNG-686" : Relates
-"CNG-369" <.. "CNG-79" : Dependent
-"CNG-369" <.. "CNG-81" : Dependent
-"CNG-90" <.. "CNG-69" : Relates
-"CNG-1013" <.. "CNG-558" : Relates
-"CNG-1012" <.. "CNG-558" : Relates
-"CNG-78" <.. "CNG-79" : Dependent
-"CNG-78" <.. "CNG-81" : Dependent
-"CNG-78" <.. "CNG-393" : Dependent
-"CNG-78" <.. "CNG-1203" : Feature
-"CNG-84" <.. "CNG-393" : Dependent
-"CNG-84" <.. "CNG-1203" : Feature
-"CNG-84" <.. "CNG-592" : Relates
 
 
 @enduml

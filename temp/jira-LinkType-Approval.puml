@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Link Type Approval
 hide empty members
@@ -10,20 +10,18 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(QA) : 2
-(To Do) : 15
-(Dev Review) : 1
-(UAT) : 1
+(To Do) : 10
+(Done) : 6
 (In Progress) : 7
 (In System Test) : 1
-(Raised) : 1
+(Withdrawn) : 1
+(Work Complete) : 8
 ----
 Jira Ticket Types
 ----
-(Task) : 15
-(Bug) : 2
-(Sub-task) : 1
-(Story) : 10
+(Task) : 19
+(Bug) : 10
+(Sub-task) : 4
 end legend
 
 
@@ -34,16 +32,10 @@ class "CNG-1060" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-93" << (S,lightgreen) >> {
-  Assigned to : Jon Funnell
-  Status : To Do
-  Type : Story
-}
-
-class "CNG-74" << (S,lightgreen) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Story
+class "CNG-879" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
 }
 
 class "CNG-615" << (T,lightblue) >> {
@@ -52,16 +44,20 @@ class "CNG-615" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-55" << (S,lightgreen) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Story
+class "CNG-738" << (T,lightblue) >> {
+  Status : Done
+  Type : Task
 }
 
 class "CNG-917" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : To Do
   Type : Task
+}
+
+class "CNG-431" << (B,red) >> {
+  Status : Work Complete
+  Type : Bug
 }
 
 class "CNG-871" << (T,lightblue) >> {
@@ -76,14 +72,36 @@ class "CNG-1202" << (T,lightblue) >> {
   Type : Task
 }
 
+class "CNG-796" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-432" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
 class "CNG-1201" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
   Status : In Progress
   Type : Task
 }
 
-class "CNG-415" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
+class "CNG-753" << (S,lightblue) >> {
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-558" << (S,lightblue) >> {
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-1022" << (T,lightblue) >> {
+  Assigned to : Anand Jajoo
   Status : To Do
   Type : Task
 }
@@ -94,9 +112,38 @@ class "CNG-733" << (T,lightblue) >> {
   Type : Task
 }
 
+class "CNG-1023" << (T,lightblue) >> {
+  Assigned to : Riti Agarwal
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-876" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-810" << (S,lightblue) >> {
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-1188" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : Done
+  Type : Task
+}
+
 class "CNG-1196" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
   Status : In Progress
+  Type : Task
+}
+
+class "CNG-1131" << (T,lightblue) >> {
+  Assigned to : BharathKum Sarangarajan
+  Status : Done
   Type : Task
 }
 
@@ -106,16 +153,10 @@ class "CNG-1195" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-82" << (S,lightgreen) >> {
-  Assigned to : Sushant Khandelwal
-  Status : In Progress
-  Type : Story
-}
-
-class "CNG-85" << (S,lightgreen) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Story
+class "CNG-470" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Work Complete
+  Type : Bug
 }
 
 class "CNG-626" << (T,lightblue) >> {
@@ -124,34 +165,28 @@ class "CNG-626" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-68" << (S,lightgreen) >> {
-  Assigned to : Anand Jajoo
-  Status : To Do
-  Type : Story
-}
-
-class "CNG-69" << (S,lightgreen) >> {
-  Assigned to : Sulafa Malik
-  Status : UAT
-  Type : Story
-}
-
-class "CNG-2" << (S,lightgreen) >> {
-  Assigned to : Stephy Aniyan
-  Status : QA
-  Type : Story
-}
-
-class "CNG-48" << (S,lightgreen) >> {
-  Assigned to : Nigel Hassett
-  Status : To Do
-  Type : Story
-}
-
-class "CNG-609" << (T,lightblue) >> {
-  Assigned to : Amreen Fathima
-  Status : QA
+class "CNG-647" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
   Type : Task
+}
+
+class "CNG-867" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-708" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : In System Test
+  Type : Bug
+}
+
+class "CNG-486" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
 }
 
 class "CNG-961" << (S,lightblue) >> {
@@ -160,34 +195,22 @@ class "CNG-961" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-346" << (B,red) >> {
-  Assigned to : Amreen Fathima
-  Status : In System Test
-  Type : Bug
-}
-
-class "CNG-269" << (S,lightgreen) >> {
-  Assigned to : Abdul Kader Nabil
-  Status : Dev Review
-  Type : Story
-}
-
 class "CNG-624" << (T,lightblue) >> {
   Assigned to : Anand Dixit
   Status : To Do
   Type : Task
 }
 
+class "CNG-866" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Withdrawn
+  Type : Bug
+}
+
 class "CNG-1198" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
   Status : In Progress
   Type : Task
-}
-
-class "CNG-502" << (B,red) >> {
-  Assigned to : Jon Funnell
-  Status : Raised
-  Type : Bug
 }
 
 class "CNG-1199" << (T,lightblue) >> {
@@ -201,24 +224,27 @@ class "CNG-1199" << (T,lightblue) >> {
 ' Links =======
 "CNG-1202" <.. "CNG-733" : Approval
 "CNG-1201" <.. "CNG-733" : Approval
-"CNG-2" <.. "CNG-609" : Approval
-"CNG-346" <.. "CNG-69" : Approval
-"CNG-626" <.. "CNG-85" : Approval
-"CNG-626" <.. "CNG-74" : Approval
-"CNG-626" <.. "CNG-48" : Approval
-"CNG-626" <.. "CNG-82" : Approval
+"CNG-753" <.. "CNG-738" : Approval
+"CNG-796" <.. "CNG-558" : Approval
+"CNG-961" <.. "CNG-1060" : Approval
+"CNG-1023" <.. "CNG-1131" : Approval
+"CNG-879" <.. "CNG-708" : Approval
+"CNG-876" <.. "CNG-708" : Approval
+"CNG-470" <.. "CNG-486" : Approval
+"CNG-431" <.. "CNG-432" : Approval
+"CNG-810" <.. "CNG-1022" : Approval
 "CNG-626" <.. "CNG-615" : Approval
 "CNG-626" <.. "CNG-624" : Approval
+"CNG-626" <.. "CNG-647" : Approval
 "CNG-626" <.. "CNG-871" : Approval
 "CNG-626" <.. "CNG-917" : Approval
-"CNG-502" <.. "CNG-55" : Approval
-"CNG-961" <.. "CNG-1060" : Approval
+"CNG-867" <.. "CNG-558" : Approval
+"CNG-866" <.. "CNG-558" : Approval
+"CNG-1188" <.. "CNG-733" : Approval
 "CNG-1196" <.. "CNG-733" : Approval
 "CNG-1195" <.. "CNG-733" : Approval
 "CNG-1198" <.. "CNG-733" : Approval
 "CNG-1199" <.. "CNG-733" : Approval
-"CNG-269" <.. "CNG-415" : Approval
-"CNG-93" <.. "CNG-68" : Approval
 
 
 @enduml

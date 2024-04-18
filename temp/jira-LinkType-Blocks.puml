@@ -1,0 +1,219 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
+
+title Jira Tickets for Link Type Blocks
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(Done) : 14
+(To Do) : 1
+(Dev Review) : 1
+(Withdrawn) : 2
+(In Progress) : 1
+(Resolved) : 1
+(Work Complete) : 3
+(Resolved (Closed)) : 1
+(Raised) : 1
+(Design Review) : 1
+----
+Jira Ticket Types
+----
+(Task) : 14
+(Bug) : 6
+(Sub-task) : 4
+(Risk) : 1
+(Impediment (Issue)) : 1
+end legend
+
+
+' Tickets =======
+class "CNG-537" << (B,red) >> {
+  Assigned to : Shafiqul Islam
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-839" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-650" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1205" << (T,lightblue) >> {
+  Assigned to : Sivagami S
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1227" << (S,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-597" << (T,lightblue) >> {
+  Assigned to : Anand Jajoo
+  Status : Done
+  Type : Task
+}
+
+class "CNG-534" << (B,red) >> {
+  Assigned to : Shafiqul Islam
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-699" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Task
+}
+
+class "CNG-558" << (S,lightblue) >> {
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-657" << (I,orange) >> {
+  Assigned to : Shafiqul Islam
+  Status : Resolved (Closed)
+  Type : Impediment (Issue)
+}
+
+class "CNG-1151" << (T,lightblue) >> {
+  Assigned to : BharathKum Sarangarajan
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-690" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Task
+}
+
+class "CNG-648" << (T,lightblue) >> {
+  Assigned to : Amreen Fathima
+  Status : Done
+  Type : Task
+}
+
+class "CNG-604" << (T,lightblue) >> {
+  Assigned to : Anand Dixit
+  Status : Dev Review
+  Type : Task
+}
+
+class "CNG-823" << (T,lightblue) >> {
+  Assigned to : Dhanish Kumar
+  Status : Done
+  Type : Task
+}
+
+class "CNG-605" << (T,lightblue) >> {
+  Assigned to : Anand Dixit
+  Status : Done
+  Type : Task
+}
+
+class "CNG-806" << (T,lightblue) >> {
+  Assigned to : Abinaya Arumugasamy
+  Status : Done
+  Type : Task
+}
+
+class "CNG-905" << (B,red) >> {
+  Status : Raised
+  Type : Bug
+}
+
+class "CNG-585" << (S,lightblue) >> {
+  Assigned to : Anand Dixit
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-584" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-840" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-620" << (T,lightblue) >> {
+  Assigned to : Sushant Khandelwal
+  Status : Design Review
+  Type : Task
+}
+
+class "CNG-542" << (T,lightblue) >> {
+  Assigned to : Abinaya Arumugasamy
+  Status : Done
+  Type : Task
+}
+
+class "CNG-545" << (X,lightblue) >> {
+  Assigned to : Anand Dixit
+  Status : Resolved
+  Type : Risk
+}
+
+class "CNG-864" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-821" << (T,lightblue) >> {
+  Status : Done
+  Type : Task
+}
+
+
+
+' Links =======
+"CNG-537" <.. "CNG-650" : Blocks
+"CNG-585" <.. "CNG-605" : Blocks
+"CNG-585" <.. "CNG-648" : Blocks
+"CNG-585" <.. "CNG-650" : Blocks
+"CNG-584" <.. "CNG-545" : Blocks
+"CNG-558" <.. "CNG-534" : Blocks
+"CNG-558" <.. "CNG-537" : Blocks
+"CNG-558" <.. "CNG-605" : Blocks
+"CNG-558" <.. "CNG-650" : Blocks
+"CNG-558" <.. "CNG-657" : Blocks
+"CNG-558" <.. "CNG-690" : Blocks
+"CNG-558" <.. "CNG-840" : Blocks
+"CNG-558" <.. "CNG-839" : Blocks
+"CNG-558" <.. "CNG-864" : Blocks
+"CNG-558" <.. "CNG-542" : Blocks
+"CNG-597" <.. "CNG-864" : Blocks
+"CNG-823" <.. "CNG-864" : Blocks
+"CNG-821" <.. "CNG-542" : Blocks
+"CNG-806" <.. "CNG-542" : Blocks
+"CNG-620" <.. "CNG-657" : Blocks
+"CNG-620" <.. "CNG-537" : Blocks
+"CNG-604" <.. "CNG-657" : Blocks
+"CNG-604" <.. "CNG-537" : Blocks
+"CNG-905" <.. "CNG-699" : Blocks
+"CNG-1151" <.. "CNG-1205" : Blocks
+"CNG-1151" <.. "CNG-1227" : Blocks
+
+
+@enduml

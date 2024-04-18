@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Person Swagath Ganta
 hide empty members
@@ -10,29 +10,28 @@ hide empty members
 legend
 Jira Ticket Status
 ----
+(Done) : 2
 (To Do) : 3
-(Denied) : 1
 (In Progress) : 1
 ----
 Jira Ticket Types
 ----
-(Task) : 1
-(Sub-task) : 3
-(Project Request Package) : 1
+(Task) : 2
+(Sub-task) : 4
 end legend
 
 
 ' Tickets =======
+class "CNG-1228" << (S,lightblue) >> {
+  Assigned to : Swagath Ganta
+  Status : Done
+  Type : Sub-task
+}
+
 class "CNG-1328" << (S,lightblue) >> {
   Assigned to : Swagath Ganta
   Status : In Progress
   Type : Sub-task
-}
-
-class "CNG-310" << (P,lightblue) >> {
-  Assigned to : Swagath Ganta
-  Status : Denied
-  Type : Project Request Package
 }
 
 class "CNG-1226" << (T,lightblue) >> {
@@ -51,6 +50,12 @@ class "CNG-1313" << (S,lightblue) >> {
   Assigned to : Swagath Ganta
   Status : To Do
   Type : Sub-task
+}
+
+class "CNG-1200" << (T,lightblue) >> {
+  Assigned to : Swagath Ganta
+  Status : Done
+  Type : Task
 }
 
 

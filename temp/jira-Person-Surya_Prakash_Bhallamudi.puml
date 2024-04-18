@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Person Surya Prakash Bhallamudi
 hide empty members
@@ -10,19 +10,33 @@ hide empty members
 legend
 Jira Ticket Status
 ----
+(In Review (migrated)) : 1
+(Done) : 3
 (To Do) : 3
 ----
 Jira Ticket Types
 ----
-(Task) : 2
-(Sub-task) : 1
+(Task) : 4
+(Sub-task) : 3
 end legend
 
 
 ' Tickets =======
+class "CNG-1073" << (S,lightblue) >> {
+  Assigned to : Surya Prakash Bhallamudi
+  Status : Done
+  Type : Sub-task
+}
+
 class "CNG-590" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-1030" << (S,lightblue) >> {
+  Assigned to : Pratik Desai
+  Status : In Review (migrated)
   Type : Sub-task
 }
 
@@ -32,16 +46,30 @@ class "CNG-1368" << (T,lightblue) >> {
   Type : Task
 }
 
+class "CNG-1145" << (T,lightblue) >> {
+  Assigned to : Surya Prakash Bhallamudi
+  Status : Done
+  Type : Task
+}
+
 class "CNG-1388" << (T,lightblue) >> {
   Assigned to : Surya Prakash Bhallamudi
   Status : To Do
   Type : Task
 }
 
+class "CNG-1121" << (T,lightblue) >> {
+  Assigned to : Surya Prakash Bhallamudi
+  Status : Done
+  Type : Task
+}
+
 
 
 ' Links =======
+"CNG-1145" <.. "CNG-1030" : Relates
 "CNG-1368" <.. "CNG-590" : Dependent
+"CNG-1121" <.. "CNG-1073" : Relates
 
 
 @enduml

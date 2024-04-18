@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Person Abdul Kader Nabil
 hide empty members
@@ -10,33 +10,42 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(QA) : 2
-(To Do) : 3
-(Dev Review) : 1
-(In Progress) : 5
+(Done) : 6
+(To Do) : 2
+(In Progress) : 3
 (Rejected) : 1
 ----
 Jira Ticket Types
 ----
-(Task) : 4
+(Task) : 6
 (Bug) : 1
-(Sub-task) : 2
-(Story) : 4
+(Sub-task) : 4
 (New Feature) : 1
 end legend
 
 
 ' Tickets =======
-class "CNG-79" << (S,lightgreen) >> {
-  Assigned to : Stephy Aniyan
-  Status : QA
-  Type : Story
+class "CNG-603" << (T,lightblue) >> {
+  Assigned to : Abdul Kader Nabil
+  Status : Done
+  Type : Task
 }
 
-class "CNG-393" << (S,lightgreen) >> {
-  Assigned to : Deepak Ingwale
-  Status : In Progress
-  Type : Story
+class "CNG-581" << (S,lightblue) >> {
+  Assigned to : Abdul Kader Nabil
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-619" << (T,lightblue) >> {
+  Assigned to : Abdul Kader Nabil
+  Status : Done
+  Type : Task
+}
+
+class "CNG-926" << (T,lightblue) >> {
+  Status : Done
+  Type : Task
 }
 
 class "CNG-1391" << (T,lightblue) >> {
@@ -57,22 +66,10 @@ class "CNG-1359" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-81" << (S,lightgreen) >> {
-  Assigned to : Stephy Aniyan
-  Status : QA
-  Type : Story
-}
-
 class "CNG-1389" << (N,lightgreen) >> {
   Assigned to : Abdul Kader Nabil
   Status : To Do
   Type : New Feature
-}
-
-class "CNG-1203" << (S,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : In Progress
-  Type : Sub-task
 }
 
 class "CNG-1354" << (B,red) >> {
@@ -81,33 +78,29 @@ class "CNG-1354" << (B,red) >> {
   Type : Bug
 }
 
+class "CNG-566" << (S,lightblue) >> {
+  Assigned to : Abdul Kader Nabil
+  Status : Done
+  Type : Sub-task
+}
+
 class "CNG-874" << (T,lightblue) >> {
   Assigned to : Abdul Kader Nabil
   Status : In Progress
   Type : Task
 }
 
-class "CNG-269" << (S,lightgreen) >> {
+class "CNG-568" << (S,lightblue) >> {
   Assigned to : Abdul Kader Nabil
-  Status : Dev Review
-  Type : Story
-}
-
-class "CNG-415" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
+  Status : Done
+  Type : Sub-task
 }
 
 
 
 ' Links =======
-"CNG-874" <.. "CNG-79" : Dependent
-"CNG-874" <.. "CNG-81" : Dependent
-"CNG-269" <.. "CNG-415" : Approval
-"CNG-269" <.. "CNG-596" : Dependent
-"CNG-269" <.. "CNG-393" : Dependent
-"CNG-269" <.. "CNG-1203" : Feature
+"CNG-581" <.. "CNG-596" : Dependent
+"CNG-874" <.. "CNG-926" : Dependent
 
 
 @enduml

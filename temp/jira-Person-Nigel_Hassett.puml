@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Person Nigel Hassett
 hide empty members
@@ -10,65 +10,55 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(To Do) : 8
-(Under Investigation) : 1
-(In Progress) : 6
-(Design Review) : 1
+(QA) : 1
+(Done) : 14
+(To Do) : 5
+(In Progress) : 7
+(Work Complete) : 1
 ----
 Jira Ticket Types
 ----
-(Task) : 10
+(Task) : 20
 (Bug) : 1
-(Sub-task) : 3
-(Story) : 2
+(Sub-task) : 4
+(New Feature) : 3
 end legend
 
 
 ' Tickets =======
-class "CNG-1173" << (S,lightblue) >> {
-  Status : To Do
+class "CNG-580" << (S,lightblue) >> {
+  Assigned to : Nigel Hassett
+  Status : Done
   Type : Sub-task
 }
 
-class "CNG-294" << (T,lightblue) >> {
+class "CNG-637" << (T,lightblue) >> {
   Assigned to : Nigel Hassett
-  Status : To Do
+  Status : Done
   Type : Task
 }
 
-class "CNG-75" << (S,lightgreen) >> {
+class "CNG-636" << (T,lightblue) >> {
   Assigned to : Nigel Hassett
-  Status : Design Review
-  Type : Story
-}
-
-class "CNG-626" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
+  Status : Done
   Type : Task
 }
 
-class "CNG-48" << (S,lightgreen) >> {
+class "CNG-771" << (T,lightblue) >> {
   Assigned to : Nigel Hassett
-  Status : To Do
-  Type : Story
-}
-
-class "CNG-1218" << (T,lightblue) >> {
-  Assigned to : Nigel Hassett
-  Status : To Do
+  Status : Done
   Type : Task
-}
-
-class "CNG-364" << (B,red) >> {
-  Assigned to : Nigel Hassett
-  Status : Under Investigation
-  Type : Bug
 }
 
 class "CNG-873" << (T,lightblue) >> {
   Assigned to : Paolo Brunasti
   Status : In Progress
+  Type : Task
+}
+
+class "CNG-630" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
   Type : Task
 }
 
@@ -84,27 +74,10 @@ class "CNG-1222" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-1233" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
+class "CNG-533" << (T,lightblue) >> {
+  Assigned to : Anand Dixit
   Status : In Progress
   Type : Task
-}
-
-class "CNG-1234" << (T,lightblue) >> {
-  Assigned to : Nigel Hassett
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-668" << (S,lightblue) >> {
-  Assigned to : Nigel Hassett
-  Status : In Progress
-  Type : Sub-task
-}
-
-class "CNG-679" << (S,lightblue) >> {
-  Status : In Progress
-  Type : Sub-task
 }
 
 class "CNG-733" << (T,lightblue) >> {
@@ -119,16 +92,127 @@ class "CNG-953" << (T,lightblue) >> {
   Type : Task
 }
 
+class "CNG-634" << (T,lightblue) >> {
+  Assigned to : Nigel Hassett
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1153" << (T,lightblue) >> {
+  Assigned to : Stephy Aniyan
+  Status : QA
+  Type : Task
+}
+
+class "CNG-505" << (T,lightblue) >> {
+  Assigned to : Nigel Hassett
+  Status : Done
+  Type : Task
+}
+
+class "CNG-966" << (B,red) >> {
+  Assigned to : Nigel Hassett
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-649" << (T,lightblue) >> {
+  Assigned to : Nigel Hassett
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1218" << (T,lightblue) >> {
+  Assigned to : Nigel Hassett
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-684" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-980" << (T,lightblue) >> {
+  Assigned to : Nigel Hassett
+  Status : Done
+  Type : Task
+}
+
+class "CNG-961" << (S,lightblue) >> {
+  Assigned to : Anand Jajoo
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-520" << (N,lightgreen) >> {
+  Assigned to : Nigel Hassett
+  Status : Done
+  Type : New Feature
+}
+
+class "CNG-600" << (T,lightblue) >> {
+  Assigned to : Sushant Khandelwal
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1233" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-522" << (N,lightgreen) >> {
+  Assigned to : Nigel Hassett
+  Status : Done
+  Type : New Feature
+}
+
+class "CNG-1234" << (T,lightblue) >> {
+  Assigned to : Nigel Hassett
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-668" << (S,lightblue) >> {
+  Assigned to : Nigel Hassett
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-524" << (N,lightgreen) >> {
+  Assigned to : Nigel Hassett
+  Status : Done
+  Type : New Feature
+}
+
+class "CNG-865" << (T,lightblue) >> {
+  Assigned to : Nigel Hassett
+  Status : Done
+  Type : Task
+}
+
 
 
 ' Links =======
+"CNG-771" <.. "CNG-630" : Dependent
+"CNG-771" <.. "CNG-961" : Dependent
 "CNG-1218" <.. "CNG-733" : Dependent
+"CNG-522" <.. "CNG-684" : Relates
+"CNG-522" <.. "CNG-1153" : Relates
+"CNG-524" <.. "CNG-684" : Relates
+"CNG-580" <.. "CNG-600" : Dependent
+"CNG-980" <.. "CNG-630" : Dependent
 "CNG-953" <.. "CNG-795" : Relates
-"CNG-48" <.. "CNG-626" : Relates
-"CNG-75" <.. "CNG-1173" : Feature
 "CNG-1222" <.. "CNG-873" : Relates
-"CNG-294" <.. "CNG-679" : Relates
 "CNG-1234" <.. "CNG-1233" : Dependent
+"CNG-637" <.. "CNG-630" : Dependent
+"CNG-636" <.. "CNG-630" : Dependent
+"CNG-634" <.. "CNG-533" : Dependent
+"CNG-649" <.. "CNG-630" : Dependent
+"CNG-865" <.. "CNG-961" : Dependent
 
 
 @enduml

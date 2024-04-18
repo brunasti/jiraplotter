@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Person Rajeswari Vijayal Neelakantan
 hide empty members
@@ -10,24 +10,64 @@ hide empty members
 legend
 Jira Ticket Status
 ----
+(Done) : 1
 (In System Test) : 1
+(Work Complete) : 5
 ----
 Jira Ticket Types
 ----
-(Bug) : 1
+(Bug) : 6
+(Sub-task) : 1
 end legend
 
 
 ' Tickets =======
+class "CNG-945" << (B,red) >> {
+  Assigned to : Rajeswari Vijayal Neelakantan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-585" << (S,lightblue) >> {
+  Assigned to : Anand Dixit
+  Status : Done
+  Type : Sub-task
+}
+
 class "CNG-1357" << (B,red) >> {
   Assigned to : Rajeswari Vijayal Neelakantan
   Status : In System Test
   Type : Bug
 }
 
+class "CNG-1343" << (B,red) >> {
+  Assigned to : Rajeswari Vijayal Neelakantan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1341" << (B,red) >> {
+  Assigned to : Rajeswari Vijayal Neelakantan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1352" << (B,red) >> {
+  Assigned to : Rajeswari Vijayal Neelakantan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1375" << (B,red) >> {
+  Assigned to : Rajeswari Vijayal Neelakantan
+  Status : Work Complete
+  Type : Bug
+}
+
 
 
 ' Links =======
+"CNG-945" <.. "CNG-585" : Relates
 
 
 @enduml

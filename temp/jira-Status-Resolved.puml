@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
+
+title Jira Tickets for Status Resolved
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(Resolved) : 1
+----
+Jira Ticket Types
+----
+(Risk) : 1
+end legend
+
+
+' Tickets =======
+class "CNG-545" << (X,lightblue) >> {
+  Assigned to : Anand Dixit
+  Status : Resolved
+  Type : Risk
+}
+
+
+
+' Links =======
+
+
+@enduml

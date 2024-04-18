@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Status Resolved (Closed)
 hide empty members
@@ -10,11 +10,15 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(Resolved (Closed)) : 1
+(QA) : 1
+(To Do) : 2
+(In Progress) : 1
+(Resolved (Closed)) : 4
 ----
 Jira Ticket Types
 ----
-(Impediment (Issue)) : 1
+(Sub-task) : 4
+(Impediment (Issue)) : 4
 end legend
 
 
@@ -25,9 +29,52 @@ class "CNG-658" << (I,orange) >> {
   Type : Impediment (Issue)
 }
 
+class "CNG-727" << (S,lightblue) >> {
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-729" << (S,lightblue) >> {
+  Status : QA
+  Type : Sub-task
+}
+
+class "CNG-728" << (S,lightblue) >> {
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-695" << (I,orange) >> {
+  Assigned to : Sushant Khandelwal
+  Status : Resolved (Closed)
+  Type : Impediment (Issue)
+}
+
+class "CNG-730" << (S,lightblue) >> {
+  Assigned to : Sulafa Malik
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-657" << (I,orange) >> {
+  Assigned to : Shafiqul Islam
+  Status : Resolved (Closed)
+  Type : Impediment (Issue)
+}
+
+class "CNG-656" << (I,orange) >> {
+  Assigned to : Shafiqul Islam
+  Status : Resolved (Closed)
+  Type : Impediment (Issue)
+}
+
 
 
 ' Links =======
+"CNG-657" <.. "CNG-727" : Dependent
+"CNG-657" <.. "CNG-729" : Dependent
+"CNG-657" <.. "CNG-728" : Dependent
+"CNG-656" <.. "CNG-730" : Dependent
 
 
 @enduml

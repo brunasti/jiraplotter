@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Link Type Automates
 hide empty members
@@ -45,7 +45,7 @@ class "CNG-993" << (R,red) >> {
 }
 
 class "CNG-1410" << (T,lightblue) >> {
-  Assigned to : Dileep
+  Assigned to : Deepak Ingwale
   Status : In Progress
   Type : Task
 }

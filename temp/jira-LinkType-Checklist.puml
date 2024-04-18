@@ -1,0 +1,41 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
+
+title Jira Tickets for Link Type Checklist
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(Done) : 2
+----
+Jira Ticket Types
+----
+(Task) : 1
+(Sub-task) : 1
+end legend
+
+
+' Tickets =======
+class "CNG-1194" << (T,lightblue) >> {
+  Assigned to : Sulafa Malik
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1041" << (S,lightblue) >> {
+  Assigned to : Stephy Aniyan
+  Status : Done
+  Type : Sub-task
+}
+
+
+
+' Links =======
+"CNG-1041" <.. "CNG-1194" : Checklist
+
+
+@enduml

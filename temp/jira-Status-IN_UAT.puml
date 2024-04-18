@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Status IN UAT
 hide empty members
@@ -10,15 +10,16 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(IN UAT) : 8
+(IN UAT) : 7
 (To Do) : 3
+(Done) : 1
 (In Progress) : 1
 ----
 Jira Ticket Types
 ----
-(Bug) : 8
-(Sub-task) : 3
-(Story) : 1
+(Task) : 1
+(Bug) : 7
+(Sub-task) : 4
 end legend
 
 
@@ -30,6 +31,12 @@ class "CNG-559" << (S,lightblue) >> {
 }
 
 class "CNG-606" << (B,red) >> {
+  Assigned to : Sulafa Malik
+  Status : IN UAT
+  Type : Bug
+}
+
+class "CNG-904" << (B,red) >> {
   Assigned to : Sulafa Malik
   Status : IN UAT
   Type : Bug
@@ -53,28 +60,16 @@ class "CNG-521" << (B,red) >> {
   Type : Bug
 }
 
-class "CNG-312" << (B,red) >> {
-  Assigned to : Sulafa Malik
-  Status : IN UAT
-  Type : Bug
-}
-
-class "CNG-336" << (B,red) >> {
-  Assigned to : Jon Funnell
-  Status : IN UAT
-  Type : Bug
-}
-
-class "CNG-214" << (S,lightgreen) >> {
-  Assigned to : Narayana Golla
-  Status : In Progress
-  Type : Story
-}
-
 class "CNG-687" << (S,lightblue) >> {
   Assigned to : Sulafa Malik
   Status : To Do
   Type : Sub-task
+}
+
+class "CNG-599" << (T,lightblue) >> {
+  Assigned to : Abinaya Arumugasamy
+  Status : Done
+  Type : Task
 }
 
 class "CNG-536" << (B,red) >> {
@@ -95,16 +90,23 @@ class "CNG-777" << (B,red) >> {
   Type : Bug
 }
 
+class "CNG-557" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Progress
+  Type : Sub-task
+}
+
 
 
 ' Links =======
-"CNG-536" <.. "CNG-214" : Relates
 "CNG-536" <.. "CNG-684" : Relates
 "CNG-536" <.. "CNG-777" : Relates
 "CNG-521" <.. "CNG-687" : Relates
 "CNG-646" <.. "CNG-687" : Relates
-"CNG-312" <.. "CNG-559" : Relates
+"CNG-606" <.. "CNG-599" : Dependent
 "CNG-606" <.. "CNG-687" : Relates
+"CNG-904" <.. "CNG-557" : Dependent
+"CNG-904" <.. "CNG-559" : Dependent
 
 
 @enduml

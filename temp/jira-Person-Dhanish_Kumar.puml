@@ -1,0 +1,56 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
+
+title Jira Tickets for Person Dhanish Kumar
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(Done) : 1
+(To Do) : 1
+(Work Complete) : 2
+----
+Jira Ticket Types
+----
+(Task) : 1
+(Bug) : 2
+(Sub-task) : 1
+end legend
+
+
+' Tickets =======
+class "CNG-823" << (T,lightblue) >> {
+  Assigned to : Dhanish Kumar
+  Status : Done
+  Type : Task
+}
+
+class "CNG-860" << (B,red) >> {
+  Assigned to : Dhanish Kumar
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-864" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-558" << (S,lightblue) >> {
+  Status : To Do
+  Type : Sub-task
+}
+
+
+
+' Links =======
+"CNG-823" <.. "CNG-864" : Blocks
+"CNG-823" <.. "CNG-558" : Dependent
+
+
+@enduml

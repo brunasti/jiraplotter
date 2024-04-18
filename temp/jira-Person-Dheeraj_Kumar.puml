@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Person Dheeraj Kumar
 hide empty members
@@ -10,31 +10,127 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(To Do) : 2
+(To Do) : 4
+(Done) : 12
+(Dev Review) : 1
 ----
 Jira Ticket Types
 ----
-(Task) : 2
+(Task) : 14
+(Sub-task) : 2
+(New Feature) : 1
 end legend
 
 
 ' Tickets =======
-class "CNG-989" << (T,lightblue) >> {
-  Assigned to : Dheeraj Kumar
-  Status : To Do
-  Type : Task
-}
-
 class "CNG-990" << (T,lightblue) >> {
   Assigned to : Dheeraj Kumar
   Status : To Do
   Type : Task
 }
 
+class "CNG-912" << (T,lightblue) >> {
+  Assigned to : Dheeraj Kumar
+  Status : Done
+  Type : Task
+}
+
+class "CNG-989" << (T,lightblue) >> {
+  Assigned to : Dheeraj Kumar
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-903" << (T,lightblue) >> {
+  Status : Done
+  Type : Task
+}
+
+class "CNG-913" << (T,lightblue) >> {
+  Assigned to : Dheeraj Kumar
+  Status : Done
+  Type : Task
+}
+
+class "CNG-929" << (T,lightblue) >> {
+  Status : Done
+  Type : Task
+}
+
+class "CNG-808" << (S,lightblue) >> {
+  Assigned to : Dheeraj Kumar
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-982" << (T,lightblue) >> {
+  Assigned to : Dheeraj Kumar
+  Status : Done
+  Type : Task
+}
+
+class "CNG-930" << (T,lightblue) >> {
+  Status : Done
+  Type : Task
+}
+
+class "CNG-952" << (T,lightblue) >> {
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-842" << (T,lightblue) >> {
+  Assigned to : Dheeraj Kumar
+  Status : Done
+  Type : Task
+}
+
+class "CNG-556" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Dev Review
+  Type : Sub-task
+}
+
+class "CNG-932" << (T,lightblue) >> {
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-877" << (T,lightblue) >> {
+  Assigned to : Dheeraj Kumar
+  Status : Done
+  Type : Task
+}
+
+class "CNG-613" << (T,lightblue) >> {
+  Assigned to : Dheeraj Kumar
+  Status : Done
+  Type : Task
+}
+
+class "CNG-931" << (T,lightblue) >> {
+  Status : Done
+  Type : Task
+}
+
+class "CNG-524" << (N,lightgreen) >> {
+  Assigned to : Nigel Hassett
+  Status : Done
+  Type : New Feature
+}
+
 
 
 ' Links =======
+"CNG-913" <.. "CNG-930" : Dependent
+"CNG-913" <.. "CNG-929" : Dependent
+"CNG-913" <.. "CNG-931" : Dependent
+"CNG-913" <.. "CNG-932" : Dependent
+"CNG-913" <.. "CNG-952" : Dependent
 "CNG-989" <.. "CNG-990" : Cloners
+"CNG-613" <.. "CNG-524" : Relates
+"CNG-842" <.. "CNG-556" : Dependent
+"CNG-842" <.. "CNG-903" : Dependent
 
 
 @enduml

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Status In Work
 hide empty members
@@ -10,11 +10,11 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(In Work) : 5
+(In Work) : 6
 ----
 Jira Ticket Types
 ----
-(Bug) : 5
+(Bug) : 6
 end legend
 
 
@@ -38,6 +38,12 @@ class "CNG-1356" << (B,red) >> {
 }
 
 class "CNG-1397" << (B,red) >> {
+  Assigned to : Sankaranarayanan Kopparasukavi
+  Status : In Work
+  Type : Bug
+}
+
+class "CNG-1342" << (B,red) >> {
   Assigned to : Sankaranarayanan Kopparasukavi
   Status : In Work
   Type : Bug

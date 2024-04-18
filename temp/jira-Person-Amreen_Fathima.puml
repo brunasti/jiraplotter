@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Person Amreen Fathima
 hide empty members
@@ -10,22 +10,168 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(QA) : 9
-(To Do) : 7
-(UAT) : 1
-(In System Test) : 6
+(QA) : 5
+(To Do) : 5
+(Done) : 6
 (In Progress) : 4
+(In System Test) : 1
+(Withdrawn) : 1
+(Work Complete) : 35
+(Raised) : 1
 ----
 Jira Ticket Types
 ----
-(Task) : 8
-(Bug) : 6
-(Sub-task) : 8
-(Story) : 5
+(Task) : 10
+(Bug) : 38
+(Sub-task) : 10
 end legend
 
 
 ' Tickets =======
+class "CNG-978" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-856" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-979" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-497" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-694" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-496" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-499" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-498" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-611" << (S,lightblue) >> {
+  Assigned to : Amreen Fathima
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-896" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-533" << (T,lightblue) >> {
+  Assigned to : Anand Dixit
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-610" << (S,lightblue) >> {
+  Assigned to : Amreen Fathima
+  Status : QA
+  Type : Sub-task
+}
+
+class "CNG-855" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-612" << (S,lightblue) >> {
+  Assigned to : Amreen Fathima
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-867" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-706" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-708" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : In System Test
+  Type : Bug
+}
+
+class "CNG-585" << (S,lightblue) >> {
+  Assigned to : Anand Dixit
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-860" << (B,red) >> {
+  Assigned to : Dhanish Kumar
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1138" << (S,lightblue) >> {
+  Assigned to : Amreen Fathima
+  Status : QA
+  Type : Sub-task
+}
+
+class "CNG-1139" << (T,lightblue) >> {
+  Assigned to : Amreen Fathima
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-862" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-864" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-866" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Withdrawn
+  Type : Bug
+}
+
 class "CNG-1141" << (T,lightblue) >> {
   Assigned to : Amreen Fathima
   Status : To Do
@@ -38,57 +184,63 @@ class "CNG-1140" << (T,lightblue) >> {
   Type : Task
 }
 
+class "CNG-879" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
 class "CNG-999" << (T,lightblue) >> {
   Assigned to : Amreen Fathima
   Status : QA
   Type : Task
 }
 
-class "CNG-317" << (B,red) >> {
+class "CNG-839" << (B,red) >> {
   Assigned to : Amreen Fathima
-  Status : In System Test
+  Status : Work Complete
   Type : Bug
 }
 
-class "CNG-79" << (S,lightgreen) >> {
-  Assigned to : Stephy Aniyan
-  Status : QA
-  Type : Story
-}
-
-class "CNG-398" << (T,lightblue) >> {
+class "CNG-915" << (B,red) >> {
   Assigned to : Amreen Fathima
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-314" << (B,red) >> {
-  Assigned to : Amreen Fathima
-  Status : In System Test
+  Status : Work Complete
   Type : Bug
 }
 
-class "CNG-611" << (S,lightblue) >> {
+class "CNG-838" << (B,red) >> {
   Assigned to : Amreen Fathima
-  Status : To Do
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-796" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-872" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-674" << (S,lightblue) >> {
+  Assigned to : Amreen Fathima
+  Status : Done
   Type : Sub-task
 }
 
-class "CNG-610" << (S,lightblue) >> {
+class "CNG-754" << (S,lightblue) >> {
   Assigned to : Amreen Fathima
-  Status : QA
+  Status : Done
   Type : Sub-task
 }
 
-class "CNG-357" << (B,red) >> {
+class "CNG-797" << (B,red) >> {
   Assigned to : Amreen Fathima
-  Status : In System Test
-  Type : Bug
-}
-
-class "CNG-316" << (B,red) >> {
-  Assigned to : Amreen Fathima
-  Status : In System Test
+  Status : Work Complete
   Type : Bug
 }
 
@@ -97,33 +249,51 @@ class "CNG-558" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-393" << (S,lightgreen) >> {
-  Assigned to : Deepak Ingwale
-  Status : In Progress
-  Type : Story
-}
-
-class "CNG-81" << (S,lightgreen) >> {
-  Assigned to : Stephy Aniyan
-  Status : QA
-  Type : Story
-}
-
-class "CNG-69" << (S,lightgreen) >> {
-  Assigned to : Sulafa Malik
-  Status : UAT
-  Type : Story
-}
-
-class "CNG-49" << (S,lightgreen) >> {
+class "CNG-876" << (B,red) >> {
   Assigned to : Amreen Fathima
-  Status : QA
-  Type : Story
+  Status : Work Complete
+  Type : Bug
 }
 
-class "CNG-708" << (B,red) >> {
+class "CNG-691" << (B,red) >> {
   Assigned to : Amreen Fathima
-  Status : In System Test
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-891" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-693" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-495" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-692" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-648" << (T,lightblue) >> {
+  Assigned to : Amreen Fathima
+  Status : Done
+  Type : Task
+}
+
+class "CNG-889" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
   Type : Bug
 }
 
@@ -145,10 +315,10 @@ class "CNG-563" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-684" << (S,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Sub-task
+class "CNG-882" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
 }
 
 class "CNG-1039" << (S,lightblue) >> {
@@ -157,16 +327,9 @@ class "CNG-1039" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-1138" << (S,lightblue) >> {
-  Assigned to : Amreen Fathima
-  Status : QA
-  Type : Sub-task
-}
-
-class "CNG-1139" << (T,lightblue) >> {
-  Assigned to : Amreen Fathima
-  Status : In Progress
-  Type : Task
+class "CNG-881" << (B,red) >> {
+  Status : Raised
+  Type : Bug
 }
 
 class "CNG-686" << (S,lightblue) >> {
@@ -174,37 +337,76 @@ class "CNG-686" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-346" << (B,red) >> {
+class "CNG-840" << (B,red) >> {
   Assigned to : Amreen Fathima
-  Status : In System Test
+  Status : Work Complete
   Type : Bug
 }
 
-class "CNG-689" << (S,lightblue) >> {
-  Status : QA
-  Type : Sub-task
+class "CNG-963" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-886" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-885" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-643" << (T,lightblue) >> {
+  Assigned to : Amreen Fathima
+  Status : Done
+  Type : Task
+}
+
+class "CNG-841" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
 }
 
 
 
 ' Links =======
-"CNG-999" <.. "CNG-81" : Dependent
-"CNG-999" <.. "CNG-79" : Dependent
-"CNG-999" <.. "CNG-393" : Dependent
-"CNG-346" <.. "CNG-69" : Approval
-"CNG-708" <.. "CNG-79" : Dependent
-"CNG-708" <.. "CNG-81" : Dependent
+"CNG-796" <.. "CNG-558" : Approval
+"CNG-915" <.. "CNG-585" : Relates
+"CNG-963" <.. "CNG-585" : Relates
+"CNG-896" <.. "CNG-879" : Relates
+"CNG-879" <.. "CNG-708" : Approval
+"CNG-876" <.. "CNG-708" : Approval
+"CNG-891" <.. "CNG-881" : Relates
+"CNG-891" <.. "CNG-558" : Relates
+"CNG-882" <.. "CNG-879" : Relates
+"CNG-882" <.. "CNG-876" : Relates
+"CNG-643" <.. "CNG-558" : Dependent
+"CNG-694" <.. "CNG-558" : Relates
+"CNG-674" <.. "CNG-533" : Dependent
+"CNG-691" <.. "CNG-558" : Relates
+"CNG-693" <.. "CNG-558" : Relates
+"CNG-692" <.. "CNG-558" : Relates
 "CNG-807" <.. "CNG-558" : Dependent
 "CNG-611" <.. "CNG-686" : Relates
 "CNG-610" <.. "CNG-686" : Relates
+"CNG-855" <.. "CNG-558" : Relates
+"CNG-855" <.. "CNG-860" : Relates
+"CNG-612" <.. "CNG-686" : Relates
+"CNG-867" <.. "CNG-558" : Approval
+"CNG-862" <.. "CNG-558" : Relates
+"CNG-866" <.. "CNG-558" : Approval
+"CNG-838" <.. "CNG-558" : Relates
 "CNG-609" <.. "CNG-686" : Relates
-"CNG-49" <.. "CNG-684" : Feature
-"CNG-49" <.. "CNG-609" : Relates
-"CNG-49" <.. "CNG-689" : Relates
+"CNG-499" <.. "CNG-498" : Bundles
 "CNG-1141" <.. "CNG-1039" : Relates
 "CNG-1140" <.. "CNG-1039" : Relates
 "CNG-1139" <.. "CNG-1039" : Relates
-"CNG-398" <.. "CNG-689" : Relates
 
 
 @enduml

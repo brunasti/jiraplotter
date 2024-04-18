@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Person Sivagami S
 hide empty members
@@ -10,20 +10,46 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(To Do) : 1
+(Done) : 4
+(To Do) : 2
 (In Progress) : 1
 ----
 Jira Ticket Types
 ----
-(Task) : 2
+(Task) : 5
+(Sub-task) : 2
 end legend
 
 
 ' Tickets =======
+class "CNG-1294" << (T,lightblue) >> {
+  Assigned to : Sivagami S
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1205" << (T,lightblue) >> {
+  Assigned to : Sivagami S
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1227" << (S,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : Done
+  Type : Sub-task
+}
+
 class "CNG-1202" << (T,lightblue) >> {
   Assigned to : Sivagami S
   Status : To Do
   Type : Task
+}
+
+class "CNG-685" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : To Do
+  Type : Sub-task
 }
 
 class "CNG-733" << (T,lightblue) >> {
@@ -32,10 +58,20 @@ class "CNG-733" << (T,lightblue) >> {
   Type : Task
 }
 
+class "CNG-1188" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : Done
+  Type : Task
+}
+
 
 
 ' Links =======
+"CNG-1205" <.. "CNG-1227" : Enable
+"CNG-1205" <.. "CNG-685" : Relates
 "CNG-1202" <.. "CNG-733" : Approval
+"CNG-1202" <.. "CNG-1188" : Dependent
+"CNG-1294" <.. "CNG-1205" : Dependent
 
 
 @enduml

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Person Paolo Brunasti
 hide empty members
@@ -11,17 +11,16 @@ legend
 Jira Ticket Status
 ----
 (To Do) : 5
+(Done) : 4
 (Dev Review) : 1
-(UAT) : 4
-(In Progress) : 13
+(In Progress) : 15
 (Design Review) : 3
 ----
 Jira Ticket Types
 ----
-(Task) : 11
+(Task) : 15
 (Issue) : 1
-(Sub-task) : 10
-(Story) : 4
+(Sub-task) : 12
 end legend
 
 
@@ -42,12 +41,6 @@ class "CNG-1241" << (S,lightblue) >> {
   Assigned to : Paolo Brunasti
   Status : In Progress
   Type : Sub-task
-}
-
-class "CNG-32" << (S,lightgreen) >> {
-  Assigned to : Sulafa Malik
-  Status : UAT
-  Type : Story
 }
 
 class "CNG-977" << (S,lightblue) >> {
@@ -74,6 +67,18 @@ class "CNG-1229" << (I,orange) >> {
   Type : Issue
 }
 
+class "CNG-1204" << (T,lightblue) >> {
+  Assigned to : Paolo Brunasti
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1028" << (S,lightblue) >> {
+  Assigned to : BharathKum Sarangarajan
+  Status : Done
+  Type : Sub-task
+}
+
 class "CNG-873" << (T,lightblue) >> {
   Assigned to : Paolo Brunasti
   Status : In Progress
@@ -96,6 +101,12 @@ class "CNG-1242" << (S,lightblue) >> {
   Assigned to : Paolo Brunasti
   Status : To Do
   Type : Sub-task
+}
+
+class "CNG-733" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Progress
+  Type : Task
 }
 
 class "CNG-557" << (S,lightblue) >> {
@@ -122,22 +133,22 @@ class "CNG-1274" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-46" << (S,lightgreen) >> {
-  Assigned to : Sulafa Malik
-  Status : UAT
-  Type : Story
+class "CNG-1195" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : In Progress
+  Type : Task
 }
 
-class "CNG-69" << (S,lightgreen) >> {
-  Assigned to : Sulafa Malik
-  Status : UAT
-  Type : Story
+class "CNG-1219" << (T,lightblue) >> {
+  Assigned to : Paolo Brunasti
+  Status : Done
+  Type : Task
 }
 
-class "CNG-387" << (S,lightgreen) >> {
-  Assigned to : Sulafa Malik
-  Status : UAT
-  Type : Story
+class "CNG-1239" << (S,lightblue) >> {
+  Assigned to : Paolo Brunasti
+  Status : Done
+  Type : Sub-task
 }
 
 class "CNG-1216" << (S,lightblue) >> {
@@ -152,16 +163,16 @@ class "CNG-1315" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-961" << (S,lightblue) >> {
-  Assigned to : Anand Jajoo
-  Status : In Progress
-  Type : Sub-task
-}
-
 class "CNG-1235" << (T,lightblue) >> {
   Assigned to : Paolo Brunasti
   Status : In Progress
   Type : Task
+}
+
+class "CNG-961" << (S,lightblue) >> {
+  Assigned to : Anand Jajoo
+  Status : In Progress
+  Type : Sub-task
 }
 
 class "CNG-1379" << (T,lightblue) >> {
@@ -185,7 +196,13 @@ class "CNG-1210" << (S,lightblue) >> {
 
 
 ' Links =======
+"CNG-1204" <.. "CNG-1195" : Dependent
+"CNG-1204" <.. "CNG-733" : Relates
+"CNG-977" <.. "CNG-1216" : Cloners
+"CNG-1235" <.. "CNG-873" : Relates
+"CNG-1235" <.. "CNG-1185" : Relates
 "CNG-873" <.. "CNG-1107" : Relates
+"CNG-873" <.. "CNG-1204" : Relates
 "CNG-873" <.. "CNG-961" : Relates
 "CNG-873" <.. "CNG-710" : Relates
 "CNG-873" <.. "CNG-1230" : Relates
@@ -197,14 +214,8 @@ class "CNG-1210" << (S,lightblue) >> {
 "CNG-873" <.. "CNG-1315" : Relates
 "CNG-873" <.. "CNG-1229" : Relates
 "CNG-873" <.. "CNG-1379" : Relates
-"CNG-977" <.. "CNG-1216" : Cloners
 "CNG-1107" <.. "CNG-556" : Dependent
-"CNG-1235" <.. "CNG-32" : Relates
-"CNG-1235" <.. "CNG-46" : Relates
-"CNG-1235" <.. "CNG-69" : Relates
-"CNG-1235" <.. "CNG-387" : Relates
-"CNG-1235" <.. "CNG-873" : Relates
-"CNG-1235" <.. "CNG-1185" : Relates
+"CNG-1107" <.. "CNG-1028" : Relates
 
 
 @enduml

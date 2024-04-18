@@ -1,0 +1,112 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
+
+title Jira Tickets for Person Baranipriya Ramanathan
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(Withdrawn) : 5
+(Work Complete) : 9
+----
+Jira Ticket Types
+----
+(Bug) : 14
+end legend
+
+
+' Tickets =======
+class "CNG-417" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-427" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-419" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-429" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-420" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-430" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-422" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-433" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-421" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-424" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-434" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-426" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-414" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-425" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Withdrawn
+  Type : Bug
+}
+
+
+
+' Links =======
+
+
+@enduml

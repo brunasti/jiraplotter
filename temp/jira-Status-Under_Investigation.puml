@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Status Under Investigation
 hide empty members
@@ -11,40 +11,34 @@ legend
 Jira Ticket Status
 ----
 (To Do) : 1
-(Under Investigation) : 5
+(Under Investigation) : 4
 (In Progress) : 1
 ----
 Jira Ticket Types
 ----
 (Task) : 1
-(Bug) : 5
+(Bug) : 4
 (Sub-task) : 1
 end legend
 
 
 ' Tickets =======
-class "CNG-364" << (B,red) >> {
-  Assigned to : Nigel Hassett
-  Status : Under Investigation
-  Type : Bug
-}
-
 class "CNG-873" << (T,lightblue) >> {
   Assigned to : Paolo Brunasti
   Status : In Progress
   Type : Task
 }
 
-class "CNG-687" << (S,lightblue) >> {
-  Assigned to : Sulafa Malik
-  Status : To Do
-  Type : Sub-task
-}
-
 class "CNG-500" << (B,red) >> {
   Assigned to : Jon Funnell
   Status : Under Investigation
   Type : Bug
+}
+
+class "CNG-687" << (S,lightblue) >> {
+  Assigned to : Sulafa Malik
+  Status : To Do
+  Type : Sub-task
 }
 
 class "CNG-1344" << (B,red) >> {

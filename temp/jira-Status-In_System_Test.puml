@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Status In System Test
 hide empty members
@@ -10,53 +10,19 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(QA) : 3
 (IN UAT) : 1
 (To Do) : 1
-(UAT) : 1
-(In System Test) : 11
+(In System Test) : 6
 (In Progress) : 1
 ----
 Jira Ticket Types
 ----
-(Task) : 1
-(Bug) : 12
+(Bug) : 7
 (Sub-task) : 2
-(Story) : 3
 end legend
 
 
 ' Tickets =======
-class "CNG-394" << (T,lightblue) >> {
-  Assigned to : Merin Joseph
-  Status : QA
-  Type : Task
-}
-
-class "CNG-81" << (S,lightgreen) >> {
-  Assigned to : Stephy Aniyan
-  Status : QA
-  Type : Story
-}
-
-class "CNG-317" << (B,red) >> {
-  Assigned to : Amreen Fathima
-  Status : In System Test
-  Type : Bug
-}
-
-class "CNG-79" << (S,lightgreen) >> {
-  Assigned to : Stephy Aniyan
-  Status : QA
-  Type : Story
-}
-
-class "CNG-69" << (S,lightgreen) >> {
-  Assigned to : Sulafa Malik
-  Status : UAT
-  Type : Story
-}
-
 class "CNG-916" << (B,red) >> {
   Assigned to : Stephy Aniyan
   Status : In System Test
@@ -75,12 +41,6 @@ class "CNG-1357" << (B,red) >> {
   Type : Bug
 }
 
-class "CNG-314" << (B,red) >> {
-  Assigned to : Amreen Fathima
-  Status : In System Test
-  Type : Bug
-}
-
 class "CNG-1013" << (B,red) >> {
   Assigned to : Stephy Aniyan
   Status : In System Test
@@ -93,33 +53,15 @@ class "CNG-654" << (B,red) >> {
   Type : Bug
 }
 
-class "CNG-346" << (B,red) >> {
-  Assigned to : Amreen Fathima
-  Status : In System Test
-  Type : Bug
-}
-
-class "CNG-357" << (B,red) >> {
-  Assigned to : Amreen Fathima
-  Status : In System Test
-  Type : Bug
+class "CNG-558" << (S,lightblue) >> {
+  Status : To Do
+  Type : Sub-task
 }
 
 class "CNG-536" << (B,red) >> {
   Assigned to : Sulafa Malik
   Status : IN UAT
   Type : Bug
-}
-
-class "CNG-316" << (B,red) >> {
-  Assigned to : Amreen Fathima
-  Status : In System Test
-  Type : Bug
-}
-
-class "CNG-558" << (S,lightblue) >> {
-  Status : To Do
-  Type : Sub-task
 }
 
 class "CNG-557" << (S,lightblue) >> {
@@ -137,14 +79,10 @@ class "CNG-1012" << (B,red) >> {
 
 
 ' Links =======
-"CNG-654" <.. "CNG-536" : Relates
-"CNG-654" <.. "CNG-394" : Relates
-"CNG-346" <.. "CNG-69" : Approval
-"CNG-708" <.. "CNG-79" : Dependent
-"CNG-708" <.. "CNG-81" : Dependent
 "CNG-916" <.. "CNG-557" : Dependent
 "CNG-1013" <.. "CNG-558" : Relates
 "CNG-1012" <.. "CNG-558" : Relates
+"CNG-654" <.. "CNG-536" : Relates
 
 
 @enduml

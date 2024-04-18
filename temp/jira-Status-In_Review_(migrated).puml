@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Status In Review (migrated)
 hide empty members
@@ -11,9 +11,11 @@ legend
 Jira Ticket Status
 ----
 (In Review (migrated)) : 7
+(Done) : 1
 ----
 Jira Ticket Types
 ----
+(Task) : 1
 (Sub-task) : 7
 end legend
 
@@ -55,6 +57,12 @@ class "CNG-1024" << (S,lightblue) >> {
   Type : Sub-task
 }
 
+class "CNG-1123" << (T,lightblue) >> {
+  Assigned to : Deepak Ingwale
+  Status : Done
+  Type : Task
+}
+
 class "CNG-1034" << (S,lightblue) >> {
   Assigned to : Riti Agarwal
   Status : In Review (migrated)
@@ -64,6 +72,7 @@ class "CNG-1034" << (S,lightblue) >> {
 
 
 ' Links =======
+"CNG-1030" <.. "CNG-1123" : Dependent
 
 
 @enduml

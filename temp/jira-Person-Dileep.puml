@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Person Dileep
 hide empty members
@@ -10,26 +10,33 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(To Do) : 4
+(Done) : 8
+(To Do) : 5
 (In Progress) : 7
 ----
 Jira Ticket Types
 ----
-(Task) : 10
+(Task) : 19
 (Issue) : 1
 end legend
 
 
 ' Tickets =======
-class "CNG-1395" << (T,lightblue) >> {
+class "CNG-1262" << (T,lightblue) >> {
   Assigned to : Dileep
-  Status : To Do
+  Status : Done
   Type : Task
 }
 
-class "CNG-1408" << (T,lightblue) >> {
+class "CNG-1263" << (T,lightblue) >> {
   Assigned to : Dileep
-  Status : In Progress
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1395" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : To Do
   Type : Task
 }
 
@@ -45,19 +52,61 @@ class "CNG-1360" << (T,lightblue) >> {
   Type : Task
 }
 
+class "CNG-1181" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1408" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : In Progress
+  Type : Task
+}
+
 class "CNG-1229" << (I,orange) >> {
   Assigned to : Dileep
   Status : In Progress
   Type : Issue
 }
 
-class "CNG-1300" << (T,lightblue) >> {
-  Assigned to : Dileep
+class "CNG-1237" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
   Status : In Progress
   Type : Task
 }
 
-class "CNG-1410" << (T,lightblue) >> {
+class "CNG-1259" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1249" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1257" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1258" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1245" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1300" << (T,lightblue) >> {
   Assigned to : Dileep
   Status : In Progress
   Type : Task
@@ -69,14 +118,20 @@ class "CNG-1286" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-1385" << (T,lightblue) >> {
-  Assigned to : Dileep
+class "CNG-1264" << (T,lightblue) >> {
+  Assigned to : BharathKum Sarangarajan
   Status : To Do
   Type : Task
 }
 
 class "CNG-1253" << (T,lightblue) >> {
   Status : In Progress
+  Type : Task
+}
+
+class "CNG-1385" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : To Do
   Type : Task
 }
 
@@ -90,9 +145,17 @@ class "CNG-1254" << (T,lightblue) >> {
 
 ' Links =======
 "CNG-1286" <.. "CNG-1254" : Dependent
-"CNG-1385" <.. "CNG-1395" : Cloners
+"CNG-1262" <.. "CNG-1254" : Dependent
+"CNG-1263" <.. "CNG-1254" : Dependent
+"CNG-1263" <.. "CNG-1264" : Dependent
+"CNG-1249" <.. "CNG-1245" : Dependent
+"CNG-1245" <.. "CNG-1237" : Dependent
+"CNG-1259" <.. "CNG-1254" : Dependent
+"CNG-1257" <.. "CNG-1254" : Dependent
+"CNG-1258" <.. "CNG-1254" : Dependent
 "CNG-1254" <.. "CNG-1253" : Dependent
 "CNG-1254" <.. "CNG-1271" : Dependent
+"CNG-1385" <.. "CNG-1395" : Cloners
 
 
 @enduml

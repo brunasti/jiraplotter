@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Person Liam Rae-McLauchlan
 hide empty members
@@ -11,11 +11,13 @@ legend
 Jira Ticket Status
 ----
 (To Do) : 3
+(Done) : 17
 (In Progress) : 2
 ----
 Jira Ticket Types
 ----
-(Improvement) : 4
+(Improvement) : 5
+(Task) : 16
 (Sub-task) : 1
 end legend
 
@@ -51,9 +53,116 @@ class "CNG-1063" << (I,lightblue) >> {
   Type : Improvement
 }
 
+class "CNG-1071" << (T,lightblue) >> {
+  Assigned to : Liam Rae-McLauchlan
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1061" << (I,lightblue) >> {
+  Assigned to : Liam Rae-McLauchlan
+  Status : Done
+  Type : Improvement
+}
+
+class "CNG-1072" << (T,lightblue) >> {
+  Assigned to : Liam Rae-McLauchlan
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1070" << (T,lightblue) >> {
+  Assigned to : Liam Rae-McLauchlan
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1108" << (T,lightblue) >> {
+  Assigned to : Liam Rae-McLauchlan
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1006" << (T,lightblue) >> {
+  Assigned to : Liam Rae-McLauchlan
+  Status : Done
+  Type : Task
+}
+
+class "CNG-894" << (T,lightblue) >> {
+  Assigned to : Liam Rae-McLauchlan
+  Status : Done
+  Type : Task
+}
+
+class "CNG-630" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Task
+}
+
+class "CNG-985" << (T,lightblue) >> {
+  Assigned to : Liam Rae-McLauchlan
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1068" << (T,lightblue) >> {
+  Assigned to : Liam Rae-McLauchlan
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1112" << (T,lightblue) >> {
+  Assigned to : Liam Rae-McLauchlan
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1069" << (T,lightblue) >> {
+  Assigned to : Liam Rae-McLauchlan
+  Status : Done
+  Type : Task
+}
+
+class "CNG-635" << (T,lightblue) >> {
+  Assigned to : Liam Rae-McLauchlan
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1176" << (T,lightblue) >> {
+  Assigned to : Liam Rae-McLauchlan
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1110" << (T,lightblue) >> {
+  Assigned to : Liam Rae-McLauchlan
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1067" << (T,lightblue) >> {
+  Assigned to : Liam Rae-McLauchlan
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1111" << (T,lightblue) >> {
+  Assigned to : Liam Rae-McLauchlan
+  Status : Done
+  Type : Task
+}
+
 
 
 ' Links =======
+"CNG-635" <.. "CNG-630" : Dependent
+"CNG-1108" <.. "CNG-1042" : Relates
+"CNG-1112" <.. "CNG-1042" : Relates
+"CNG-1110" <.. "CNG-1042" : Relates
+"CNG-1111" <.. "CNG-1042" : Relates
 
 
 @enduml

@@ -1,0 +1,45 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
+
+title Jira Tickets for Person Rajalakshmi Ramachandran
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(Work Complete) : 3
+----
+Jira Ticket Types
+----
+(Bug) : 3
+end legend
+
+
+' Tickets =======
+class "CNG-1349" << (B,red) >> {
+  Assigned to : Rajalakshmi Ramachandran
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1339" << (B,red) >> {
+  Assigned to : Rajalakshmi Ramachandran
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1334" << (B,red) >> {
+  Assigned to : Rajalakshmi Ramachandran
+  Status : Work Complete
+  Type : Bug
+}
+
+
+
+' Links =======
+
+
+@enduml

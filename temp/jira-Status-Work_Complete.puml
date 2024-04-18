@@ -1,0 +1,902 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
+
+title Jira Tickets for Status Work Complete
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(QA) : 1
+(Done) : 2
+(To Do) : 1
+(UAT) : 1
+(In System Test) : 1
+(Work Complete) : 131
+(Raised) : 1
+----
+Jira Ticket Types
+----
+(Task) : 1
+(Bug) : 133
+(Sub-task) : 3
+(Story) : 1
+end legend
+
+
+' Tickets =======
+class "CNG-538" << (B,red) >> {
+  Assigned to : Anand Dixit
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-936" << (B,red) >> {
+  Assigned to : Abinaya Arumugasamy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-419" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-418" << (B,red) >> {
+  Assigned to : Sushant Khandelwal
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-938" << (B,red) >> {
+  Assigned to : Sushant Khandelwal
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-772" << (B,red) >> {
+  Assigned to : Sushant Khandelwal
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-497" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1205" << (T,lightblue) >> {
+  Assigned to : Sivagami S
+  Status : Done
+  Type : Task
+}
+
+class "CNG-496" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-499" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-498" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-896" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-945" << (B,red) >> {
+  Assigned to : Rajeswari Vijayal Neelakantan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-427" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-706" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1338" << (B,red) >> {
+  Assigned to : Saranya Subramani
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1339" << (B,red) >> {
+  Assigned to : Rajalakshmi Ramachandran
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-708" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : In System Test
+  Type : Bug
+}
+
+class "CNG-420" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1337" << (B,red) >> {
+  Assigned to : Aswathi Ullattil
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1334" << (B,red) >> {
+  Assigned to : Rajalakshmi Ramachandran
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1335" << (B,red) >> {
+  Assigned to : Naveen Kumar S
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-421" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1332" << (B,red) >> {
+  Assigned to : Aswathi Ullattil
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-424" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1333" << (B,red) >> {
+  Assigned to : Anand Jajoo
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-423" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-426" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-481" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-880" << (B,red) >> {
+  Assigned to : Jayanth Vignesh
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-484" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-483" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-879" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-878" << (B,red) >> {
+  Assigned to : Jayanth Vignesh
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-517" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-519" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-915" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-992" << (B,red) >> {
+  Assigned to : Sushant Khandelwal
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-475" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-474" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-510" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-477" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-872" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-476" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-512" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-479" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-511" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-478" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-514" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-876" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1393" << (B,red) >> {
+  Assigned to : Dilip Kandamuthu
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-891" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-495" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-890" << (B,red) >> {
+  Assigned to : Merin Joseph
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-889" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-882" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-486" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-881" << (B,red) >> {
+  Status : Raised
+  Type : Bug
+}
+
+class "CNG-485" << (S,lightgreen) >> {
+  Assigned to : Sulafa Malik
+  Status : UAT
+  Type : Story
+}
+
+class "CNG-886" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-764" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-885" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-460" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-461" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-978" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-856" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-979" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-970" << (B,red) >> {
+  Assigned to : Jayanth Vignesh
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1248" << (B,red) >> {
+  Assigned to : Narayana Golla
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-453" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-694" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-452" << (B,red) >> {
+  Assigned to : Merin Joseph
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-455" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-454" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1365" << (B,red) >> {
+  Assigned to : Dilip Kandamuthu
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-456" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-459" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-855" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-458" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1364" << (B,red) >> {
+  Assigned to : Dilip Kandamuthu
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-471" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-470" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-473" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-472" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-504" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-867" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-509" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-585" << (S,lightblue) >> {
+  Assigned to : Anand Dixit
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-860" << (B,red) >> {
+  Assigned to : Dhanish Kumar
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-463" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-466" << (B,red) >> {
+  Assigned to : Merin Joseph
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-862" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-465" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-861" << (B,red) >> {
+  Assigned to : Jayanth Vignesh
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-468" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-864" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-467" << (B,red) >> {
+  Assigned to : Merin Joseph
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-863" << (B,red) >> {
+  Assigned to : Stephy Aniyan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-503" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-469" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1375" << (B,red) >> {
+  Assigned to : Rajeswari Vijayal Neelakantan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-439" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-438" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-839" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-838" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1349" << (B,red) >> {
+  Assigned to : Rajalakshmi Ramachandran
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-431" << (B,red) >> {
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-430" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-796" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-433" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1345" << (B,red) >> {
+  Assigned to : Dilip Kandamuthu
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-432" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-435" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1343" << (B,red) >> {
+  Assigned to : Rajeswari Vijayal Neelakantan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-797" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-434" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-558" << (S,lightblue) >> {
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-437" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1341" << (B,red) >> {
+  Assigned to : Rajeswari Vijayal Neelakantan
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-436" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1350" << (B,red) >> {
+  Assigned to : Naveen Kumar S
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-691" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-693" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-451" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-692" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-966" << (B,red) >> {
+  Assigned to : Nigel Hassett
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-449" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-969" << (B,red) >> {
+  Assigned to : Jayanth Vignesh
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1358" << (B,red) >> {
+  Assigned to : Dilip Kandamuthu
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-686" << (S,lightblue) >> {
+  Status : QA
+  Type : Sub-task
+}
+
+class "CNG-444" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-840" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-443" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-963" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-446" << (B,red) >> {
+  Assigned to : Merin Joseph
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-841" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1355" << (B,red) >> {
+  Assigned to : Naveen Kumar S
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1352" << (B,red) >> {
+  Assigned to : Rajeswari Vijayal Neelakantan
+  Status : Work Complete
+  Type : Bug
+}
+
+
+
+' Links =======
+"CNG-772" <.. "CNG-686" : Relates
+"CNG-992" <.. "CNG-585" : Relates
+"CNG-512" <.. "CNG-686" : Relates
+"CNG-796" <.. "CNG-558" : Approval
+"CNG-936" <.. "CNG-585" : Relates
+"CNG-938" <.. "CNG-585" : Relates
+"CNG-938" <.. "CNG-558" : Relates
+"CNG-945" <.. "CNG-585" : Relates
+"CNG-915" <.. "CNG-585" : Relates
+"CNG-970" <.. "CNG-585" : Relates
+"CNG-969" <.. "CNG-585" : Relates
+"CNG-963" <.. "CNG-585" : Relates
+"CNG-1248" <.. "CNG-1205" : Relates
+"CNG-896" <.. "CNG-879" : Relates
+"CNG-879" <.. "CNG-708" : Approval
+"CNG-878" <.. "CNG-708" : Relates
+"CNG-876" <.. "CNG-708" : Approval
+"CNG-891" <.. "CNG-881" : Relates
+"CNG-891" <.. "CNG-558" : Relates
+"CNG-890" <.. "CNG-881" : Relates
+"CNG-890" <.. "CNG-558" : Relates
+"CNG-882" <.. "CNG-879" : Relates
+"CNG-882" <.. "CNG-876" : Relates
+"CNG-694" <.. "CNG-558" : Relates
+"CNG-459" <.. "CNG-483" : Relates
+"CNG-458" <.. "CNG-485" : Relates
+"CNG-470" <.. "CNG-486" : Approval
+"CNG-467" <.. "CNG-483" : Relates
+"CNG-431" <.. "CNG-432" : Approval
+"CNG-437" <.. "CNG-436" : Relates
+"CNG-691" <.. "CNG-558" : Relates
+"CNG-693" <.. "CNG-558" : Relates
+"CNG-692" <.. "CNG-558" : Relates
+"CNG-855" <.. "CNG-558" : Relates
+"CNG-855" <.. "CNG-860" : Relates
+"CNG-867" <.. "CNG-558" : Approval
+"CNG-862" <.. "CNG-558" : Relates
+"CNG-861" <.. "CNG-558" : Relates
+"CNG-863" <.. "CNG-558" : Relates
+"CNG-838" <.. "CNG-558" : Relates
+"CNG-499" <.. "CNG-498" : Bundles
+"CNG-479" <.. "CNG-460" : Relates
+
+
+@enduml

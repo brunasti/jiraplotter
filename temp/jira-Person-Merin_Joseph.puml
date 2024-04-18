@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Person Merin Joseph
 hide empty members
@@ -10,35 +10,75 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(QA) : 2
 (IN UAT) : 1
+(Done) : 30
 (To Do) : 6
 (Under Investigation) : 1
+(UAT) : 1
 (In Progress) : 10
+(Withdrawn) : 3
 (In System Test) : 1
-(Raised) : 3
-(Design Review) : 1
+(Resolved) : 1
+(Raised) : 4
+(Work Complete) : 7
 ----
 Jira Ticket Types
 ----
-(Task) : 9
-(Bug) : 6
-(Sub-task) : 9
+(Task) : 12
+(Bug) : 17
+(Sub-task) : 34
+(Risk) : 1
 (Story) : 1
 end legend
 
 
 ' Tickets =======
-class "CNG-73" << (S,lightgreen) >> {
-  Assigned to : Sushant Khandelwal
-  Status : Design Review
-  Type : Story
+class "CNG-583" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-660" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-659" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : Done
+  Type : Sub-task
 }
 
 class "CNG-937" << (B,red) >> {
   Assigned to : Merin Joseph
   Status : Raised
   Type : Bug
+}
+
+class "CNG-574" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-573" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-452" << (B,red) >> {
+  Assigned to : Merin Joseph
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-576" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : Done
+  Type : Sub-task
 }
 
 class "CNG-851" << (B,red) >> {
@@ -53,9 +93,33 @@ class "CNG-773" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-1225" << (S,lightblue) >> {
+class "CNG-575" << (S,lightblue) >> {
   Assigned to : Merin Joseph
-  Status : In Progress
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-578" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-457" << (B,red) >> {
+  Assigned to : Merin Joseph
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-853" << (B,red) >> {
+  Assigned to : Merin Joseph
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-577" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : Done
   Type : Sub-task
 }
 
@@ -77,22 +141,22 @@ class "CNG-852" << (B,red) >> {
   Type : Bug
 }
 
-class "CNG-1344" << (B,red) >> {
-  Assigned to : Merin Joseph
-  Status : Under Investigation
-  Type : Bug
-}
-
 class "CNG-536" << (B,red) >> {
   Assigned to : Sulafa Malik
   Status : IN UAT
   Type : Bug
 }
 
-class "CNG-1151" << (T,lightblue) >> {
-  Assigned to : BharathKum Sarangarajan
-  Status : In Progress
-  Type : Task
+class "CNG-579" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-458" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Work Complete
+  Type : Bug
 }
 
 class "CNG-1052" << (S,lightblue) >> {
@@ -101,10 +165,10 @@ class "CNG-1052" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-394" << (T,lightblue) >> {
+class "CNG-550" << (S,lightblue) >> {
   Assigned to : Merin Joseph
-  Status : QA
-  Type : Task
+  Status : Done
+  Type : Sub-task
 }
 
 class "CNG-671" << (S,lightblue) >> {
@@ -119,16 +183,16 @@ class "CNG-670" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-395" << (T,lightblue) >> {
+class "CNG-549" << (S,lightblue) >> {
   Assigned to : Merin Joseph
-  Status : QA
-  Type : Task
+  Status : Done
+  Type : Sub-task
 }
 
-class "CNG-725" << (S,lightblue) >> {
-  Assigned to : Merin Joseph
-  Status : In Progress
-  Type : Sub-task
+class "CNG-505" << (T,lightblue) >> {
+  Assigned to : Nigel Hassett
+  Status : Done
+  Type : Task
 }
 
 class "CNG-826" << (T,lightblue) >> {
@@ -137,21 +201,34 @@ class "CNG-826" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-727" << (S,lightblue) >> {
-  Status : In Progress
+class "CNG-828" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : Done
   Type : Sub-task
+}
+
+class "CNG-829" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-584" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-466" << (B,red) >> {
+  Assigned to : Merin Joseph
+  Status : Work Complete
+  Type : Bug
 }
 
 class "CNG-663" << (T,lightblue) >> {
   Assigned to : Merin Joseph
   Status : To Do
   Type : Task
-}
-
-class "CNG-685" << (S,lightblue) >> {
-  Assigned to : Merin Joseph
-  Status : To Do
-  Type : Sub-task
 }
 
 class "CNG-1379" << (T,lightblue) >> {
@@ -166,9 +243,20 @@ class "CNG-1137" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-687" << (S,lightblue) >> {
-  Assigned to : Sulafa Malik
-  Status : To Do
+class "CNG-545" << (X,lightblue) >> {
+  Assigned to : Anand Dixit
+  Status : Resolved
+  Type : Risk
+}
+
+class "CNG-467" << (B,red) >> {
+  Assigned to : Merin Joseph
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-665" << (S,lightblue) >> {
+  Status : Done
   Type : Sub-task
 }
 
@@ -177,21 +265,180 @@ class "CNG-667" << (S,lightblue) >> {
   Type : Sub-task
 }
 
+class "CNG-483" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-716" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Task
+}
+
+class "CNG-717" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-1228" << (S,lightblue) >> {
+  Assigned to : Swagath Ganta
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-552" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-551" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-554" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-553" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-1225" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-1344" << (B,red) >> {
+  Assigned to : Merin Joseph
+  Status : Under Investigation
+  Type : Bug
+}
+
+class "CNG-558" << (S,lightblue) >> {
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-1151" << (T,lightblue) >> {
+  Assigned to : BharathKum Sarangarajan
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-572" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-890" << (B,red) >> {
+  Assigned to : Merin Joseph
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-450" << (B,red) >> {
+  Assigned to : Merin Joseph
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-725" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-925" << (T,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : Done
+  Type : Task
+}
+
+class "CNG-727" << (S,lightblue) >> {
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-607" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-881" << (B,red) >> {
+  Status : Raised
+  Type : Bug
+}
+
+class "CNG-485" << (S,lightgreen) >> {
+  Assigned to : Sulafa Malik
+  Status : UAT
+  Type : Story
+}
+
+class "CNG-441" << (T,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : Done
+  Type : Task
+}
+
+class "CNG-884" << (T,lightblue) >> {
+  Assigned to : Jayanth Vignesh
+  Status : Done
+  Type : Task
+}
+
+class "CNG-685" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-446" << (B,red) >> {
+  Assigned to : Merin Joseph
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-569" << (S,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : Done
+  Type : Sub-task
+}
+
 
 
 ' Links =======
+"CNG-773" <.. "CNG-717" : Dependent
+"CNG-773" <.. "CNG-716" : Dependent
+"CNG-584" <.. "CNG-545" : Blocks
+"CNG-584" <.. "CNG-884" : Dependent
+"CNG-725" <.. "CNG-727" : Dependent
 "CNG-654" <.. "CNG-536" : Relates
-"CNG-654" <.. "CNG-394" : Relates
 "CNG-670" <.. "CNG-533" : Dependent
+"CNG-890" <.. "CNG-881" : Relates
+"CNG-890" <.. "CNG-558" : Relates
+"CNG-457" <.. "CNG-458" : Cloners
+"CNG-457" <.. "CNG-485" : Relates
+"CNG-467" <.. "CNG-483" : Relates
+"CNG-685" <.. "CNG-505" : Relates
+"CNG-685" <.. "CNG-665" : Relates
 "CNG-685" <.. "CNG-1225" : Relates
 "CNG-685" <.. "CNG-1151" : Relates
-"CNG-826" <.. "CNG-395" : Dependent
+"CNG-685" <.. "CNG-1228" : Relates
 "CNG-826" <.. "CNG-667" : Dependent
-"CNG-725" <.. "CNG-727" : Dependent
-"CNG-394" <.. "CNG-395" : Cloners
-"CNG-394" <.. "CNG-73" : Dependent
-"CNG-394" <.. "CNG-687" : Relates
-"CNG-395" <.. "CNG-73" : Relates
 
 
 @enduml

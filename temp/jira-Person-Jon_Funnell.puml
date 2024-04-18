@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Person Jon Funnell
 hide empty members
@@ -10,91 +10,54 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(IN UAT) : 2
-(To Do) : 15
+(IN UAT) : 1
+(Done) : 7
+(To Do) : 6
 (Under Investigation) : 1
-(In Progress) : 2
+(UAT) : 1
+(Withdrawn) : 3
+(In Progress) : 1
+(Work Complete) : 11
 (Raised) : 1
 ----
 Jira Ticket Types
 ----
-(Task) : 3
-(Bug) : 4
-(Sub-task) : 5
-(Story) : 9
+(Task) : 8
+(Bug) : 17
+(Sub-task) : 4
+(Story) : 3
 end legend
 
 
 ' Tickets =======
-class "CNG-1173" << (S,lightblue) >> {
-  Status : To Do
-  Type : Sub-task
+class "CNG-480" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Withdrawn
+  Type : Bug
 }
 
-class "CNG-1192" << (T,lightblue) >> {
+class "CNG-482" << (B,red) >> {
   Assigned to : Jon Funnell
-  Status : To Do
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-460" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-416" << (T,lightblue) >> {
+  Assigned to : Jon Funnell
+  Status : Done
   Type : Task
 }
 
-class "CNG-70" << (S,lightgreen) >> {
-  Assigned to : Sushant Khandelwal
-  Status : In Progress
-  Type : Story
-}
-
-class "CNG-93" << (S,lightgreen) >> {
+class "CNG-836" << (T,lightblue) >> {
   Assigned to : Jon Funnell
-  Status : To Do
-  Type : Story
-}
-
-class "CNG-72" << (S,lightgreen) >> {
-  Assigned to : Jon Funnell
-  Status : To Do
-  Type : Story
-}
-
-class "CNG-41" << (S,lightgreen) >> {
-  Assigned to : Jon Funnell
-  Status : To Do
-  Type : Story
-}
-
-class "CNG-55" << (S,lightgreen) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Story
-}
-
-class "CNG-845" << (T,lightblue) >> {
-  Assigned to : Jon Funnell
-  Status : To Do
+  Status : Done
   Type : Task
-}
-
-class "CNG-77" << (S,lightgreen) >> {
-  Assigned to : Jon Funnell
-  Status : To Do
-  Type : Story
-}
-
-class "CNG-804" << (S,lightblue) >> {
-  Assigned to : Jon Funnell
-  Status : To Do
-  Type : Sub-task
-}
-
-class "CNG-67" << (S,lightgreen) >> {
-  Assigned to : Jon Funnell
-  Status : To Do
-  Type : Story
-}
-
-class "CNG-68" << (S,lightgreen) >> {
-  Assigned to : Anand Jajoo
-  Status : To Do
-  Type : Story
 }
 
 class "CNG-1207" << (S,lightblue) >> {
@@ -102,16 +65,10 @@ class "CNG-1207" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-521" << (B,red) >> {
+class "CNG-474" << (B,red) >> {
   Assigned to : Jon Funnell
-  Status : IN UAT
+  Status : Work Complete
   Type : Bug
-}
-
-class "CNG-741" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
 }
 
 class "CNG-1048" << (S,lightgreen) >> {
@@ -120,15 +77,111 @@ class "CNG-1048" << (S,lightgreen) >> {
   Type : Story
 }
 
+class "CNG-477" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-971" << (T,lightblue) >> {
+  Assigned to : Rosy Mary
+  Status : Done
+  Type : Task
+}
+
+class "CNG-479" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-973" << (T,lightblue) >> {
+  Assigned to : Jon Funnell
+  Status : Done
+  Type : Task
+}
+
+class "CNG-478" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-458" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-490" << (T,lightblue) >> {
+  Assigned to : Jon Funnell
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1192" << (T,lightblue) >> {
+  Assigned to : Jon Funnell
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-470" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-1193" << (T,lightblue) >> {
+  Assigned to : Jon Funnell
+  Status : Done
+  Type : Task
+}
+
+class "CNG-845" << (T,lightblue) >> {
+  Assigned to : Jon Funnell
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-804" << (S,lightblue) >> {
+  Assigned to : Jon Funnell
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-486" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-485" << (S,lightgreen) >> {
+  Assigned to : Sulafa Malik
+  Status : UAT
+  Type : Story
+}
+
+class "CNG-521" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : IN UAT
+  Type : Bug
+}
+
+class "CNG-488" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Withdrawn
+  Type : Bug
+}
+
 class "CNG-765" << (S,lightblue) >> {
   Assigned to : Jon Funnell
   Status : In Progress
   Type : Sub-task
 }
 
-class "CNG-336" << (B,red) >> {
+class "CNG-468" << (B,red) >> {
   Assigned to : Jon Funnell
-  Status : IN UAT
+  Status : Work Complete
   Type : Bug
 }
 
@@ -144,6 +197,24 @@ class "CNG-500" << (B,red) >> {
   Type : Bug
 }
 
+class "CNG-423" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-489" << (S,lightgreen) >> {
+  Assigned to : Jon Funnell
+  Status : Done
+  Type : Story
+}
+
+class "CNG-503" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Work Complete
+  Type : Bug
+}
+
 class "CNG-502" << (B,red) >> {
   Assigned to : Jon Funnell
   Status : Raised
@@ -154,17 +225,11 @@ class "CNG-502" << (B,red) >> {
 
 ' Links =======
 "CNG-521" <.. "CNG-687" : Relates
-"CNG-804" <.. "CNG-67" : Dependent
-"CNG-502" <.. "CNG-55" : Approval
-"CNG-67" <.. "CNG-1173" : Feature
-"CNG-41" <.. "CNG-741" : Feature
-"CNG-1192" <.. "CNG-70" : Issue split
-"CNG-1048" <.. "CNG-68" : Dependent
+"CNG-973" <.. "CNG-971" : Dependent
 "CNG-1048" <.. "CNG-1207" : Feature
-"CNG-93" <.. "CNG-68" : Approval
-"CNG-93" <.. "CNG-1207" : Feature
-"CNG-72" <.. "CNG-70" : Relates
-"CNG-77" <.. "CNG-741" : Feature
+"CNG-458" <.. "CNG-485" : Relates
+"CNG-470" <.. "CNG-486" : Approval
+"CNG-479" <.. "CNG-460" : Relates
 
 
 @enduml

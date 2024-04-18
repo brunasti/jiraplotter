@@ -1,0 +1,42 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
+
+title Jira Tickets for Person Mahima Verma
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(Done) : 1
+(To Do) : 1
+----
+Jira Ticket Types
+----
+(Task) : 1
+(Sub-task) : 1
+end legend
+
+
+' Tickets =======
+class "CNG-1317" << (T,lightblue) >> {
+  Assigned to : Mahima Verma
+  Status : Done
+  Type : Task
+}
+
+class "CNG-684" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Sub-task
+}
+
+
+
+' Links =======
+"CNG-1317" <.. "CNG-684" : Relates
+
+
+@enduml

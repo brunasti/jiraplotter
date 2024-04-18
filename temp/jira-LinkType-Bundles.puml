@@ -1,0 +1,40 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
+
+title Jira Tickets for Link Type Bundles
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(Work Complete) : 2
+----
+Jira Ticket Types
+----
+(Bug) : 2
+end legend
+
+
+' Tickets =======
+class "CNG-499" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-498" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Work Complete
+  Type : Bug
+}
+
+
+
+' Links =======
+"CNG-499" <.. "CNG-498" : Bundles
+
+
+@enduml

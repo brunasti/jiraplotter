@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Person Riti Agarwal
 hide empty members
@@ -11,19 +11,38 @@ legend
 Jira Ticket Status
 ----
 (In Review (migrated)) : 3
-(To Do) : 2
+(Done) : 3
+(To Do) : 3
 (Under Investigation) : 1
 (In Progress) : 3
 ----
 Jira Ticket Types
 ----
-(Task) : 1
+(Task) : 5
 (Bug) : 1
 (Sub-task) : 7
 end legend
 
 
 ' Tickets =======
+class "CNG-1131" << (T,lightblue) >> {
+  Assigned to : BharathKum Sarangarajan
+  Status : Done
+  Type : Task
+}
+
+class "CNG-491" << (T,lightblue) >> {
+  Assigned to : Riti Agarwal
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1094" << (T,lightblue) >> {
+  Assigned to : BharathKum Sarangarajan
+  Status : Done
+  Type : Task
+}
+
 class "CNG-1314" << (S,lightblue) >> {
   Assigned to : Riti Agarwal
   Status : To Do
@@ -42,15 +61,15 @@ class "CNG-1027" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-687" << (S,lightblue) >> {
-  Assigned to : Sulafa Malik
-  Status : To Do
-  Type : Sub-task
-}
-
 class "CNG-1025" << (S,lightblue) >> {
   Assigned to : Riti Agarwal
   Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-687" << (S,lightblue) >> {
+  Assigned to : Sulafa Malik
+  Status : To Do
   Type : Sub-task
 }
 
@@ -60,10 +79,9 @@ class "CNG-1033" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-887" << (B,red) >> {
-  Assigned to : Riti Agarwal
-  Status : Under Investigation
-  Type : Bug
+class "CNG-723" << (T,lightblue) >> {
+  Status : To Do
+  Type : Task
 }
 
 class "CNG-1023" << (T,lightblue) >> {
@@ -78,10 +96,19 @@ class "CNG-1034" << (S,lightblue) >> {
   Type : Sub-task
 }
 
+class "CNG-887" << (B,red) >> {
+  Assigned to : Riti Agarwal
+  Status : Under Investigation
+  Type : Bug
+}
+
 
 
 ' Links =======
+"CNG-1023" <.. "CNG-1131" : Approval
+"CNG-1023" <.. "CNG-1094" : Relates
 "CNG-887" <.. "CNG-687" : Relates
+"CNG-491" <.. "CNG-723" : Relates
 
 
 @enduml

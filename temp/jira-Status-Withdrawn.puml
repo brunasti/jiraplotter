@@ -1,0 +1,220 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
+
+title Jira Tickets for Status Withdrawn
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(Done) : 1
+(To Do) : 1
+(UAT) : 1
+(Withdrawn) : 24
+(Work Complete) : 2
+(Raised) : 1
+----
+Jira Ticket Types
+----
+(Task) : 1
+(Bug) : 27
+(Sub-task) : 1
+(Story) : 1
+end legend
+
+
+' Tickets =======
+class "CNG-480" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-482" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-462" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-538" << (B,red) >> {
+  Assigned to : Anand Dixit
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-417" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-537" << (B,red) >> {
+  Assigned to : Shafiqul Islam
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-515" << (B,red) >> {
+  Assigned to : Pooja Ravi
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-539" << (B,red) >> {
+  Assigned to : Anand Dixit
+  Status : Raised
+  Type : Bug
+}
+
+class "CNG-650" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Task
+}
+
+class "CNG-534" << (B,red) >> {
+  Assigned to : Shafiqul Islam
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-457" << (B,red) >> {
+  Assigned to : Merin Joseph
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-853" << (B,red) >> {
+  Assigned to : Merin Joseph
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-558" << (S,lightblue) >> {
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-513" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-414" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-458" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-450" << (B,red) >> {
+  Assigned to : Merin Joseph
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-429" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-464" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-442" << (B,red) >> {
+  Assigned to : Pooja Ravi
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-485" << (S,lightgreen) >> {
+  Assigned to : Sulafa Malik
+  Status : UAT
+  Type : Story
+}
+
+class "CNG-983" << (B,red) >> {
+  Assigned to : Sushant Khandelwal
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-422" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-488" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-445" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-448" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-866" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-1298" << (B,red) >> {
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-425" << (B,red) >> {
+  Assigned to : Baranipriya Ramanathan
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-447" << (B,red) >> {
+  Assigned to : Tony Cassidy
+  Status : Withdrawn
+  Type : Bug
+}
+
+
+
+' Links =======
+"CNG-537" <.. "CNG-650" : Blocks
+"CNG-534" <.. "CNG-537" : Cloners
+"CNG-534" <.. "CNG-538" : Cloners
+"CNG-534" <.. "CNG-539" : Cloners
+"CNG-457" <.. "CNG-458" : Cloners
+"CNG-457" <.. "CNG-485" : Relates
+"CNG-866" <.. "CNG-558" : Approval
+
+
+@enduml

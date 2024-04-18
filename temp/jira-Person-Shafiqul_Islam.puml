@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Person Shafiqul Islam
 hide empty members
@@ -12,22 +12,26 @@ Jira Ticket Status
 ----
 (QA) : 3
 (In Review (migrated)) : 3
-(To Do) : 63
-(Dev Review) : 2
+(To Do) : 59
+(Done) : 54
+(Dev Review) : 1
 (UAT) : 1
-(In Progress) : 22
-(Resolved (Closed)) : 1
-(On Hold / Monitoring) : 1
+(In Progress) : 21
+(Withdrawn) : 2
+(In System Test) : 1
+(Work Complete) : 2
+(Resolved (Closed)) : 3
+(Raised) : 1
 ----
 Jira Ticket Types
 ----
 (Risks) : 4
-(Task) : 66
+(Task) : 94
 (Issue) : 1
-(Bug) : 1
-(Sub-task) : 17
-(Impediment (Issue)) : 1
-(Story) : 6
+(Work Request) : 1
+(Bug) : 6
+(Sub-task) : 42
+(Impediment (Issue)) : 3
 end legend
 
 
@@ -38,10 +42,10 @@ class "CNG-1163" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-1360" << (T,lightblue) >> {
-  Assigned to : Dileep
+class "CNG-1042" << (S,lightblue) >> {
+  Assigned to : Liam Rae-McLauchlan
   Status : In Progress
-  Type : Task
+  Type : Sub-task
 }
 
 class "CNG-1281" << (T,lightblue) >> {
@@ -50,9 +54,462 @@ class "CNG-1281" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-385" << (T,lightblue) >> {
+class "CNG-538" << (B,red) >> {
+  Assigned to : Anand Dixit
+  Status : Work Complete
+  Type : Bug
+}
+
+class "CNG-537" << (B,red) >> {
+  Assigned to : Shafiqul Islam
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-658" << (I,orange) >> {
+  Assigned to : Shafiqul Islam
+  Status : Resolved (Closed)
+  Type : Impediment (Issue)
+}
+
+class "CNG-539" << (B,red) >> {
+  Assigned to : Anand Dixit
+  Status : Raised
+  Type : Bug
+}
+
+class "CNG-1208" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : To Do
+  Type : Task
+}
+
+class "CNG-1329" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-651" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1204" << (T,lightblue) >> {
+  Assigned to : Paolo Brunasti
+  Status : Done
+  Type : Task
+}
+
+class "CNG-650" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Task
+}
+
+class "CNG-892" << (T,lightblue) >> {
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1205" << (T,lightblue) >> {
+  Assigned to : Sivagami S
+  Status : Done
+  Type : Task
+}
+
+class "CNG-774" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-653" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1203" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-534" << (B,red) >> {
+  Assigned to : Shafiqul Islam
+  Status : Withdrawn
+  Type : Bug
+}
+
+class "CNG-776" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-657" << (I,orange) >> {
+  Assigned to : Shafiqul Islam
+  Status : Resolved (Closed)
+  Type : Impediment (Issue)
+}
+
+class "CNG-415" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-656" << (I,orange) >> {
+  Assigned to : Shafiqul Islam
+  Status : Resolved (Closed)
+  Type : Impediment (Issue)
+}
+
+class "CNG-1293" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1173" << (S,lightblue) >> {
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-1291" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1292" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1290" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-703" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-702" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-669" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-705" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-704" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-708" << (B,red) >> {
+  Assigned to : Amreen Fathima
+  Status : In System Test
+  Type : Bug
+}
+
+class "CNG-664" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : QA
+  Type : Sub-task
+}
+
+class "CNG-1299" << (T,lightblue) >> {
+  Assigned to : BharathKum Sarangarajan
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-666" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-701" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-1330" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-700" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1331" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1261" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Task
+}
+
+class "CNG-636" << (T,lightblue) >> {
+  Assigned to : Nigel Hassett
+  Status : Done
+  Type : Task
+}
+
+class "CNG-999" << (T,lightblue) >> {
+  Assigned to : Amreen Fathima
+  Status : QA
+  Type : Task
+}
+
+class "CNG-518" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : UAT
+  Type : Task
+}
+
+class "CNG-1309" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1307" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1308" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-917" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-871" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1029" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Review (migrated)
+  Type : Sub-task
+}
+
+class "CNG-994" << (R,red) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Risks
+}
+
+class "CNG-1301" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-631" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Task
+}
+
+class "CNG-630" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Task
+}
+
+class "CNG-996" << (R,red) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Risks
+}
+
+class "CNG-1024" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Review (migrated)
+  Type : Sub-task
+}
+
+class "CNG-633" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Task
+}
+
+class "CNG-995" << (R,red) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Risks
+}
+
+class "CNG-1300" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-635" << (T,lightblue) >> {
+  Assigned to : Liam Rae-McLauchlan
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1385" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1143" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-997" << (R,red) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Risks
+}
+
+class "CNG-1032" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Review (migrated)
+  Type : Sub-task
+}
+
+class "CNG-1270" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Task
+}
+
+class "CNG-770" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Task
+}
+
+class "CNG-769" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Task
+}
+
+class "CNG-768" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Task
+}
+
+class "CNG-647" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Task
+}
+
+class "CNG-801" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-922" << (T,lightblue) >> {
+  Status : Done
+  Type : Task
+}
+
+class "CNG-760" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-763" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Task
+}
+
+class "CNG-762" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-1310" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-767" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-921" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1154" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-766" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Task
+}
+
+class "CNG-1360" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : In Progress
   Type : Task
 }
 
@@ -68,43 +525,13 @@ class "CNG-615" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-658" << (I,orange) >> {
-  Assigned to : Shafiqul Islam
-  Status : Resolved (Closed)
-  Type : Impediment (Issue)
-}
-
-class "CNG-339" << (T,lightblue) >> {
-  Assigned to : Abinaya Arumugasamy
-  Status : Dev Review
-  Type : Task
-}
-
 class "CNG-614" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : To Do
   Type : Task
 }
 
-class "CNG-55" << (S,lightgreen) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Story
-}
-
 class "CNG-616" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-1208" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-1329" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : To Do
   Type : Task
@@ -116,21 +543,27 @@ class "CNG-739" << (T,lightblue) >> {
   Type : Task
 }
 
+class "CNG-618" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Sub-task
+}
+
 class "CNG-1008" << (T,lightblue) >> {
   Status : To Do
   Type : Task
 }
 
-class "CNG-651" << (T,lightblue) >> {
-  Assigned to : Rukaya Ogazi-Khan
-  Status : To Do
+class "CNG-1127" << (T,lightblue) >> {
+  Assigned to : BharathKum Sarangarajan
+  Status : Done
   Type : Task
 }
 
-class "CNG-653" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
+class "CNG-730" << (S,lightblue) >> {
+  Assigned to : Sulafa Malik
   Status : To Do
-  Type : Task
+  Type : Sub-task
 }
 
 class "CNG-697" << (T,lightblue) >> {
@@ -139,10 +572,10 @@ class "CNG-697" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-1203" << (S,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : In Progress
-  Type : Sub-task
+class "CNG-971" << (T,lightblue) >> {
+  Assigned to : Rosy Mary
+  Status : Done
+  Type : Task
 }
 
 class "CNG-696" << (T,lightblue) >> {
@@ -151,15 +584,9 @@ class "CNG-696" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-773" << (T,lightblue) >> {
-  Assigned to : Merin Joseph
-  Status : In Progress
-  Type : Task
-}
-
-class "CNG-776" << (T,lightblue) >> {
-  Assigned to : Rukaya Ogazi-Khan
-  Status : To Do
+class "CNG-699" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
   Type : Task
 }
 
@@ -169,9 +596,9 @@ class "CNG-1003" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-415" << (T,lightblue) >> {
+class "CNG-698" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
-  Status : To Do
+  Status : Done
   Type : Task
 }
 
@@ -192,6 +619,12 @@ class "CNG-975" << (T,lightblue) >> {
   Type : Task
 }
 
+class "CNG-1243" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Task
+}
+
 class "CNG-1010" << (I,orange) >> {
   Assigned to : Shafiqul Islam
   Status : To Do
@@ -204,50 +637,15 @@ class "CNG-590" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-1293" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-1173" << (S,lightblue) >> {
-  Status : To Do
-  Type : Sub-task
-}
-
-class "CNG-1291" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
 class "CNG-591" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : To Do
   Type : Sub-task
 }
 
-class "CNG-393" << (S,lightgreen) >> {
-  Assigned to : Deepak Ingwale
-  Status : In Progress
-  Type : Story
-}
-
-class "CNG-1292" << (T,lightblue) >> {
+class "CNG-868" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-395" << (T,lightblue) >> {
-  Assigned to : Merin Joseph
-  Status : QA
-  Type : Task
-}
-
-class "CNG-1290" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
+  Status : Done
   Type : Task
 }
 
@@ -262,25 +660,19 @@ class "CNG-506" << (T,lightblue) >> {
   Type : Task
 }
 
+class "CNG-585" << (S,lightblue) >> {
+  Assigned to : Anand Dixit
+  Status : Done
+  Type : Sub-task
+}
+
 class "CNG-1017" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : To Do
   Type : Task
 }
 
-class "CNG-664" << (S,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : QA
-  Type : Sub-task
-}
-
 class "CNG-741" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-300" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : To Do
   Type : Task
@@ -292,22 +684,10 @@ class "CNG-740" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-666" << (S,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : In Progress
-  Type : Sub-task
-}
-
 class "CNG-589" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : In Progress
   Type : Sub-task
-}
-
-class "CNG-1299" << (T,lightblue) >> {
-  Assigned to : BharathKum Sarangarajan
-  Status : In Progress
-  Type : Task
 }
 
 class "CNG-588" << (T,lightblue) >> {
@@ -317,18 +697,12 @@ class "CNG-588" << (T,lightblue) >> {
 }
 
 class "CNG-1410" << (T,lightblue) >> {
-  Assigned to : Dileep
+  Assigned to : Deepak Ingwale
   Status : In Progress
   Type : Task
 }
 
 class "CNG-984" << (T,lightblue) >> {
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-1330" << (T,lightblue) >> {
-  Assigned to : Rukaya Ogazi-Khan
   Status : To Do
   Type : Task
 }
@@ -339,15 +713,21 @@ class "CNG-624" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-700" << (T,lightblue) >> {
+class "CNG-986" << (W,lightblue) >> {
   Assigned to : Shafiqul Islam
-  Status : To Do
+  Status : Done
+  Type : Work Request
+}
+
+class "CNG-865" << (T,lightblue) >> {
+  Assigned to : Nigel Hassett
+  Status : Done
   Type : Task
 }
 
-class "CNG-1331" << (T,lightblue) >> {
-  Assigned to : Rukaya Ogazi-Khan
-  Status : To Do
+class "CNG-1254" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : In Progress
   Type : Task
 }
 
@@ -375,70 +755,40 @@ class "CNG-440" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-74" << (S,lightgreen) >> {
+class "CNG-716" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Story
-}
-
-class "CNG-999" << (T,lightblue) >> {
-  Assigned to : Amreen Fathima
-  Status : QA
+  Status : Done
   Type : Task
 }
 
-class "CNG-1309" << (T,lightblue) >> {
+class "CNG-718" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
-  Status : To Do
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-1109" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
   Type : Task
 }
 
-class "CNG-518" << (T,lightblue) >> {
+class "CNG-717" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
-  Status : UAT
-  Type : Task
+  Status : Done
+  Type : Sub-task
 }
 
-class "CNG-1308" << (T,lightblue) >> {
+class "CNG-719" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-917" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-871" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
+  Status : Done
+  Type : Sub-task
 }
 
 class "CNG-672" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : To Do
   Type : Sub-task
-}
-
-class "CNG-1029" << (S,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : In Review (migrated)
-  Type : Sub-task
-}
-
-class "CNG-994" << (R,red) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Risks
-}
-
-class "CNG-1301" << (T,lightblue) >> {
-  Assigned to : Rukaya Ogazi-Khan
-  Status : To Do
-  Type : Task
 }
 
 class "CNG-795" << (T,lightblue) >> {
@@ -453,10 +803,10 @@ class "CNG-710" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-996" << (R,red) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Risks
+class "CNG-677" << (S,lightblue) >> {
+  Assigned to : Sushant Khandelwal
+  Status : Done
+  Type : Sub-task
 }
 
 class "CNG-556" << (S,lightblue) >> {
@@ -465,22 +815,10 @@ class "CNG-556" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-1024" << (S,lightblue) >> {
+class "CNG-676" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
-  Status : In Review (migrated)
+  Status : Done
   Type : Sub-task
-}
-
-class "CNG-995" << (R,red) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Risks
-}
-
-class "CNG-1300" << (T,lightblue) >> {
-  Assigned to : Dileep
-  Status : In Progress
-  Type : Task
 }
 
 class "CNG-558" << (S,lightblue) >> {
@@ -488,21 +826,16 @@ class "CNG-558" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-1385" << (T,lightblue) >> {
-  Assigned to : Dileep
-  Status : To Do
+class "CNG-833" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
   Type : Task
 }
 
-class "CNG-679" << (S,lightblue) >> {
-  Status : In Progress
+class "CNG-678" << (S,lightblue) >> {
+  Assigned to : Anand Dixit
+  Status : Done
   Type : Sub-task
-}
-
-class "CNG-997" << (R,red) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Risks
 }
 
 class "CNG-557" << (S,lightblue) >> {
@@ -511,15 +844,15 @@ class "CNG-557" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-1032" << (S,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : In Review (migrated)
-  Type : Sub-task
-}
-
 class "CNG-1230" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : In Progress
+  Type : Task
+}
+
+class "CNG-690" << (T,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
   Type : Task
 }
 
@@ -541,28 +874,25 @@ class "CNG-1191" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-82" << (S,lightgreen) >> {
-  Assigned to : Sushant Khandelwal
-  Status : In Progress
-  Type : Story
-}
-
-class "CNG-85" << (S,lightgreen) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Story
-}
-
-class "CNG-407" << (B,red) >> {
-  Assigned to : Shafiqul Islam
-  Status : On Hold / Monitoring
+class "CNG-966" << (B,red) >> {
+  Assigned to : Nigel Hassett
+  Status : Work Complete
   Type : Bug
 }
 
-class "CNG-48" << (S,lightgreen) >> {
-  Assigned to : Nigel Hassett
+class "CNG-727" << (S,lightblue) >> {
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-729" << (S,lightblue) >> {
+  Status : QA
+  Type : Sub-task
+}
+
+class "CNG-728" << (S,lightblue) >> {
   Status : To Do
-  Type : Story
+  Type : Sub-task
 }
 
 class "CNG-684" << (S,lightblue) >> {
@@ -571,22 +901,16 @@ class "CNG-684" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-760" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : In Progress
+class "CNG-441" << (T,lightblue) >> {
+  Assigned to : Merin Joseph
+  Status : Done
   Type : Task
 }
 
-class "CNG-762" << (T,lightblue) >> {
+class "CNG-721" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-1310" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
+  Status : Done
+  Type : Sub-task
 }
 
 class "CNG-1233" << (T,lightblue) >> {
@@ -595,33 +919,49 @@ class "CNG-1233" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-1154" << (T,lightblue) >> {
-  Assigned to : Rukaya Ogazi-Khan
-  Status : To Do
-  Type : Task
+class "CNG-720" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Sub-task
+}
+
+class "CNG-722" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Done
+  Type : Sub-task
 }
 
 
 
 ' Links =======
+"CNG-537" <.. "CNG-650" : Blocks
 "CNG-1208" <.. "CNG-710" : Relates
-"CNG-415" <.. "CNG-440" : Relates
-"CNG-415" <.. "CNG-385" : Relates
-"CNG-1309" <.. "CNG-1163" : Dependent
+"CNG-774" <.. "CNG-678" : Relates
+"CNG-774" <.. "CNG-677" : Relates
+"CNG-534" <.. "CNG-537" : Cloners
+"CNG-534" <.. "CNG-538" : Cloners
+"CNG-534" <.. "CNG-539" : Cloners
 "CNG-518" <.. "CNG-684" : Relates
 "CNG-518" <.. "CNG-739" : Relates
-"CNG-1308" <.. "CNG-1163" : Dependent
-"CNG-407" <.. "CNG-684" : Relates
+"CNG-770" <.. "CNG-635" : Relates
+"CNG-769" <.. "CNG-635" : Relates
+"CNG-768" <.. "CNG-636" : Relates
 "CNG-760" <.. "CNG-1008" : Dependent
-"CNG-1310" <.. "CNG-1163" : Dependent
-"CNG-696" <.. "CNG-697" : Relates
-"CNG-696" <.. "CNG-740" : Relates
-"CNG-590" <.. "CNG-339" : Relates
-"CNG-591" <.. "CNG-339" : Relates
 "CNG-589" <.. "CNG-1363" : Relates
+"CNG-795" <.. "CNG-892" : Relates
 "CNG-556" <.. "CNG-557" : Dependent
 "CNG-557" <.. "CNG-558" : Dependent
-"CNG-684" <.. "CNG-999" : Relates
+"CNG-703" <.. "CNG-558" : Dependent
+"CNG-703" <.. "CNG-585" : Dependent
+"CNG-702" <.. "CNG-558" : Dependent
+"CNG-702" <.. "CNG-585" : Dependent
+"CNG-705" <.. "CNG-558" : Dependent
+"CNG-705" <.. "CNG-585" : Dependent
+"CNG-704" <.. "CNG-558" : Dependent
+"CNG-704" <.. "CNG-585" : Dependent
+"CNG-701" <.. "CNG-558" : Dependent
+"CNG-701" <.. "CNG-585" : Dependent
+"CNG-921" <.. "CNG-708" : Relates
 "CNG-733" <.. "CNG-1360" : Automates
 "CNG-733" <.. "CNG-1385" : Automates
 "CNG-733" <.. "CNG-1410" : Automates
@@ -637,32 +977,49 @@ class "CNG-1154" << (T,lightblue) >> {
 "CNG-733" <.. "CNG-1330" : Relates
 "CNG-733" <.. "CNG-1331" : Relates
 "CNG-733" <.. "CNG-1329" : Relates
-"CNG-626" <.. "CNG-85" : Approval
-"CNG-626" <.. "CNG-74" : Approval
-"CNG-626" <.. "CNG-48" : Approval
-"CNG-626" <.. "CNG-82" : Approval
-"CNG-626" <.. "CNG-615" : Approval
-"CNG-626" <.. "CNG-624" : Approval
-"CNG-626" <.. "CNG-871" : Approval
-"CNG-626" <.. "CNG-917" : Approval
 "CNG-710" <.. "CNG-975" : Relates
-"CNG-55" <.. "CNG-393" : Dependent
-"CNG-55" <.. "CNG-1203" : Feature
-"CNG-55" <.. "CNG-773" : Relates
-"CNG-1186" <.. "CNG-1173" : Dependent
-"CNG-1182" <.. "CNG-733" : Relates
-"CNG-1190" <.. "CNG-385" : Issue split
-"CNG-1163" <.. "CNG-733" : Dependent
-"CNG-385" <.. "CNG-679" : Relates
-"CNG-385" <.. "CNG-395" : Relates
+"CNG-710" <.. "CNG-865" : Relates
+"CNG-710" <.. "CNG-971" : Relates
 "CNG-1293" <.. "CNG-1233" : Dependent
 "CNG-1291" <.. "CNG-1233" : Dependent
 "CNG-1292" <.. "CNG-1233" : Dependent
 "CNG-1290" <.. "CNG-1233" : Dependent
+"CNG-1261" <.. "CNG-1254" : Dependent
+"CNG-1270" <.. "CNG-1205" : Dependent
+"CNG-1243" <.. "CNG-1261" : Dependent
 "CNG-1010" <.. "CNG-984" : Relates
 "CNG-1017" <.. "CNG-700" : Relates
-"CNG-74" <.. "CNG-684" : Relates
+"CNG-1230" <.. "CNG-1204" : Dependent
 "CNG-1233" <.. "CNG-733" : Dependent
+"CNG-657" <.. "CNG-727" : Dependent
+"CNG-657" <.. "CNG-729" : Dependent
+"CNG-657" <.. "CNG-728" : Dependent
+"CNG-415" <.. "CNG-441" : Relates
+"CNG-415" <.. "CNG-440" : Relates
+"CNG-656" <.. "CNG-730" : Dependent
+"CNG-1309" <.. "CNG-1163" : Dependent
+"CNG-1307" <.. "CNG-1163" : Dependent
+"CNG-1308" <.. "CNG-1163" : Dependent
+"CNG-647" <.. "CNG-1173" : Feature
+"CNG-1310" <.. "CNG-1163" : Dependent
+"CNG-696" <.. "CNG-697" : Relates
+"CNG-696" <.. "CNG-630" : Relates
+"CNG-696" <.. "CNG-740" : Relates
+"CNG-698" <.. "CNG-696" : Relates
+"CNG-684" <.. "CNG-966" : Relates
+"CNG-684" <.. "CNG-999" : Relates
+"CNG-868" <.. "CNG-922" : Dependent
+"CNG-868" <.. "CNG-700" : Relates
+"CNG-626" <.. "CNG-615" : Approval
+"CNG-626" <.. "CNG-624" : Approval
+"CNG-626" <.. "CNG-647" : Approval
+"CNG-626" <.. "CNG-871" : Approval
+"CNG-626" <.. "CNG-917" : Approval
+"CNG-1186" <.. "CNG-1173" : Dependent
+"CNG-1182" <.. "CNG-733" : Relates
+"CNG-1163" <.. "CNG-733" : Dependent
+"CNG-1143" <.. "CNG-1127" : Relates
+"CNG-1109" <.. "CNG-1042" : Relates
 
 
 @enduml

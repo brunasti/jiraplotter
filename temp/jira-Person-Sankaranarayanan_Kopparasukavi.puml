@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Person Sankaranarayanan Kopparasukavi
 hide empty members
@@ -10,11 +10,13 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(In Work) : 2
+(Done) : 1
+(In Work) : 3
 ----
 Jira Ticket Types
 ----
-(Bug) : 2
+(Task) : 1
+(Bug) : 3
 end legend
 
 
@@ -25,7 +27,19 @@ class "CNG-1347" << (B,red) >> {
   Type : Bug
 }
 
+class "CNG-822" << (T,lightblue) >> {
+  Assigned to : Sankaranarayanan Kopparasukavi
+  Status : Done
+  Type : Task
+}
+
 class "CNG-1397" << (B,red) >> {
+  Assigned to : Sankaranarayanan Kopparasukavi
+  Status : In Work
+  Type : Bug
+}
+
+class "CNG-1342" << (B,red) >> {
   Assigned to : Sankaranarayanan Kopparasukavi
   Status : In Work
   Type : Bug

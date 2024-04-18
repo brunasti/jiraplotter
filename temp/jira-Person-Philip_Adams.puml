@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu Apr 18 11:01:10 CEST 2024
+' Generated at    : Thu Apr 18 11:50:48 CEST 2024
 
 title Jira Tickets for Person Philip Adams
 hide empty members
@@ -11,11 +11,12 @@ legend
 Jira Ticket Status
 ----
 (To Do) : 10
+(Done) : 1
 (Raised) : 1
 ----
 Jira Ticket Types
 ----
-(Task) : 10
+(Task) : 11
 (Bug) : 1
 end legend
 
@@ -87,9 +88,16 @@ class "CNG-1396" << (B,red) >> {
   Type : Bug
 }
 
+class "CNG-1221" << (T,lightblue) >> {
+  Assigned to : Deepak Ingwale
+  Status : Done
+  Type : Task
+}
+
 
 
 ' Links =======
+"CNG-1382" <.. "CNG-1221" : Relates
 
 
 @enduml
