@@ -2,86 +2,42 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Wed Apr 17 17:35:20 CEST 2024
+' Generated at    : Thu Apr 18 10:28:35 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(QA) : 6
+(QA) : 2
 (IN UAT) : 1
-(To Do) : 8
-(Build) : 1
+(To Do) : 6
 (Under Investigation) : 1
-(UAT) : 1
-(In Progress) : 12
+(In Progress) : 10
 (In System Test) : 1
 (Raised) : 3
 (Design Review) : 1
 ----
 Jira Ticket Types
 ----
-(Task) : 13
+(Task) : 9
 (Bug) : 6
-(Sub-task) : 10
-(Story) : 6
+(Sub-task) : 9
+(Story) : 1
 end legend
 
 
 ' Tickets =======
-class "CNG-90" << (S,lightgreen) >> {
-  Assigned to : Merin Joseph
-  Status : QA
-  Type : Story
-}
-
-class "CNG-70" << (S,lightgreen) >> {
-  Assigned to : Sushant Khandelwal
-  Status : In Progress
-  Type : Story
-}
-
-class "CNG-50" << (S,lightgreen) >> {
-  Assigned to : Sushant Khandelwal
-  Status : In Progress
-  Type : Story
-}
-
 class "CNG-73" << (S,lightgreen) >> {
   Assigned to : Sushant Khandelwal
   Status : Design Review
   Type : Story
 }
 
-class "CNG-999" << (T,lightblue) >> {
-  Assigned to : Amreen Fathima
-  Status : QA
-  Type : Task
-}
-
-class "CNG-716" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-717" << (S,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Sub-task
-}
-
 class "CNG-937" << (B,red) >> {
   Assigned to : Merin Joseph
   Status : Raised
   Type : Bug
-}
-
-class "CNG-255" << (T,lightblue) >> {
-  Assigned to : Deepak Ingwale
-  Status : QA
-  Type : Task
 }
 
 class "CNG-851" << (B,red) >> {
@@ -185,24 +141,6 @@ class "CNG-727" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-69" << (S,lightgreen) >> {
-  Assigned to : Sulafa Malik
-  Status : UAT
-  Type : Story
-}
-
-class "CNG-2" << (S,lightgreen) >> {
-  Assigned to : Merin Joseph
-  Status : Build
-  Type : Story
-}
-
-class "CNG-609" << (T,lightblue) >> {
-  Assigned to : Amreen Fathima
-  Status : QA
-  Type : Task
-}
-
 class "CNG-663" << (T,lightblue) >> {
   Assigned to : Merin Joseph
   Status : To Do
@@ -241,18 +179,11 @@ class "CNG-667" << (S,lightblue) >> {
 
 
 ' Links =======
-"CNG-773" <.. "CNG-717" : Dependent
-"CNG-773" <.. "CNG-716" : Dependent
 "CNG-654" <.. "CNG-536" : Relates
 "CNG-654" <.. "CNG-394" : Relates
 "CNG-670" <.. "CNG-533" : Dependent
-"CNG-2" <.. "CNG-609" : Approval
-"CNG-685" <.. "CNG-70" : Relates
-"CNG-685" <.. "CNG-50" : Relates
-"CNG-685" <.. "CNG-999" : Relates
 "CNG-685" <.. "CNG-1225" : Relates
 "CNG-685" <.. "CNG-1151" : Relates
-"CNG-685" <.. "CNG-255" : Relates
 "CNG-826" <.. "CNG-395" : Dependent
 "CNG-826" <.. "CNG-667" : Dependent
 "CNG-725" <.. "CNG-727" : Dependent
@@ -260,7 +191,6 @@ class "CNG-667" << (S,lightblue) >> {
 "CNG-394" <.. "CNG-73" : Dependent
 "CNG-394" <.. "CNG-687" : Relates
 "CNG-395" <.. "CNG-73" : Relates
-"CNG-90" <.. "CNG-69" : Relates
 
 
 @enduml

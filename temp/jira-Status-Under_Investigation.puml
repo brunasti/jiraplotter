@@ -1,0 +1,74 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Thu Apr 18 10:28:35 CEST 2024
+
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 1
+(Under Investigation) : 5
+(In Progress) : 1
+----
+Jira Ticket Types
+----
+(Task) : 1
+(Bug) : 5
+(Sub-task) : 1
+end legend
+
+
+' Tickets =======
+class "CNG-364" << (B,red) >> {
+  Assigned to : Nigel Hassett
+  Status : Under Investigation
+  Type : Bug
+}
+
+class "CNG-873" << (T,lightblue) >> {
+  Assigned to : Paolo Brunasti
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-687" << (S,lightblue) >> {
+  Assigned to : Sulafa Malik
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-500" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : Under Investigation
+  Type : Bug
+}
+
+class "CNG-1344" << (B,red) >> {
+  Assigned to : Merin Joseph
+  Status : Under Investigation
+  Type : Bug
+}
+
+class "CNG-887" << (B,red) >> {
+  Assigned to : Riti Agarwal
+  Status : Under Investigation
+  Type : Bug
+}
+
+class "CNG-1386" << (B,red) >> {
+  Assigned to : Deepak Ingwale
+  Status : Under Investigation
+  Type : Bug
+}
+
+
+
+' Links =======
+"CNG-887" <.. "CNG-687" : Relates
+"CNG-1386" <.. "CNG-873" : Relates
+
+
+@enduml

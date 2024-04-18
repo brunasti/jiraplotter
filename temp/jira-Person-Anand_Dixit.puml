@@ -2,90 +2,30 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Wed Apr 17 17:35:20 CEST 2024
+' Generated at    : Thu Apr 18 10:28:35 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(To Do) : 14
+(To Do) : 12
 (Done) : 1
 (Dev Review) : 1
 (Build) : 1
-(In Progress) : 9
+(In Progress) : 5
 (Raised) : 1
 ----
 Jira Ticket Types
 ----
-(Task) : 14
+(Task) : 12
 (Bug) : 1
-(Sub-task) : 10
-(Story) : 2
+(Sub-task) : 7
+(Story) : 1
 end legend
 
 
 ' Tickets =======
-class "CNG-736" << (S,lightblue) >> {
-  Assigned to : Anand Dixit
-  Status : To Do
-  Type : Sub-task
-}
-
-class "CNG-738" << (T,lightblue) >> {
-  Assigned to : Anand Dixit
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-539" << (B,red) >> {
-  Assigned to : Anand Dixit
-  Status : Raised
-  Type : Bug
-}
-
-class "CNG-596" << (S,lightblue) >> {
-  Assigned to : Anand Dixit
-  Status : In Progress
-  Type : Sub-task
-}
-
-class "CNG-531" << (T,lightblue) >> {
-  Assigned to : Anand Dixit
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-1203" << (S,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : In Progress
-  Type : Sub-task
-}
-
-class "CNG-732" << (S,lightblue) >> {
-  Assigned to : Anand Dixit
-  Status : In Progress
-  Type : Sub-task
-}
-
-class "CNG-798" << (S,lightblue) >> {
-  Assigned to : Anand Dixit
-  Status : In Progress
-  Type : Sub-task
-}
-
-class "CNG-533" << (T,lightblue) >> {
-  Assigned to : Anand Dixit
-  Status : In Progress
-  Type : Task
-}
-
-class "CNG-734" << (T,lightblue) >> {
-  Assigned to : Anand Dixit
-  Status : To Do
-  Type : Task
-}
-
 class "CNG-592" << (S,lightblue) >> {
   Assigned to : Anand Dixit
   Status : To Do
@@ -116,25 +56,37 @@ class "CNG-593" << (S,lightblue) >> {
   Type : Sub-task
 }
 
+class "CNG-736" << (S,lightblue) >> {
+  Assigned to : Anand Dixit
+  Status : To Do
+  Type : Sub-task
+}
+
 class "CNG-604" << (T,lightblue) >> {
   Assigned to : Anand Dixit
   Status : Dev Review
   Type : Task
 }
 
-class "CNG-548" << (T,lightblue) >> {
-  Assigned to : Sushant Khandelwal
-  Status : In Progress
-  Type : Task
-}
-
-class "CNG-707" << (S,lightgreen) >> {
+class "CNG-539" << (B,red) >> {
   Assigned to : Anand Dixit
-  Status : To Do
-  Type : Story
+  Status : Raised
+  Type : Bug
 }
 
 class "CNG-709" << (T,lightblue) >> {
+  Assigned to : Anand Dixit
+  Status : To Do
+  Type : Task
+}
+
+class "CNG-596" << (S,lightblue) >> {
+  Assigned to : Anand Dixit
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-531" << (T,lightblue) >> {
   Assigned to : Anand Dixit
   Status : To Do
   Type : Task
@@ -146,6 +98,12 @@ class "CNG-564" << (T,lightblue) >> {
   Type : Task
 }
 
+class "CNG-732" << (S,lightblue) >> {
+  Assigned to : Anand Dixit
+  Status : In Progress
+  Type : Sub-task
+}
+
 class "CNG-688" << (S,lightblue) >> {
   Status : To Do
   Type : Sub-task
@@ -155,6 +113,12 @@ class "CNG-644" << (S,lightblue) >> {
   Assigned to : Anand Dixit
   Status : Build
   Type : Sub-task
+}
+
+class "CNG-533" << (T,lightblue) >> {
+  Assigned to : Anand Dixit
+  Status : In Progress
+  Type : Task
 }
 
 class "CNG-401" << (T,lightblue) >> {
@@ -169,10 +133,10 @@ class "CNG-525" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-800" << (S,lightblue) >> {
+class "CNG-734" << (T,lightblue) >> {
   Assigned to : Anand Dixit
-  Status : In Progress
-  Type : Sub-task
+  Status : To Do
+  Type : Task
 }
 
 class "CNG-624" << (T,lightblue) >> {
@@ -192,11 +156,7 @@ class "CNG-723" << (T,lightblue) >> {
 "CNG-533" <.. "CNG-732" : Dependent
 "CNG-533" <.. "CNG-688" : Relates
 "CNG-644" <.. "CNG-393" : Dependent
-"CNG-707" <.. "CNG-393" : Dependent
-"CNG-707" <.. "CNG-1203" : Feature
-"CNG-800" <.. "CNG-548" : Relates
 "CNG-624" <.. "CNG-531" : Dependent
-"CNG-604" <.. "CNG-738" : Relates
 "CNG-604" <.. "CNG-723" : Relates
 
 

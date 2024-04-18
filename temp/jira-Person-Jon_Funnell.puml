@@ -2,16 +2,15 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Wed Apr 17 17:35:20 CEST 2024
+' Generated at    : Thu Apr 18 10:28:35 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(QA) : 1
 (IN UAT) : 2
-(To Do) : 14
+(To Do) : 15
 (Under Investigation) : 1
 (In Progress) : 2
 (Raised) : 1
@@ -108,11 +107,6 @@ class "CNG-521" << (B,red) >> {
   Type : Bug
 }
 
-class "CNG-686" << (S,lightblue) >> {
-  Status : QA
-  Type : Sub-task
-}
-
 class "CNG-741" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : To Do
@@ -137,6 +131,12 @@ class "CNG-336" << (B,red) >> {
   Type : Bug
 }
 
+class "CNG-687" << (S,lightblue) >> {
+  Assigned to : Sulafa Malik
+  Status : To Do
+  Type : Sub-task
+}
+
 class "CNG-500" << (B,red) >> {
   Assigned to : Jon Funnell
   Status : Under Investigation
@@ -152,7 +152,7 @@ class "CNG-502" << (B,red) >> {
 
 
 ' Links =======
-"CNG-521" <.. "CNG-686" : Relates
+"CNG-521" <.. "CNG-687" : Relates
 "CNG-804" <.. "CNG-67" : Dependent
 "CNG-502" <.. "CNG-55" : Approval
 "CNG-67" <.. "CNG-1173" : Feature

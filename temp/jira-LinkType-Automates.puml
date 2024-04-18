@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Wed Apr 17 17:35:20 CEST 2024
+' Generated at    : Thu Apr 18 10:28:35 CEST 2024
 
 hide empty members
 
@@ -10,12 +10,12 @@ legend
 Jira Ticket Status
 ----
 (To Do) : 4
-(In Progress) : 3
+(In Progress) : 4
 ----
 Jira Ticket Types
 ----
 (Risks) : 2
-(Task) : 4
+(Task) : 5
 (Sub-task) : 1
 end legend
 
@@ -43,6 +43,12 @@ class "CNG-993" << (R,red) >> {
   Type : Risks
 }
 
+class "CNG-1410" << (T,lightblue) >> {
+  Assigned to : Dileep
+  Status : In Progress
+  Type : Task
+}
+
 class "CNG-984" << (T,lightblue) >> {
   Status : To Do
   Type : Task
@@ -65,6 +71,7 @@ class "CNG-733" << (T,lightblue) >> {
 ' Links =======
 "CNG-733" <.. "CNG-1360" : Automates
 "CNG-733" <.. "CNG-1385" : Automates
+"CNG-733" <.. "CNG-1410" : Automates
 "CNG-984" <.. "CNG-988" : Automates
 "CNG-724" <.. "CNG-993" : Automates
 

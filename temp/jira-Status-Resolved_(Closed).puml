@@ -1,0 +1,32 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Thu Apr 18 10:28:35 CEST 2024
+
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(Resolved (Closed)) : 1
+----
+Jira Ticket Types
+----
+(Impediment (Issue)) : 1
+end legend
+
+
+' Tickets =======
+class "CNG-658" << (I,orange) >> {
+  Assigned to : Shafiqul Islam
+  Status : Resolved (Closed)
+  Type : Impediment (Issue)
+}
+
+
+
+' Links =======
+
+
+@enduml

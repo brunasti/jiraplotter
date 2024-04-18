@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Wed Apr 17 17:35:20 CEST 2024
+' Generated at    : Thu Apr 18 10:28:35 CEST 2024
 
 hide empty members
 
@@ -11,28 +11,27 @@ Jira Ticket Status
 ----
 (IN UAT) : 7
 (In Review (migrated)) : 1
-(To Do) : 190
-(Dev Review) : 10
-(In Work) : 1
+(To Do) : 177
+(Dev Review) : 7
 (Under Investigation) : 3
 (UAT) : 19
-(In Progress) : 84
+(In Progress) : 80
 (In System Test) : 7
 (Raised) : 6
-(QA) : 13
-(Build) : 2
+(QA) : 19
+(Build) : 1
 (On Hold / Monitoring) : 1
-(Design Review) : 11
+(Design Review) : 10
 ----
 Jira Ticket Types
 ----
 (Risks) : 8
-(Task) : 202
+(Task) : 194
 (Issue) : 2
-(Work Request) : 2
-(Bug) : 25
-(Sub-task) : 58
-(Story) : 57
+(Work Request) : 1
+(Bug) : 24
+(Sub-task) : 53
+(Story) : 55
 (New Feature) : 1
 end legend
 
@@ -164,14 +163,14 @@ class "CNG-897" << (P,lightblue) >> {
   Type : Project Request Package
 }
 
-class "CNG-1321" << (T,lightblue) >> {
-  Status : To Do
-  Type : Task
-}
-
 class "CNG-655" << (N,lightgreen) >> {
   Status : To Do
   Type : New Feature
+}
+
+class "CNG-1321" << (T,lightblue) >> {
+  Status : To Do
+  Type : Task
 }
 
 class "CNG-776" << (T,lightblue) >> {
@@ -245,8 +244,8 @@ class "CNG-548" << (T,lightblue) >> {
 }
 
 class "CNG-2" << (S,lightgreen) >> {
-  Assigned to : Merin Joseph
-  Status : Build
+  Assigned to : Stephy Aniyan
+  Status : QA
   Type : Story
 }
 
@@ -515,18 +514,6 @@ class "CNG-997" << (R,red) >> {
   Type : Risks
 }
 
-class "CNG-647" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-768" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
 class "CNG-529" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
   Status : To Do
@@ -579,16 +566,16 @@ class "CNG-881" << (B,red) >> {
   Type : Bug
 }
 
-class "CNG-1312" << (S,lightblue) >> {
-  Assigned to : Swagath Ganta
-  Status : To Do
-  Type : Sub-task
-}
-
 class "CNG-521" << (B,red) >> {
   Assigned to : Jon Funnell
   Status : IN UAT
   Type : Bug
+}
+
+class "CNG-1312" << (S,lightblue) >> {
+  Assigned to : Swagath Ganta
+  Status : To Do
+  Type : Sub-task
 }
 
 class "CNG-1313" << (S,lightblue) >> {
@@ -671,6 +658,12 @@ class "CNG-1408" << (T,lightblue) >> {
   Assigned to : Dileep
   Status : In Progress
   Type : Task
+}
+
+class "CNG-1409" << (I,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : To Do
+  Type : Improvement
 }
 
 class "CNG-1406" << (T,lightblue) >> {
@@ -792,6 +785,12 @@ class "CNG-593" << (S,lightblue) >> {
   Type : Sub-task
 }
 
+class "CNG-1411" << (B,red) >> {
+  Assigned to : Deepak Ingwale
+  Status : Raised
+  Type : Bug
+}
+
 class "CNG-589" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : In Progress
@@ -800,6 +799,12 @@ class "CNG-589" << (S,lightblue) >> {
 
 class "CNG-588" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Status : In Progress
+  Type : Task
+}
+
+class "CNG-1410" << (T,lightblue) >> {
+  Assigned to : Dileep
   Status : In Progress
   Type : Task
 }
@@ -890,12 +895,6 @@ class "CNG-556" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-798" << (S,lightblue) >> {
-  Assigned to : Anand Dixit
-  Status : In Progress
-  Type : Sub-task
-}
-
 class "CNG-555" << (T,lightblue) >> {
   Status : In Progress
   Type : Task
@@ -979,11 +978,6 @@ class "CNG-689" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-812" << (S,lightblue) >> {
-  Status : To Do
-  Type : Sub-task
-}
-
 class "CNG-815" << (S,lightblue) >> {
   Status : To Do
   Type : Sub-task
@@ -1008,16 +1002,6 @@ class "CNG-937" << (B,red) >> {
 class "CNG-932" << (T,lightblue) >> {
   Status : To Do
   Type : Task
-}
-
-class "CNG-811" << (S,lightblue) >> {
-  Status : To Do
-  Type : Sub-task
-}
-
-class "CNG-810" << (S,lightblue) >> {
-  Status : To Do
-  Type : Sub-task
 }
 
 class "CNG-824" << (T,lightblue) >> {
@@ -1053,7 +1037,7 @@ class "CNG-949" << (T,lightblue) >> {
 }
 
 class "CNG-707" << (S,lightgreen) >> {
-  Assigned to : Anand Dixit
+  Assigned to : Deepak Ingwale
   Status : To Do
   Type : Story
 }
@@ -1068,11 +1052,6 @@ class "CNG-708" << (B,red) >> {
   Assigned to : Amreen Fathima
   Status : In System Test
   Type : Bug
-}
-
-class "CNG-941" << (S,lightblue) >> {
-  Status : To Do
-  Type : Sub-task
 }
 
 class "CNG-940" << (S,lightblue) >> {
@@ -1103,11 +1082,6 @@ class "CNG-917" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-809" << (S,lightblue) >> {
-  Status : In Progress
-  Type : Sub-task
-}
-
 class "CNG-804" << (S,lightblue) >> {
   Assigned to : Jon Funnell
   Status : To Do
@@ -1133,12 +1107,6 @@ class "CNG-807" << (T,lightblue) >> {
 class "CNG-928" << (T,lightblue) >> {
   Status : To Do
   Type : Task
-}
-
-class "CNG-800" << (S,lightblue) >> {
-  Assigned to : Anand Dixit
-  Status : In Progress
-  Type : Sub-task
 }
 
 class "CNG-736" << (S,lightblue) >> {
@@ -1167,12 +1135,6 @@ class "CNG-977" << (S,lightblue) >> {
 
 class "CNG-614" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-738" << (T,lightblue) >> {
-  Assigned to : Anand Dixit
   Status : To Do
   Type : Task
 }
@@ -1326,11 +1288,6 @@ class "CNG-629" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-981" << (T,lightblue) >> {
-  Status : In Progress
-  Type : Task
-}
-
 class "CNG-620" << (T,lightblue) >> {
   Assigned to : Sushant Khandelwal
   Status : Design Review
@@ -1387,21 +1344,9 @@ class "CNG-502" << (B,red) >> {
   Type : Bug
 }
 
-class "CNG-986" << (W,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Work Request
-}
-
 class "CNG-623" << (S,lightblue) >> {
   Assigned to : Sulafa Malik
   Status : UAT
-  Type : Sub-task
-}
-
-class "CNG-714" << (S,lightblue) >> {
-  Assigned to : Iswarya Gunasegaran
-  Status : To Do
   Type : Sub-task
 }
 
@@ -1421,32 +1366,8 @@ class "CNG-713" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-716" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
 class "CNG-715" << (S,lightblue) >> {
   Assigned to : Iswarya Gunasegaran
-  Status : To Do
-  Type : Sub-task
-}
-
-class "CNG-718" << (S,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Sub-task
-}
-
-class "CNG-717" << (S,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Sub-task
-}
-
-class "CNG-719" << (S,lightblue) >> {
-  Assigned to : Shafiqul Islam
   Status : To Do
   Type : Sub-task
 }
@@ -1562,33 +1483,9 @@ class "CNG-961" << (S,lightblue) >> {
   Type : Sub-task
 }
 
-class "CNG-721" << (S,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Sub-task
-}
-
-class "CNG-720" << (S,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Sub-task
-}
-
 class "CNG-723" << (T,lightblue) >> {
   Status : To Do
   Type : Task
-}
-
-class "CNG-964" << (T,lightblue) >> {
-  Assigned to : Iswarya Gunasegaran
-  Status : To Do
-  Type : Task
-}
-
-class "CNG-722" << (S,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Sub-task
 }
 
 class "CNG-50" << (S,lightgreen) >> {
@@ -2029,8 +1926,8 @@ class "CNG-385" << (T,lightblue) >> {
 }
 
 class "CNG-376" << (S,lightgreen) >> {
-  Assigned to : Abdul Kader Nabil
-  Status : Dev Review
+  Assigned to : Stephy Aniyan
+  Status : QA
   Type : Story
 }
 
@@ -2227,12 +2124,6 @@ class "CNG-1059" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-388" << (S,lightgreen) >> {
-  Assigned to : Sushant Khandelwal
-  Status : In Progress
-  Type : Story
-}
-
 class "CNG-1299" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
   Status : In Progress
@@ -2346,12 +2237,6 @@ class "CNG-1029" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : In Review (migrated)
   Type : Sub-task
-}
-
-class "CNG-356" << (B,red) >> {
-  Assigned to : Sushant Khandelwal
-  Status : In Work
-  Type : Bug
 }
 
 class "CNG-1389" << (N,lightgreen) >> {
@@ -2513,12 +2398,6 @@ class "CNG-1392" << (B,red) >> {
   Type : Bug
 }
 
-class "CNG-491" << (T,lightblue) >> {
-  Assigned to : Riti Agarwal
-  Status : To Do
-  Type : Task
-}
-
 class "CNG-1272" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
   Status : In Progress
@@ -2602,8 +2481,8 @@ class "CNG-1038" << (S,lightblue) >> {
 }
 
 class "CNG-369" << (S,lightgreen) >> {
-  Assigned to : Abdul Kader Nabil
-  Status : Dev Review
+  Assigned to : Stephy Aniyan
+  Status : QA
   Type : Story
 }
 
@@ -2723,7 +2602,7 @@ class "CNG-1360" << (T,lightblue) >> {
 }
 
 class "CNG-90" << (S,lightgreen) >> {
-  Assigned to : Merin Joseph
+  Assigned to : Stephy Aniyan
   Status : QA
   Type : Story
 }
@@ -2822,7 +2701,7 @@ class "CNG-1001" << (T,lightblue) >> {
 
 class "CNG-1372" << (T,lightblue) >> {
   Assigned to : Narayana Golla
-  Status : To Do
+  Status : In Progress
   Type : Task
 }
 
@@ -2990,12 +2869,6 @@ class "CNG-70" << (S,lightgreen) >> {
   Type : Story
 }
 
-class "CNG-71" << (S,lightgreen) >> {
-  Assigned to : BharathKum Sarangarajan
-  Status : To Do
-  Type : Story
-}
-
 class "CNG-72" << (S,lightgreen) >> {
   Assigned to : Jon Funnell
   Status : To Do
@@ -3027,13 +2900,13 @@ class "CNG-77" << (S,lightgreen) >> {
 }
 
 class "CNG-78" << (S,lightgreen) >> {
-  Assigned to : BharathKum Sarangarajan
-  Status : In Progress
+  Assigned to : Stephy Aniyan
+  Status : QA
   Type : Story
 }
 
 class "CNG-79" << (S,lightgreen) >> {
-  Assigned to : Deepak Ingwale
+  Assigned to : Stephy Aniyan
   Status : QA
   Type : Story
 }
@@ -3138,8 +3011,8 @@ class "CNG-294" << (T,lightblue) >> {
 }
 
 class "CNG-81" << (S,lightgreen) >> {
-  Assigned to : Sushant Khandelwal
-  Status : Dev Review
+  Assigned to : Stephy Aniyan
+  Status : QA
   Type : Story
 }
 
@@ -3150,8 +3023,8 @@ class "CNG-82" << (S,lightgreen) >> {
 }
 
 class "CNG-84" << (S,lightgreen) >> {
-  Assigned to : Deepak Ingwale
-  Status : Design Review
+  Assigned to : Stephy Aniyan
+  Status : QA
   Type : Story
 }
 
@@ -3248,8 +3121,6 @@ class "CNG-1353" << (B,red) >> {
 "CNG-1327" <.. "CNG-961" : Dependent
 "CNG-530" <.. "CNG-1237" : Dependent
 "CNG-1202" <.. "CNG-733" : Approval
-"CNG-773" <.. "CNG-717" : Dependent
-"CNG-773" <.. "CNG-716" : Dependent
 "CNG-533" <.. "CNG-732" : Dependent
 "CNG-533" <.. "CNG-688" : Relates
 "CNG-654" <.. "CNG-536" : Relates
@@ -3257,7 +3128,6 @@ class "CNG-1353" << (B,red) >> {
 "CNG-1201" <.. "CNG-733" : Approval
 "CNG-415" <.. "CNG-440" : Relates
 "CNG-415" <.. "CNG-385" : Relates
-"CNG-415" <.. "CNG-679" : Relates
 "CNG-536" <.. "CNG-214" : Relates
 "CNG-536" <.. "CNG-684" : Relates
 "CNG-536" <.. "CNG-777" : Relates
@@ -3272,7 +3142,6 @@ class "CNG-1353" << (B,red) >> {
 "CNG-999" <.. "CNG-81" : Dependent
 "CNG-999" <.. "CNG-79" : Dependent
 "CNG-999" <.. "CNG-393" : Dependent
-"CNG-999" <.. "CNG-700" : Relates
 "CNG-1309" <.. "CNG-1163" : Dependent
 "CNG-518" <.. "CNG-684" : Relates
 "CNG-518" <.. "CNG-739" : Relates
@@ -3294,15 +3163,13 @@ class "CNG-1353" << (B,red) >> {
 "CNG-993" <.. "CNG-1008" : Relates
 "CNG-874" <.. "CNG-79" : Dependent
 "CNG-874" <.. "CNG-81" : Dependent
-"CNG-647" <.. "CNG-67" : Dependent
-"CNG-647" <.. "CNG-1173" : Feature
 "CNG-529" <.. "CNG-733" : Relates
 "CNG-407" <.. "CNG-684" : Relates
 "CNG-1318" <.. "CNG-684" : Relates
 "CNG-1316" <.. "CNG-733" : Relates
 "CNG-760" <.. "CNG-1008" : Dependent
 "CNG-881" <.. "CNG-708" : Relates
-"CNG-521" <.. "CNG-686" : Relates
+"CNG-521" <.. "CNG-687" : Relates
 "CNG-1310" <.. "CNG-1163" : Dependent
 "CNG-644" <.. "CNG-393" : Dependent
 "CNG-1311" <.. "CNG-733" : Dependent
@@ -3314,6 +3181,7 @@ class "CNG-1353" << (B,red) >> {
 "CNG-1407" <.. "CNG-873" : Relates
 "CNG-210" <.. "CNG-393" : Dependent
 "CNG-210" <.. "CNG-1203" : Feature
+"CNG-210" <.. "CNG-687" : Relates
 "CNG-333" <.. "CNG-68" : Dependent
 "CNG-696" <.. "CNG-697" : Relates
 "CNG-696" <.. "CNG-740" : Relates
@@ -3327,7 +3195,6 @@ class "CNG-1353" << (B,red) >> {
 "CNG-591" <.. "CNG-339" : Relates
 "CNG-589" <.. "CNG-1363" : Relates
 "CNG-346" <.. "CNG-69" : Approval
-"CNG-440" <.. "CNG-679" : Relates
 "CNG-682" <.. "CNG-1005" : Relates
 "CNG-682" <.. "CNG-48" : Relates
 "CNG-560" <.. "CNG-41" : Relates
@@ -3352,12 +3219,10 @@ class "CNG-1353" << (B,red) >> {
 "CNG-559" <.. "CNG-78" : Relates
 "CNG-559" <.. "CNG-376" : Relates
 "CNG-312" <.. "CNG-559" : Relates
-"CNG-795" <.. "CNG-887" : Relates
 "CNG-556" <.. "CNG-557" : Dependent
 "CNG-558" <.. "CNG-269" : Relates
 "CNG-679" <.. "CNG-300" : Relates
 "CNG-679" <.. "CNG-893" : Relates
-"CNG-679" <.. "CNG-854" : Relates
 "CNG-679" <.. "CNG-852" : Relates
 "CNG-679" <.. "CNG-834" : Relates
 "CNG-679" <.. "CNG-299" : Relates
@@ -3365,21 +3230,13 @@ class "CNG-1353" << (B,red) >> {
 "CNG-679" <.. "CNG-1190" : Relates
 "CNG-679" <.. "CNG-357" : Relates
 "CNG-679" <.. "CNG-1035" : Relates
+"CNG-679" <.. "CNG-1326" : Relates
 "CNG-557" <.. "CNG-558" : Dependent
-"CNG-684" <.. "CNG-90" : Relates
 "CNG-684" <.. "CNG-999" : Relates
-"CNG-686" <.. "CNG-50" : Relates
-"CNG-686" <.. "CNG-70" : Relates
 "CNG-686" <.. "CNG-90" : Relates
-"CNG-686" <.. "CNG-269" : Relates
-"CNG-686" <.. "CNG-210" : Relates
 "CNG-686" <.. "CNG-999" : Relates
-"CNG-685" <.. "CNG-70" : Relates
-"CNG-685" <.. "CNG-50" : Relates
-"CNG-685" <.. "CNG-999" : Relates
 "CNG-685" <.. "CNG-1225" : Relates
 "CNG-685" <.. "CNG-1151" : Relates
-"CNG-685" <.. "CNG-255" : Relates
 "CNG-688" <.. "CNG-77" : Relates
 "CNG-687" <.. "CNG-28" : Relates
 "CNG-687" <.. "CNG-30" : Relates
@@ -3399,8 +3256,6 @@ class "CNG-1353" << (B,red) >> {
 "CNG-689" <.. "CNG-533" : Dependent
 "CNG-935" <.. "CNG-393" : Dependent
 "CNG-935" <.. "CNG-1203" : Feature
-"CNG-932" <.. "CNG-809" : Dependent
-"CNG-810" <.. "CNG-1022" : Approval
 "CNG-824" <.. "CNG-558" : Dependent
 "CNG-944" <.. "CNG-961" : Dependent
 "CNG-826" <.. "CNG-395" : Dependent
@@ -3412,14 +3267,11 @@ class "CNG-1353" << (B,red) >> {
 "CNG-708" <.. "CNG-79" : Dependent
 "CNG-708" <.. "CNG-81" : Dependent
 "CNG-940" <.. "CNG-592" : Dependent
-"CNG-700" <.. "CNG-707" : Relates
-"CNG-700" <.. "CNG-655" : Relates
 "CNG-916" <.. "CNG-557" : Dependent
 "CNG-804" <.. "CNG-67" : Dependent
 "CNG-924" <.. "CNG-558" : Dependent
 "CNG-807" <.. "CNG-558" : Dependent
 "CNG-928" <.. "CNG-558" : Dependent
-"CNG-800" <.. "CNG-548" : Relates
 "CNG-977" <.. "CNG-1216" : Cloners
 "CNG-737" <.. "CNG-723" : Dependent
 "CNG-730" <.. "CNG-760" : Dependent
@@ -3431,6 +3283,7 @@ class "CNG-1353" << (B,red) >> {
 "CNG-731" <.. "CNG-760" : Dependent
 "CNG-733" <.. "CNG-1360" : Automates
 "CNG-733" <.. "CNG-1385" : Automates
+"CNG-733" <.. "CNG-1410" : Automates
 "CNG-733" <.. "CNG-776" : Relates
 "CNG-733" <.. "CNG-1060" : Relates
 "CNG-733" <.. "CNG-1154" : Relates
@@ -3449,7 +3302,6 @@ class "CNG-1353" << (B,red) >> {
 "CNG-626" <.. "CNG-82" : Approval
 "CNG-626" <.. "CNG-615" : Approval
 "CNG-626" <.. "CNG-624" : Approval
-"CNG-626" <.. "CNG-647" : Approval
 "CNG-626" <.. "CNG-871" : Approval
 "CNG-626" <.. "CNG-917" : Approval
 "CNG-989" <.. "CNG-990" : Cloners
@@ -3457,7 +3309,6 @@ class "CNG-1353" << (B,red) >> {
 "CNG-508" <.. "CNG-733" : Relates
 "CNG-629" <.. "CNG-67" : Dependent
 "CNG-629" <.. "CNG-395" : Relates
-"CNG-981" <.. "CNG-795" : Relates
 "CNG-620" <.. "CNG-604" : Dependent
 "CNG-984" <.. "CNG-988" : Automates
 "CNG-984" <.. "CNG-993" : Relates
@@ -3468,17 +3319,15 @@ class "CNG-1353" << (B,red) >> {
 "CNG-984" <.. "CNG-1004" : Relates
 "CNG-624" <.. "CNG-531" : Dependent
 "CNG-502" <.. "CNG-55" : Approval
-"CNG-986" <.. "CNG-795" : Relates
 "CNG-623" <.. "CNG-687" : Relates
 "CNG-710" <.. "CNG-975" : Relates
 "CNG-952" <.. "CNG-724" : Dependent
 "CNG-711" <.. "CNG-651" : Relates
 "CNG-953" <.. "CNG-795" : Relates
-"CNG-604" <.. "CNG-738" : Relates
 "CNG-604" <.. "CNG-723" : Relates
 "CNG-725" <.. "CNG-727" : Dependent
 "CNG-724" <.. "CNG-993" : Automates
-"CNG-606" <.. "CNG-686" : Relates
+"CNG-606" <.. "CNG-687" : Relates
 "CNG-727" <.. "CNG-760" : Dependent
 "CNG-726" <.. "CNG-728" : Dependent
 "CNG-729" <.. "CNG-760" : Dependent
@@ -3486,14 +3335,12 @@ class "CNG-1353" << (B,red) >> {
 "CNG-609" <.. "CNG-686" : Relates
 "CNG-961" <.. "CNG-1060" : Approval
 "CNG-723" <.. "CNG-73" : Dependent
-"CNG-964" <.. "CNG-795" : Relates
 "CNG-50" <.. "CNG-383" : Relates
 "CNG-50" <.. "CNG-629" : Relates
 "CNG-50" <.. "CNG-395" : Relates
 "CNG-51" <.. "CNG-741" : Feature
 "CNG-55" <.. "CNG-393" : Dependent
 "CNG-55" <.. "CNG-1203" : Feature
-"CNG-55" <.. "CNG-684" : Relates
 "CNG-55" <.. "CNG-773" : Relates
 "CNG-57" <.. "CNG-79" : Dependent
 "CNG-57" <.. "CNG-81" : Dependent
@@ -3503,22 +3350,17 @@ class "CNG-1353" << (B,red) >> {
 "CNG-65" <.. "CNG-393" : Dependent
 "CNG-65" <.. "CNG-1203" : Feature
 "CNG-66" <.. "CNG-393" : Dependent
-"CNG-66" <.. "CNG-684" : Feature
 "CNG-66" <.. "CNG-1203" : Feature
 "CNG-67" <.. "CNG-1173" : Feature
 "CNG-68" <.. "CNG-709" : Enable
 "CNG-68" <.. "CNG-1207" : Feature
-"CNG-69" <.. "CNG-388" : Cloners
 "CNG-69" <.. "CNG-387" : Cloners
 "CNG-69" <.. "CNG-67" : Dependent
-"CNG-69" <.. "CNG-684" : Feature
 "CNG-69" <.. "CNG-346" : Relates
-"CNG-69" <.. "CNG-686" : Relates
 "CNG-32" <.. "CNG-28" : Relates
 "CNG-32" <.. "CNG-30" : Relates
 "CNG-41" <.. "CNG-741" : Feature
 "CNG-46" <.. "CNG-67" : Dependent
-"CNG-46" <.. "CNG-684" : Feature
 "CNG-46" <.. "CNG-69" : Relates
 "CNG-46" <.. "CNG-521" : Relates
 "CNG-46" <.. "CNG-629" : Relates
@@ -3557,8 +3399,8 @@ class "CNG-1353" << (B,red) >> {
 "CNG-376" <.. "CNG-79" : Dependent
 "CNG-376" <.. "CNG-81" : Dependent
 "CNG-376" <.. "CNG-377" : Relates
-"CNG-255" <.. "CNG-684" : Feature
 "CNG-255" <.. "CNG-1359" : Relates
+"CNG-255" <.. "CNG-686" : Relates
 "CNG-257" <.. "CNG-393" : Dependent
 "CNG-257" <.. "CNG-1203" : Feature
 "CNG-257" <.. "CNG-592" : Relates
@@ -3597,24 +3439,15 @@ class "CNG-1353" << (B,red) >> {
 "CNG-395" <.. "CNG-73" : Relates
 "CNG-1290" <.. "CNG-1233" : Dependent
 "CNG-387" <.. "CNG-67" : Dependent
-"CNG-387" <.. "CNG-684" : Feature
-"CNG-388" <.. "CNG-67" : Dependent
-"CNG-388" <.. "CNG-809" : Feature
-"CNG-388" <.. "CNG-1173" : Feature
-"CNG-388" <.. "CNG-686" : Relates
 "CNG-269" <.. "CNG-415" : Approval
 "CNG-269" <.. "CNG-596" : Dependent
 "CNG-269" <.. "CNG-393" : Dependent
-"CNG-269" <.. "CNG-684" : Feature
 "CNG-269" <.. "CNG-1203" : Feature
-"CNG-269" <.. "CNG-685" : Relates
 "CNG-1179" <.. "CNG-733" : Relates
 "CNG-1141" <.. "CNG-1039" : Relates
 "CNG-1142" <.. "CNG-1039" : Relates
 "CNG-1260" <.. "CNG-1254" : Dependent
 "CNG-1140" <.. "CNG-1039" : Relates
-"CNG-356" <.. "CNG-73" : Relates
-"CNG-356" <.. "CNG-726" : Relates
 "CNG-1268" <.. "CNG-1237" : Dependent
 "CNG-1266" <.. "CNG-1253" : Dependent
 "CNG-1267" <.. "CNG-1253" : Dependent
@@ -3623,13 +3456,10 @@ class "CNG-1353" << (B,red) >> {
 "CNG-1386" <.. "CNG-873" : Relates
 "CNG-1265" <.. "CNG-1253" : Dependent
 "CNG-1153" <.. "CNG-1151" : Jira Product Discovery issue link
-"CNG-1153" <.. "CNG-685" : Relates
-"CNG-491" <.. "CNG-73" : Relates
-"CNG-491" <.. "CNG-723" : Relates
+"CNG-1153" <.. "CNG-686" : Relates
 "CNG-1151" <.. "CNG-1030" : Relates
 "CNG-485" <.. "CNG-67" : Dependent
 "CNG-485" <.. "CNG-69" : Relates
-"CNG-485" <.. "CNG-686" : Relates
 "CNG-1279" <.. "CNG-733" : Relates
 "CNG-369" <.. "CNG-79" : Dependent
 "CNG-369" <.. "CNG-81" : Dependent
@@ -3662,7 +3492,6 @@ class "CNG-1353" << (B,red) >> {
 "CNG-1370" <.. "CNG-590" : Dependent
 "CNG-1371" <.. "CNG-590" : Dependent
 "CNG-1250" <.. "CNG-1237" : Dependent
-"CNG-1017" <.. "CNG-388" : Dependent
 "CNG-1017" <.. "CNG-700" : Relates
 "CNG-1139" <.. "CNG-1039" : Relates
 "CNG-1015" <.. "CNG-814" : Relates
@@ -3682,14 +3511,8 @@ class "CNG-1353" << (B,red) >> {
 "CNG-70" <.. "CNG-1084" : Dependent
 "CNG-70" <.. "CNG-1085" : Dependent
 "CNG-70" <.. "CNG-696" : Feature
-"CNG-70" <.. "CNG-684" : Relates
 "CNG-70" <.. "CNG-629" : Relates
 "CNG-70" <.. "CNG-1191" : Relates
-"CNG-71" <.. "CNG-672" : Dependent
-"CNG-71" <.. "CNG-67" : Dependent
-"CNG-71" <.. "CNG-647" : Enable
-"CNG-71" <.. "CNG-1173" : Feature
-"CNG-71" <.. "CNG-684" : Relates
 "CNG-72" <.. "CNG-70" : Relates
 "CNG-73" <.. "CNG-50" : Dependent
 "CNG-73" <.. "CNG-30" : Dependent
@@ -3723,7 +3546,6 @@ class "CNG-1353" << (B,red) >> {
 "CNG-87" <.. "CNG-393" : Dependent
 "CNG-87" <.. "CNG-1203" : Feature
 "CNG-1237" <.. "CNG-733" : Dependent
-"CNG-1235" <.. "CNG-388" : Relates
 "CNG-1235" <.. "CNG-32" : Relates
 "CNG-1235" <.. "CNG-46" : Relates
 "CNG-1235" <.. "CNG-69" : Relates

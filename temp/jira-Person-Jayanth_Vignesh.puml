@@ -2,15 +2,15 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Wed Apr 17 17:35:20 CEST 2024
+' Generated at    : Thu Apr 18 10:28:35 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(QA) : 1
-(Dev Review) : 2
+(QA) : 2
+(Dev Review) : 1
 (In Progress) : 1
 ----
 Jira Ticket Types
@@ -23,7 +23,7 @@ end legend
 
 ' Tickets =======
 class "CNG-79" << (S,lightgreen) >> {
-  Assigned to : Deepak Ingwale
+  Assigned to : Stephy Aniyan
   Status : QA
   Type : Story
 }
@@ -35,8 +35,8 @@ class "CNG-1238" << (S,lightblue) >> {
 }
 
 class "CNG-81" << (S,lightgreen) >> {
-  Assigned to : Sushant Khandelwal
-  Status : Dev Review
+  Assigned to : Stephy Aniyan
+  Status : QA
   Type : Story
 }
 

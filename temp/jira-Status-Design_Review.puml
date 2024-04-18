@@ -1,0 +1,177 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Thu Apr 18 10:28:35 CEST 2024
+
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 2
+(Dev Review) : 2
+(UAT) : 3
+(In Progress) : 5
+(Design Review) : 10
+----
+Jira Ticket Types
+----
+(Task) : 6
+(Sub-task) : 7
+(Story) : 9
+end legend
+
+
+' Tickets =======
+class "CNG-1273" << (T,lightblue) >> {
+  Assigned to : Rukaya Ogazi-Khan
+  Status : Design Review
+  Type : Task
+}
+
+class "CNG-1370" << (T,lightblue) >> {
+  Assigned to : Deepak Ingwale
+  Status : Design Review
+  Type : Task
+}
+
+class "CNG-590" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-391" << (S,lightgreen) >> {
+  Assigned to : Abinaya Arumugasamy
+  Status : Design Review
+  Type : Story
+}
+
+class "CNG-1173" << (S,lightblue) >> {
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-393" << (S,lightgreen) >> {
+  Assigned to : Deepak Ingwale
+  Status : In Progress
+  Type : Story
+}
+
+class "CNG-50" << (S,lightgreen) >> {
+  Assigned to : Sushant Khandelwal
+  Status : In Progress
+  Type : Story
+}
+
+class "CNG-73" << (S,lightgreen) >> {
+  Assigned to : Sushant Khandelwal
+  Status : Design Review
+  Type : Story
+}
+
+class "CNG-30" << (S,lightgreen) >> {
+  Assigned to : Sulafa Malik
+  Status : UAT
+  Type : Story
+}
+
+class "CNG-75" << (S,lightgreen) >> {
+  Assigned to : Nigel Hassett
+  Status : Design Review
+  Type : Story
+}
+
+class "CNG-604" << (T,lightblue) >> {
+  Assigned to : Anand Dixit
+  Status : Dev Review
+  Type : Task
+}
+
+class "CNG-87" << (S,lightgreen) >> {
+  Assigned to : Deepak Ingwale
+  Status : Design Review
+  Type : Story
+}
+
+class "CNG-977" << (S,lightblue) >> {
+  Assigned to : Paolo Brunasti
+  Status : Design Review
+  Type : Sub-task
+}
+
+class "CNG-724" << (S,lightblue) >> {
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-37" << (S,lightgreen) >> {
+  Assigned to : Sulafa Malik
+  Status : UAT
+  Type : Story
+}
+
+class "CNG-1107" << (T,lightblue) >> {
+  Assigned to : Paolo Brunasti
+  Status : Design Review
+  Type : Task
+}
+
+class "CNG-28" << (S,lightgreen) >> {
+  Assigned to : Sulafa Malik
+  Status : UAT
+  Type : Story
+}
+
+class "CNG-1216" << (S,lightblue) >> {
+  Assigned to : Paolo Brunasti
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-620" << (T,lightblue) >> {
+  Assigned to : Sushant Khandelwal
+  Status : Design Review
+  Type : Task
+}
+
+class "CNG-1203" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Progress
+  Type : Sub-task
+}
+
+class "CNG-1005" << (T,lightblue) >> {
+  Assigned to : Poornima Sajeendran
+  Status : Design Review
+  Type : Task
+}
+
+class "CNG-556" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : Dev Review
+  Type : Sub-task
+}
+
+
+
+' Links =======
+"CNG-977" <.. "CNG-1216" : Cloners
+"CNG-620" <.. "CNG-604" : Dependent
+"CNG-391" <.. "CNG-393" : Dependent
+"CNG-391" <.. "CNG-1203" : Feature
+"CNG-1370" <.. "CNG-590" : Dependent
+"CNG-73" <.. "CNG-50" : Dependent
+"CNG-73" <.. "CNG-30" : Dependent
+"CNG-73" <.. "CNG-28" : Dependent
+"CNG-73" <.. "CNG-37" : Dependent
+"CNG-73" <.. "CNG-724" : Feature
+"CNG-75" <.. "CNG-1173" : Feature
+"CNG-1107" <.. "CNG-556" : Dependent
+"CNG-87" <.. "CNG-391" : Cloners
+"CNG-87" <.. "CNG-393" : Dependent
+"CNG-87" <.. "CNG-1203" : Feature
+
+
+@enduml

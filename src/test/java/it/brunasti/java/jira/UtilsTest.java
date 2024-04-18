@@ -109,25 +109,25 @@ class UtilsTest {
     jiraTicket.issueType.add("XXXXXXX");
     header = Utils.createClassHead(jiraTicket);
     assertNotNull(header);
-    assertEquals("class \"CNG-1388\" << (X,lightblue) >> {", header);
+    assertEquals("class \"CNG-1411\" << (X,lightblue) >> {", header);
   }
 
 
   @Test
-  public void testDump()
+  void testDump()
   {
     String t = "Title";
     String[] arr = {"A", "B"};
-    Utils.dump(t, arr, System.out);
+    assertDoesNotThrow(() -> Utils.dump(t, arr, System.out));
   }
 
   @Test
-  public void testDump_errors()
+  void testDump_errors()
   {
     String t = "Title";
     String[] arr = {"A", "B"};
-    Utils.dump(null, arr, System.out);
-    Utils.dump(t, null, System.out);
+    assertDoesNotThrow(() -> Utils.dump(null, arr, System.out));
+    assertDoesNotThrow(() -> Utils.dump(t, null, System.out));
   }
 
 }

@@ -1,0 +1,68 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Thu Apr 18 10:28:35 CEST 2024
+
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(In Review (migrated)) : 7
+----
+Jira Ticket Types
+----
+(Sub-task) : 7
+end legend
+
+
+' Tickets =======
+class "CNG-1032" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Review (migrated)
+  Type : Sub-task
+}
+
+class "CNG-1030" << (S,lightblue) >> {
+  Assigned to : Pratik Desai
+  Status : In Review (migrated)
+  Type : Sub-task
+}
+
+class "CNG-1029" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Review (migrated)
+  Type : Sub-task
+}
+
+class "CNG-1026" << (S,lightblue) >> {
+  Assigned to : Riti Agarwal
+  Status : In Review (migrated)
+  Type : Sub-task
+}
+
+class "CNG-1027" << (S,lightblue) >> {
+  Assigned to : Riti Agarwal
+  Status : In Review (migrated)
+  Type : Sub-task
+}
+
+class "CNG-1024" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : In Review (migrated)
+  Type : Sub-task
+}
+
+class "CNG-1034" << (S,lightblue) >> {
+  Assigned to : Riti Agarwal
+  Status : In Review (migrated)
+  Type : Sub-task
+}
+
+
+
+' Links =======
+
+
+@enduml

@@ -84,6 +84,20 @@ public class Utils {
   }
 
 
+  public static Set<String> findStata(Map<String, JiraTicket> jiraTickets) {
+    HashSet<String> stata = new HashSet<>();
+
+    jiraTickets.values().forEach(jiraTicket -> {
+      if (!jiraTicket.status.isEmpty()) {
+        String status = jiraTicket.status.getFirst();
+        stata.add(status);
+      }
+    });
+
+    return stata;
+  }
+
+
 
   public static String createClassHead(JiraTicket jiraTicket) {
     String type = jiraTicket.issueType.getFirst().toLowerCase();
@@ -121,8 +135,8 @@ public class Utils {
 
 
 
-  public static HashMap<String, JiraTicket> getTicketsForLinkKind(final Collection<JiraTicket> jiraTickets, String linkKind) {
-    HashMap<String, JiraTicket> selectedJiraTickets = new HashMap<>();
+  public static Map<String, JiraTicket> getTicketsForLinkKind(final Collection<JiraTicket> jiraTickets, String linkKind) {
+    Map<String, JiraTicket> selectedJiraTickets = new HashMap<>();
 
     jiraTickets.forEach(jiraTicket ->
             jiraTicket.inwardIssueLink.forEach(links -> {

@@ -2,16 +2,16 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Wed Apr 17 17:35:20 CEST 2024
+' Generated at    : Thu Apr 18 10:28:35 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(To Do) : 2
+(To Do) : 1
 (UAT) : 1
-(In Progress) : 6
+(In Progress) : 7
 ----
 Jira Ticket Types
 ----
@@ -25,7 +25,7 @@ end legend
 ' Tickets =======
 class "CNG-1372" << (T,lightblue) >> {
   Assigned to : Narayana Golla
-  Status : To Do
+  Status : In Progress
   Type : Task
 }
 

@@ -1,0 +1,44 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Thu Apr 18 10:28:35 CEST 2024
+
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(Rejected) : 3
+----
+Jira Ticket Types
+----
+(Bug) : 3
+end legend
+
+
+' Tickets =======
+class "CNG-516" << (B,red) >> {
+  Assigned to : Dale Tubb
+  Status : Rejected
+  Type : Bug
+}
+
+class "CNG-1348" << (B,red) >> {
+  Assigned to : Deepak Ingwale
+  Status : Rejected
+  Type : Bug
+}
+
+class "CNG-1354" << (B,red) >> {
+  Assigned to : Abdul Kader Nabil
+  Status : Rejected
+  Type : Bug
+}
+
+
+
+' Links =======
+
+
+@enduml

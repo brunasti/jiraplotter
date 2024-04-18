@@ -2,29 +2,27 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Wed Apr 17 17:35:20 CEST 2024
+' Generated at    : Thu Apr 18 10:28:35 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(QA) : 6
+(QA) : 11
 (IN UAT) : 7
 (To Do) : 11
-(Dev Review) : 5
-(Build) : 1
+(Dev Review) : 2
 (UAT) : 19
-(In Progress) : 10
+(In Progress) : 8
 (In System Test) : 1
-(Design Review) : 1
 ----
 Jira Ticket Types
 ----
 (Task) : 7
 (Bug) : 8
-(Sub-task) : 13
-(Story) : 33
+(Sub-task) : 12
+(Story) : 32
 end legend
 
 
@@ -36,7 +34,7 @@ class "CNG-383" << (T,lightblue) >> {
 }
 
 class "CNG-90" << (S,lightgreen) >> {
-  Assigned to : Merin Joseph
+  Assigned to : Stephy Aniyan
   Status : QA
   Type : Story
 }
@@ -77,8 +75,8 @@ class "CNG-57" << (S,lightgreen) >> {
 }
 
 class "CNG-376" << (S,lightgreen) >> {
-  Assigned to : Abdul Kader Nabil
-  Status : Dev Review
+  Assigned to : Stephy Aniyan
+  Status : QA
   Type : Story
 }
 
@@ -179,8 +177,8 @@ class "CNG-69" << (S,lightgreen) >> {
 }
 
 class "CNG-2" << (S,lightgreen) >> {
-  Assigned to : Merin Joseph
-  Status : Build
+  Assigned to : Stephy Aniyan
+  Status : QA
   Type : Story
 }
 
@@ -206,12 +204,6 @@ class "CNG-741" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : To Do
   Type : Task
-}
-
-class "CNG-388" << (S,lightgreen) >> {
-  Assigned to : Sushant Khandelwal
-  Status : In Progress
-  Type : Story
 }
 
 class "CNG-269" << (S,lightgreen) >> {
@@ -268,13 +260,13 @@ class "CNG-559" << (S,lightblue) >> {
 }
 
 class "CNG-78" << (S,lightgreen) >> {
-  Assigned to : BharathKum Sarangarajan
-  Status : In Progress
+  Assigned to : Stephy Aniyan
+  Status : QA
   Type : Story
 }
 
 class "CNG-79" << (S,lightgreen) >> {
-  Assigned to : Deepak Ingwale
+  Assigned to : Stephy Aniyan
   Status : QA
   Type : Story
 }
@@ -303,14 +295,14 @@ class "CNG-494" << (B,red) >> {
 }
 
 class "CNG-81" << (S,lightgreen) >> {
-  Assigned to : Sushant Khandelwal
-  Status : Dev Review
+  Assigned to : Stephy Aniyan
+  Status : QA
   Type : Story
 }
 
 class "CNG-84" << (S,lightgreen) >> {
-  Assigned to : Deepak Ingwale
-  Status : Design Review
+  Assigned to : Stephy Aniyan
+  Status : QA
   Type : Story
 }
 
@@ -362,11 +354,6 @@ class "CNG-485" << (S,lightgreen) >> {
   Type : Story
 }
 
-class "CNG-686" << (S,lightblue) >> {
-  Status : QA
-  Type : Sub-task
-}
-
 class "CNG-521" << (B,red) >> {
   Assigned to : Jon Funnell
   Status : IN UAT
@@ -374,8 +361,8 @@ class "CNG-521" << (B,red) >> {
 }
 
 class "CNG-369" << (S,lightgreen) >> {
-  Assigned to : Abdul Kader Nabil
-  Status : Dev Review
+  Assigned to : Stephy Aniyan
+  Status : QA
   Type : Story
 }
 
@@ -400,6 +387,7 @@ class "CNG-646" << (B,red) >> {
 "CNG-646" <.. "CNG-687" : Relates
 "CNG-210" <.. "CNG-393" : Dependent
 "CNG-210" <.. "CNG-1203" : Feature
+"CNG-210" <.. "CNG-687" : Relates
 "CNG-217" <.. "CNG-393" : Dependent
 "CNG-217" <.. "CNG-1203" : Feature
 "CNG-681" <.. "CNG-494" : Relates
@@ -439,7 +427,7 @@ class "CNG-646" << (B,red) >> {
 "CNG-687" <.. "CNG-536" : Relates
 "CNG-730" <.. "CNG-760" : Dependent
 "CNG-623" <.. "CNG-687" : Relates
-"CNG-606" <.. "CNG-686" : Relates
+"CNG-606" <.. "CNG-687" : Relates
 "CNG-51" <.. "CNG-741" : Feature
 "CNG-57" <.. "CNG-79" : Dependent
 "CNG-57" <.. "CNG-81" : Dependent
@@ -449,18 +437,13 @@ class "CNG-646" << (B,red) >> {
 "CNG-65" <.. "CNG-393" : Dependent
 "CNG-65" <.. "CNG-1203" : Feature
 "CNG-66" <.. "CNG-393" : Dependent
-"CNG-66" <.. "CNG-684" : Feature
 "CNG-66" <.. "CNG-1203" : Feature
-"CNG-69" <.. "CNG-388" : Cloners
 "CNG-69" <.. "CNG-387" : Cloners
 "CNG-69" <.. "CNG-67" : Dependent
-"CNG-69" <.. "CNG-684" : Feature
 "CNG-69" <.. "CNG-346" : Relates
-"CNG-69" <.. "CNG-686" : Relates
 "CNG-32" <.. "CNG-28" : Relates
 "CNG-32" <.. "CNG-30" : Relates
 "CNG-46" <.. "CNG-67" : Dependent
-"CNG-46" <.. "CNG-684" : Feature
 "CNG-46" <.. "CNG-69" : Relates
 "CNG-46" <.. "CNG-521" : Relates
 "CNG-46" <.. "CNG-629" : Relates
@@ -470,10 +453,8 @@ class "CNG-646" << (B,red) >> {
 "CNG-257" <.. "CNG-1203" : Feature
 "CNG-257" <.. "CNG-592" : Relates
 "CNG-387" <.. "CNG-67" : Dependent
-"CNG-387" <.. "CNG-684" : Feature
 "CNG-485" <.. "CNG-67" : Dependent
 "CNG-485" <.. "CNG-69" : Relates
-"CNG-485" <.. "CNG-686" : Relates
 
 
 @enduml

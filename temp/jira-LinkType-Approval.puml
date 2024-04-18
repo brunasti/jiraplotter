@@ -2,17 +2,16 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Wed Apr 17 17:35:20 CEST 2024
+' Generated at    : Thu Apr 18 10:28:35 CEST 2024
 
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-(QA) : 1
-(To Do) : 18
+(QA) : 2
+(To Do) : 15
 (Dev Review) : 1
-(Build) : 1
 (UAT) : 1
 (In Progress) : 7
 (In System Test) : 1
@@ -20,9 +19,9 @@ Jira Ticket Status
 ----
 Jira Ticket Types
 ----
-(Task) : 17
+(Task) : 15
 (Bug) : 2
-(Sub-task) : 2
+(Sub-task) : 1
 (Story) : 10
 end legend
 
@@ -82,12 +81,6 @@ class "CNG-1201" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-1022" << (T,lightblue) >> {
-  Assigned to : Anand Jajoo
-  Status : To Do
-  Type : Task
-}
-
 class "CNG-415" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : To Do
@@ -98,11 +91,6 @@ class "CNG-733" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
   Status : In Progress
   Type : Task
-}
-
-class "CNG-810" << (S,lightblue) >> {
-  Status : To Do
-  Type : Sub-task
 }
 
 class "CNG-1196" << (T,lightblue) >> {
@@ -135,12 +123,6 @@ class "CNG-626" << (T,lightblue) >> {
   Type : Task
 }
 
-class "CNG-647" << (T,lightblue) >> {
-  Assigned to : Shafiqul Islam
-  Status : To Do
-  Type : Task
-}
-
 class "CNG-68" << (S,lightgreen) >> {
   Assigned to : Anand Jajoo
   Status : To Do
@@ -154,8 +136,8 @@ class "CNG-69" << (S,lightgreen) >> {
 }
 
 class "CNG-2" << (S,lightgreen) >> {
-  Assigned to : Merin Joseph
-  Status : Build
+  Assigned to : Stephy Aniyan
+  Status : QA
   Type : Story
 }
 
@@ -220,14 +202,12 @@ class "CNG-1199" << (T,lightblue) >> {
 "CNG-1201" <.. "CNG-733" : Approval
 "CNG-2" <.. "CNG-609" : Approval
 "CNG-346" <.. "CNG-69" : Approval
-"CNG-810" <.. "CNG-1022" : Approval
 "CNG-626" <.. "CNG-85" : Approval
 "CNG-626" <.. "CNG-74" : Approval
 "CNG-626" <.. "CNG-48" : Approval
 "CNG-626" <.. "CNG-82" : Approval
 "CNG-626" <.. "CNG-615" : Approval
 "CNG-626" <.. "CNG-624" : Approval
-"CNG-626" <.. "CNG-647" : Approval
 "CNG-626" <.. "CNG-871" : Approval
 "CNG-626" <.. "CNG-917" : Approval
 "CNG-502" <.. "CNG-55" : Approval

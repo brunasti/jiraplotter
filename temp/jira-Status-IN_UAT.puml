@@ -1,0 +1,109 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Thu Apr 18 10:28:35 CEST 2024
+
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(IN UAT) : 8
+(To Do) : 3
+(In Progress) : 1
+----
+Jira Ticket Types
+----
+(Bug) : 8
+(Sub-task) : 3
+(Story) : 1
+end legend
+
+
+' Tickets =======
+class "CNG-559" << (S,lightblue) >> {
+  Assigned to : Sulafa Malik
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-606" << (B,red) >> {
+  Assigned to : Sulafa Malik
+  Status : IN UAT
+  Type : Bug
+}
+
+class "CNG-494" << (B,red) >> {
+  Assigned to : Sulafa Malik
+  Status : IN UAT
+  Type : Bug
+}
+
+class "CNG-684" << (S,lightblue) >> {
+  Assigned to : Shafiqul Islam
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-521" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : IN UAT
+  Type : Bug
+}
+
+class "CNG-312" << (B,red) >> {
+  Assigned to : Sulafa Malik
+  Status : IN UAT
+  Type : Bug
+}
+
+class "CNG-336" << (B,red) >> {
+  Assigned to : Jon Funnell
+  Status : IN UAT
+  Type : Bug
+}
+
+class "CNG-214" << (S,lightgreen) >> {
+  Assigned to : Narayana Golla
+  Status : In Progress
+  Type : Story
+}
+
+class "CNG-687" << (S,lightblue) >> {
+  Assigned to : Sulafa Malik
+  Status : To Do
+  Type : Sub-task
+}
+
+class "CNG-536" << (B,red) >> {
+  Assigned to : Sulafa Malik
+  Status : IN UAT
+  Type : Bug
+}
+
+class "CNG-646" << (B,red) >> {
+  Assigned to : Sulafa Malik
+  Status : IN UAT
+  Type : Bug
+}
+
+class "CNG-777" << (B,red) >> {
+  Assigned to : Sulafa Malik
+  Status : IN UAT
+  Type : Bug
+}
+
+
+
+' Links =======
+"CNG-536" <.. "CNG-214" : Relates
+"CNG-536" <.. "CNG-684" : Relates
+"CNG-536" <.. "CNG-777" : Relates
+"CNG-521" <.. "CNG-687" : Relates
+"CNG-646" <.. "CNG-687" : Relates
+"CNG-312" <.. "CNG-559" : Relates
+"CNG-606" <.. "CNG-687" : Relates
+
+
+@enduml
