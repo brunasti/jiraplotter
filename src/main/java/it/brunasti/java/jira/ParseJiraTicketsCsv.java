@@ -265,16 +265,13 @@ public class ParseJiraTicketsCsv {
                   jiraTicketLinkDescriptor.getShortName());
           generateFooter();
           output.close();
-        } catch (Exception ex) {
+        } catch (IOException ex) {
           log.error(ex);
           ex.printStackTrace();
         }
       }
     });
   }
-
-
-
 
   public void generateStatusReports(Map<String, JiraTicket> jiraTickets, String outputDir) {
     log.info("generateStatusReports [{}]", outputDir);
@@ -294,13 +291,12 @@ public class ParseJiraTicketsCsv {
         generateSingleStatusLinks(jiraTickets.values(), status);
         generateFooter();
         output.close();
-      } catch (Exception ex) {
+      } catch (IOException ex) {
         log.error(ex);
         ex.printStackTrace();
       }
     });
   }
-
 
   public void generatePersonReports(Map<String, JiraTicket> jiraTickets, String outputDir) {
     log.info("generatePersonReports [{}]", outputDir);
@@ -321,7 +317,7 @@ public class ParseJiraTicketsCsv {
           generateSinglePersonLinks(jiraTickets.values(), person);
           generateFooter();
           output.close();
-        } catch (Exception ex) {
+        } catch (IOException ex) {
           log.error(ex);
           ex.printStackTrace();
         }
