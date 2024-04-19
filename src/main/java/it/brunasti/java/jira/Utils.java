@@ -1,7 +1,14 @@
 package it.brunasti.java.jira;
 
 import java.io.PrintStream;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -79,8 +86,14 @@ public class Utils {
   }
 
 
+  /**
+   * Get all the Assignee people from a list of JiraTickets.
+   *
+   * @param jiraTickets the list of Tickets
+   * @return the list of existing People
+   */
   public static Set<String> findPeople(Map<String, JiraTicket> jiraTickets) {
-    HashSet<String> people = new HashSet<>();
+    Set<String> people = new HashSet<>();
 
     jiraTickets.values().forEach(jiraTicket -> {
       if (!jiraTicket.assignee.isEmpty()) {
@@ -93,6 +106,12 @@ public class Utils {
   }
 
 
+  /**
+   * Get all the Stata from a list of JiraTickets.
+   *
+   * @param jiraTickets the list of Tickets
+   * @return the list of existing Stata
+   */
   public static Set<String> findStata(Map<String, JiraTicket> jiraTickets) {
     HashSet<String> stata = new HashSet<>();
 
@@ -107,7 +126,12 @@ public class Utils {
   }
 
 
-
+  /**
+   * Create a string containing the ad hoc header of a Ticket class definition.
+   *
+   * @param jiraTicket Ticket to create the header for
+   * @return header for the Ticket
+   */
   public static String createClassHead(JiraTicket jiraTicket) {
     String type = jiraTicket.issueType.getFirst().toLowerCase();
     String header;
@@ -156,8 +180,13 @@ public class Utils {
             + jiraTicket.issueKey.getFirst() + header;
   }
 
-
-
+  /**
+   * Get all the Tickets assigned to a Person.
+   *
+   * @param jiraTickets the list of all Tickets
+   * @param person the person of whom we want the Tickets
+   * @return the list of the corresponding Tickets
+   */
   public static Map<String, JiraTicket> getPersonaTickets(
           final Collection<JiraTicket> jiraTickets, String linkKind, String person) {
     log.debug("getPersonaTickets ({}) ({}) ", linkKind, person);
@@ -180,11 +209,17 @@ public class Utils {
     return selectedJiraTickets;
   }
 
+  /**
+   * Get all the Tickets in a given Status and connected via a specific link Kins.
+   *
+   * @param jiraTickets the list of all Tickets
+   * @param status desired status of the Tickets
+   * @return the list of the corresponding Tickets
+   */
   public static Map<String, JiraTicket> getStatusTickets(
           final Collection<JiraTicket> jiraTickets,
-          String linkKind,
           String status) {
-    log.debug("getStatusTickets ({}) ({}) ", linkKind, status);
+    log.debug("getStatusTickets ({}) ({}) ", status);
 
     HashMap<String, JiraTicket> selectedJiraTickets = new HashMap<>();
 
@@ -193,10 +228,8 @@ public class Utils {
               && (jiraTicket.status.getFirst().equalsIgnoreCase(status))) {
         selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
         jiraTicket.inwardIssueLink.forEach(links -> {
-          if (links.getName().contains(linkKind)) {
             links.getJiraTickets().forEach(
-                    link -> selectedJiraTickets.put(link.issueKey.getFirst(), link));
-          }
+                    ticket -> selectedJiraTickets.put(ticket.issueKey.getFirst(), ticket));
         });
       }
     });
@@ -249,7 +282,7 @@ public class Utils {
 
 
 
-  public static List<FieldDescriptor>  loadDefinitions(
+  public static List<FieldDescriptor> loadDefinitions(
           String[] header,
           List<JiraTicketLinkDescriptor> jiraTicketLinkDescriptors) {
     // Load record definition and FieldDescriptors
