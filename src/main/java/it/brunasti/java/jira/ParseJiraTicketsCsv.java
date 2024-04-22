@@ -93,7 +93,7 @@ public class ParseJiraTicketsCsv {
   private void generateTickets(final Collection<JiraTicket> jiraTickets) {
     output.println();
     output.println("' Jira Tickets =======");
-    jiraTickets.forEach(jiraTicket -> generateTicket(jiraTicket));
+    jiraTickets.forEach(this::generateTicket);
     output.println();
   }
 
@@ -115,7 +115,7 @@ public class ParseJiraTicketsCsv {
 
     output.println();
     output.println(ParseJiraTicketsConstants.HEADER_TICKETS);
-    selectedJiraTickets.values().forEach(jiraTicket -> generateTicket(jiraTicket));
+    selectedJiraTickets.values().forEach(this::generateTicket);
     output.println();
   }
 
@@ -127,7 +127,7 @@ public class ParseJiraTicketsCsv {
     output.println(ParseJiraTicketsConstants.HEADER_TICKETS);
     Map<String, JiraTicket> selectedJiraTickets
             = Utils.getPersonaTickets(jiraTickets, "", person);
-    selectedJiraTickets.values().forEach(jiraTicket -> generateTicket(jiraTicket));
+    selectedJiraTickets.values().forEach(this::generateTicket);
     output.println();
   }
 
@@ -138,7 +138,7 @@ public class ParseJiraTicketsCsv {
     output.println(ParseJiraTicketsConstants.HEADER_TICKETS);
     Map<String, JiraTicket> selectedJiraTickets
             = Utils.getStatusTickets(jiraTickets, status);
-    selectedJiraTickets.values().forEach(jiraTicket -> generateTicket(jiraTicket));
+    selectedJiraTickets.values().forEach(this::generateTicket);
     output.println();
   }
 
@@ -238,6 +238,7 @@ public class ParseJiraTicketsCsv {
   }
 
 
+  // TODO: Test the exception case
   // Generate reports for each links kind
   public void generateLinkKindReports(Map<String, JiraTicket> jiraTickets, String outputDir) {
     log.info("generateLinkKindReports [{}]", outputDir);
@@ -273,6 +274,7 @@ public class ParseJiraTicketsCsv {
     });
   }
 
+  // TODO: Test the exception case
   public void generateStatusReports(Map<String, JiraTicket> jiraTickets, String outputDir) {
     log.info("generateStatusReports [{}]", outputDir);
 
@@ -298,6 +300,7 @@ public class ParseJiraTicketsCsv {
     });
   }
 
+  // TODO: Test the exception case
   public void generatePersonReports(Map<String, JiraTicket> jiraTickets, String outputDir) {
     log.info("generatePersonReports [{}]", outputDir);
 

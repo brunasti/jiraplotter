@@ -90,7 +90,7 @@ public class Utils {
    * Get all the Assignee people from a list of JiraTickets.
    *
    * @param jiraTickets the list of Tickets
-   * @return the list of existing People
+   * @return a Set containing the list of existing People
    */
   public static Set<String> findPeople(Map<String, JiraTicket> jiraTickets) {
     Set<String> people = new HashSet<>();
@@ -110,7 +110,7 @@ public class Utils {
    * Get all the Stata from a list of JiraTickets.
    *
    * @param jiraTickets the list of Tickets
-   * @return the list of existing Stata
+   * @return a Set containing the list of existing Stata
    */
   public static Set<String> findStata(Map<String, JiraTicket> jiraTickets) {
     HashSet<String> stata = new HashSet<>();
@@ -185,7 +185,7 @@ public class Utils {
    *
    * @param jiraTickets the list of all Tickets
    * @param person the person of whom we want the Tickets
-   * @return the list of the corresponding Tickets
+   * @return a Map containing the list of the Tickets assigned to the person
    */
   public static Map<String, JiraTicket> getPersonaTickets(
           final Collection<JiraTicket> jiraTickets, String linkKind, String person) {
@@ -214,12 +214,12 @@ public class Utils {
    *
    * @param jiraTickets the list of all Tickets
    * @param status desired status of the Tickets
-   * @return the list of the corresponding Tickets
+   * @return a Map containing the list of the corresponding Tickets
    */
   public static Map<String, JiraTicket> getStatusTickets(
           final Collection<JiraTicket> jiraTickets,
           String status) {
-    log.debug("getStatusTickets ({}) ({}) ", status);
+    log.debug("getStatusTickets ({})", status);
 
     HashMap<String, JiraTicket> selectedJiraTickets = new HashMap<>();
 
@@ -227,10 +227,10 @@ public class Utils {
       if ((!jiraTicket.status.isEmpty())
               && (jiraTicket.status.getFirst().equalsIgnoreCase(status))) {
         selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
-        jiraTicket.inwardIssueLink.forEach(links -> {
+        jiraTicket.inwardIssueLink.forEach(links ->
             links.getJiraTickets().forEach(
-                    ticket -> selectedJiraTickets.put(ticket.issueKey.getFirst(), ticket));
-        });
+                    ticket -> selectedJiraTickets.put(ticket.issueKey.getFirst(), ticket))
+        );
       }
     });
     return selectedJiraTickets;
@@ -290,8 +290,7 @@ public class Utils {
     log.info("Header  : [{}]", Arrays.toString(header));
     log.info("Fields  : [{}]", header.length);
 
-    HashSet<String> fields = new HashSet<>();
-    fields.addAll(Arrays.stream(header).toList());
+    HashSet<String> fields = new HashSet<>(Arrays.stream(header).toList());
 
     log.info("Unique Fields  : [{}]", fields.size());
     ArrayList<FieldDescriptor> fieldDescriptors = new ArrayList<>();
