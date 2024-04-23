@@ -31,18 +31,7 @@ public class Utils {
    * @param output PrintStream to be written to.
    */
   public static void dump(final String title, final Object[] array, PrintStream output) {
-    output.println("--------" + title + "-------------");
-    if (array != null) {
-      if (array.length == 0) {
-        output.println("-- EMPTY --");
-      } else {
-        for (int i = 0; i < array.length; i++) {
-          output.println("#" + i + "='" + array[i] + "'");
-        }
-      }
-    } else {
-      output.println("-- NULL --");
-    }
+    it.brunasti.java.utils.Utils.dump(title, array, output);
   }
 
   /**
@@ -55,13 +44,7 @@ public class Utils {
    * @return a reduced shorter version of the name, if possible
    */
   public static String getShortName(String name) {
-    if ((name == null) || (name.isBlank())) {
-      return "";
-    }
-    if (name.indexOf('(') < 0) {
-      return name;
-    }
-    return name.substring(name.indexOf('(') + 1, name.lastIndexOf(')'));
+    return it.brunasti.java.utils.Utils.extractBracketsContent(name);
   }
 
   public static long countSameFields(String[] fields, String name) {
