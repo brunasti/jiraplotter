@@ -1,0 +1,232 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue Apr 23 13:03:14 CEST 2024
+
+title Jira Tickets for Status To Do
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 36
+(Done) : 2
+(In Review) : 1
+----
+Jira Ticket Types
+----
+(Task) : 7
+(Epic) : 7
+(Story) : 25
+end legend
+
+
+' Tickets =======
+class "ENKPS-6" << (X,lightblue) >> {
+  Status : To Do
+  Type : Epic
+}
+
+class "ENKPS-7" << (X,lightblue) >> {
+  Status : To Do
+  Type : Epic
+}
+
+class "ENKPS-4" << (S,lightgreen) >> {
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-5" << (X,lightblue) >> {
+  Status : To Do
+  Type : Epic
+}
+
+class "ENKPS-2" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-30" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-3" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-31" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-10" << (X,lightblue) >> {
+  Status : To Do
+  Type : Epic
+}
+
+class "ENKPS-1" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-33" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-11" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-12" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-13" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-14" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-36" << (S,lightgreen) >> {
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-37" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-15" << (T,lightblue) >> {
+  Status : To Do
+  Type : Task
+}
+
+class "ENKPS-38" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-16" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-39" << (X,lightblue) >> {
+  Status : To Do
+  Type : Epic
+}
+
+class "ENKPS-17" << (X,lightblue) >> {
+  Status : To Do
+  Type : Epic
+}
+
+class "ENKPS-8" << (T,lightblue) >> {
+  Status : To Do
+  Type : Task
+}
+
+class "ENKPS-9" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-40" << (X,lightblue) >> {
+  Status : To Do
+  Type : Epic
+}
+
+class "ENKPS-42" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-20" << (T,lightblue) >> {
+  Status : To Do
+  Type : Task
+}
+
+class "ENKPS-43" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-44" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-45" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-46" << (T,lightblue) >> {
+  Status : To Do
+  Type : Task
+}
+
+class "ENKPS-24" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-47" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-25" << (T,lightblue) >> {
+  Status : To Do
+  Type : Task
+}
+
+class "ENKPS-48" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-26" << (T,lightblue) >> {
+  Status : To Do
+  Type : Task
+}
+
+class "ENKPS-27" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-28" << (T,lightblue) >> {
+  Assigned to : Eniko Kosztolanyi
+  Status : In Review
+  Type : Task
+}
+
+class "ENKPS-29" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+
+
+' Links =======
+"ENKPS-30" <.. "ENKPS-28" : Blocks
+"ENKPS-9" <.. "ENKPS-4" : Issue split
+"ENKPS-26" <.. "ENKPS-28" : Blocks
+"ENKPS-27" <.. "ENKPS-28" : Blocks
+"ENKPS-27" <.. "ENKPS-36" : Cloners
+
+
+@enduml

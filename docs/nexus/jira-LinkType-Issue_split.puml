@@ -1,0 +1,39 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue Apr 23 13:03:14 CEST 2024
+
+title Jira Tickets for Link Type Issue split
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(Done) : 1
+(To Do) : 1
+----
+Jira Ticket Types
+----
+(Story) : 2
+end legend
+
+
+' Tickets =======
+class "ENKPS-4" << (S,lightgreen) >> {
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-9" << (S,lightgreen) >> {
+  Status : To Do
+  Type : Story
+}
+
+
+
+' Links =======
+"ENKPS-9" <.. "ENKPS-4" : Issue split
+
+
+@enduml

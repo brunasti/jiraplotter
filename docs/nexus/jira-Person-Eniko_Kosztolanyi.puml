@@ -1,0 +1,46 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue Apr 23 13:03:14 CEST 2024
+
+title Jira Tickets for Person Eniko Kosztolanyi
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(Done) : 2
+(In Review) : 1
+----
+Jira Ticket Types
+----
+(Task) : 3
+end legend
+
+
+' Tickets =======
+class "ENKPS-21" << (T,lightblue) >> {
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
+  Type : Task
+}
+
+class "ENKPS-28" << (T,lightblue) >> {
+  Assigned to : Eniko Kosztolanyi
+  Status : In Review
+  Type : Task
+}
+
+class "ENKPS-18" << (T,lightblue) >> {
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
+  Type : Task
+}
+
+
+
+' Links =======
+
+
+@enduml
