@@ -21,6 +21,7 @@ public class JiraTicket {
   ArrayList<String> parent;
   ArrayList<String> priority;
   ArrayList<String> status;
+  ArrayList<String> summary;
 
   ArrayList<JiraTicketLinks> inwardIssueLink;
   ArrayList<JiraTicketLinks> outwardIssueLink;
@@ -70,6 +71,7 @@ public class JiraTicket {
     parent = readField(fields, JiraTicketDescriptor.parentFieldDescriptor);
     priority = readField(fields, JiraTicketDescriptor.priorityFieldDescriptor);
     status = readField(fields, JiraTicketDescriptor.statusFieldDescriptor);
+    summary = readField(fields, JiraTicketDescriptor.summaryFieldDescriptor);
     inwardIssueLink = readLinks(fields, JiraTicketDescriptor.inwardIssueLinkFieldDescriptor);
     outwardIssueLink = readLinks(fields, JiraTicketDescriptor.outwardIssueLinkFieldDescriptor);
   }

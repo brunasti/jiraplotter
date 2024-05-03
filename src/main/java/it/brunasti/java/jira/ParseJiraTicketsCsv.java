@@ -82,6 +82,9 @@ public class ParseJiraTicketsCsv {
       output.println(ParseJiraTicketsConstants.DEFINITION_CLASS_ASSIGNED_TO
               + jiraTicket.assignee.getFirst());
     }
+    // TODO: Manage the case of a too long summary
+    output.println(ParseJiraTicketsConstants.DEFINITION_CLASS_SUMMARY
+            + jiraTicket.summary.getFirst());
     output.println(ParseJiraTicketsConstants.DEFINITION_CLASS_STATUS
             + jiraTicket.status.getFirst());
     output.println(ParseJiraTicketsConstants.DEFINITION_CLASS_TYPE

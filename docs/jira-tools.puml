@@ -5,49 +5,60 @@
 ' Generator       : it.brunasti.java.diagrammer.ClassDiagrammer
 ' Path            : [/Users/paolobrunasti/Work/Mine/jiraplotter/target/classes/]
 ' Configuration   : [/Users/paolobrunasti/Work/Mine/jiraplotter/docs/config.json]
-' Generated at    : Mon Apr 15 15:57:36 CEST 2024
+' Generated at    : Tue Apr 23 13:42:59 CEST 2024
 
 
 
 ' CLASSES =======
-class it.brunasti.javatools.jira.JiraTicketLinks
-class it.brunasti.javatools.jira.Utils
-class it.brunasti.javatools.jira.JiraTicketLinkDescriptor
-class it.brunasti.javatools.jira.ParseJiraTicketsConstants
-class it.brunasti.javatools.jira.JiraTicket
-class it.brunasti.javatools.jira.FieldDescriptor
-class it.brunasti.javatools.jira.ParseJiraTicketsCsv
+class it.brunasti.java.jira.ParseJiraTicketsConstants
+class it.brunasti.java.jira.JiraTicketsPlotterMain
+class it.brunasti.java.jira.Utils
+class it.brunasti.java.jira.JiraTicketLinkDescriptor
+class it.brunasti.java.jira.FieldDescriptor
+class it.brunasti.java.jira.ParseJiraTicketsCsv
+class it.brunasti.java.jira.JiraTicket
+class it.brunasti.java.jira.JiraTicketDescriptor
+class it.brunasti.java.jira.JiraTicketLinks
 
 ' INHERITANCES =======
 
 ' IMPLEMENT INTERFACE =======
 
 ' FIELDS =======
-it.brunasti.javatools.jira.Utils --> org.apache.logging.log4j.Logger
-it.brunasti.javatools.jira.JiraTicketLinkDescriptor --> it.brunasti.javatools.jira.FieldDescriptor
-it.brunasti.javatools.jira.JiraTicket --> org.apache.logging.log4j.Logger
-it.brunasti.javatools.jira.JiraTicket --> it.brunasti.javatools.jira.FieldDescriptor
-it.brunasti.javatools.jira.JiraTicket --> it.brunasti.javatools.jira.FieldDescriptor
-it.brunasti.javatools.jira.JiraTicket --> it.brunasti.javatools.jira.FieldDescriptor
-it.brunasti.javatools.jira.JiraTicket --> it.brunasti.javatools.jira.FieldDescriptor
-it.brunasti.javatools.jira.JiraTicket --> it.brunasti.javatools.jira.FieldDescriptor
-it.brunasti.javatools.jira.JiraTicket --> it.brunasti.javatools.jira.FieldDescriptor
-it.brunasti.javatools.jira.JiraTicket --> it.brunasti.javatools.jira.FieldDescriptor
-it.brunasti.javatools.jira.JiraTicket --> it.brunasti.javatools.jira.FieldDescriptor
-it.brunasti.javatools.jira.JiraTicket --> it.brunasti.javatools.jira.JiraTicket
-it.brunasti.javatools.jira.ParseJiraTicketsCsv --> java.io.PrintStream
-it.brunasti.javatools.jira.ParseJiraTicketsCsv --> org.apache.logging.log4j.Logger
+it.brunasti.java.jira.JiraTicketsPlotterMain --> org.apache.commons.cli.CommandLine
+it.brunasti.java.jira.JiraTicketsPlotterMain --> org.apache.logging.log4j.Logger
+it.brunasti.java.jira.JiraTicketsPlotterMain --> it.brunasti.java.jira.ParseJiraTicketsCsv
+it.brunasti.java.jira.JiraTicketsPlotterMain --> org.apache.commons.cli.Options
+it.brunasti.java.jira.Utils --> org.apache.logging.log4j.Logger
+it.brunasti.java.jira.JiraTicketLinkDescriptor --> it.brunasti.java.jira.FieldDescriptor
+it.brunasti.java.jira.ParseJiraTicketsCsv --> org.apache.logging.log4j.Logger
+it.brunasti.java.jira.ParseJiraTicketsCsv --> java.io.PrintStream
+it.brunasti.java.jira.JiraTicket --> org.apache.logging.log4j.Logger
+it.brunasti.java.jira.JiraTicket --> it.brunasti.java.jira.JiraTicket
+it.brunasti.java.jira.JiraTicketDescriptor --> org.apache.logging.log4j.Logger
+it.brunasti.java.jira.JiraTicketDescriptor --> it.brunasti.java.jira.FieldDescriptor
+it.brunasti.java.jira.JiraTicketDescriptor --> it.brunasti.java.jira.FieldDescriptor
+it.brunasti.java.jira.JiraTicketDescriptor --> it.brunasti.java.jira.FieldDescriptor
+it.brunasti.java.jira.JiraTicketDescriptor --> it.brunasti.java.jira.FieldDescriptor
+it.brunasti.java.jira.JiraTicketDescriptor --> it.brunasti.java.jira.FieldDescriptor
+it.brunasti.java.jira.JiraTicketDescriptor --> it.brunasti.java.jira.FieldDescriptor
+it.brunasti.java.jira.JiraTicketDescriptor --> it.brunasti.java.jira.FieldDescriptor
+it.brunasti.java.jira.JiraTicketDescriptor --> it.brunasti.java.jira.FieldDescriptor
 
 ' USES =======
-it.brunasti.javatools.jira.Utils ..> it.brunasti.javatools.jira.JiraTicket
-it.brunasti.javatools.jira.Utils ..> it.brunasti.javatools.jira.JiraTicketLinks
-it.brunasti.javatools.jira.JiraTicketLinkDescriptor ..> it.brunasti.javatools.jira.FieldDescriptor
-it.brunasti.javatools.jira.JiraTicket ..> it.brunasti.javatools.jira.FieldDescriptor
-it.brunasti.javatools.jira.JiraTicket ..> it.brunasti.javatools.jira.JiraTicket
-it.brunasti.javatools.jira.JiraTicket ..> it.brunasti.javatools.jira.JiraTicketLinks
-it.brunasti.javatools.jira.ParseJiraTicketsCsv ..> it.brunasti.javatools.jira.JiraTicket
-it.brunasti.javatools.jira.ParseJiraTicketsCsv ..> it.brunasti.javatools.jira.JiraTicketLinkDescriptor
-it.brunasti.javatools.jira.ParseJiraTicketsCsv ..> it.brunasti.javatools.jira.JiraTicketLinks
+it.brunasti.java.jira.JiraTicketsPlotterMain ..> org.apache.commons.cli.Option
+it.brunasti.java.jira.JiraTicketsPlotterMain ..> org.apache.commons.cli.Options
+it.brunasti.java.jira.Utils ..> java.io.PrintStream
+it.brunasti.java.jira.Utils ..> it.brunasti.java.jira.JiraTicket
+it.brunasti.java.jira.Utils ..> it.brunasti.java.jira.JiraTicketLinks
+it.brunasti.java.jira.JiraTicketLinkDescriptor ..> it.brunasti.java.jira.FieldDescriptor
+it.brunasti.java.jira.ParseJiraTicketsCsv ..> it.brunasti.java.jira.JiraTicket
+it.brunasti.java.jira.ParseJiraTicketsCsv ..> it.brunasti.java.jira.JiraTicketLinkDescriptor
+it.brunasti.java.jira.ParseJiraTicketsCsv ..> it.brunasti.java.jira.JiraTicketLinks
+it.brunasti.java.jira.JiraTicket ..> it.brunasti.java.jira.FieldDescriptor
+it.brunasti.java.jira.JiraTicket ..> it.brunasti.java.jira.JiraTicket
+it.brunasti.java.jira.JiraTicket ..> it.brunasti.java.jira.JiraTicketLinks
+it.brunasti.java.jira.JiraTicketDescriptor ..> it.brunasti.java.jira.FieldDescriptor
 
 ' IMPORTS =======
 ' Java Files Path : 
