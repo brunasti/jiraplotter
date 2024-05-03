@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Person Sulafa Malik
 hide empty members
@@ -28,148 +28,173 @@ end legend
 
 ' Tickets =======
 class "CNG-560" << (S,lightblue) >> {
+  Summary : Solr API - Release Activities/Prerequisites 
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-681" << (S,lightblue) >> {
   Assigned to : Sulafa Malik
+  Summary : CMT and Ref Data UAT
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-857" << (S,lightblue) >> {
   Assigned to : Sulafa Malik
+  Summary : UAT for SOLr ! functionality
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-559" << (S,lightblue) >> {
   Assigned to : Sulafa Malik
+  Summary : Solr API - UAT
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-814" << (S,lightblue) >> {
+  Summary : Solr API - Environment Set Up & Configuration 
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-858" << (T,lightblue) >> {
   Assigned to : Sulafa Malik
+  Summary : Sorting of sfield and PT (geo filter)(CR) - UAT
   Status : UAT
   Type : Task
 }
 
 class "CNG-730" << (S,lightblue) >> {
   Assigned to : Sulafa Malik
+  Summary : House Keeping UAT
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-599" << (T,lightblue) >> {
   Assigned to : Abinaya Arumugasamy
+  Summary : Full API data mapping review with Jon 
   Status : Done
   Type : Task
 }
 
 class "CNG-536" << (B,red) >> {
   Assigned to : Sulafa Malik
+  Summary : Deeplink url parameters look to be incorrect
   Status : IN UAT
   Type : Bug
 }
 
 class "CNG-558" << (S,lightblue) >> {
+  Summary : Solr API - SIT
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-777" << (B,red) >> {
   Assigned to : Sulafa Malik
+  Summary : CNG - Batch (CAPTWO) - Impacted Component - Service, Elastic Search, Kibana - CNG should not store availability details without a price.  
   Status : IN UAT
   Type : Bug
 }
 
 class "CNG-557" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Solr API - Build
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1197" << (T,lightblue) >> {
   Assigned to : Sulafa Malik
+  Summary : CNG - CMT - Test Case Review
   Status : Done
   Type : Task
 }
 
 class "CNG-1194" << (T,lightblue) >> {
   Assigned to : Sulafa Malik
+  Summary : CNG - SOLR API - Test Case Review
   Status : Done
   Type : Task
 }
 
 class "CNG-494" << (B,red) >> {
   Assigned to : Sulafa Malik
+  Summary : CMT - unexpected handling of First and Last Travel dates when adding End Exec date
   Status : IN UAT
   Type : Bug
 }
 
 class "CNG-606" << (B,red) >> {
   Assigned to : Sulafa Malik
+  Summary : Inconsistent use of timezone in date fields in CNG fields
   Status : IN UAT
   Type : Bug
 }
 
 class "CNG-904" << (B,red) >> {
   Assigned to : Sulafa Malik
+  Summary : Difference in SOLR response between Live and Dev when the resultset is empty
   Status : IN UAT
   Type : Bug
 }
 
 class "CNG-684" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Burst & Batch Controller Analysis and Design
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-760" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : CNG - Housekeeping - Impacted Component - Infrastructure/Connectivity/Version-1 Tasks Housekeeping Connectivity
   Status : In Progress
   Type : Task
 }
 
 class "CNG-485" << (S,lightgreen) >> {
   Assigned to : Sulafa Malik
+  Summary : (3844) - Informational Logging - Batch Controller (CAPTWO)
   Status : UAT
   Type : Story
 }
 
 class "CNG-444" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CNG - Batch (CAPTWO) - Impacted Component - Service - CNG UAT - F+C Packages - Not all being cached when compared against front end
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-421" << (B,red) >> {
   Assigned to : Baranipriya Ramanathan
+  Summary : CNG - Batch (CAPTWO) - Impacted Component - Service - Few accommodation is missing in kibana for FH
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-687" << (S,lightblue) >> {
   Assigned to : Sulafa Malik
+  Summary : Burst & Batch Controller UAT
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-646" << (B,red) >> {
   Assigned to : Sulafa Malik
+  Summary : HolidayFinder url MONTH parameter should be based on customers month of departure not arrival (overnight flights)
   Status : IN UAT
   Type : Bug
 }
 
 class "CNG-623" << (S,lightblue) >> {
   Assigned to : Sulafa Malik
+  Summary : CNG Batch Code Analysis/Build : inconsistent use of time zone information within date fields. 
   Status : UAT
   Type : Sub-task
 }

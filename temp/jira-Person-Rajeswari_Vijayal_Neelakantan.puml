@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Person Rajeswari Vijayal Neelakantan
 hide empty members
@@ -24,42 +24,49 @@ end legend
 ' Tickets =======
 class "CNG-945" << (B,red) >> {
   Assigned to : Rajeswari Vijayal Neelakantan
+  Summary : SIT SIP- Datatype differ in CNG SIP API for AveragePricePerPerson
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-585" << (S,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : SIP B/W Compatible API SIT
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-1357" << (B,red) >> {
   Assigned to : Rajeswari Vijayal Neelakantan
+  Summary : CNG - SOLR API - System Test -Facet not returned when group.main is true
   Status : In System Test
   Type : Bug
 }
 
 class "CNG-1343" << (B,red) >> {
   Assigned to : Rajeswari Vijayal Neelakantan
+  Summary : CNG - SOLR API - System Test -  maxScore not present in response for requests with score
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-1341" << (B,red) >> {
   Assigned to : Rajeswari Vijayal Neelakantan
+  Summary : CNG - SOLR API - System Test - Date format issue with milli seconds
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-1352" << (B,red) >> {
   Assigned to : Rajeswari Vijayal Neelakantan
+  Summary : CNG - SOLR API - System Test - Facet issues with limit and mincount
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-1375" << (B,red) >> {
   Assigned to : Rajeswari Vijayal Neelakantan
+  Summary : CNG - SOLR API - System Test - totalPrice is displayed twice in SOLR response when fl=* and wt=json
   Status : Work Complete
   Type : Bug
 }

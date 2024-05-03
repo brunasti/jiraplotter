@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Link Type Bundles
 hide empty members
@@ -21,12 +21,14 @@ end legend
 ' Tickets =======
 class "CNG-499" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT-Few fields are still shown in Kibana for FC and CO Proposition.
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-498" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT-Few fields are still shown in Kibana for FH and HO Proposition.
   Status : Work Complete
   Type : Bug
 }

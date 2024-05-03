@@ -48,7 +48,7 @@ public final class ParseJiraTicketsConstants {
   public static final String TYPE_NEW = "new feature";
   public static final String TYPE_IMPROVEMENT = "improvement";
   public static final String TYPE_REQUEST = "project request package";
-  public static final String TYPE_SUBTASK = "sub-task";
+  public static final String TYPE_SUBTASK = "subtask";
   public static final String TYPE_TASK = "task";
   public static final String TYPE_WORK_REQUEST = "work request";
   

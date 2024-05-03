@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Person Anand Jajoo
 hide empty members
@@ -28,143 +28,167 @@ end legend
 ' Tickets =======
 class "CNG-1040" << (S,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Reference document for onboarding a new joiner in team 
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1060" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : CNG-Commercial Analysis -POC Dependency
   Status : To Do
   Type : Task
 }
 
 class "CNG-823" << (T,lightblue) >> {
   Assigned to : Dhanish Kumar
+  Summary : Sorting of sfield and PT (geo filter)(CR) - SIT
   Status : Done
   Type : Task
 }
 
 class "CNG-1209" << (S,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Commercial Analysis - HLD - Internal Review 
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-1207" << (S,lightblue) >> {
+  Summary : Commercial Analysis - Business Requirements 
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-1215" << (S,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Commercial Analysis - LLD - Internal Review 
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-1213" << (S,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Commercial Analysis - LLD - Create LLD
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-972" << (T,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Internal Review - HLD
   Status : Done
   Type : Task
 }
 
 class "CNG-950" << (T,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Elastic SQL query implementation
   Status : Done
   Type : Task
 }
 
 class "CNG-961" << (S,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Commercial Analysis - POC
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1356" << (B,red) >> {
   Assigned to : Anand Jajoo
+  Summary : CNG - SOLR API - System Test - Issue with q operation for comma separated values
   Status : In Work
   Type : Bug
 }
 
 class "CNG-1214" << (S,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Commercial Analysis - LLD - Walkthrough
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-971" << (T,lightblue) >> {
   Assigned to : Rosy Mary
+  Summary : High level Design Document Preparation - HLD
   Status : Done
   Type : Task
 }
 
 class "CNG-1049" << (S,lightgreen) >> {
   Assigned to : Anand Jajoo
+  Summary : Commercial Analysis - Query language and capabilities
   Status : To Do
   Type : Story
 }
 
 class "CNG-597" << (T,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Sorting of sfield and PT (geo filter)(CR) - Build
   Status : Done
   Type : Task
 }
 
 class "CNG-1211" << (S,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Commercial Analysis - HLD - Walkthrough & Agree Approach
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-864" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT-sfield an pt is giving null response
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-1212" << (S,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Commercial Analysis - HLD - Create HLD
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-951" << (T,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Dynamic data insertion in DB irrespective of table rows and column
   Status : Done
   Type : Task
 }
 
 class "CNG-1333" << (B,red) >> {
   Assigned to : Anand Jajoo
+  Summary : CNG - SOLR API - System Test - Geodist() requests failing with error as all shards failed
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-1022" << (T,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Token Authorizer - Build - OAuth Introsospect url to validate tokens 
   Status : To Do
   Type : Task
 }
 
 class "CNG-975" << (T,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Commercial Analysis - LLD
   Status : In Progress
   Type : Task
 }
 
 class "CNG-557" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Solr API - Build
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1353" << (B,red) >> {
   Assigned to : Anand Jajoo
+  Summary : CNG - SOLR API - System Test - Issues with start and sort for Grouped response
   Status : In Work
   Type : Bug
 }

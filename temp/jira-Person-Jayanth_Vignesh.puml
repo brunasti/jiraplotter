@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Person Jayanth Vignesh
 hide empty members
@@ -28,83 +28,97 @@ end legend
 ' Tickets =======
 class "CNG-880" << (B,red) >> {
   Assigned to : Jayanth Vignesh
+  Summary : SIT SOLR  NOT(!) -Getting null response when we add NOT(!) to flightDuration_1_O
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-878" << (B,red) >> {
   Assigned to : Jayanth Vignesh
+  Summary : SIT SOLR  NOT(!) - When a market is specified with not(!) we are able to see the same value in the response
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-969" << (B,red) >> {
   Assigned to : Jayanth Vignesh
+  Summary : SIT SIP- Checkout dates  not populated correctly in SIP Response
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-827" << (S,lightblue) >> {
   Assigned to : Jayanth Vignesh
+  Summary : Re-indexing on FH index of Elasticsearch to incorporate the field type of geo-point type
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-708" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : CNG - SOLR API - NOT(!) Logic
   Status : In System Test
   Type : Bug
 }
 
 class "CNG-818" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : SOLR Javabin Response Format - Analysis & Design
   Status : Done
   Type : Task
 }
 
 class "CNG-970" << (B,red) >> {
   Assigned to : Jayanth Vignesh
+  Summary : SIT SIP- Inbound date is not being consider when a SIP response is created.
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-585" << (S,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : SIP B/W Compatible API SIT
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-1238" << (S,lightblue) >> {
   Assigned to : Jayanth Vignesh
+  Summary : CNG - SOLR API - (3844) - Sensitive data validation
   Status : Dev Review
   Type : Sub-task
 }
 
 class "CNG-884" << (T,lightblue) >> {
   Assigned to : Jayanth Vignesh
+  Summary : SIP build external review comments incorporation 
   Status : Done
   Type : Task
 }
 
 class "CNG-861" << (B,red) >> {
   Assigned to : Jayanth Vignesh
+  Summary : SIT-bahpricefeed and query default wt is json for old while xml for new
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-830" << (S,lightblue) >> {
   Assigned to : Jayanth Vignesh
+  Summary : Common API Build changes for ! functionality
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-558" << (S,lightblue) >> {
+  Summary : Solr API - SIT
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-645" << (T,lightblue) >> {
   Assigned to : Jayanth Vignesh
+  Summary : CNG - SOLR API -  CR - SOLR javabin response format 
   Status : In Progress
   Type : Task
 }

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Person Dhanish Kumar
 hide empty members
@@ -25,23 +25,27 @@ end legend
 ' Tickets =======
 class "CNG-823" << (T,lightblue) >> {
   Assigned to : Dhanish Kumar
+  Summary : Sorting of sfield and PT (geo filter)(CR) - SIT
   Status : Done
   Type : Task
 }
 
 class "CNG-860" << (B,red) >> {
   Assigned to : Dhanish Kumar
+  Summary : SIT-Getting Internal server error  for cabinupgrade & query handlers for wt=xml
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-864" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT-sfield an pt is giving null response
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-558" << (S,lightblue) >> {
+  Summary : Solr API - SIT
   Status : To Do
   Type : Sub-task
 }

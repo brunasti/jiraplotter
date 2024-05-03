@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Status Withdrawn
 hide empty members
@@ -29,178 +29,208 @@ end legend
 ' Tickets =======
 class "CNG-480" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : HO - Is the isPackageRateOnly mapping correct and being populated correctly?
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-482" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : Issues with hotel image alt text
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-462" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CNG UAT - Price differences for LON to SYD - Both F+H and F+C
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-538" << (B,red) >> {
   Assigned to : Anand Dixit
+  Summary : ELK is not supporting HTTPS as keys - Issue with Version 1
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-417" << (B,red) >> {
   Assigned to : Baranipriya Ramanathan
+  Summary : Burst count is not displayed for some records.
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-537" << (B,red) >> {
   Assigned to : Shafiqul Islam
+  Summary : API deployment pipeline - Issue with Version 1
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-515" << (B,red) >> {
   Assigned to : Pooja Ravi
+  Summary : SIT-Able to see the records in Kibana which has REQ_STATUS as DELETED.
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-539" << (B,red) >> {
   Assigned to : Anand Dixit
+  Summary : Name change in 2 layers used by lambda - Issue with Version 1
   Status : Raised
   Type : Bug
 }
 
 class "CNG-650" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Version 1: For the DEV environment, it seems the connectivity between Lambda and ELK instance is not established
   Status : Done
   Type : Task
 }
 
 class "CNG-534" << (B,red) >> {
   Assigned to : Shafiqul Islam
+  Summary : Kibana URL is not working from on-premise- Issue with Version 1
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-457" << (B,red) >> {
   Assigned to : Merin Joseph
+  Summary : CNG - Batch (CAPTWO) - Impacted Component - Service - Review and update HO rules for excluding hotels from the Cache
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-853" << (B,red) >> {
   Assigned to : Merin Joseph
+  Summary : Warning message appears every time try and "accept" a number of search records at the same time
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-558" << (S,lightblue) >> {
+  Summary : Solr API - SIT
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-513" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : Data Field destinationIATA is blank in Kibana for particular Cities - LON and PAR
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-414" << (B,red) >> {
   Assigned to : Baranipriya Ramanathan
+  Summary : Able to select past execution time in CMT
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-458" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : CNG - Batch (CAPTWO) - Impacted Component - Service - Review and update CO rules for excluding results from the Cache
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-450" << (B,red) >> {
   Assigned to : Merin Joseph
+  Summary : CNG UAT - A large Search Request took 4 hours to complete
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-429" << (B,red) >> {
   Assigned to : Baranipriya Ramanathan
+  Summary : CNG search hits are not updated in the CNG column in DP searches stats
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-464" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CNG UAT - Incorrect Data Table set up for 2 Tables
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-442" << (B,red) >> {
   Assigned to : Pooja Ravi
+  Summary : CNG UAT - Burst and Batch process appears to be down
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-485" << (S,lightgreen) >> {
   Assigned to : Sulafa Malik
+  Summary : (3844) - Informational Logging - Batch Controller (CAPTWO)
   Status : UAT
   Type : Story
 }
 
 class "CNG-983" << (B,red) >> {
   Assigned to : Sushant Khandelwal
+  Summary : CNG - All API - Lambda, Layers - Build - AWS inspector warnings for lambda microservices
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-422" << (B,red) >> {
   Assigned to : Baranipriya Ramanathan
+  Summary : Content code is not available in car response to validate imageURL
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-488" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : Test Bug for JIRA migration
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-445" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CNG UAT - Deeplink url not working for Car Only
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-448" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CNG UAT - REQ_STATUS (null) - Burst and Batch process not running
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-866" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT-PricePP is not returning values properly
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-1298" << (B,red) >> {
+  Summary : sdfdsfsfsfs
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-425" << (B,red) >> {
   Assigned to : Baranipriya Ramanathan
+  Summary : ES content is cached in Kibana for FC proposition
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-447" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CNG UAT - Price change popup displayed in error after using Deeplink url for Cars
   Status : Withdrawn
   Type : Bug
 }

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Link Type Feature
 hide empty members
@@ -24,89 +24,105 @@ end legend
 
 ' Tickets =======
 class "CNG-1173" << (S,lightblue) >> {
+  Summary : Solr API - BAU Support Requirements 
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-1050" << (S,lightgreen) >> {
+  Summary : Commercial Analysis - Job status and Error Logging
   Status : To Do
   Type : Story
 }
 
 class "CNG-583" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : SIP B/W Compatible API Design
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-428" << (S,lightgreen) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : Lock-down incoming Internet traffic to akamai only by validating an encrypted akamai header
   Status : Done
   Type : Story
 }
 
 class "CNG-647" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Document all error logging and monitoring processes in place for e2e CNG process for Support teams to refer to
   Status : Done
   Type : Task
 }
 
 class "CNG-935" << (S,lightgreen) >> {
+  Summary : Implement NOT logic for full API
   Status : To Do
   Type : Story
 }
 
 class "CNG-707" << (S,lightgreen) >> {
   Assigned to : Deepak Ingwale
+  Summary : Rename the 'Full API' to 'BA Holidays Pricing Cache API'
   Status : To Do
   Type : Story
 }
 
 class "CNG-1207" << (S,lightblue) >> {
+  Summary : Commercial Analysis - Business Requirements 
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-1048" << (S,lightgreen) >> {
   Assigned to : Jon Funnell
+  Summary : Commercial Analysis - Price comparison report
   Status : To Do
   Type : Story
 }
 
 class "CNG-1203" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : BA Holidays Pricing Cache API (Full API) - Business Requirements 
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1049" << (S,lightgreen) >> {
   Assigned to : Anand Jajoo
+  Summary : Commercial Analysis - Query language and capabilities
   Status : To Do
   Type : Story
 }
 
 class "CNG-1046" << (S,lightgreen) >> {
+  Summary : Commercial Analysis - Competitor Analysis Process
   Status : To Do
   Type : Story
 }
 
 class "CNG-1047" << (S,lightgreen) >> {
+  Summary : Commercial Analysis - Running Ad-hoc queries
   Status : To Do
   Type : Story
 }
 
 class "CNG-1223" << (S,lightgreen) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : (3844) - Exclusion of prices from API response where travel date/time is in the past
   Status : To Do
   Type : Story
 }
 
 class "CNG-943" << (T,lightblue) >> {
+  Summary : SIP - Akamai flow to be added - Design
   Status : Done
   Type : Task
 }
 
 class "CNG-1045" << (S,lightgreen) >> {
+  Summary : Commercial Analysis - schedule and configuration for regular queries
   Status : To Do
   Type : Story
 }

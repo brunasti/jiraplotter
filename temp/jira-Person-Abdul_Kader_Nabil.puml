@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Person Abdul Kader Nabil
 hide empty members
@@ -27,71 +27,83 @@ end legend
 ' Tickets =======
 class "CNG-603" << (T,lightblue) >> {
   Assigned to : Abdul Kader Nabil
+  Summary : Full API - Sonarlint coding standards 
   Status : Done
   Type : Task
 }
 
 class "CNG-581" << (S,lightblue) >> {
   Assigned to : Abdul Kader Nabil
+  Summary : Analysis of different Pax mix from the cache & age ranges in Full API
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-619" << (T,lightblue) >> {
   Assigned to : Abdul Kader Nabil
+  Summary : Full API data mapping build activity 
   Status : Done
   Type : Task
 }
 
 class "CNG-926" << (T,lightblue) >> {
+  Summary : Solr - ^(boost) Logic - Design
   Status : Done
   Type : Task
 }
 
 class "CNG-1391" << (T,lightblue) >> {
   Assigned to : Abdul Kader Nabil
+  Summary : Apply all SIT bug fixes in the Full API Holiday Prices branches
   Status : To Do
   Type : Task
 }
 
 class "CNG-596" << (S,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Common API Build
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1359" << (T,lightblue) >> {
   Assigned to : Abdul Kader Nabil
+  Summary : Need domain link for the ImageURL for BA and Iberia
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1389" << (N,lightgreen) >> {
   Assigned to : Abdul Kader Nabil
+  Summary : Define Parameter Store Properties for Holiday Pricing API
   Status : To Do
   Type : New Feature
 }
 
 class "CNG-1354" << (B,red) >> {
   Assigned to : Abdul Kader Nabil
+  Summary : CNG - SOLR API - System Test - Solr query is giving success response when float value passed in integer fields 
   Status : Rejected
   Type : Bug
 }
 
 class "CNG-566" << (S,lightblue) >> {
   Assigned to : Abdul Kader Nabil
+  Summary :  create refresh stored procedure for FC Proposition
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-874" << (T,lightblue) >> {
   Assigned to : Abdul Kader Nabil
+  Summary : CNG - SOLR API- Impacted Component - LLD, Layers, Lambda - CR - b/w Solr ^ (boost) Logic
   Status : In Progress
   Type : Task
 }
 
 class "CNG-568" << (S,lightblue) >> {
   Assigned to : Abdul Kader Nabil
+  Summary :  create refresh/Midnight stored procedure for CO Proposition
   Status : Done
   Type : Sub-task
 }

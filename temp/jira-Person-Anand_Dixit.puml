@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Person Anand Dixit
 hide empty members
@@ -34,278 +34,325 @@ end legend
 ' Tickets =======
 class "CNG-582" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : B/W SIP API
   Status : Done
   Type : Task
 }
 
 class "CNG-538" << (B,red) >> {
   Assigned to : Anand Dixit
+  Summary : ELK is not supporting HTTPS as keys - Issue with Version 1
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-736" << (S,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Full API checkpoint to review bug status
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-735" << (S,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : SIP checkpoint review bug status
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-537" << (B,red) >> {
   Assigned to : Shafiqul Islam
+  Summary : API deployment pipeline - Issue with Version 1
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-757" << (S,lightblue) >> {
+  Summary : Other Common Components in AWS 
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-617" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Full API Design review comments tracker 
   Status : Done
   Type : Task
 }
 
 class "CNG-738" << (T,lightblue) >> {
+  Summary : Token Authorizer - Full API 
   Status : Done
   Type : Task
 }
 
 class "CNG-539" << (B,red) >> {
   Assigned to : Anand Dixit
+  Summary : Name change in 2 layers used by lambda - Issue with Version 1
   Status : Raised
   Type : Bug
 }
 
 class "CNG-596" << (S,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Common API Build
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-650" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Version 1: For the DEV environment, it seems the connectivity between Lambda and ELK instance is not established
   Status : Done
   Type : Task
 }
 
 class "CNG-532" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : AI for SIP API 
   Status : Done
   Type : Task
 }
 
 class "CNG-531" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Send Full API LLD to Iberia when fully complete
   Status : To Do
   Type : Task
 }
 
 class "CNG-732" << (S,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Loud Live Requirements 
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-556" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Solr API - Analysis & Design
   Status : Dev Review
   Type : Sub-task
 }
 
 class "CNG-754" << (S,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : API Gateway
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-533" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Burst and Batch Controller- CAP2-ASY04-42 release 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-734" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : SOLR SOLR B/W Compatible checkpoint to review bug status
   Status : To Do
   Type : Task
 }
 
 class "CNG-657" << (I,orange) >> {
   Assigned to : Shafiqul Islam
+  Summary : CNG - Housekeeping - Impacted Component - On Premise Database, Infrastructure/Connectivity/Version-1 Tasks - housekeeping connectivity to on prem database to be fixed by Version 1 
   Status : Resolved (Closed)
   Type : Impediment (Issue)
 }
 
 class "CNG-756" << (S,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Application Load Balancer 
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-535" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Live server log analysis for SOLR responses.
   Status : Done
   Type : Task
 }
 
 class "CNG-799" << (S,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Anand to add https://iagtech.atlassian.net/browse/CNG-708 to the SOLR plan - this is a dependency for UAT to commence
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-678" << (S,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : AWS-Logging and Monitoring
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-592" << (S,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Full API UAT
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-493" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : CNG release slot request for CAPTWO stack 4 release 
   Status : Done
   Type : Task
 }
 
 class "CNG-594" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Common APIs
   Status : To Do
   Type : Task
 }
 
 class "CNG-593" << (S,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Full API Release Activities 
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-648" << (T,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : System Testing team needs existing SIP sub live URL and authentication details which needs to be further checked with SIP team.
   Status : Done
   Type : Task
 }
 
 class "CNG-802" << (S,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Housekeeping Lambda and Token Authorizer to be completed – Token Authorizer needs to be completed for Full API SIT to commence. 
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-604" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Common API Design
   Status : Dev Review
   Type : Task
 }
 
 class "CNG-526" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Monitoring of AWS Components
   Status : Done
   Type : Task
 }
 
 class "CNG-605" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Logstash-Redis Error in AWS
   Status : Done
   Type : Task
 }
 
 class "CNG-748" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Common API (Common Components)
   Status : Done
   Type : Task
 }
 
 class "CNG-806" << (T,lightblue) >> {
   Assigned to : Abinaya Arumugasamy
+  Summary : SOLR API XML Response Format - Build
   Status : Done
   Type : Task
 }
 
 class "CNG-709" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Commercial Analysis Delivery
   Status : To Do
   Type : Task
 }
 
 class "CNG-585" << (S,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : SIP B/W Compatible API SIT
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-587" << (S,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : SIP Release Activities 
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-542" << (T,lightblue) >> {
   Assigned to : Abinaya Arumugasamy
+  Summary : Solr - XML & JSON Response Format Analysis & Requirements 
   Status : Done
   Type : Task
 }
 
 class "CNG-586" << (S,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : SIP UAT
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-564" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Automate Lambda Configuration
   Status : To Do
   Type : Task
 }
 
 class "CNG-688" << (S,lightblue) >> {
+  Summary : Burst & Batch Controller Release Activities
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-545" << (X,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Need SIP responses from SIP team to work on Response json to XML 
   Status : Resolved
   Type : Risk
 }
 
 class "CNG-644" << (S,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : CNG - Full API- Impacted Component -Elastic Search, Layers, Lambda - Elastic search return size (no of records being returned from elastic search) to be decided based on user
   Status : Build
   Type : Sub-task
 }
 
 class "CNG-622" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Full API build- Request validations for all prepositions
   Status : Done
   Type : Task
 }
 
 class "CNG-525" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : CNG - All API- Impacted Component - CloudWatch, Infrastructure/Connectivity/Version-1 Tasks- Logging of AWS Components
   Status : In Progress
   Type : Task
 }
 
 class "CNG-624" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : CNG - Full API - Consumers Document
   Status : To Do
   Type : Task
 }
 
 class "CNG-723" << (T,lightblue) >> {
+  Summary : House Keeping
   Status : To Do
   Type : Task
 }

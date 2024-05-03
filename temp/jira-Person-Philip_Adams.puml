@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Person Philip Adams
 hide empty members
@@ -24,72 +24,84 @@ end legend
 ' Tickets =======
 class "CNG-1383" << (T,lightblue) >> {
   Assigned to : Philip Adams
+  Summary : NFRs for Holiday Pricing API
   Status : To Do
   Type : Task
 }
 
 class "CNG-1382" << (T,lightblue) >> {
   Assigned to : Philip Adams
+  Summary : NFRs for the SOLR API
   Status : To Do
   Type : Task
 }
 
 class "CNG-1406" << (T,lightblue) >> {
   Assigned to : Philip Adams
+  Summary : Design for Connecting From On-Prem to AWS 
   Status : To Do
   Type : Task
 }
 
 class "CNG-1404" << (T,lightblue) >> {
   Assigned to : Philip Adams
+  Summary : Authentication of Internal & External users
   Status : To Do
   Type : Task
 }
 
 class "CNG-1405" << (T,lightblue) >> {
   Assigned to : Philip Adams
+  Summary : Design Pattern for AWS to AWS Connections
   Status : To Do
   Type : Task
 }
 
 class "CNG-1402" << (T,lightblue) >> {
   Assigned to : Philip Adams
+  Summary : DNS Path for Internal Users via Akamai
   Status : To Do
   Type : Task
 }
 
 class "CNG-1403" << (T,lightblue) >> {
   Assigned to : Philip Adams
+  Summary : Akamai DNS design for External Users
   Status : To Do
   Type : Task
 }
 
 class "CNG-1400" << (T,lightblue) >> {
   Assigned to : Philip Adams
+  Summary : API DNS Design for Internal Users
   Status : To Do
   Type : Task
 }
 
 class "CNG-1401" << (T,lightblue) >> {
   Assigned to : Philip Adams
+  Summary : OpenSearch Private Dashboard Internal User access
   Status : To Do
   Type : Task
 }
 
 class "CNG-1399" << (T,lightblue) >> {
   Assigned to : Philip Adams
+  Summary : MVP Network, Auth and DNS Design Document
   Status : To Do
   Type : Task
 }
 
 class "CNG-1396" << (B,red) >> {
   Assigned to : Philip Adams
+  Summary : AWS CNG LLD Document for BA Cyber Submission
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1221" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Solr vols per minute for 30 Jan
   Status : Done
   Type : Task
 }

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Link Type Cloners
 hide empty members
@@ -29,96 +29,112 @@ end legend
 ' Tickets =======
 class "CNG-1252" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Define new names for GitHub repositories following BA standards
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1274" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Standardisation of GitHub repo names
   Status : To Do
   Type : Task
 }
 
 class "CNG-1395" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : Connection Issues with Secrets Manager and Parameter Store After Recent Dev Environment Changes
   Status : To Do
   Type : Task
 }
 
 class "CNG-1060" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : CNG-Commercial Analysis -POC Dependency
   Status : To Do
   Type : Task
 }
 
 class "CNG-990" << (T,lightblue) >> {
   Assigned to : Dheeraj Kumar
+  Summary : Production Readiness -  Data Recovery
   Status : To Do
   Type : Task
 }
 
 class "CNG-538" << (B,red) >> {
   Assigned to : Anand Dixit
+  Summary : ELK is not supporting HTTPS as keys - Issue with Version 1
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-989" << (T,lightblue) >> {
   Assigned to : Dheeraj Kumar
+  Summary : Production Readiness -  Data Migration Plan
   Status : To Do
   Type : Task
 }
 
 class "CNG-537" << (B,red) >> {
   Assigned to : Shafiqul Islam
+  Summary : API deployment pipeline - Issue with Version 1
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-977" << (S,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Commercial Analysis - LLD - External Review
   Status : Design Review
   Type : Sub-task
 }
 
 class "CNG-539" << (B,red) >> {
   Assigned to : Anand Dixit
+  Summary : Name change in 2 layers used by lambda - Issue with Version 1
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1216" << (S,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Commercial Analysis - LLD - External Review
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-534" << (B,red) >> {
   Assigned to : Shafiqul Islam
+  Summary : Kibana URL is not working from on-premise- Issue with Version 1
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-457" << (B,red) >> {
   Assigned to : Merin Joseph
+  Summary : CNG - Batch (CAPTWO) - Impacted Component - Service - Review and update HO rules for excluding hotels from the Cache
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-951" << (T,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Dynamic data insertion in DB irrespective of table rows and column
   Status : Done
   Type : Task
 }
 
 class "CNG-1385" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : Setup Environment for holiday pricing API
   Status : To Do
   Type : Task
 }
 
 class "CNG-458" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : CNG - Batch (CAPTWO) - Impacted Component - Service - Review and update CO rules for excluding results from the Cache
   Status : Work Complete
   Type : Bug
 }

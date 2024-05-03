@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Link Type Checklist
 hide empty members
@@ -22,12 +22,14 @@ end legend
 ' Tickets =======
 class "CNG-1194" << (T,lightblue) >> {
   Assigned to : Sulafa Malik
+  Summary : CNG - SOLR API - Test Case Review
   Status : Done
   Type : Task
 }
 
 class "CNG-1041" << (S,lightblue) >> {
   Assigned to : Stephy Aniyan
+  Summary : Test Case review for SOLR API and sign off from BA Holidays
   Status : Done
   Type : Sub-task
 }

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Status Denied
 hide empty members
@@ -21,6 +21,7 @@ end legend
 ' Tickets =======
 class "CNG-897" << (P,lightblue) >> {
   Assigned to : Sana Fathima
+  Summary : BAHolidays - (3844) Additional Holiday Pricing (CNG) - R3XX Release Slot Request
   Status : Denied
   Type : Project Request Package
 }

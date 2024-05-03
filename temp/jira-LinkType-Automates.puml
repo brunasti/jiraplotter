@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Link Type Automates
 hide empty members
@@ -23,46 +23,54 @@ end legend
 
 ' Tickets =======
 class "CNG-988" << (R,red) >> {
+  Summary : AWS Development Environment
   Status : To Do
   Type : Risks
 }
 
 class "CNG-724" << (S,lightblue) >> {
+  Summary : CNG - Housekeeping - Impacted Component -  LLD -House Keeping Design
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1360" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : Rename ecp-dev to dev01
   Status : In Progress
   Type : Task
 }
 
 class "CNG-993" << (R,red) >> {
   Assigned to : Sana Fathima
+  Summary : LLD Baseline Date impacted due to House Keeping POC
   Status : To Do
   Type : Risks
 }
 
 class "CNG-1410" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Temporary UAT environment in dev account
   Status : In Progress
   Type : Task
 }
 
 class "CNG-984" << (T,lightblue) >> {
+  Summary : RAID Log
   Status : To Do
   Type : Task
 }
 
 class "CNG-1385" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : Setup Environment for holiday pricing API
   Status : To Do
   Type : Task
 }
 
 class "CNG-733" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : AWS Infrastructure
   Status : In Progress
   Type : Task
 }

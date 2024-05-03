@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Person Rosy Mary
 hide empty members
@@ -22,12 +22,14 @@ end legend
 ' Tickets =======
 class "CNG-971" << (T,lightblue) >> {
   Assigned to : Rosy Mary
+  Summary : High level Design Document Preparation - HLD
   Status : Done
   Type : Task
 }
 
 class "CNG-976" << (S,lightblue) >> {
   Assigned to : Rosy Mary
+  Summary : Internal Review - LLD
   Status : Done
   Type : Sub-task
 }

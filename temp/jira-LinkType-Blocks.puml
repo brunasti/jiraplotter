@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Link Type Blocks
 hide empty members
@@ -34,153 +34,179 @@ end legend
 ' Tickets =======
 class "CNG-537" << (B,red) >> {
   Assigned to : Shafiqul Islam
+  Summary : API deployment pipeline - Issue with Version 1
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-839" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : Hotel checkInDate and checkOutDate is not correct for HO Proposition inSOLR response
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-650" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Version 1: For the DEV environment, it seems the connectivity between Lambda and ELK instance is not established
   Status : Done
   Type : Task
 }
 
 class "CNG-1205" << (T,lightblue) >> {
   Assigned to : Sivagami S
+  Summary : POC for Open Search Ingestion pipeline
   Status : Done
   Type : Task
 }
 
 class "CNG-1227" << (S,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : CNG - Burst (CAPTWO), Batch (CAPTWO) - Services - Establish connectivity between AWS CAPTWO stack04 to OpenSearch.
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-597" << (T,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Sorting of sfield and PT (geo filter)(CR) - Build
   Status : Done
   Type : Task
 }
 
 class "CNG-534" << (B,red) >> {
   Assigned to : Shafiqul Islam
+  Summary : Kibana URL is not working from on-premise- Issue with Version 1
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-699" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Version 1 Deliverables - CR 05-Apr-2023
   Status : Done
   Type : Task
 }
 
 class "CNG-558" << (S,lightblue) >> {
+  Summary : Solr API - SIT
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-657" << (I,orange) >> {
   Assigned to : Shafiqul Islam
+  Summary : CNG - Housekeeping - Impacted Component - On Premise Database, Infrastructure/Connectivity/Version-1 Tasks - housekeeping connectivity to on prem database to be fixed by Version 1 
   Status : Resolved (Closed)
   Type : Impediment (Issue)
 }
 
 class "CNG-1151" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : Connect to Elastic/Open Search
   Status : In Progress
   Type : Task
 }
 
 class "CNG-690" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Apache server connectivity from on premise to AWS
   Status : Done
   Type : Task
 }
 
 class "CNG-648" << (T,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : System Testing team needs existing SIP sub live URL and authentication details which needs to be further checked with SIP team.
   Status : Done
   Type : Task
 }
 
 class "CNG-604" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Common API Design
   Status : Dev Review
   Type : Task
 }
 
 class "CNG-823" << (T,lightblue) >> {
   Assigned to : Dhanish Kumar
+  Summary : Sorting of sfield and PT (geo filter)(CR) - SIT
   Status : Done
   Type : Task
 }
 
 class "CNG-605" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Logstash-Redis Error in AWS
   Status : Done
   Type : Task
 }
 
 class "CNG-806" << (T,lightblue) >> {
   Assigned to : Abinaya Arumugasamy
+  Summary : SOLR API XML Response Format - Build
   Status : Done
   Type : Task
 }
 
 class "CNG-905" << (B,red) >> {
+  Summary : Out of memory error while deploying API in AWS through pipeline
   Status : Raised
   Type : Bug
 }
 
 class "CNG-585" << (S,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : SIP B/W Compatible API SIT
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-584" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : SIP B/W Compatible API Build
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-840" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT-depDate is not shown properly for FC Proposition in SOLR response
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-620" << (T,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Housekeeping comments
   Status : Design Review
   Type : Task
 }
 
 class "CNG-542" << (T,lightblue) >> {
   Assigned to : Abinaya Arumugasamy
+  Summary : Solr - XML & JSON Response Format Analysis & Requirements 
   Status : Done
   Type : Task
 }
 
 class "CNG-545" << (X,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Need SIP responses from SIP team to work on Response json to XML 
   Status : Resolved
   Type : Risk
 }
 
 class "CNG-864" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT-sfield an pt is giving null response
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-821" << (T,lightblue) >> {
+  Summary : SOLR API JSON Response Format - Build
   Status : Done
   Type : Task
 }

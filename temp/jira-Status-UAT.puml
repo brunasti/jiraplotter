@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Status UAT
 hide empty members
@@ -26,54 +26,63 @@ end legend
 ' Tickets =======
 class "CNG-518" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : CNG - All API- Impacted Component - Elastic Search, Kibana - Confirm how to update Index Mappings for CNG without wiping out indexed data
   Status : UAT
   Type : Task
 }
 
 class "CNG-858" << (T,lightblue) >> {
   Assigned to : Sulafa Malik
+  Summary : Sorting of sfield and PT (geo filter)(CR) - UAT
   Status : UAT
   Type : Task
 }
 
 class "CNG-739" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Transition to BAU
   Status : To Do
   Type : Task
 }
 
 class "CNG-684" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Burst & Batch Controller Analysis and Design
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-485" << (S,lightgreen) >> {
   Assigned to : Sulafa Malik
+  Summary : (3844) - Informational Logging - Batch Controller (CAPTWO)
   Status : UAT
   Type : Story
 }
 
 class "CNG-444" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CNG - Batch (CAPTWO) - Impacted Component - Service - CNG UAT - F+C Packages - Not all being cached when compared against front end
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-421" << (B,red) >> {
   Assigned to : Baranipriya Ramanathan
+  Summary : CNG - Batch (CAPTWO) - Impacted Component - Service - Few accommodation is missing in kibana for FH
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-687" << (S,lightblue) >> {
   Assigned to : Sulafa Malik
+  Summary : Burst & Batch Controller UAT
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-623" << (S,lightblue) >> {
   Assigned to : Sulafa Malik
+  Summary : CNG Batch Code Analysis/Build : inconsistent use of time zone information within date fields. 
   Status : UAT
   Type : Sub-task
 }

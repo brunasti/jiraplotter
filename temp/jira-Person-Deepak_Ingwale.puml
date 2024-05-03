@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Person Deepak Ingwale
 hide empty members
@@ -31,249 +31,291 @@ end legend
 ' Tickets =======
 class "CNG-1384" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : publish to package failing after renaming repo
   Status : Done
   Type : Task
 }
 
 class "CNG-1340" << (B,red) >> {
   Assigned to : Deepak Ingwale
+  Summary : CNG - SOLR API - System Test - Issues in Javabin response 
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1282" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Crete clear document on how to deploy and test SolrAPI locally
   Status : Done
   Type : Task
 }
 
 class "CNG-815" << (S,lightblue) >> {
+  Summary : Solr API - NFT
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-1325" << (B,red) >> {
   Assigned to : Deepak Ingwale
+  Summary : CNG - SOLR API - System Test - Sample SIT Bug for reference
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1369" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Full API - Application Code Development  
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1348" << (B,red) >> {
   Assigned to : Deepak Ingwale
+  Summary : CNG - SOLR API - System Test - Getting response for invalid field names
   Status : Rejected
   Type : Bug
 }
 
 class "CNG-873" << (T,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Design Tracker 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1203" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : BA Holidays Pricing Cache API (Full API) - Business Requirements 
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1387" << (B,red) >> {
   Assigned to : Deepak Ingwale
+  Summary : CNG - SOLR API - System Test - Multiple issues with facet.field
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1123" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Solr API - External code review 
   Status : Done
   Type : Task
 }
 
 class "CNG-1366" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Full API - Low Level Design
   Status : In Progress
   Type : Task
 }
 
 class "CNG-557" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Solr API - Build
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1221" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Solr vols per minute for 30 Jan
   Status : Done
   Type : Task
 }
 
 class "CNG-1386" << (B,red) >> {
   Assigned to : Deepak Ingwale
+  Summary : Build pipeline issues in DEV and SIT
   Status : Under Investigation
   Type : Bug
 }
 
 class "CNG-1152" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Dockerize
   Status : Done
   Type : Task
 }
 
 class "CNG-1296" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Merge Solr API and Common Library code to Main branch (raise a Jira ticket if there are any issues)
   Status : Done
   Type : Task
 }
 
 class "CNG-1252" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Define new names for GitHub repositories following BA standards
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1274" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Standardisation of GitHub repo names
   Status : To Do
   Type : Task
 }
 
 class "CNG-1392" << (B,red) >> {
   Assigned to : Deepak Ingwale
+  Summary : CNG - SOLR API - System Test - Unable to get javabin response for FC when departureDate is passed in request
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1150" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Push to Fargate
   Status : Done
   Type : Task
 }
 
 class "CNG-590" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : BA Holidays Pricing Cache API (Full API) - Build
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-1370" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Full API - Application Code Development - Iberia Deeplinks  
   Status : Design Review
   Type : Task
 }
 
 class "CNG-1030" << (S,lightblue) >> {
   Assigned to : Pratik Desai
+  Summary : Internal Code Review for SOLR API first and capture review comments in Git Hub
   Status : In Review (migrated)
   Type : Sub-task
 }
 
 class "CNG-1371" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Full API - External Application Code Development - Iberia Deeplinks Review
   Status : To Do
   Type : Task
 }
 
 class "CNG-923" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Solr - NOT(-) Logic - Build
   Status : Done
   Type : Task
 }
 
 class "CNG-924" << (T,lightblue) >> {
+  Summary : CNG - SOLR API- Lambda - ST-NOT(-) Logic 
   Status : To Do
   Type : Task
 }
 
 class "CNG-707" << (S,lightgreen) >> {
   Assigned to : Deepak Ingwale
+  Summary : Rename the 'Full API' to 'BA Holidays Pricing Cache API'
   Status : To Do
   Type : Story
 }
 
 class "CNG-927" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Solr - ^(boost) Logic - Build
   Status : Done
   Type : Task
 }
 
 class "CNG-928" << (T,lightblue) >> {
+  Summary : CNG - SOLR API- Lambda - ST- ^(boost) Logic
   Status : To Do
   Type : Task
 }
 
 class "CNG-1413" << (B,red) >> {
   Assigned to : Deepak Ingwale
+  Summary : CNG - SOLR API - System Test - ancillaryID field is getting displayed in the SOLR response when passed in fl parameter.
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1237" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : GitHub Application Pipelines
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1414" << (B,red) >> {
   Assigned to : Deepak Ingwale
+  Summary : CNG - SOLR API - System Test - Sort issues when group.main=true in solr response
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1411" << (B,red) >> {
   Assigned to : Deepak Ingwale
+  Summary : CNG - SOLR API - System Test - Unable to get valid response in Javabin when NOT operation is passed in the request for HO and FC proposition
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1412" << (B,red) >> {
   Assigned to : Deepak Ingwale
+  Summary : CNG - SOLR API - System Test - PricePP is displayed twice in SOLR response when fl=* 
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1277" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Run Snyk and Remediate Identified Vulnerabilities
   Status : To Do
   Type : Task
 }
 
 class "CNG-1398" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Enable SonarCloud on Pull Request
   Status : In Progress
   Type : Task
 }
 
 class "CNG-589" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : BA Holidays Pricing Cache API (Full API) - Design
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1410" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Temporary UAT environment in dev account
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1278" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Review remediated and outstanding vulnerabilities with Dimtris 
   Status : To Do
   Type : Task
 }
 
 class "CNG-1276" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Snyk CD Request 
   Status : Done
   Type : Task
 }
 
 class "CNG-1232" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Update GitHub Actions pipeline to Support the Library dependency 
   Status : Done
   Type : Task
 }

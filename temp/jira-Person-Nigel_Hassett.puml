@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Person Nigel Hassett
 hide empty members
@@ -28,168 +28,196 @@ end legend
 ' Tickets =======
 class "CNG-580" << (S,lightblue) >> {
   Assigned to : Nigel Hassett
+  Summary : Live server log user analysis for SOLR responses for bahpricefeed handlers 
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-637" << (T,lightblue) >> {
   Assigned to : Nigel Hassett
+  Summary : SQLNet beween the on prem and AWS DBs
   Status : Done
   Type : Task
 }
 
 class "CNG-636" << (T,lightblue) >> {
   Assigned to : Nigel Hassett
+  Summary : CAPTWO B&B Services over GCC to Redis
   Status : Done
   Type : Task
 }
 
 class "CNG-771" << (T,lightblue) >> {
   Assigned to : Nigel Hassett
+  Summary : http between AWS and BAH sqlserver database
   Status : Done
   Type : Task
 }
 
 class "CNG-873" << (T,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Design Tracker 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-630" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : BA Cyber Security Requirements 
   Status : Done
   Type : Task
 }
 
 class "CNG-795" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : CNG Working Group/General Actions
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1222" << (T,lightblue) >> {
   Assigned to : Nigel Hassett
+  Summary : Open action - Akamai and AWS configuration
   Status : To Do
   Type : Task
 }
 
 class "CNG-533" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Burst and Batch Controller- CAP2-ASY04-42 release 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-733" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : AWS Infrastructure
   Status : In Progress
   Type : Task
 }
 
 class "CNG-953" << (T,lightblue) >> {
   Assigned to : Nigel Hassett
+  Summary : IB Access to Test Environments 
   Status : To Do
   Type : Task
 }
 
 class "CNG-634" << (T,lightblue) >> {
   Assigned to : Nigel Hassett
+  Summary : resolve connectivity from captwov2 stack 4 batch controller to call xdist APC
   Status : Done
   Type : Task
 }
 
 class "CNG-1153" << (T,lightblue) >> {
   Assigned to : Stephy Aniyan
+  Summary : HTTP Request Compression in CAPTWO
   Status : QA
   Type : Task
 }
 
 class "CNG-505" << (T,lightblue) >> {
   Assigned to : Nigel Hassett
+  Summary : Firewall rule for SUBLIVE CAPTWOv2 Stack4 sublive servers to access sentinel/redis in dev/reg/prelive CNG AWS accounts via Global Cloud Connect
   Status : Done
   Type : Task
 }
 
 class "CNG-966" << (B,red) >> {
   Assigned to : Nigel Hassett
+  Summary : CNG - Batch - Xdistributor- ST - inconsistent sessionid formats from captwov2 stack 4 batch controller
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-649" << (T,lightblue) >> {
   Assigned to : Nigel Hassett
+  Summary : Implement HTTPS between CAPTWO Services and Xdist
   Status : Done
   Type : Task
 }
 
 class "CNG-1218" << (T,lightblue) >> {
   Assigned to : Nigel Hassett
+  Summary : Raise DNS Request to CSC
   Status : To Do
   Type : Task
 }
 
 class "CNG-684" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Burst & Batch Controller Analysis and Design
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-980" << (T,lightblue) >> {
   Assigned to : Nigel Hassett
+  Summary : Connecting from on-prem to AWS
   Status : Done
   Type : Task
 }
 
 class "CNG-961" << (S,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Commercial Analysis - POC
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-520" << (N,lightgreen) >> {
   Assigned to : Nigel Hassett
+  Summary : Duplicate Jira ticket - please see CNG-649
   Status : Done
   Type : New Feature
 }
 
 class "CNG-600" << (T,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Full API design tracker comment- Akamai flow to be added in the architecture
   Status : Done
   Type : Task
 }
 
 class "CNG-1233" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : ECP AWS Accounts and Environments Setup
   Status : In Progress
   Type : Task
 }
 
 class "CNG-522" << (N,lightgreen) >> {
   Assigned to : Nigel Hassett
+  Summary : Look at options for compression in redis
   Status : Done
   Type : New Feature
 }
 
 class "CNG-1234" << (T,lightblue) >> {
   Assigned to : Nigel Hassett
+  Summary : Approve ECP AWS Accounts and Environments Definition Approach 
   Status : To Do
   Type : Task
 }
 
 class "CNG-668" << (S,lightblue) >> {
   Assigned to : Nigel Hassett
+  Summary : The Key stored in Redis was created with name BAH_CNG_PRL instead of ANCILLARY_PRICE. 
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-524" << (N,lightgreen) >> {
   Assigned to : Nigel Hassett
+  Summary : remove the need for SENTINEL in captwov2 batch controller, just connect directly to Redis
   Status : Done
   Type : New Feature
 }
 
 class "CNG-865" << (T,lightblue) >> {
   Assigned to : Nigel Hassett
+  Summary : Firewall rule for access from CNG AWS competitor analysis lambda to BAH sqlserver at Astral Towers
   Status : Done
   Type : Task
 }

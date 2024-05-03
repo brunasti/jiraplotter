@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Person Jon Funnell
 hide empty members
@@ -32,191 +32,223 @@ end legend
 ' Tickets =======
 class "CNG-480" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : HO - Is the isPackageRateOnly mapping correct and being populated correctly?
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-482" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : Issues with hotel image alt text
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-460" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : F+C not storing results for upgraded cabins as expected
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-416" << (T,lightblue) >> {
   Assigned to : Jon Funnell
+  Summary : Current Live mechanism for downloading Tripadvisor data is intended to be sunset on 1st September
   Status : Done
   Type : Task
 }
 
 class "CNG-836" << (T,lightblue) >> {
   Assigned to : Jon Funnell
+  Summary : Understand current process for displaying BAH pricing on Iberia.com and whether will this still work after CNG 
   Status : Done
   Type : Task
 }
 
 class "CNG-1207" << (S,lightblue) >> {
+  Summary : Commercial Analysis - Business Requirements 
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-474" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : FH flight cost not being populated (FC looks ok)
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-1048" << (S,lightgreen) >> {
   Assigned to : Jon Funnell
+  Summary : Commercial Analysis - Price comparison report
   Status : To Do
   Type : Story
 }
 
 class "CNG-477" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : FC Combine And Save not being populated
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-971" << (T,lightblue) >> {
   Assigned to : Rosy Mary
+  Summary : High level Design Document Preparation - HLD
   Status : Done
   Type : Task
 }
 
 class "CNG-479" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : Format of cngKey data for FC doesn't looks correct
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-973" << (T,lightblue) >> {
   Assigned to : Jon Funnell
+  Summary : External Review - CA HLD
   Status : Done
   Type : Task
 }
 
 class "CNG-478" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : FC depAirportCityName not populated - is it required?
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-458" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : CNG - Batch (CAPTWO) - Impacted Component - Service - Review and update CO rules for excluding results from the Cache
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-490" << (T,lightblue) >> {
   Assigned to : Jon Funnell
+  Summary : Test task for JIRAmigration
   Status : Done
   Type : Task
 }
 
 class "CNG-1192" << (T,lightblue) >> {
   Assigned to : Jon Funnell
+  Summary : Reporting - BAH deliverables
   Status : To Do
   Type : Task
 }
 
 class "CNG-470" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : FH - departureAirport and departureTime  fields not populated in Kibana
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-1193" << (T,lightblue) >> {
   Assigned to : Jon Funnell
+  Summary : CNG - Burst and Batch - Test Case Review
   Status : Done
   Type : Task
 }
 
 class "CNG-845" << (T,lightblue) >> {
   Assigned to : Jon Funnell
+  Summary : Ref Data - refresh manually maintained CMT ref data before go live
   Status : To Do
   Type : Task
 }
 
 class "CNG-804" << (S,lightblue) >> {
   Assigned to : Jon Funnell
+  Summary : Support Guide for interpreting Search Status
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-486" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : FC - departureAirport and departureTime fields not populated as expected in Kibana
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-485" << (S,lightgreen) >> {
   Assigned to : Sulafa Malik
+  Summary : (3844) - Informational Logging - Batch Controller (CAPTWO)
   Status : UAT
   Type : Story
 }
 
 class "CNG-521" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : burst controller throws ERROR com.ba.captwo.framework.event.produce.MessageProducerImpl [Dest=BAHCMT.BURST.DATAEVENT.CMH.EVENTS.ALIAS] and [DT=json]
   Status : IN UAT
   Type : Bug
 }
 
 class "CNG-488" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : Test Bug for JIRA migration
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-765" << (S,lightblue) >> {
   Assigned to : Jon Funnell
+  Summary : CMT User Guide
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-468" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : Incorrect whitespace in market column of ancillary tables
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-687" << (S,lightblue) >> {
   Assigned to : Sulafa Malik
+  Summary : Burst & Batch Controller UAT
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-500" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : CNG - Batch (CAPTWO) - Impacted Component - Service -CMT - Unable to load searches with OJ location types other than city for FH and HO propositions. APC can do this. - Not In Scope for TCS
   Status : Under Investigation
   Type : Bug
 }
 
 class "CNG-423" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : Batch retry for few routes
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-489" << (S,lightgreen) >> {
   Assigned to : Jon Funnell
+  Summary : Test story for JIRA migration
   Status : Done
   Type : Story
 }
 
 class "CNG-503" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : CMT - Unable to set 'First Travel Date' & 'Last Travel Date' to the same date
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-502" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : Incorrect special offer captured in Kibana
   Status : Raised
   Type : Bug
 }

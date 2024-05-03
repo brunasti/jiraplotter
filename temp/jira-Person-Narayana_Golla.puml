@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Person Narayana Golla
 hide empty members
@@ -26,36 +26,42 @@ end legend
 ' Tickets =======
 class "CNG-1372" << (T,lightblue) >> {
   Assigned to : Narayana Golla
+  Summary : Full API - Low-Level Design - Iberia Deeplinks
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1283" << (T,lightblue) >> {
   Assigned to : Narayana Golla
+  Summary : Clean up Resources from Ingestion Pipeline Authentication PoC
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1390" << (N,lightgreen) >> {
   Assigned to : Narayana Golla
+  Summary : cache Parameter Store configurations for Holiday Pricing API in Common Layer
   Status : In Progress
   Type : New Feature
 }
 
 class "CNG-1248" << (B,red) >> {
   Assigned to : Narayana Golla
+  Summary : Ingestion Pipeline host is not reachable from CAP2 and OnPrem
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-1205" << (T,lightblue) >> {
   Assigned to : Sivagami S
+  Summary : POC for Open Search Ingestion pipeline
   Status : Done
   Type : Task
 }
 
 class "CNG-589" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : BA Holidays Pricing Cache API (Full API) - Design
   Status : In Progress
   Type : Sub-task
 }

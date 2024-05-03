@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Person Rajalakshmi Ramachandran
 hide empty members
@@ -21,18 +21,21 @@ end legend
 ' Tickets =======
 class "CNG-1349" << (B,red) >> {
   Assigned to : Rajalakshmi Ramachandran
+  Summary : CNG - SOLR API - System Test - Date format issue in groupvalue for given date related fields
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-1339" << (B,red) >> {
   Assigned to : Rajalakshmi Ramachandran
+  Summary : CNG - SOLR API - System Test - Mismatch in QTime,group,facet positions between live and CNG
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-1334" << (B,red) >> {
   Assigned to : Rajalakshmi Ramachandran
+  Summary : CNG - SOLR API - System Test - Getting error for non sensitive fields in FH and HO propositions for all handlers
   Status : Work Complete
   Type : Bug
 }

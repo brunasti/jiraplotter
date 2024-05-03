@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Person Pragya Singhal
 hide empty members
@@ -23,12 +23,14 @@ end legend
 ' Tickets =======
 class "CNG-961" << (S,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Commercial Analysis - POC
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-974" << (T,lightblue) >> {
   Assigned to : Pragya Singhal
+  Summary : Return the full results set regardless of result size from ES and insertion of records into the destination table w.r.t ES results which may contain commas ,wildcards etc.
   Status : To Do
   Type : Task
 }

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Status Resolved (Closed)
 hide empty members
@@ -25,45 +25,53 @@ end legend
 ' Tickets =======
 class "CNG-658" << (I,orange) >> {
   Assigned to : Shafiqul Islam
+  Summary : Kibana connectivity with Elastic Search in  higher environments
   Status : Resolved (Closed)
   Type : Impediment (Issue)
 }
 
 class "CNG-727" << (S,lightblue) >> {
+  Summary : CNG - Housekeeping, Batch Jobs - Impacted Component - On Premise Database, Scripts, Scheduler (Cron/Control-M) - House Keeping Unit Testing - On Prem
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-729" << (S,lightblue) >> {
+  Summary : CNG - Housekeeping, Batch Jobs - Impacted Component - On Premise Database, Scripts, Scheduler (Cron/Control-M) - House Keeping-On Prem
   Status : QA
   Type : Sub-task
 }
 
 class "CNG-728" << (S,lightblue) >> {
+  Summary : CNG - Housekeeping - Impacted Component - Elastic Search, Layers, Lambda, Scripts, Event Bridge, Infrastructure/Connectivity/Version-1 Tasks - House Keeping Unit Testing - AWS
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-695" << (I,orange) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Version 1: the DEV-Redis connectivity is down 
   Status : Resolved (Closed)
   Type : Impediment (Issue)
 }
 
 class "CNG-730" << (S,lightblue) >> {
   Assigned to : Sulafa Malik
+  Summary : House Keeping UAT
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-657" << (I,orange) >> {
   Assigned to : Shafiqul Islam
+  Summary : CNG - Housekeeping - Impacted Component - On Premise Database, Infrastructure/Connectivity/Version-1 Tasks - housekeeping connectivity to on prem database to be fixed by Version 1 
   Status : Resolved (Closed)
   Type : Impediment (Issue)
 }
 
 class "CNG-656" << (I,orange) >> {
   Assigned to : Shafiqul Islam
+  Summary : Reg connectivity between higher env and ELK stack for reg/UAT, pre live and live to be checked by Version 1 
   Status : Resolved (Closed)
   Type : Impediment (Issue)
 }

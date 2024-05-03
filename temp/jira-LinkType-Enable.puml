@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Link Type Enable
 hide empty members
@@ -22,12 +22,14 @@ end legend
 ' Tickets =======
 class "CNG-1205" << (T,lightblue) >> {
   Assigned to : Sivagami S
+  Summary : POC for Open Search Ingestion pipeline
   Status : Done
   Type : Task
 }
 
 class "CNG-1227" << (S,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : CNG - Burst (CAPTWO), Batch (CAPTWO) - Services - Establish connectivity between AWS CAPTWO stack04 to OpenSearch.
   Status : Done
   Type : Sub-task
 }

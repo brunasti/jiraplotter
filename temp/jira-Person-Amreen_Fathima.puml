@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Person Amreen Fathima
 hide empty members
@@ -30,345 +30,403 @@ end legend
 ' Tickets =======
 class "CNG-978" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : Midnight refresh and Housekeeping Job is not being Scheduled
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-856" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT-Query is giving response when no handler is specified in request url
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-979" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : Records are not being updated with proper Status
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-497" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT-CostAfterTax is not showing the correct value after decimal in Kibana for the Room Rate Tag
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-694" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT SOLr-browse handler is not giving response.
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-496" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT-Child Age is coming in Bracket[] for HO Proposition
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-499" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT-Few fields are still shown in Kibana for FC and CO Proposition.
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-498" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT-Few fields are still shown in Kibana for FH and HO Proposition.
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-611" << (S,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : CNG - Common - Performance Testing - PAA/PAS SERVICE
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-896" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : Unexpected b/w SOLr response behaviours in SIT
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-533" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Burst and Batch Controller- CAP2-ASY04-42 release 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-610" << (S,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : CNG - Common - Performance Testing - Batch Controller
   Status : QA
   Type : Sub-task
 }
 
 class "CNG-855" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT- Specified Rows are not being shown properly
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-612" << (S,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : Performance Testing - Burst Controller
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-867" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT- Hotel Stars is returning Null response
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-706" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT- Record Status is not being updated properly
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-708" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : CNG - SOLR API - NOT(!) Logic
   Status : In System Test
   Type : Bug
 }
 
 class "CNG-585" << (S,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : SIP B/W Compatible API SIT
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-860" << (B,red) >> {
   Assigned to : Dhanish Kumar
+  Summary : SIT-Getting Internal server error  for cabinupgrade & query handlers for wt=xml
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-1138" << (S,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : CNG- CAPTWO - Batch Controller - CNG-1137 - carGroupDescription Issue:  Team needs to do the development to incorporate changes in captwo evm-hahem code.
   Status : QA
   Type : Sub-task
 }
 
 class "CNG-1139" << (T,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : Recommend performance test scenarios 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-862" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT-Extra delimiter(,) within fl results error in old solr, While result returned in New solr.
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-864" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT-sfield an pt is giving null response
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-866" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT-PricePP is not returning values properly
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-1141" << (T,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : Make assumptions for peak load 
   Status : To Do
   Type : Task
 }
 
 class "CNG-1140" << (T,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : Identify source of NFRs obtained to date
   Status : To Do
   Type : Task
 }
 
 class "CNG-879" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT SOLR  NOT(!) -Getting null response when we add NOT(!) to HotelID
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-999" << (T,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : CNG - All API- XDistributor - ST - Different behaviour between APC and CNG when grouping on certain date fields
   Status : QA
   Type : Task
 }
 
 class "CNG-839" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : Hotel checkInDate and checkOutDate is not correct for HO Proposition inSOLR response
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-915" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT SIP- Different Timezone is shown in existing SIP API and New SIP API
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-838" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT-Ancillary id is not string in the JSON response
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-796" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT-Different Data types Observed in SIT KIBANA and e2e Data Mapping
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-872" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT-GroupOperation is not returning the proper results for XML
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-674" << (S,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : CNG-528 : Redis error monitoring in Batch Controller 
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-754" << (S,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : API Gateway
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-797" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT: Unable to get the SOLR Response for Total Price field
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-558" << (S,lightblue) >> {
+  Summary : Solr API - SIT
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-876" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT SOLR  NOT(!) - Getting default Null response for a ! query though values are present in the Cache for FC Proposition
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-691" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT SOLr-Safe handler is not giving response.
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-891" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT SOLR-Facet with fq operation has different behaviour in New and Old solr
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-693" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT SOLr-query handler is not giving response.
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-495" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT-Image URL is not being mapped from Content Code14
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-692" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT SOLr-bahpricefeed handler is not giving response.
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-648" << (T,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : System Testing team needs existing SIP sub live URL and authentication details which needs to be further checked with SIP team.
   Status : Done
   Type : Task
 }
 
 class "CNG-889" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT SOLR: Getting null response for carRentalPlan
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-807" << (T,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : CNG - SOLR API- Lambda - ST- JSON Response Format
   Status : In Progress
   Type : Task
 }
 
 class "CNG-609" << (T,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : CNG - Common - Performance Testing - Batch & Burst Controller
   Status : QA
   Type : Task
 }
 
 class "CNG-563" << (T,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : Lambda performance update
   Status : To Do
   Type : Task
 }
 
 class "CNG-882" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT SOLr-Other values returned apart from fq value
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-1039" << (S,lightblue) >> {
   Assigned to : Stephy Aniyan
+  Summary : Decide approach on Test Strategy for SOLR API and prepare Test Strategy document.
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-881" << (B,red) >> {
+  Summary : SOLR B/W Compatible API SIT  for NOT(!) handling 
   Status : Raised
   Type : Bug
 }
 
 class "CNG-686" << (S,lightblue) >> {
+  Summary : CNG - Burst & Batch Controller - SIT
   Status : QA
   Type : Sub-task
 }
 
 class "CNG-840" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT-depDate is not shown properly for FC Proposition in SOLR response
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-963" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT SIP- Text format is not proper
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-886" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT SOLR  NOT(!) -Filter Query with Range condition not working correctly with NOT operation
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-885" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT SOLR  NOT(!) - When a boardBasis is specified with! we are still able to see it in response
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-643" << (T,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : SOLR test scripts preparation and review 
   Status : Done
   Type : Task
 }
 
 class "CNG-841" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : SIT-Total price value is not Integer in the SOLR response
   Status : Work Complete
   Type : Bug
 }

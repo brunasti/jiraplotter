@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Status In Progress
 hide empty members
@@ -36,1097 +36,1285 @@ end legend
 ' Tickets =======
 class "CNG-1042" << (S,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : Environment Strategy for CNG - Need of Development environment
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1163" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Raise Requests for ECP AWS Accounts 
   Status : To Do
   Type : Task
 }
 
 class "CNG-1285" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : Populate Secret Manager Values
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1040" << (S,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Reference document for onboarding a new joiner in team 
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1283" << (T,lightblue) >> {
   Assigned to : Narayana Golla
+  Summary : Clean up Resources from Ingestion Pipeline Authentication PoC
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1281" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : AWS Resource Naming Conventions
   Status : To Do
   Type : Task
 }
 
 class "CNG-814" << (S,lightblue) >> {
+  Summary : Solr API - Environment Set Up & Configuration 
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1329" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Delete old CNG accounts
   Status : To Do
   Type : Task
 }
 
 class "CNG-1328" << (S,lightblue) >> {
   Assigned to : Swagath Ganta
+  Summary : Validate dependent components configurations in stack 04 PINT, E2E, DPERF, and PERF environments.  
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-818" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : SOLR Javabin Response Format - Analysis & Design
   Status : Done
   Type : Task
 }
 
 class "CNG-651" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : direct access to elastic search via internal load balancer
   Status : To Do
   Type : Task
 }
 
 class "CNG-1204" << (T,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Check Docker Image Source
   Status : Done
   Type : Task
 }
 
 class "CNG-893" << (T,lightblue) >> {
+  Summary : CNG - CMT - Impacted Component - GUI Application -Upgrade 3rd Party Libraries
   Status : To Do
   Type : Task
 }
 
 class "CNG-892" << (T,lightblue) >> {
+  Summary : Testing connectivity on prem to aws on 17-Jul-23 and 24-Jul-23
   Status : Done
   Type : Task
 }
 
 class "CNG-1205" << (T,lightblue) >> {
   Assigned to : Sivagami S
+  Summary : POC for Open Search Ingestion pipeline
   Status : Done
   Type : Task
 }
 
 class "CNG-1326" << (B,red) >> {
+  Summary : spring-core security vulnerabilities  CVE-2022-22950 and CVE-2022-22971 and others in BAHCMT
   Status : Raised
   Type : Bug
 }
 
 class "CNG-774" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Misc
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-1203" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : BA Holidays Pricing Cache API (Full API) - Business Requirements 
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-773" << (T,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : CNG - Batch (CAPTWO) - Impacted Component - LLD, Service -CR -Special Offers- Impact and Analysis 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-894" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : Upgrade to latest versions of ELK and Redis.
   Status : Done
   Type : Task
 }
 
 class "CNG-776" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Change all references of Full API to BA Holidays Pricing Cache API
   Status : To Do
   Type : Task
 }
 
 class "CNG-1288" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Mapping CAPTWO Stack04 AWS Envs to CNG AWS Envs
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1200" << (T,lightblue) >> {
   Assigned to : Swagath Ganta
+  Summary : Accept TGW attachment in shared accounts
   Status : Done
   Type : Task
 }
 
 class "CNG-1201" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Create GitHub Workflows for app repo
   Status : In Progress
   Type : Task
 }
 
 class "CNG-533" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Burst and Batch Controller- CAP2-ASY04-42 release 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1044" << (S,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : AWS inspector warnings for CNG
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1295" << (W,lightblue) >> {
   Assigned to : Stephy Aniyan
+  Summary : Need debug enabled in prelive to verify existing solr logs for teamsite pages
   Status : In Progress
   Type : Work Request
 }
 
 class "CNG-1054" << (S,lightblue) >> {
   Assigned to : Abdillahi Mirie
+  Summary : CNG- Solr API - Lambda: Behavior Difference in SOLR response between Live and Dev 
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1175" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : East-West firewalls for CAPTWO Stack 4 DCE to CNG/AHP Project  and to DP DCE
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1052" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : CNG - Batch (CAPTWO) - Service - Code Review Internal: Different behavior between APC and CNG when grouping on certain date fields.
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1173" << (S,lightblue) >> {
+  Summary : Solr API - BAU Support Requirements 
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-1290" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : ECP AWS Accounts and Environments Setup - Dev
   Status : To Do
   Type : Task
 }
 
 class "CNG-824" << (T,lightblue) >> {
+  Summary : CNG - SOLR API- Lambda - ST- XML Response Format 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-428" << (S,lightgreen) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : Lock-down incoming Internet traffic to akamai only by validating an encrypted akamai header
   Status : Done
   Type : Story
 }
 
 class "CNG-548" << (T,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : B/W compatible SOLR UAT set up
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1219" << (T,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Share output of SonarCloud Report
   Status : Done
   Type : Task
 }
 
 class "CNG-662" << (T,lightblue) >> {
+  Summary : CMT and Ref Data
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1216" << (S,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Commercial Analysis - LLD - External Review
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-785" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : Endpoint update in Akamai
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1299" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : Enable On-prem connectivity to SOLR API via NLB
   Status : In Progress
   Type : Task
 }
 
 class "CNG-666" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : restart of services not required for production, as batch job runs
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1330" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Migrate code from old AWS account to GitHub before deleting account
   Status : To Do
   Type : Task
 }
 
 class "CNG-1176" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : AWS Account Validation
   Status : Done
   Type : Task
 }
 
 class "CNG-668" << (S,lightblue) >> {
   Assigned to : Nigel Hassett
+  Summary : The Key stored in Redis was created with name BAH_CNG_PRL instead of ANCILLARY_PRICE. 
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1210" << (S,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Commercial Analysis - HLD - External Review 
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1331" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Confirm when old CNG AWS accounts can be deleted
   Status : To Do
   Type : Task
 }
 
 class "CNG-667" << (S,lightblue) >> {
+  Summary : batch jobs need to be in place before loud live
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1260" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Update Confluence page with Firewall Rules in Confluence 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1305" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Mapping of AHP/CNG > Stack04 > DP CMT Environments
   Status : In Progress
   Type : Task
 }
 
 class "CNG-596" << (S,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Common API Build
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1304" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Unable to View Error Logs in AWS Cloudwatch for Opensearch
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1301" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Create Vulnerability Report Infrastructure
   Status : To Do
   Type : Task
 }
 
 class "CNG-873" << (T,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Design Tracker 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-993" << (R,red) >> {
   Assigned to : Sana Fathima
+  Summary : LLD Baseline Date impacted due to House Keeping POC
   Status : To Do
   Type : Risks
 }
 
 class "CNG-630" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : BA Cyber Security Requirements 
   Status : Done
   Type : Task
 }
 
 class "CNG-1300" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : Rename dev01 to sit01
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1025" << (S,lightblue) >> {
   Assigned to : Riti Agarwal
+  Summary : Define Definition of Done for Acceptance Criteria for each User Story
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-874" << (T,lightblue) >> {
   Assigned to : Abdul Kader Nabil
+  Summary : CNG - SOLR API- Impacted Component - LLD, Layers, Lambda - CR - b/w Solr ^ (boost) Logic
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1146" << (W,lightblue) >> {
   Assigned to : Stephy Aniyan
+  Summary : Need full pack upgrade and product refresh in CAPDEV866 for CNG testing
   Status : In Progress
   Type : Work Request
 }
 
 class "CNG-599" << (T,lightblue) >> {
   Assigned to : Abinaya Arumugasamy
+  Summary : Full API data mapping review with Jon 
   Status : Done
   Type : Task
 }
 
 class "CNG-1385" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : Setup Environment for holiday pricing API
   Status : To Do
   Type : Task
 }
 
 class "CNG-635" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : 'Hardened' rhel8 AMI 
   Status : Done
   Type : Task
 }
 
 class "CNG-1023" << (T,lightblue) >> {
   Assigned to : Riti Agarwal
+  Summary : CNG-Ways of Working-Increment Zero- Agree and align on ways of working for CNG project
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1031" << (S,lightblue) >> {
   Assigned to : Pratik Desai
+  Summary : Incorporation of review comments for SOLR API and closure to be tracked in GitHub and reviewed by Nick once ready
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1273" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Update Application User Persona 
   Status : Design Review
   Type : Task
 }
 
 class "CNG-1274" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Standardisation of GitHub repo names
   Status : To Do
   Type : Task
 }
 
 class "CNG-1271" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : Complete code changes in evm-bahem and deploy in stack04 cloud and test end to end connectivity from cross account
   Status : To Do
   Type : Task
 }
 
 class "CNG-1272" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : Stubbing/logging to be taken care as per current CAPTWO framework
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1151" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : Connect to Elastic/Open Search
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1030" << (S,lightblue) >> {
   Assigned to : Pratik Desai
+  Summary : Internal Code Review for SOLR API first and capture review comments in Git Hub
   Status : In Review (migrated)
   Type : Sub-task
 }
 
 class "CNG-1390" << (N,lightgreen) >> {
   Assigned to : Narayana Golla
+  Summary : cache Parameter Store configurations for Holiday Pricing API in Common Layer
   Status : In Progress
   Type : New Feature
 }
 
 class "CNG-494" << (B,red) >> {
   Assigned to : Sulafa Malik
+  Summary : CMT - unexpected handling of First and Last Travel dates when adding End Exec date
   Status : IN UAT
   Type : Bug
 }
 
 class "CNG-926" << (T,lightblue) >> {
+  Summary : Solr - ^(boost) Logic - Design
   Status : Done
   Type : Task
 }
 
 class "CNG-807" << (T,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : CNG - SOLR API- Lambda - ST- JSON Response Format
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1039" << (S,lightblue) >> {
   Assigned to : Stephy Aniyan
+  Summary : Decide approach on Test Strategy for SOLR API and prepare Test Strategy document.
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-760" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : CNG - Housekeeping - Impacted Component - Infrastructure/Connectivity/Version-1 Tasks Housekeeping Connectivity
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1315" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : Document how to authenticate to AWS Parameter store from locan and in ECS in Confluence 
   Status : To Do
   Type : Task
 }
 
 class "CNG-1038" << (S,lightblue) >> {
   Assigned to : Stephy Aniyan
+  Summary : Identification and Agreement on Tools to be used for SIT,Regression
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1159" << (S,lightblue) >> {
+  Summary : Solr API - Project Assurance
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-765" << (S,lightblue) >> {
   Assigned to : Jon Funnell
+  Summary : CMT User Guide
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1035" << (B,red) >> {
+  Summary : multiple versions of bahcmt running within tomcat
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1398" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Enable SonarCloud on Pull Request
   Status : In Progress
   Type : Task
 }
 
 class "CNG-525" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : CNG - All API- Impacted Component - CloudWatch, Infrastructure/Connectivity/Version-1 Tasks- Logging of AWS Components
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1154" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : firewall rules for ECP account  bahahpecpdev-dev (025700222871)
   Status : To Do
   Type : Task
 }
 
 class "CNG-1275" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Revised Project HLD
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1033" << (S,lightblue) >> {
   Assigned to : Riti Agarwal
+  Summary : Provisioning of SonarQube, Snyk and Dependabot for Code Vulnerability scan. Infrastructure provisioning from Version 1
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-767" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Version 1 CRs to be discussed
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-645" << (T,lightblue) >> {
   Assigned to : Jayanth Vignesh
+  Summary : CNG - SOLR API -  CR - SOLR javabin response format 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1155" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Define ECP AWS Accounts 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1240" << (S,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Check how the logging is done within the current BAH Solr implementation
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1361" << (T,lightblue) >> {
+  Summary : Full API CNG-590 Done/Archived 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1241" << (S,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Document the logging standard we want to use in an ADR
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1360" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : Rename ecp-dev to dev01
   Status : In Progress
   Type : Task
 }
 
 class "CNG-581" << (S,lightblue) >> {
   Assigned to : Abdul Kader Nabil
+  Summary : Analysis of different Pax mix from the cache & age ranges in Full API
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-1408" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : Update OpenSearch Security Group to Allow Batch Controller Connectivity
   Status : In Progress
   Type : Task
 }
 
 class "CNG-619" << (T,lightblue) >> {
   Assigned to : Abdul Kader Nabil
+  Summary : Full API data mapping build activity 
   Status : Done
   Type : Task
 }
 
 class "CNG-1008" << (T,lightblue) >> {
+  Summary : HouseKeeping AWS - POC
   Status : To Do
   Type : Task
 }
 
 class "CNG-1006" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : AWS Account Definitions
   Status : Done
   Type : Task
 }
 
 class "CNG-1369" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Full API - Application Code Development  
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1007" << (T,lightblue) >> {
+  Summary : CNG - Batch Jobs -On Premise Database-ST-Scripts, Scheduler (Cron/Control-M)- Batch Jobs
   Status : To Do
   Type : Task
 }
 
 class "CNG-1004" << (R,red) >> {
   Assigned to : Sana Fathima
+  Summary : AHP(CNG) Requirements List
   Status : In Progress
   Type : Risks
 }
 
 class "CNG-697" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : API Consumers (Internal and External)
   Status : In Progress
   Type : Task
 }
 
 class "CNG-696" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Misc
   Status : In Progress
   Type : Task
 }
 
 class "CNG-732" << (S,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Loud Live Requirements 
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-699" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Version 1 Deliverables - CR 05-Apr-2023
   Status : Done
   Type : Task
 }
 
 class "CNG-852" << (B,red) >> {
   Assigned to : Merin Joseph
+  Summary : Search requests which have travel dates for 2024, not recognised in CMT after being uploaded from Bulk upload facility
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1366" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Full API - Low Level Design
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1363" << (T,lightblue) >> {
+  Summary : Full API CNG-589 Done/Archived 
   Status : To Do
   Type : Task
 }
 
 class "CNG-733" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : AWS Infrastructure
   Status : In Progress
   Type : Task
 }
 
 class "CNG-975" << (T,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Commercial Analysis - LLD
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1372" << (T,lightblue) >> {
   Assigned to : Narayana Golla
+  Summary : Full API - Low-Level Design - Iberia Deeplinks
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1131" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : Code review, revision & build activities 
   Status : Done
   Type : Task
 }
 
 class "CNG-1252" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Define new names for GitHub repositories following BA standards
   Status : In Progress
   Type : Task
 }
 
 class "CNG-590" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : BA Holidays Pricing Cache API (Full API) - Build
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-1094" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : Revise LLD to make it more concise 
   Status : Done
   Type : Task
 }
 
 class "CNG-908" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : Cache Endpoint Access Configuration
   Status : In Progress
   Type : Task
 }
 
 class "CNG-901" << (T,lightblue) >> {
+  Summary : Redis/Sentinel: Configure Load Balancer.  Rework of Redis
   Status : Done
   Type : Task
 }
 
 class "CNG-746" << (S,lightblue) >> {
+  Summary : Application Load Balancer - Version 1 
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-903" << (T,lightblue) >> {
+  Summary : Implement NFRs
   Status : Done
   Type : Task
 }
 
 class "CNG-506" << (T,lightblue) >> {
+  Summary : Firewall rule for access from browsers within BA network to sublive kibana instances in dev/reg/prelive CNG AWS accounts
   Status : To Do
   Type : Task
 }
 
 class "CNG-902" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Cache Endpoint Access Configuration Automation
   Status : To Do
   Type : Task
 }
 
 class "CNG-1019" << (T,lightblue) >> {
+  Summary : Full API - IAG Code Review 
   Status : Done
   Type : Task
 }
 
 class "CNG-1139" << (T,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : Recommend performance test scenarios 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1015" << (T,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : SOLR API - Internal Consumers Env Set Up - Content Proxy Or Global Cloud Connect
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1379" << (T,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Replicate OpenSearch data from sit01 to dev01
   Status : In Progress
   Type : Task
 }
 
 class "CNG-740" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : AHP Support Model
   Status : To Do
   Type : Task
 }
 
 class "CNG-1137" << (T,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : CNG - SOLR - Lambda - ELK Data Issue
   Status : In Progress
   Type : Task
 }
 
 class "CNG-589" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : BA Holidays Pricing Cache API (Full API) - Design
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-985" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : Upgrade to latest Redis/ELK stack when re-vending accounts 
   Status : Done
   Type : Task
 }
 
 class "CNG-622" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Full API build- Request validations for all prepositions
   Status : Done
   Type : Task
 }
 
 class "CNG-1410" << (T,lightblue) >> {
   Assigned to : Deepak Ingwale
+  Summary : Temporary UAT environment in dev account
   Status : In Progress
   Type : Task
 }
 
 class "CNG-588" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : BA Holidays Pricing Cache API (Full API)
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1256" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Update Confluence with Network diagram and details 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1253" << (T,lightblue) >> {
+  Summary : AWS CAPTWO Account Connectivity to AWS OpenSearch Account - All Environments 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1254" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : AWS CAPTWO Account Connectivity to AWS OpenSearch Account - Dev Environment  
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1064" << (I,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : AWS - Implement tfsec on Terraform code
   Status : In Progress
   Type : Improvement
 }
 
 class "CNG-1185" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : AWS Support Requirements
   Status : To Do
   Type : Task
 }
 
 class "CNG-1186" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : End to End Support Model
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1184" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Create Secret manager in ECP account
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1060" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : CNG-Commercial Analysis -POC Dependency
   Status : To Do
   Type : Task
 }
 
 class "CNG-1181" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : AWS Account 247992592744 to be terminated
   Status : Done
   Type : Task
 }
 
 class "CNG-680" << (S,lightblue) >> {
+  Summary : CMT and Ref Data SIT
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1061" << (I,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : AWS - Terraform (ELK) - Improve ALB + ASG attachements
   Status : Done
   Type : Improvement
 }
 
 class "CNG-681" << (S,lightblue) >> {
   Assigned to : Sulafa Malik
+  Summary : CMT and Ref Data UAT
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1180" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Create param store in ECP account
   Status : In Progress
   Type : Task
 }
 
 class "CNG-834" << (B,red) >> {
+  Summary : CNG - CMT - Impacted Component - GUI Application -CMT security vulnerability in spring libraries
   Status : Raised
   Type : Bug
 }
 
 class "CNG-716" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Special Offers
   Status : Done
   Type : Task
 }
 
 class "CNG-717" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Special Offers - Design
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-959" << (T,lightblue) >> {
+  Summary : Full API - AWS Parameter Store - Build
   Status : Done
   Type : Task
 }
 
 class "CNG-1107" << (T,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Solr API - External LLD review 
   Status : Design Review
   Type : Task
 }
 
 class "CNG-1229" << (I,orange) >> {
   Assigned to : Dileep
+  Summary : CNG - All API - Data Ingestion Pipeline - OpenSearch Dashboard availability
   Status : In Progress
   Type : Issue
 }
 
 class "CNG-1227" << (S,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : CNG - Burst (CAPTWO), Batch (CAPTWO) - Services - Establish connectivity between AWS CAPTWO stack04 to OpenSearch.
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-795" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : CNG Working Group/General Actions
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1225" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : CNG - Burst (CAPTWO), Batch (CAPTWO) - Services - Code Review
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1068" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : SPIKE - Investigate Opensearch to replace ElasticSearch
   Status : Done
   Type : Task
 }
 
 class "CNG-710" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Commercial Analysis - Design
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-556" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Solr API - Analysis & Design
   Status : Dev Review
   Type : Sub-task
 }
 
 class "CNG-555" << (T,lightblue) >> {
+  Summary : Solr API
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1069" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : SPIKE - Investigate use of Elasticache for Redis
   Status : Done
   Type : Task
 }
 
 class "CNG-558" << (S,lightblue) >> {
+  Summary : Solr API - SIT
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-833" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Version 1 Scope & Deliverables - Phase 2
   Status : Done
   Type : Task
 }
 
 class "CNG-679" << (S,lightblue) >> {
+  Summary : CMT and Ref Data Build & Package
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-557" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Solr API - Build
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1067" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : P.O.C - Deploy AWS Infra to ECP-DEV account
   Status : Done
   Type : Task
 }
 
 class "CNG-1075" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : AWS - Create a forecast for OPEX for all AWS Environments
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1196" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Modify pipeline config to add routing based on proposition
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1230" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Synk Requirements for the AHP/CNG Project 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1197" << (T,lightblue) >> {
   Assigned to : Sulafa Malik
+  Summary : CNG - CMT - Test Case Review
   Status : Done
   Type : Task
 }
 
 class "CNG-1195" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Docker image creation for CNG App
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1071" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : Rebuild Redis EC2 instances using ECP base AMIs
   Status : Done
   Type : Task
 }
 
 class "CNG-1072" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : Rebuild Elasticsearch AMIs to be ECP Compliant
   Status : Done
   Type : Task
 }
 
 class "CNG-1190" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : CR - manual updates to reference data table HOTEL_BRAND_CHAIN_INFO
   Status : To Do
   Type : Task
 }
 
 class "CNG-1070" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : Routing and Networking for ECP Dev
   Status : Done
   Type : Task
 }
 
 class "CNG-725" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : CNG - Housekeeping, Batch Jobs - Impacted Component - On Premise Database, Scripts, Scheduler (Cron/Control-M) - House Keeping Build - On Prem
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-724" << (S,lightblue) >> {
+  Summary : CNG - Housekeeping - Impacted Component -  LLD -House Keeping Design
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-603" << (T,lightblue) >> {
   Assigned to : Abdul Kader Nabil
+  Summary : Full API - Sonarlint coding standards 
   Status : Done
   Type : Task
 }
 
 class "CNG-727" << (S,lightblue) >> {
+  Summary : CNG - Housekeeping, Batch Jobs - Impacted Component - On Premise Database, Scripts, Scheduler (Cron/Control-M) - House Keeping Unit Testing - On Prem
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1237" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : GitHub Application Pipelines
   Status : In Progress
   Type : Task
 }
 
 class "CNG-562" << (T,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : CNG - All API - Infrastructure - Build - AWS Inspector Scan Infra vulnerabilities
   Status : Done
   Type : Task
 }
 
 class "CNG-1359" << (T,lightblue) >> {
   Assigned to : Abdul Kader Nabil
+  Summary : Need domain link for the ImageURL for BA and Iberia
   Status : In Progress
   Type : Task
 }
 
 class "CNG-961" << (S,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Commercial Analysis - POC
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1235" << (T,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Define Logging standards for Solr and BAHCPA
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1236" << (T,lightblue) >> {
+  Summary : AWS Infra CNG-733 Done/Archived Jiras
   Status : In Progress
   Type : Task
 }
 
 class "CNG-688" << (S,lightblue) >> {
+  Summary : Burst & Batch Controller Release Activities
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-1233" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : ECP AWS Accounts and Environments Setup
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1234" << (T,lightblue) >> {
   Assigned to : Nigel Hassett
+  Summary : Approve ECP AWS Accounts and Environments Definition Approach 
   Status : To Do
   Type : Task
 }
 
 class "CNG-1231" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : Add System Variable for the Environment name in Container 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1198" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Provision multiple environments in ECP dev account
   Status : In Progress
   Type : Task
 }

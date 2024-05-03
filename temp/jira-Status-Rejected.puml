@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Status Rejected
 hide empty members
@@ -21,18 +21,21 @@ end legend
 ' Tickets =======
 class "CNG-516" << (B,red) >> {
   Assigned to : Dale Tubb
+  Summary : Incorrect data in flight matrix fields (e.g. aircraft_2_O, aircraft_2_I etc.) for FC ABCBA to Paris
   Status : Rejected
   Type : Bug
 }
 
 class "CNG-1348" << (B,red) >> {
   Assigned to : Deepak Ingwale
+  Summary : CNG - SOLR API - System Test - Getting response for invalid field names
   Status : Rejected
   Type : Bug
 }
 
 class "CNG-1354" << (B,red) >> {
   Assigned to : Abdul Kader Nabil
+  Summary : CNG - SOLR API - System Test - Solr query is giving success response when float value passed in integer fields 
   Status : Rejected
   Type : Bug
 }

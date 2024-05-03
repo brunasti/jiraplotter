@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Person Dilip Kandamuthu
 hide empty members
@@ -21,30 +21,35 @@ end legend
 ' Tickets =======
 class "CNG-1393" << (B,red) >> {
   Assigned to : Dilip Kandamuthu
+  Summary : CNG - SOLR API - System Test -  Json format is getting displayed in response instead of Xml format even when specified in query 
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-1358" << (B,red) >> {
   Assigned to : Dilip Kandamuthu
+  Summary : CNG - SOLR API - System Test - Facet.field is not working properly for fields having data type as Float, Date and Boolean
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-1345" << (B,red) >> {
   Assigned to : Dilip Kandamuthu
+  Summary : CNG - SOLR API - System Test - Protocol and Context path is missing in DeepLink
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-1365" << (B,red) >> {
   Assigned to : Dilip Kandamuthu
+  Summary : CNG - SOLR API - System Test - Referer value is not getting passed in the DeepLink
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-1364" << (B,red) >> {
   Assigned to : Dilip Kandamuthu
+  Summary : CNG - SOLR API - System Test - Response Documents are not retrieved for HO proposition for general query
   Status : Work Complete
   Type : Bug
 }

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Person Tony Cassidy
 hide empty members
@@ -26,287 +26,335 @@ end legend
 ' Tickets =======
 class "CNG-460" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : F+C not storing results for upgraded cabins as expected
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-481" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : HO - destinationCountryName actually contains destination country code
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-462" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CNG UAT - Price differences for LON to SYD - Both F+H and F+C
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-484" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : FH - hotelRatePlanCode not populating (HO is ok)
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-461" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CNG UAT - Price difference for Car Only US Market
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-483" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CO, FC - not all availability responses messages being cached for a CMT ref id
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-439" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : Some HO and CO availability request parameters as not as per live
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-438" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : HO index - roomTypeCode is actually storing room name
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-859" << (T,lightblue) >> {
   Assigned to : Tony Cassidy
+  Summary : SOLr B/W UAT- javabin format
   Status : Done
   Type : Task
 }
 
 class "CNG-517" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : flightReference field is not present in Kibana for FH
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-519" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : SIT- When a huge records are pushed for Batch retry at the 3rd Cycle the records are being struck at BATCH_STARTED
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-453" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : FH - We are caching BA.com holiday finder urls for IB brand
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-475" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : FH hotelPromotionCode not being populated
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-510" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : Propositions (e.g. FH-10151 & CO-10081) - not all AncillaryIDs are being Batched
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-455" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CNG UAT - Unable to manually Burst content. 
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-454" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CNG UAT - LAST_FAILED_DATE column is not getting populated when Batches fail or retry
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-432" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : Some FC Package Search parameters are not as per live
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-476" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : FC numberOfStop not populated
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-512" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : Unexpected field, 'event.original', present in Kibana for all propositions
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-435" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CO index -  carBrandIdentifier is storing full car supplier name and not supplier code
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-511" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : Inconsistent mapping of 'airlineMetal' field between FH & FC
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-456" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CNG UAT - Child Age not being added to Deeplink url
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-514" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : HO - Caching incorrect roomTypeCode and roomType
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-459" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : Current retry logic results in failed searches being re-issued many times
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-437" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : Inappropriate Data Types used for fields across the different indexes
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-513" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : Data Field destinationIATA is blank in Kibana for particular Cities - LON and PAR
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-436" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : Inconsistent Paxmix field types and names across different indexes
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-471" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CNG UAT - Missing Data field (RetCabinCode) for F+C AncillaryIDs in the Cache
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-492" << (T,lightblue) >> {
   Assigned to : Tony Cassidy
+  Summary : (3844) - Hotel alt tag workaround due to missing data in availability response
   Status : Done
   Type : Task
 }
 
 class "CNG-473" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : FH & FC - fareclass not being stored in ELS
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-451" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CNG UAT - Incorrect loyalty points showing in cache for Club Bookings
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-472" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : FH & FC Direct flights not being populated
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-504" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : packageDuration not being populated correctly in FC proposition
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-449" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : Display of datetime fields in Kibana is not as per the availability response
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-509" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : 'flightCarrier_3_O' and 'terminal_3_O' field missing in Kibana for FH
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-464" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CNG UAT - Incorrect Data Table set up for 2 Tables
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-486" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : FC - departureAirport and departureTime fields not populated as expected in Kibana
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-463" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CNG UAT - CMT on bhdev56 is down
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-686" << (S,lightblue) >> {
+  Summary : CNG - Burst & Batch Controller - SIT
   Status : QA
   Type : Sub-task
 }
 
 class "CNG-444" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CNG - Batch (CAPTWO) - Impacted Component - Service - CNG UAT - F+C Packages - Not all being cached when compared against front end
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-465" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CNG UAT - Child ages appearing after being removed from Search Requests
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-443" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CNG UAT - Price difference due to overnight flight as part of FH Package
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-487" << (T,lightblue) >> {
   Assigned to : Tony Cassidy
+  Summary : (3844) - Updates to data mapping and field definitions based on outcome of mapping review
   Status : Done
   Type : Task
 }
 
 class "CNG-764" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CNG Application Check for APC Production Issue – FC NYC-LON Searches not producing prices in the APC 
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-445" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CNG UAT - Deeplink url not working for Car Only
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-448" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CNG UAT - REQ_STATUS (null) - Burst and Batch process not running
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-469" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : Additional Whitespace being sent in availability request CountryOfResidence field
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-447" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CNG UAT - Price change popup displayed in error after using Deeplink url for Cars
   Status : Withdrawn
   Type : Bug
 }

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Person Surya Prakash Bhallamudi
 hide empty members
@@ -24,42 +24,49 @@ end legend
 ' Tickets =======
 class "CNG-1073" << (S,lightblue) >> {
   Assigned to : Surya Prakash Bhallamudi
+  Summary : Code Review Checklist 
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-590" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : BA Holidays Pricing Cache API (Full API) - Build
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-1030" << (S,lightblue) >> {
   Assigned to : Pratik Desai
+  Summary : Internal Code Review for SOLR API first and capture review comments in Git Hub
   Status : In Review (migrated)
   Type : Sub-task
 }
 
 class "CNG-1368" << (T,lightblue) >> {
   Assigned to : Surya Prakash Bhallamudi
+  Summary : Full API - External Application Code Review 
   Status : To Do
   Type : Task
 }
 
 class "CNG-1145" << (T,lightblue) >> {
   Assigned to : Surya Prakash Bhallamudi
+  Summary : Initial external code review
   Status : Done
   Type : Task
 }
 
 class "CNG-1388" << (T,lightblue) >> {
   Assigned to : Surya Prakash Bhallamudi
+  Summary : Application Development Tracker
   Status : To Do
   Type : Task
 }
 
 class "CNG-1121" << (T,lightblue) >> {
   Assigned to : Surya Prakash Bhallamudi
+  Summary : Agree code review standards 
   Status : Done
   Type : Task
 }

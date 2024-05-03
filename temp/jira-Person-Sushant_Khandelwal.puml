@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Person Sushant Khandelwal
 hide empty members
@@ -36,335 +36,392 @@ end legend
 ' Tickets =======
 class "CNG-583" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : SIP B/W Compatible API Design
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-537" << (B,red) >> {
   Assigned to : Shafiqul Islam
+  Summary : API deployment pipeline - Issue with Version 1
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-814" << (S,lightblue) >> {
+  Summary : Solr API - Environment Set Up & Configuration 
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-418" << (B,red) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Unable to see the BATCH COMPLETED records in Kibana
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-938" << (B,red) >> {
   Assigned to : Sushant Khandelwal
+  Summary : SIT: Unable to see records in the Kibana
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-772" << (B,red) >> {
   Assigned to : Sushant Khandelwal
+  Summary : SIT-Unable to see the Batch Completed record in Kibana
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-695" << (I,orange) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Version 1: the DEV-Redis connectivity is down 
   Status : Resolved (Closed)
   Type : Impediment (Issue)
 }
 
 class "CNG-533" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Burst and Batch Controller- CAP2-ASY04-42 release 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-610" << (S,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : CNG - Common - Performance Testing - Batch Controller
   Status : QA
   Type : Sub-task
 }
 
 class "CNG-1044" << (S,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : AWS inspector warnings for CNG
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-657" << (I,orange) >> {
   Assigned to : Shafiqul Islam
+  Summary : CNG - Housekeeping - Impacted Component - On Premise Database, Infrastructure/Connectivity/Version-1 Tasks - housekeeping connectivity to on prem database to be fixed by Version 1 
   Status : Resolved (Closed)
   Type : Impediment (Issue)
 }
 
 class "CNG-548" << (T,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : B/W compatible SOLR UAT set up
   Status : In Progress
   Type : Task
 }
 
 class "CNG-628" << (S,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Full API design tracker comment- Need to add in response schemas for other - propositions - please see CNG 934
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-627" << (S,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Full API design tracker comment- Akamai flow to be added in the architecture - please see CNG-933
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-949" << (T,lightblue) >> {
+  Summary : CNG - SOLR API- AWS Parameter Store - ST 
   Status : To Do
   Type : Task
 }
 
 class "CNG-948" << (T,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Solr - AWS Parameter Store - Build
   Status : Done
   Type : Task
 }
 
 class "CNG-629" << (T,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : CNG - Batch Jobs - Impacted Component - On Premise Database, Scripts, Scheduler (Cron/Control-M) - ST - Create a batch script for Search request that are struck in burst controller by more than 1 hour.
   Status : Dev Review
   Type : Task
 }
 
 class "CNG-585" << (S,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : SIP B/W Compatible API SIT
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-1336" << (B,red) >> {
   Assigned to : Sushant Khandelwal
+  Summary : problems with CNG batch scripts
   Status : In Work
   Type : Bug
 }
 
 class "CNG-661" << (S,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : CNG - Burst (CAPTWO), Batch Jobs - Impacted Component - Service, Scripts, Scheduler (Cron/Control-M)Create a batch job for invoking burst controller every one minute
   Status : Dev Review
   Type : Sub-task
 }
 
 class "CNG-543" << (S,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Firewall rule for Sublive
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-983" << (B,red) >> {
   Assigned to : Sushant Khandelwal
+  Summary : CNG - All API - Lambda, Layers - Build - AWS inspector warnings for lambda microservices
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-1015" << (T,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : SOLR API - Internal Consumers Env Set Up - Content Proxy Or Global Cloud Connect
   Status : In Progress
   Type : Task
 }
 
 class "CNG-620" << (T,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Housekeeping comments
   Status : Design Review
   Type : Task
 }
 
 class "CNG-544" << (S,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Firewall rule for Live
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-984" << (T,lightblue) >> {
+  Summary : RAID Log
   Status : To Do
   Type : Task
 }
 
 class "CNG-1011" << (R,red) >> {
   Assigned to : Sushant Khandelwal
+  Summary : TDL time allocated to CNG meetings impacting current tasks
   Status : To Do
   Type : Risks
 }
 
 class "CNG-943" << (T,lightblue) >> {
+  Summary : SIP - Akamai flow to be added - Design
   Status : Done
   Type : Task
 }
 
 class "CNG-546" << (N,lightgreen) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : Redis Authentication
   Status : Done
   Type : New Feature
 }
 
 class "CNG-1021" << (S,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Performance Testing-Pool Connection Issue in DevPerf and E2E Environment 
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-837" << (T,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : SIP AI redirection challenges and alternate approach to authenticate with in CNG SIP API
   Status : Done
   Type : Task
 }
 
 class "CNG-638" << (T,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Error code mismatches identified - Design SIP API
   Status : Done
   Type : Task
 }
 
 class "CNG-992" << (B,red) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Wrong endpoint captured in SIP URL
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-673" << (S,lightblue) >> {
+  Summary : CNG-527 : Expiry time for messages in Redis 
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-794" << (T,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Endpoint update in F5
   Status : Done
   Type : Task
 }
 
 class "CNG-595" << (S,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Design
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-598" << (T,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Full API design tracker comments with Version 1 
   Status : Done
   Type : Task
 }
 
 class "CNG-674" << (S,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : CNG-528 : Redis error monitoring in Batch Controller 
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-630" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : BA Cyber Security Requirements 
   Status : Done
   Type : Task
 }
 
 class "CNG-677" << (S,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Versioning of lambdas
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-875" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : Version 1 Questions 
   Status : Done
   Type : Task
 }
 
 class "CNG-756" << (S,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Application Load Balancer 
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-558" << (S,lightblue) >> {
+  Summary : Solr API - SIT
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-1220" << (T,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Solr common-lib Operations: Pushing to and Pulling from GitHub Packages
   Status : Done
   Type : Task
 }
 
 class "CNG-557" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Solr API - Build
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1394" << (B,red) >> {
   Assigned to : Sushant Khandelwal
+  Summary : CNG - SOLR API - System Test - Holiday Finder issues with Unfiltered view
   Status : Raised
   Type : Bug
 }
 
 class "CNG-527" << (T,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Expiry time for messages in Redis
   Status : Done
   Type : Task
 }
 
 class "CNG-604" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Common API Design
   Status : Dev Review
   Type : Task
 }
 
 class "CNG-528" << (T,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : CNG - Batch - Redis - ST -Redis error monitoring in Batch Controller
   Status : Done
   Type : Task
 }
 
 class "CNG-684" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Burst & Batch Controller Analysis and Design
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-640" << (T,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Akamai flow to be updated in architecture
   Status : Done
   Type : Task
 }
 
 class "CNG-562" << (T,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : CNG - All API - Infrastructure - Build - AWS Inspector Scan Infra vulnerabilities
   Status : Done
   Type : Task
 }
 
 class "CNG-686" << (S,lightblue) >> {
+  Summary : CNG - Burst & Batch Controller - SIT
   Status : QA
   Type : Sub-task
 }
 
 class "CNG-685" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Burst & Batch Controller Build
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-523" << (N,lightgreen) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Look at options for encrypting data in transit from batch controller to redis
   Status : Done
   Type : New Feature
 }
 
 class "CNG-600" << (T,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Full API design tracker comment- Akamai flow to be added in the architecture
   Status : Done
   Type : Task
 }
 
 class "CNG-522" << (N,lightgreen) >> {
   Assigned to : Nigel Hassett
+  Summary : Look at options for compression in redis
   Status : Done
   Type : New Feature
 }

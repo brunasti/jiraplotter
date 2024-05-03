@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Status Resolved
 hide empty members
@@ -21,6 +21,7 @@ end legend
 ' Tickets =======
 class "CNG-545" << (X,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Need SIP responses from SIP team to work on Response json to XML 
   Status : Resolved
   Type : Risk
 }

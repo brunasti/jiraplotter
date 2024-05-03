@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Status Dev Review
 hide empty members
@@ -29,99 +29,116 @@ end legend
 ' Tickets =======
 class "CNG-604" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Common API Design
   Status : Dev Review
   Type : Task
 }
 
 class "CNG-537" << (B,red) >> {
   Assigned to : Shafiqul Islam
+  Summary : API deployment pipeline - Issue with Version 1
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-757" << (S,lightblue) >> {
+  Summary : Other Common Components in AWS 
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-738" << (T,lightblue) >> {
+  Summary : Token Authorizer - Full API 
   Status : Done
   Type : Task
 }
 
 class "CNG-629" << (T,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : CNG - Batch Jobs - Impacted Component - On Premise Database, Scripts, Scheduler (Cron/Control-M) - ST - Create a batch script for Search request that are struck in burst controller by more than 1 hour.
   Status : Dev Review
   Type : Task
 }
 
 class "CNG-1327" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Increase OpenSearch tier and number of nodes 
   Status : Dev Review
   Type : Task
 }
 
 class "CNG-1238" << (S,lightblue) >> {
   Assigned to : Jayanth Vignesh
+  Summary : CNG - SOLR API - (3844) - Sensitive data validation
   Status : Dev Review
   Type : Sub-task
 }
 
 class "CNG-661" << (S,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : CNG - Burst (CAPTWO), Batch Jobs - Impacted Component - Service, Scripts, Scheduler (Cron/Control-M)Create a batch job for invoking burst controller every one minute
   Status : Dev Review
   Type : Sub-task
 }
 
 class "CNG-961" << (S,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Commercial Analysis - POC
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-556" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Solr API - Analysis & Design
   Status : Dev Review
   Type : Sub-task
 }
 
 class "CNG-754" << (S,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : API Gateway
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-1058" << (T,lightblue) >> {
   Assigned to : Stephy Aniyan
+  Summary : CNG - SOLR - Lambda - Clarification on Data mapping of double to int conversion. 
   Status : Dev Review
   Type : Task
 }
 
 class "CNG-657" << (I,orange) >> {
   Assigned to : Shafiqul Islam
+  Summary : CNG - Housekeeping - Impacted Component - On Premise Database, Infrastructure/Connectivity/Version-1 Tasks - housekeeping connectivity to on prem database to be fixed by Version 1 
   Status : Resolved (Closed)
   Type : Impediment (Issue)
 }
 
 class "CNG-756" << (S,lightblue) >> {
   Assigned to : Sushant Khandelwal
+  Summary : Application Load Balancer 
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-723" << (T,lightblue) >> {
+  Summary : House Keeping
   Status : To Do
   Type : Task
 }
 
 class "CNG-557" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Solr API - Build
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-678" << (S,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : AWS-Logging and Monitoring
   Status : Done
   Type : Sub-task
 }

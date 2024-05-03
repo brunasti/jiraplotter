@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Person Pooja Ravi
 hide empty members
@@ -22,18 +22,21 @@ end legend
 ' Tickets =======
 class "CNG-515" << (B,red) >> {
   Assigned to : Pooja Ravi
+  Summary : SIT-Able to see the records in Kibana which has REQ_STATUS as DELETED.
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-442" << (B,red) >> {
   Assigned to : Pooja Ravi
+  Summary : CNG UAT - Burst and Batch process appears to be down
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-854" << (B,red) >> {
   Assigned to : Pooja Ravi
+  Summary : Incorrect wording on popup in CMT - Not In Scope for TCS
   Status : Raised
   Type : Bug
 }

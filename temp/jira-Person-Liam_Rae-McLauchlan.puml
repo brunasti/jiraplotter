@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Person Liam Rae-McLauchlan
 hide empty members
@@ -25,132 +25,154 @@ end legend
 ' Tickets =======
 class "CNG-1064" << (I,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : AWS - Implement tfsec on Terraform code
   Status : In Progress
   Type : Improvement
 }
 
 class "CNG-1042" << (S,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : Environment Strategy for CNG - Need of Development environment
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1065" << (I,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : AWS - Redis security groups
   Status : To Do
   Type : Improvement
 }
 
 class "CNG-1062" << (I,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : AWS - Terraform - Add tags to VPC subnets
   Status : To Do
   Type : Improvement
 }
 
 class "CNG-1063" << (I,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : AWS - Lambdas - Tidy up Security Groups
   Status : To Do
   Type : Improvement
 }
 
 class "CNG-1071" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : Rebuild Redis EC2 instances using ECP base AMIs
   Status : Done
   Type : Task
 }
 
 class "CNG-1061" << (I,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : AWS - Terraform (ELK) - Improve ALB + ASG attachements
   Status : Done
   Type : Improvement
 }
 
 class "CNG-1072" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : Rebuild Elasticsearch AMIs to be ECP Compliant
   Status : Done
   Type : Task
 }
 
 class "CNG-1070" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : Routing and Networking for ECP Dev
   Status : Done
   Type : Task
 }
 
 class "CNG-1108" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : Add AWS Parameter Store to be added to terraform
   Status : Done
   Type : Task
 }
 
 class "CNG-1006" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : AWS Account Definitions
   Status : Done
   Type : Task
 }
 
 class "CNG-894" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : Upgrade to latest versions of ELK and Redis.
   Status : Done
   Type : Task
 }
 
 class "CNG-630" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : BA Cyber Security Requirements 
   Status : Done
   Type : Task
 }
 
 class "CNG-985" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : Upgrade to latest Redis/ELK stack when re-vending accounts 
   Status : Done
   Type : Task
 }
 
 class "CNG-1068" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : SPIKE - Investigate Opensearch to replace ElasticSearch
   Status : Done
   Type : Task
 }
 
 class "CNG-1112" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : Demo deployed resources in regression env
   Status : Done
   Type : Task
 }
 
 class "CNG-1069" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : SPIKE - Investigate use of Elasticache for Redis
   Status : Done
   Type : Task
 }
 
 class "CNG-635" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : 'Hardened' rhel8 AMI 
   Status : Done
   Type : Task
 }
 
 class "CNG-1176" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : AWS Account Validation
   Status : Done
   Type : Task
 }
 
 class "CNG-1110" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : Share regression env Redis credentials/URL details
   Status : Done
   Type : Task
 }
 
 class "CNG-1067" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : P.O.C - Deploy AWS Infra to ECP-DEV account
   Status : Done
   Type : Task
 }
 
 class "CNG-1111" << (T,lightblue) >> {
   Assigned to : Liam Rae-McLauchlan
+  Summary : Deploy regression env DNS, Certificates and ELK
   Status : Done
   Type : Task
 }

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Person Aswathi Ullattil
 hide empty members
@@ -24,24 +24,28 @@ end legend
 ' Tickets =======
 class "CNG-1130" << (S,lightblue) >> {
   Assigned to : Aswathi Ullattil
+  Summary : Automation feasibility for SOLR API testing
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-1337" << (B,red) >> {
   Assigned to : Aswathi Ullattil
+  Summary : CNG-SOLR API-System Test- Default sorting and row counts not working for safe handler in FH,FC,HO propositions and FH/hfHandler
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-1002" << (W,lightblue) >> {
   Assigned to : Aswathi Ullattil
+  Summary : APC setup required for CNG-68 (3844) - Competitor Analysis project
   Status : Done
   Type : Work Request
 }
 
 class "CNG-1332" << (B,red) >> {
   Assigned to : Aswathi Ullattil
+  Summary : CNG - SOLR API - Sanity Test - Missing field names in SOLR response for FC Proposition
   Status : Work Complete
   Type : Bug
 }

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Person Paolo Brunasti
 hide empty members
@@ -27,168 +27,196 @@ end legend
 ' Tickets =======
 class "CNG-1240" << (S,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Check how the logging is done within the current BAH Solr implementation
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1185" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : AWS Support Requirements
   Status : To Do
   Type : Task
 }
 
 class "CNG-1241" << (S,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Document the logging standard we want to use in an ADR
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-977" << (S,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Commercial Analysis - LLD - External Review
   Status : Design Review
   Type : Sub-task
 }
 
 class "CNG-1107" << (T,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Solr API - External LLD review 
   Status : Design Review
   Type : Task
 }
 
 class "CNG-1305" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Mapping of AHP/CNG > Stack04 > DP CMT Environments
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1229" << (I,orange) >> {
   Assigned to : Dileep
+  Summary : CNG - All API - Data Ingestion Pipeline - OpenSearch Dashboard availability
   Status : In Progress
   Type : Issue
 }
 
 class "CNG-1204" << (T,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Check Docker Image Source
   Status : Done
   Type : Task
 }
 
 class "CNG-1028" << (S,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : LLD is done in word document and not confluence..we need to move this to confluence and segerate them properly. LLD does not have proper traecability to Requirement Jiras. First SOLR API will be picked and migrated to confluence
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-873" << (T,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Design Tracker 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-710" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Commercial Analysis - Design
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-556" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Solr API - Analysis & Design
   Status : Dev Review
   Type : Sub-task
 }
 
 class "CNG-1242" << (S,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Validate the Logging ADR with stakeholders
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-733" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : AWS Infrastructure
   Status : In Progress
   Type : Task
 }
 
 class "CNG-557" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Solr API - Build
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1273" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Update Application User Persona 
   Status : Design Review
   Type : Task
 }
 
 class "CNG-1230" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Synk Requirements for the AHP/CNG Project 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1274" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Standardisation of GitHub repo names
   Status : To Do
   Type : Task
 }
 
 class "CNG-1195" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Docker image creation for CNG App
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1219" << (T,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Share output of SonarCloud Report
   Status : Done
   Type : Task
 }
 
 class "CNG-1239" << (S,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Find BAH Logging standards
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-1216" << (S,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Commercial Analysis - LLD - External Review
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1315" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : Document how to authenticate to AWS Parameter store from locan and in ECS in Confluence 
   Status : To Do
   Type : Task
 }
 
 class "CNG-1235" << (T,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Define Logging standards for Solr and BAHCPA
   Status : In Progress
   Type : Task
 }
 
 class "CNG-961" << (S,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Commercial Analysis - POC
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1379" << (T,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Replicate OpenSearch data from sit01 to dev01
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1275" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Revised Project HLD
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1210" << (S,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Commercial Analysis - HLD - External Review 
   Status : In Progress
   Type : Sub-task
 }

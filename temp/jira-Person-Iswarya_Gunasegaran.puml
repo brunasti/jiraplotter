@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Person Iswarya Gunasegaran
 hide empty members
@@ -22,30 +22,35 @@ end legend
 ' Tickets =======
 class "CNG-713" << (S,lightblue) >> {
   Assigned to : Iswarya Gunasegaran
+  Summary : Commercial Analysis - UAT
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-715" << (S,lightblue) >> {
   Assigned to : Iswarya Gunasegaran
+  Summary : Commercial Analysis - Release Activities
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-651" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : direct access to elastic search via internal load balancer
   Status : To Do
   Type : Task
 }
 
 class "CNG-712" << (S,lightblue) >> {
   Assigned to : Iswarya Gunasegaran
+  Summary : Commercial Analysis - SIT
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-711" << (S,lightblue) >> {
   Assigned to : Iswarya Gunasegaran
+  Summary : Commercial Analysis - Build
   Status : To Do
   Type : Sub-task
 }

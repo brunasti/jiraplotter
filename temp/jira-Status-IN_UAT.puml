@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Status IN UAT
 hide empty members
@@ -26,72 +26,84 @@ end legend
 ' Tickets =======
 class "CNG-559" << (S,lightblue) >> {
   Assigned to : Sulafa Malik
+  Summary : Solr API - UAT
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-606" << (B,red) >> {
   Assigned to : Sulafa Malik
+  Summary : Inconsistent use of timezone in date fields in CNG fields
   Status : IN UAT
   Type : Bug
 }
 
 class "CNG-904" << (B,red) >> {
   Assigned to : Sulafa Malik
+  Summary : Difference in SOLR response between Live and Dev when the resultset is empty
   Status : IN UAT
   Type : Bug
 }
 
 class "CNG-494" << (B,red) >> {
   Assigned to : Sulafa Malik
+  Summary : CMT - unexpected handling of First and Last Travel dates when adding End Exec date
   Status : IN UAT
   Type : Bug
 }
 
 class "CNG-684" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Burst & Batch Controller Analysis and Design
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-521" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : burst controller throws ERROR com.ba.captwo.framework.event.produce.MessageProducerImpl [Dest=BAHCMT.BURST.DATAEVENT.CMH.EVENTS.ALIAS] and [DT=json]
   Status : IN UAT
   Type : Bug
 }
 
 class "CNG-687" << (S,lightblue) >> {
   Assigned to : Sulafa Malik
+  Summary : Burst & Batch Controller UAT
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-599" << (T,lightblue) >> {
   Assigned to : Abinaya Arumugasamy
+  Summary : Full API data mapping review with Jon 
   Status : Done
   Type : Task
 }
 
 class "CNG-536" << (B,red) >> {
   Assigned to : Sulafa Malik
+  Summary : Deeplink url parameters look to be incorrect
   Status : IN UAT
   Type : Bug
 }
 
 class "CNG-646" << (B,red) >> {
   Assigned to : Sulafa Malik
+  Summary : HolidayFinder url MONTH parameter should be based on customers month of departure not arrival (overnight flights)
   Status : IN UAT
   Type : Bug
 }
 
 class "CNG-777" << (B,red) >> {
   Assigned to : Sulafa Malik
+  Summary : CNG - Batch (CAPTWO) - Impacted Component - Service, Elastic Search, Kibana - CNG should not store availability details without a price.  
   Status : IN UAT
   Type : Bug
 }
 
 class "CNG-557" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Solr API - Build
   Status : In Progress
   Type : Sub-task
 }

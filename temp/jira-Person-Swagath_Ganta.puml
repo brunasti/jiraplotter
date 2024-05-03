@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Person Swagath Ganta
 hide empty members
@@ -24,36 +24,42 @@ end legend
 ' Tickets =======
 class "CNG-1228" << (S,lightblue) >> {
   Assigned to : Swagath Ganta
+  Summary : CNG - Burst (CAPTWO), Batch (CAPTWO) - Services - Deploy Latest war AWS Stack 04 file through Jenkins pipeline.
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-1328" << (S,lightblue) >> {
   Assigned to : Swagath Ganta
+  Summary : Validate dependent components configurations in stack 04 PINT, E2E, DPERF, and PERF environments.  
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1226" << (T,lightblue) >> {
   Assigned to : Swagath Ganta
+  Summary : CNG - Burst (CAPTWO), Batch (CAPTWO) - Services - DEV AWS Stack 04 Migration (PINT, E2E, DPERF and PERF)
   Status : To Do
   Type : Task
 }
 
 class "CNG-1312" << (S,lightblue) >> {
   Assigned to : Swagath Ganta
+  Summary : Need read access to CAPTWO Database Config Table-  to check the captwo configs   sync with application Configs  required read access to NID 
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-1313" << (S,lightblue) >> {
   Assigned to : Swagath Ganta
+  Summary : Need CMH queue details for all environments - since it is required for application configurations.
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-1200" << (T,lightblue) >> {
   Assigned to : Swagath Ganta
+  Summary : Accept TGW attachment in shared accounts
   Status : Done
   Type : Task
 }

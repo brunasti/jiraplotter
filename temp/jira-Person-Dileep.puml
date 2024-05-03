@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Person Dileep
 hide empty members
@@ -24,119 +24,139 @@ end legend
 ' Tickets =======
 class "CNG-1262" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : Update Route Tables on the Service VPC to map to TGW Attachement 
   Status : Done
   Type : Task
 }
 
 class "CNG-1263" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : Test connectivity between CAPTWO to OpenSearch Account - Infra Team
   Status : Done
   Type : Task
 }
 
 class "CNG-1395" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : Connection Issues with Secrets Manager and Parameter Store After Recent Dev Environment Changes
   Status : To Do
   Type : Task
 }
 
 class "CNG-1271" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : Complete code changes in evm-bahem and deploy in stack04 cloud and test end to end connectivity from cross account
   Status : To Do
   Type : Task
 }
 
 class "CNG-1360" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : Rename ecp-dev to dev01
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1181" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : AWS Account 247992592744 to be terminated
   Status : Done
   Type : Task
 }
 
 class "CNG-1408" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : Update OpenSearch Security Group to Allow Batch Controller Connectivity
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1229" << (I,orange) >> {
   Assigned to : Dileep
+  Summary : CNG - All API - Data Ingestion Pipeline - OpenSearch Dashboard availability
   Status : In Progress
   Type : Issue
 }
 
 class "CNG-1237" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : GitHub Application Pipelines
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1259" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : Request East-West Firewall Rules Set Up to CAPTWO team 
   Status : Done
   Type : Task
 }
 
 class "CNG-1249" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : Connect SOLR API Repo to GitHub Packages - PAT Tokens
   Status : Done
   Type : Task
 }
 
 class "CNG-1257" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : Move one of the OpenSearch VPC Endpoints in the Service VPC 
   Status : Done
   Type : Task
 }
 
 class "CNG-1258" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : Move the Ingestion Pipeline into the Service VPC - Dileep 
   Status : Done
   Type : Task
 }
 
 class "CNG-1245" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : Create Pipeline to push Common Library to GitHub Packages
   Status : Done
   Type : Task
 }
 
 class "CNG-1300" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : Rename dev01 to sit01
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1286" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : Raise firewall request to connect to ecp-dev01 environment
   Status : To Do
   Type : Task
 }
 
 class "CNG-1264" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : Test connectivity between CAPTWO to OpenSearch Account - App Team
   Status : To Do
   Type : Task
 }
 
 class "CNG-1253" << (T,lightblue) >> {
+  Summary : AWS CAPTWO Account Connectivity to AWS OpenSearch Account - All Environments 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1385" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : Setup Environment for holiday pricing API
   Status : To Do
   Type : Task
 }
 
 class "CNG-1254" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : AWS CAPTWO Account Connectivity to AWS OpenSearch Account - Dev Environment  
   Status : In Progress
   Type : Task
 }

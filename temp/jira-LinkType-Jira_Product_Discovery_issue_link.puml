@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Link Type Jira Product Discovery issue link
 hide empty members
@@ -22,12 +22,14 @@ end legend
 ' Tickets =======
 class "CNG-1153" << (T,lightblue) >> {
   Assigned to : Stephy Aniyan
+  Summary : HTTP Request Compression in CAPTWO
   Status : QA
   Type : Task
 }
 
 class "CNG-1151" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : Connect to Elastic/Open Search
   Status : In Progress
   Type : Task
 }

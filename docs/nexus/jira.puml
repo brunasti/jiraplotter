@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Fri May 03 10:06:54 CEST 2024
+' Generated at    : Fri May 03 10:34:43 CEST 2024
 
 title Jira Tickets general diagram
 hide empty members
@@ -18,79 +18,79 @@ end legend
 
 ' Jira Tickets =======
 class "ARS-5" << (S,lightgreen) >> {
-  Name : Email with Results as a pdf
+  Summary : Email with Results as a pdf
   Status : To Do
   Type : Story
 }
 
 class "ARS-6" << (S,lightgreen) >> {
-  Name : CP Dashboard
+  Summary : CP Dashboard
   Status : To Do
   Type : Story
 }
 
 class "ARS-3" << (S,lightgreen) >> {
-  Name : Survey Progress Bar
+  Summary : Survey Progress Bar
   Status : To Do
   Type : Story
 }
 
 class "ARS-4" << (S,lightgreen) >> {
-  Name : Survey Results Page
+  Summary : Survey Results Page
   Status : To Do
   Type : Story
 }
 
 class "ARS-9" << (S,lightgreen) >> {
-  Name : Results Page - Personalised High-Level Roadmap component
+  Summary : Results Page - Personalised High-Level Roadmap component
   Status : To Do
   Type : Story
 }
 
 class "ARS-7" << (S,lightgreen) >> {
-  Name : CP Personalised roadmap for follow up conversations
+  Summary : CP Personalised roadmap for follow up conversations
   Status : To Do
   Type : Story
 }
 
 class "ARS-8" << (S,lightgreen) >> {
-  Name : Results Page - Scoring Graphic Component
+  Summary : Results Page - Scoring Graphic Component
   Status : To Do
   Type : Story
 }
 
-class "ARS-12" << (X,lightblue) >> {
-  Name : Send email to customer with the PDF as attachment
+class "ARS-12" << (S,lightblue) >> {
+  Summary : Send email to customer with the PDF as attachment
   Status : To Do
   Type : Subtask
 }
 
-class "ARS-13" << (X,lightblue) >> {
-  Name : Activation of the process of generating and sending the email
+class "ARS-13" << (S,lightblue) >> {
+  Summary : Activation of the process of generating and sending the email
   Status : To Do
   Type : Subtask
 }
 
 class "ARS-1" << (S,lightgreen) >> {
-  Name : Survey Landing Page
+  Summary : Survey Landing Page
   Status : To Do
   Type : Story
 }
 
 class "ARS-2" << (S,lightgreen) >> {
-  Name : Survey Questions Pages
+  Summary : Survey Questions Pages
   Status : To Do
   Type : Story
 }
 
 class "ARS-10" << (S,lightgreen) >> {
-  Name : Customised Survey Landing Page URL
+  Summary : Customised Survey Landing Page URL
   Status : To Do
   Type : Story
 }
 
-class "ARS-11" << (X,lightblue) >> {
-  Name : Generate the PDF with the report for a single survey response
+class "ARS-11" << (S,lightblue) >> {
+  Summary : Generate the PDF with the report for a single survey response
   Status : To Do
   Type : Subtask
 }
@@ -98,6 +98,9 @@ class "ARS-11" << (X,lightblue) >> {
 
 
 ' Parents =======
+"ARS-5" <|-- "ARS-12"
+"ARS-5" <|-- "ARS-13"
+"ARS-5" <|-- "ARS-11"
 
 
 ' Links =======

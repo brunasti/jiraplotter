@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Status In Work
 hide empty members
@@ -21,36 +21,42 @@ end legend
 ' Tickets =======
 class "CNG-1336" << (B,red) >> {
   Assigned to : Sushant Khandelwal
+  Summary : problems with CNG batch scripts
   Status : In Work
   Type : Bug
 }
 
 class "CNG-1347" << (B,red) >> {
   Assigned to : Sankaranarayanan Kopparasukavi
+  Summary : CNG-SOLR API-System Test - Getting Success Response for Solr requests when sensitive fields[fareClass related] are passed in query
   Status : In Work
   Type : Bug
 }
 
 class "CNG-1356" << (B,red) >> {
   Assigned to : Anand Jajoo
+  Summary : CNG - SOLR API - System Test - Issue with q operation for comma separated values
   Status : In Work
   Type : Bug
 }
 
 class "CNG-1397" << (B,red) >> {
   Assigned to : Sankaranarayanan Kopparasukavi
+  Summary : CNG - SOLR API - System Test - MIN,MAX issues for different handlers and propositions.
   Status : In Work
   Type : Bug
 }
 
 class "CNG-1342" << (B,red) >> {
   Assigned to : Sankaranarayanan Kopparasukavi
+  Summary : CNG - SOLR API - System Test - Missing fields in FH and HO Propositions
   Status : In Work
   Type : Bug
 }
 
 class "CNG-1353" << (B,red) >> {
   Assigned to : Anand Jajoo
+  Summary : CNG - SOLR API - System Test - Issues with start and sort for Grouped response
   Status : In Work
   Type : Bug
 }

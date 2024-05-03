@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Status Accepted
 hide empty members
@@ -21,6 +21,7 @@ end legend
 ' Tickets =======
 class "CNG-895" << (P,lightblue) >> {
   Assigned to : Sana Fathima
+  Summary : TARGET: BAHolidays - (3844) Additional Holiday Pricing (CNG) - R392 Release Slot Request
   Status : Accepted
   Type : Project Request Package
 }

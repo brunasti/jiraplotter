@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Status In System Test
 hide empty members
@@ -25,53 +25,62 @@ end legend
 ' Tickets =======
 class "CNG-916" << (B,red) >> {
   Assigned to : Stephy Aniyan
+  Summary : SOLr b/w - differences in default response type for some handlers between live and dev
   Status : In System Test
   Type : Bug
 }
 
 class "CNG-708" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : CNG - SOLR API - NOT(!) Logic
   Status : In System Test
   Type : Bug
 }
 
 class "CNG-1357" << (B,red) >> {
   Assigned to : Rajeswari Vijayal Neelakantan
+  Summary : CNG - SOLR API - System Test -Facet not returned when group.main is true
   Status : In System Test
   Type : Bug
 }
 
 class "CNG-1013" << (B,red) >> {
   Assigned to : Stephy Aniyan
+  Summary : CNG - SOLR API- Lambda - ST- group.query is  not returning results for below queries
   Status : In System Test
   Type : Bug
 }
 
 class "CNG-654" << (B,red) >> {
   Assigned to : Merin Joseph
+  Summary : CNG is issuing availability requests for travel dates in the past
   Status : In System Test
   Type : Bug
 }
 
 class "CNG-558" << (S,lightblue) >> {
+  Summary : Solr API - SIT
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-536" << (B,red) >> {
   Assigned to : Sulafa Malik
+  Summary : Deeplink url parameters look to be incorrect
   Status : IN UAT
   Type : Bug
 }
 
 class "CNG-557" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Solr API - Build
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1012" << (B,red) >> {
   Assigned to : Stephy Aniyan
+  Summary : CNG - SOLR API- Lambda - ST- group.query is not returning results 
   Status : In System Test
   Type : Bug
 }

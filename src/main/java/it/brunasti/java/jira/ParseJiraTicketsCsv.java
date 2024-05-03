@@ -77,6 +77,7 @@ public class ParseJiraTicketsCsv {
   }
 
   private void generateTicket(JiraTicket jiraTicket) {
+    log.info("generateTicket : {}",jiraTicket);
     output.println(Utils.createClassHead(jiraTicket));
     if (!jiraTicket.assignee.isEmpty()) {
       output.println(ParseJiraTicketsConstants.DEFINITION_CLASS_ASSIGNED_TO
@@ -150,7 +151,9 @@ public class ParseJiraTicketsCsv {
     output.println();
     output.println("' Parents =======");
     jiraTickets.forEach(jiraTicket -> {
+      log.info("Parents for {}", jiraTicket.issueKey);
       if (jiraTicket.parentJira != null) {
+        log.info("Parents for {} - {}", jiraTicket.issueKey, jiraTicket.parentJira);
         output.println("\"" + jiraTicket.parentJira.issueKey.getFirst()
                 + "\" <|-- \"" + jiraTicket.issueKey.getFirst() + "\"");
       }
@@ -373,6 +376,7 @@ public class ParseJiraTicketsCsv {
       for (int i = 1; i < r.size(); i++) {
         JiraTicket jiraTicket = new JiraTicket(r.get(i));
         jiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
+        log.info("added ticket : [{}] [{}]", jiraTicket.issueKey.getFirst(), jiraTicket);
       }
 
       // Create link pointers from ticket id

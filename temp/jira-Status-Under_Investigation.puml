@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Status Under Investigation
 hide empty members
@@ -25,36 +25,42 @@ end legend
 ' Tickets =======
 class "CNG-873" << (T,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Design Tracker 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-500" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : CNG - Batch (CAPTWO) - Impacted Component - Service -CMT - Unable to load searches with OJ location types other than city for FH and HO propositions. APC can do this. - Not In Scope for TCS
   Status : Under Investigation
   Type : Bug
 }
 
 class "CNG-687" << (S,lightblue) >> {
   Assigned to : Sulafa Malik
+  Summary : Burst & Batch Controller UAT
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-1344" << (B,red) >> {
   Assigned to : Merin Joseph
+  Summary : CNG - SOLR API - System Test - Getting null response when depDateString is passed in group.field
   Status : Under Investigation
   Type : Bug
 }
 
 class "CNG-887" << (B,red) >> {
   Assigned to : Riti Agarwal
+  Summary : CNG - All API- Message Queue - ST - Unable to process any Search requests as Queue full - UAT environment
   Status : Under Investigation
   Type : Bug
 }
 
 class "CNG-1386" << (B,red) >> {
   Assigned to : Deepak Ingwale
+  Summary : Build pipeline issues in DEV and SIT
   Status : Under Investigation
   Type : Bug
 }

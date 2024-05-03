@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Person Saranya Subramani
 hide empty members
@@ -21,6 +21,7 @@ end legend
 ' Tickets =======
 class "CNG-1338" << (B,red) >> {
   Assigned to : Saranya Subramani
+  Summary : CNG-SOLR API-System test - Solr API retrieving documents for BA Airline brand and paxmix other than 2A in Solr response
   Status : Work Complete
   Type : Bug
 }

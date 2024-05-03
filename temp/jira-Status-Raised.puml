@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Status Raised
 hide empty members
@@ -24,144 +24,169 @@ end legend
 ' Tickets =======
 class "CNG-1340" << (B,red) >> {
   Assigned to : Deepak Ingwale
+  Summary : CNG - SOLR API - System Test - Issues in Javabin response 
   Status : Raised
   Type : Bug
 }
 
 class "CNG-834" << (B,red) >> {
+  Summary : CNG - CMT - Impacted Component - GUI Application -CMT security vulnerability in spring libraries
   Status : Raised
   Type : Bug
 }
 
 class "CNG-539" << (B,red) >> {
   Assigned to : Anand Dixit
+  Summary : Name change in 2 layers used by lambda - Issue with Version 1
   Status : Raised
   Type : Bug
 }
 
 class "CNG-937" << (B,red) >> {
   Assigned to : Merin Joseph
+  Summary : CMT - Search option not returning all results - Not In Scope for TCS
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1325" << (B,red) >> {
   Assigned to : Deepak Ingwale
+  Summary : CNG - SOLR API - System Test - Sample SIT Bug for reference
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1326" << (B,red) >> {
+  Summary : spring-core security vulnerabilities  CVE-2022-22950 and CVE-2022-22971 and others in BAHCMT
   Status : Raised
   Type : Bug
 }
 
 class "CNG-851" << (B,red) >> {
   Assigned to : Merin Joseph
+  Summary : Bulk uploads - Leap year is not recognised which causes the upload to fail - Not In Scope for TCS
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1346" << (B,red) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Build  pipeline for dev01 is not working other than main branch
   Status : Raised
   Type : Bug
 }
 
 class "CNG-699" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Version 1 Deliverables - CR 05-Apr-2023
   Status : Done
   Type : Task
 }
 
 class "CNG-1387" << (B,red) >> {
   Assigned to : Deepak Ingwale
+  Summary : CNG - SOLR API - System Test - Multiple issues with facet.field
   Status : Raised
   Type : Bug
 }
 
 class "CNG-852" << (B,red) >> {
   Assigned to : Merin Joseph
+  Summary : Search requests which have travel dates for 2024, not recognised in CMT after being uploaded from Bulk upload facility
   Status : Raised
   Type : Bug
 }
 
 class "CNG-854" << (B,red) >> {
   Assigned to : Pooja Ravi
+  Summary : Incorrect wording on popup in CMT - Not In Scope for TCS
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1394" << (B,red) >> {
   Assigned to : Sushant Khandelwal
+  Summary : CNG - SOLR API - System Test - Holiday Finder issues with Unfiltered view
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1392" << (B,red) >> {
   Assigned to : Deepak Ingwale
+  Summary : CNG - SOLR API - System Test - Unable to get javabin response for FC when departureDate is passed in request
   Status : Raised
   Type : Bug
 }
 
 class "CNG-905" << (B,red) >> {
+  Summary : Out of memory error while deploying API in AWS through pipeline
   Status : Raised
   Type : Bug
 }
 
 class "CNG-708" << (B,red) >> {
   Assigned to : Amreen Fathima
+  Summary : CNG - SOLR API - NOT(!) Logic
   Status : In System Test
   Type : Bug
 }
 
 class "CNG-1413" << (B,red) >> {
   Assigned to : Deepak Ingwale
+  Summary : CNG - SOLR API - System Test - ancillaryID field is getting displayed in the SOLR response when passed in fl parameter.
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1414" << (B,red) >> {
   Assigned to : Deepak Ingwale
+  Summary : CNG - SOLR API - System Test - Sort issues when group.main=true in solr response
   Status : Raised
   Type : Bug
 }
 
 class "CNG-881" << (B,red) >> {
+  Summary : SOLR B/W Compatible API SIT  for NOT(!) handling 
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1411" << (B,red) >> {
   Assigned to : Deepak Ingwale
+  Summary : CNG - SOLR API - System Test - Unable to get valid response in Javabin when NOT operation is passed in the request for HO and FC proposition
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1412" << (B,red) >> {
   Assigned to : Deepak Ingwale
+  Summary : CNG - SOLR API - System Test - PricePP is displayed twice in SOLR response when fl=* 
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1035" << (B,red) >> {
+  Summary : multiple versions of bahcmt running within tomcat
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1036" << (B,red) >> {
+  Summary : latest version of bahcmt still announces as version 1.0
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1396" << (B,red) >> {
   Assigned to : Philip Adams
+  Summary : AWS CNG LLD Document for BA Cyber Submission
   Status : Raised
   Type : Bug
 }
 
 class "CNG-502" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : Incorrect special offer captured in Kibana
   Status : Raised
   Type : Bug
 }

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Person Merin Joseph
 hide empty members
@@ -35,385 +35,450 @@ end legend
 ' Tickets =======
 class "CNG-583" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : SIP B/W Compatible API Design
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-660" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : CNG - Housekeeping, Batch Jobs - Impacted Component - On Premise Database, Scripts, Scheduler (Cron/Control-M) - Create batch job for Housekeeping job
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-659" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Create batch job for Refresh and Midnight refresh jobs
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-937" << (B,red) >> {
   Assigned to : Merin Joseph
+  Summary : CMT - Search option not returning all results - Not In Scope for TCS
   Status : Raised
   Type : Bug
 }
 
 class "CNG-574" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Create a batch job scripts for UBH2101 HOTEL_Refresh
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-573" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Create Stored procedure for refreshing the tables CAR and VEHICLE_PRODUCT_INFO
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-452" << (B,red) >> {
   Assigned to : Merin Joseph
+  Summary : CNG UAT - Unable to process Search requests - not being BURST
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-576" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Get New job name for VEHICLE_Refresh and HOTEL_Refresh  Jobs- send mail to CAP Support Team
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-851" << (B,red) >> {
   Assigned to : Merin Joseph
+  Summary : Bulk uploads - Leap year is not recognised which causes the upload to fail - Not In Scope for TCS
   Status : Raised
   Type : Bug
 }
 
 class "CNG-773" << (T,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : CNG - Batch (CAPTWO) - Impacted Component - LLD, Service -CR -Special Offers- Impact and Analysis 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-575" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Create a batch job scripts for UBH2102 - VEHICLE_Refresh
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-578" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Create Opins document for HOTEL_Refresh - UBH2101 
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-457" << (B,red) >> {
   Assigned to : Merin Joseph
+  Summary : CNG - Batch (CAPTWO) - Impacted Component - Service - Review and update HO rules for excluding hotels from the Cache
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-853" << (B,red) >> {
   Assigned to : Merin Joseph
+  Summary : Warning message appears every time try and "accept" a number of search records at the same time
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-577" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Update the wiki page opins update with new Job numbers
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-654" << (B,red) >> {
   Assigned to : Merin Joseph
+  Summary : CNG is issuing availability requests for travel dates in the past
   Status : In System Test
   Type : Bug
 }
 
 class "CNG-533" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Burst and Batch Controller- CAP2-ASY04-42 release 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-852" << (B,red) >> {
   Assigned to : Merin Joseph
+  Summary : Search requests which have travel dates for 2024, not recognised in CMT after being uploaded from Bulk upload facility
   Status : Raised
   Type : Bug
 }
 
 class "CNG-536" << (B,red) >> {
   Assigned to : Sulafa Malik
+  Summary : Deeplink url parameters look to be incorrect
   Status : IN UAT
   Type : Bug
 }
 
 class "CNG-579" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Create Opins document for VEHICLE_Refresh - UBH2102 
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-458" << (B,red) >> {
   Assigned to : Jon Funnell
+  Summary : CNG - Batch (CAPTWO) - Impacted Component - Service - Review and update CO rules for excluding results from the Cache
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-1052" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : CNG - Batch (CAPTWO) - Service - Code Review Internal: Different behavior between APC and CNG when grouping on certain date fields.
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-550" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Live server log analysis for SOLR responses for query handlers
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-671" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : configuration to disable logs which was before loud live
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-670" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Merin to check with monitoring team on increasing threshold limit for monitor from 500.
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-549" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Live server log analysis for SOLR responses for select handlers
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-505" << (T,lightblue) >> {
   Assigned to : Nigel Hassett
+  Summary : Firewall rule for SUBLIVE CAPTWOv2 Stack4 sublive servers to access sentinel/redis in dev/reg/prelive CNG AWS accounts via Global Cloud Connect
   Status : Done
   Type : Task
 }
 
 class "CNG-826" << (T,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Implement control M in production
   Status : To Do
   Type : Task
 }
 
 class "CNG-828" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : test All refresh , midnight refresh and hosekeeping jobs with shellscripts 
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-829" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : CNG - Housekeeping, Batch Jobs - Impacted Component - Scripts, Scheduler (Cron/Control-M) - configure cron Jobs in SIT
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-584" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : SIP B/W Compatible API Build
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-466" << (B,red) >> {
   Assigned to : Merin Joseph
+  Summary : CNG UAT - Burst and Batch process has stopped working
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-663" << (T,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Burst & Batch Controller
   Status : To Do
   Type : Task
 }
 
 class "CNG-1379" << (T,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Replicate OpenSearch data from sit01 to dev01
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1137" << (T,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : CNG - SOLR - Lambda - ELK Data Issue
   Status : In Progress
   Type : Task
 }
 
 class "CNG-545" << (X,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Need SIP responses from SIP team to work on Response json to XML 
   Status : Resolved
   Type : Risk
 }
 
 class "CNG-467" << (B,red) >> {
   Assigned to : Merin Joseph
+  Summary : CNG UAT - Amended Search Requests not Bursting at all
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-665" << (S,lightblue) >> {
+  Summary : changes to xdist for CNG-335
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-667" << (S,lightblue) >> {
+  Summary : batch jobs need to be in place before loud live
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-483" << (B,red) >> {
   Assigned to : Tony Cassidy
+  Summary : CO, FC - not all availability responses messages being cached for a CMT ref id
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-716" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Special Offers
   Status : Done
   Type : Task
 }
 
 class "CNG-717" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Special Offers - Design
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-1228" << (S,lightblue) >> {
   Assigned to : Swagath Ganta
+  Summary : CNG - Burst (CAPTWO), Batch (CAPTWO) - Services - Deploy Latest war AWS Stack 04 file through Jenkins pipeline.
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-552" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Live server log analysis for SOLR responses for hfHandler handlers
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-551" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Live server log analysis for SOLR responses for browse handlers
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-554" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Live server log analysis for SOLR responses for cabinupgrade  handlers
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-553" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Live server log analysis for SOLR responses for bahpricefeed handlers
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-1225" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : CNG - Burst (CAPTWO), Batch (CAPTWO) - Services - Code Review
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1344" << (B,red) >> {
   Assigned to : Merin Joseph
+  Summary : CNG - SOLR API - System Test - Getting null response when depDateString is passed in group.field
   Status : Under Investigation
   Type : Bug
 }
 
 class "CNG-558" << (S,lightblue) >> {
+  Summary : Solr API - SIT
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-1151" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : Connect to Elastic/Open Search
   Status : In Progress
   Type : Task
 }
 
 class "CNG-572" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Create Stored procedure for refreshing the tables HOTELS , HOTEL_PRODUCT_INFO and HOTELS_EXCEPTIONS
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-890" << (B,red) >> {
   Assigned to : Merin Joseph
+  Summary : SIT SOLR- Unable to get the response for HO Proposition
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-450" << (B,red) >> {
   Assigned to : Merin Joseph
+  Summary : CNG UAT - A large Search Request took 4 hours to complete
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-725" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : CNG - Housekeeping, Batch Jobs - Impacted Component - On Premise Database, Scripts, Scheduler (Cron/Control-M) - House Keeping Build - On Prem
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-925" << (T,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Password for UAT CMT DB expires in 6 days time 
   Status : Done
   Type : Task
 }
 
 class "CNG-727" << (S,lightblue) >> {
+  Summary : CNG - Housekeeping, Batch Jobs - Impacted Component - On Premise Database, Scripts, Scheduler (Cron/Control-M) - House Keeping Unit Testing - On Prem
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-607" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Update the cron job with new wrapper Scripts in SIT and UAT once completed the review.
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-881" << (B,red) >> {
+  Summary : SOLR B/W Compatible API SIT  for NOT(!) handling 
   Status : Raised
   Type : Bug
 }
 
 class "CNG-485" << (S,lightgreen) >> {
   Assigned to : Sulafa Malik
+  Summary : (3844) - Informational Logging - Batch Controller (CAPTWO)
   Status : UAT
   Type : Story
 }
 
 class "CNG-441" << (T,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : manual updates to reference data table - AGE_RANGE_INFO   in CMT
   Status : Done
   Type : Task
 }
 
 class "CNG-884" << (T,lightblue) >> {
   Assigned to : Jayanth Vignesh
+  Summary : SIP build external review comments incorporation 
   Status : Done
   Type : Task
 }
 
 class "CNG-685" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary : Burst & Batch Controller Build
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-446" << (B,red) >> {
   Assigned to : Merin Joseph
+  Summary : CNG UAT - Burst and/or Batch process is down since 15:40
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-569" << (S,lightblue) >> {
   Assigned to : Merin Joseph
+  Summary :  create housekeeping stored procedure for All Proposition
   Status : Done
   Type : Sub-task
 }

@@ -78,10 +78,13 @@ public class JiraTicket {
 
 
   void connectLinks(HashMap<String, JiraTicket> jiraTickets) {
+    log.info("Linking : {} - {}", issueKey, issueId);
     if (jiraTickets == null) return;
 
     if (!parent.isEmpty()) {
-      parentJira = jiraTickets.get(parent.getFirst());
+      log.info("Linking to parent : {}", parent.getFirst());
+      parentJira = Utils.findFromId(jiraTickets, parent.getFirst());
+      log.info("Linking to parent : -> {}", parentJira);
     }
 
     inwardIssueLink.forEach(links ->

@@ -9,6 +9,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.concurrent.atomic.AtomicReference;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -54,6 +56,17 @@ public class Utils {
   public static JiraTicket findFromKey(Map<String, JiraTicket> jiraTickets, String key) {
     log.debug("findFromKey : [{}]", key);
     return jiraTickets.get(key);
+  }
+
+  public static JiraTicket findFromId(Map<String, JiraTicket> jiraTickets, String key) {
+    log.debug("findFromId : [{}]", key);
+    AtomicReference<JiraTicket> result = new AtomicReference<>();
+    jiraTickets.values().forEach(jiraTicket -> {
+      if (key.equalsIgnoreCase(jiraTicket.issueId.getFirst())) {
+        result.set(jiraTicket);
+      }
+    });
+    return result.get();
   }
 
 

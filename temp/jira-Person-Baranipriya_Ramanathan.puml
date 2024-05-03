@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:58 CEST 2024
 
 title Jira Tickets for Person Baranipriya Ramanathan
 hide empty members
@@ -22,84 +22,98 @@ end legend
 ' Tickets =======
 class "CNG-417" << (B,red) >> {
   Assigned to : Baranipriya Ramanathan
+  Summary : Burst count is not displayed for some records.
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-427" << (B,red) >> {
   Assigned to : Baranipriya Ramanathan
+  Summary : Eligible records are not picked by burst
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-419" << (B,red) >> {
   Assigned to : Baranipriya Ramanathan
+  Summary : Burst count is not calculated correctly if we give First and last travel date/lead time from and to
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-429" << (B,red) >> {
   Assigned to : Baranipriya Ramanathan
+  Summary : CNG search hits are not updated in the CNG column in DP searches stats
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-420" << (B,red) >> {
   Assigned to : Baranipriya Ramanathan
+  Summary : CMA- displayPricePerPersonPerNight is not calculated correctly for HO
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-430" << (B,red) >> {
   Assigned to : Baranipriya Ramanathan
+  Summary : Back-off period is not calculated properly for HO and CO propositions
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-422" << (B,red) >> {
   Assigned to : Baranipriya Ramanathan
+  Summary : Content code is not available in car response to validate imageURL
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-433" << (B,red) >> {
   Assigned to : Baranipriya Ramanathan
+  Summary : Brand and chain code are not cached in Kibana
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-421" << (B,red) >> {
   Assigned to : Baranipriya Ramanathan
+  Summary : CNG - Batch (CAPTWO) - Impacted Component - Service - Few accommodation is missing in kibana for FH
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-424" << (B,red) >> {
   Assigned to : Baranipriya Ramanathan
+  Summary : The cached child ages in Kibana has square brackets for FC
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-434" << (B,red) >> {
   Assigned to : Baranipriya Ramanathan
+  Summary : Burst stopped running automatically
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-426" << (B,red) >> {
   Assigned to : Baranipriya Ramanathan
+  Summary : Loyatly points are not cached correctly for FC proposition
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-414" << (B,red) >> {
   Assigned to : Baranipriya Ramanathan
+  Summary : Able to select past execution time in CMT
   Status : Withdrawn
   Type : Bug
 }
 
 class "CNG-425" << (B,red) >> {
   Assigned to : Baranipriya Ramanathan
+  Summary : ES content is cached in Kibana for FC proposition
   Status : Withdrawn
   Type : Bug
 }

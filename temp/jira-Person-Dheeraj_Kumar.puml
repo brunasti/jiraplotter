@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Person Dheeraj Kumar
 hide empty members
@@ -25,96 +25,113 @@ end legend
 ' Tickets =======
 class "CNG-990" << (T,lightblue) >> {
   Assigned to : Dheeraj Kumar
+  Summary : Production Readiness -  Data Recovery
   Status : To Do
   Type : Task
 }
 
 class "CNG-912" << (T,lightblue) >> {
   Assigned to : Dheeraj Kumar
+  Summary : Update the BA Resource Deployment & Validation spreadsheet
   Status : Done
   Type : Task
 }
 
 class "CNG-989" << (T,lightblue) >> {
   Assigned to : Dheeraj Kumar
+  Summary : Production Readiness -  Data Migration Plan
   Status : To Do
   Type : Task
 }
 
 class "CNG-903" << (T,lightblue) >> {
+  Summary : Implement NFRs
   Status : Done
   Type : Task
 }
 
 class "CNG-913" << (T,lightblue) >> {
   Assigned to : Dheeraj Kumar
+  Summary : Review Comments & Baselined Sections of LLDs
   Status : Done
   Type : Task
 }
 
 class "CNG-929" << (T,lightblue) >> {
+  Summary : Solr - Baseline & Sign Off LLD 
   Status : Done
   Type : Task
 }
 
 class "CNG-808" << (S,lightblue) >> {
   Assigned to : Dheeraj Kumar
+  Summary : Token Authorizer - Full API HLD 
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-982" << (T,lightblue) >> {
   Assigned to : Dheeraj Kumar
+  Summary : vulnerabilities reported from aws inspector in dev environment should be fixed as part of code fix
   Status : Done
   Type : Task
 }
 
 class "CNG-930" << (T,lightblue) >> {
+  Summary : SIP - Baseline & Sign Off LLD
   Status : Done
   Type : Task
 }
 
 class "CNG-952" << (T,lightblue) >> {
+  Summary : Housekeeping - Baseline and Sign Off LLD
   Status : To Do
   Type : Task
 }
 
 class "CNG-842" << (T,lightblue) >> {
   Assigned to : Dheeraj Kumar
+  Summary : Validation of NFRs
   Status : Done
   Type : Task
 }
 
 class "CNG-556" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Solr API - Analysis & Design
   Status : Dev Review
   Type : Sub-task
 }
 
 class "CNG-932" << (T,lightblue) >> {
+  Summary : Token Authorizer - Baseline & Sign Off LLD
   Status : To Do
   Type : Task
 }
 
 class "CNG-877" << (T,lightblue) >> {
   Assigned to : Dheeraj Kumar
+  Summary : AWS Environments Definition  
   Status : Done
   Type : Task
 }
 
 class "CNG-613" << (T,lightblue) >> {
   Assigned to : Dheeraj Kumar
+  Summary : Logstash to Redis Cluster Connectivity
   Status : Done
   Type : Task
 }
 
 class "CNG-931" << (T,lightblue) >> {
+  Summary : Full API - Baseline & Sign Off LLD
   Status : Done
   Type : Task
 }
 
 class "CNG-524" << (N,lightgreen) >> {
   Assigned to : Nigel Hassett
+  Summary : remove the need for SENTINEL in captwov2 batch controller, just connect directly to Redis
   Status : Done
   Type : New Feature
 }

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Status QA
 hide empty members
@@ -24,91 +24,107 @@ end legend
 ' Tickets =======
 class "CNG-1153" << (T,lightblue) >> {
   Assigned to : Stephy Aniyan
+  Summary : HTTP Request Compression in CAPTWO
   Status : QA
   Type : Task
 }
 
 class "CNG-1151" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : Connect to Elastic/Open Search
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1193" << (T,lightblue) >> {
   Assigned to : Jon Funnell
+  Summary : CNG - Burst and Batch - Test Case Review
   Status : Done
   Type : Task
 }
 
 class "CNG-999" << (T,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : CNG - All API- XDistributor - ST - Different behaviour between APC and CNG when grouping on certain date fields
   Status : QA
   Type : Task
 }
 
 class "CNG-729" << (S,lightblue) >> {
+  Summary : CNG - Housekeeping, Batch Jobs - Impacted Component - On Premise Database, Scripts, Scheduler (Cron/Control-M) - House Keeping-On Prem
   Status : QA
   Type : Sub-task
 }
 
 class "CNG-1319" << (T,lightblue) >> {
   Assigned to : Stephy Aniyan
+  Summary : CNG - SOLR API - Need internal consumers to be configured in System testing environment(CAPDEV866)
   Status : QA
   Type : Task
 }
 
 class "CNG-609" << (T,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : CNG - Common - Performance Testing - Batch & Burst Controller
   Status : QA
   Type : Task
 }
 
 class "CNG-1138" << (S,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : CNG- CAPTWO - Batch Controller - CNG-1137 - carGroupDescription Issue:  Team needs to do the development to incorporate changes in captwo evm-hahem code.
   Status : QA
   Type : Sub-task
 }
 
 class "CNG-782" << (T,lightblue) >> {
+  Summary : SOLR Service
   Status : QA
   Type : Task
 }
 
 class "CNG-760" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : CNG - Housekeeping - Impacted Component - Infrastructure/Connectivity/Version-1 Tasks Housekeeping Connectivity
   Status : In Progress
   Type : Task
 }
 
 class "CNG-664" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : firewall rule as live database links does not work. Once firewall is in place, we need to run the stored procedures hotel refresh and vehicle refresh.
   Status : QA
   Type : Sub-task
 }
 
 class "CNG-686" << (S,lightblue) >> {
+  Summary : CNG - Burst & Batch Controller - SIT
   Status : QA
   Type : Sub-task
 }
 
 class "CNG-665" << (S,lightblue) >> {
+  Summary : changes to xdist for CNG-335
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-533" << (T,lightblue) >> {
   Assigned to : Anand Dixit
+  Summary : Burst and Batch Controller- CAP2-ASY04-42 release 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-610" << (S,lightblue) >> {
   Assigned to : Amreen Fathima
+  Summary : CNG - Common - Performance Testing - Batch Controller
   Status : QA
   Type : Sub-task
 }
 
 class "CNG-689" << (S,lightblue) >> {
+  Summary : CNG - Common - Performance Testing - Batch & Burst Controller
   Status : QA
   Type : Sub-task
 }

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Person Stephy Aniyan
 hide empty members
@@ -31,112 +31,131 @@ end legend
 ' Tickets =======
 class "CNG-1295" << (W,lightblue) >> {
   Assigned to : Stephy Aniyan
+  Summary : Need debug enabled in prelive to verify existing solr logs for teamsite pages
   Status : In Progress
   Type : Work Request
 }
 
 class "CNG-1142" << (T,lightblue) >> {
   Assigned to : Stephy Aniyan
+  Summary : Decide approach to create test data
   Status : To Do
   Type : Task
 }
 
 class "CNG-1153" << (T,lightblue) >> {
   Assigned to : Stephy Aniyan
+  Summary : HTTP Request Compression in CAPTWO
   Status : QA
   Type : Task
 }
 
 class "CNG-1194" << (T,lightblue) >> {
   Assigned to : Sulafa Malik
+  Summary : CNG - SOLR API - Test Case Review
   Status : Done
   Type : Task
 }
 
 class "CNG-1041" << (S,lightblue) >> {
   Assigned to : Stephy Aniyan
+  Summary : Test Case review for SOLR API and sign off from BA Holidays
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-1151" << (T,lightblue) >> {
   Assigned to : BharathKum Sarangarajan
+  Summary : Connect to Elastic/Open Search
   Status : In Progress
   Type : Task
 }
 
 class "CNG-916" << (B,red) >> {
   Assigned to : Stephy Aniyan
+  Summary : SOLr b/w - differences in default response type for some handlers between live and dev
   Status : In System Test
   Type : Bug
 }
 
 class "CNG-1319" << (T,lightblue) >> {
   Assigned to : Stephy Aniyan
+  Summary : CNG - SOLR API - Need internal consumers to be configured in System testing environment(CAPDEV866)
   Status : QA
   Type : Task
 }
 
 class "CNG-1039" << (S,lightblue) >> {
   Assigned to : Stephy Aniyan
+  Summary : Decide approach on Test Strategy for SOLR API and prepare Test Strategy document.
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-686" << (S,lightblue) >> {
+  Summary : CNG - Burst & Batch Controller - SIT
   Status : QA
   Type : Sub-task
 }
 
 class "CNG-1038" << (S,lightblue) >> {
   Assigned to : Stephy Aniyan
+  Summary : Identification and Agreement on Tools to be used for SIT,Regression
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1013" << (B,red) >> {
   Assigned to : Stephy Aniyan
+  Summary : CNG - SOLR API- Lambda - ST- group.query is  not returning results for below queries
   Status : In System Test
   Type : Bug
 }
 
 class "CNG-1134" << (T,lightblue) >> {
   Assigned to : Stephy Aniyan
+  Summary : CNG - SOLR - Lambda - Not functionality (Operators  !, - ) build for field values.
   Status : Build
   Type : Task
 }
 
 class "CNG-1058" << (T,lightblue) >> {
   Assigned to : Stephy Aniyan
+  Summary : CNG - SOLR - Lambda - Clarification on Data mapping of double to int conversion. 
   Status : Dev Review
   Type : Task
 }
 
 class "CNG-863" << (B,red) >> {
   Assigned to : Stephy Aniyan
+  Summary : SIT-Group Operation
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-1146" << (W,lightblue) >> {
   Assigned to : Stephy Aniyan
+  Summary : Need full pack upgrade and product refresh in CAPDEV866 for CNG testing
   Status : In Progress
   Type : Work Request
 }
 
 class "CNG-558" << (S,lightblue) >> {
+  Summary : Solr API - SIT
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-557" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Solr API - Build
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1012" << (B,red) >> {
   Assigned to : Stephy Aniyan
+  Summary : CNG - SOLR API- Lambda - ST- group.query is not returning results 
   Status : In System Test
   Type : Bug
 }

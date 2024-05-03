@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Person Naveen Kumar S
 hide empty members
@@ -21,18 +21,21 @@ end legend
 ' Tickets =======
 class "CNG-1350" << (B,red) >> {
   Assigned to : Naveen Kumar S
+  Summary : CNG-SOLR API-System test -overallCabin: 'M' only is not returned by default in solr response,when overallCabin is not specified in solr request.
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-1335" << (B,red) >> {
   Assigned to : Naveen Kumar S
+  Summary : CNG-SOLR API-System test - Invariant related issues in bahpricefeed handler for FC,HO and CO propositions
   Status : Work Complete
   Type : Bug
 }
 
 class "CNG-1355" << (B,red) >> {
   Assigned to : Naveen Kumar S
+  Summary : CNG - SOLR API - System Test - Date/YEAR is not working for all propositions
   Status : Work Complete
   Type : Bug
 }

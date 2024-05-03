@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue Apr 23 13:28:09 CEST 2024
+' Generated at    : Fri May 03 10:09:59 CEST 2024
 
 title Jira Tickets for Person Rukaya Ogazi-Khan
 hide empty members
@@ -31,413 +31,482 @@ end legend
 ' Tickets =======
 class "CNG-1163" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Raise Requests for ECP AWS Accounts 
   Status : To Do
   Type : Task
 }
 
 class "CNG-1280" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Network Design Diagram
   Status : To Do
   Type : Task
 }
 
 class "CNG-1281" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : AWS Resource Naming Conventions
   Status : To Do
   Type : Task
 }
 
 class "CNG-1409" << (I,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Need to Create/Refresh the parameter store entries Automatically from Properties file
   Status : To Do
   Type : Improvement
 }
 
 class "CNG-1327" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Increase OpenSearch tier and number of nodes 
   Status : Dev Review
   Type : Task
 }
 
 class "CNG-530" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Integrating SonarCloud into CI/CD Pipeline
   Status : To Do
   Type : Task
 }
 
 class "CNG-651" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : direct access to elastic search via internal load balancer
   Status : To Do
   Type : Task
 }
 
 class "CNG-1246" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Update GitHub Pipeline Triggers to align with Branching Strategy 
   Status : To Do
   Type : Task
 }
 
 class "CNG-1367" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Full API - External Low Level Design Review 
   Status : To Do
   Type : Task
 }
 
 class "CNG-776" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Change all references of Full API to BA Holidays Pricing Cache API
   Status : To Do
   Type : Task
 }
 
 class "CNG-1288" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Mapping CAPTWO Stack04 AWS Envs to CNG AWS Envs
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1244" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Add build alerts and notifications to the pipeline
   Status : To Do
   Type : Task
 }
 
 class "CNG-1201" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Create GitHub Workflows for app repo
   Status : In Progress
   Type : Task
 }
 
 class "CNG-733" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : AWS Infrastructure
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1287" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Swagger URL is not working on Dev Instance on Fargate.
   Status : To Do
   Type : Task
 }
 
 class "CNG-1251" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Release Tag Approach for Common Library
   Status : To Do
   Type : Task
 }
 
 class "CNG-1175" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : East-West firewalls for CAPTWO Stack 4 DCE to CNG/AHP Project  and to DP DCE
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1250" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Connect SOLR API Repo to GitHub Packages - GitHub App
   Status : To Do
   Type : Task
 }
 
 class "CNG-1173" << (S,lightblue) >> {
+  Summary : Solr API - BAU Support Requirements 
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-1290" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : ECP AWS Accounts and Environments Setup - Dev
   Status : To Do
   Type : Task
 }
 
 class "CNG-902" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Cache Endpoint Access Configuration Automation
   Status : To Do
   Type : Task
 }
 
 class "CNG-508" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : raise firewall rule for access from dev/reg/prelive housekeeping lambda to sublive DP Ground Cost Cache database
   Status : To Do
   Type : Task
 }
 
 class "CNG-1217" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Create DNS Design
   Status : To Do
   Type : Task
 }
 
 class "CNG-1415" << (I,orange) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Unable to connect to Open Search from Stack 04 Cloud
   Status : To Do
   Type : Issue
 }
 
 class "CNG-906" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : SSL Certificates in AWS
   Status : To Do
   Type : Task
 }
 
 class "CNG-1255" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Allocate VPC IP Range to the Service VPC from IPAM tool
   Status : Done
   Type : Task
 }
 
 class "CNG-589" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : BA Holidays Pricing Cache API (Full API) - Design
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1179" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Create AWS Infra LLD
   Status : To Do
   Type : Task
 }
 
 class "CNG-1256" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Update Confluence with Network diagram and details 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1330" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Migrate code from old AWS account to GitHub before deleting account
   Status : To Do
   Type : Task
 }
 
 class "CNG-1374" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Full API - External Low-Level Design - Iberia Deeplinks Review 
   Status : To Do
   Type : Task
 }
 
 class "CNG-1254" << (T,lightblue) >> {
   Assigned to : Dileep
+  Summary : AWS CAPTWO Account Connectivity to AWS OpenSearch Account - Dev Environment  
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1331" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Confirm when old CNG AWS accounts can be deleted
   Status : To Do
   Type : Task
 }
 
 class "CNG-1185" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : AWS Support Requirements
   Status : To Do
   Type : Task
 }
 
 class "CNG-1260" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Update Confluence page with Firewall Rules in Confluence 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1183" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary :  Remove AWS 725594372568   BAH_Cache_Next_Gen_Prd_ELK when no longer required
   Status : To Do
   Type : Task
 }
 
 class "CNG-1184" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Create Secret manager in ECP account
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1060" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : CNG-Commercial Analysis -POC Dependency
   Status : To Do
   Type : Task
 }
 
 class "CNG-1180" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Create param store in ECP account
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1305" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Mapping of AHP/CNG > Stack04 > DP CMT Environments
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1303" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : AWS Release Strategy 
   Status : To Do
   Type : Task
 }
 
 class "CNG-1227" << (S,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : CNG - Burst (CAPTWO), Batch (CAPTWO) - Services - Establish connectivity between AWS CAPTWO stack04 to OpenSearch.
   Status : Done
   Type : Sub-task
 }
 
 class "CNG-1304" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Unable to View Error Logs in AWS Cloudwatch for Opensearch
   Status : In Progress
   Type : Task
 }
 
 class "CNG-870" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : AWS Application Configuration Automation
   Status : To Do
   Type : Task
 }
 
 class "CNG-1029" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Repo cleanup - Lot of dead branches. Action is for the team to identify all the necessary code and merge to base branch and delete the others.
   Status : In Review (migrated)
   Type : Sub-task
 }
 
 class "CNG-1301" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Create Vulnerability Report Infrastructure
   Status : To Do
   Type : Task
 }
 
 class "CNG-873" << (T,lightblue) >> {
   Assigned to : Paolo Brunasti
+  Summary : Design Tracker 
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1346" << (B,red) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Build  pipeline for dev01 is not working other than main branch
   Status : Raised
   Type : Bug
 }
 
 class "CNG-1189" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Whitelist AWS CAPTWO IPs to OpenSearch endpoint
   Status : To Do
   Type : Task
 }
 
 class "CNG-1188" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Create Ingestion pipeline in ECP account
   Status : Done
   Type : Task
 }
 
 class "CNG-557" << (S,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : Solr API - Build
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1075" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : AWS - Create a forecast for OPEX for all AWS Environments
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1273" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Update Application User Persona 
   Status : Design Review
   Type : Task
 }
 
 class "CNG-1196" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Modify pipeline config to add routing based on proposition
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1274" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Standardisation of GitHub repo names
   Status : To Do
   Type : Task
 }
 
 class "CNG-1195" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Docker image creation for CNG App
   Status : In Progress
   Type : Task
 }
 
 class "CNG-529" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : AWS Well-Architected Framework
   Status : To Do
   Type : Task
 }
 
 class "CNG-726" << (S,lightblue) >> {
   Assigned to : Abinaya Arumugasamy
+  Summary : CNG - Housekeeping - Impacted Component - Elastic Search, Layers, Lambda, Scripts, Event Bridge, Infrastructure/Connectivity/Version-1 Tasks -House Keeping Build  - AWS
   Status : To Do
   Type : Sub-task
 }
 
 class "CNG-1237" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : GitHub Application Pipelines
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1117" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Defining branching strategy 
   Status : Done
   Type : Task
 }
 
 class "CNG-1279" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Define steps for setting up new AWS account with firewall rules etc
   Status : To Do
   Type : Task
 }
 
 class "CNG-961" << (S,lightblue) >> {
   Assigned to : Anand Jajoo
+  Summary : Commercial Analysis - POC
   Status : In Progress
   Type : Sub-task
 }
 
 class "CNG-1156" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Upgrade to the latest version of OpenSearch
   Status : To Do
   Type : Task
 }
 
 class "CNG-1233" << (T,lightblue) >> {
   Assigned to : Shafiqul Islam
+  Summary : ECP AWS Accounts and Environments Setup
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1234" << (T,lightblue) >> {
   Assigned to : Nigel Hassett
+  Summary : Approve ECP AWS Accounts and Environments Definition Approach 
   Status : To Do
   Type : Task
 }
 
 class "CNG-1275" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Revised Project HLD
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1198" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Provision multiple environments in ECP dev account
   Status : In Progress
   Type : Task
 }
 
 class "CNG-1154" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : firewall rules for ECP account  bahahpecpdev-dev (025700222871)
   Status : To Do
   Type : Task
 }
 
 class "CNG-1155" << (T,lightblue) >> {
   Assigned to : Rukaya Ogazi-Khan
+  Summary : Define ECP AWS Accounts 
   Status : In Progress
   Type : Task
 }
