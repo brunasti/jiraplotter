@@ -90,6 +90,10 @@ public class ParseJiraTicketsCsv {
             + jiraTicket.status.getFirst());
     output.println(ParseJiraTicketsConstants.DEFINITION_CLASS_TYPE
             + jiraTicket.issueType.getFirst());
+    if (!jiraTicket.storyPoints.isEmpty()) {
+      output.println(ParseJiraTicketsConstants.DEFINITION_CLASS_ESTIMATE
+              + jiraTicket.storyPoints.getFirst());
+    }
     output.println("}");
     output.println();
   }

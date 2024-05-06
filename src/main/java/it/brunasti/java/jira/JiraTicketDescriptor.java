@@ -20,6 +20,7 @@ public class JiraTicketDescriptor {
   static FieldDescriptor priorityFieldDescriptor;
   static FieldDescriptor statusFieldDescriptor;
   static FieldDescriptor summaryFieldDescriptor;
+  static FieldDescriptor storyPointsFieldDescriptor;
 
   static ArrayList<FieldDescriptor> inwardIssueLinkFieldDescriptor;
   static ArrayList<FieldDescriptor> outwardIssueLinkFieldDescriptor;
@@ -63,6 +64,7 @@ public class JiraTicketDescriptor {
     priorityFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_PRIORITY);
     statusFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_STATUS);
     summaryFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_SUMMARY);
+    storyPointsFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_STORY_POINT);
 
     inwardIssueLinkFieldDescriptor = findLinksFieldDescriptors(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_INWARD_ISSUE_LINK);
     outwardIssueLinkFieldDescriptor = findLinksFieldDescriptors(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_OUTWARD_ISSUE_LINK);

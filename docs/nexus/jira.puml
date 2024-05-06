@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Fri May 03 10:34:43 CEST 2024
+' Generated at    : Mon May 06 11:25:29 CEST 2024
 
 title Jira Tickets general diagram
 hide empty members
@@ -10,14 +10,45 @@ hide empty members
 legend
 Jira Ticket Status
 ----
+(To Do) : 7
 ----
 Jira Ticket Types
 ----
+(Story) : 7
 end legend
 
 
 ' Jira Tickets =======
+class "ARS-16" << (S,lightgreen) >> {
+  Summary : Contentful Content Modeling
+  Status : To Do
+  Type : Story
+  Points : 5.0
+}
+
+class "ARS-17" << (S,lightgreen) >> {
+  Summary : Generate Content Types GraphQL Queries
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-18" << (S,lightgreen) >> {
+  Assigned to : PAOLO BRUNASTI
+  Summary : Create Repository
+  Status : To Do
+  Type : Story
+  Points : 3.0
+}
+
+class "ARS-19" << (S,lightgreen) >> {
+  Summary : Create NUXT -Vue2 project FE
+  Status : To Do
+  Type : Story
+  Points : 3.0
+}
+
 class "ARS-5" << (S,lightgreen) >> {
+  Assigned to : PAOLO BRUNASTI
   Summary : Email with Results as a pdf
   Status : To Do
   Type : Story
@@ -60,13 +91,36 @@ class "ARS-8" << (S,lightgreen) >> {
 }
 
 class "ARS-12" << (S,lightblue) >> {
+  Assigned to : PAOLO BRUNASTI
   Summary : Send email to customer with the PDF as attachment
   Status : To Do
   Type : Subtask
 }
 
 class "ARS-13" << (S,lightblue) >> {
+  Assigned to : PAOLO BRUNASTI
   Summary : Activation of the process of generating and sending the email
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-14" << (S,lightgreen) >> {
+  Summary : Set up Contentful Account
+  Status : To Do
+  Type : Story
+  Points : 2.0
+}
+
+class "ARS-15" << (S,lightgreen) >> {
+  Summary : Contentful Integration FE
+  Status : To Do
+  Type : Story
+  Points : 3.0
+}
+
+class "ARS-30" << (S,lightblue) >> {
+  Assigned to : PAOLO BRUNASTI
+  Summary : FE Repository
   Status : To Do
   Type : Subtask
 }
@@ -77,10 +131,22 @@ class "ARS-1" << (S,lightgreen) >> {
   Type : Story
 }
 
+class "ARS-31" << (E,green) >> {
+  Summary : Front End for Survey
+  Status : To Do
+  Type : Epic
+}
+
 class "ARS-2" << (S,lightgreen) >> {
   Summary : Survey Questions Pages
   Status : To Do
   Type : Story
+}
+
+class "ARS-32" << (E,green) >> {
+  Summary : Infrastructure
+  Status : To Do
+  Type : Epic
 }
 
 class "ARS-10" << (S,lightgreen) >> {
@@ -90,20 +156,108 @@ class "ARS-10" << (S,lightgreen) >> {
 }
 
 class "ARS-11" << (S,lightblue) >> {
+  Assigned to : PAOLO BRUNASTI
   Summary : Generate the PDF with the report for a single survey response
   Status : To Do
   Type : Subtask
 }
 
+class "ARS-27" << (S,lightgreen) >> {
+  Summary : Design the CICD Pipeline
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-28" << (S,lightblue) >> {
+  Summary : CICD Pipeline for FE
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-29" << (S,lightblue) >> {
+  Summary : CICD Pipeline for BE
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-23" << (S,lightgreen) >> {
+  Assigned to : PAOLO BRUNASTI
+  Summary : Model BE DB
+  Status : To Do
+  Type : Story
+  Points : 5.0
+}
+
+class "ARS-24" << (S,lightgreen) >> {
+  Assigned to : PAOLO BRUNASTI
+  Summary : DB Connection from Python
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-25" << (S,lightgreen) >> {
+  Assigned to : Nneka Tielman
+  Summary : Design APIs
+  Status : To Do
+  Type : Story
+  Points : 5.0
+}
+
+class "ARS-26" << (S,lightgreen) >> {
+  Summary : Implement APIs
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-20" << (E,green) >> {
+  Assigned to : PAOLO BRUNASTI
+  Summary : Back End for Survey
+  Status : To Do
+  Type : Epic
+}
+
+class "ARS-21" << (S,lightblue) >> {
+  Assigned to : PAOLO BRUNASTI
+  Summary : Create GitHub repository for BE
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-22" << (S,lightgreen) >> {
+  Assigned to : PAOLO BRUNASTI
+  Summary : Define BE architecture
+  Status : To Do
+  Type : Story
+  Points : 5.0
+}
+
 
 
 ' Parents =======
+"ARS-32" <|-- "ARS-18"
+"ARS-20" <|-- "ARS-5"
 "ARS-5" <|-- "ARS-12"
 "ARS-5" <|-- "ARS-13"
+"ARS-18" <|-- "ARS-30"
+"ARS-32" <|-- "ARS-10"
 "ARS-5" <|-- "ARS-11"
+"ARS-32" <|-- "ARS-27"
+"ARS-27" <|-- "ARS-28"
+"ARS-27" <|-- "ARS-29"
+"ARS-20" <|-- "ARS-23"
+"ARS-20" <|-- "ARS-24"
+"ARS-20" <|-- "ARS-25"
+"ARS-20" <|-- "ARS-26"
+"ARS-18" <|-- "ARS-21"
+"ARS-20" <|-- "ARS-22"
 
 
 ' Links =======
+"ARS-1" <.. "ARS-14" : Polaris issue link
+"ARS-1" <.. "ARS-15" : Polaris issue link
+"ARS-1" <.. "ARS-16" : Polaris issue link
+"ARS-1" <.. "ARS-17" : Polaris issue link
+"ARS-27" <.. "ARS-18" : Blocks
 
 
 @enduml

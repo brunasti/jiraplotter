@@ -15,6 +15,7 @@ public final class ParseJiraTicketsConstants {
   public static final String DEFINITION_CLASS_SUMMARY = "  Summary : ";
   public static final String DEFINITION_CLASS_STATUS = "  Status : ";
   public static final String DEFINITION_CLASS_TYPE = "  Type : ";
+  public static final String DEFINITION_CLASS_ESTIMATE = "  Points : ";
   public static final String DEFINITION_LINK_SIMPLE_MIDDLE = "\" <.. \"";
   public static final String DEFINITION_LINK_SIMPLE_END = "\" : ";
 
@@ -28,6 +29,8 @@ public final class ParseJiraTicketsConstants {
   static final String FIELD_NAME_PRIORITY = "Priority";
   static final String FIELD_NAME_STATUS = "Status";
   static final String FIELD_NAME_SUMMARY = "Summary";
+  static final String FIELD_NAME_ORIGINAL_ESTIMATE = "Original estimate";
+  static final String FIELD_NAME_STORY_POINT = "Custom field (Story point estimate)";
 
   static final String FIELD_NAME_INWARD_ISSUE_LINK = "Inward issue link";
   static final String FIELD_NAME_OUTWARD_ISSUE_LINK = "Outward issue link";
@@ -45,6 +48,7 @@ public final class ParseJiraTicketsConstants {
   public static final String TYPE_IMPEDIMENT = "impediment (issue)";
   public static final String TYPE_ISSUE = "issue";
   public static final String TYPE_STORY = "story";
+  public static final String TYPE_EPIC = "epic";
   public static final String TYPE_NEW = "new feature";
   public static final String TYPE_IMPROVEMENT = "improvement";
   public static final String TYPE_REQUEST = "project request package";

@@ -145,6 +145,9 @@ public class Utils {
       case ParseJiraTicketsConstants.TYPE_STORY
               -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE
               + "S,lightgreen" + ParseJiraTicketsConstants.DEFINITION_CLASS_END;
+      case ParseJiraTicketsConstants.TYPE_EPIC
+              -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE
+              + "E,green" + ParseJiraTicketsConstants.DEFINITION_CLASS_END;
       case ParseJiraTicketsConstants.TYPE_NEW
               -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE
               + "N,lightgreen" + ParseJiraTicketsConstants.DEFINITION_CLASS_END;
@@ -291,17 +294,15 @@ public class Utils {
     log.info("Unique Fields  : [{}]", fields.size());
     ArrayList<FieldDescriptor> fieldDescriptors = new ArrayList<>();
     fields.stream().sorted().forEach(field -> {
-      if (!field.startsWith("Custom field (")) {
-        log.info("   - Unique Field  : [{}][{}]", field, Utils.countSameFields(header, field));
-        FieldDescriptor fieldDescriptor = new FieldDescriptor(header, field);
-        fieldDescriptors.add(fieldDescriptor);
-        log.info("                   ->  FieldDescriptor  : [{}]", fieldDescriptor);
-        if (fieldDescriptor.name.contains("link")) {
-          log.info("                   ->  LINK : FieldDescriptor  : [{}]", fieldDescriptor);
-          JiraTicketLinkDescriptor jiraTicketLinkDescriptor
-                  = new JiraTicketLinkDescriptor(field, fieldDescriptor);
-          jiraTicketLinkDescriptors.add(jiraTicketLinkDescriptor);
-        }
+      log.info("   - Unique Field  : [{}][{}]", field, Utils.countSameFields(header, field));
+      FieldDescriptor fieldDescriptor = new FieldDescriptor(header, field);
+      fieldDescriptors.add(fieldDescriptor);
+      log.info("                   ->  FieldDescriptor  : [{}]", fieldDescriptor);
+      if (fieldDescriptor.name.contains("link")) {
+        log.info("                   ->  LINK : FieldDescriptor  : [{}]", fieldDescriptor);
+        JiraTicketLinkDescriptor jiraTicketLinkDescriptor
+                = new JiraTicketLinkDescriptor(field, fieldDescriptor);
+        jiraTicketLinkDescriptors.add(jiraTicketLinkDescriptor);
       }
     });
     log.info("Unique Unique Fields  : [{}]", fieldDescriptors.size());

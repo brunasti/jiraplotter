@@ -22,6 +22,7 @@ public class JiraTicket {
   ArrayList<String> priority;
   ArrayList<String> status;
   ArrayList<String> summary;
+  ArrayList<String> storyPoints;
 
   ArrayList<JiraTicketLinks> inwardIssueLink;
   ArrayList<JiraTicketLinks> outwardIssueLink;
@@ -51,7 +52,9 @@ public class JiraTicket {
     ArrayList<String> values = new ArrayList<>();
 
     if (fieldDescriptor != null) {
+      log.debug("readField : {}",fieldDescriptor.name);
       fieldDescriptor.indexes.forEach(index -> {
+        log.debug("readField : {} {}",fieldDescriptor.name, index);
         if ((fields[index] != null) && (!fields[index].isBlank())) {
           values.add(fields[index]);
         }
@@ -72,6 +75,8 @@ public class JiraTicket {
     priority = readField(fields, JiraTicketDescriptor.priorityFieldDescriptor);
     status = readField(fields, JiraTicketDescriptor.statusFieldDescriptor);
     summary = readField(fields, JiraTicketDescriptor.summaryFieldDescriptor);
+    storyPoints = readField(fields, JiraTicketDescriptor.storyPointsFieldDescriptor);
+
     inwardIssueLink = readLinks(fields, JiraTicketDescriptor.inwardIssueLinkFieldDescriptor);
     outwardIssueLink = readLinks(fields, JiraTicketDescriptor.outwardIssueLinkFieldDescriptor);
   }
