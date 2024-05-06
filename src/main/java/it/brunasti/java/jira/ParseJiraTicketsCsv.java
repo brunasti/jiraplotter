@@ -79,13 +79,13 @@ public class ParseJiraTicketsCsv {
   private void generateTicket(JiraTicket jiraTicket) {
     log.info("generateTicket : {}",jiraTicket);
     output.println(Utils.createClassHead(jiraTicket));
+    // TODO: Manage the case of a too long summary
+    output.println(ParseJiraTicketsConstants.DEFINITION_CLASS_SUMMARY
+            + jiraTicket.summary.getFirst());
     if (!jiraTicket.assignee.isEmpty()) {
       output.println(ParseJiraTicketsConstants.DEFINITION_CLASS_ASSIGNED_TO
               + jiraTicket.assignee.getFirst());
     }
-    // TODO: Manage the case of a too long summary
-    output.println(ParseJiraTicketsConstants.DEFINITION_CLASS_SUMMARY
-            + jiraTicket.summary.getFirst());
     output.println(ParseJiraTicketsConstants.DEFINITION_CLASS_STATUS
             + jiraTicket.status.getFirst());
     output.println(ParseJiraTicketsConstants.DEFINITION_CLASS_TYPE
@@ -346,7 +346,7 @@ public class ParseJiraTicketsCsv {
     FileOutputStream file = new FileOutputStream(outputDir + "jira.puml");
     output = new PrintStream(file, true);
     generateHeader("Jira Tickets general diagram");
-    generateLegend(jiraTickets.values(), "");
+    generateLegend(jiraTickets.values(), null);
     generateTickets(jiraTickets.values());
     generateParents(jiraTickets.values());
     generateLinks(jiraTickets.values());

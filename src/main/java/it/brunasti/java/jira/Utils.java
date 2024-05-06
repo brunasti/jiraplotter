@@ -240,16 +240,33 @@ public class Utils {
           String linkKind) {
     Map<String, JiraTicket> selectedJiraTickets = new HashMap<>();
 
-    jiraTickets.forEach(jiraTicket ->
-            jiraTicket.inwardIssueLink.forEach(links -> {
-              if (links.getName().contains(linkKind)) {
-                links.getJiraTickets().forEach(link -> {
-                  selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
-                  selectedJiraTickets.put(link.issueKey.getFirst(), link);
-                });
-              }
-            })
-    );
+    if ((linkKind != null) && (!linkKind.isEmpty())) {
+      jiraTickets.forEach(jiraTicket ->
+              jiraTicket.inwardIssueLink.forEach(links -> {
+                if ((linkKind == null) || (linkKind.isEmpty()) || (links.getName().contains(linkKind))) {
+                  links.getJiraTickets().forEach(link -> {
+                    selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
+                    selectedJiraTickets.put(link.issueKey.getFirst(), link);
+                  });
+                }
+              })
+      );
+    } else {
+      jiraTickets.forEach(jiraTicket ->
+        selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket)
+      );
+    }
+
+//    jiraTickets.forEach(jiraTicket ->
+//            jiraTicket.inwardIssueLink.forEach(links -> {
+//              if ((linkKind == null) || (linkKind.isEmpty()) || (links.getName().contains(linkKind))) {
+//                links.getJiraTickets().forEach(link -> {
+//                  selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
+//                  selectedJiraTickets.put(link.issueKey.getFirst(), link);
+//                });
+//              }
+//            })
+//    );
 
     return selectedJiraTickets;
   }
