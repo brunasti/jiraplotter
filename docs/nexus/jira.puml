@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon May 06 17:53:51 CEST 2024
+' Generated at    : Tue May 07 11:43:52 CEST 2024
 
 title Jira Tickets general diagram
 hide empty members
@@ -10,10 +10,10 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(To Do) : 31
+(To Do) : 30
 (Done) : 3
 (In Review) : 1
-(In Progress) : 5
+(In Progress) : 6
 ----
 Jira Ticket Types
 ----
@@ -200,7 +200,7 @@ class "ARS-32" << (E,green) >> {
 class "ARS-10" << (S,lightgreen) >> {
   Summary : Customised Survey Landing Page URL
   Assigned to : PAOLO BRUNASTI
-  Status : To Do
+  Status : In Progress
   Type : Story
 }
 

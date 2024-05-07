@@ -1,0 +1,503 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers,Watchers Id,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Inward issue link (Cloners),Outward issue link (Cloners),Inward issue link (Issue split),Outward issue link (Issue split),Attachment,Attachment,Custom field (AIS - Acceptance Criteria),Custom field (AND Theme),Custom field (ANDi Contact(s)),Custom field (ANDi Level),Custom field (ANDi Role & Level),Custom field (Ability to reproduce),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria ),Custom field (Acceptance Criteria ),Custom field (Acceptance crietera),Custom field (Ada End Date),Custom field (Affected services),Custom field (Assumptions ),Custom field (Atlas project key),Custom field (Atlas project status),Custom field (Baseline for primary metric),Custom field (Bid Documentation Link),Custom field (Bid Stage),Custom field (Billable),Custom field (Blocked reason),Custom field (Buddy),Custom field (Business Value),Custom field (Campus Start Date),Custom field (Category),Custom field (Change completion date),Custom field (Change reason),Custom field (Change risk),Custom field (Change start date),Custom field (Change type),Custom field (Checklist Completed),Custom field (Checklist Content YAML),Custom field (Checklist Progress),Custom field (Checklist Progress %),Custom field (Checklist Text),Custom field (Checklist Text (view-only)),Custom field (Club),Custom field (Club Vision),Custom field (Club Vision),Custom field (Comments),Custom field (Commercials),Custom field (Commericals),Custom field (Community),Custom field (Community),Custom field (Company size),Custom field (Confidence Level Score),Custom field (Content type),Custom field (Create wireframe),Custom field (Deadline),Custom field (Deadline),Custom field (Definition of Done),Custom field (Definition of Done),Custom field (Definition of Done (DOD)),Custom field (Definition of Done (DOD)),Custom field (Definition of Done (DOD)),Custom field (Definition of Ready),Custom field (Delivery progress),Custom field (Delivery status),Custom field (Department),Custom field (Dependencies),Custom field (Dependencies),Custom field (Dependencies),Custom field (Dependent Story),Custom field (Design),Custom field (Designs ready),Custom field (Desired result),Custom field (Desktop Design),Custom field (Development),Custom field (DoD),Custom field (DoD),Custom field (DoR),Custom field (DoR),Custom field (Due by date),Custom field (Due by date),Custom field (Effort),Custom field (Email),Custom field (End date),Custom field (Engagement End Date),Custom field (Engagement Start Date),Custom field (Epic Color),Custom field (Epic Name),Custom field (Epic Status),Custom field (Estimated Time),Custom field (Estimation),Custom field (Exp. Primary KPI),Custom field (Experiment Name),Custom field (Experiment Name/Key),Custom field (Experiment Split),Custom field (GSDT: Contentful Information),Custom field (GSDT: User Story),Custom field (Gladys Lens - ANDi),Custom field (Gladys Lens - ANDi),Custom field (Gladys Lens - Client),Custom field (Gladys Lens - Client),Custom field (Gladys Lens - Client),Custom field (Gladys Lens - Club),Custom field (Gladys Lens - Club),Custom field (Gladys Lens - Commercials),Custom field (Gladys Lens - Commercials),Custom field (Goal impact),Custom field (Guild),Custom field (Guild),Custom field (Guild),Custom field (Guild),Custom field (Guild),Custom field (Hiring department),Custom field (Hiring manager),Custom field (Hypothesis / Objective),Custom field (I would like to),Custom field (ILab Zone),Custom field (Idea archived),Custom field (Idea archived on),Custom field (Impact),Custom field (Impact score),Custom field (Impact vs. effort),Custom field (Insights),Custom field (Insights impact),Custom field (Interview Date),Custom field (Issue color),Custom field (Job role),Custom field (KM - Controls + Support),Custom field (KM - How?),Custom field (KM - Inputs + Pre-conditions),Custom field (KM - Outputs + Post-conditions),Custom field (KM - Role - Accountabilities),Custom field (KM - Role - Experience),Custom field (KM - Role - Responsibilities),Custom field (KM - Role - Skills),Custom field (KM - Roles + Resources),Custom field (KM - What?),Custom field (KM - Why?),Custom field (KX - Description),Custom field (Last Worked on ),Custom field (Learning & Challenges),Custom field (Learning & Challenges),Custom field (Learning & Challenges),Custom field (Learning & Challenges),Custom field (Learning & Challenges),Custom field (Learning & Challenges),Custom field (Learning Goal),Custom field (Learnings & Challenges),Custom field (Link to figma),Custom field (Link to storyboard/supporting media),Custom field (Linked issues),Custom field (Links to Designs),Custom field (Location),Custom field (Locked forms),Custom field (Magic Story Points),Custom field (Mobile Design),Custom field (Murray Client),Custom field (Murray Client),Custom field (Murray Squad),Custom field (Murray Squad Lead),Custom field (Next Engagement Start Date),Custom field (Number of unique visitors),Custom field (OKR Related to),Custom field (Open forms),Custom field (Opportunity value),Custom field (Persona),Custom field (Phone number),Custom field (Product Affected),Custom field (Product Value Score),Custom field (Product area),Custom field (Project Name),Custom field (Project start),Custom field (Project target),Custom field (Projected MDE),Custom field (Proposed ANDis),Custom field (Public description),Custom field (Publication date),Custom field (Questions ),Custom field (Rank),Custom field (Reference),Custom field (Release Version),Custom field (Release Version),Custom field (Release Version),Custom field (Release Version),Custom field (Request For Change),Custom field (Request For Change),Custom field (Request Type),Custom field (Request language),Custom field (Request participants),Custom field (Required sample size),Custom field (Resolution),Custom field (Resolution),Custom field (Response Length),Custom field (RnD),Custom field (Roadmap),Custom field (Role Type),Custom field (Run time),Satisfaction rating,Custom field (Satisfaction date),Custom field (Score),Custom field (Session Date),Custom field (Short description),Custom field (So that),Custom field (Spec ready),Custom field (Sponsor),Sprint,Custom field (Squad),Custom field (Squad),Custom field (Squad Lead),Custom field (Start date),Custom field (Start date),Custom field (Steps to Replicate),Custom field (Story Points),Custom field (Story Points),Custom field (Story Points),Custom field (Story Who),Custom field (Story point estimate),Custom field (Story point estimate),Custom field (Story point(s)),Custom field (Story points),Custom field (Submitted forms),Custom field (Subproject),Custom field (Subproject),Custom field (Supporting Data),Custom field (T-Shirt Size),Custom field (T-Shirt Size),Custom field (T-Shirt Size),Custom field (T-shirt Size),Custom field (T-shirt Size Estimation),Custom field (TD Due By),Custom field (TShirt Size),Custom field (Target end),Custom field (Target start),Custom field (Task),Custom field (Tasks),Custom field (Team),Custom field (Team),Custom field (Tee-shirt sizing),Custom field (Template),Custom field (Test),Custom field (Theme),Custom field (Timebox),Custom field (Total forms),Custom field (Updates),Custom field (Upskilling),Custom field (Upskilling),Custom field (User Story),Custom field (Value),Custom field (Value to SH),Custom field (Vulnerability),Custom field (Website),Custom field ([CHART] Date of First Response),Custom field ([CHART] Time in Status),Custom field (uuid),Comment,Comment,Parent,Parent summary,Status Category,Status Category Changed
+Add address fields to create account fields step,ENKPS-48,71405,Story,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,22/Apr/24 12:21 PM,22/Apr/24 12:41 PM,22/Apr/24 12:42 PM,,,0,,,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040li:9e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,22/Apr/24 12:21 PM
+Create address checker component ,ENKPS-47,71404,Story,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,22/Apr/24 12:18 PM,22/Apr/24 12:20 PM,22/Apr/24 12:42 PM,,,0,,,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040li:9f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,22/Apr/24 12:18 PM
+Build icon functionality component,ENKPS-46,71390,Task,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,22/Apr/24 10:30 AM,22/Apr/24 12:36 PM,22/Apr/24 12:42 PM,,,0,The way we handle icons so we can dynamically use icons. ,,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040li:9ai,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71010,Create Account,To Do,22/Apr/24 10:30 AM
+Create list component ,ENKPS-45,71380,Story,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,22/Apr/24 10:24 AM,22/Apr/24 10:30 AM,22/Apr/24 12:42 PM,,,0,"* On the account creation page, but also found on the home page
+* Bullet list",,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040li:9a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71010,Create Account,To Do,22/Apr/24 10:24 AM
+Assemble log in page,ENKPS-44,71376,Story,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,22/Apr/24 10:09 AM,22/Apr/24 10:09 AM,22/Apr/24 12:42 PM,,,0,,,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040li:9d,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,22/Apr/24 10:09 AM
+Footer for create account page,ENKPS-43,71375,Story,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,22/Apr/24 10:09 AM,22/Apr/24 12:42 PM,22/Apr/24 12:42 PM,,,0,,,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040li:9b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71010,Create Account,To Do,22/Apr/24 10:09 AM
+Assemble create account page,ENKPS-42,71374,Story,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,22/Apr/24 10:00 AM,22/Apr/24 10:23 AM,22/Apr/24 12:42 PM,,,0,"* Logo 
+* White Nav bar 
+* Card component for account creation
+* Empty card component for log in (same shape and size)",,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040li:99,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71010,Create Account,To Do,22/Apr/24 10:00 AM
+Product footer,ENKPS-41,71373,Epic,Done,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,Done,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,22/Apr/24 9:52 AM,22/Apr/24 9:54 AM,22/Apr/24 12:42 PM,22/Apr/24 9:54 AM,,0,,,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i042b0:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13187_*:*_1_*:*_0_*|*_13185_*:*_1_*:*_141545,,,,,,Done,22/Apr/24 9:54 AM
+Product Layout ,ENKPS-40,71372,Epic,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,22/Apr/24 9:52 AM,22/Apr/24 9:55 AM,22/Apr/24 12:42 PM,,,0,,,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i042as:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,22/Apr/24 9:52 AM
+Set up home page,ENKPS-39,71371,Epic,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,22/Apr/24 9:52 AM,22/Apr/24 9:52 AM,22/Apr/24 12:42 PM,,,0,,,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i042ak:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,22/Apr/24 9:52 AM
+SPIKE: Research Google & Supabase integration,ENKPS-38,71335,Story,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,19/Apr/24 10:01 AM,19/Apr/24 10:01 AM,22/Apr/24 8:51 AM,,,0,,,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i0424s:,,,,,,,,,,,,,,,,,,,,,,,,,,,ENKPS Sprint 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19/Apr/24 10:01 AM;61bafd21755091006a276b65;0.5 days timebox,,71212,Dev set up,To Do,19/Apr/24 10:01 AM
+SPIKE: Compare Twillio and Supabase for email notifications,ENKPS-37,71334,Story,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,19/Apr/24 9:54 AM,19/Apr/24 9:56 AM,22/Apr/24 12:42 PM,,,0,,,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i041ua:,,,,,,,,,,,,,,,,,,,,,,,,,,,ENKPS Sprint 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19/Apr/24 9:56 AM;61bafd21755091006a276b65;Timebox: 0.5 days,,71212,Dev set up,To Do,19/Apr/24 9:54 AM
+Add styling for button sty,ENKPS-36,71333,Story,Done,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,Done,,,Tom Pope,60abd889411c22006827c085,Kimberley Kruger,61bafd21755091006a276b65,19/Apr/24 9:42 AM,22/Apr/24 12:42 PM,22/Apr/24 12:42 PM,22/Apr/24 12:42 PM,,0,"1 x button types
+
+* Link type button, ie: forgot password
+* Global styling, and if we find we need to make the ",,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,ENKPS-27,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040li:a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-04-22 08:48:43.031,13187_*:*_1_*:*_0_*|*_13185_*:*_1_*:*_269981515,,22/Apr/24 9:48 AM;61bafd21755091006a276b65;Don’t need to worry abotu this - can come in with the page creation - this is a once off type of styling ,22/Apr/24 12:42 PM;61bafd21755091006a276b65;Not needed,71010,Create Account,Done,22/Apr/24 12:42 PM
+SPIKE: Analyse all different typography types across KPN,ENKPS-35,71297,Story,Done,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,Done,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,18/Apr/24 9:55 AM,18/Apr/24 10:30 AM,22/Apr/24 12:42 PM,18/Apr/24 10:30 AM,,0,,,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040li:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13187_*:*_1_*:*_0_*|*_13185_*:*_1_*:*_2111557,,18/Apr/24 10:30 AM;61bafd21755091006a276b65;Duplication - combined with another spike,,,,Done,18/Apr/24 10:30 AM
+Create typography,ENKPS-34,71296,Task,Done,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,Done,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,18/Apr/24 9:50 AM,18/Apr/24 2:48 PM,22/Apr/24 12:42 PM,18/Apr/24 2:48 PM,,0,"* Create typography component where you can choose the variant 
+* Heading 
+* Subheading 
+* Body text
+* Example
+** <Typography variant=""h1"" component=""h2""> h1. Heading </Typography>",,Eniko Kosztolanyi,Kimberley Kruger,60ac10b81155bb006fbd90e3,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040li:9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-04-18 13:37:04.274,13187_*:*_1_*:*_0_*|*_13185_*:*_1_*:*_17891260,,"18/Apr/24 2:37 PM;60ac10b81155bb006fbd90e3;[~accountid:61bafd21755091006a276b65] I think we can delete this, as [https://anddigitaltransformation.atlassian.net/browse/ENKPS-28|https://anddigitaltransformation.atlassian.net/browse/ENKPS-28|smart-link] covers it",,71010,Create Account,Done,18/Apr/24 2:48 PM
+Setup Authentication w. Google in Supabase,ENKPS-33,71251,Story,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Tom Pope,60abd889411c22006827c085,Tom Pope,60abd889411c22006827c085,16/Apr/24 3:21 PM,19/Apr/24 9:59 AM,22/Apr/24 12:42 PM,,,0,,,Kimberley Kruger,Tom Pope,61bafd21755091006a276b65,60abd889411c22006827c085,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040li:b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-04-19 08:58:59.25,,,19/Apr/24 9:58 AM;61bafd21755091006a276b65;Duplication,,71010,Create Account,To Do,16/Apr/24 3:21 PM
+Setup Users table in Supabase and policies that allow read and write access to authenticated users,ENKPS-32,71250,Story,Done,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,Done,,,Tom Pope,60abd889411c22006827c085,Tom Pope,60abd889411c22006827c085,16/Apr/24 3:18 PM,19/Apr/24 9:57 AM,22/Apr/24 12:42 PM,19/Apr/24 9:57 AM,,0,"* Create table of Users with schema holding relevant data
+* Set table policies to make sure the table is accessed only by authenticated users
+* Create user when user adds email verification
+* Updates user information when form is submitted (User ID should be in the URL to pass to Supabase)",,Kimberley Kruger,Tom Pope,61bafd21755091006a276b65,60abd889411c22006827c085,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040li:f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-04-19 08:57:09.881,13187_*:*_1_*:*_0_*|*_13185_*:*_1_*:*_239937059,,19/Apr/24 9:57 AM;61bafd21755091006a276b65;This is a duplication - covered by the set up for Supabase by JP,,71010,Create Account,Done,19/Apr/24 9:57 AM
+Setup Email actions on creation of email (SendGrid),ENKPS-31,71247,Story,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Tom Pope,60abd889411c22006827c085,Tom Pope,60abd889411c22006827c085,16/Apr/24 3:08 PM,19/Apr/24 9:54 AM,22/Apr/24 12:42 PM,,,0,"SendGrid (Twilio’s Email service) allows you to send 100 emails a day on a free account. We will need to setup the service to be able to send emails to the user after they have input their email and account. This ticket is to setup the SendGrid account, and create the functionality that allows the user to verify their email and be redirected to the KPN inloggen form. ",,Tom Pope,,60abd889411c22006827c085,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040li:d,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71010,Create Account,To Do,16/Apr/24 3:08 PM
+Create Input Component,ENKPS-30,71244,Story,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Tom Pope,60abd889411c22006827c085,Tom Pope,60abd889411c22006827c085,16/Apr/24 3:04 PM,22/Apr/24 10:19 AM,22/Apr/24 12:42 PM,,,0,"While you’re not creating the validation here, you’re creating the styling which the validation will use. Example input types include:
+
+* Email 
+* Password 
+* Etc 
+
+Additional types of input include:
+
+* Radio button
+* Show password
+
+You also need to be able to render the error message below the input fields, when not completed correctly. ",,Kimberley Kruger,Tom Pope,61bafd21755091006a276b65,60abd889411c22006827c085,,,,,,,,,ENKPS-28,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i041ts:,,,,,,,,,,,,,,,,,,,,,,,,,,,ENKPS Sprint 1,,,,,,,,,,,,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-04-22 09:19:46.868,,,22/Apr/24 10:19 AM;61bafd21755091006a276b65;Consider the error validation,,71010,Create Account,To Do,16/Apr/24 3:04 PM
+SPIKE: What does KPN use for accessibility and what techniques we should adopt,ENKPS-29,71242,Story,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Tom Pope,60abd889411c22006827c085,Tom Pope,60abd889411c22006827c085,16/Apr/24 3:02 PM,18/Apr/24 12:29 PM,22/Apr/24 12:42 PM,,,0,,,Kimberley Kruger,Tom Pope,61bafd21755091006a276b65,60abd889411c22006827c085,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040lh:zzai,,,,,,,,,,,,,,,,,,,,,,,,,,,ENKPS Sprint 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-04-18 08:13:03.97,,,16/Apr/24 3:03 PM;60abd889411c22006827c085;timebox 0.5 days,"18/Apr/24 9:13 AM;61bafd21755091006a276b65;* Lighthouse test/ways to improve (Eniko comment)
+* Whoever picks this up should present findings back to the team so we can build this into our ways of working 
+* Expected outcome: list of principles to follow",71212,Dev set up,To Do,16/Apr/24 3:02 PM
+Create the theme and configuration,ENKPS-28,71241,Task,In Review,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,Eniko Kosztolanyi,60ac10b81155bb006fbd90e3,Tom Pope,60abd889411c22006827c085,Tom Pope,60abd889411c22006827c085,16/Apr/24 2:53 PM,18/Apr/24 4:24 PM,22/Apr/24 12:42 PM,,,0,"* Add example Colours, spacing, typography to theme
+* Add theme configuration with Tailwind
+* Create an example component using theme
+* Analyse all different typography types across KPN
+* Create typography component where you can choose the variant 
+* Heading 
+* Subheading 
+* Body text
+* Example
+** <Typography variant=""h1"" component=""h2""> h1. Heading </Typography>",,Eniko Kosztolanyi,Tom Pope,60ac10b81155bb006fbd90e3,60abd889411c22006827c085,,,,,,,,,,ENKPS-26,ENKPS-27,ENKPS-30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040lh:zza,,,,,,,,,,,,,,,,,,,,,,,,,,,ENKPS Sprint 1,,,,,,,,,,,,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-04-18 15:24:23.533,,,18/Apr/24 4:24 PM;60ac10b81155bb006fbd90e3;PR: [https://git.core.and-digital.com/aletta/kpn-group-project/-/merge_requests/2|https://git.core.and-digital.com/aletta/kpn-group-project/-/merge_requests/2],,71212,Dev set up,In Progress,18/Apr/24 2:37 PM
+Create Button Component,ENKPS-27,71240,Story,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Tom Pope,60abd889411c22006827c085,Tom Pope,60abd889411c22006827c085,16/Apr/24 2:52 PM,19/Apr/24 9:45 AM,22/Apr/24 12:42 PM,,,0,"3 x button types
+
+* Primary blue 
+* Inverted white
+* Disabled button (under account creation)",,Tom Pope,,60abd889411c22006827c085,,,,,,,,,,ENKPS-28,,,,ENKPS-36,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i041to:,,,,,,,,,,,,,,,,,,,,,,,,,,,ENKPS Sprint 1,,,,,,,,,,,,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71010,Create Account,To Do,16/Apr/24 2:52 PM
+Create Card Component ,ENKPS-26,71239,Task,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Tom Pope,60abd889411c22006827c085,Tom Pope,60abd889411c22006827c085,16/Apr/24 2:51 PM,18/Apr/24 2:48 PM,22/Apr/24 12:42 PM,,,0,"* We’ve agreed to go with the welcome card from a styling perspective
+* Two buttons max
+* Recreate styling as best to your ability, expect slight differences",,Kimberley Kruger,Tom Pope,61bafd21755091006a276b65,60abd889411c22006827c085,,,,,,,,,ENKPS-28,,,,,,,,18/Apr/24 9:30 AM;ug:64b26c24-ef0b-48a9-b17c-a83b5bb14790;Screenshot 2024-04-18 at 10.22.54.png;https://anddigitaltransformation.atlassian.net/rest/api/3/attachment/content/23483,18/Apr/24 9:29 AM;ug:64b26c24-ef0b-48a9-b17c-a83b5bb14790;Screenshot 2024-04-18 at 10.24.13.png;https://anddigitaltransformation.atlassian.net/rest/api/3/attachment/content/23482,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i041tg:,,,,,,,,,,,,,,,,,,,,,,,,,,,ENKPS Sprint 1,,,,,,,,,,,,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-04-18 08:43:20.474,,,18/Apr/24 9:43 AM;61bafd21755091006a276b65;Whoever picks up the ticket will need to determine the max height and width of the component,,71010,Create Account,To Do,16/Apr/24 2:51 PM
+Create routing for all of account creation user flow,ENKPS-25,71238,Task,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Tom Pope,60abd889411c22006827c085,Tom Pope,60abd889411c22006827c085,16/Apr/24 2:34 PM,18/Apr/24 12:28 PM,22/Apr/24 12:42 PM,,,0,"* Routing for https://inloggen.kpn.com/ 
+* Routing for https://inloggen.kpn.com/registreren/[ID]
+* Routing for two factor request https://inloggen.kpn.com/mfa 
+* Routing for home kpn.com",,Tom Pope,,60abd889411c22006827c085,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i041t8:,,,,,,,,,,,,,,,,,,,,,,,,,,,ENKPS Sprint 1,,,,,,,,,,,,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71010,Create Account,To Do,16/Apr/24 2:34 PM
+SPIKE: Research best hosting provider for project,ENKPS-24,71235,Story,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Tom Pope,60abd889411c22006827c085,Tom Pope,60abd889411c22006827c085,16/Apr/24 2:05 PM,18/Apr/24 8:42 AM,22/Apr/24 12:42 PM,,,0,,,Tom Pope,,60abd889411c22006827c085,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040lh:zz5i,,,,,,,,,,,,,,,,,,,,,,,,,,,ENKPS Sprint 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16/Apr/24 2:06 PM;60abd889411c22006827c085;Timebox 0.5 days,,71212,Dev set up,To Do,16/Apr/24 2:05 PM
+SPIKE: Research best way of fetching content from contentful: Contentful Client vs GraphQL,ENKPS-23,71230,Story,In Progress,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,Juan Solano,633409fea84c7f79c38738eb,Tom Pope,60abd889411c22006827c085,Tom Pope,60abd889411c22006827c085,16/Apr/24 10:58 AM,22/Apr/24 10:37 AM,22/Apr/24 12:42 PM,,,0,,,Tom Pope,,60abd889411c22006827c085,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040lh:zz6,,,,,,,,,,,,,,,,,,,,,,,,,,,ENKPS Sprint 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16/Apr/24 2:08 PM;60abd889411c22006827c085;Timebox: 0.5 days,,71212,Dev set up,In Progress,22/Apr/24 10:37 AM
+Build Gitlab runner pipeline,ENKPS-22,71217,Task,In Review,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,Nneka Tielman,6294f4fd1a2bdf0070942111,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,16/Apr/24 8:10 AM,22/Apr/24 9:31 AM,22/Apr/24 12:42 PM,,,0,"*SCOPE SUMMARY*
+
+* Link of example gitlab pipeline. Inspire Project used one: [https://anddigitaltransformation.atlassian.net/wiki/spaces/CAA/pages/4377706526/Aletta+Inspire+Learning+Platform+-+Project+Space|https://anddigitaltransformation.atlassian.net/wiki/spaces/CAA/pages/4377706526/Aletta+Inspire+Learning+Platform+-+Project+Space|smart-link] 
+* Reach out to Keith for help if need be",,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040lh:zz2,,,,,,,,,,,,,,,,,,,,,,,,,,,ENKPS Sprint 1,,,,,,,,,,,,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71212,Dev set up,In Progress,17/Apr/24 9:23 AM
+Setup pre-commit hooks and linters,ENKPS-21,71216,Task,Done,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,Done,Eniko Kosztolanyi,60ac10b81155bb006fbd90e3,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,16/Apr/24 8:10 AM,18/Apr/24 9:06 AM,22/Apr/24 12:42 PM,18/Apr/24 9:06 AM,,0,"This is done in order to manage Quality Assurance and force everyone to use prettier and ES Lint for code standards. 
+
+*SCOPE SUMMARY*
+
+* Use husky and lint-staged to setup pre-commit hooks. We will use prettier and ESLint as our linters. 
+* Install dependencies: husky, lint-staged, eslint
+* configure husky and lint-staged to work with Nuxt.
+* ESLint and Prettier should be run with every commit across all .vue and .js files
+* Test by running a commit",,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040lh:zz9,,,,,,,,,,,,,,,,,,,,,,,,,,,ENKPS Sprint 1,,,,,,,,,,,,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13187_*:*_1_*:*_0_*|*_13185_*:*_1_*:*_90879136_*|*_13186_*:*_1_*:*_85303683,,,,71212,Dev set up,Done,18/Apr/24 9:06 AM
+Setup Contentful: Create free account and FE integration,ENKPS-20,71215,Task,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,16/Apr/24 8:06 AM,16/Apr/24 2:11 PM,22/Apr/24 12:42 PM,,,0,"BACKGROUND
+
+This is the setup required to be able to fetch Content from contentful
+
+*SCOPE SUMMARY*
+
+* Create account 
+* Setup contentful plugin on FE project
+* Setup template fetch of content",,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040lh:zz8,,,,,,,,,,,,,,,,,,,,,,,,,,,ENKPS Sprint 1,,,,,,,,,,,,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71212,Dev set up,To Do,16/Apr/24 8:06 AM
+Setup Supabase integration,ENKPS-19,71214,Task,Done,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,16/Apr/24 8:05 AM,19/Apr/24 1:51 PM,22/Apr/24 12:42 PM,19/Apr/24 1:51 PM,,0,"*SCOPE SUMMARY*
+
+* Create a supabase account and team
+* Setup template users table
+* adding supabase client to FE including env variables
+* Setup template fetch all users in Vuex store
+* Link to project with supabase: [https://git.core.and-digital.com/aletta/kpn-test-projects/-/merge_requests/15|https://git.core.and-digital.com/aletta/kpn-test-projects/-/merge_requests/15]",,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040lh:zz5,,,,,,,,,,,,,,,,,,,,,,,,,,,ENKPS Sprint 1,,,,,,,,,,,,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13187_*:*_1_*:*_0_*|*_13185_*:*_1_*:*_89945356_*|*_13186_*:*_1_*:*_96138344_*|*_13211_*:*_1_*:*_93878167,,,,71212,Dev set up,Done,19/Apr/24 1:51 PM
+Project initialisation,ENKPS-18,71213,Task,Done,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,Done,Eniko Kosztolanyi,60ac10b81155bb006fbd90e3,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,16/Apr/24 8:05 AM,17/Apr/24 9:23 AM,22/Apr/24 12:42 PM,17/Apr/24 9:23 AM,,0,"*SCOPE SUMMARY*
+
+Repository: 
+
+* [https://git.core.and-digital.com/aletta/kpn-group-project|https://git.core.and-digital.com/aletta/kpn-group-project]
+* Initialise project with Tailwind 
+* Initialise project with Prettier (and if possible ES Lint)
+* Javascript (NOT Typescript)
+* NPM
+* Initialise project with Jest configuration
+* Update the Developer Ways of Working documentation to include running project instructions",,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040lh:zz,,,,,,,,,,,,,,,,,,,,,,,,,,,ENKPS Sprint 1,,,,,,,,,,,,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13187_*:*_1_*:*_0_*|*_13185_*:*_1_*:*_90363117_*|*_13186_*:*_1_*:*_718447,,,,71212,Dev set up,Done,17/Apr/24 9:23 AM
+Dev set up,ENKPS-17,71212,Epic,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,16/Apr/24 8:03 AM,18/Apr/24 12:24 PM,22/Apr/24 12:42 PM,,10/May/24 12:00 AM,0,,,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040o6:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,22/Apr/24 12:00 AM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,16/Apr/24 8:03 AM
+Database migration,ENKPS-16,71153,Story,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,15/Apr/24 9:38 AM,15/Apr/24 9:38 AM,22/Apr/24 12:42 PM,,,0,,,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i041dc:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,15/Apr/24 9:38 AM
+Create content model for log in,ENKPS-15,71141,Task,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,12/Apr/24 11:53 AM,19/Apr/24 2:57 PM,22/Apr/24 12:42 PM,,,0,"*BACKGROUND*
+
+KPN would like to move over to Contentful. As part of this move, we need to include content modelling in our development. 
+
+*SCOPE SUMMARY*
+
+In Scope
+
+* Heading 
+* Email address field 
+* Password field 
+* Ts and cs checkbox 
+* CTA Button 
+
+Out of Scope
+
+* TBC
+
+*TECH DESIGN*
+
+TBC
+
+*DEPENDENCIES*
+
+TBC
+
+*QUESTIONS*
+
+* This is exactly the same list as we have for account creation, so do we need a content model for log in?",,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040ll:i,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,12/Apr/24 11:53 AM
+Add google option to log in step,ENKPS-14,71139,Story,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,12/Apr/24 11:41 AM,19/Apr/24 2:57 PM,22/Apr/24 12:42 PM,,,0,"*STORY*
+
+As a KPN customer, I want to log into my account so I can access my data. 
+
+*BACKGROUND*
+
+A larger percentage of users are leaning on social media log ins to increase the convenience of centralised passwords, and improved account security. Google login accounted for 73% of social logins and 73% of monthly active social login users.
+
+A longer form articles about this subject can be found [here|https://kinde.com/guides/authentication/types-and-methods/social-logins/#:~:text=According%20to%20LoginRadius%20close%20to,year%2Dolds%20prefer%20social%20login.]. 
+
+*SCOPE SUMMARY*
+
+In Scope
+
+* Adding a google log in option to the log in step. 
+
+Out of Scope
+
+* Adding any other social media log ins to this step 
+
+*UX/UI DESIGN*
+
+* [+Figma Board+|https://www.figma.com/file/GUtpArHRsWfoSgpPVEQReI/KPN-Group-Practice-Sprint-Screenshots?type=whiteboard&node-id=0%3A1&t=ildQjMVwVsWyoDFv-1]
+
+*TECH DESIGN*
+
+* [+Previously completed Vercel App+ |https://kpn-spike.vercel.app/]
+
+*DEPENDENCIES*
+
+TBC
+
+*QUESTIONS*
+
+TBC
+
+*ACCEPTANCE CRITERIA*
+
+Given a user selects “create account”, they’re redirected to the appropriate screen and:
+
+* The steps on [this story|https://anddigitaltransformation.atlassian.net/browse/ENKPS-3] have been completed
+* An optional Google log in is presented on this screen ",,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040lm:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,12/Apr/24 11:41 AM
+Email notification | Forgot password,ENKPS-13,71134,Story,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,12/Apr/24 8:48 AM,12/Apr/24 8:49 AM,22/Apr/24 12:42 PM,,,0,,,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i041d8:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,12/Apr/24 8:48 AM
+Product navigation,ENKPS-12,71133,Story,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,12/Apr/24 8:48 AM,22/Apr/24 9:53 AM,22/Apr/24 12:42 PM,,,0,[https://kpn-spike.vercel.app/|https://kpn-spike.vercel.app/|smart-link] ,,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040li:9i,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,12/Apr/24 8:48 AM
+Purchase KPN Internet product (Returning customer),ENKPS-11,71132,Story,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,12/Apr/24 8:48 AM,19/Apr/24 3:07 PM,22/Apr/24 12:42 PM,,,0,,,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i041cs:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,12/Apr/24 8:48 AM
+Purchase product (Returning customer),ENKPS-10,71131,Epic,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,12/Apr/24 8:47 AM,19/Apr/24 3:01 PM,22/Apr/24 12:42 PM,,23/Jun/24 12:00 AM,0,,,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040o8:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,22/Apr/24 12:00 AM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,12/Apr/24 8:47 AM
+Add google log in to create account step ,ENKPS-9,71045,Story,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,10/Apr/24 1:44 PM,19/Apr/24 2:56 PM,22/Apr/24 12:42 PM,,,0,"*STORY*
+
+As a prospective KPN customer, I want to use a google log in when creating my KPN account so I can have increased account security. 
+
+*BACKGROUND*
+
+A larger percentage of users are leaning on social media log ins to increase the convenience of centralised passwords, and improved account security. Google login accounted for 73% of social logins and 73% of monthly active social login users.
+
+A longer form articles about this subject can be found [here|https://kinde.com/guides/authentication/types-and-methods/social-logins/#:~:text=According%20to%20LoginRadius%20close%20to,year%2Dolds%20prefer%20social%20login.]. 
+
+*SCOPE SUMMARY*
+
+In Scope
+
+* Adding a google log in option to the create account step 
+
+Out of Scope
+
+* Adding any other social media log ins to this step 
+
+*UX/UI DESIGN*
+
+* [+Figma Board+|https://www.figma.com/file/GUtpArHRsWfoSgpPVEQReI/KPN-Group-Practice-Sprint-Screenshots?type=whiteboard&node-id=0%3A1&t=ildQjMVwVsWyoDFv-1]
+
+*TECH DESIGN*
+
+* [+Previously completed Vercel App+ |https://kpn-spike.vercel.app/]
+
+*DEPENDENCIES*
+
+TBC
+
+*QUESTIONS*
+
+TBC
+
+*ACCEPTANCE CRITERIA*
+
+Given a user selects “create account”, they’re redirected to the appropriate screen and:
+
+* The steps on [this story|https://anddigitaltransformation.atlassian.net/browse/ENKPS-4] have been completed
+* An optional Google log in is presented on this screen ",,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,ENKPS-4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040lj:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,10/Apr/24 1:44 PM
+Create content model for account creation,ENKPS-8,71044,Task,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,10/Apr/24 1:43 PM,18/Apr/24 12:25 PM,22/Apr/24 12:42 PM,,,0,"*BACKGROUND*
+
+KPN would like to move over to Contentful. As part of this move, we need to include content modelling in our development. 
+
+*SCOPE SUMMARY*
+
+In Scope
+
+* Heading 
+* Email address field 
+* Password field 
+* Ts and cs checkbox 
+* CTA Button 
+
+Out of Scope
+
+* TBC
+
+*TECH DESIGN*
+
+TBC
+
+*DEPENDENCIES*
+
+TBC
+
+*QUESTIONS*
+
+TBC",,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040li:i,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71010,Create Account,To Do,10/Apr/24 1:43 PM
+Purchase product (First time),ENKPS-7,71012,Epic,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,09/Apr/24 11:53 AM,19/Apr/24 3:00 PM,22/Apr/24 12:42 PM,,23/Jun/24 12:00 AM,0,,,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040om:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,23/May/24 12:00 AM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,09/Apr/24 11:53 AM
+Log in,ENKPS-6,71011,Epic,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,09/Apr/24 11:53 AM,11/Apr/24 3:44 PM,22/Apr/24 12:42 PM,,22/May/24 12:00 AM,0,,,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040ok:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,22/Apr/24 12:00 AM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,09/Apr/24 11:53 AM
+Create Account,ENKPS-5,71010,Epic,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,09/Apr/24 11:53 AM,18/Apr/24 12:24 PM,22/Apr/24 12:42 PM,,19/May/24 12:00 AM,0,"*STORY*
+
+As a prospective KPN customer, I want to create an account so that I can complete my online purchase. 
+
+*BACKGROUND*
+
+As a new customer, KPN customers will be required to create their account, but as an existing customer, they’re incentivised to use their dashboard to manage their account. Some of the benefits for creating an account for an e-commerce product include:
+
+* Increase conversion and engagement rates 
+* Collect user data
+* Improve user experience
+
+Additionally, we want to seperate the account creation and log in steps (in line with the user selection), as this will:
+
+* Reduce confusion and frustration 
+* Improve conversion
+
+A [longer form|https://app.uxcel.com/courses/common-patterns/loginsignup-best-practices-854] article is available here for the thinking behind decision. 
+
+*SCOPE SUMMARY*
+
+In Scope
+
+* Completing the account creation page 
+* Linking this page to the create account link on the home page 
+
+Out of Scope
+
+* Creating the KPN dashboard
+* Completing log in 
+* Social media log ins 
+* Linking to any other home page items 
+
+*UX/UI DESIGN*
+
+* [+Figma Board+|https://www.figma.com/file/GUtpArHRsWfoSgpPVEQReI/KPN-Group-Practice-Sprint-Screenshots?type=whiteboard&node-id=0%3A1&t=ildQjMVwVsWyoDFv-1]
+
+*TECH DESIGN*
+
+* [+Previously completed Vercel App+ |https://kpn-spike.vercel.app/]
+
+*DEPENDENCIES*
+
+TBC
+
+*QUESTIONS*",,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040o7:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,22/Apr/24 12:00 AM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,09/Apr/24 11:53 AM
+Create KPN Account,ENKPS-4,70990,Story,Done,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,Done,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,08/Apr/24 2:13 PM,18/Apr/24 10:30 AM,22/Apr/24 12:42 PM,18/Apr/24 10:30 AM,,0,"*STORY*
+
+As a prospective KPN customer, I want to create an account so that I can complete my online purchase. 
+
+*BACKGROUND*
+
+As a new customer, KPN customers will be required to create their account, but as an existing customer, they’re incentivised to use their dashboard to manage their account. Some of the benefits for creating an account for an e-commerce product include:
+
+* Increase conversion and engagement rates 
+* Collect user data
+* Improve user experience
+
+Additionally, we want to seperate the account creation and log in steps (in line with the user selection), as this will:
+
+* Reduce confusion and frustration 
+* Improve conversion
+
+A [longer form|https://app.uxcel.com/courses/common-patterns/loginsignup-best-practices-854] article is available here for the thinking behind decision. 
+
+*SCOPE SUMMARY*
+
+In Scope
+
+* Completing the account creation page 
+* Linking this page to the create account link on the home page 
+
+Out of Scope
+
+* Creating the KPN dashboard
+* Completing log in 
+* Social media log ins 
+* Linking to any other home page items 
+
+*UX/UI DESIGN*
+
+* [+Figma Board+|https://www.figma.com/file/GUtpArHRsWfoSgpPVEQReI/KPN-Group-Practice-Sprint-Screenshots?type=whiteboard&node-id=0%3A1&t=ildQjMVwVsWyoDFv-1]
+
+*TECH DESIGN*
+
+* [+Previously completed Vercel App+ |https://kpn-spike.vercel.app/]
+
+*DEPENDENCIES*
+
+TBC
+
+*QUESTIONS*
+
+TBC
+
+*ACCEPTANCE CRITERIA*
+
+Given a user selects “create account”, they’re redirected to the appropriate screen and:
+
+* They’re presented with the create account page
+* They can view the email address and password field 
+** Both fields are required 
+* They can view the create account button 
+* Selecting the create account button will log the user into the KPN dashboard 
+* Under the create button you will find the ts and cs checkbox 
+* Under the create button you will find the clickable log in prompt",,Kimberley Kruger,Tom Pope,61bafd21755091006a276b65,60abd889411c22006827c085,,,,,,,,,,,,,,,,ENKPS-9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040lh:zzb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-04-16 13:33:42.063,13187_*:*_1_*:*_0_*|*_13185_*:*_1_*:*_850610038,,16/Apr/24 2:33 PM;60abd889411c22006827c085;Plan to keep the same user flow as KPN has but add social logins and then skip second phase of verifying email and setting password.,,71010,Create Account,Done,18/Apr/24 10:30 AM
+Log in to KPN account ,ENKPS-3,70989,Story,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,08/Apr/24 2:12 PM,19/Apr/24 2:57 PM,22/Apr/24 12:42 PM,,,0,"*STORY*
+
+As a KPN customer, I want to log into my account so I can access my data. 
+
+*BACKGROUND*
+
+KPN would like to incentivise users to manage their accounts digitally without the need for customer support intervention. 
+
+*SCOPE SUMMARY*
+
+In Scope
+
+* Creating a log in page 
+* Linking this page to the log in link on the home page 
+
+Out of Scope
+
+* Creating the KPN dashboard
+* Completing create account 
+* Social media log ins 
+* Linking to any other home page items 
+
+*UX/UI DESIGN*
+
+* [+Figma Board+|https://www.figma.com/file/GUtpArHRsWfoSgpPVEQReI/KPN-Group-Practice-Sprint-Screenshots?type=whiteboard&node-id=0%3A1&t=ildQjMVwVsWyoDFv-1]
+
+*TECH DESIGN*
+
+* [+Previously completed Vercel App+ |https://kpn-spike.vercel.app/]
+
+*DEPENDENCIES*
+
+TBC
+
+*QUESTIONS*
+
+TBC
+
+*ACCEPTANCE CRITERIA*
+
+Given a user selects “log in”, they’re redirected to the appropriate screen and:
+
+* They’re presented with the log in page
+* They can view the email address and password field 
+** Both fields are required 
+* They can view the log in button 
+* Selecting the log in button will redirect the user to the KPN dashboard 
+* Under the create button you will find the clickable create account prompt",,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040ll:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,08/Apr/24 2:12 PM
+Purchase KPN Internet product (First time),ENKPS-2,70988,Story,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,08/Apr/24 2:06 PM,19/Apr/24 3:08 PM,22/Apr/24 12:42 PM,,,0,"*STORY*
+
+As a prospective KPN customer, I want to add a internet based product to my cart, so I can complete my online purchase. 
+
+*BACKGROUND*
+
+x
+
+*SCOPE SUMMARY*
+
+In Scope
+
+* x
+
+Out of Scope
+
+* x
+
+*UX/UI DESIGN*
+
+* [+Figma Screenshots+|https://www.figma.com/file/GUtpArHRsWfoSgpPVEQReI/KPN-Group-Practice-Sprint-Screenshots?type=whiteboard&node-id=0-1&t=vzFX3DhLTzt0yrBK-0]
+
+*TECH DESIGN*
+
+* [+Previously completed Vercel App+ |https://kpn-spike.vercel.app/]
+
+*DEPENDENCIES*
+
+TBC
+
+*QUESTIONS*
+
+TBC
+
+*ACCEPTANCE CRITERIA*
+
+Given a user is on the website and selects any internet related product, then:
+
+* They’re directed to the “check offer” page",,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i040lo:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,08/Apr/24 2:06 PM
+User story template,ENKPS-1,70986,Story,To Do,ENKPS,EUHub Nexus | KPN Practice Sprints ,software,Kimberley Kruger,61bafd21755091006a276b65,,Medium,,,,Kimberley Kruger,61bafd21755091006a276b65,Kimberley Kruger,61bafd21755091006a276b65,08/Apr/24 12:33 PM,12/Apr/24 8:49 AM,22/Apr/24 12:42 PM,,,0,"*STORY*
+
+* As a [user role], - we should also indicate if its global or country customised
+* I want to [action],
+* so that [outcome].
+
+*BACKGROUND*
+
+Business context / Problem statement
+
+* Bulletized rationale and problem statement for the ticket. What is the thing youre trying to solve with this ticket?
+* Think of this as the why.
+
+* Notes from the PO for the devs to keep in mind.
+
+*SCOPE SUMMARY*
+
+In Scope
+
+* Details on what is in scope
+
+Out of Scope
+
+* Details on where the scope ends, for example if you want certain systems to be left out of consideration.
+
+*UX/UI DESIGN*
+
+Product design details can go here. If simple, can insert screen mockups, icons, visuals here in the story. If necessary, can reference a separate design ticket.
+
+*TECH DESIGN*
+
+Technical design and specs can be documented here. Can reference an external link (Confluence), if necessary.
+
+*DEPENDENCIES*
+
+What information, data, systems…are required to develop this ticket
+
+*QUESTIONS*
+
+Space to add questions during refinement that need to be answered to detail the ticket
+
+*ACCEPTANCE CRITERIA*
+
+Given a user is using [the product or feature] then ...
+
+* Detailed bullets of what the end result of this tickets needs to do
+* Imagine this to be a checklist for the developer, when they can check all of this they will put this story on done, describe from a functional level (the what), instead of instructions for developers on how.",,Kimberley Kruger,,61bafd21755091006a276b65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i041dg:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,08/Apr/24 12:33 PM
