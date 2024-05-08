@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 07 11:43:52 CEST 2024
+' Generated at    : Wed May 08 10:02:19 CEST 2024
 
 title Jira Tickets general diagram
 hide empty members
@@ -10,16 +10,16 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(To Do) : 30
-(Done) : 3
-(In Review) : 1
-(In Progress) : 6
+(To Do) : 32
+(Done) : 5
+(IN REVIEW (pls tag reviewer)) : 2
+(In Progress) : 5
 ----
 Jira Ticket Types
 ----
 (Subtask) : 8
 (Epic) : 3
-(Story) : 29
+(Story) : 33
 end legend
 
 
@@ -27,14 +27,15 @@ end legend
 class "ARS-38" << (S,lightgreen) >> {
   Summary : Generate Gitlab Pipeline
   Assigned to : Juan Solano
-  Status : In Progress
+  Status : IN REVIEW (pls tag reviewer)
   Type : Story
+  Points : 3.0
 }
 
 class "ARS-16" << (S,lightgreen) >> {
   Summary : Contentful Content Modeling
   Assigned to : Juan Solano
-  Status : To Do
+  Status : In Progress
   Type : Story
   Points : 5.0
 }
@@ -76,7 +77,8 @@ class "ARS-5" << (S,lightgreen) >> {
 }
 
 class "ARS-6" << (S,lightgreen) >> {
-  Summary : CP Dashboard
+  Summary : CP Dashboard for results analysis
+  Assigned to : Pablo Uhalte
   Status : To Do
   Type : Story
 }
@@ -100,7 +102,8 @@ class "ARS-9" << (S,lightgreen) >> {
 }
 
 class "ARS-7" << (S,lightgreen) >> {
-  Summary : CP Personalised roadmap for follow up conversations
+  Summary : CP AI-Powered Personalised Roadmap Component
+  Assigned to : Pablo Uhalte
   Status : To Do
   Type : Story
 }
@@ -146,7 +149,7 @@ class "ARS-36" << (S,lightgreen) >> {
 class "ARS-14" << (S,lightgreen) >> {
   Summary : Set up Contentful Account
   Assigned to : Juan Solano
-  Status : To Do
+  Status : Done
   Type : Story
   Points : 2.0
 }
@@ -154,8 +157,9 @@ class "ARS-14" << (S,lightgreen) >> {
 class "ARS-37" << (S,lightgreen) >> {
   Summary : Create Eslint modules
   Assigned to : Juan Solano
-  Status : In Progress
+  Status : Done
   Type : Story
+  Points : 3.0
 }
 
 class "ARS-15" << (S,lightgreen) >> {
@@ -169,7 +173,7 @@ class "ARS-15" << (S,lightgreen) >> {
 class "ARS-30" << (S,lightblue) >> {
   Summary : FE Repository
   Assigned to : PAOLO BRUNASTI
-  Status : In Review
+  Status : IN REVIEW (pls tag reviewer)
   Type : Subtask
 }
 
@@ -270,6 +274,18 @@ class "ARS-26" << (S,lightgreen) >> {
   Type : Story
 }
 
+class "ARS-41" << (S,lightgreen) >> {
+  Summary : Questions Page - Personalised with company name
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-42" << (S,lightgreen) >> {
+  Summary : Results Page - Personalised Thank you message
+  Status : To Do
+  Type : Story
+}
+
 class "ARS-20" << (E,green) >> {
   Summary : Back End for Survey
   Assigned to : PAOLO BRUNASTI
@@ -277,11 +293,24 @@ class "ARS-20" << (E,green) >> {
   Type : Epic
 }
 
+class "ARS-43" << (S,lightgreen) >> {
+  Summary : Survey Hubspot integration
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Story
+}
+
 class "ARS-21" << (S,lightblue) >> {
   Summary : Create GitHub repository for BE
   Assigned to : PAOLO BRUNASTI
   Status : Done
   Type : Subtask
+}
+
+class "ARS-44" << (S,lightgreen) >> {
+  Summary : Typeform Hubspot integration
+  Status : To Do
+  Type : Story
 }
 
 class "ARS-22" << (S,lightgreen) >> {
@@ -331,6 +360,8 @@ class "ARS-22" << (S,lightgreen) >> {
 "ARS-1" <.. "ARS-17" : Polaris issue link
 "ARS-33" <.. "ARS-2" : Issue split
 "ARS-28" <.. "ARS-38" : Cloners
+"ARS-41" <.. "ARS-2" : Polaris datapoint issue link
+"ARS-42" <.. "ARS-4" : Polaris datapoint issue link
 
 
 @enduml
