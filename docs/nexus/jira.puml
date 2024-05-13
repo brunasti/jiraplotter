@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Wed May 08 10:02:19 CEST 2024
+' Generated at    : Mon May 13 18:52:15 CEST 2024
 
 title Jira Tickets general diagram
 hide empty members
@@ -10,47 +10,34 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(To Do) : 32
-(Done) : 5
+(Done) : 11
+(To Do) : 41
 (IN REVIEW (pls tag reviewer)) : 2
-(In Progress) : 5
+(In Progress) : 2
 ----
 Jira Ticket Types
 ----
-(Subtask) : 8
+(Subtask) : 10
 (Epic) : 3
-(Story) : 33
+(Story) : 43
 end legend
 
 
 ' Jira Tickets =======
-class "ARS-38" << (S,lightgreen) >> {
-  Summary : Generate Gitlab Pipeline
-  Assigned to : Juan Solano
-  Status : IN REVIEW (pls tag reviewer)
-  Type : Story
-  Points : 3.0
-}
-
 class "ARS-16" << (S,lightgreen) >> {
-  Summary : Contentful Content Modeling
+  Summary : Contentful Content Modeling for Landing Page
   Assigned to : Juan Solano
-  Status : In Progress
+  Status : Done
   Type : Story
   Points : 5.0
 }
 
-class "ARS-39" << (S,lightblue) >> {
-  Summary : Investigate HubSpot integration
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Subtask
-}
-
 class "ARS-17" << (S,lightgreen) >> {
   Summary : Generate Content Types GraphQL Queries
+  Assigned to : Juan Solano
   Status : To Do
   Type : Story
+  Points : 5.0
 }
 
 class "ARS-18" << (S,lightgreen) >> {
@@ -67,6 +54,201 @@ class "ARS-19" << (S,lightgreen) >> {
   Status : Done
   Type : Story
   Points : 3.0
+}
+
+class "ARS-50" << (S,lightblue) >> {
+  Summary : Update User structure with info from Figma
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-51" << (S,lightblue) >> {
+  Summary : Create structure for the storage of the different answers for each dimension depending on the stage
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-56" << (S,lightgreen) >> {
+  Summary : Input Fields Validation
+  Status : To Do
+  Type : Story
+  Points : 3.0
+}
+
+class "ARS-12" << (S,lightblue) >> {
+  Summary : Send email to customer with the PDF as attachment
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-57" << (S,lightgreen) >> {
+  Summary : Banner component
+  Status : To Do
+  Type : Story
+  Points : 3.0
+}
+
+class "ARS-13" << (S,lightblue) >> {
+  Summary : Activation of the process of generating and sending the email
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-58" << (S,lightgreen) >> {
+  Summary : Button components
+  Status : To Do
+  Type : Story
+  Points : 5.0
+}
+
+class "ARS-14" << (S,lightgreen) >> {
+  Summary : Set up Contentful Account
+  Assigned to : Juan Solano
+  Status : Done
+  Type : Story
+  Points : 2.0
+}
+
+class "ARS-15" << (S,lightgreen) >> {
+  Summary : Contentful Integration FE
+  Assigned to : Juan Solano
+  Status : Done
+  Type : Story
+  Points : 3.0
+}
+
+class "ARS-52" << (S,lightgreen) >> {
+  Summary : Prototype BE architecture
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Story
+  Points : 5.0
+}
+
+class "ARS-53" << (S,lightgreen) >> {
+  Summary : Nav bar component
+  Status : To Do
+  Type : Story
+  Points : 3.0
+}
+
+class "ARS-54" << (S,lightgreen) >> {
+  Summary : Footer component
+  Status : To Do
+  Type : Story
+  Points : 3.0
+}
+
+class "ARS-10" << (S,lightgreen) >> {
+  Summary : Customised Survey Landing Page URL
+  Assigned to : PAOLO BRUNASTI
+  Status : In Progress
+  Type : Story
+}
+
+class "ARS-55" << (S,lightgreen) >> {
+  Summary : Typography component
+  Status : To Do
+  Type : Story
+  Points : 5.0
+}
+
+class "ARS-11" << (S,lightblue) >> {
+  Summary : Generate the PDF with the report for a single survey response
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-27" << (S,lightgreen) >> {
+  Summary : Design the CICD Pipeline
+  Status : To Do
+  Type : Story
+  Points : 3.0
+}
+
+class "ARS-28" << (S,lightblue) >> {
+  Summary : CICD Pipeline for FE
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-29" << (S,lightblue) >> {
+  Summary : CICD Pipeline for BE
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-23" << (S,lightgreen) >> {
+  Summary : Model BE DB
+  Assigned to : PAOLO BRUNASTI
+  Status : IN REVIEW (pls tag reviewer)
+  Type : Story
+  Points : 5.0
+}
+
+class "ARS-24" << (S,lightgreen) >> {
+  Summary : DB Connection from Python
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Story
+  Points : 3.0
+}
+
+class "ARS-25" << (S,lightgreen) >> {
+  Summary : Design APIs
+  Assigned to : Nneka Tielman
+  Status : In Progress
+  Type : Story
+  Points : 5.0
+}
+
+class "ARS-26" << (S,lightgreen) >> {
+  Summary : Implement APIs
+  Status : To Do
+  Type : Story
+  Points : 8.0
+}
+
+class "ARS-20" << (E,green) >> {
+  Summary : Back End for Survey
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Epic
+}
+
+class "ARS-21" << (S,lightblue) >> {
+  Summary : Create GitHub repository for BE
+  Assigned to : PAOLO BRUNASTI
+  Status : Done
+  Type : Subtask
+}
+
+class "ARS-22" << (S,lightgreen) >> {
+  Summary : Define BE architecture
+  Assigned to : PAOLO BRUNASTI
+  Status : Done
+  Type : Story
+  Points : 5.0
+}
+
+class "ARS-38" << (S,lightgreen) >> {
+  Summary : Generate Gitlab Pipeline
+  Assigned to : Juan Solano
+  Status : Done
+  Type : Story
+  Points : 3.0
+}
+
+class "ARS-39" << (S,lightblue) >> {
+  Summary : Investigate HubSpot integration
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
 }
 
 class "ARS-5" << (S,lightgreen) >> {
@@ -116,56 +298,23 @@ class "ARS-8" << (S,lightgreen) >> {
 
 class "ARS-34" << (S,lightgreen) >> {
   Summary : All Survey Pages - Create Theme
+  Assigned to : Juan Solano
   Status : To Do
   Type : Story
-}
-
-class "ARS-12" << (S,lightblue) >> {
-  Summary : Send email to customer with the PDF as attachment
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Subtask
-}
-
-class "ARS-35" << (S,lightgreen) >> {
-  Summary : All Survey Pages - Responsive Design
-  Status : To Do
-  Type : Story
-}
-
-class "ARS-13" << (S,lightblue) >> {
-  Summary : Activation of the process of generating and sending the email
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Subtask
+  Points : 3.0
 }
 
 class "ARS-36" << (S,lightgreen) >> {
   Summary : Landing Page - Input fields Component
   Status : To Do
   Type : Story
-}
-
-class "ARS-14" << (S,lightgreen) >> {
-  Summary : Set up Contentful Account
-  Assigned to : Juan Solano
-  Status : Done
-  Type : Story
-  Points : 2.0
+  Points : 5.0
 }
 
 class "ARS-37" << (S,lightgreen) >> {
   Summary : Create Eslint modules
   Assigned to : Juan Solano
   Status : Done
-  Type : Story
-  Points : 3.0
-}
-
-class "ARS-15" << (S,lightgreen) >> {
-  Summary : Contentful Integration FE
-  Assigned to : Juan Solano
-  Status : To Do
   Type : Story
   Points : 3.0
 }
@@ -197,15 +346,9 @@ class "ARS-2" << (S,lightgreen) >> {
 
 class "ARS-32" << (E,green) >> {
   Summary : Infrastructure
+  Assigned to : PAOLO BRUNASTI
   Status : To Do
   Type : Epic
-}
-
-class "ARS-10" << (S,lightgreen) >> {
-  Summary : Customised Survey Landing Page URL
-  Assigned to : PAOLO BRUNASTI
-  Status : In Progress
-  Type : Story
 }
 
 class "ARS-33" << (S,lightgreen) >> {
@@ -214,62 +357,38 @@ class "ARS-33" << (S,lightgreen) >> {
   Type : Story
 }
 
-class "ARS-11" << (S,lightblue) >> {
-  Summary : Generate the PDF with the report for a single survey response
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Subtask
-}
-
-class "ARS-27" << (S,lightgreen) >> {
-  Summary : Design the CICD Pipeline
-  Status : To Do
+class "ARS-49" << (S,lightgreen) >> {
+  Summary : research connect Contentful to postgreSQL
+  Assigned to : Nneka Tielman
+  Status : Done
   Type : Story
-}
-
-class "ARS-28" << (S,lightblue) >> {
-  Summary : CICD Pipeline for FE
-  Status : To Do
-  Type : Subtask
-}
-
-class "ARS-29" << (S,lightblue) >> {
-  Summary : CICD Pipeline for BE
-  Status : To Do
-  Type : Subtask
+  Points : 3.0
 }
 
 class "ARS-40" << (S,lightgreen) >> {
   Summary : AWS Environment
-  Status : To Do
-  Type : Story
-}
-
-class "ARS-23" << (S,lightgreen) >> {
-  Summary : Model BE DB
   Assigned to : PAOLO BRUNASTI
-  Status : In Progress
+  Status : To Do
   Type : Story
   Points : 5.0
 }
 
-class "ARS-24" << (S,lightgreen) >> {
-  Summary : DB Connection from Python
+class "ARS-45" << (S,lightgreen) >> {
+  Summary : Review Gitlab Pipeline
+  Assigned to : PAOLO BRUNASTI
+  Status : Done
+  Type : Story
+}
+
+class "ARS-47" << (S,lightgreen) >> {
+  Summary : Create View for results of the survey
   Assigned to : PAOLO BRUNASTI
   Status : To Do
   Type : Story
 }
 
-class "ARS-25" << (S,lightgreen) >> {
-  Summary : Design APIs
-  Assigned to : Nneka Tielman
-  Status : In Progress
-  Type : Story
-  Points : 5.0
-}
-
-class "ARS-26" << (S,lightgreen) >> {
-  Summary : Implement APIs
+class "ARS-48" << (S,lightgreen) >> {
+  Summary : Questions Page - Scroll progress bar
   Status : To Do
   Type : Story
 }
@@ -286,25 +405,11 @@ class "ARS-42" << (S,lightgreen) >> {
   Type : Story
 }
 
-class "ARS-20" << (E,green) >> {
-  Summary : Back End for Survey
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Epic
-}
-
 class "ARS-43" << (S,lightgreen) >> {
   Summary : Survey Hubspot integration
   Assigned to : PAOLO BRUNASTI
   Status : To Do
   Type : Story
-}
-
-class "ARS-21" << (S,lightblue) >> {
-  Summary : Create GitHub repository for BE
-  Assigned to : PAOLO BRUNASTI
-  Status : Done
-  Type : Subtask
 }
 
 class "ARS-44" << (S,lightgreen) >> {
@@ -313,53 +418,51 @@ class "ARS-44" << (S,lightgreen) >> {
   Type : Story
 }
 
-class "ARS-22" << (S,lightgreen) >> {
-  Summary : Define BE architecture
-  Assigned to : PAOLO BRUNASTI
-  Status : In Progress
-  Type : Story
-  Points : 5.0
-}
-
 
 
 ' Parents =======
-"ARS-5" <|-- "ARS-39"
 "ARS-32" <|-- "ARS-18"
-"ARS-20" <|-- "ARS-5"
+"ARS-23" <|-- "ARS-50"
+"ARS-23" <|-- "ARS-51"
 "ARS-5" <|-- "ARS-12"
 "ARS-5" <|-- "ARS-13"
-"ARS-18" <|-- "ARS-30"
+"ARS-32" <|-- "ARS-52"
 "ARS-32" <|-- "ARS-10"
 "ARS-5" <|-- "ARS-11"
 "ARS-32" <|-- "ARS-27"
 "ARS-27" <|-- "ARS-28"
 "ARS-27" <|-- "ARS-29"
-"ARS-32" <|-- "ARS-40"
 "ARS-20" <|-- "ARS-23"
 "ARS-20" <|-- "ARS-24"
 "ARS-20" <|-- "ARS-25"
 "ARS-20" <|-- "ARS-26"
 "ARS-18" <|-- "ARS-21"
 "ARS-20" <|-- "ARS-22"
+"ARS-5" <|-- "ARS-39"
+"ARS-20" <|-- "ARS-5"
+"ARS-18" <|-- "ARS-30"
+"ARS-32" <|-- "ARS-40"
+"ARS-32" <|-- "ARS-45"
+"ARS-20" <|-- "ARS-47"
+"ARS-20" <|-- "ARS-43"
 
 
 ' Links =======
 "ARS-18" <.. "ARS-37" : Polaris issue link
 "ARS-18" <.. "ARS-38" : Polaris issue link
+"ARS-56" <.. "ARS-1" : Issue split
+"ARS-28" <.. "ARS-38" : Cloners
+"ARS-22" <.. "ARS-52" : Cloners
 "ARS-3" <.. "ARS-2" : Issue split
 "ARS-9" <.. "ARS-4" : Issue split
 "ARS-8" <.. "ARS-4" : Issue split
-"ARS-35" <.. "ARS-1" : Polaris datapoint issue link
-"ARS-35" <.. "ARS-2" : Polaris datapoint issue link
-"ARS-35" <.. "ARS-4" : Polaris datapoint issue link
 "ARS-36" <.. "ARS-1" : Issue split
 "ARS-1" <.. "ARS-14" : Polaris issue link
 "ARS-1" <.. "ARS-15" : Polaris issue link
 "ARS-1" <.. "ARS-16" : Polaris issue link
 "ARS-1" <.. "ARS-17" : Polaris issue link
 "ARS-33" <.. "ARS-2" : Issue split
-"ARS-28" <.. "ARS-38" : Cloners
+"ARS-47" <.. "ARS-23" : Relates
 "ARS-41" <.. "ARS-2" : Polaris datapoint issue link
 "ARS-42" <.. "ARS-4" : Polaris datapoint issue link
 
