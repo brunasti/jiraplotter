@@ -103,6 +103,27 @@ public class Utils {
 
 
   /**
+   * Get all the Epics from a list of JiraTickets.
+   *
+   * @param jiraTickets the list of Tickets
+   * @return a Set containing the list of existing People
+   */
+  public static Set<String> findEpics(Map<String, JiraTicket> jiraTickets) {
+    Set<String> epics = new HashSet<>();
+
+    jiraTickets.values().forEach(jiraTicket -> {
+      String type = jiraTicket.issueType.getFirst().toLowerCase();
+      if (ParseJiraTicketsConstants.TYPE_EPIC.equalsIgnoreCase(type)) {
+        String person = jiraTicket.issueId.getFirst();
+        epics.add(person);
+      }
+    });
+
+    return epics;
+  }
+
+
+  /**
    * Get all the Stata from a list of JiraTickets.
    *
    * @param jiraTickets the list of Tickets
@@ -209,6 +230,36 @@ public class Utils {
   }
 
   /**
+   * Get all the Tickets of an Epic.
+   *
+   * @param jiraTickets the list of all Tickets
+   * @param person the person of whom we want the Tickets
+   * @return a Map containing the list of the Tickets part of the epic
+   */
+  public static Map<String, JiraTicket> getEpicTickets(
+          final Collection<JiraTicket> jiraTickets, String linkKind, String person) {
+    // TODO: change to epics
+    log.debug("getEpicTickets ({}) ({}) ", linkKind, person);
+
+    Map<String, JiraTicket> selectedJiraTickets = new HashMap<>();
+
+    jiraTickets.forEach(jiraTicket -> {
+      if ((!jiraTicket.assignee.isEmpty())
+              && (jiraTicket.assignee.getFirst().equalsIgnoreCase(person))) {
+        selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
+        jiraTicket.inwardIssueLink.forEach(links -> {
+          if (links.getName().contains(linkKind)) {
+            links.getJiraTickets().forEach(
+                    link -> selectedJiraTickets.put(link.issueKey.getFirst(), link));
+          }
+        });
+      }
+    });
+
+    return selectedJiraTickets;
+  }
+
+  /**
    * Get all the Tickets in a given Status and connected via a specific link Kins.
    *
    * @param jiraTickets the list of all Tickets
@@ -277,8 +328,6 @@ public class Utils {
     return getTicketsForLinkKind(jiraTickets, linkKind).size();
   }
 
-
-
   public static boolean personHasDependingTickets(
           final Collection<JiraTicket> jiraTickets,
           String person) {
@@ -296,7 +345,22 @@ public class Utils {
     return !selectedJiraTickets.isEmpty();
   }
 
-
+//  public static boolean epicHasDependingTickets(
+//          final Collection<JiraTicket> jiraTickets,
+//          String epic) {
+//    HashMap<String, JiraTicket> selectedJiraTickets = new HashMap<>();
+//    log.debug("epicHasDependingTickets ({})", epic);
+//
+//    jiraTickets.forEach(jiraTicket -> {
+//      if ((!jiraTicket.assignee.isEmpty())
+//              && (jiraTicket.assignee.getFirst().equalsIgnoreCase(epic))) {
+//        log.debug("epicHasDependingTickets ({}) -> [{}]", epic, jiraTicket.issueKey);
+//        selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
+//      }
+//    });
+//
+//    return !selectedJiraTickets.isEmpty();
+//  }
 
   public static List<FieldDescriptor> loadDefinitions(
           String[] header,

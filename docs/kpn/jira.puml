@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon May 06 13:40:50 CEST 2024
+' Generated at    : Tue May 14 10:15:46 CEST 2024
 
 title Jira Tickets general diagram
 hide empty members
@@ -10,21 +10,24 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(To Do) : 8
-(Done) : 4
-(In Review) : 2
+(To Do) : 38
+(Done) : 34
+(In Review) : 1
+(In Progress) : 4
 ----
 Jira Ticket Types
 ----
-(Task) : 3
-(Story) : 11
+(Task) : 19
+(Epic) : 13
+(Bug) : 1
+(Story) : 44
 end legend
 
 
 ' Jira Tickets =======
 class "ENKPS-70" << (S,lightgreen) >> {
   Summary : BE Infrastructure
-  Status : To Do
+  Status : In Progress
   Type : Story
 }
 
@@ -34,12 +37,39 @@ class "ENKPS-71" << (E,green) >> {
   Type : Epic
 }
 
+class "ENKPS-72" << (S,lightgreen) >> {
+  Summary : Setup I18n integration with nuxt-I18n and Crowdin
+  Assigned to : Johan Spekman
+  Status : In Progress
+  Type : Story
+  Points : 8.0
+}
+
+class "ENKPS-73" << (S,lightgreen) >> {
+  Summary : Forgot password of the log in page
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-74" << (S,lightgreen) >> {
+  Summary : Email notification | New device has logged in
+  Status : To Do
+  Type : Story
+}
+
 class "ENKPS-30" << (S,lightgreen) >> {
-  Assigned to : Eniko Kosztolanyi
   Summary : Create Input Component
-  Status : In Review
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
   Type : Story
   Points : 5.0
+}
+
+class "ENKPS-75" << (S,lightgreen) >> {
+  Summary : Add logos to Footer component
+  Status : To Do
+  Type : Story
+  Points : 2.0
 }
 
 class "ENKPS-31" << (S,lightgreen) >> {
@@ -48,10 +78,24 @@ class "ENKPS-31" << (S,lightgreen) >> {
   Type : Story
 }
 
+class "ENKPS-76" << (S,lightgreen) >> {
+  Summary : Content drive error states for input component
+  Assigned to : Eniko Kosztolanyi
+  Status : To Do
+  Type : Story
+  Points : 5.0
+}
+
 class "ENKPS-32" << (S,lightgreen) >> {
   Summary : Setup Users table in Supabase and policies that allow read and write access to authenticated users
   Status : Done
   Type : Story
+}
+
+class "ENKPS-77" << (B,red) >> {
+  Summary : Custom routing does not allow for NuxtLink to route between root and subdomains
+  Status : To Do
+  Type : Bug
 }
 
 class "ENKPS-33" << (S,lightgreen) >> {
@@ -79,15 +123,15 @@ class "ENKPS-36" << (S,lightgreen) >> {
 }
 
 class "ENKPS-37" << (S,lightgreen) >> {
-  Assigned to : Tom Pope
   Summary : SPIKE: Compare Twillio and Supabase for email notifications
-  Status : In Review
+  Assigned to : Tom Pope
+  Status : Done
   Type : Story
 }
 
 class "ENKPS-38" << (S,lightgreen) >> {
   Summary : SPIKE: Research Google & Supabase integration
-  Status : To Do
+  Status : Done
   Type : Story
 }
 
@@ -129,8 +173,8 @@ class "ENKPS-64" << (S,lightgreen) >> {
 }
 
 class "ENKPS-20" << (T,lightblue) >> {
-  Assigned to : Juan Solano
   Summary : Setup Contentful: Create free account and FE integration
+  Assigned to : Juan Solano
   Status : Done
   Type : Task
   Points : 5.0
@@ -143,96 +187,96 @@ class "ENKPS-65" << (S,lightgreen) >> {
 }
 
 class "ENKPS-21" << (T,lightblue) >> {
-  Assigned to : Eniko Kosztolanyi
   Summary : Setup pre-commit hooks and linters
+  Assigned to : Eniko Kosztolanyi
   Status : Done
   Type : Task
   Points : 3.0
 }
 
-class "ENKPS-66" << (S,lightgreen) >> {
-  Summary : Email notification forgot password
+class "ENKPS-66" << (T,lightblue) >> {
+  Summary : Email notification | Forgot password
   Status : To Do
-  Type : Story
+  Type : Task
 }
 
 class "ENKPS-22" << (T,lightblue) >> {
-  Assigned to : Nneka Tielman
   Summary : Build Gitlab runner pipeline
+  Assigned to : Nneka Tielman
   Status : Done
   Type : Task
   Points : 5.0
 }
 
-class "ENKPS-67" << (S,lightgreen) >> {
+class "ENKPS-67" << (T,lightblue) >> {
   Summary : Email notification password successfully changed
   Status : To Do
-  Type : Story
+  Type : Task
 }
 
 class "ENKPS-23" << (S,lightgreen) >> {
-  Assigned to : Juan Solano
   Summary : SPIKE: Research best way of fetching content from contentful: Contentful Client vs GraphQL
+  Assigned to : Juan Solano
   Status : Done
   Type : Story
 }
 
 class "ENKPS-68" << (T,lightblue) >> {
-  Assigned to : Tom Pope
   Summary : SPIKE: Determine best course of action for Contentful localisation vs integration of Vue I18n to the project
+  Assigned to : Tom Pope
   Status : Done
   Type : Task
 }
 
 class "ENKPS-24" << (S,lightgreen) >> {
-  Assigned to : Nneka Tielman
   Summary : SPIKE: Research best hosting provider for project
+  Assigned to : Nneka Tielman
   Status : Done
   Type : Story
 }
 
 class "ENKPS-69" << (T,lightblue) >> {
-  Assigned to : Tom Pope
   Summary : SPIKE: Write out BE requirements for a Postgres build
+  Assigned to : Tom Pope
   Status : Done
   Type : Task
 }
 
 class "ENKPS-25" << (T,lightblue) >> {
-  Assigned to : Eniko Kosztolanyi
   Summary : Create routing for all of account creation user flow
+  Assigned to : Eniko Kosztolanyi
   Status : Done
   Type : Task
   Points : 3.0
 }
 
 class "ENKPS-26" << (T,lightblue) >> {
-  Assigned to : Tom Pope
   Summary : Create Card Component 
+  Assigned to : Tom Pope
   Status : Done
   Type : Task
   Points : 3.0
 }
 
 class "ENKPS-27" << (S,lightgreen) >> {
-  Assigned to : Tom Pope
   Summary : Create Button Component
+  Assigned to : Tom Pope
   Status : Done
   Type : Story
   Points : 3.0
 }
 
 class "ENKPS-28" << (T,lightblue) >> {
-  Assigned to : Eniko Kosztolanyi
   Summary : Create the theme and configuration
+  Assigned to : Eniko Kosztolanyi
   Status : Done
   Type : Task
   Points : 5.0
 }
 
 class "ENKPS-29" << (S,lightgreen) >> {
-  Assigned to : Eniko Kosztolanyi
   Summary : SPIKE: What does KPN use for accessibility and what techniques we should adopt
+  Assigned to : Eniko Kosztolanyi
   Status : Done
   Type : Story
 }
@@ -297,10 +341,10 @@ class "ENKPS-53" << (S,lightgreen) >> {
   Type : Story
 }
 
-class "ENKPS-54" << (S,lightgreen) >> {
+class "ENKPS-54" << (T,lightblue) >> {
   Summary : Email notifications | Confirm account
   Status : To Do
-  Type : Story
+  Type : Task
 }
 
 class "ENKPS-10" << (E,green) >> {
@@ -327,10 +371,10 @@ class "ENKPS-11" << (S,lightgreen) >> {
   Type : Story
 }
 
-class "ENKPS-56" << (S,lightgreen) >> {
+class "ENKPS-56" << (T,lightblue) >> {
   Summary : Email notification | Account created
   Status : To Do
-  Type : Story
+  Type : Task
 }
 
 class "ENKPS-12" << (S,lightgreen) >> {
@@ -340,8 +384,9 @@ class "ENKPS-12" << (S,lightgreen) >> {
 }
 
 class "ENKPS-57" << (S,lightgreen) >> {
-  Summary : Account confirmation modal
-  Status : To Do
+  Summary : Account confirmation card
+  Assigned to : Eniko Kosztolanyi
+  Status : In Progress
   Type : Story
   Points : 3.0
 }
@@ -366,9 +411,9 @@ class "ENKPS-14" << (S,lightgreen) >> {
 }
 
 class "ENKPS-59" << (S,lightgreen) >> {
-  Assigned to : Eniko Kosztolanyi
   Summary : Create radio button component
-  Status : In Review
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
   Type : Story
   Points : 3.0
 }
@@ -392,16 +437,16 @@ class "ENKPS-17" << (E,green) >> {
 }
 
 class "ENKPS-18" << (T,lightblue) >> {
-  Assigned to : Eniko Kosztolanyi
   Summary : Project initialisation
+  Assigned to : Eniko Kosztolanyi
   Status : Done
   Type : Task
   Points : 3.0
 }
 
 class "ENKPS-19" << (T,lightblue) >> {
-  Assigned to : Juan Solano
   Summary : Setup Supabase integration
+  Assigned to : Juan Solano
   Status : Done
   Type : Task
   Points : 5.0
@@ -409,7 +454,7 @@ class "ENKPS-19" << (T,lightblue) >> {
 
 class "ENKPS-8" << (T,lightblue) >> {
   Summary : SPIKE: Create content model for account creation
-  Status : To Do
+  Status : Done
   Type : Task
 }
 
@@ -441,7 +486,8 @@ class "ENKPS-42" << (S,lightgreen) >> {
 
 class "ENKPS-43" << (S,lightgreen) >> {
   Summary : Footer for create account page
-  Status : To Do
+  Assigned to : Tom Pope
+  Status : Done
   Type : Story
   Points : 3.0
 }
@@ -453,17 +499,17 @@ class "ENKPS-44" << (S,lightgreen) >> {
 }
 
 class "ENKPS-45" << (S,lightgreen) >> {
-  Assigned to : Eniko Kosztolanyi
   Summary : Create list component 
-  Status : To Do
+  Assigned to : Oliver Oenang
+  Status : In Progress
   Type : Story
   Points : 3.0
 }
 
 class "ENKPS-46" << (T,lightblue) >> {
-  Assigned to : Oliver Oenang
   Summary : Build icon functionality component
-  Status : To Do
+  Assigned to : Oliver Oenang
+  Status : In Review
   Type : Task
   Points : 2.0
 }
@@ -490,7 +536,11 @@ class "ENKPS-49" << (E,green) >> {
 
 ' Parents =======
 "ENKPS-71" <|-- "ENKPS-70"
+"ENKPS-17" <|-- "ENKPS-72"
+"ENKPS-6" <|-- "ENKPS-73"
 "ENKPS-5" <|-- "ENKPS-30"
+"ENKPS-5" <|-- "ENKPS-75"
+"ENKPS-17" <|-- "ENKPS-31"
 "ENKPS-5" <|-- "ENKPS-32"
 "ENKPS-5" <|-- "ENKPS-34"
 "ENKPS-5" <|-- "ENKPS-36"
@@ -501,7 +551,9 @@ class "ENKPS-49" << (E,green) >> {
 "ENKPS-17" <|-- "ENKPS-20"
 "ENKPS-6" <|-- "ENKPS-65"
 "ENKPS-17" <|-- "ENKPS-21"
+"ENKPS-55" <|-- "ENKPS-66"
 "ENKPS-17" <|-- "ENKPS-22"
+"ENKPS-55" <|-- "ENKPS-67"
 "ENKPS-17" <|-- "ENKPS-23"
 "ENKPS-17" <|-- "ENKPS-68"
 "ENKPS-17" <|-- "ENKPS-24"
@@ -514,6 +566,8 @@ class "ENKPS-49" << (E,green) >> {
 "ENKPS-5" <|-- "ENKPS-4"
 "ENKPS-49" <|-- "ENKPS-51"
 "ENKPS-49" <|-- "ENKPS-52"
+"ENKPS-55" <|-- "ENKPS-54"
+"ENKPS-55" <|-- "ENKPS-56"
 "ENKPS-5" <|-- "ENKPS-57"
 "ENKPS-5" <|-- "ENKPS-58"
 "ENKPS-6" <|-- "ENKPS-14"
@@ -532,7 +586,9 @@ class "ENKPS-49" << (E,green) >> {
 
 ' Links =======
 "ENKPS-30" <.. "ENKPS-28" : Blocks
+"ENKPS-30" <.. "ENKPS-76" : Cloners
 "ENKPS-30" <.. "ENKPS-59" : Issue split
+"ENKPS-76" <.. "ENKPS-30" : Relates
 "ENKPS-26" <.. "ENKPS-28" : Blocks
 "ENKPS-27" <.. "ENKPS-28" : Blocks
 "ENKPS-27" <.. "ENKPS-36" : Cloners

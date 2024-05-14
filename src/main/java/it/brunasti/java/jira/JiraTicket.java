@@ -89,7 +89,7 @@ public class JiraTicket {
     if (!parent.isEmpty()) {
       log.info("Linking to parent : {}", parent.getFirst());
       parentJira = Utils.findFromId(jiraTickets, parent.getFirst());
-      log.info("Linking to parent : -> {}", parentJira);
+//      log.info("Linking to parent : -> {}", parentJira);
     }
 
     inwardIssueLink.forEach(links ->
