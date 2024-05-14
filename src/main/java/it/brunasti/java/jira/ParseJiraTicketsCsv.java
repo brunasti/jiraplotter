@@ -64,8 +64,8 @@ public class ParseJiraTicketsCsv {
     generateTextLegend(Utils.getTicketsForLinkKind(jiraTickets, linkKind));
   }
 
-  private void generateLegendEpic(final Collection<JiraTicket> jiraTickets, String epic) {
-    log.debug("generateLegendEpic ({}) ", epic);
+  private void generateLegendEpic(final Collection<JiraTicket> jiraTickets, JiraTicket epic) {
+    log.debug("generateLegendEpic ({}) ", epic.issueKey.getFirst());
 
     generateTextLegend(Utils.getEpicTickets(jiraTickets, "", epic));
   }
@@ -83,7 +83,6 @@ public class ParseJiraTicketsCsv {
   }
 
   private void generateTicket(JiraTicket jiraTicket) {
-    log.info("generateTicket : {}",jiraTicket.issueKey);
     output.println(Utils.createClassHead(jiraTicket));
     // TODO: Manage the case of a too long summary
     output.println(ParseJiraTicketsConstants.DEFINITION_CLASS_SUMMARY
@@ -147,13 +146,12 @@ public class ParseJiraTicketsCsv {
 
   private void generateTicketsPerEpicLinks(
           final Collection<JiraTicket> jiraTickets,
-          String epic) {
-    // TODO: Change to Epic
-    log.debug("generateTicketsPerEpicLinks ({})", epic);
+          JiraTicket epic) {
+    log.debug("generateTicketsPerEpicLinks ({})", epic.issueKey);
     output.println();
     output.println(ParseJiraTicketsConstants.HEADER_TICKETS);
     Map<String, JiraTicket> selectedJiraTickets
-            = Utils.getPersonaTickets(jiraTickets, "", epic);
+            = Utils.getEpicTickets(jiraTickets, "", epic);
     selectedJiraTickets.values().forEach(this::generateTicket);
     output.println();
   }
@@ -176,11 +174,24 @@ public class ParseJiraTicketsCsv {
     jiraTickets.forEach(jiraTicket -> {
       log.info("Parents for {}", jiraTicket.issueKey);
       if (jiraTicket.parentJira != null) {
-        log.info("Parents for {} - {}", jiraTicket.issueKey, jiraTicket.parentJira);
         output.println("\"" + jiraTicket.parentJira.issueKey.getFirst()
                 + "\" <|-- \"" + jiraTicket.issueKey.getFirst() + "\"");
       }
     });
+    output.println();
+  }
+
+  private void generateLink(JiraTicket jiraTicket, JiraTicket link, JiraTicketLinks links) {
+    generateLink(jiraTicket, link, links.getShortName());
+  }
+
+  private void generateLink(JiraTicket jiraTicket, JiraTicket link, String linksName) {
+    output.println("\"" + jiraTicket.issueKey.getFirst()
+            + ParseJiraTicketsConstants.DEFINITION_LINK_SIMPLE_MIDDLE
+            + link.issueKey.getFirst()
+            + ParseJiraTicketsConstants.DEFINITION_LINK_SIMPLE_END
+            + linksName
+      );
     output.println();
   }
 
@@ -190,13 +201,9 @@ public class ParseJiraTicketsCsv {
     jiraTickets.forEach(jiraTicket ->
             jiraTicket.inwardIssueLink.forEach(links ->
                     links.getJiraTickets().forEach(link ->
-                            output.println("\"" + jiraTicket.issueKey.getFirst()
-                                    + ParseJiraTicketsConstants.DEFINITION_LINK_SIMPLE_MIDDLE
-                                    + link.issueKey.getFirst()
-                                    + ParseJiraTicketsConstants.DEFINITION_LINK_SIMPLE_END
-                                    + links.getShortName())
-                    )
+                            generateLink(jiraTicket, link, links)
             )
+        )
     );
     output.println();
   }
@@ -205,18 +212,16 @@ public class ParseJiraTicketsCsv {
     output.println();
     output.println(ParseJiraTicketsConstants.HEADER_LINKS);
     jiraTickets.forEach(jiraTicket ->
-            jiraTicket.inwardIssueLink.forEach(links -> {
-              if (links.getName().contains(kind)) {
-                links.getJiraTickets().forEach(link ->
-                        output.println("\"" + jiraTicket.issueKey.getFirst()
-                                + ParseJiraTicketsConstants.DEFINITION_LINK_SIMPLE_MIDDLE
-                                + link.issueKey.getFirst()
-                                + ParseJiraTicketsConstants.DEFINITION_LINK_SIMPLE_END
-                                + links.getShortName())
-                );
-              }
-            })
+      jiraTicket.inwardIssueLink.forEach(links -> {
+            if (links.getName().contains(kind)) {
+              links.getJiraTickets().forEach(link ->
+                      generateLink(jiraTicket, link, links)
+              );
+            }
+          }
+        )
     );
+
     output.println();
   }
 
@@ -228,11 +233,7 @@ public class ParseJiraTicketsCsv {
               && (jiraTicket.assignee.getFirst().equalsIgnoreCase(person))) {
           jiraTicket.inwardIssueLink.forEach(links ->
                     links.getJiraTickets().forEach(link ->
-                            output.println("\"" + jiraTicket.issueKey.getFirst()
-                                    + ParseJiraTicketsConstants.DEFINITION_LINK_SIMPLE_MIDDLE
-                                    + link.issueKey.getFirst()
-                                    + ParseJiraTicketsConstants.DEFINITION_LINK_SIMPLE_END
-                                    + links.getShortName())
+                                    generateLink(jiraTicket, link, links)
                     )
             );
           }
@@ -241,28 +242,27 @@ public class ParseJiraTicketsCsv {
     output.println();
   }
 
-
-  private void generateSingleEpicLinks(final Collection<JiraTicket> jiraTickets, String person) {
-    // TODO: change to Epic
+  private void generateSingleEpicLinks(final Collection<JiraTicket> jiraTickets, JiraTicket epic) {
+    log.debug("generateSingleEpicLinks - {} ===========",epic.issueKey.getFirst());
     output.println();
     output.println(ParseJiraTicketsConstants.HEADER_LINKS);
-    jiraTickets.forEach(jiraTicket -> {
-              if ((!jiraTicket.assignee.isEmpty())
-                      && (jiraTicket.assignee.getFirst().equalsIgnoreCase(person))) {
-                jiraTicket.inwardIssueLink.forEach(links ->
-                        links.getJiraTickets().forEach(link ->
-                                output.println("\"" + jiraTicket.issueKey.getFirst()
-                                        + ParseJiraTicketsConstants.DEFINITION_LINK_SIMPLE_MIDDLE
-                                        + link.issueKey.getFirst()
-                                        + ParseJiraTicketsConstants.DEFINITION_LINK_SIMPLE_END
-                                        + links.getShortName())
-                        )
-                );
-              }
-            }
+
+    Map<String, JiraTicket> selectedJiraTickets
+            = Utils.getEpicTickets(jiraTickets, "", epic);
+
+    generateParents(selectedJiraTickets.values());
+
+    selectedJiraTickets.values().forEach(jiraTicket -> {
+        jiraTicket.inwardIssueLink.forEach(links ->
+          links.getJiraTickets().forEach(link ->
+                          generateLink(jiraTicket, link, links)
+          )
+        );
+      }
     );
     output.println();
   }
+
   private void generateSingleStatusLinks(final Collection<JiraTicket> jiraTickets, String status) {
     output.println();
     output.println(ParseJiraTicketsConstants.HEADER_LINKS);
@@ -387,25 +387,24 @@ public class ParseJiraTicketsCsv {
     Set<String> epics = Utils.findEpics(jiraTickets);
     epics.forEach(epic -> {
       log.debug("epic : [{}]", epic);
-//      if (Utils.personHasDependingTickets(jiraTickets.values(), epic)) {
-        try {
-          JiraTicket epicTicket = Utils.findFromId(jiraTickets, epic);
-          String epicName = epicTicket.summary.getFirst();
-          String name = epicName.replace(' ', '_');
-          FileOutputStream subfile = new FileOutputStream(outputDir
-                  + "jira-Epic-" + name + ParseJiraTicketsConstants.PUML_FILE_EXTENSION);
-          output = new PrintStream(subfile, true);
-          generateHeader("Jira Tickets for Epic " + epicName);
-          generateLegendEpic(jiraTickets.values(), epic);
-          generateTicketsPerEpicLinks(jiraTickets.values(), epic);
-          generateSingleEpicLinks(jiraTickets.values(), epic);
-          generateFooter();
-          output.close();
-        } catch (IOException ex) {
-          log.error(ex);
-          ex.printStackTrace();
-        }
-//      }
+      try {
+        JiraTicket epicTicket = Utils.findFromId(jiraTickets, epic);
+        String epicName = epicTicket.summary.getFirst();
+        String name = epicName.replace(' ', '_');
+        log.debug("epicName : [{}]", epicName);
+        FileOutputStream subfile = new FileOutputStream(outputDir
+                + "jira-Epic-" + name + ParseJiraTicketsConstants.PUML_FILE_EXTENSION);
+        output = new PrintStream(subfile, true);
+        generateHeader("Jira Tickets for Epic " + epicName);
+        generateLegendEpic(jiraTickets.values(), epicTicket);
+        generateTicketsPerEpicLinks(jiraTickets.values(), epicTicket);
+        generateSingleEpicLinks(jiraTickets.values(), epicTicket);
+        generateFooter();
+        output.close();
+      } catch (IOException ex) {
+        log.error(ex);
+        ex.printStackTrace();
+      }
     });
   }
 
@@ -451,7 +450,6 @@ public class ParseJiraTicketsCsv {
       for (int i = 1; i < r.size(); i++) {
         JiraTicket jiraTicket = new JiraTicket(r.get(i));
         jiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
-//        log.info("added ticket : [{}] [{}]", jiraTicket.issueKey.getFirst(), jiraTicket);
       }
 
       // Create link pointers from ticket id
@@ -469,11 +467,11 @@ public class ParseJiraTicketsCsv {
       // Generate reports for each person
       generatePersonReports(jiraTickets, outputDir);
 
-      // Generate reports for each Epic
-      generateEpicReports(jiraTickets, outputDir);
-
       // Generate reports for each Status
       generateStatusReports(jiraTickets, outputDir);
+
+      // Generate reports for each Epic
+      generateEpicReports(jiraTickets, outputDir);
 
       return true;
     }

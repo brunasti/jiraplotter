@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 14 10:15:46 CEST 2024
+' Generated at    : Tue May 14 12:13:26 CEST 2024
 
 title Jira Tickets general diagram
 hide empty members
@@ -586,17 +586,29 @@ class "ENKPS-49" << (E,green) >> {
 
 ' Links =======
 "ENKPS-30" <.. "ENKPS-28" : Blocks
+
 "ENKPS-30" <.. "ENKPS-76" : Cloners
+
 "ENKPS-30" <.. "ENKPS-59" : Issue split
+
 "ENKPS-76" <.. "ENKPS-30" : Relates
+
 "ENKPS-26" <.. "ENKPS-28" : Blocks
+
 "ENKPS-27" <.. "ENKPS-28" : Blocks
+
 "ENKPS-27" <.. "ENKPS-36" : Cloners
+
 "ENKPS-52" <.. "ENKPS-51" : Issue split
+
 "ENKPS-57" <.. "ENKPS-42" : Blocks
+
 "ENKPS-9" <.. "ENKPS-58" : Issue split
+
 "ENKPS-44" <.. "ENKPS-9" : Issue split
+
 "ENKPS-44" <.. "ENKPS-64" : Issue split
+
 
 
 @enduml

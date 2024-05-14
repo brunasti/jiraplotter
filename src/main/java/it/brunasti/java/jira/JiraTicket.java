@@ -52,9 +52,7 @@ public class JiraTicket {
     ArrayList<String> values = new ArrayList<>();
 
     if (fieldDescriptor != null) {
-      log.debug("readField : {}",fieldDescriptor.name);
       fieldDescriptor.indexes.forEach(index -> {
-        log.debug("readField : {} {}",fieldDescriptor.name, index);
         if ((fields[index] != null) && (!fields[index].isBlank())) {
           values.add(fields[index]);
         }
@@ -89,7 +87,6 @@ public class JiraTicket {
     if (!parent.isEmpty()) {
       log.info("Linking to parent : {}", parent.getFirst());
       parentJira = Utils.findFromId(jiraTickets, parent.getFirst());
-//      log.info("Linking to parent : -> {}", parentJira);
     }
 
     inwardIssueLink.forEach(links ->

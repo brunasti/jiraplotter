@@ -233,27 +233,28 @@ public class Utils {
    * Get all the Tickets of an Epic.
    *
    * @param jiraTickets the list of all Tickets
-   * @param person the person of whom we want the Tickets
+   * @param epic the epic of whom we want the Tickets
    * @return a Map containing the list of the Tickets part of the epic
    */
   public static Map<String, JiraTicket> getEpicTickets(
-          final Collection<JiraTicket> jiraTickets, String linkKind, String person) {
+          final Collection<JiraTicket> jiraTickets, String linkKind, JiraTicket epic) {
     // TODO: change to epics
-    log.debug("getEpicTickets ({}) ({}) ", linkKind, person);
+    log.debug("getEpicTickets ({}) EPIC : ({}) ", linkKind, epic.issueKey.getFirst());
 
     Map<String, JiraTicket> selectedJiraTickets = new HashMap<>();
+    selectedJiraTickets.put(epic.issueKey.getFirst(), epic);
 
     jiraTickets.forEach(jiraTicket -> {
-      if ((!jiraTicket.assignee.isEmpty())
-              && (jiraTicket.assignee.getFirst().equalsIgnoreCase(person))) {
+      if ((!jiraTicket.parent.isEmpty()) && (jiraTicket.parent.getFirst().equalsIgnoreCase(epic.issueId.getFirst()))) {
         selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
-        jiraTicket.inwardIssueLink.forEach(links -> {
-          if (links.getName().contains(linkKind)) {
-            links.getJiraTickets().forEach(
-                    link -> selectedJiraTickets.put(link.issueKey.getFirst(), link));
+      }
+      jiraTicket.inwardIssueLink.forEach(links -> {
+        links.getJiraTickets().forEach(linkedTicked -> {
+          if (epic.issueKey.getFirst().equalsIgnoreCase(linkedTicked.issueKey.getFirst())) {
+            selectedJiraTickets.put(linkedTicked.issueKey.getFirst(), linkedTicked);
           }
         });
-      }
+      });
     });
 
     return selectedJiraTickets;
@@ -308,17 +309,6 @@ public class Utils {
       );
     }
 
-//    jiraTickets.forEach(jiraTicket ->
-//            jiraTicket.inwardIssueLink.forEach(links -> {
-//              if ((linkKind == null) || (linkKind.isEmpty()) || (links.getName().contains(linkKind))) {
-//                links.getJiraTickets().forEach(link -> {
-//                  selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
-//                  selectedJiraTickets.put(link.issueKey.getFirst(), link);
-//                });
-//              }
-//            })
-//    );
-
     return selectedJiraTickets;
   }
 
@@ -345,23 +335,6 @@ public class Utils {
     return !selectedJiraTickets.isEmpty();
   }
 
-//  public static boolean epicHasDependingTickets(
-//          final Collection<JiraTicket> jiraTickets,
-//          String epic) {
-//    HashMap<String, JiraTicket> selectedJiraTickets = new HashMap<>();
-//    log.debug("epicHasDependingTickets ({})", epic);
-//
-//    jiraTickets.forEach(jiraTicket -> {
-//      if ((!jiraTicket.assignee.isEmpty())
-//              && (jiraTicket.assignee.getFirst().equalsIgnoreCase(epic))) {
-//        log.debug("epicHasDependingTickets ({}) -> [{}]", epic, jiraTicket.issueKey);
-//        selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
-//      }
-//    });
-//
-//    return !selectedJiraTickets.isEmpty();
-//  }
-
   public static List<FieldDescriptor> loadDefinitions(
           String[] header,
           List<JiraTicketLinkDescriptor> jiraTicketLinkDescriptors) {
@@ -375,12 +348,9 @@ public class Utils {
     log.info("Unique Fields  : [{}]", fields.size());
     ArrayList<FieldDescriptor> fieldDescriptors = new ArrayList<>();
     fields.stream().sorted().forEach(field -> {
-      log.info("   - Unique Field  : [{}][{}]", field, Utils.countSameFields(header, field));
       FieldDescriptor fieldDescriptor = new FieldDescriptor(header, field);
       fieldDescriptors.add(fieldDescriptor);
-      log.info("                   ->  FieldDescriptor  : [{}]", fieldDescriptor);
       if (fieldDescriptor.name.contains("link")) {
-        log.info("                   ->  LINK : FieldDescriptor  : [{}]", fieldDescriptor);
         JiraTicketLinkDescriptor jiraTicketLinkDescriptor
                 = new JiraTicketLinkDescriptor(field, fieldDescriptor);
         jiraTicketLinkDescriptors.add(jiraTicketLinkDescriptor);
