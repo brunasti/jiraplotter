@@ -64,7 +64,7 @@ public class ParseJiraTicketsCsv {
     generateTextLegend(Utils.getTicketsForLinkKind(jiraTickets, linkKind));
   }
 
-  private void generateLegendEpic(final Collection<JiraTicket> jiraTickets, JiraTicket epic) {
+  private void generateLegendEpic(final Map<String, JiraTicket>  jiraTickets, JiraTicket epic) {
     log.debug("generateLegendEpic ({}) ", epic.issueKey.getFirst());
 
     generateTextLegend(Utils.getEpicTickets(jiraTickets, "", epic));
@@ -145,7 +145,7 @@ public class ParseJiraTicketsCsv {
   }
 
   private void generateTicketsPerEpicLinks(
-          final Collection<JiraTicket> jiraTickets,
+          final Map<String, JiraTicket>  jiraTickets,
           JiraTicket epic) {
     log.debug("generateTicketsPerEpicLinks ({})", epic.issueKey);
     output.println();
@@ -242,7 +242,7 @@ public class ParseJiraTicketsCsv {
     output.println();
   }
 
-  private void generateSingleEpicLinks(final Collection<JiraTicket> jiraTickets, JiraTicket epic) {
+  private void generateSingleEpicLinks(final Map<String, JiraTicket>  jiraTickets, JiraTicket epic) {
     log.debug("generateSingleEpicLinks - {} ===========",epic.issueKey.getFirst());
     output.println();
     output.println(ParseJiraTicketsConstants.HEADER_LINKS);
@@ -396,9 +396,9 @@ public class ParseJiraTicketsCsv {
                 + "jira-Epic-" + name + ParseJiraTicketsConstants.PUML_FILE_EXTENSION);
         output = new PrintStream(subfile, true);
         generateHeader("Jira Tickets for Epic " + epicName);
-        generateLegendEpic(jiraTickets.values(), epicTicket);
-        generateTicketsPerEpicLinks(jiraTickets.values(), epicTicket);
-        generateSingleEpicLinks(jiraTickets.values(), epicTicket);
+        generateLegendEpic(jiraTickets, epicTicket);
+        generateTicketsPerEpicLinks(jiraTickets, epicTicket);
+        generateSingleEpicLinks(jiraTickets, epicTicket);
         generateFooter();
         output.close();
       } catch (IOException ex) {
@@ -458,17 +458,17 @@ public class ParseJiraTicketsCsv {
       log.info("Records : [{}]", jiraTickets.size());
 
 
-      // Reports generation -------------------------
-      generateBaseDiagram(jiraTickets, outputDir);
-
-      // Generate reports for each links kind
-      generateLinkKindReports(jiraTickets, outputDir);
-
-      // Generate reports for each person
-      generatePersonReports(jiraTickets, outputDir);
-
-      // Generate reports for each Status
-      generateStatusReports(jiraTickets, outputDir);
+//      // Reports generation -------------------------
+//      generateBaseDiagram(jiraTickets, outputDir);
+//
+//      // Generate reports for each links kind
+//      generateLinkKindReports(jiraTickets, outputDir);
+//
+//      // Generate reports for each person
+//      generatePersonReports(jiraTickets, outputDir);
+//
+//      // Generate reports for each Status
+//      generateStatusReports(jiraTickets, outputDir);
 
       // Generate reports for each Epic
       generateEpicReports(jiraTickets, outputDir);

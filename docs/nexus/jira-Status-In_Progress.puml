@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 14 12:25:21 CEST 2024
+' Generated at    : Tue May 14 15:35:46 CEST 2024
 
 title Jira Tickets for Status In Progress
 hide empty members
@@ -10,21 +10,37 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(In Progress) : 2
+(In Progress) : 4
 ----
 Jira Ticket Types
 ----
-(Story) : 2
+(Story) : 4
 end legend
 
 
 ' Tickets =======
-class "ARS-25" << (S,lightgreen) >> {
-  Summary : Design APIs
-  Assigned to : Nneka Tielman
+class "ARS-24" << (S,lightgreen) >> {
+  Summary : DB Connection from Python
+  Assigned to : PAOLO BRUNASTI
+  Status : In Progress
+  Type : Story
+  Points : 3.0
+}
+
+class "ARS-52" << (S,lightgreen) >> {
+  Summary : Prototype BE architecture
+  Assigned to : PAOLO BRUNASTI
   Status : In Progress
   Type : Story
   Points : 5.0
+}
+
+class "ARS-53" << (S,lightgreen) >> {
+  Summary : Navbar component for Landing Page
+  Assigned to : Juan Solano
+  Status : In Progress
+  Type : Story
+  Points : 3.0
 }
 
 class "ARS-10" << (S,lightgreen) >> {

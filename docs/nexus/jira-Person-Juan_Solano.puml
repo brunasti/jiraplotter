@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 14 12:25:21 CEST 2024
+' Generated at    : Tue May 14 15:35:46 CEST 2024
 
 title Jira Tickets for Person Juan Solano
 hide empty members
@@ -10,12 +10,13 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(Done) : 6
+(Done) : 8
 (To Do) : 2
+(In Progress) : 1
 ----
 Jira Ticket Types
 ----
-(Story) : 8
+(Story) : 11
 end legend
 
 
@@ -37,9 +38,9 @@ class "ARS-38" << (S,lightgreen) >> {
 }
 
 class "ARS-17" << (S,lightgreen) >> {
-  Summary : Generate Content Types GraphQL Queries
+  Summary : Generate Content Types GraphQL Queries for Landing Page
   Assigned to : Juan Solano
-  Status : To Do
+  Status : Done
   Type : Story
   Points : 5.0
 }
@@ -54,6 +55,14 @@ class "ARS-19" << (S,lightgreen) >> {
 
 class "ARS-34" << (S,lightgreen) >> {
   Summary : All Survey Pages - Create Theme
+  Assigned to : Juan Solano
+  Status : Done
+  Type : Story
+  Points : 3.0
+}
+
+class "ARS-57" << (S,lightgreen) >> {
+  Summary : Banner component
   Assigned to : Juan Solano
   Status : To Do
   Type : Story
@@ -82,6 +91,22 @@ class "ARS-37" << (S,lightgreen) >> {
   Status : Done
   Type : Story
   Points : 3.0
+}
+
+class "ARS-53" << (S,lightgreen) >> {
+  Summary : Navbar component for Landing Page
+  Assigned to : Juan Solano
+  Status : In Progress
+  Type : Story
+  Points : 3.0
+}
+
+class "ARS-55" << (S,lightgreen) >> {
+  Summary : Typography component
+  Assigned to : Juan Solano
+  Status : To Do
+  Type : Story
+  Points : 5.0
 }
 
 

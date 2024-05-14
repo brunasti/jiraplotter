@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 14 12:25:21 CEST 2024
+' Generated at    : Tue May 14 15:35:46 CEST 2024
 
 title Jira Tickets for Status Done
 hide empty members
@@ -10,13 +10,13 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(Done) : 11
-(To Do) : 1
+(Done) : 16
+(In Progress) : 1
 ----
 Jira Ticket Types
 ----
-(Subtask) : 1
-(Story) : 11
+(Subtask) : 2
+(Story) : 15
 end legend
 
 
@@ -45,6 +45,14 @@ class "ARS-49" << (S,lightgreen) >> {
   Points : 3.0
 }
 
+class "ARS-17" << (S,lightgreen) >> {
+  Summary : Generate Content Types GraphQL Queries for Landing Page
+  Assigned to : Juan Solano
+  Status : Done
+  Type : Story
+  Points : 5.0
+}
+
 class "ARS-18" << (S,lightgreen) >> {
   Summary : Create Repository
   Assigned to : PAOLO BRUNASTI
@@ -55,6 +63,22 @@ class "ARS-18" << (S,lightgreen) >> {
 
 class "ARS-19" << (S,lightgreen) >> {
   Summary : Create NUXT -Vue2 project FE
+  Assigned to : Juan Solano
+  Status : Done
+  Type : Story
+  Points : 3.0
+}
+
+class "ARS-23" << (S,lightgreen) >> {
+  Summary : Model BE DB
+  Assigned to : PAOLO BRUNASTI
+  Status : Done
+  Type : Story
+  Points : 5.0
+}
+
+class "ARS-34" << (S,lightgreen) >> {
+  Summary : All Survey Pages - Create Theme
   Assigned to : Juan Solano
   Status : Done
   Type : Story
@@ -76,6 +100,14 @@ class "ARS-14" << (S,lightgreen) >> {
   Points : 2.0
 }
 
+class "ARS-25" << (S,lightgreen) >> {
+  Summary : Design APIs
+  Assigned to : Nneka Tielman
+  Status : Done
+  Type : Story
+  Points : 5.0
+}
+
 class "ARS-37" << (S,lightgreen) >> {
   Summary : Create Eslint modules
   Assigned to : Juan Solano
@@ -95,9 +127,16 @@ class "ARS-15" << (S,lightgreen) >> {
 class "ARS-52" << (S,lightgreen) >> {
   Summary : Prototype BE architecture
   Assigned to : PAOLO BRUNASTI
-  Status : To Do
+  Status : In Progress
   Type : Story
   Points : 5.0
+}
+
+class "ARS-30" << (S,lightblue) >> {
+  Summary : FE Repository
+  Assigned to : PAOLO BRUNASTI
+  Status : Done
+  Type : Subtask
 }
 
 class "ARS-21" << (S,lightblue) >> {

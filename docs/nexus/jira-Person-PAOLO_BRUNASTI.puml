@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 14 12:25:21 CEST 2024
+' Generated at    : Tue May 14 15:35:46 CEST 2024
 
 title Jira Tickets for Person PAOLO BRUNASTI
 hide empty members
@@ -10,14 +10,13 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(Done) : 6
-(To Do) : 14
-(IN REVIEW (pls tag reviewer)) : 2
-(In Progress) : 1
+(Done) : 8
+(To Do) : 17
+(In Progress) : 3
 ----
 Jira Ticket Types
 ----
-(Subtask) : 8
+(Subtask) : 13
 (Epic) : 2
 (Story) : 13
 end legend
@@ -54,6 +53,13 @@ class "ARS-5" << (S,lightgreen) >> {
   Type : Story
 }
 
+class "ARS-71" << (S,lightblue) >> {
+  Summary : Python server code generated from Swagger
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
 class "ARS-50" << (S,lightblue) >> {
   Summary : Update User structure with info from Figma
   Assigned to : PAOLO BRUNASTI
@@ -68,14 +74,6 @@ class "ARS-51" << (S,lightblue) >> {
   Type : Subtask
 }
 
-class "ARS-40" << (S,lightgreen) >> {
-  Summary : AWS Environment
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Story
-  Points : 5.0
-}
-
 class "ARS-12" << (S,lightblue) >> {
   Summary : Send email to customer with the PDF as attachment
   Assigned to : PAOLO BRUNASTI
@@ -83,41 +81,11 @@ class "ARS-12" << (S,lightblue) >> {
   Type : Subtask
 }
 
-class "ARS-23" << (S,lightgreen) >> {
-  Summary : Model BE DB
-  Assigned to : PAOLO BRUNASTI
-  Status : IN REVIEW (pls tag reviewer)
-  Type : Story
-  Points : 5.0
-}
-
-class "ARS-45" << (S,lightgreen) >> {
-  Summary : Review Gitlab Pipeline
-  Assigned to : PAOLO BRUNASTI
-  Status : Done
-  Type : Story
-}
-
 class "ARS-13" << (S,lightblue) >> {
   Summary : Activation of the process of generating and sending the email
   Assigned to : PAOLO BRUNASTI
   Status : To Do
   Type : Subtask
-}
-
-class "ARS-24" << (S,lightgreen) >> {
-  Summary : DB Connection from Python
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Story
-  Points : 3.0
-}
-
-class "ARS-47" << (S,lightgreen) >> {
-  Summary : Create View for results of the survey
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Story
 }
 
 class "ARS-37" << (S,lightgreen) >> {
@@ -131,7 +99,7 @@ class "ARS-37" << (S,lightgreen) >> {
 class "ARS-52" << (S,lightgreen) >> {
   Summary : Prototype BE architecture
   Assigned to : PAOLO BRUNASTI
-  Status : To Do
+  Status : In Progress
   Type : Story
   Points : 5.0
 }
@@ -139,15 +107,8 @@ class "ARS-52" << (S,lightgreen) >> {
 class "ARS-30" << (S,lightblue) >> {
   Summary : FE Repository
   Assigned to : PAOLO BRUNASTI
-  Status : IN REVIEW (pls tag reviewer)
+  Status : Done
   Type : Subtask
-}
-
-class "ARS-20" << (E,green) >> {
-  Summary : Back End for Survey
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Epic
 }
 
 class "ARS-10" << (S,lightgreen) >> {
@@ -157,18 +118,91 @@ class "ARS-10" << (S,lightgreen) >> {
   Type : Story
 }
 
-class "ARS-21" << (S,lightblue) >> {
-  Summary : Create GitHub repository for BE
-  Assigned to : PAOLO BRUNASTI
-  Status : Done
-  Type : Subtask
-}
-
 class "ARS-32" << (E,green) >> {
   Summary : Infrastructure
   Assigned to : PAOLO BRUNASTI
   Status : To Do
   Type : Epic
+}
+
+class "ARS-11" << (S,lightblue) >> {
+  Summary : Generate the PDF with the report for a single survey response
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-40" << (S,lightgreen) >> {
+  Summary : AWS Environment
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Story
+  Points : 5.0
+}
+
+class "ARS-23" << (S,lightgreen) >> {
+  Summary : Model BE DB
+  Assigned to : PAOLO BRUNASTI
+  Status : Done
+  Type : Story
+  Points : 5.0
+}
+
+class "ARS-45" << (S,lightgreen) >> {
+  Summary : Review Gitlab Pipeline
+  Assigned to : PAOLO BRUNASTI
+  Status : Done
+  Type : Story
+}
+
+class "ARS-68" << (S,lightblue) >> {
+  Summary : Security
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-24" << (S,lightgreen) >> {
+  Summary : DB Connection from Python
+  Assigned to : PAOLO BRUNASTI
+  Status : In Progress
+  Type : Story
+  Points : 3.0
+}
+
+class "ARS-69" << (S,lightblue) >> {
+  Summary : PDF Library
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-47" << (S,lightgreen) >> {
+  Summary : Create View for results of the survey
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-20" << (E,green) >> {
+  Summary : Back End for Survey
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Epic
+}
+
+class "ARS-65" << (S,lightblue) >> {
+  Summary : ORM definition of User
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-21" << (S,lightblue) >> {
+  Summary : Create GitHub repository for BE
+  Assigned to : PAOLO BRUNASTI
+  Status : Done
+  Type : Subtask
 }
 
 class "ARS-43" << (S,lightgreen) >> {
@@ -178,8 +212,8 @@ class "ARS-43" << (S,lightgreen) >> {
   Type : Story
 }
 
-class "ARS-11" << (S,lightblue) >> {
-  Summary : Generate the PDF with the report for a single survey response
+class "ARS-66" << (S,lightblue) >> {
+  Summary : DB Connection pooling
   Assigned to : PAOLO BRUNASTI
   Status : To Do
   Type : Subtask

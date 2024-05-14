@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 14 12:25:21 CEST 2024
+' Generated at    : Tue May 14 15:35:46 CEST 2024
 
 title Jira Tickets for Person Pablo Uhalte
 hide empty members
@@ -10,15 +10,24 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(To Do) : 2
+(To Do) : 6
 ----
 Jira Ticket Types
 ----
+(Spike) : 1
+(Subtask) : 3
 (Story) : 2
 end legend
 
 
 ' Tickets =======
+class "ARS-60" << (S,lightblue) >> {
+  Summary : Cleanse and standardize data coming from the responses
+  Assigned to : Pablo Uhalte
+  Status : To Do
+  Type : Subtask
+}
+
 class "ARS-6" << (S,lightgreen) >> {
   Summary : CP Dashboard for results analysis
   Assigned to : Pablo Uhalte
@@ -26,11 +35,32 @@ class "ARS-6" << (S,lightgreen) >> {
   Type : Story
 }
 
+class "ARS-61" << (S,lightblue) >> {
+  Summary : Creation of the visuals
+  Assigned to : Pablo Uhalte
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-62" << (X,lightblue) >> {
+  Summary : Spike - AI personalised roadmap
+  Assigned to : Pablo Uhalte
+  Status : To Do
+  Type : Spike
+}
+
 class "ARS-7" << (S,lightgreen) >> {
   Summary : CP AI-Powered Personalised Roadmap Component
   Assigned to : Pablo Uhalte
   Status : To Do
   Type : Story
+}
+
+class "ARS-59" << (S,lightblue) >> {
+  Summary : Connect tool to the database 
+  Assigned to : Pablo Uhalte
+  Status : To Do
+  Type : Subtask
 }
 
 

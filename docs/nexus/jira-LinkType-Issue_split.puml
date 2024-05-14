@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 14 12:25:21 CEST 2024
+' Generated at    : Tue May 14 15:35:46 CEST 2024
 
 title Jira Tickets for Link Type Issue split
 hide empty members
@@ -10,11 +10,11 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(To Do) : 9
+(To Do) : 12
 ----
 Jira Ticket Types
 ----
-(Story) : 9
+(Story) : 12
 end legend
 
 
@@ -57,8 +57,28 @@ class "ARS-36" << (S,lightgreen) >> {
   Points : 5.0
 }
 
+class "ARS-26" << (S,lightgreen) >> {
+  Summary : Implement APIs
+  Assigned to : Nneka Tielman
+  Status : To Do
+  Type : Story
+  Points : 8.0
+}
+
 class "ARS-1" << (S,lightgreen) >> {
   Summary : Survey Landing Page
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-63" << (S,lightgreen) >> {
+  Summary : Implement Analytics API
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-64" << (S,lightgreen) >> {
+  Summary : Auth for Analytics API
   Status : To Do
   Type : Story
 }
@@ -79,6 +99,10 @@ class "ARS-33" << (S,lightgreen) >> {
 
 ' Links =======
 "ARS-56" <.. "ARS-1" : Issue split
+
+"ARS-63" <.. "ARS-26" : Issue split
+
+"ARS-64" <.. "ARS-26" : Issue split
 
 "ARS-3" <.. "ARS-2" : Issue split
 

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 14 12:25:21 CEST 2024
+' Generated at    : Tue May 14 15:35:46 CEST 2024
 
 title Jira Tickets general diagram
 hide empty members
@@ -10,16 +10,16 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(Done) : 11
-(To Do) : 41
-(IN REVIEW (pls tag reviewer)) : 2
-(In Progress) : 2
+(Done) : 16
+(To Do) : 49
+(In Progress) : 4
 ----
 Jira Ticket Types
 ----
-(Subtask) : 10
+(Spike) : 1
+(Subtask) : 19
 (Epic) : 3
-(Story) : 43
+(Story) : 46
 end legend
 
 
@@ -33,9 +33,9 @@ class "ARS-16" << (S,lightgreen) >> {
 }
 
 class "ARS-17" << (S,lightgreen) >> {
-  Summary : Generate Content Types GraphQL Queries
+  Summary : Generate Content Types GraphQL Queries for Landing Page
   Assigned to : Juan Solano
-  Status : To Do
+  Status : Done
   Type : Story
   Points : 5.0
 }
@@ -86,6 +86,7 @@ class "ARS-12" << (S,lightblue) >> {
 
 class "ARS-57" << (S,lightgreen) >> {
   Summary : Banner component
+  Assigned to : Juan Solano
   Status : To Do
   Type : Story
   Points : 3.0
@@ -113,6 +114,13 @@ class "ARS-14" << (S,lightgreen) >> {
   Points : 2.0
 }
 
+class "ARS-59" << (S,lightblue) >> {
+  Summary : Connect tool to the database 
+  Assigned to : Pablo Uhalte
+  Status : To Do
+  Type : Subtask
+}
+
 class "ARS-15" << (S,lightgreen) >> {
   Summary : Contentful Integration FE
   Assigned to : Juan Solano
@@ -124,14 +132,15 @@ class "ARS-15" << (S,lightgreen) >> {
 class "ARS-52" << (S,lightgreen) >> {
   Summary : Prototype BE architecture
   Assigned to : PAOLO BRUNASTI
-  Status : To Do
+  Status : In Progress
   Type : Story
   Points : 5.0
 }
 
 class "ARS-53" << (S,lightgreen) >> {
-  Summary : Nav bar component
-  Status : To Do
+  Summary : Navbar component for Landing Page
+  Assigned to : Juan Solano
+  Status : In Progress
   Type : Story
   Points : 3.0
 }
@@ -152,6 +161,7 @@ class "ARS-10" << (S,lightgreen) >> {
 
 class "ARS-55" << (S,lightgreen) >> {
   Summary : Typography component
+  Assigned to : Juan Solano
   Status : To Do
   Type : Story
   Points : 5.0
@@ -183,35 +193,89 @@ class "ARS-29" << (S,lightblue) >> {
   Type : Subtask
 }
 
+class "ARS-60" << (S,lightblue) >> {
+  Summary : Cleanse and standardize data coming from the responses
+  Assigned to : Pablo Uhalte
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-61" << (S,lightblue) >> {
+  Summary : Creation of the visuals
+  Assigned to : Pablo Uhalte
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-62" << (X,lightblue) >> {
+  Summary : Spike - AI personalised roadmap
+  Assigned to : Pablo Uhalte
+  Status : To Do
+  Type : Spike
+}
+
+class "ARS-67" << (S,lightgreen) >> {
+  Summary : Implement FE API - user endpoints
+  Status : To Do
+  Type : Story
+}
+
 class "ARS-23" << (S,lightgreen) >> {
   Summary : Model BE DB
   Assigned to : PAOLO BRUNASTI
-  Status : IN REVIEW (pls tag reviewer)
+  Status : Done
   Type : Story
   Points : 5.0
+}
+
+class "ARS-68" << (S,lightblue) >> {
+  Summary : Security
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
 }
 
 class "ARS-24" << (S,lightgreen) >> {
   Summary : DB Connection from Python
   Assigned to : PAOLO BRUNASTI
-  Status : To Do
+  Status : In Progress
   Type : Story
   Points : 3.0
+}
+
+class "ARS-69" << (S,lightblue) >> {
+  Summary : PDF Library
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
 }
 
 class "ARS-25" << (S,lightgreen) >> {
   Summary : Design APIs
   Assigned to : Nneka Tielman
-  Status : In Progress
+  Status : Done
   Type : Story
   Points : 5.0
 }
 
 class "ARS-26" << (S,lightgreen) >> {
   Summary : Implement APIs
+  Assigned to : Nneka Tielman
   Status : To Do
   Type : Story
   Points : 8.0
+}
+
+class "ARS-63" << (S,lightgreen) >> {
+  Summary : Implement Analytics API
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-64" << (S,lightgreen) >> {
+  Summary : Auth for Analytics API
+  Status : To Do
+  Type : Story
 }
 
 class "ARS-20" << (E,green) >> {
@@ -221,10 +285,24 @@ class "ARS-20" << (E,green) >> {
   Type : Epic
 }
 
+class "ARS-65" << (S,lightblue) >> {
+  Summary : ORM definition of User
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
 class "ARS-21" << (S,lightblue) >> {
   Summary : Create GitHub repository for BE
   Assigned to : PAOLO BRUNASTI
   Status : Done
+  Type : Subtask
+}
+
+class "ARS-66" << (S,lightblue) >> {
+  Summary : DB Connection pooling
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
   Type : Subtask
 }
 
@@ -251,11 +329,24 @@ class "ARS-39" << (S,lightblue) >> {
   Type : Subtask
 }
 
+class "ARS-70" << (S,lightblue) >> {
+  Summary : Connection with Contentful
+  Status : To Do
+  Type : Subtask
+}
+
 class "ARS-5" << (S,lightgreen) >> {
   Summary : Email with Results as a pdf
   Assigned to : PAOLO BRUNASTI
   Status : To Do
   Type : Story
+}
+
+class "ARS-71" << (S,lightblue) >> {
+  Summary : Python server code generated from Swagger
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
 }
 
 class "ARS-6" << (S,lightgreen) >> {
@@ -299,7 +390,7 @@ class "ARS-8" << (S,lightgreen) >> {
 class "ARS-34" << (S,lightgreen) >> {
   Summary : All Survey Pages - Create Theme
   Assigned to : Juan Solano
-  Status : To Do
+  Status : Done
   Type : Story
   Points : 3.0
 }
@@ -322,7 +413,7 @@ class "ARS-37" << (S,lightgreen) >> {
 class "ARS-30" << (S,lightblue) >> {
   Summary : FE Repository
   Assigned to : PAOLO BRUNASTI
-  Status : IN REVIEW (pls tag reviewer)
+  Status : Done
   Type : Subtask
 }
 
@@ -426,20 +517,32 @@ class "ARS-44" << (S,lightgreen) >> {
 "ARS-23" <|-- "ARS-51"
 "ARS-5" <|-- "ARS-12"
 "ARS-5" <|-- "ARS-13"
+"ARS-6" <|-- "ARS-59"
 "ARS-32" <|-- "ARS-52"
 "ARS-32" <|-- "ARS-10"
 "ARS-5" <|-- "ARS-11"
 "ARS-32" <|-- "ARS-27"
 "ARS-27" <|-- "ARS-28"
 "ARS-27" <|-- "ARS-29"
+"ARS-6" <|-- "ARS-60"
+"ARS-6" <|-- "ARS-61"
+"ARS-20" <|-- "ARS-67"
 "ARS-20" <|-- "ARS-23"
+"ARS-52" <|-- "ARS-68"
 "ARS-20" <|-- "ARS-24"
+"ARS-52" <|-- "ARS-69"
 "ARS-20" <|-- "ARS-25"
 "ARS-20" <|-- "ARS-26"
+"ARS-20" <|-- "ARS-63"
+"ARS-20" <|-- "ARS-64"
+"ARS-52" <|-- "ARS-65"
 "ARS-18" <|-- "ARS-21"
+"ARS-52" <|-- "ARS-66"
 "ARS-20" <|-- "ARS-22"
 "ARS-5" <|-- "ARS-39"
+"ARS-52" <|-- "ARS-70"
 "ARS-20" <|-- "ARS-5"
+"ARS-52" <|-- "ARS-71"
 "ARS-18" <|-- "ARS-30"
 "ARS-32" <|-- "ARS-40"
 "ARS-32" <|-- "ARS-45"
@@ -455,6 +558,10 @@ class "ARS-44" << (S,lightgreen) >> {
 "ARS-56" <.. "ARS-1" : Issue split
 
 "ARS-28" <.. "ARS-38" : Cloners
+
+"ARS-63" <.. "ARS-26" : Issue split
+
+"ARS-64" <.. "ARS-26" : Issue split
 
 "ARS-22" <.. "ARS-52" : Cloners
 

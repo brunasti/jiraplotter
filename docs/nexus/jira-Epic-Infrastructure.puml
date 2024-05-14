@@ -1,0 +1,175 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 14 15:46:32 CEST 2024
+
+title Jira Tickets for Epic Infrastructure
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 11
+(Done) : 4
+(In Progress) : 2
+----
+Jira Ticket Types
+----
+(Subtask) : 10
+(Epic) : 1
+(Story) : 6
+end legend
+
+
+' Tickets =======
+class "ARS-27" << (S,lightgreen) >> {
+  Summary : Design the CICD Pipeline
+  Status : To Do
+  Type : Story
+  Points : 3.0
+}
+
+class "ARS-28" << (S,lightblue) >> {
+  Summary : CICD Pipeline for FE
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-18" << (S,lightgreen) >> {
+  Summary : Create Repository
+  Assigned to : PAOLO BRUNASTI
+  Status : Done
+  Type : Story
+  Points : 3.0
+}
+
+class "ARS-29" << (S,lightblue) >> {
+  Summary : CICD Pipeline for BE
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-70" << (S,lightblue) >> {
+  Summary : Connection with Contentful
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-71" << (S,lightblue) >> {
+  Summary : Python server code generated from Swagger
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-40" << (S,lightgreen) >> {
+  Summary : AWS Environment
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Story
+  Points : 5.0
+}
+
+class "ARS-45" << (S,lightgreen) >> {
+  Summary : Review Gitlab Pipeline
+  Assigned to : PAOLO BRUNASTI
+  Status : Done
+  Type : Story
+}
+
+class "ARS-68" << (S,lightblue) >> {
+  Summary : Security
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-69" << (S,lightblue) >> {
+  Summary : PDF Library
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-52" << (S,lightgreen) >> {
+  Summary : Prototype BE architecture
+  Assigned to : PAOLO BRUNASTI
+  Status : In Progress
+  Type : Story
+  Points : 5.0
+}
+
+class "ARS-30" << (S,lightblue) >> {
+  Summary : FE Repository
+  Assigned to : PAOLO BRUNASTI
+  Status : Done
+  Type : Subtask
+}
+
+class "ARS-32" << (E,green) >> {
+  Summary : Infrastructure
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Epic
+}
+
+class "ARS-10" << (S,lightgreen) >> {
+  Summary : Customised Survey Landing Page URL
+  Assigned to : PAOLO BRUNASTI
+  Status : In Progress
+  Type : Story
+}
+
+class "ARS-65" << (S,lightblue) >> {
+  Summary : ORM definition of User
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-21" << (S,lightblue) >> {
+  Summary : Create GitHub repository for BE
+  Assigned to : PAOLO BRUNASTI
+  Status : Done
+  Type : Subtask
+}
+
+class "ARS-66" << (S,lightblue) >> {
+  Summary : DB Connection pooling
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+
+
+' Links =======
+
+' Parents =======
+"ARS-32" <|-- "ARS-27"
+"ARS-27" <|-- "ARS-28"
+"ARS-32" <|-- "ARS-18"
+"ARS-27" <|-- "ARS-29"
+"ARS-52" <|-- "ARS-70"
+"ARS-52" <|-- "ARS-71"
+"ARS-32" <|-- "ARS-40"
+"ARS-32" <|-- "ARS-45"
+"ARS-52" <|-- "ARS-68"
+"ARS-52" <|-- "ARS-69"
+"ARS-32" <|-- "ARS-52"
+"ARS-18" <|-- "ARS-30"
+"ARS-32" <|-- "ARS-10"
+"ARS-52" <|-- "ARS-65"
+"ARS-18" <|-- "ARS-21"
+"ARS-52" <|-- "ARS-66"
+
+"ARS-28" <.. "ARS-38" : Cloners
+
+"ARS-18" <.. "ARS-37" : Polaris issue link
+
+"ARS-18" <.. "ARS-38" : Polaris issue link
+
+
+
+@enduml

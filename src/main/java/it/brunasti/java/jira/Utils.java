@@ -237,14 +237,14 @@ public class Utils {
    * @return a Map containing the list of the Tickets part of the epic
    */
   public static Map<String, JiraTicket> getEpicTickets(
-          final Collection<JiraTicket> jiraTickets, String linkKind, JiraTicket epic) {
+          final Map<String, JiraTicket>  jiraTickets, String linkKind, JiraTicket epic) {
     // TODO: change to epics
     log.debug("getEpicTickets ({}) EPIC : ({}) ", linkKind, epic.issueKey.getFirst());
 
     Map<String, JiraTicket> selectedJiraTickets = new HashMap<>();
     selectedJiraTickets.put(epic.issueKey.getFirst(), epic);
 
-    jiraTickets.forEach(jiraTicket -> {
+    jiraTickets.values().forEach(jiraTicket -> {
       if ((!jiraTicket.parent.isEmpty()) && (jiraTicket.parent.getFirst().equalsIgnoreCase(epic.issueId.getFirst()))) {
         selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
       }
@@ -256,6 +256,27 @@ public class Utils {
         });
       });
     });
+
+    Map<String, JiraTicket> subTickets = new HashMap<>();
+    jiraTickets.values().forEach(jiraTicket -> {
+      if (!jiraTicket.parent.isEmpty()) {
+        log.debug("getEpicTickets ({}) EPIC : ({}) ({})", epic.issueKey.getFirst(), jiraTicket.issueKey.getFirst(), jiraTicket.parent.getFirst());
+        JiraTicket parent = findFromId(jiraTickets, jiraTicket.parent.getFirst());
+        if ((parent != null) && (selectedJiraTickets.containsKey(parent.issueKey.getFirst()))) {
+          log.debug("getEpicTickets ({}) EPIC : add ({}) ", epic.issueKey.getFirst(), jiraTicket.issueKey.getFirst());
+          subTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
+        }
+      }
+//      jiraTicket.inwardIssueLink.forEach(links -> {
+//        links.getJiraTickets().forEach(linkedTicked -> {
+//          if (epic.issueKey.getFirst().equalsIgnoreCase(linkedTicked.issueKey.getFirst())) {
+//            selectedJiraTickets.put(linkedTicked.issueKey.getFirst(), linkedTicked);
+//          }
+//        });
+//      });
+    });
+
+    selectedJiraTickets.putAll(subTickets);
 
     return selectedJiraTickets;
   }

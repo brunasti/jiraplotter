@@ -1,0 +1,36 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 14 15:46:32 CEST 2024
+
+title Jira Tickets for Epic Front End for Survey
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 1
+----
+Jira Ticket Types
+----
+(Epic) : 1
+end legend
+
+
+' Tickets =======
+class "ARS-31" << (E,green) >> {
+  Summary : Front End for Survey
+  Status : To Do
+  Type : Epic
+}
+
+
+
+' Links =======
+
+' Parents =======
+
+
+
+@enduml

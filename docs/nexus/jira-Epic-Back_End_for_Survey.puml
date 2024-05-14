@@ -1,0 +1,187 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 14 15:46:32 CEST 2024
+
+title Jira Tickets for Epic Back End for Survey
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 14
+(Done) : 3
+(In Progress) : 1
+----
+Jira Ticket Types
+----
+(Subtask) : 6
+(Epic) : 1
+(Story) : 11
+end legend
+
+
+' Tickets =======
+class "ARS-39" << (S,lightblue) >> {
+  Summary : Investigate HubSpot integration
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-5" << (S,lightgreen) >> {
+  Summary : Email with Results as a pdf
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-50" << (S,lightblue) >> {
+  Summary : Update User structure with info from Figma
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-51" << (S,lightblue) >> {
+  Summary : Create structure for the storage of the different answers for each dimension depending on the stage
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-67" << (S,lightgreen) >> {
+  Summary : Implement FE API - user endpoints
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-23" << (S,lightgreen) >> {
+  Summary : Model BE DB
+  Assigned to : PAOLO BRUNASTI
+  Status : Done
+  Type : Story
+  Points : 5.0
+}
+
+class "ARS-12" << (S,lightblue) >> {
+  Summary : Send email to customer with the PDF as attachment
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-24" << (S,lightgreen) >> {
+  Summary : DB Connection from Python
+  Assigned to : PAOLO BRUNASTI
+  Status : In Progress
+  Type : Story
+  Points : 3.0
+}
+
+class "ARS-13" << (S,lightblue) >> {
+  Summary : Activation of the process of generating and sending the email
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-25" << (S,lightgreen) >> {
+  Summary : Design APIs
+  Assigned to : Nneka Tielman
+  Status : Done
+  Type : Story
+  Points : 5.0
+}
+
+class "ARS-47" << (S,lightgreen) >> {
+  Summary : Create View for results of the survey
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-26" << (S,lightgreen) >> {
+  Summary : Implement APIs
+  Assigned to : Nneka Tielman
+  Status : To Do
+  Type : Story
+  Points : 8.0
+}
+
+class "ARS-63" << (S,lightgreen) >> {
+  Summary : Implement Analytics API
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-20" << (E,green) >> {
+  Summary : Back End for Survey
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Epic
+}
+
+class "ARS-64" << (S,lightgreen) >> {
+  Summary : Auth for Analytics API
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-43" << (S,lightgreen) >> {
+  Summary : Survey Hubspot integration
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-22" << (S,lightgreen) >> {
+  Summary : Define BE architecture
+  Assigned to : PAOLO BRUNASTI
+  Status : Done
+  Type : Story
+  Points : 5.0
+}
+
+class "ARS-11" << (S,lightblue) >> {
+  Summary : Generate the PDF with the report for a single survey response
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+
+
+' Links =======
+
+' Parents =======
+"ARS-5" <|-- "ARS-39"
+"ARS-20" <|-- "ARS-5"
+"ARS-23" <|-- "ARS-50"
+"ARS-23" <|-- "ARS-51"
+"ARS-20" <|-- "ARS-67"
+"ARS-20" <|-- "ARS-23"
+"ARS-5" <|-- "ARS-12"
+"ARS-20" <|-- "ARS-24"
+"ARS-5" <|-- "ARS-13"
+"ARS-20" <|-- "ARS-25"
+"ARS-20" <|-- "ARS-47"
+"ARS-20" <|-- "ARS-26"
+"ARS-20" <|-- "ARS-63"
+"ARS-20" <|-- "ARS-64"
+"ARS-20" <|-- "ARS-43"
+"ARS-20" <|-- "ARS-22"
+"ARS-5" <|-- "ARS-11"
+
+"ARS-47" <.. "ARS-23" : Relates
+
+"ARS-63" <.. "ARS-26" : Issue split
+
+"ARS-64" <.. "ARS-26" : Issue split
+
+"ARS-22" <.. "ARS-52" : Cloners
+
+
+
+@enduml

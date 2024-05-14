@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 14 12:25:21 CEST 2024
+' Generated at    : Tue May 14 15:35:46 CEST 2024
 
 title Jira Tickets for Link Type Relates
 hide empty members
@@ -10,8 +10,8 @@ hide empty members
 legend
 Jira Ticket Status
 ----
+(Done) : 1
 (To Do) : 1
-(IN REVIEW (pls tag reviewer)) : 1
 ----
 Jira Ticket Types
 ----
@@ -23,7 +23,7 @@ end legend
 class "ARS-23" << (S,lightgreen) >> {
   Summary : Model BE DB
   Assigned to : PAOLO BRUNASTI
-  Status : IN REVIEW (pls tag reviewer)
+  Status : Done
   Type : Story
   Points : 5.0
 }
