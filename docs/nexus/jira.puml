@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon May 13 18:52:15 CEST 2024
+' Generated at    : Tue May 14 12:25:21 CEST 2024
 
 title Jira Tickets general diagram
 hide empty members
@@ -449,22 +449,39 @@ class "ARS-44" << (S,lightgreen) >> {
 
 ' Links =======
 "ARS-18" <.. "ARS-37" : Polaris issue link
+
 "ARS-18" <.. "ARS-38" : Polaris issue link
+
 "ARS-56" <.. "ARS-1" : Issue split
+
 "ARS-28" <.. "ARS-38" : Cloners
+
 "ARS-22" <.. "ARS-52" : Cloners
+
 "ARS-3" <.. "ARS-2" : Issue split
+
 "ARS-9" <.. "ARS-4" : Issue split
+
 "ARS-8" <.. "ARS-4" : Issue split
+
 "ARS-36" <.. "ARS-1" : Issue split
+
 "ARS-1" <.. "ARS-14" : Polaris issue link
+
 "ARS-1" <.. "ARS-15" : Polaris issue link
+
 "ARS-1" <.. "ARS-16" : Polaris issue link
+
 "ARS-1" <.. "ARS-17" : Polaris issue link
+
 "ARS-33" <.. "ARS-2" : Issue split
+
 "ARS-47" <.. "ARS-23" : Relates
+
 "ARS-41" <.. "ARS-2" : Polaris datapoint issue link
+
 "ARS-42" <.. "ARS-4" : Polaris datapoint issue link
+
 
 
 @enduml

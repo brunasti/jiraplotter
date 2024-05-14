@@ -1,0 +1,45 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 14 12:13:26 CEST 2024
+
+title Jira Tickets for Epic Backend Infrastructure
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 1
+(In Progress) : 1
+----
+Jira Ticket Types
+----
+(Epic) : 1
+(Story) : 1
+end legend
+
+
+' Tickets =======
+class "ENKPS-70" << (S,lightgreen) >> {
+  Summary : BE Infrastructure
+  Status : In Progress
+  Type : Story
+}
+
+class "ENKPS-71" << (E,green) >> {
+  Summary : Backend Infrastructure
+  Status : To Do
+  Type : Epic
+}
+
+
+
+' Links =======
+
+' Parents =======
+"ENKPS-71" <|-- "ENKPS-70"
+
+
+
+@enduml

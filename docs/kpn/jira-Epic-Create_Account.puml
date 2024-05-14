@@ -1,0 +1,213 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 14 12:13:26 CEST 2024
+
+title Jira Tickets for Epic Create Account
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 6
+(Done) : 11
+(In Review) : 1
+(In Progress) : 2
+----
+Jira Ticket Types
+----
+(Task) : 5
+(Epic) : 1
+(Story) : 14
+end legend
+
+
+' Tickets =======
+class "ENKPS-60" << (S,lightgreen) >> {
+  Summary : Complete your details on the account creation step
+  Status : To Do
+  Type : Story
+  Points : 5.0
+}
+
+class "ENKPS-4" << (S,lightgreen) >> {
+  Summary : Create KPN Account
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-5" << (E,green) >> {
+  Summary : Create Account
+  Status : To Do
+  Type : Epic
+}
+
+class "ENKPS-30" << (S,lightgreen) >> {
+  Summary : Create Input Component
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
+  Type : Story
+  Points : 5.0
+}
+
+class "ENKPS-75" << (S,lightgreen) >> {
+  Summary : Add logos to Footer component
+  Status : To Do
+  Type : Story
+  Points : 2.0
+}
+
+class "ENKPS-42" << (S,lightgreen) >> {
+  Summary : Assemble create account page
+  Status : To Do
+  Type : Story
+  Points : 5.0
+}
+
+class "ENKPS-32" << (S,lightgreen) >> {
+  Summary : Setup Users table in Supabase and policies that allow read and write access to authenticated users
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-43" << (S,lightgreen) >> {
+  Summary : Footer for create account page
+  Assigned to : Tom Pope
+  Status : Done
+  Type : Story
+  Points : 3.0
+}
+
+class "ENKPS-34" << (T,lightblue) >> {
+  Summary : Create typography
+  Status : Done
+  Type : Task
+}
+
+class "ENKPS-45" << (S,lightgreen) >> {
+  Summary : Create list component 
+  Assigned to : Oliver Oenang
+  Status : In Progress
+  Type : Story
+  Points : 3.0
+}
+
+class "ENKPS-57" << (S,lightgreen) >> {
+  Summary : Account confirmation card
+  Assigned to : Eniko Kosztolanyi
+  Status : In Progress
+  Type : Story
+  Points : 3.0
+}
+
+class "ENKPS-46" << (T,lightblue) >> {
+  Summary : Build icon functionality component
+  Assigned to : Oliver Oenang
+  Status : In Review
+  Type : Task
+  Points : 2.0
+}
+
+class "ENKPS-36" << (S,lightgreen) >> {
+  Summary : Add styling for button sty
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-25" << (T,lightblue) >> {
+  Summary : Create routing for all of account creation user flow
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
+  Type : Task
+  Points : 3.0
+}
+
+class "ENKPS-58" << (S,lightgreen) >> {
+  Summary : Add facebook log ins to create account step
+  Status : To Do
+  Type : Story
+  Points : 8.0
+}
+
+class "ENKPS-26" << (T,lightblue) >> {
+  Summary : Create Card Component 
+  Assigned to : Tom Pope
+  Status : Done
+  Type : Task
+  Points : 3.0
+}
+
+class "ENKPS-59" << (S,lightgreen) >> {
+  Summary : Create radio button component
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
+  Type : Story
+  Points : 3.0
+}
+
+class "ENKPS-27" << (S,lightgreen) >> {
+  Summary : Create Button Component
+  Assigned to : Tom Pope
+  Status : Done
+  Type : Story
+  Points : 3.0
+}
+
+class "ENKPS-8" << (T,lightblue) >> {
+  Summary : SPIKE: Create content model for account creation
+  Status : Done
+  Type : Task
+}
+
+class "ENKPS-9" << (S,lightgreen) >> {
+  Summary : Add google log in to create account step 
+  Status : To Do
+  Type : Story
+  Points : 8.0
+}
+
+
+
+' Links =======
+
+' Parents =======
+"ENKPS-5" <|-- "ENKPS-60"
+"ENKPS-5" <|-- "ENKPS-4"
+"ENKPS-5" <|-- "ENKPS-30"
+"ENKPS-5" <|-- "ENKPS-75"
+"ENKPS-5" <|-- "ENKPS-42"
+"ENKPS-5" <|-- "ENKPS-32"
+"ENKPS-5" <|-- "ENKPS-43"
+"ENKPS-5" <|-- "ENKPS-34"
+"ENKPS-5" <|-- "ENKPS-45"
+"ENKPS-5" <|-- "ENKPS-57"
+"ENKPS-5" <|-- "ENKPS-46"
+"ENKPS-5" <|-- "ENKPS-36"
+"ENKPS-5" <|-- "ENKPS-25"
+"ENKPS-5" <|-- "ENKPS-58"
+"ENKPS-5" <|-- "ENKPS-26"
+"ENKPS-5" <|-- "ENKPS-59"
+"ENKPS-5" <|-- "ENKPS-27"
+"ENKPS-5" <|-- "ENKPS-8"
+"ENKPS-5" <|-- "ENKPS-9"
+
+"ENKPS-30" <.. "ENKPS-28" : Blocks
+
+"ENKPS-30" <.. "ENKPS-76" : Cloners
+
+"ENKPS-30" <.. "ENKPS-59" : Issue split
+
+"ENKPS-57" <.. "ENKPS-42" : Blocks
+
+"ENKPS-26" <.. "ENKPS-28" : Blocks
+
+"ENKPS-27" <.. "ENKPS-28" : Blocks
+
+"ENKPS-27" <.. "ENKPS-36" : Cloners
+
+"ENKPS-9" <.. "ENKPS-58" : Issue split
+
+
+
+@enduml

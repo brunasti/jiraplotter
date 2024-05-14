@@ -1,0 +1,81 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 14 10:46:39 CEST 2024
+
+title Jira Tickets for Link Type Blocks
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(Done) : 4
+(To Do) : 1
+(In Progress) : 1
+----
+Jira Ticket Types
+----
+(Task) : 2
+(Story) : 4
+end legend
+
+
+' Tickets =======
+class "ENKPS-30" << (S,lightgreen) >> {
+  Summary : Create Input Component
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
+  Type : Story
+  Points : 5.0
+}
+
+class "ENKPS-42" << (S,lightgreen) >> {
+  Summary : Assemble create account page
+  Status : To Do
+  Type : Story
+  Points : 5.0
+}
+
+class "ENKPS-57" << (S,lightgreen) >> {
+  Summary : Account confirmation card
+  Assigned to : Eniko Kosztolanyi
+  Status : In Progress
+  Type : Story
+  Points : 3.0
+}
+
+class "ENKPS-26" << (T,lightblue) >> {
+  Summary : Create Card Component 
+  Assigned to : Tom Pope
+  Status : Done
+  Type : Task
+  Points : 3.0
+}
+
+class "ENKPS-27" << (S,lightgreen) >> {
+  Summary : Create Button Component
+  Assigned to : Tom Pope
+  Status : Done
+  Type : Story
+  Points : 3.0
+}
+
+class "ENKPS-28" << (T,lightblue) >> {
+  Summary : Create the theme and configuration
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
+  Type : Task
+  Points : 5.0
+}
+
+
+
+' Links =======
+"ENKPS-30" <.. "ENKPS-28" : Blocks
+"ENKPS-26" <.. "ENKPS-28" : Blocks
+"ENKPS-27" <.. "ENKPS-28" : Blocks
+"ENKPS-57" <.. "ENKPS-42" : Blocks
+
+
+@enduml

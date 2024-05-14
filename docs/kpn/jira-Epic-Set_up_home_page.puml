@@ -1,0 +1,36 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 14 12:13:26 CEST 2024
+
+title Jira Tickets for Epic Set up home page
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 1
+----
+Jira Ticket Types
+----
+(Epic) : 1
+end legend
+
+
+' Tickets =======
+class "ENKPS-39" << (E,green) >> {
+  Summary : Set up home page
+  Status : To Do
+  Type : Epic
+}
+
+
+
+' Links =======
+
+' Parents =======
+
+
+
+@enduml

@@ -1,0 +1,165 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 14 12:13:26 CEST 2024
+
+title Jira Tickets for Epic Dev set up
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 2
+(Done) : 13
+(In Progress) : 1
+----
+Jira Ticket Types
+----
+(Task) : 8
+(Epic) : 1
+(Story) : 7
+end legend
+
+
+' Tickets =======
+class "ENKPS-72" << (S,lightgreen) >> {
+  Summary : Setup I18n integration with nuxt-I18n and Crowdin
+  Assigned to : Johan Spekman
+  Status : In Progress
+  Type : Story
+  Points : 8.0
+}
+
+class "ENKPS-31" << (S,lightgreen) >> {
+  Summary : Setup Email actions on creation of email (SendGrid)
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-20" << (T,lightblue) >> {
+  Summary : Setup Contentful: Create free account and FE integration
+  Assigned to : Juan Solano
+  Status : Done
+  Type : Task
+  Points : 5.0
+}
+
+class "ENKPS-21" << (T,lightblue) >> {
+  Summary : Setup pre-commit hooks and linters
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
+  Type : Task
+  Points : 3.0
+}
+
+class "ENKPS-22" << (T,lightblue) >> {
+  Summary : Build Gitlab runner pipeline
+  Assigned to : Nneka Tielman
+  Status : Done
+  Type : Task
+  Points : 5.0
+}
+
+class "ENKPS-23" << (S,lightgreen) >> {
+  Summary : SPIKE: Research best way of fetching content from contentful: Contentful Client vs GraphQL
+  Assigned to : Juan Solano
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-68" << (T,lightblue) >> {
+  Summary : SPIKE: Determine best course of action for Contentful localisation vs integration of Vue I18n to the project
+  Assigned to : Tom Pope
+  Status : Done
+  Type : Task
+}
+
+class "ENKPS-24" << (S,lightgreen) >> {
+  Summary : SPIKE: Research best hosting provider for project
+  Assigned to : Nneka Tielman
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-69" << (T,lightblue) >> {
+  Summary : SPIKE: Write out BE requirements for a Postgres build
+  Assigned to : Tom Pope
+  Status : Done
+  Type : Task
+}
+
+class "ENKPS-37" << (S,lightgreen) >> {
+  Summary : SPIKE: Compare Twillio and Supabase for email notifications
+  Assigned to : Tom Pope
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-38" << (S,lightgreen) >> {
+  Summary : SPIKE: Research Google & Supabase integration
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-17" << (E,green) >> {
+  Summary : Dev set up
+  Status : To Do
+  Type : Epic
+}
+
+class "ENKPS-28" << (T,lightblue) >> {
+  Summary : Create the theme and configuration
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
+  Type : Task
+  Points : 5.0
+}
+
+class "ENKPS-29" << (S,lightgreen) >> {
+  Summary : SPIKE: What does KPN use for accessibility and what techniques we should adopt
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-18" << (T,lightblue) >> {
+  Summary : Project initialisation
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
+  Type : Task
+  Points : 3.0
+}
+
+class "ENKPS-19" << (T,lightblue) >> {
+  Summary : Setup Supabase integration
+  Assigned to : Juan Solano
+  Status : Done
+  Type : Task
+  Points : 5.0
+}
+
+
+
+' Links =======
+
+' Parents =======
+"ENKPS-17" <|-- "ENKPS-72"
+"ENKPS-17" <|-- "ENKPS-31"
+"ENKPS-17" <|-- "ENKPS-20"
+"ENKPS-17" <|-- "ENKPS-21"
+"ENKPS-17" <|-- "ENKPS-22"
+"ENKPS-17" <|-- "ENKPS-23"
+"ENKPS-17" <|-- "ENKPS-68"
+"ENKPS-17" <|-- "ENKPS-24"
+"ENKPS-17" <|-- "ENKPS-69"
+"ENKPS-17" <|-- "ENKPS-37"
+"ENKPS-17" <|-- "ENKPS-38"
+"ENKPS-17" <|-- "ENKPS-28"
+"ENKPS-17" <|-- "ENKPS-29"
+"ENKPS-17" <|-- "ENKPS-18"
+"ENKPS-17" <|-- "ENKPS-19"
+
+
+
+@enduml

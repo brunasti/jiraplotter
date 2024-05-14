@@ -1,0 +1,51 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 14 10:46:39 CEST 2024
+
+title Jira Tickets for Person Juan Solano
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(Done) : 3
+----
+Jira Ticket Types
+----
+(Task) : 2
+(Story) : 1
+end legend
+
+
+' Tickets =======
+class "ENKPS-19" << (T,lightblue) >> {
+  Summary : Setup Supabase integration
+  Assigned to : Juan Solano
+  Status : Done
+  Type : Task
+  Points : 5.0
+}
+
+class "ENKPS-20" << (T,lightblue) >> {
+  Summary : Setup Contentful: Create free account and FE integration
+  Assigned to : Juan Solano
+  Status : Done
+  Type : Task
+  Points : 5.0
+}
+
+class "ENKPS-23" << (S,lightgreen) >> {
+  Summary : SPIKE: Research best way of fetching content from contentful: Contentful Client vs GraphQL
+  Assigned to : Juan Solano
+  Status : Done
+  Type : Story
+}
+
+
+
+' Links =======
+
+
+@enduml

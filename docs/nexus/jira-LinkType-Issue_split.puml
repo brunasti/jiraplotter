@@ -1,0 +1,95 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 14 12:25:21 CEST 2024
+
+title Jira Tickets for Link Type Issue split
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 9
+----
+Jira Ticket Types
+----
+(Story) : 9
+end legend
+
+
+' Tickets =======
+class "ARS-3" << (S,lightgreen) >> {
+  Summary : Questions Page - Progress Bar Component
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-4" << (S,lightgreen) >> {
+  Summary : Survey Results Page
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-9" << (S,lightgreen) >> {
+  Summary : Results Page - Personalised High-Level Roadmap Component
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-8" << (S,lightgreen) >> {
+  Summary : Results Page - Scoring Graphic Component
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-56" << (S,lightgreen) >> {
+  Summary : Input Fields Validation
+  Status : To Do
+  Type : Story
+  Points : 3.0
+}
+
+class "ARS-36" << (S,lightgreen) >> {
+  Summary : Landing Page - Input fields Component
+  Status : To Do
+  Type : Story
+  Points : 5.0
+}
+
+class "ARS-1" << (S,lightgreen) >> {
+  Summary : Survey Landing Page
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-2" << (S,lightgreen) >> {
+  Summary : Survey Questions Pages
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-33" << (S,lightgreen) >> {
+  Summary : Questions Page - Save Survey Progress
+  Status : To Do
+  Type : Story
+}
+
+
+
+' Links =======
+"ARS-56" <.. "ARS-1" : Issue split
+
+"ARS-3" <.. "ARS-2" : Issue split
+
+"ARS-9" <.. "ARS-4" : Issue split
+
+"ARS-8" <.. "ARS-4" : Issue split
+
+"ARS-36" <.. "ARS-1" : Issue split
+
+"ARS-33" <.. "ARS-2" : Issue split
+
+
+
+@enduml

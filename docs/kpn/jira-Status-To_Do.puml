@@ -1,0 +1,279 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 14 10:46:39 CEST 2024
+
+title Jira Tickets for Status To Do
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 38
+(Done) : 1
+----
+Jira Ticket Types
+----
+(Task) : 6
+(Epic) : 10
+(Bug) : 1
+(Story) : 22
+end legend
+
+
+' Tickets =======
+class "ENKPS-6" << (E,green) >> {
+  Summary : Log in
+  Status : To Do
+  Type : Epic
+}
+
+class "ENKPS-71" << (E,green) >> {
+  Summary : Backend Infrastructure
+  Status : To Do
+  Type : Epic
+}
+
+class "ENKPS-50" << (E,green) >> {
+  Summary : Returning user | Mobile phone product
+  Status : To Do
+  Type : Epic
+}
+
+class "ENKPS-5" << (E,green) >> {
+  Summary : Create Account
+  Status : To Do
+  Type : Epic
+}
+
+class "ENKPS-73" << (S,lightgreen) >> {
+  Summary : Forgot password of the log in page
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-51" << (S,lightgreen) >> {
+  Summary : New user | Mobile phone page overview 
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-74" << (S,lightgreen) >> {
+  Summary : Email notification | New device has logged in
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-30" << (S,lightgreen) >> {
+  Summary : Create Input Component
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
+  Type : Story
+  Points : 5.0
+}
+
+class "ENKPS-52" << (T,lightblue) >> {
+  Summary : New user | Mobile page filters 
+  Status : To Do
+  Type : Task
+}
+
+class "ENKPS-75" << (S,lightgreen) >> {
+  Summary : Add logos to Footer component
+  Status : To Do
+  Type : Story
+  Points : 2.0
+}
+
+class "ENKPS-31" << (S,lightgreen) >> {
+  Summary : Setup Email actions on creation of email (SendGrid)
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-53" << (S,lightgreen) >> {
+  Summary : Improve the credit check step
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-76" << (S,lightgreen) >> {
+  Summary : Content drive error states for input component
+  Assigned to : Eniko Kosztolanyi
+  Status : To Do
+  Type : Story
+  Points : 5.0
+}
+
+class "ENKPS-54" << (T,lightblue) >> {
+  Summary : Email notifications | Confirm account
+  Status : To Do
+  Type : Task
+}
+
+class "ENKPS-1" << (S,lightgreen) >> {
+  Summary : User story template
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-77" << (B,red) >> {
+  Summary : Custom routing does not allow for NuxtLink to route between root and subdomains
+  Status : To Do
+  Type : Bug
+}
+
+class "ENKPS-55" << (E,green) >> {
+  Summary : Email Notifications
+  Status : To Do
+  Type : Epic
+}
+
+class "ENKPS-56" << (T,lightblue) >> {
+  Summary : Email notification | Account created
+  Status : To Do
+  Type : Task
+}
+
+class "ENKPS-12" << (S,lightgreen) >> {
+  Summary : Product navigation
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-58" << (S,lightgreen) >> {
+  Summary : Add facebook log ins to create account step
+  Status : To Do
+  Type : Story
+  Points : 8.0
+}
+
+class "ENKPS-14" << (S,lightgreen) >> {
+  Summary : Add google option to log in step
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-15" << (T,lightblue) >> {
+  Summary : Create content model for log in
+  Status : To Do
+  Type : Task
+}
+
+class "ENKPS-39" << (E,green) >> {
+  Summary : Set up home page
+  Status : To Do
+  Type : Epic
+}
+
+class "ENKPS-17" << (E,green) >> {
+  Summary : Dev set up
+  Status : To Do
+  Type : Epic
+}
+
+class "ENKPS-9" << (S,lightgreen) >> {
+  Summary : Add google log in to create account step 
+  Status : To Do
+  Type : Story
+  Points : 8.0
+}
+
+class "ENKPS-60" << (S,lightgreen) >> {
+  Summary : Complete your details on the account creation step
+  Status : To Do
+  Type : Story
+  Points : 5.0
+}
+
+class "ENKPS-61" << (E,green) >> {
+  Summary : Dashboard Overview
+  Status : To Do
+  Type : Epic
+}
+
+class "ENKPS-62" << (S,lightgreen) >> {
+  Summary : If you're logging in with socials, the user needs to be prompted to add their address via the dashboard
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-40" << (E,green) >> {
+  Summary : Product Layout 
+  Status : To Do
+  Type : Epic
+}
+
+class "ENKPS-63" << (S,lightgreen) >> {
+  Summary : Add the two step verfication to the dashboard step
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-64" << (S,lightgreen) >> {
+  Summary : Log in step QR Code
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-42" << (S,lightgreen) >> {
+  Summary : Assemble create account page
+  Status : To Do
+  Type : Story
+  Points : 5.0
+}
+
+class "ENKPS-65" << (S,lightgreen) >> {
+  Summary : Log in step forgot password
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-66" << (T,lightblue) >> {
+  Summary : Email notification | Forgot password
+  Status : To Do
+  Type : Task
+}
+
+class "ENKPS-44" << (S,lightgreen) >> {
+  Summary : Assemble log in page
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-67" << (T,lightblue) >> {
+  Summary : Email notification password successfully changed
+  Status : To Do
+  Type : Task
+}
+
+class "ENKPS-47" << (S,lightgreen) >> {
+  Summary : Create address checker component 
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-48" << (S,lightgreen) >> {
+  Summary : Add address fields to create account fields step
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-49" << (E,green) >> {
+  Summary : New user | Mobile phone product
+  Status : To Do
+  Type : Epic
+}
+
+
+
+' Links =======
+"ENKPS-76" <.. "ENKPS-30" : Relates
+"ENKPS-52" <.. "ENKPS-51" : Issue split
+"ENKPS-9" <.. "ENKPS-58" : Issue split
+"ENKPS-44" <.. "ENKPS-9" : Issue split
+"ENKPS-44" <.. "ENKPS-64" : Issue split
+
+
+@enduml

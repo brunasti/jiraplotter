@@ -1,0 +1,65 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 14 12:13:26 CEST 2024
+
+title Jira Tickets for Epic Email Notifications
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 5
+----
+Jira Ticket Types
+----
+(Task) : 4
+(Epic) : 1
+end legend
+
+
+' Tickets =======
+class "ENKPS-54" << (T,lightblue) >> {
+  Summary : Email notifications | Confirm account
+  Status : To Do
+  Type : Task
+}
+
+class "ENKPS-55" << (E,green) >> {
+  Summary : Email Notifications
+  Status : To Do
+  Type : Epic
+}
+
+class "ENKPS-66" << (T,lightblue) >> {
+  Summary : Email notification | Forgot password
+  Status : To Do
+  Type : Task
+}
+
+class "ENKPS-67" << (T,lightblue) >> {
+  Summary : Email notification password successfully changed
+  Status : To Do
+  Type : Task
+}
+
+class "ENKPS-56" << (T,lightblue) >> {
+  Summary : Email notification | Account created
+  Status : To Do
+  Type : Task
+}
+
+
+
+' Links =======
+
+' Parents =======
+"ENKPS-55" <|-- "ENKPS-54"
+"ENKPS-55" <|-- "ENKPS-66"
+"ENKPS-55" <|-- "ENKPS-67"
+"ENKPS-55" <|-- "ENKPS-56"
+
+
+
+@enduml

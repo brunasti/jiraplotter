@@ -1,0 +1,278 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 14 10:46:39 CEST 2024
+
+title Jira Tickets for Status Done
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(Done) : 34
+(To Do) : 1
+----
+Jira Ticket Types
+----
+(Task) : 12
+(Epic) : 3
+(Story) : 20
+end legend
+
+
+' Tickets =======
+class "ENKPS-7" << (E,green) >> {
+  Summary : Purchase product (First time)
+  Status : Done
+  Type : Epic
+}
+
+class "ENKPS-4" << (S,lightgreen) >> {
+  Summary : Create KPN Account
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-2" << (S,lightgreen) >> {
+  Summary : Purchase KPN Internet product (First time)
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-30" << (S,lightgreen) >> {
+  Summary : Create Input Component
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
+  Type : Story
+  Points : 5.0
+}
+
+class "ENKPS-3" << (S,lightgreen) >> {
+  Summary : Log in to KPN account 
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-76" << (S,lightgreen) >> {
+  Summary : Content drive error states for input component
+  Assigned to : Eniko Kosztolanyi
+  Status : To Do
+  Type : Story
+  Points : 5.0
+}
+
+class "ENKPS-32" << (S,lightgreen) >> {
+  Summary : Setup Users table in Supabase and policies that allow read and write access to authenticated users
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-10" << (E,green) >> {
+  Summary : Purchase product (Returning customer)
+  Status : Done
+  Type : Epic
+}
+
+class "ENKPS-33" << (S,lightgreen) >> {
+  Summary : Setup Authentication w. Google in Supabase
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-11" << (S,lightgreen) >> {
+  Summary : Purchase KPN Internet product (Returning customer)
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-34" << (T,lightblue) >> {
+  Summary : Create typography
+  Status : Done
+  Type : Task
+}
+
+class "ENKPS-35" << (S,lightgreen) >> {
+  Summary : SPIKE: Analyse all different typography types across KPN
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-13" << (S,lightgreen) >> {
+  Summary : Email notification | Forgot password
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-36" << (S,lightgreen) >> {
+  Summary : Add styling for button sty
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-59" << (S,lightgreen) >> {
+  Summary : Create radio button component
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
+  Type : Story
+  Points : 3.0
+}
+
+class "ENKPS-37" << (S,lightgreen) >> {
+  Summary : SPIKE: Compare Twillio and Supabase for email notifications
+  Assigned to : Tom Pope
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-38" << (S,lightgreen) >> {
+  Summary : SPIKE: Research Google & Supabase integration
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-16" << (S,lightgreen) >> {
+  Summary : Database migration
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-18" << (T,lightblue) >> {
+  Summary : Project initialisation
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
+  Type : Task
+  Points : 3.0
+}
+
+class "ENKPS-19" << (T,lightblue) >> {
+  Summary : Setup Supabase integration
+  Assigned to : Juan Solano
+  Status : Done
+  Type : Task
+  Points : 5.0
+}
+
+class "ENKPS-8" << (T,lightblue) >> {
+  Summary : SPIKE: Create content model for account creation
+  Status : Done
+  Type : Task
+}
+
+class "ENKPS-41" << (E,green) >> {
+  Summary : Product footer
+  Status : Done
+  Type : Epic
+}
+
+class "ENKPS-20" << (T,lightblue) >> {
+  Summary : Setup Contentful: Create free account and FE integration
+  Assigned to : Juan Solano
+  Status : Done
+  Type : Task
+  Points : 5.0
+}
+
+class "ENKPS-21" << (T,lightblue) >> {
+  Summary : Setup pre-commit hooks and linters
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
+  Type : Task
+  Points : 3.0
+}
+
+class "ENKPS-43" << (S,lightgreen) >> {
+  Summary : Footer for create account page
+  Assigned to : Tom Pope
+  Status : Done
+  Type : Story
+  Points : 3.0
+}
+
+class "ENKPS-22" << (T,lightblue) >> {
+  Summary : Build Gitlab runner pipeline
+  Assigned to : Nneka Tielman
+  Status : Done
+  Type : Task
+  Points : 5.0
+}
+
+class "ENKPS-23" << (S,lightgreen) >> {
+  Summary : SPIKE: Research best way of fetching content from contentful: Contentful Client vs GraphQL
+  Assigned to : Juan Solano
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-68" << (T,lightblue) >> {
+  Summary : SPIKE: Determine best course of action for Contentful localisation vs integration of Vue I18n to the project
+  Assigned to : Tom Pope
+  Status : Done
+  Type : Task
+}
+
+class "ENKPS-24" << (S,lightgreen) >> {
+  Summary : SPIKE: Research best hosting provider for project
+  Assigned to : Nneka Tielman
+  Status : Done
+  Type : Story
+}
+
+class "ENKPS-69" << (T,lightblue) >> {
+  Summary : SPIKE: Write out BE requirements for a Postgres build
+  Assigned to : Tom Pope
+  Status : Done
+  Type : Task
+}
+
+class "ENKPS-25" << (T,lightblue) >> {
+  Summary : Create routing for all of account creation user flow
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
+  Type : Task
+  Points : 3.0
+}
+
+class "ENKPS-26" << (T,lightblue) >> {
+  Summary : Create Card Component 
+  Assigned to : Tom Pope
+  Status : Done
+  Type : Task
+  Points : 3.0
+}
+
+class "ENKPS-27" << (S,lightgreen) >> {
+  Summary : Create Button Component
+  Assigned to : Tom Pope
+  Status : Done
+  Type : Story
+  Points : 3.0
+}
+
+class "ENKPS-28" << (T,lightblue) >> {
+  Summary : Create the theme and configuration
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
+  Type : Task
+  Points : 5.0
+}
+
+class "ENKPS-29" << (S,lightgreen) >> {
+  Summary : SPIKE: What does KPN use for accessibility and what techniques we should adopt
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
+  Type : Story
+}
+
+
+
+' Links =======
+"ENKPS-30" <.. "ENKPS-28" : Blocks
+"ENKPS-30" <.. "ENKPS-76" : Cloners
+"ENKPS-30" <.. "ENKPS-59" : Issue split
+"ENKPS-26" <.. "ENKPS-28" : Blocks
+"ENKPS-27" <.. "ENKPS-28" : Blocks
+"ENKPS-27" <.. "ENKPS-36" : Cloners
+
+
+@enduml

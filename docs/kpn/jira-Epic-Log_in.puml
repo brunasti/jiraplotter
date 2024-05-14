@@ -1,0 +1,84 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 14 12:13:26 CEST 2024
+
+title Jira Tickets for Epic Log in
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 7
+----
+Jira Ticket Types
+----
+(Task) : 1
+(Epic) : 1
+(Story) : 5
+end legend
+
+
+' Tickets =======
+class "ENKPS-6" << (E,green) >> {
+  Summary : Log in
+  Status : To Do
+  Type : Epic
+}
+
+class "ENKPS-73" << (S,lightgreen) >> {
+  Summary : Forgot password of the log in page
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-64" << (S,lightgreen) >> {
+  Summary : Log in step QR Code
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-65" << (S,lightgreen) >> {
+  Summary : Log in step forgot password
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-44" << (S,lightgreen) >> {
+  Summary : Assemble log in page
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-14" << (S,lightgreen) >> {
+  Summary : Add google option to log in step
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-15" << (T,lightblue) >> {
+  Summary : Create content model for log in
+  Status : To Do
+  Type : Task
+}
+
+
+
+' Links =======
+
+' Parents =======
+"ENKPS-6" <|-- "ENKPS-73"
+"ENKPS-6" <|-- "ENKPS-64"
+"ENKPS-6" <|-- "ENKPS-65"
+"ENKPS-6" <|-- "ENKPS-44"
+"ENKPS-6" <|-- "ENKPS-14"
+"ENKPS-6" <|-- "ENKPS-15"
+
+"ENKPS-44" <.. "ENKPS-9" : Issue split
+
+"ENKPS-44" <.. "ENKPS-64" : Issue split
+
+
+
+@enduml

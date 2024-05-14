@@ -1,0 +1,41 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 14 12:25:21 CEST 2024
+
+title Jira Tickets for Person Pablo Uhalte
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 2
+----
+Jira Ticket Types
+----
+(Story) : 2
+end legend
+
+
+' Tickets =======
+class "ARS-6" << (S,lightgreen) >> {
+  Summary : CP Dashboard for results analysis
+  Assigned to : Pablo Uhalte
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-7" << (S,lightgreen) >> {
+  Summary : CP AI-Powered Personalised Roadmap Component
+  Assigned to : Pablo Uhalte
+  Status : To Do
+  Type : Story
+}
+
+
+
+' Links =======
+
+
+@enduml

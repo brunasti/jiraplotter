@@ -1,0 +1,45 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 14 12:25:21 CEST 2024
+
+title Jira Tickets for Link Type Relates
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 1
+(IN REVIEW (pls tag reviewer)) : 1
+----
+Jira Ticket Types
+----
+(Story) : 2
+end legend
+
+
+' Tickets =======
+class "ARS-23" << (S,lightgreen) >> {
+  Summary : Model BE DB
+  Assigned to : PAOLO BRUNASTI
+  Status : IN REVIEW (pls tag reviewer)
+  Type : Story
+  Points : 5.0
+}
+
+class "ARS-47" << (S,lightgreen) >> {
+  Summary : Create View for results of the survey
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Story
+}
+
+
+
+' Links =======
+"ARS-47" <.. "ARS-23" : Relates
+
+
+
+@enduml

@@ -1,0 +1,88 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 14 10:46:39 CEST 2024
+
+title Jira Tickets for Link Type Issue split
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 6
+(Done) : 2
+----
+Jira Ticket Types
+----
+(Task) : 1
+(Story) : 7
+end legend
+
+
+' Tickets =======
+class "ENKPS-51" << (S,lightgreen) >> {
+  Summary : New user | Mobile phone page overview 
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-30" << (S,lightgreen) >> {
+  Summary : Create Input Component
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
+  Type : Story
+  Points : 5.0
+}
+
+class "ENKPS-52" << (T,lightblue) >> {
+  Summary : New user | Mobile page filters 
+  Status : To Do
+  Type : Task
+}
+
+class "ENKPS-64" << (S,lightgreen) >> {
+  Summary : Log in step QR Code
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-44" << (S,lightgreen) >> {
+  Summary : Assemble log in page
+  Status : To Do
+  Type : Story
+}
+
+class "ENKPS-58" << (S,lightgreen) >> {
+  Summary : Add facebook log ins to create account step
+  Status : To Do
+  Type : Story
+  Points : 8.0
+}
+
+class "ENKPS-59" << (S,lightgreen) >> {
+  Summary : Create radio button component
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
+  Type : Story
+  Points : 3.0
+}
+
+class "ENKPS-9" << (S,lightgreen) >> {
+  Summary : Add google log in to create account step 
+  Status : To Do
+  Type : Story
+  Points : 8.0
+}
+
+
+
+' Links =======
+"ENKPS-30" <.. "ENKPS-59" : Issue split
+"ENKPS-52" <.. "ENKPS-51" : Issue split
+"ENKPS-9" <.. "ENKPS-58" : Issue split
+"ENKPS-44" <.. "ENKPS-9" : Issue split
+"ENKPS-44" <.. "ENKPS-64" : Issue split
+
+
+@enduml

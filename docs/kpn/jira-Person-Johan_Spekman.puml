@@ -1,0 +1,35 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 14 10:46:39 CEST 2024
+
+title Jira Tickets for Person Johan Spekman
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(In Progress) : 1
+----
+Jira Ticket Types
+----
+(Story) : 1
+end legend
+
+
+' Tickets =======
+class "ENKPS-72" << (S,lightgreen) >> {
+  Summary : Setup I18n integration with nuxt-I18n and Crowdin
+  Assigned to : Johan Spekman
+  Status : In Progress
+  Type : Story
+  Points : 8.0
+}
+
+
+
+' Links =======
+
+
+@enduml

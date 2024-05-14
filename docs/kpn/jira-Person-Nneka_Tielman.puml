@@ -1,0 +1,43 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 14 10:46:39 CEST 2024
+
+title Jira Tickets for Person Nneka Tielman
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(Done) : 2
+----
+Jira Ticket Types
+----
+(Task) : 1
+(Story) : 1
+end legend
+
+
+' Tickets =======
+class "ENKPS-22" << (T,lightblue) >> {
+  Summary : Build Gitlab runner pipeline
+  Assigned to : Nneka Tielman
+  Status : Done
+  Type : Task
+  Points : 5.0
+}
+
+class "ENKPS-24" << (S,lightgreen) >> {
+  Summary : SPIKE: Research best hosting provider for project
+  Assigned to : Nneka Tielman
+  Status : Done
+  Type : Story
+}
+
+
+
+' Links =======
+
+
+@enduml

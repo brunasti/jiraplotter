@@ -1,0 +1,209 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 14 12:25:21 CEST 2024
+
+title Jira Tickets for Person PAOLO BRUNASTI
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(Done) : 6
+(To Do) : 14
+(IN REVIEW (pls tag reviewer)) : 2
+(In Progress) : 1
+----
+Jira Ticket Types
+----
+(Subtask) : 8
+(Epic) : 2
+(Story) : 13
+end legend
+
+
+' Tickets =======
+class "ARS-38" << (S,lightgreen) >> {
+  Summary : Generate Gitlab Pipeline
+  Assigned to : Juan Solano
+  Status : Done
+  Type : Story
+  Points : 3.0
+}
+
+class "ARS-39" << (S,lightblue) >> {
+  Summary : Investigate HubSpot integration
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-18" << (S,lightgreen) >> {
+  Summary : Create Repository
+  Assigned to : PAOLO BRUNASTI
+  Status : Done
+  Type : Story
+  Points : 3.0
+}
+
+class "ARS-5" << (S,lightgreen) >> {
+  Summary : Email with Results as a pdf
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-50" << (S,lightblue) >> {
+  Summary : Update User structure with info from Figma
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-51" << (S,lightblue) >> {
+  Summary : Create structure for the storage of the different answers for each dimension depending on the stage
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-40" << (S,lightgreen) >> {
+  Summary : AWS Environment
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Story
+  Points : 5.0
+}
+
+class "ARS-12" << (S,lightblue) >> {
+  Summary : Send email to customer with the PDF as attachment
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-23" << (S,lightgreen) >> {
+  Summary : Model BE DB
+  Assigned to : PAOLO BRUNASTI
+  Status : IN REVIEW (pls tag reviewer)
+  Type : Story
+  Points : 5.0
+}
+
+class "ARS-45" << (S,lightgreen) >> {
+  Summary : Review Gitlab Pipeline
+  Assigned to : PAOLO BRUNASTI
+  Status : Done
+  Type : Story
+}
+
+class "ARS-13" << (S,lightblue) >> {
+  Summary : Activation of the process of generating and sending the email
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-24" << (S,lightgreen) >> {
+  Summary : DB Connection from Python
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Story
+  Points : 3.0
+}
+
+class "ARS-47" << (S,lightgreen) >> {
+  Summary : Create View for results of the survey
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-37" << (S,lightgreen) >> {
+  Summary : Create Eslint modules
+  Assigned to : Juan Solano
+  Status : Done
+  Type : Story
+  Points : 3.0
+}
+
+class "ARS-52" << (S,lightgreen) >> {
+  Summary : Prototype BE architecture
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Story
+  Points : 5.0
+}
+
+class "ARS-30" << (S,lightblue) >> {
+  Summary : FE Repository
+  Assigned to : PAOLO BRUNASTI
+  Status : IN REVIEW (pls tag reviewer)
+  Type : Subtask
+}
+
+class "ARS-20" << (E,green) >> {
+  Summary : Back End for Survey
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Epic
+}
+
+class "ARS-10" << (S,lightgreen) >> {
+  Summary : Customised Survey Landing Page URL
+  Assigned to : PAOLO BRUNASTI
+  Status : In Progress
+  Type : Story
+}
+
+class "ARS-21" << (S,lightblue) >> {
+  Summary : Create GitHub repository for BE
+  Assigned to : PAOLO BRUNASTI
+  Status : Done
+  Type : Subtask
+}
+
+class "ARS-32" << (E,green) >> {
+  Summary : Infrastructure
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Epic
+}
+
+class "ARS-43" << (S,lightgreen) >> {
+  Summary : Survey Hubspot integration
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-11" << (S,lightblue) >> {
+  Summary : Generate the PDF with the report for a single survey response
+  Assigned to : PAOLO BRUNASTI
+  Status : To Do
+  Type : Subtask
+}
+
+class "ARS-22" << (S,lightgreen) >> {
+  Summary : Define BE architecture
+  Assigned to : PAOLO BRUNASTI
+  Status : Done
+  Type : Story
+  Points : 5.0
+}
+
+
+
+' Links =======
+"ARS-18" <.. "ARS-37" : Polaris issue link
+
+"ARS-18" <.. "ARS-38" : Polaris issue link
+
+"ARS-22" <.. "ARS-52" : Cloners
+
+"ARS-47" <.. "ARS-23" : Relates
+
+
+
+@enduml

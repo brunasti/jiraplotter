@@ -1,0 +1,66 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 14 10:46:39 CEST 2024
+
+title Jira Tickets for Status In Progress
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 1
+(In Progress) : 4
+----
+Jira Ticket Types
+----
+(Story) : 5
+end legend
+
+
+' Tickets =======
+class "ENKPS-70" << (S,lightgreen) >> {
+  Summary : BE Infrastructure
+  Status : In Progress
+  Type : Story
+}
+
+class "ENKPS-72" << (S,lightgreen) >> {
+  Summary : Setup I18n integration with nuxt-I18n and Crowdin
+  Assigned to : Johan Spekman
+  Status : In Progress
+  Type : Story
+  Points : 8.0
+}
+
+class "ENKPS-42" << (S,lightgreen) >> {
+  Summary : Assemble create account page
+  Status : To Do
+  Type : Story
+  Points : 5.0
+}
+
+class "ENKPS-45" << (S,lightgreen) >> {
+  Summary : Create list component 
+  Assigned to : Oliver Oenang
+  Status : In Progress
+  Type : Story
+  Points : 3.0
+}
+
+class "ENKPS-57" << (S,lightgreen) >> {
+  Summary : Account confirmation card
+  Assigned to : Eniko Kosztolanyi
+  Status : In Progress
+  Type : Story
+  Points : 3.0
+}
+
+
+
+' Links =======
+"ENKPS-57" <.. "ENKPS-42" : Blocks
+
+
+@enduml

@@ -1,0 +1,1231 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers,Watchers Id,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Cloners),Outward issue link (Cloners),Inward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Inward issue link (Polaris datapoint issue link),Inward issue link (Polaris datapoint issue link),Inward issue link (Polaris datapoint issue link),Outward issue link (Polaris datapoint issue link),Outward issue link (Polaris datapoint issue link),Inward issue link (Polaris issue link),Inward issue link (Polaris issue link),Inward issue link (Polaris issue link),Inward issue link (Polaris issue link),Outward issue link (Polaris issue link),Custom field (AIS - Acceptance Criteria),Custom field (AND Theme),Custom field (ANDi Contact(s)),Custom field (ANDi Level),Custom field (ANDi Role & Level),Custom field (Ability to reproduce),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria ),Custom field (Acceptance Criteria ),Custom field (Acceptance crietera),Custom field (Ada End Date),Custom field (Affected services),Custom field (Assumptions ),Custom field (Baseline for primary metric),Custom field (Bid Documentation Link),Custom field (Bid Stage),Custom field (Billable),Custom field (Blocked reason),Custom field (Buddy),Custom field (Business Value),Custom field (Campus Start Date),Custom field (Category),Custom field (Change completion date),Custom field (Change reason),Custom field (Change risk),Custom field (Change start date),Custom field (Change type),Custom field (Checklist Completed),Custom field (Checklist Content YAML),Custom field (Checklist Progress),Custom field (Checklist Progress %),Custom field (Checklist Text),Custom field (Checklist Text (view-only)),Custom field (Club),Custom field (Club Vision),Custom field (Club Vision),Custom field (Comments),Custom field (Commercials),Custom field (Commericals),Custom field (Community),Custom field (Community),Custom field (Company size),Custom field (Confidence Level Score),Custom field (Content type),Custom field (Create wireframe),Custom field (Deadline),Custom field (Deadline),Custom field (Definition of Done),Custom field (Definition of Done),Custom field (Definition of Done (DOD)),Custom field (Definition of Done (DOD)),Custom field (Definition of Done (DOD)),Custom field (Definition of Ready),Custom field (Delivery progress),Custom field (Delivery status),Custom field (Department),Custom field (Dependencies),Custom field (Dependencies),Custom field (Dependencies),Custom field (Dependent Story),Custom field (Design),Custom field (Designs),Custom field (Designs ready),Custom field (Desired result),Custom field (Desktop Design),Custom field (Development),Custom field (DoD),Custom field (DoD),Custom field (DoR),Custom field (DoR),Custom field (Due by date),Custom field (Due by date),Custom field (Effort),Custom field (Email),Custom field (End date),Custom field (Engagement End Date),Custom field (Engagement Start Date),Custom field (Epic Color),Custom field (Epic Name),Custom field (Epic Status),Custom field (Estimated Time),Custom field (Estimation),Custom field (Exp. Primary KPI),Custom field (Experiment Name),Custom field (Experiment Name/Key),Custom field (Experiment Split),Custom field (GSDT: Contentful Information),Custom field (GSDT: User Story),Custom field (Gladys Lens - ANDi),Custom field (Gladys Lens - ANDi),Custom field (Gladys Lens - Client),Custom field (Gladys Lens - Client),Custom field (Gladys Lens - Client),Custom field (Gladys Lens - Club),Custom field (Gladys Lens - Club),Custom field (Gladys Lens - Commercials),Custom field (Gladys Lens - Commercials),Custom field (Goal impact),Custom field (Guild),Custom field (Guild),Custom field (Guild),Custom field (Guild),Custom field (Guild),Custom field (Hiring department),Custom field (Hiring manager),Custom field (Hypothesis / Objective),Custom field (I would like to),Custom field (ILab Zone),Custom field (Idea archived),Custom field (Idea archived on),Custom field (Impact),Custom field (Impact score),Custom field (Impact vs. effort),Custom field (Insights),Custom field (Insights impact),Custom field (Interview Date),Custom field (Issue color),Custom field (Job role),Custom field (KM - Controls + Support),Custom field (KM - How?),Custom field (KM - Inputs + Pre-conditions),Custom field (KM - Outputs + Post-conditions),Custom field (KM - Role - Accountabilities),Custom field (KM - Role - Experience),Custom field (KM - Role - Responsibilities),Custom field (KM - Role - Skills),Custom field (KM - Roles + Resources),Custom field (KM - What?),Custom field (KM - Why?),Custom field (KX - Description),Custom field (Last Worked on ),Custom field (Learning & Challenges),Custom field (Learning & Challenges),Custom field (Learning & Challenges),Custom field (Learning & Challenges),Custom field (Learning & Challenges),Custom field (Learning & Challenges),Custom field (Learning Goal),Custom field (Learnings & Challenges),Custom field (Link to figma),Custom field (Link to storyboard/supporting media),Custom field (Linked issues),Custom field (Links to Designs),Custom field (Location),Custom field (Locked forms),Custom field (Magic Story Points),Custom field (Mobile Design),Custom field (Murray Client),Custom field (Murray Client),Custom field (Murray Squad),Custom field (Murray Squad Lead),Custom field (Newton Client),Custom field (Newton Squad),Custom field (Next Engagement Start Date),Custom field (Number of unique visitors),Custom field (OKR Related to),Custom field (Open forms),Custom field (Opportunity value),Custom field (Persona),Custom field (Phone number),Custom field (Product Affected),Custom field (Product Value Score),Custom field (Product area),Custom field (Project Name),Custom field (Project overview key),Custom field (Project overview status),Custom field (Project start),Custom field (Project target),Custom field (Projected MDE),Custom field (Proposed ANDis),Custom field (Public description),Custom field (Publication date),Custom field (Questions ),Custom field (Rank),Custom field (Reference),Custom field (Release Version),Custom field (Release Version),Custom field (Release Version),Custom field (Release Version),Custom field (Request For Change),Custom field (Request For Change),Custom field (Request Type),Custom field (Request language),Custom field (Request participants),Custom field (Required sample size),Custom field (Resolution),Custom field (Resolution),Custom field (Response Length),Custom field (RnD),Custom field (Roadmap),Custom field (Role Type),Custom field (Run time),Satisfaction rating,Custom field (Satisfaction date),Custom field (Score),Custom field (Session Date),Custom field (Short description),Custom field (So that),Custom field (Spec ready),Custom field (Sponsor),Sprint,Custom field (Squad),Custom field (Squad),Custom field (Squad Lead),Custom field (Start date),Custom field (Start date),Custom field (Steps to Replicate),Custom field (Story Points),Custom field (Story Points),Custom field (Story Points),Custom field (Story Who),Custom field (Story point estimate),Custom field (Story point estimate),Custom field (Story point(s)),Custom field (Story points),Custom field (Structure),Custom field (Submitted forms),Custom field (Subproject),Custom field (Subproject),Custom field (Supporting Data),Custom field (T-Shirt Size),Custom field (T-Shirt Size),Custom field (T-Shirt Size),Custom field (T-shirt Size),Custom field (T-shirt Size Estimation),Custom field (TD Due By),Custom field (TShirt Size),Custom field (Target end),Custom field (Target start),Custom field (Task),Custom field (Task Type),Custom field (Tasks),Custom field (Team),Custom field (Team),Custom field (Tee-shirt sizing),Custom field (Template),Custom field (Test),Custom field (Theme),Custom field (Timebox),Custom field (Total forms),Custom field (Updates),Custom field (Upskilling),Custom field (Upskilling),Custom field (User Story),Custom field (Value),Custom field (Value to SH),Custom field (Vulnerability),Custom field (Website),Custom field ([CHART] Date of First Response),Custom field ([CHART] Time in Status),Custom field (uuid),Comment,Parent,Parent summary,Status Category,Status Category Changed
+Typeform Hubspot integration,ARS-44,71988,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,07/May/24 3:40 PM,07/May/24 4:05 PM,08/May/24 9:00 AM,,,0,,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044ki:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+Out of scope:
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* some info on the integration with HubSpot [https://www.typeform.com/help/a/hub-spot-integration-installation-and-setup-360029578071/|https://www.typeform.com/help/a/hub-spot-integration-installation-and-setup-360029578071/|smart-link]
+{panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,07/May/24 3:40 PM
+Survey Hubspot integration,ARS-43,71987,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,07/May/24 3:39 PM,08/May/24 9:00 AM,08/May/24 9:01 AM,,,0,,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044kg:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+Out of scope:
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* overview of the similar project Pete Davies mentioned that they are working with a 3rd party (Articulate) and includes hubspot integration - [https://hubs.ly/Q02sJtj30|https://hubs.ly/Q02sJtj30]
+{panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,07/May/24 3:39 PM
+Results Page - Personalised Thank you message,ARS-42,71976,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,07/May/24 1:48 PM,07/May/24 2:47 PM,08/May/24 9:01 AM,,,0,The Personalized Thank You Message on Results Page feature enhances user satisfaction by dynamically incorporating the participant's first name into the thank you message displayed on the results page. This customization adds a personal touch to the survey experience and strengthens the connection between the participant and the survey initiative.,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,ARS-4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044kb:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*survey user
+
+*I want…*the thank you message on the results page to address me by my first name
+
+*So that…*I feel acknowledged and appreciated for my participation in the survey
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+*In scope:*
+
+# Retrieval of the participant's first name input from the landing page.
+# Integration of the participant's first name into the thank you message displayed on the results page.
+# Development of logic to dynamically insert the participant's first name into the thank you message.
+# Testing to ensure accurate rendering of personalised thank you messages based on participant input.
+
+
+
+*Out of scope:*
+
+* Personalisation of the thank you message beyond the participant's first name.
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
+*Given* I input my first name on the landing page, *When* I complete the survey, *Then* I should observe my first name dynamically inserted into the thank you message on the results page.
+
+*Given* I input a different first name on the landing page, *When* I finish the survey, *Then* I should see the updated first name reflected in the thank you message on the results page.
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+{panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,07/May/24 1:48 PM
+Questions Page - Personalised with company name,ARS-41,71975,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,07/May/24 1:38 PM,07/May/24 1:47 PM,08/May/24 9:01 AM,,,0,The Personalized Survey Questions with Company Name feature enhances user engagement by dynamically replacing generic company references in survey questions with the name provided by the participant on the landing page. This customization creates a more personalized experience for survey participants and increases their sense of relevance and involvement in the survey process.,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,ARS-2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044js:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*survey user
+
+*I want…*the survey questions to be personalised with the name of my company
+
+*So that…*I feel more engaged and connected to the survey content.
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+*In scope:*
+
+# Identification of survey questions containing generic company references (e.g., ""the company,"" ""your company,"" etc.).
+# Development of logic to dynamically replace generic company references with the user's company name.
+# Integration of participant-provided company name from the landing page input field into survey question text.
+# Testing to ensure accurate replacement of company names and proper rendering of personalised survey questions.
+
+
+
+*Out of scope:*
+
+* Customization of survey questions beyond the scope of company name replacement
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given* I input my company name on the landing page, *When* I proceed to the survey questions, *Then* I should observe my company name dynamically inserted into relevant survey question text.
+
+*Given* I enter a different company name on the landing page, *When* I navigate to the survey questions, *Then* I should see the updated company name reflected in the survey question text.
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+{panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,07/May/24 1:38 PM
+AWS Environment,ARS-40,71941,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 4:43 PM,06/May/24 4:43 PM,07/May/24 10:43 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i04538:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+* 
+
+Out of scope:
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71911,Infrastructure,To Do,06/May/24 4:43 PM
+Investigate HubSpot integration,ARS-39,71940,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 4:40 PM,06/May/24 4:40 PM,06/May/24 4:40 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i04530:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71834,Email with Results as a pdf,To Do,06/May/24 4:40 PM
+Generate Gitlab Pipeline,ARS-38,71939,Story,IN REVIEW (pls tag reviewer),ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,06/May/24 4:04 PM,07/May/24 2:44 PM,07/May/24 4:16 PM,,,0,,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,ARS-28,,,,,,,,,,,,,ARS-18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j0:9,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+* 
+
+Out of scope:
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,06/May/24 4:06 PM
+Create Eslint modules,ARS-37,71938,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,06/May/24 4:04 PM,07/May/24 2:45 PM,08/May/24 9:01 AM,07/May/24 1:31 PM,,0,,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,,,,,,,,ARS-18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j0:i,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+* 
+
+Out of scope:
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13260_*:*_1_*:*_74683437_*|*_13261_*:*_1_*:*_0_*|*_13262_*:*_1_*:*_2401253_*|*_13259_*:*_1_*:*_111451,,07/May/24 12:51 PM;633409fea84c7f79c38738eb;[~accountid:6294f4fd1a2bdf0070942111] This ticket is ready for review 🙂 ,,,Done,07/May/24 1:31 PM
+Landing Page - Input fields Component,ARS-36,71937,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,06/May/24 3:54 PM,06/May/24 4:05 PM,08/May/24 9:01 AM,,,0,"Implementing input fields for user data entry is essential for collecting relevant information from survey participants. By including fields we gather valuable data for analysis and engagement purposes, ultimately enhancing the effectiveness of the survey.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,ARS-1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j4:i,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*possible prospect client
+
+*I want…*to be able to enter my data into input fields on the AI Readiness Survey Landing Page,
+
+*So that…*I can provide the necessary information for survey participation
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+*In scope:*
+
+# Implementation of input fields for users to enter their data, all fields are required:
+#* First name
+#* Last name
+#* Job title
+#* Email address - validate email
+#* Company name
+#* Sector - dropdown (list to be given)
+#* Size - dropdown (list to be given)
+# Validation of email address input to ensure format compliance.
+# Provision of dropdown menus for sector and size inputs, with predefined lists provided for selection.
+
+
+
+*Out of scope:*
+
+* Advanced data validation beyond email address format checking.
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
+*Given* I access the AI Readiness Survey Landing Page, *When* I view the data entry section, *Then* I should see input fields for first name, last name, job title, email address, company name, sector, and size.
+
+*Given* I enter my email address into the designated field, *When* I submit the form, *Then* I should receive an error message if the email address format is invalid.
+
+*Given* I select a value from the dropdown menu, *When* I submit the form, *Then* I should see the selected value included in the submitted data.
+
+*Given* I submit the form without entering all required fields, *When* I attempt to proceed, *Then* I should receive error messages prompting me to complete all required fields.
+
+*Given* I enter valid data into all required fields, *When* I submit the form, *Then* I should see a confirmation message indicating successful submission of my data.
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+{panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,06/May/24 3:54 PM
+All Survey Pages - Responsive Design,ARS-35,71936,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,06/May/24 3:46 PM,06/May/24 3:54 PM,08/May/24 9:01 AM,,,0,"The Ensure Responsive Design for Survey Pages feature ensures that all AI Readiness Survey pages, including the landing page, questions page, and results page, are optimized for responsiveness across different devices. This involves adapting the layout, content, and functionality to provide a consistent and user-friendly experience on devices of various screen sizes and resolutions.
+
+By ensuring compatibility with devices such as iPads and mobile phones, we improve user engagement and satisfaction, ultimately contributing to the success of the AI Readiness Survey initiative.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,ARS-1,ARS-2,ARS-4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j3:v,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*user of the survey
+
+*I want…*the Survey pages (landing, questions, and results) to be responsive and compatible with various devices 
+
+*So that…*I can access and complete the survey seamlessly on any device
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+*In scope:*
+
+# Implementation of responsive design principles to adapt the layout and content of survey pages for optimal display on devices of varying screen sizes.
+# Adjustment of page elements, such as text, images, and buttons, to maintain readability and usability across different devices.
+# Testing of survey pages on different devices and screen resolutions to ensure consistent performance and functionality.
+# Incorporation of navigation enhancements, such as touch-friendly controls and menu adjustments, for improved usability on mobile devices.
+
+
+
+*Out of scope:*
+
+* Redesigning the entire survey interface or making significant changes to the page layouts beyond responsiveness.
+* Customization options specific to individual device types
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
+*Given* I access the Survey pages on an iPad or mobile phone, 
+
+*When* I view the landing page, questions page, and results page, 
+
+*Then* I should observe that the layout and content adapt smoothly to the device screen size without distortion or overlap.
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+{panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,06/May/24 3:46 PM
+All Survey Pages - Create Theme,ARS-34,71935,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,06/May/24 3:28 PM,06/May/24 3:54 PM,08/May/24 9:01 AM,,,0,"Aligning the survey pages with our company's design system reinforces our brand identity and creates a seamless user experience. By adhering to established design guidelines, we enhance user trust, recognition, and engagement with the AI Readiness Survey, ultimately contributing to the success of our initiative.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j3:r,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*user of the survey
+
+*I want…*the AI Readiness Survey Pages to adhere to AND's design system
+
+*So that…*I experience visual consistency and alignment with our brand identity throughout the surve
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+*In scope:*
+
+# Application of the company's color scheme, including primary, secondary, and accent colors, to the landing page interface.
+# Implementation of typography guidelines, specifying font families, weights, and sizes for text elements throughout the page.
+# Adherence to layout principles, such as spacing, grid systems, and element proportions, to ensure visual consistency and hierarchy.
+# Integration of other visual elements, such as icons, imagery, and buttons, following the company's design system guidelines.
+
+
+
+*Out of scope:*
+
+* Creation of a new design system
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
+*Given* I access the AI Readiness Survey Pages, 
+
+*When* I view the page interface, 
+
+*Then* I should see the company's design system applied consistently throughout the page elements.
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+{panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,06/May/24 3:28 PM
+Questions Page - Save Survey Progress,ARS-33,71934,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,06/May/24 3:18 PM,06/May/24 3:46 PM,08/May/24 9:01 AM,,,0,"Offering the ability to save the survey progress addresses the needs of customers who may not have the time to complete the survey in one sitting. By allowing customers to pick up where they left off, we enhance usability and reduce frustration, ultimately increasing survey completion rates and data accuracy.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,ARS-2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044jc:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*user that started the survey
+
+*I want…*to be able to quit the survey in the middle and resume where I left off later
+
+*So that…*I can complete the survey at my own pace without losing my progress or entered information
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+*In scope:*
+
+# Implementation of a mechanism for customers to pause the survey and resume at a later time.
+# Storage of survey progress data in a persistent and retrievable format, such as database storage or local browser storage.
+
+
+
+*Out of scope:*
+
+* Integration of a ""Save"" button or feature within the survey interface
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
+*Given* I decide to pause the survey and exit the page,
+*When* I return to the survey at a later time,
+*Then* I should see my previously entered information and progress retained.
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+{panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,06/May/24 3:18 PM
+Infrastructure,ARS-32,71911,Epic,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:47 AM,06/May/24 10:46 AM,06/May/24 4:42 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,ghx-label-3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yellow,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044ys:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,06/May/24 9:47 AM
+Front End for Survey,ARS-31,71910,Epic,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:47 AM,06/May/24 9:47 AM,06/May/24 9:49 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044yk:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,06/May/24 9:47 AM
+FE Repository,ARS-30,71909,Subtask,IN REVIEW (pls tag reviewer),ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:12 AM,06/May/24 12:46 PM,06/May/24 9:44 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044yc:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71897,Create Repository,In Progress,06/May/24 12:46 PM
+CICD Pipeline for BE,ARS-29,71908,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:11 AM,06/May/24 9:11 AM,06/May/24 9:11 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044y4:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71906,Design the CICD Pipeline,To Do,06/May/24 9:11 AM
+CICD Pipeline for FE,ARS-28,71907,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:11 AM,06/May/24 4:42 PM,06/May/24 4:42 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,ARS-38,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044xw:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71906,Design the CICD Pipeline,To Do,06/May/24 9:11 AM
+Design the CICD Pipeline,ARS-27,71906,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:10 AM,06/May/24 4:05 PM,06/May/24 9:10 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j5:i,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+* 
+
+Out of scope:
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71911,Infrastructure,To Do,06/May/24 9:10 AM
+Implement APIs,ARS-26,71905,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:02 AM,06/May/24 9:20 AM,06/May/24 9:20 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044xg:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71899,Back End for Survey,To Do,06/May/24 9:02 AM
+Design APIs,ARS-25,71904,Story,In Progress,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Nneka Tielman,6294f4fd1a2bdf0070942111,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:02 AM,06/May/24 3:30 PM,06/May/24 2:57 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j3:d,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71899,Back End for Survey,In Progress,06/May/24 3:30 PM
+DB Connection from Python,ARS-24,71903,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:01 AM,06/May/24 9:44 AM,06/May/24 9:19 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j3:f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71899,Back End for Survey,To Do,06/May/24 9:01 AM
+Model BE DB,ARS-23,71902,Story,In Progress,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:01 AM,06/May/24 10:46 AM,06/May/24 4:41 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:o,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71899,Back End for Survey,In Progress,06/May/24 10:46 AM
+Define BE architecture,ARS-22,71901,Story,In Progress,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 8:59 AM,06/May/24 10:46 AM,06/May/24 9:19 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:m,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71899,Back End for Survey,In Progress,06/May/24 10:46 AM
+Create GitHub repository for BE,ARS-21,71900,Subtask,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 8:57 AM,06/May/24 4:41 PM,06/May/24 4:41 PM,06/May/24 4:41 PM,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044wc:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13260_*:*_1_*:*_14091591_*|*_13261_*:*_1_*:*_0_*|*_13259_*:*_1_*:*_13778815,,,71897,Create Repository,Done,06/May/24 4:41 PM
+Back End for Survey,ARS-20,71899,Epic,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 8:56 AM,06/May/24 9:48 AM,06/May/24 9:57 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,ghx-label-10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,blue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044w4:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,06/May/24 8:56 AM
+Create NUXT -Vue2 project FE,ARS-19,71898,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,06/May/24 8:54 AM,06/May/24 4:04 PM,08/May/24 9:01 AM,06/May/24 4:04 PM,,0,Generate the project with NUXT and Vue2,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:i,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+* 
+
+Out of scope:
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13260_*:*_1_*:*_20067076_*|*_13261_*:*_1_*:*_0_*|*_13259_*:*_1_*:*_5707352,,,,,Done,06/May/24 4:04 PM
+Create Repository,ARS-18,71897,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,06/May/24 8:47 AM,06/May/24 4:32 PM,06/May/24 12:46 PM,06/May/24 4:32 PM,,0,Generate the repository for the AI readiness survey codebase. Alignment on using Gitlab or Github,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,,,,ARS-37,ARS-38,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:k,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+* 
+
+Out of scope:
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13260_*:*_1_*:*_20721713_*|*_13261_*:*_1_*:*_0_*|*_13259_*:*_1_*:*_7187734,,,71911,Infrastructure,Done,06/May/24 4:32 PM
+Generate Content Types GraphQL Queries,ARS-17,71849,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,03/May/24 10:29 AM,06/May/24 9:24 AM,06/May/24 8:43 AM,,,0,,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,,,,,,,,ARS-1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j3:i,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+* 
+
+Out of scope:
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,03/May/24 10:29 AM
+Contentful Content Modeling,ARS-16,71848,Story,In Progress,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,03/May/24 10:28 AM,07/May/24 2:07 PM,06/May/24 9:59 AM,,,0,,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,,,,,,,,ARS-1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:l,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,5.0,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+* 
+
+Out of scope:
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,07/May/24 2:07 PM
+Contentful Integration FE,ARS-15,71847,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,03/May/24 10:26 AM,06/May/24 10:02 AM,08/May/24 9:01 AM,,,0,,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,,,,,,,,ARS-1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j3:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+* 
+
+Out of scope:
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,03/May/24 10:26 AM
+Set up Contentful Account,ARS-14,71845,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,03/May/24 10:22 AM,07/May/24 11:32 AM,08/May/24 9:01 AM,07/May/24 11:32 AM,,0,,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,,,,,,,,ARS-1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,2.0,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+* 
+
+Out of scope:
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13261_*:*_1_*:*_0_*|*_13259_*:*_1_*:*_349825096,,,,,Done,07/May/24 11:32 AM
+Activation of the process of generating and sending the email,ARS-13,71843,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,03/May/24 8:45 AM,06/May/24 9:05 AM,03/May/24 9:15 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044lo:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71834,Email with Results as a pdf,To Do,03/May/24 8:45 AM
+Send email to customer with the PDF as attachment,ARS-12,71842,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,03/May/24 8:45 AM,06/May/24 9:55 AM,06/May/24 9:55 AM,,,0,Integrate with HubSpot,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044lg:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71834,Email with Results as a pdf,To Do,03/May/24 8:45 AM
+Generate the PDF with the report for a single survey response,ARS-11,71841,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,03/May/24 8:45 AM,06/May/24 9:05 AM,03/May/24 8:46 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044l8:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71834,Email with Results as a pdf,To Do,03/May/24 8:45 AM
+Customised Survey Landing Page URL,ARS-10,71839,Story,In Progress,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 5:16 PM,07/May/24 10:27 AM,07/May/24 10:26 AM,,,0,"By incorporating the company name into the Survey Landing Page URL, we enhance the perceived credibility of the survey among customers. This customisation reinforces the association between the survey and the company's brand, fostering trust and recognition. Furthermore, it enables easy embedding of the survey landing page within the company website, streamlining access for customers and promoting engagement.",,Inês Abreu,PAOLO BRUNASTI,6177c07cf6da6a006af93d7b,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:p,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*prospect client that just received a push email to answer the survey
+
+*I want…*the Survey Landing Page URL to include the company name
+
+*So that…*it enhances credibility and can be seamlessly embedded within our company website for future use.
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+*In scope:*
+
+# Integration of the customised URL into the survey landing page interface. - and.digital
+# Implementation of redirects or routing to ensure seamless navigation to the customised URL.
+
+
+
+*Out of scope:*
+
+
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
+*Given* I am accessing the AI Readiness Survey Landing Page,
+*When* I view the URL in the browser address bar,
+*Then* I should see a customised URL that includes the company name.
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+{panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-05-07 09:27:50.031,,,"07/May/24 10:27 AM;6347d09a5efe6ce125d88f6f;*Chris Forbes* 
+
+Whats the stack for the application? 
+
+
+We typically use [and-digital.com|http://and-digital.com/] for most hosted applications, you can see for yourself - the primary domain is really things like google domain records, the vpn and the hubspot website thats it so it's won't be able to go under the and.digital domain
+
+
+
+*Paolo Brunasti* 
+
+It's a mix of Vue and Python, and we think to deploy in AWS
+
+
+
+*Chris Forbes* 
+
+No worries - thats alright I ask as we have a solution for hosting static websites but it's a full application deployment so this wouldn't be suitable. Once it's deployed if you let me know what domain you want under [and-digital.com|http://and-digital.com/] and the accounts it's in i'm happy to configure the domain and tls certs on it
+",71911,Infrastructure,In Progress,07/May/24 8:20 AM
+Results Page - Personalised High-Level Roadmap Component,ARS-9,71838,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 5:06 PM,06/May/24 3:43 PM,08/May/24 9:01 AM,,,0,"The Personalised Roadmap component provides customers with tailored recommendations and next steps based on their survey responses. It adds value to the Results page by offering customers practical guidance and actionable insights derived from their survey responses. By providing personalised recommendations, it empowers customers to take informed actions to enhance their organisation's AI readiness capabilities.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,ARS-4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044ka:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*user that just completed the survey
+
+*I want…*to see on the results page a personalised roadmap based on my survey responses
+
+*So that…*I can understand the specific actions I need to take to improve my organisation's AI readiness.
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+*In scope:*
+
+# Development of the Personalised Roadmap component to generate tailored recommendations based on survey responses. - content of the roadmap is provided per dimension and per stage
+# Integration of the feature into the Results page interface.
+# Design of the feature to provide clear and actionable next steps for customers to improve AI readiness.
+
+According to designs attached.
+
+*Out of scope:*
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
+*Given* I am on the Results page,
+*When* I see the personalised roadmap,
+*Then* I should see clear and actionable recommendations tailored to address identified strengths and areas for improvement in my organisation's AI readiness.
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+{panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,02/May/24 5:06 PM
+Results Page - Scoring Graphic Component,ARS-8,71837,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 4:59 PM,06/May/24 3:43 PM,08/May/24 9:01 AM,,,0,"The Scoring Graphic Component is a visual representation of the customer's survey scoring displayed on the Results page. It enhances the user experience by presenting survey results in a visually appealing format, making it easier for customers to interpret and analyse their performance. By providing a clear visual representation, it helps customers identify areas of strength and areas for improvement in their AI readiness journey.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,ARS-4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044k8:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*user that just completed the survey
+
+*I want…*to view my survey scoring in a graphic format on the Results page
+
+*So that…*I can visually understand my performance across different dimensions of AI readiness
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+*In scope:*
+
+# Development of the Scoring Graphic Component to visually represent survey scoring - based on the results of the survey
+# Integration of the component into the Results page interface.
+# Design of the component to accurately reflect survey results across different dimensions of AI readiness.
+
+According to the design attached.
+
+*Out of scope:*
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
+*Given* I am on the Results page,
+*When* I view the scoring graphic component,
+*Then* I should see an accurate representation of my performance across different dimensions of AI readiness.
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+{panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,02/May/24 4:59 PM
+CP AI-Powered Personalised Roadmap Component,ARS-7,71836,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Pablo Uhalte,63c006ad8a7d2f693bf75120,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 4:56 PM,07/May/24 11:22 AM,08/May/24 9:01 AM,,,0,"The AI-Powered Personalized Roadmap Component enhances the Client Partnerships Dashboard by integrating AI capabilities to generate personalized follow-up recommendations for clients. Leveraging AI algorithms and input data from the AI Readiness Survey, this component provides tailored next steps and action plans aligned with client industry, size, and survey results, enhancing the CP team's ability to engage with clients effectively.
+
+By leveraging AI to analyze survey data and generate personalized roadmaps, the CP team can strengthen client relationships, drive value-added conversations, and provide strategic guidance aligned wit",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044ks:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*member of the Client Partnerships (CP) team
+
+*I want…*an AI-powered personalised roadmap component within the Client Partnerships Dashboard
+
+*So that…*I can provide tailored follow-up recommendations to clients based on AI Readiness Survey results and input dat
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+*In scope:*
+
+# Integration of AI algorithms to analyze AI Readiness Survey results and input data (define data).
+# Incorporation of AND knowledge base content with internal next steps and best practices for client engagement. (content to be added)
+# Development of a personalised roadmap generation module within the Client Partnerships Dashboard.
+# Dynamic generation of tailored next steps and action plans based on survey insights and client attributes.
+# Implementation of visualisation to present personalised roadmaps in an intuitive and user-friendly manner.
+
+*Out of scope:*
+
+* Customization options for individual client preferences or specific client scenarios beyond the scope of AI recommendations.
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given* I access the Client Partnerships Dashboard, 
+
+*When* I navigate to the AI-Powered Personalised Roadmap Component, 
+
+*Then* I should see an interface with a personalised roadmap based on survey insights and client attributes.
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* Integration of AI models for natural language processing (NLP) and machine learning (ML) to analyze survey data and generate personalized recommendations.
+* Utilization of backend infrastructure for data processing, AI model inference, and personalized roadmap generation.
+* Implementation of frontend components to display personalized roadmaps within the Client Partnerships Dashboard, utilizing visualization libraries or frameworks.
+* Consideration of data privacy and security measures for handling sensitive client information and survey results within the AI-powered component.
+{panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,02/May/24 4:56 PM
+CP Dashboard for results analysis,ARS-6,71835,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Pablo Uhalte,63c006ad8a7d2f693bf75120,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 4:56 PM,07/May/24 11:22 AM,06/May/24 9:44 AM,,,0,"The Client Partnerships Dashboard for Survey Results Analysis feature enables members of the CP team to access and analyze AI Readiness Survey results internally. The dashboard provides aggregated data on survey scores per dimension, scores per industry, scores per company size, and other relevant metrics derived from survey input data, facilitating informed decision-making and client engagement strategies.
+
+By leveraging insights from the dashboard, the CP team can tailor engagement strategies, identify opportunities for collaboration, and strengthen client partnerships effectively.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044kk:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*member of the Client Partnerships (CP) team
+
+*I want…*to access a dashboard displaying AI Readiness Survey results for internal analysis
+
+*So that…*I can gain insights into client readiness across dimensions, industries, company sizes, and other relevant factors.
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+*In scope:*
+
+# Development of a dashboard interface displaying AI Readiness Survey results.
+# Aggregation and visualization of survey scores per - (define the metrics)
+# Implementation of filters and sorting options for data exploration and analysis.
+# Inclusion of additional metrics or visualisations based on input data from the survey, such as trend analysis, demographic breakdowns, and actionable insights.
+
+
+
+*Out of scope:*
+
+* Real-time data updates beyond the scope of survey completion.
+* Integration with external systems or databases for data storage or retrieval.
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
+*Given* I am a member of the CP team, 
+
+*When* I access the Client Partnerships Dashboard for Survey Results Analysis, 
+
+*Then* I should see a user-friendly interface displaying aggregated survey results.
+
+
+
+*Given* I view the dashboard, 
+
+*When* I select a specific metric from the menu, 
+
+*Then* I should see survey scores aggregated and visualized by metric.
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+{panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,02/May/24 4:56 PM
+Email with Results as a pdf,ARS-5,71834,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 4:46 PM,06/May/24 9:44 AM,06/May/24 4:40 PM,,,0,"The Email with Results Page as PDF enables customers to receive their survey results, including scoring and personalised roadmap, directly in their email inbox as a PDF attachment. This allows customers to access and review their results offline and easily share them with relevant stakeholders within their company.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044kc:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*user that just completed the AI readiness survey
+
+*I want…*to receive the Results Page in a PDF format via email
+
+*So that…*I can easily review my survey scoring and personalised roadmap offline and share it within my company.
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+*In scope:*
+
+# Integration with external email service providers for email delivery - hubspot
+# Development of functionality to generate a PDF document.
+# Inclusion of survey scoring and personalised roadmap information in the PDF document.
+
+According to pdf template attached.
+
+
+
+*Out of scope:*
+
+* Customisation options for the content or layout of the PDF document
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
+*Given* I have completed the AI Readiness Survey,
+*When* I click the ""See Results"" button on the final section of the survey,
+*Then* I should receive an email containing the Results Page in PDF format as an attachment.
+
+*Given* I open the email containing the Results Page PDF attachment,
+*When* I view the PDF document,
+*Then* I should see my survey scoring and personalised roadmap information presented accurately and clearly.
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71899,Back End for Survey,To Do,02/May/24 4:46 PM
+Survey Results Page,ARS-4,71832,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 4:16 PM,07/May/24 1:49 PM,08/May/24 9:01 AM,,,0,"The Results page serves as the culmination of the AI Readiness Survey experience, offering customers actionable insights and support to guide their AI adoption journey. By providing visual representations of survey results, along with personalized recommendations and easy access to customer support, we aim to empower customers with the knowledge and resources needed for successful AI implementation.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,ARS-8,ARS-9,,,,ARS-35,ARS-42,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044jw:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*user that just completed the survey
+
+*I want…*to see my instant results in a final page
+
+*So that…*I can view my scoring in a graphic format, receive a high-level roadmap, and easily contact AND for next steps
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+*In scope:*
+
+# Development of the Results page that includes a thank you message (content to be provided)
+# Display survey scoring in a graphic format (personalised graphic developed [ARS-8|https://anddigitaltransformation.atlassian.net/browse/ARS-8])
+# Integration of a high-level roadmap based on survey responses. (personalised content developed on [ARS-9|https://anddigitaltransformation.atlassian.net/browse/ARS-9])
+# Inclusion of a button on the Results page to facilitate easy contact with the client partnership team. (content to be provided)
+
+According to the designs attached.
+
+
+
+*Out of scope:*
+
+* Detailed analysis or breakdown of survey responses beyond high-level scoring
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
+*Given* I am on the Results page,
+*When* I view the page,
+*Then* I should see a thank you message
+
+*And* my survey scoring displayed in a graphic format
+
+*And* a high level roadmap according to designs.
+
+*And* a button or info to initiate contact with the client partnerships team for further next steps.
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+{panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,02/May/24 4:16 PM
+Questions Page - Progress Bar Component,ARS-3,71830,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 3:43 PM,06/May/24 3:45 PM,08/May/24 9:01 AM,,,0,"The progress bar is a visual indicator that accompanies customers throughout the AI Readiness Survey, providing a clear representation of their progress and current position within the survey. It remains visible across all survey sections. 
+
+The progress bar enhances the user experience by providing customers with a sense of orientation and progress visibility as they navigate through the survey. By maintaining consistent visibility across all survey sections, it ensures customers remain engaged and motivated to complete the questionnaire.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,ARS-2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044ja:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*user of the survey
+
+*I want…*to have a progress bar visible across the entire survey
+
+*So that…*I can track my progress and understand my position within the survey across all sections
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+*In scope:*
+
+# Development of a progress bar component that is visible across all survey sections.
+# Integration of the progress bar into the survey interface to ensure continuous visibility.
+# Design of the progress bar to accurately reflect the customer's progress through the survey, updating dynamically as they move from one section to another.
+# Adapt and implement the progress bar for the responsiveness option too.
+
+According to designs attached.
+
+
+
+*Out of scope:*
+
+* Dynamic adjustments to the progress bar based on customer responses within each section
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
+*Given* I am accessing the Survey,
+*When* I begin the first section,
+*Then* I should see a progress bar displayed according to the designs.
+
+*Given* I am progressing through the Survey sections,
+*When* I move from one survey section to another,
+*Then* I should see the progress bar update dynamically to reflect my current position within the survey.
+
+*Given* I am completing the AI Readiness Survey,
+*When* I reach the end of the survey,
+*Then* I should see the progress bar indicate full completion.
+
+*Given* I can navigate back and forth between survey sections,
+*When* I return to a previous section,
+*Then* I should see the progress bar accurately reflect my progress based on the sections I am in.
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+{panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,02/May/24 3:43 PM
+Survey Questions Pages,ARS-2,71829,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 3:16 PM,07/May/24 1:47 PM,08/May/24 9:01 AM,,,0,"The Survey Questions Pages provides a structured questionnaire and guides customers through the survey process, allowing customers to progress through the AI Readiness Survey seamlessly.  Customers will be directed to the first section of the survey, where they can answer questions related to the first dimension of AI readiness and from there on till completion. These pages include a progress bar, seven sections corresponding to each dimension, a summary of each dimension, the respective questions, buttons to navigate between sections, error handling for unanswered questions, and a ""See Results"" button at the last section.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,ARS-3,ARS-33,,,,ARS-35,ARS-41,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j8:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*user that just came from the survey landing page
+
+*I want…*to navigate through the Questions Pages
+
+*So that…*I can understand each dimension, answering questions and track my progress till completion of the survey
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+*In scope:*
+
+# Implementation of 7 sections corresponding to each dimension of the survey.
+# Each section includes:
+##  a summary of the dimension (content to be shared)
+## the five related questions. (content of this to be shared) and personalised with company name ([ARS-41|https://anddigitaltransformation.atlassian.net/browse/ARS-41])
+# Space for visualisation of the Progress bar displaying the customer's progress (developed in [ARS-3|https://anddigitaltransformation.atlassian.net/browse/ARS-3]).
+# Navigation buttons to move between sections or return to the previous section.
+# Error handling to prompt customers to answer questions before proceeding.
+# ""See Results"" button at the end of the last section of the survey - that directs to the results page
+
+All according to the designs attached.
+
+*Out of scope:*
+
+* Development of the progress bar feature
+* Customization of survey questions
+* Data visualization of the results page
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
+*Given* I access the Survey Questions Pages,
+*When* on the first page of the survey,
+*Then* I should see the first section of the survey displayed - summary + questions, along with a progress bar indicating I’m in the first section and have 6 to go.
+
+*Given* I am on a section of the survey,
+*When* I answer all the questions in the section,
+*Then* I should be able to proceed to the next section using the navigation buttons without encountering any errors.
+
+*Given* I am on a section of the survey,
+*When* I attempt to move to the next section without answering all questions,
+*Then* I should receive an error message prompting me to answer all questions before proceeding.
+
+*Given* I complete all sections of the survey,
+*When* I reach the last section,
+*Then* I should see a ""See Results"" button that allows me to direct to the results page.
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+{panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,02/May/24 3:16 PM
+Survey Landing Page,ARS-1,71827,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 2:25 PM,06/May/24 4:06 PM,08/May/24 8:59 AM,,,0,"The AI Readiness Survey Landing Page serves as the entry point for users to engage with our AI readiness assessment tool. This landing page will provide high-level information about the purpose of the survey and its expected results. Users will have the ability to input their data, opt in to participate in the survey, and access the survey through a designated button.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,ARS-36,,,,,ARS-35,,ARS-14,ARS-15,ARS-16,ARS-17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All Completed,,,0.0,"# Default checklist
+# Checklist #2","​# Default checklist
+​# Checklist #2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j4:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*prospect client (or client) that just clicked on the survey url 
+
+*I want…*land on an nice and informative page of the survey
+
+*So that…*I can understand the purpose of the survey, input my data, opt in to participate, and access the survey seamlessly
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+*In scope:*
+
+# Creation of a landing page with content explaining the purpose of the AI Readiness Survey and expected results, including:
+#* Brief description of the survey purpose. (content to be given)
+#* Explanation of the benefits of participating in the survey. (content to be given)
+#* Expected outcomes or results of the survey. (content to be given)
+# Space for input fields for users to enter their data -  [ARS-36|https://anddigitaltransformation.atlassian.net/browse/ARS-36]
+# Implementation of an opt-in mechanism for users to agree to participate in the survey. (content to be given)
+# Inclusion of a button to seamlessly access the survey. - 'Take the survey'
+
+All according to designs attached. Content should be the one written here.
+
+
+
+*Out of scope:*
+
+* Detailed survey content and questions will not be included on the landing page.
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
+*Given* users access the AI Readiness Survey Landing Page,
+*When* they view the page,
+*Then* they should see clear  information about the purpose of the survey and the expected results according to the content given on the user story.
+
+*Given* users access the AI Readiness Survey Landing Page,
+*When* they input their data into the designated fields,
+*Then* they should be able to enter their information easily and edit it if needed.
+
+*Given* users access the AI Readiness Survey Landing Page,
+*When* they are presented with an opt-in check box,
+*Then* they should have the option to click to agree to participate in the survey, with clear text indicating their consent to participate.
+
+*Given* users access the AI Readiness Survey Landing Page,
+*When* they click on the designated button to take the survey,
+*Then* they should be seamlessly directed to the survey interface to begin their assessment.
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,02/May/24 2:25 PM

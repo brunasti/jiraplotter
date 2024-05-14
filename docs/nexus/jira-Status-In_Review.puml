@@ -1,0 +1,34 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 07 11:43:52 CEST 2024
+
+title Jira Tickets for Status In Review
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(In Review) : 1
+----
+Jira Ticket Types
+----
+(Subtask) : 1
+end legend
+
+
+' Tickets =======
+class "ARS-30" << (S,lightblue) >> {
+  Summary : FE Repository
+  Assigned to : PAOLO BRUNASTI
+  Status : In Review
+  Type : Subtask
+}
+
+
+
+' Links =======
+
+
+@enduml

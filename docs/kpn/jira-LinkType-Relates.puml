@@ -1,0 +1,45 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 14 10:46:39 CEST 2024
+
+title Jira Tickets for Link Type Relates
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(Done) : 1
+(To Do) : 1
+----
+Jira Ticket Types
+----
+(Story) : 2
+end legend
+
+
+' Tickets =======
+class "ENKPS-30" << (S,lightgreen) >> {
+  Summary : Create Input Component
+  Assigned to : Eniko Kosztolanyi
+  Status : Done
+  Type : Story
+  Points : 5.0
+}
+
+class "ENKPS-76" << (S,lightgreen) >> {
+  Summary : Content drive error states for input component
+  Assigned to : Eniko Kosztolanyi
+  Status : To Do
+  Type : Story
+  Points : 5.0
+}
+
+
+
+' Links =======
+"ENKPS-76" <.. "ENKPS-30" : Relates
+
+
+@enduml

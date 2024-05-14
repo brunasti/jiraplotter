@@ -1,0 +1,42 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Mon May 06 11:25:29 CEST 2024
+
+title Jira Tickets for Link Type Blocks
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(To Do) : 2
+----
+Jira Ticket Types
+----
+(Story) : 2
+end legend
+
+
+' Tickets =======
+class "ARS-27" << (S,lightgreen) >> {
+  Summary : Design the CICD Pipeline
+  Status : To Do
+  Type : Story
+}
+
+class "ARS-18" << (S,lightgreen) >> {
+  Assigned to : PAOLO BRUNASTI
+  Summary : Create Repository
+  Status : To Do
+  Type : Story
+  Points : 3.0
+}
+
+
+
+' Links =======
+"ARS-27" <.. "ARS-18" : Blocks
+
+
+@enduml

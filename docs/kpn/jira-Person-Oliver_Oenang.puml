@@ -1,0 +1,45 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Tue May 14 10:46:39 CEST 2024
+
+title Jira Tickets for Person Oliver Oenang
+hide empty members
+
+legend
+Jira Ticket Status
+----
+(In Review) : 1
+(In Progress) : 1
+----
+Jira Ticket Types
+----
+(Task) : 1
+(Story) : 1
+end legend
+
+
+' Tickets =======
+class "ENKPS-45" << (S,lightgreen) >> {
+  Summary : Create list component 
+  Assigned to : Oliver Oenang
+  Status : In Progress
+  Type : Story
+  Points : 3.0
+}
+
+class "ENKPS-46" << (T,lightblue) >> {
+  Summary : Build icon functionality component
+  Assigned to : Oliver Oenang
+  Status : In Review
+  Type : Task
+  Points : 2.0
+}
+
+
+
+' Links =======
+
+
+@enduml
