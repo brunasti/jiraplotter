@@ -47,13 +47,13 @@ public class ParseJiraTicketsCsv {
     output.println("legend");
     output.println("Jira Ticket Status");
     output.println("----");
-    stata.forEach(status -> output.println("(" + status + ") : "
+    stata.forEach(status -> output.println(status + " : "
                     + Utils.countTicketsInStatus(selectedJiraTickets.values(), status))
     );
     output.println("----");
     output.println("Jira Ticket Types");
     output.println("----");
-    types.forEach(type -> output.println("(" + type + ") : "
+    types.forEach(type -> output.println(type + " : "
               + Utils.countTicketsOfType(selectedJiraTickets.values(), type))
     );
     output.println("end legend");
@@ -99,6 +99,8 @@ public class ParseJiraTicketsCsv {
       output.println(ParseJiraTicketsConstants.DEFINITION_CLASS_ESTIMATE
               + jiraTicket.storyPoints.getFirst());
     }
+    output.println("Total "+ParseJiraTicketsConstants.DEFINITION_CLASS_ESTIMATE
+            + jiraTicket.totalstoryPoints);
     output.println("}");
     output.println();
   }
@@ -108,6 +110,17 @@ public class ParseJiraTicketsCsv {
     output.println("' Jira Tickets =======");
     jiraTickets.forEach(this::generateTicket);
     output.println();
+  }
+
+  private void computeTicketsTotalPoints(final Collection<JiraTicket> jiraTickets) {
+    log.info("computeTicketsTotalPoints");
+    jiraTickets.forEach(jiraTicket -> {
+      log.info("  Parents for {}", jiraTicket.issueKey);
+      JiraTicket parentJira = jiraTicket.parentJira;
+      if (parentJira != null) {
+        parentJira.totalstoryPoints = parentJira.totalstoryPoints + jiraTicket.totalstoryPoints;
+      }
+    });
   }
 
   private void generateTicketsPerKindLinks(final Collection<JiraTicket> jiraTickets, String kind) {
@@ -457,18 +470,19 @@ public class ParseJiraTicketsCsv {
 
       log.info("Records : [{}]", jiraTickets.size());
 
+      computeTicketsTotalPoints(jiraTickets.values());
 
-//      // Reports generation -------------------------
-//      generateBaseDiagram(jiraTickets, outputDir);
-//
-//      // Generate reports for each links kind
-//      generateLinkKindReports(jiraTickets, outputDir);
-//
-//      // Generate reports for each person
-//      generatePersonReports(jiraTickets, outputDir);
-//
-//      // Generate reports for each Status
-//      generateStatusReports(jiraTickets, outputDir);
+      // Reports generation -------------------------
+      generateBaseDiagram(jiraTickets, outputDir);
+
+      // Generate reports for each links kind
+      generateLinkKindReports(jiraTickets, outputDir);
+
+      // Generate reports for each person
+      generatePersonReports(jiraTickets, outputDir);
+
+      // Generate reports for each Status
+      generateStatusReports(jiraTickets, outputDir);
 
       // Generate reports for each Epic
       generateEpicReports(jiraTickets, outputDir);

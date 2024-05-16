@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 14 15:35:46 CEST 2024
+' Generated at    : Thu May 16 15:52:42 CEST 2024
 
 title Jira Tickets for Link Type Relates
 hide empty members
@@ -10,34 +10,94 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(Done) : 1
-(To Do) : 1
+Done : 1
+To Do : 6
+In Progress : 1
 ----
 Jira Ticket Types
 ----
-(Story) : 2
+Story : 8
 end legend
 
 
 ' Tickets =======
 class "ARS-23" << (S,lightgreen) >> {
-  Summary : Model BE DB
-  Assigned to : PAOLO BRUNASTI
-  Status : Done
-  Type : Story
-  Points : 5.0
+ Summary : Model BE DB
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Story
+ Points : 5.0
+Total  Points : 5
 }
 
 class "ARS-47" << (S,lightgreen) >> {
-  Summary : Create View for results of the survey
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Story
+ Summary : Create View for results of the survey
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Story
+Total  Points : 0
+}
+
+class "ARS-26" << (S,lightgreen) >> {
+ Summary : Implement APIs
+ Assigned to : Nneka Tielman
+ Status : To Do
+ Type : Story
+Total  Points : 0
+}
+
+class "ARS-74" << (S,lightgreen) >> {
+ Summary : Implement FE API - submit survey endpoint
+ Status : To Do
+ Type : Story
+ Points : 8.0
+Total  Points : 8
+}
+
+class "ARS-52" << (S,lightgreen) >> {
+ Summary : Prototype BE architecture
+ Assigned to : PAOLO BRUNASTI
+ Status : In Progress
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
+class "ARS-43" << (S,lightgreen) >> {
+ Summary : Survey Hubspot integration
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Story
+Total  Points : 0
+}
+
+class "ARS-76" << (S,lightgreen) >> {
+ Summary : Set up Contentful to DB webhook
+ Status : To Do
+ Type : Story
+Total  Points : 0
+}
+
+class "ARS-88" << (S,lightgreen) >> {
+ Summary : Extends BE architecture
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Story
+ Points : 5.0
+Total  Points : 5
 }
 
 
 
 ' Links =======
+"ARS-74" <.. "ARS-43" : Relates
+
+"ARS-76" <.. "ARS-26" : Relates
+
+"ARS-76" <.. "ARS-52" : Relates
+
+"ARS-76" <.. "ARS-88" : Relates
+
 "ARS-47" <.. "ARS-23" : Relates
 
 

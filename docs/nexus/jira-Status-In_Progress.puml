@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 14 15:35:46 CEST 2024
+' Generated at    : Thu May 16 15:52:42 CEST 2024
 
 title Jira Tickets for Status In Progress
 hide empty members
@@ -10,49 +10,126 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(In Progress) : 4
+To Do : 2
+In Progress : 10
 ----
 Jira Ticket Types
 ----
-(Story) : 4
+Spike : 1
+Epic : 2
+Story : 9
 end legend
 
 
 ' Tickets =======
-class "ARS-24" << (S,lightgreen) >> {
-  Summary : DB Connection from Python
-  Assigned to : PAOLO BRUNASTI
-  Status : In Progress
-  Type : Story
-  Points : 3.0
+class "ARS-62" << (X,lightblue) >> {
+ Summary : Spike - AI personalised roadmap
+ Assigned to : Pablo Uhalte
+ Status : In Progress
+ Type : Spike
+Total  Points : 0
+}
+
+class "ARS-40" << (S,lightgreen) >> {
+ Summary : AWS Environment
+ Assigned to : PAOLO BRUNASTI
+ Status : In Progress
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
+class "ARS-27" << (S,lightgreen) >> {
+ Summary : Design the CICD Pipeline
+ Status : In Progress
+ Type : Story
+ Points : 3.0
+Total  Points : 3
+}
+
+class "ARS-67" << (S,lightgreen) >> {
+ Summary : Implement FE API - user endpoints
+ Assigned to : Nneka Tielman
+ Status : In Progress
+ Type : Story
+ Points : 3.0
+Total  Points : 3
+}
+
+class "ARS-57" << (S,lightgreen) >> {
+ Summary : Banner component
+ Assigned to : Juan Solano
+ Status : In Progress
+ Type : Story
+ Points : 3.0
+Total  Points : 3
+}
+
+class "ARS-58" << (S,lightgreen) >> {
+ Summary : Button components
+ Assigned to : Juan Solano
+ Status : In Progress
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
+class "ARS-26" << (S,lightgreen) >> {
+ Summary : Implement APIs
+ Assigned to : Nneka Tielman
+ Status : To Do
+ Type : Story
+Total  Points : 0
 }
 
 class "ARS-52" << (S,lightgreen) >> {
-  Summary : Prototype BE architecture
-  Assigned to : PAOLO BRUNASTI
-  Status : In Progress
-  Type : Story
-  Points : 5.0
+ Summary : Prototype BE architecture
+ Assigned to : PAOLO BRUNASTI
+ Status : In Progress
+ Type : Story
+ Points : 5.0
+Total  Points : 5
 }
 
-class "ARS-53" << (S,lightgreen) >> {
-  Summary : Navbar component for Landing Page
-  Assigned to : Juan Solano
-  Status : In Progress
-  Type : Story
-  Points : 3.0
+class "ARS-20" << (E,green) >> {
+ Summary : Back End for Survey
+ Assigned to : PAOLO BRUNASTI
+ Status : In Progress
+ Type : Epic
+Total  Points : 52
 }
 
 class "ARS-10" << (S,lightgreen) >> {
-  Summary : Customised Survey Landing Page URL
-  Assigned to : PAOLO BRUNASTI
-  Status : In Progress
-  Type : Story
+ Summary : Customised Survey Landing Page URL
+ Assigned to : PAOLO BRUNASTI
+ Status : In Progress
+ Type : Story
+ Points : 3.0
+Total  Points : 3
+}
+
+class "ARS-32" << (E,green) >> {
+ Summary : Infrastructure
+ Assigned to : PAOLO BRUNASTI
+ Status : In Progress
+ Type : Epic
+Total  Points : 19
+}
+
+class "ARS-88" << (S,lightgreen) >> {
+ Summary : Extends BE architecture
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Story
+ Points : 5.0
+Total  Points : 5
 }
 
 
 
 ' Links =======
+"ARS-52" <.. "ARS-88" : Cloners
+"ARS-67" <.. "ARS-26" : Issue split
 
 
 @enduml

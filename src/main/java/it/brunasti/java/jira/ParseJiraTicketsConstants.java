@@ -11,11 +11,11 @@ public final class ParseJiraTicketsConstants {
   public static final String DEFINITION_CLASS_MIDDLE = "\" << (";
   public static final String DEFINITION_CLASS_FULL_END = ",lightblue) >> {";
   public static final String DEFINITION_CLASS_END = ") >> {";
-  public static final String DEFINITION_CLASS_ASSIGNED_TO = "  Assigned to : ";
-  public static final String DEFINITION_CLASS_SUMMARY = "  Summary : ";
-  public static final String DEFINITION_CLASS_STATUS = "  Status : ";
-  public static final String DEFINITION_CLASS_TYPE = "  Type : ";
-  public static final String DEFINITION_CLASS_ESTIMATE = "  Points : ";
+  public static final String DEFINITION_CLASS_ASSIGNED_TO = " Assigned to : ";
+  public static final String DEFINITION_CLASS_SUMMARY = " Summary : ";
+  public static final String DEFINITION_CLASS_STATUS = " Status : ";
+  public static final String DEFINITION_CLASS_TYPE = " Type : ";
+  public static final String DEFINITION_CLASS_ESTIMATE = " Points : ";
   public static final String DEFINITION_LINK_SIMPLE_MIDDLE = "\" <.. \"";
   public static final String DEFINITION_LINK_SIMPLE_END = "\" : ";
 

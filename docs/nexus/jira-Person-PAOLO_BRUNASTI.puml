@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 14 15:35:46 CEST 2024
+' Generated at    : Thu May 16 15:52:42 CEST 2024
 
 title Jira Tickets for Person PAOLO BRUNASTI
 hide empty members
@@ -10,221 +10,284 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(Done) : 8
-(To Do) : 17
-(In Progress) : 3
+Done : 15
+To Do : 12
+In Progress : 5
 ----
 Jira Ticket Types
 ----
-(Subtask) : 13
-(Epic) : 2
-(Story) : 13
+Subtask : 14
+Epic : 2
+Story : 16
 end legend
 
 
 ' Tickets =======
 class "ARS-38" << (S,lightgreen) >> {
-  Summary : Generate Gitlab Pipeline
-  Assigned to : Juan Solano
-  Status : Done
-  Type : Story
-  Points : 3.0
+ Summary : Generate Gitlab Pipeline
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-39" << (S,lightblue) >> {
-  Summary : Investigate HubSpot integration
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Subtask
+ Summary : Investigate HubSpot integration
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Subtask
+Total  Points : 0
 }
 
 class "ARS-18" << (S,lightgreen) >> {
-  Summary : Create Repository
-  Assigned to : PAOLO BRUNASTI
-  Status : Done
-  Type : Story
-  Points : 3.0
+ Summary : Create Repository
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Story
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-5" << (S,lightgreen) >> {
-  Summary : Email with Results as a pdf
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Story
+ Summary : Email with Results as a pdf
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Story
+Total  Points : 0
 }
 
 class "ARS-71" << (S,lightblue) >> {
-  Summary : Python server code generated from Swagger
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Subtask
+ Summary : Python server code generated from Swagger
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Subtask
+Total  Points : 0
 }
 
 class "ARS-50" << (S,lightblue) >> {
-  Summary : Update User structure with info from Figma
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Subtask
+ Summary : Update User structure with info from Figma
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Subtask
+Total  Points : 0
 }
 
 class "ARS-51" << (S,lightblue) >> {
-  Summary : Create structure for the storage of the different answers for each dimension depending on the stage
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Subtask
+ Summary : Create structure for the storage of the different answers for each dimension depending on the stage
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Subtask
+Total  Points : 0
 }
 
 class "ARS-12" << (S,lightblue) >> {
-  Summary : Send email to customer with the PDF as attachment
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Subtask
+ Summary : Send email to customer with the PDF as attachment
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Subtask
+Total  Points : 0
 }
 
 class "ARS-13" << (S,lightblue) >> {
-  Summary : Activation of the process of generating and sending the email
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Subtask
+ Summary : Activation of the process of generating and sending the email
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Subtask
+Total  Points : 0
 }
 
 class "ARS-37" << (S,lightgreen) >> {
-  Summary : Create Eslint modules
-  Assigned to : Juan Solano
-  Status : Done
-  Type : Story
-  Points : 3.0
+ Summary : Create Eslint modules
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-52" << (S,lightgreen) >> {
-  Summary : Prototype BE architecture
-  Assigned to : PAOLO BRUNASTI
-  Status : In Progress
-  Type : Story
-  Points : 5.0
+ Summary : Prototype BE architecture
+ Assigned to : PAOLO BRUNASTI
+ Status : In Progress
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
+class "ARS-74" << (S,lightgreen) >> {
+ Summary : Implement FE API - submit survey endpoint
+ Status : To Do
+ Type : Story
+ Points : 8.0
+Total  Points : 8
 }
 
 class "ARS-30" << (S,lightblue) >> {
-  Summary : FE Repository
-  Assigned to : PAOLO BRUNASTI
-  Status : Done
-  Type : Subtask
+ Summary : FE Repository
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Subtask
+Total  Points : 0
 }
 
 class "ARS-10" << (S,lightgreen) >> {
-  Summary : Customised Survey Landing Page URL
-  Assigned to : PAOLO BRUNASTI
-  Status : In Progress
-  Type : Story
+ Summary : Customised Survey Landing Page URL
+ Assigned to : PAOLO BRUNASTI
+ Status : In Progress
+ Type : Story
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-32" << (E,green) >> {
-  Summary : Infrastructure
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Epic
+ Summary : Infrastructure
+ Assigned to : PAOLO BRUNASTI
+ Status : In Progress
+ Type : Epic
+Total  Points : 19
 }
 
 class "ARS-11" << (S,lightblue) >> {
-  Summary : Generate the PDF with the report for a single survey response
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Subtask
+ Summary : Generate the PDF with the report for a single survey response
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Subtask
+Total  Points : 0
+}
+
+class "ARS-84" << (S,lightgreen) >> {
+ Summary : Create test data in the DB
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Story
+ Points : 2.0
+Total  Points : 2
 }
 
 class "ARS-40" << (S,lightgreen) >> {
-  Summary : AWS Environment
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Story
-  Points : 5.0
+ Summary : AWS Environment
+ Assigned to : PAOLO BRUNASTI
+ Status : In Progress
+ Type : Story
+ Points : 5.0
+Total  Points : 5
 }
 
 class "ARS-23" << (S,lightgreen) >> {
-  Summary : Model BE DB
-  Assigned to : PAOLO BRUNASTI
-  Status : Done
-  Type : Story
-  Points : 5.0
+ Summary : Model BE DB
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Story
+ Points : 5.0
+Total  Points : 5
 }
 
 class "ARS-45" << (S,lightgreen) >> {
-  Summary : Review Gitlab Pipeline
-  Assigned to : PAOLO BRUNASTI
-  Status : Done
-  Type : Story
+ Summary : Review Gitlab Pipeline
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Story
+Total  Points : 0
 }
 
 class "ARS-68" << (S,lightblue) >> {
-  Summary : Security
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Subtask
+ Summary : Security
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Subtask
+Total  Points : 0
 }
 
 class "ARS-24" << (S,lightgreen) >> {
-  Summary : DB Connection from Python
-  Assigned to : PAOLO BRUNASTI
-  Status : In Progress
-  Type : Story
-  Points : 3.0
+ Summary : DB Connection from Python
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Story
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-69" << (S,lightblue) >> {
-  Summary : PDF Library
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Subtask
+ Summary : PDF Library
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Subtask
+Total  Points : 0
 }
 
 class "ARS-47" << (S,lightgreen) >> {
-  Summary : Create View for results of the survey
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Story
+ Summary : Create View for results of the survey
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Story
+Total  Points : 0
 }
 
 class "ARS-20" << (E,green) >> {
-  Summary : Back End for Survey
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Epic
+ Summary : Back End for Survey
+ Assigned to : PAOLO BRUNASTI
+ Status : In Progress
+ Type : Epic
+Total  Points : 52
+}
+
+class "ARS-86" << (S,lightblue) >> {
+ Summary : Create base data (Language, ..)
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Subtask
+Total  Points : 0
 }
 
 class "ARS-65" << (S,lightblue) >> {
-  Summary : ORM definition of User
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Subtask
+ Summary : ORM definition of User
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Subtask
+Total  Points : 0
 }
 
 class "ARS-21" << (S,lightblue) >> {
-  Summary : Create GitHub repository for BE
-  Assigned to : PAOLO BRUNASTI
-  Status : Done
-  Type : Subtask
+ Summary : Create GitHub repository for BE
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Subtask
+Total  Points : 0
 }
 
 class "ARS-43" << (S,lightgreen) >> {
-  Summary : Survey Hubspot integration
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Story
+ Summary : Survey Hubspot integration
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Story
+Total  Points : 0
+}
+
+class "ARS-88" << (S,lightgreen) >> {
+ Summary : Extends BE architecture
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Story
+ Points : 5.0
+Total  Points : 5
 }
 
 class "ARS-66" << (S,lightblue) >> {
-  Summary : DB Connection pooling
-  Assigned to : PAOLO BRUNASTI
-  Status : To Do
-  Type : Subtask
+ Summary : DB Connection pooling
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Subtask
+Total  Points : 0
 }
 
 class "ARS-22" << (S,lightgreen) >> {
-  Summary : Define BE architecture
-  Assigned to : PAOLO BRUNASTI
-  Status : Done
-  Type : Story
-  Points : 5.0
+ Summary : Define BE architecture
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Story
+ Points : 5.0
+Total  Points : 5
 }
 
 
@@ -234,7 +297,11 @@ class "ARS-22" << (S,lightgreen) >> {
 
 "ARS-18" <.. "ARS-38" : Polaris issue link
 
+"ARS-52" <.. "ARS-88" : Cloners
+
 "ARS-22" <.. "ARS-52" : Cloners
+
+"ARS-5" <.. "ARS-74" : Issue split
 
 "ARS-47" <.. "ARS-23" : Relates
 

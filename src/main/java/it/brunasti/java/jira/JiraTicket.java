@@ -28,6 +28,7 @@ public class JiraTicket {
   ArrayList<JiraTicketLinks> outwardIssueLink;
 
   JiraTicket parentJira;
+  int totalstoryPoints = 0;
 
   public JiraTicket(String[] fields) {
     readFromCSVRow(fields);
@@ -74,6 +75,13 @@ public class JiraTicket {
     status = readField(fields, JiraTicketDescriptor.statusFieldDescriptor);
     summary = readField(fields, JiraTicketDescriptor.summaryFieldDescriptor);
     storyPoints = readField(fields, JiraTicketDescriptor.storyPointsFieldDescriptor);
+
+    try {
+      if (!storyPoints.isEmpty())
+        totalstoryPoints = Math.round(Float.parseFloat(storyPoints.getFirst()));
+    } catch (Exception ex) {
+      ex.printStackTrace();
+    }
 
     inwardIssueLink = readLinks(fields, JiraTicketDescriptor.inwardIssueLinkFieldDescriptor);
     outwardIssueLink = readLinks(fields, JiraTicketDescriptor.outwardIssueLinkFieldDescriptor);

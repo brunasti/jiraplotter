@@ -1,0 +1,70 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Thu May 16 15:52:42 CEST 2024
+
+title Jira Tickets for Epic Final Report
+hide empty members
+
+legend
+Jira Ticket Status
+----
+To Do : 5
+----
+Jira Ticket Types
+----
+Epic : 1
+Story : 4
+end legend
+
+
+' Tickets =======
+class "ARS-81" << (S,lightgreen) >> {
+ Summary : Define the algorithm to compute the results
+ Status : To Do
+ Type : Story
+Total  Points : 0
+}
+
+class "ARS-82" << (S,lightgreen) >> {
+ Summary : Implement the result algorithm
+ Status : To Do
+ Type : Story
+Total  Points : 0
+}
+
+class "ARS-83" << (S,lightgreen) >> {
+ Summary : Mechanism to replace the tags in the texts
+ Status : To Do
+ Type : Story
+Total  Points : 0
+}
+
+class "ARS-80" << (S,lightgreen) >> {
+ Summary : Store the different Dimension Responses for the result in the DB
+ Status : To Do
+ Type : Story
+Total  Points : 0
+}
+
+class "ARS-79" << (E,green) >> {
+ Summary : Final Report
+ Status : To Do
+ Type : Epic
+Total  Points : 0
+}
+
+
+
+' Links =======
+
+' Parents =======
+"ARS-79" <|-- "ARS-81"
+"ARS-79" <|-- "ARS-82"
+"ARS-79" <|-- "ARS-83"
+"ARS-79" <|-- "ARS-80"
+
+
+
+@enduml

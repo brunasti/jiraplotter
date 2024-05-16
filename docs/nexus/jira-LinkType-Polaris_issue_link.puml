@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 14 15:35:46 CEST 2024
+' Generated at    : Thu May 16 15:52:42 CEST 2024
 
 title Jira Tickets for Link Type Polaris issue link
 hide empty members
@@ -10,76 +10,84 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(Done) : 7
-(To Do) : 1
+Done : 7
+To Do : 1
 ----
 Jira Ticket Types
 ----
-(Story) : 8
+Story : 8
 end legend
 
 
 ' Tickets =======
 class "ARS-38" << (S,lightgreen) >> {
-  Summary : Generate Gitlab Pipeline
-  Assigned to : Juan Solano
-  Status : Done
-  Type : Story
-  Points : 3.0
+ Summary : Generate Gitlab Pipeline
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-16" << (S,lightgreen) >> {
-  Summary : Contentful Content Modeling for Landing Page
-  Assigned to : Juan Solano
-  Status : Done
-  Type : Story
-  Points : 5.0
+ Summary : Contentful Content Modeling for Landing Page
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 5.0
+Total  Points : 5
 }
 
 class "ARS-17" << (S,lightgreen) >> {
-  Summary : Generate Content Types GraphQL Queries for Landing Page
-  Assigned to : Juan Solano
-  Status : Done
-  Type : Story
-  Points : 5.0
+ Summary : Generate Content Types GraphQL Queries for Landing Page
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 5.0
+Total  Points : 5
 }
 
 class "ARS-18" << (S,lightgreen) >> {
-  Summary : Create Repository
-  Assigned to : PAOLO BRUNASTI
-  Status : Done
-  Type : Story
-  Points : 3.0
+ Summary : Create Repository
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Story
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-14" << (S,lightgreen) >> {
-  Summary : Set up Contentful Account
-  Assigned to : Juan Solano
-  Status : Done
-  Type : Story
-  Points : 2.0
+ Summary : Set up Contentful Account
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 2.0
+Total  Points : 2
 }
 
 class "ARS-37" << (S,lightgreen) >> {
-  Summary : Create Eslint modules
-  Assigned to : Juan Solano
-  Status : Done
-  Type : Story
-  Points : 3.0
+ Summary : Create Eslint modules
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-15" << (S,lightgreen) >> {
-  Summary : Contentful Integration FE
-  Assigned to : Juan Solano
-  Status : Done
-  Type : Story
-  Points : 3.0
+ Summary : Contentful Integration FE
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-1" << (S,lightgreen) >> {
-  Summary : Survey Landing Page
-  Status : To Do
-  Type : Story
+ Summary : Survey Landing Page
+ Status : To Do
+ Type : Story
+Total  Points : 0
 }
 
 

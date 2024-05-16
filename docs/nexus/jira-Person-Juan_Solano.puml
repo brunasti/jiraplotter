@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 14 15:35:46 CEST 2024
+' Generated at    : Thu May 16 15:52:42 CEST 2024
 
 title Jira Tickets for Person Juan Solano
 hide empty members
@@ -10,103 +10,150 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(Done) : 8
-(To Do) : 2
-(In Progress) : 1
+Done : 12
+To Do : 1
+In Progress : 2
 ----
 Jira Ticket Types
 ----
-(Story) : 11
+Story : 15
 end legend
 
 
 ' Tickets =======
 class "ARS-16" << (S,lightgreen) >> {
-  Summary : Contentful Content Modeling for Landing Page
-  Assigned to : Juan Solano
-  Status : Done
-  Type : Story
-  Points : 5.0
+ Summary : Contentful Content Modeling for Landing Page
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 5.0
+Total  Points : 5
 }
 
 class "ARS-38" << (S,lightgreen) >> {
-  Summary : Generate Gitlab Pipeline
-  Assigned to : Juan Solano
-  Status : Done
-  Type : Story
-  Points : 3.0
+ Summary : Generate Gitlab Pipeline
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-17" << (S,lightgreen) >> {
-  Summary : Generate Content Types GraphQL Queries for Landing Page
-  Assigned to : Juan Solano
-  Status : Done
-  Type : Story
-  Points : 5.0
+ Summary : Generate Content Types GraphQL Queries for Landing Page
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 5.0
+Total  Points : 5
 }
 
 class "ARS-19" << (S,lightgreen) >> {
-  Summary : Create NUXT -Vue2 project FE
-  Assigned to : Juan Solano
-  Status : Done
-  Type : Story
-  Points : 3.0
+ Summary : Create NUXT -Vue2 project FE
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 3.0
+Total  Points : 3
+}
+
+class "ARS-78" << (S,lightgreen) >> {
+ Summary : Create Image Component for Landing Page
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-34" << (S,lightgreen) >> {
-  Summary : All Survey Pages - Create Theme
-  Assigned to : Juan Solano
-  Status : Done
-  Type : Story
-  Points : 3.0
+ Summary : All Survey Pages - Create Theme
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-57" << (S,lightgreen) >> {
-  Summary : Banner component
-  Assigned to : Juan Solano
-  Status : To Do
-  Type : Story
-  Points : 3.0
+ Summary : Banner component
+ Assigned to : Juan Solano
+ Status : In Progress
+ Type : Story
+ Points : 3.0
+Total  Points : 3
+}
+
+class "ARS-58" << (S,lightgreen) >> {
+ Summary : Button components
+ Assigned to : Juan Solano
+ Status : In Progress
+ Type : Story
+ Points : 5.0
+Total  Points : 5
 }
 
 class "ARS-14" << (S,lightgreen) >> {
-  Summary : Set up Contentful Account
-  Assigned to : Juan Solano
-  Status : Done
-  Type : Story
-  Points : 2.0
+ Summary : Set up Contentful Account
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 2.0
+Total  Points : 2
 }
 
 class "ARS-15" << (S,lightgreen) >> {
-  Summary : Contentful Integration FE
-  Assigned to : Juan Solano
-  Status : Done
-  Type : Story
-  Points : 3.0
+ Summary : Contentful Integration FE
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-37" << (S,lightgreen) >> {
-  Summary : Create Eslint modules
-  Assigned to : Juan Solano
-  Status : Done
-  Type : Story
-  Points : 3.0
+ Summary : Create Eslint modules
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-53" << (S,lightgreen) >> {
-  Summary : Navbar component for Landing Page
-  Assigned to : Juan Solano
-  Status : In Progress
-  Type : Story
-  Points : 3.0
+ Summary : Navbar component for Landing Page
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 3.0
+Total  Points : 3
+}
+
+class "ARS-54" << (S,lightgreen) >> {
+ Summary : Footer component
+ Assigned to : Juan Solano
+ Status : To Do
+ Type : Story
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-55" << (S,lightgreen) >> {
-  Summary : Typography component
-  Assigned to : Juan Solano
-  Status : To Do
-  Type : Story
-  Points : 5.0
+ Summary : Typography component
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
+class "ARS-77" << (S,lightgreen) >> {
+ Summary : Add Font to the Tailwind Config
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 2.0
+Total  Points : 2
 }
 
 

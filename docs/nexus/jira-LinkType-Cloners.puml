@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 14 15:35:46 CEST 2024
+' Generated at    : Thu May 16 15:52:42 CEST 2024
 
 title Jira Tickets for Link Type Cloners
 hide empty members
@@ -10,51 +10,66 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(Done) : 2
-(To Do) : 1
-(In Progress) : 1
+Done : 3
+To Do : 1
+In Progress : 1
 ----
 Jira Ticket Types
 ----
-(Subtask) : 1
-(Story) : 3
+Subtask : 1
+Story : 4
 end legend
 
 
 ' Tickets =======
 class "ARS-38" << (S,lightgreen) >> {
-  Summary : Generate Gitlab Pipeline
-  Assigned to : Juan Solano
-  Status : Done
-  Type : Story
-  Points : 3.0
+ Summary : Generate Gitlab Pipeline
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-28" << (S,lightblue) >> {
-  Summary : CICD Pipeline for FE
-  Status : To Do
-  Type : Subtask
+ Summary : CICD Pipeline for FE
+ Status : Done
+ Type : Subtask
+Total  Points : 0
 }
 
 class "ARS-52" << (S,lightgreen) >> {
-  Summary : Prototype BE architecture
-  Assigned to : PAOLO BRUNASTI
-  Status : In Progress
-  Type : Story
-  Points : 5.0
+ Summary : Prototype BE architecture
+ Assigned to : PAOLO BRUNASTI
+ Status : In Progress
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
+class "ARS-88" << (S,lightgreen) >> {
+ Summary : Extends BE architecture
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Story
+ Points : 5.0
+Total  Points : 5
 }
 
 class "ARS-22" << (S,lightgreen) >> {
-  Summary : Define BE architecture
-  Assigned to : PAOLO BRUNASTI
-  Status : Done
-  Type : Story
-  Points : 5.0
+ Summary : Define BE architecture
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Story
+ Points : 5.0
+Total  Points : 5
 }
 
 
 
 ' Links =======
+"ARS-52" <.. "ARS-88" : Cloners
+
 "ARS-28" <.. "ARS-38" : Cloners
 
 "ARS-22" <.. "ARS-52" : Cloners

@@ -1,9 +1,6 @@
-Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers,Watchers Id,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Cloners),Outward issue link (Cloners),Inward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Inward issue link (Polaris datapoint issue link),Outward issue link (Polaris datapoint issue link),Inward issue link (Polaris issue link),Inward issue link (Polaris issue link),Inward issue link (Polaris issue link),Inward issue link (Polaris issue link),Outward issue link (Polaris issue link),Inward issue link (Relates),Outward issue link (Relates),Attachment,Attachment,Attachment,Custom field (AIS - Acceptance Criteria),Custom field (AND Theme),Custom field (ANDi Contact(s)),Custom field (ANDi Level),Custom field (ANDi Role & Level),Custom field (Ability to reproduce),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria ),Custom field (Acceptance Criteria ),Custom field (Acceptance crietera),Custom field (Ada End Date),Custom field (Affected services),Custom field (Assumptions ),Custom field (Baseline for primary metric),Custom field (Bid Documentation Link),Custom field (Bid Stage),Custom field (Billable),Custom field (Blocked reason),Custom field (Buddy),Custom field (Business Value),Custom field (Campus Start Date),Custom field (Category),Custom field (Change completion date),Custom field (Change reason),Custom field (Change risk),Custom field (Change start date),Custom field (Change type),Custom field (Checklist Completed),Custom field (Checklist Content YAML),Custom field (Checklist Progress),Custom field (Checklist Progress %),Custom field (Checklist Text),Custom field (Checklist Text (view-only)),Custom field (Club),Custom field (Club Vision),Custom field (Club Vision),Custom field (Comments),Custom field (Commercials),Custom field (Commericals),Custom field (Community),Custom field (Community),Custom field (Company size),Custom field (Confidence Level Score),Custom field (Content type),Custom field (Create wireframe),Custom field (Deadline),Custom field (Deadline),Custom field (Definition of Done),Custom field (Definition of Done),Custom field (Definition of Done (DOD)),Custom field (Definition of Done (DOD)),Custom field (Definition of Done (DOD)),Custom field (Definition of Ready),Custom field (Delivery progress),Custom field (Delivery status),Custom field (Department),Custom field (Dependencies),Custom field (Dependencies),Custom field (Dependencies),Custom field (Dependent Story),Custom field (Design),Custom field (Designs),Custom field (Designs ready),Custom field (Desired result),Custom field (Desktop Design),Custom field (Development),Custom field (DoD),Custom field (DoD),Custom field (DoR),Custom field (DoR),Custom field (Due by date),Custom field (Due by date),Custom field (Effort),Custom field (Email),Custom field (End date),Custom field (Engagement End Date),Custom field (Engagement Start Date),Custom field (Epic Color),Custom field (Epic Name),Custom field (Epic Status),Custom field (Estimated Time),Custom field (Estimation),Custom field (Exp. Primary KPI),Custom field (Experiment Name),Custom field (Experiment Name/Key),Custom field (Experiment Split),Custom field (GSDT: Contentful Information),Custom field (GSDT: User Story),Custom field (Gladys Lens - ANDi),Custom field (Gladys Lens - ANDi),Custom field (Gladys Lens - Client),Custom field (Gladys Lens - Client),Custom field (Gladys Lens - Client),Custom field (Gladys Lens - Club),Custom field (Gladys Lens - Club),Custom field (Gladys Lens - Commercials),Custom field (Gladys Lens - Commercials),Custom field (Goal impact),Custom field (Guild),Custom field (Guild),Custom field (Guild),Custom field (Guild),Custom field (Guild),Custom field (Hiring department),Custom field (Hiring manager),Custom field (Hypothesis / Objective),Custom field (I would like to),Custom field (ILab Zone),Custom field (Idea archived),Custom field (Idea archived on),Custom field (Impact),Custom field (Impact score),Custom field (Impact vs. effort),Custom field (Insights),Custom field (Insights impact),Custom field (Interview Date),Custom field (Issue color),Custom field (Job role),Custom field (KM - Controls + Support),Custom field (KM - How?),Custom field (KM - Inputs + Pre-conditions),Custom field (KM - Outputs + Post-conditions),Custom field (KM - Role - Accountabilities),Custom field (KM - Role - Experience),Custom field (KM - Role - Responsibilities),Custom field (KM - Role - Skills),Custom field (KM - Roles + Resources),Custom field (KM - What?),Custom field (KM - Why?),Custom field (KX - Description),Custom field (Last Worked on ),Custom field (Learning & Challenges),Custom field (Learning & Challenges),Custom field (Learning & Challenges),Custom field (Learning & Challenges),Custom field (Learning & Challenges),Custom field (Learning & Challenges),Custom field (Learning Goal),Custom field (Learnings & Challenges),Custom field (Link to figma),Custom field (Link to storyboard/supporting media),Custom field (Linked issues),Custom field (Links to Designs),Custom field (Location),Custom field (Locked forms),Custom field (Magic Story Points),Custom field (Mobile Design),Custom field (Murray Client),Custom field (Murray Client),Custom field (Murray Squad),Custom field (Murray Squad Lead),Custom field (Newton Client),Custom field (Newton Squad),Custom field (Next Engagement Start Date),Custom field (Number of unique visitors),Custom field (OKR Related to),Custom field (Open forms),Custom field (Opportunity value),Custom field (Persona),Custom field (Phone number),Custom field (Product Affected),Custom field (Product Value Score),Custom field (Product area),Custom field (Project Name),Custom field (Project overview key),Custom field (Project overview status),Custom field (Project start),Custom field (Project target),Custom field (Projected MDE),Custom field (Proposed ANDis),Custom field (Public description),Custom field (Publication date),Custom field (Questions ),Custom field (Rank),Custom field (Reference),Custom field (Release Version),Custom field (Release Version),Custom field (Release Version),Custom field (Release Version),Custom field (Request For Change),Custom field (Request For Change),Custom field (Request Type),Custom field (Request language),Custom field (Request participants),Custom field (Required sample size),Custom field (Resolution),Custom field (Resolution),Custom field (Response Length),Custom field (RnD),Custom field (Roadmap),Custom field (Role Type),Custom field (Run time),Satisfaction rating,Custom field (Satisfaction date),Custom field (Score),Custom field (Session Date),Custom field (Short description),Custom field (So that),Custom field (Spec ready),Custom field (Sponsor),Sprint,Sprint,Custom field (Squad),Custom field (Squad),Custom field (Squad Lead),Custom field (Start date),Custom field (Start date),Custom field (Steps to Replicate),Custom field (Story Points),Custom field (Story Points),Custom field (Story Points),Custom field (Story Who),Custom field (Story point estimate),Custom field (Story point estimate),Custom field (Story point(s)),Custom field (Story points),Custom field (Structure),Custom field (Submitted forms),Custom field (Subproject),Custom field (Subproject),Custom field (Supporting Data),Custom field (T-Shirt Size),Custom field (T-Shirt Size),Custom field (T-Shirt Size),Custom field (T-shirt Size),Custom field (T-shirt Size Estimation),Custom field (TD Due By),Custom field (TShirt Size),Custom field (Target end),Custom field (Target start),Custom field (Task),Custom field (Task Type),Custom field (Tasks),Custom field (Team),Custom field (Team),Custom field (Tee-shirt sizing),Custom field (Template),Custom field (Test),Custom field (Theme),Custom field (Timebox),Custom field (Total forms),Custom field (Updates),Custom field (Upskilling),Custom field (Upskilling),Custom field (User Story),Custom field (Value),Custom field (Value to SH),Custom field (Vulnerability),Custom field (Website),Custom field ([CHART] Date of First Response),Custom field ([CHART] Time in Status),Custom field (uuid),Comment,Comment,Comment,Comment,Comment,Parent,Parent summary,Status Category,Status Category Changed
-Python server code generated from Swagger,ARS-71,72253,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,14/May/24 2:24 PM,14/May/24 2:24 PM,14/May/24 2:25 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046po:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,72105,Prototype BE architecture,To Do,14/May/24 2:24 PM
-Connection with Contentful,ARS-70,72252,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,14/May/24 2:23 PM,14/May/24 2:23 PM,14/May/24 2:25 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046pg:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,72105,Prototype BE architecture,To Do,14/May/24 2:23 PM
-PDF Library,ARS-69,72251,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,14/May/24 2:23 PM,14/May/24 2:24 PM,14/May/24 2:25 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046p8:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,72105,Prototype BE architecture,To Do,14/May/24 2:23 PM
-Security,ARS-68,72250,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,14/May/24 2:22 PM,14/May/24 2:24 PM,14/May/24 2:25 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046p0:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,72105,Prototype BE architecture,To Do,14/May/24 2:22 PM
-Implement FE API - user endpoints,ARS-67,72249,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Nneka Tielman,6294f4fd1a2bdf0070942111,Nneka Tielman,6294f4fd1a2bdf0070942111,14/May/24 2:21 PM,14/May/24 2:21 PM,14/May/24 2:25 PM,,,0,,,Nneka Tielman,,6294f4fd1a2bdf0070942111,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046os:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers,Watchers Id,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Blocks),Inward issue link (Blocks),Outward issue link (Blocks),Inward issue link (Cloners),Outward issue link (Cloners),Inward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Outward issue link (Issue split),Inward issue link (Polaris datapoint issue link),Outward issue link (Polaris datapoint issue link),Inward issue link (Polaris issue link),Inward issue link (Polaris issue link),Inward issue link (Polaris issue link),Inward issue link (Polaris issue link),Outward issue link (Polaris issue link),Inward issue link (Relates),Inward issue link (Relates),Inward issue link (Relates),Outward issue link (Relates),Attachment,Attachment,Attachment,Custom field (AIS - Acceptance Criteria),Custom field (AND Theme),Custom field (ANDi Contact(s)),Custom field (ANDi Level),Custom field (ANDi Role & Level),Custom field (Ability to reproduce),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria),Custom field (Acceptance Criteria ),Custom field (Acceptance Criteria ),Custom field (Acceptance crietera),Custom field (Ada End Date),Custom field (Affected services),Custom field (Assumptions ),Custom field (Baseline for primary metric),Custom field (Bid Documentation Link),Custom field (Bid Stage),Custom field (Billable),Custom field (Blocked reason),Custom field (Buddy),Custom field (Business Value),Custom field (Campus Start Date),Custom field (Category),Custom field (Change completion date),Custom field (Change reason),Custom field (Change risk),Custom field (Change start date),Custom field (Change type),Custom field (Checklist Completed),Custom field (Checklist Content YAML),Custom field (Checklist Progress),Custom field (Checklist Progress %),Custom field (Checklist Text),Custom field (Checklist Text (view-only)),Custom field (Club),Custom field (Club Vision),Custom field (Club Vision),Custom field (Comments),Custom field (Commercials),Custom field (Commericals),Custom field (Community),Custom field (Community),Custom field (Company size),Custom field (Confidence Level Score),Custom field (Content type),Custom field (Create wireframe),Custom field (Deadline),Custom field (Deadline),Custom field (Definition of Done),Custom field (Definition of Done),Custom field (Definition of Done (DOD)),Custom field (Definition of Done (DOD)),Custom field (Definition of Done (DOD)),Custom field (Definition of Ready),Custom field (Delivery progress),Custom field (Delivery status),Custom field (Department),Custom field (Dependencies),Custom field (Dependencies),Custom field (Dependencies),Custom field (Dependent Story),Custom field (Design),Custom field (Designs),Custom field (Designs ready),Custom field (Desired result),Custom field (Desktop Design),Custom field (Development),Custom field (DoD),Custom field (DoD),Custom field (DoR),Custom field (DoR),Custom field (Due by date),Custom field (Due by date),Custom field (Effort),Custom field (Email),Custom field (End date),Custom field (Engagement End Date),Custom field (Engagement Start Date),Custom field (Epic Color),Custom field (Epic Name),Custom field (Epic Status),Custom field (Estimated Time),Custom field (Estimation),Custom field (Exp. Primary KPI),Custom field (Experiment Name),Custom field (Experiment Name/Key),Custom field (Experiment Split),Custom field (GSDT: Contentful Information),Custom field (GSDT: User Story),Custom field (Gladys Lens - ANDi),Custom field (Gladys Lens - ANDi),Custom field (Gladys Lens - Client),Custom field (Gladys Lens - Client),Custom field (Gladys Lens - Client),Custom field (Gladys Lens - Club),Custom field (Gladys Lens - Club),Custom field (Gladys Lens - Commercials),Custom field (Gladys Lens - Commercials),Custom field (Goal impact),Custom field (Guild),Custom field (Guild),Custom field (Guild),Custom field (Guild),Custom field (Guild),Custom field (Hiring department),Custom field (Hiring manager),Custom field (Hypothesis / Objective),Custom field (I would like to),Custom field (ILab Zone),Custom field (Idea archived),Custom field (Idea archived on),Custom field (Impact),Custom field (Impact score),Custom field (Impact vs. effort),Custom field (Insights),Custom field (Insights impact),Custom field (Interview Date),Custom field (Issue color),Custom field (Job role),Custom field (KM - Controls + Support),Custom field (KM - How?),Custom field (KM - Inputs + Pre-conditions),Custom field (KM - Outputs + Post-conditions),Custom field (KM - Role - Accountabilities),Custom field (KM - Role - Experience),Custom field (KM - Role - Responsibilities),Custom field (KM - Role - Skills),Custom field (KM - Roles + Resources),Custom field (KM - What?),Custom field (KM - Why?),Custom field (KX - Description),Custom field (Last Worked on ),Custom field (Learning & Challenges),Custom field (Learning & Challenges),Custom field (Learning & Challenges),Custom field (Learning & Challenges),Custom field (Learning & Challenges),Custom field (Learning & Challenges),Custom field (Learning Goal),Custom field (Learnings & Challenges),Custom field (Link to figma),Custom field (Link to storyboard/supporting media),Custom field (Linked issues),Custom field (Links to Designs),Custom field (Location),Custom field (Locked forms),Custom field (Magic Story Points),Custom field (Mobile Design),Custom field (Murray Client),Custom field (Murray Client),Custom field (Murray Squad),Custom field (Murray Squad Lead),Custom field (Newton Client),Custom field (Newton Squad),Custom field (Next Engagement Start Date),Custom field (Number of unique visitors),Custom field (OKR Related to),Custom field (Open forms),Custom field (Opportunity value),Custom field (Persona),Custom field (Phone number),Custom field (Product Affected),Custom field (Product Value Score),Custom field (Product area),Custom field (Project Name),Custom field (Project overview key),Custom field (Project overview status),Custom field (Project start),Custom field (Project target),Custom field (Projected MDE),Custom field (Proposed ANDis),Custom field (Public description),Custom field (Publication date),Custom field (Questions ),Custom field (Rank),Custom field (Reference),Custom field (Release Version),Custom field (Release Version),Custom field (Release Version),Custom field (Release Version),Custom field (Request For Change),Custom field (Request For Change),Custom field (Request Type),Custom field (Request language),Custom field (Request participants),Custom field (Required sample size),Custom field (Resolution),Custom field (Resolution),Custom field (Response Length),Custom field (RnD),Custom field (Roadmap),Custom field (Role Type),Custom field (Run time),Satisfaction rating,Custom field (Satisfaction date),Custom field (Score),Custom field (Session Date),Custom field (Short description),Custom field (So that),Custom field (Spec ready),Custom field (Sponsor),Sprint,Sprint,Custom field (Squad),Custom field (Squad),Custom field (Squad Lead),Custom field (Start date),Custom field (Start date),Custom field (Steps to Replicate),Custom field (Story Points),Custom field (Story Points),Custom field (Story Points),Custom field (Story Who),Custom field (Story point estimate),Custom field (Story point estimate),Custom field (Story point(s)),Custom field (Story points),Custom field (Structure),Custom field (Submitted forms),Custom field (Subproject),Custom field (Subproject),Custom field (Supporting Data),Custom field (T-Shirt Size),Custom field (T-Shirt Size),Custom field (T-Shirt Size),Custom field (T-shirt Size),Custom field (T-shirt Size Estimation),Custom field (TD Due By),Custom field (TShirt Size),Custom field (Target end),Custom field (Target start),Custom field (Task),Custom field (Task Type),Custom field (Tasks),Custom field (Team),Custom field (Team),Custom field (Tee-shirt sizing),Custom field (Template),Custom field (Test),Custom field (Theme),Custom field (Timebox),Custom field (Total forms),Custom field (Updates),Custom field (Upskilling),Custom field (Upskilling),Custom field (User Story),Custom field (Value),Custom field (Value to SH),Custom field (Vulnerability),Custom field (Website),Custom field ([CHART] Date of First Response),Custom field ([CHART] Time in Status),Custom field (uuid),Comment,Comment,Comment,Comment,Comment,Parent,Parent summary,Status Category,Status Category Changed
+Extends BE architecture,ARS-88,72354,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,16/May/24 2:17 PM,16/May/24 2:17 PM,16/May/24 2:20 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,ARS-52,,,,,,,,,,,,,,,,,,ARS-76,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i0477w:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,16/May/24 2:17 PM
+Cleanup VW Tailwind classes,ARS-87,72353,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,16/May/24 2:00 PM,16/May/24 2:00 PM,16/May/24 2:20 PM,,,0,,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i0477o:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -43,14 +40,619 @@ Out of scope:
 * 
 {panel}
 
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71899,Back End for Survey,To Do,14/May/24 2:21 PM
-DB Connection pooling,ARS-66,72247,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,14/May/24 2:16 PM,14/May/24 2:24 PM,14/May/24 2:25 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046oc:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,72105,Prototype BE architecture,To Do,14/May/24 2:16 PM
-ORM definition of User,ARS-65,72246,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,14/May/24 2:16 PM,14/May/24 2:23 PM,14/May/24 2:25 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046o4:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,72105,Prototype BE architecture,To Do,14/May/24 2:16 PM
-Auth for Analytics API,ARS-64,72243,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Nneka Tielman,6294f4fd1a2bdf0070942111,Nneka Tielman,6294f4fd1a2bdf0070942111,14/May/24 1:53 PM,14/May/24 1:59 PM,14/May/24 2:25 PM,,,0,"Add authentication/ authorisation for endpoints related to analytics api.
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,16/May/24 2:00 PM
+"Create base data (Language, ..)",ARS-86,72340,Subtask,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,16/May/24 9:48 AM,16/May/24 10:36 AM,16/May/24 2:20 PM,16/May/24 10:36 AM,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i0475w:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13260_*:*_1_*:*_2894558_*|*_13261_*:*_1_*:*_0_*|*_13259_*:*_1_*:*_4500,,,,,,,72105,Prototype BE architecture,Done,16/May/24 10:36 AM
+Security and Configuration : place connection values in a .env file for more security,ARS-85,72323,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,15/May/24 2:16 PM,15/May/24 2:16 PM,15/May/24 2:16 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i04730:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+* 
+
+Out of scope:
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71899,Back End for Survey,To Do,15/May/24 2:16 PM
+Create test data in the DB,ARS-84,72292,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,15/May/24 10:05 AM,15/May/24 12:32 PM,15/May/24 2:16 PM,15/May/24 12:32 PM,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:ko,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,2.0,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+* 
+
+Out of scope:
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13260_*:*_1_*:*_8521438_*|*_13261_*:*_1_*:*_0_*|*_13262_*:*_1_*:*_219504_*|*_13259_*:*_1_*:*_43732,,,,,,,71899,Back End for Survey,Done,15/May/24 12:32 PM
+Mechanism to replace the tags in the texts,ARS-83,72282,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,15/May/24 9:18 AM,15/May/24 9:18 AM,15/May/24 9:21 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046v0:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+* 
+
+Out of scope:
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,72277,Final Report,To Do,15/May/24 9:18 AM
+Implement the result algorithm,ARS-82,72281,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,15/May/24 9:16 AM,15/May/24 9:16 AM,16/May/24 2:20 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046us:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+* 
+
+Out of scope:
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,72277,Final Report,To Do,15/May/24 9:16 AM
+Define the algorithm to compute the results,ARS-81,72280,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,15/May/24 9:16 AM,15/May/24 9:16 AM,16/May/24 2:20 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046uk:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+* 
+
+Out of scope:
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,72277,Final Report,To Do,15/May/24 9:16 AM
+Store the different Dimension Responses for the result in the DB,ARS-80,72278,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,15/May/24 9:12 AM,15/May/24 9:12 AM,16/May/24 2:20 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046u4:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+* 
+
+Out of scope:
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,72277,Final Report,To Do,15/May/24 9:12 AM
+Final Report,ARS-79,72277,Epic,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,15/May/24 9:11 AM,15/May/24 9:11 AM,15/May/24 9:11 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046tw:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,15/May/24 9:11 AM
+Create Image Component for Landing Page,ARS-78,72276,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,14/May/24 7:14 PM,16/May/24 9:12 AM,15/May/24 9:10 AM,16/May/24 9:12 AM,,0,,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:ke,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+* 
+
+Out of scope:
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13260_*:*_1_*:*_88187912_*|*_13261_*:*_1_*:*_0_*|*_13262_*:*_1_*:*_48461343_*|*_13259_*:*_1_*:*_25715,,,,,,,,,Done,16/May/24 9:12 AM
+Add Font to the Tailwind Config,ARS-77,72275,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,14/May/24 7:12 PM,16/May/24 8:57 AM,16/May/24 2:20 PM,15/May/24 7:44 PM,,0,,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:kf,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,2.0,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+* 
+
+Out of scope:
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13260_*:*_1_*:*_66959642_*|*_13261_*:*_1_*:*_0_*|*_13262_*:*_1_*:*_21202029_*|*_13259_*:*_1_*:*_149593,,,,,,,,,Done,15/May/24 7:44 PM
+Set up Contentful to DB webhook,ARS-76,72268,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Nneka Tielman,6294f4fd1a2bdf0070942111,Nneka Tielman,6294f4fd1a2bdf0070942111,14/May/24 3:43 PM,16/May/24 2:17 PM,16/May/24 2:20 PM,,,0,"To ""push"" data into another system Contentful provides [+webhooks+|https://www.contentful.com/developers/docs/concepts/webhooks/]. These are HTTP requests that are made when you create/update an entry. Their payload includes information about the updated entry.
+
+To feed our database we need some logic in between Contentful and our database. 
+Set up an HTTP endpoint that is able to modify transform the database. This endpoint can then retrieve the information of updated Contentful content and modify our database.
+
+Helpful links:
+[https://www.contentful.com/developers/docs/webhooks/overview/|https://www.contentful.com/developers/docs/webhooks/overview/|smart-link] ",,Nneka Tielman,,6294f4fd1a2bdf0070942111,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS-26,ARS-52,ARS-88,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044jv:r,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+* 
+
+Out of scope:
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71899,Back End for Survey,To Do,14/May/24 3:43 PM
+Generate pdf with spider graph,ARS-75,72263,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Nneka Tielman,6294f4fd1a2bdf0070942111,Nneka Tielman,6294f4fd1a2bdf0070942111,14/May/24 3:25 PM,14/May/24 3:31 PM,16/May/24 2:20 PM,,,0,"Create a function that takes an array of user_dimension_results as input and returns a pdf. The pdf should include the above mentioned data, a spider graph, and should be styled/ have a layout according to provided design",,Nneka Tielman,,6294f4fd1a2bdf0070942111,,,,,,,,,,,,,,,ARS-74,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044kb:i,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.0,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+Out of scope:
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+Designs for pdf need to be provided
+{panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71899,Back End for Survey,To Do,14/May/24 3:25 PM
+Implement FE API - submit survey endpoint,ARS-74,72257,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Nneka Tielman,6294f4fd1a2bdf0070942111,Nneka Tielman,6294f4fd1a2bdf0070942111,14/May/24 3:02 PM,14/May/24 3:30 PM,16/May/24 2:20 PM,,,0,"Implement endpoints and db querying services related to FE api.
+
+Create following endpoints:
+*POST /responses/{uuid}/submit* 
+
+* should mark survey as complete
+* should generate the user’s results and recommendations
+* should return the above mentioned results data to FE
+* should generate pdf with above mentioned results data (including spider graph)
+* should trigger email to be sent with generated pdf",,Nneka Tielman,,6294f4fd1a2bdf0070942111,,,,,,,,,,,,,,,ARS-26,ARS-5,ARS-75,,,,,,,,,,,,ARS-43,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044jv:i,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8.0,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+Out of scope:
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+where are the recommendations stored?
+Are the recommendations’s specific to stage(s)?
+{panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71899,Back End for Survey,To Do,14/May/24 3:02 PM
+Implement FE API - response endpoints,ARS-73,72255,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Nneka Tielman,6294f4fd1a2bdf0070942111,Nneka Tielman,6294f4fd1a2bdf0070942111,Nneka Tielman,6294f4fd1a2bdf0070942111,14/May/24 2:36 PM,14/May/24 2:44 PM,16/May/24 2:20 PM,,,0,"Implement endpoints and db querying services related to FE api.
+
+Create following endpoints:
+*GET /responses/{uuid}* → return a list of user responses by user uuid from db
+
+*POST /responses* → add a new user response to db
+
+* should handle updating a response",,Nneka Tielman,,6294f4fd1a2bdf0070942111,,,,,,,,,,,,,,,ARS-26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046pw:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,5.0,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+* 
+
+Out of scope:
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71899,Back End for Survey,To Do,14/May/24 2:36 PM
+Implement Analytics API - results endpoints,ARS-72,72254,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Nneka Tielman,6294f4fd1a2bdf0070942111,Nneka Tielman,6294f4fd1a2bdf0070942111,14/May/24 2:30 PM,14/May/24 2:35 PM,16/May/24 2:20 PM,,,0,"Implement endpoints and db querying services related to analytics api.
+
+Create following endpoints:
+*GET /results* → should return all results from db
+
+* should be able to filter by demographics
+* should be able to filter by dimension
+* should be able to filter by stage",,Nneka Tielman,,6294f4fd1a2bdf0070942111,,,,,,,,,,,,ARS-64,,,ARS-26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044ju:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5.0,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+* 
+
+Out of scope:
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71899,Back End for Survey,To Do,14/May/24 2:30 PM
+Python server code generated from Swagger,ARS-71,72253,Subtask,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,14/May/24 2:24 PM,16/May/24 9:08 AM,14/May/24 2:25 PM,16/May/24 9:08 AM,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046po:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13260_*:*_1_*:*_85701388_*|*_13261_*:*_1_*:*_0_*|*_13259_*:*_1_*:*_68156418,,,,,,,72105,Prototype BE architecture,Done,16/May/24 9:08 AM
+Connection with Contentful,ARS-70,72252,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,14/May/24 2:23 PM,14/May/24 2:23 PM,16/May/24 2:20 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046pg:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,72105,Prototype BE architecture,To Do,14/May/24 2:23 PM
+PDF Library,ARS-69,72251,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,14/May/24 2:23 PM,14/May/24 2:24 PM,16/May/24 2:20 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046p8:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,72105,Prototype BE architecture,To Do,14/May/24 2:23 PM
+Security,ARS-68,72250,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,14/May/24 2:22 PM,16/May/24 2:19 PM,16/May/24 2:19 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046p0:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,72354,Extends BE architecture,To Do,14/May/24 2:22 PM
+Implement FE API - user endpoints,ARS-67,72249,Story,In Progress,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Nneka Tielman,6294f4fd1a2bdf0070942111,Nneka Tielman,6294f4fd1a2bdf0070942111,Nneka Tielman,6294f4fd1a2bdf0070942111,14/May/24 2:21 PM,14/May/24 2:45 PM,16/May/24 2:20 PM,,,0,"Implement endpoints and db querying services related to FE api.
+
+Create following endpoints:
+*GET /users/{uuid}* → return a user by uuid from db
+
+*POST /users* → add a new user to db and return the new user object including uuid
+
+*PUT /users/{uuid}* → update a user by uuid and return the updated user object",,Nneka Tielman,,6294f4fd1a2bdf0070942111,,,,,,,,,,,,,,,ARS-26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046os:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+* 
+
+Out of scope:
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71899,Back End for Survey,In Progress,14/May/24 2:45 PM
+DB Connection pooling,ARS-66,72247,Subtask,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,14/May/24 2:16 PM,16/May/24 2:10 PM,16/May/24 2:20 PM,16/May/24 2:10 PM,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046oc:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13261_*:*_1_*:*_0_*|*_13259_*:*_1_*:*_172439658,,,,,,,72105,Prototype BE architecture,Done,16/May/24 2:10 PM
+ORM definition of User,ARS-65,72246,Subtask,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,14/May/24 2:16 PM,15/May/24 9:20 AM,16/May/24 2:20 PM,15/May/24 9:20 AM,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046o4:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13261_*:*_1_*:*_0_*|*_13259_*:*_1_*:*_68667023,,,,,,,72105,Prototype BE architecture,Done,15/May/24 9:20 AM
+Auth for Analytics API,ARS-64,72243,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Nneka Tielman,6294f4fd1a2bdf0070942111,Nneka Tielman,6294f4fd1a2bdf0070942111,14/May/24 1:53 PM,14/May/24 2:35 PM,16/May/24 2:20 PM,,,0,"Add authentication/ authorisation for endpoints related to analytics api.
 
 *GET /users* → should return all users from db if user is authenticated and authorised. else return 403
 
-*GET /results* → should return all results from db if user is authenticated and authorised. else return 403",,Nneka Tielman,,6294f4fd1a2bdf0070942111,,,,,,,,,,,,ARS-26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046ng:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+*GET /results* → should return all results from db if user is authenticated and authorised. else return 403",,Nneka Tielman,,6294f4fd1a2bdf0070942111,,,,,,,,,,ARS-72,ARS-63,,,,ARS-26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044jv:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -91,16 +693,11 @@ Out of scope:
 {panel:bgColor=#fffae6}
 *TECH CONSIDERATIONS*
 {panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71899,Back End for Survey,To Do,14/May/24 1:53 PM
-Implement Analytics API,ARS-63,72242,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Nneka Tielman,6294f4fd1a2bdf0070942111,Nneka Tielman,6294f4fd1a2bdf0070942111,14/May/24 1:41 PM,14/May/24 1:53 PM,14/May/24 2:25 PM,,,0,"Implement endpoints and db querying services related to analytics api.
+Implement Analytics API - user endpoints,ARS-63,72242,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Nneka Tielman,6294f4fd1a2bdf0070942111,Nneka Tielman,6294f4fd1a2bdf0070942111,Nneka Tielman,6294f4fd1a2bdf0070942111,14/May/24 1:41 PM,14/May/24 2:35 PM,16/May/24 2:20 PM,,,0,"Implement endpoints and db querying services related to analytics api.
 
 Create following endpoints:
 *GET /users* → should return all users from db
- - should be able to filter users by demographics
-
-*GET /results* → should return all results from db
-- should be able to filter by demographics
-- should be able to filter by dimension
-- should be able to filter by stage",,Nneka Tielman,,6294f4fd1a2bdf0070942111,,,,,,,,,,,,ARS-26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044ju:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+ - should be able to filter users by demographics",,Nneka Tielman,,6294f4fd1a2bdf0070942111,,,,,,,,,,,,ARS-64,,,ARS-26,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046oo:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -141,7 +738,7 @@ Out of scope:
 {panel}
 
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71899,Back End for Survey,To Do,14/May/24 1:41 PM
-Spike - AI personalised roadmap,ARS-62,72210,Spike,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Pablo Uhalte,63c006ad8a7d2f693bf75120,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,14/May/24 8:55 AM,14/May/24 9:13 AM,14/May/24 2:25 PM,,,0,"*Scope:* The technical spike aims to research and explore the feasibility of implementing an AI-powered personalised roadmap component within the Client Partnerships (CP) dashboard. This spike will focus on understanding the technical requirements, potential challenges, and available tools and technologies to develop and integrate AI capabilities for generating personalised recommendations based on survey results and input data.
+Spike - AI personalised roadmap,ARS-62,72210,Spike,In Progress,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Pablo Uhalte,63c006ad8a7d2f693bf75120,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,14/May/24 8:55 AM,16/May/24 8:51 AM,16/May/24 2:20 PM,,,0,"*Scope:* The technical spike aims to research and explore the feasibility of implementing an AI-powered personalised roadmap component within the Client Partnerships (CP) dashboard. This spike will focus on understanding the technical requirements, potential challenges, and available tools and technologies to develop and integrate AI capabilities for generating personalised recommendations based on survey results and input data.
 
 
 
@@ -163,7 +760,7 @@ Spike - AI personalised roadmap,ARS-62,72210,Spike,To Do,ARS,AI Readiness survey
 * Recommendations for AI model selection, data integration strategies, scalability considerations
 * Integration plan, including data flow, processing pipeline, and system components.
 * Data privacy and security recommendations
-* Tasks/user stories to implement",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046ik:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+* Tasks/user stories to implement",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046oy:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -203,11 +800,11 @@ Out of scope:
 * 
 {panel}
 
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,14/May/24 8:55 AM
-Creation of the visuals,ARS-61,72208,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Pablo Uhalte,63c006ad8a7d2f693bf75120,Pablo Uhalte,63c006ad8a7d2f693bf75120,Pablo Uhalte,63c006ad8a7d2f693bf75120,14/May/24 8:52 AM,14/May/24 8:52 AM,14/May/24 2:25 PM,,,0,,,Pablo Uhalte,,63c006ad8a7d2f693bf75120,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046i4:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71835,CP Dashboard for results analysis,To Do,14/May/24 8:52 AM
-Cleanse and standardize data coming from the responses,ARS-60,72207,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Pablo Uhalte,63c006ad8a7d2f693bf75120,Pablo Uhalte,63c006ad8a7d2f693bf75120,Pablo Uhalte,63c006ad8a7d2f693bf75120,14/May/24 8:51 AM,14/May/24 8:52 AM,14/May/24 2:25 PM,,,0,,,Pablo Uhalte,,63c006ad8a7d2f693bf75120,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046hw:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71835,CP Dashboard for results analysis,To Do,14/May/24 8:51 AM
-Connect tool to the database ,ARS-59,72206,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Pablo Uhalte,63c006ad8a7d2f693bf75120,Pablo Uhalte,63c006ad8a7d2f693bf75120,Pablo Uhalte,63c006ad8a7d2f693bf75120,14/May/24 8:46 AM,14/May/24 8:52 AM,14/May/24 2:25 PM,,,0,,,Pablo Uhalte,,63c006ad8a7d2f693bf75120,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046ho:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71835,CP Dashboard for results analysis,To Do,14/May/24 8:46 AM
-Button components,ARS-58,72124,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,13/May/24 9:58 AM,13/May/24 9:59 AM,13/May/24 3:50 PM,,,0,,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045yu:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,5.0,,,"{panel:bgColor=#e3fcef}
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,16/May/24 8:51 AM
+Creation of the visuals,ARS-61,72208,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Pablo Uhalte,63c006ad8a7d2f693bf75120,Pablo Uhalte,63c006ad8a7d2f693bf75120,Pablo Uhalte,63c006ad8a7d2f693bf75120,14/May/24 8:52 AM,14/May/24 8:52 AM,16/May/24 2:20 PM,,,0,,,Pablo Uhalte,,63c006ad8a7d2f693bf75120,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046i4:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71835,CP Dashboard for results analysis,To Do,14/May/24 8:52 AM
+Cleanse and standardize data coming from the responses,ARS-60,72207,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Pablo Uhalte,63c006ad8a7d2f693bf75120,Pablo Uhalte,63c006ad8a7d2f693bf75120,Pablo Uhalte,63c006ad8a7d2f693bf75120,14/May/24 8:51 AM,14/May/24 8:52 AM,16/May/24 2:20 PM,,,0,,,Pablo Uhalte,,63c006ad8a7d2f693bf75120,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046hw:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71835,CP Dashboard for results analysis,To Do,14/May/24 8:51 AM
+Connect tool to the database ,ARS-59,72206,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Pablo Uhalte,63c006ad8a7d2f693bf75120,Pablo Uhalte,63c006ad8a7d2f693bf75120,Pablo Uhalte,63c006ad8a7d2f693bf75120,14/May/24 8:46 AM,14/May/24 8:52 AM,16/May/24 2:20 PM,,,0,,,Pablo Uhalte,,63c006ad8a7d2f693bf75120,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046ho:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71835,CP Dashboard for results analysis,To Do,14/May/24 8:46 AM
+Button components,ARS-58,72124,Story,In Progress,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Juan Solano,633409fea84c7f79c38738eb,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,13/May/24 9:58 AM,16/May/24 8:36 AM,13/May/24 3:50 PM,,,0,,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046ox:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,5.0,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -247,8 +844,8 @@ Out of scope:
 * 
 {panel}
 
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,13/May/24 9:58 AM
-Banner component,ARS-57,72112,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Juan Solano,633409fea84c7f79c38738eb,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,13/May/24 9:30 AM,14/May/24 8:54 AM,14/May/24 2:25 PM,,,0,,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045ys:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,16/May/24 8:36 AM
+Banner component,ARS-57,72112,Story,In Progress,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Juan Solano,633409fea84c7f79c38738eb,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,13/May/24 9:30 AM,15/May/24 1:51 PM,16/May/24 2:20 PM,,,0,,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i046ou:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -288,8 +885,8 @@ Out of scope:
 * 
 {panel}
 
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,13/May/24 9:30 AM
-Input Fields Validation,ARS-56,72110,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,13/May/24 9:22 AM,13/May/24 10:03 AM,14/May/24 2:25 PM,,,0,,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,ARS-1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045yc:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,15/May/24 1:51 PM
+Input Fields Validation,ARS-56,72110,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,13/May/24 9:22 AM,13/May/24 10:03 AM,16/May/24 2:20 PM,,,0,,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,ARS-1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045yc:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -330,7 +927,48 @@ Out of scope:
 {panel}
 
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,13/May/24 9:22 AM
-Typography component,ARS-55,72109,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Juan Solano,633409fea84c7f79c38738eb,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,13/May/24 9:21 AM,14/May/24 8:55 AM,14/May/24 2:25 PM,,,0,,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045y4:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,5.0,,,"{panel:bgColor=#e3fcef}
+Typography component,ARS-55,72109,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,13/May/24 9:21 AM,15/May/24 7:44 PM,16/May/24 2:20 PM,15/May/24 7:44 PM,,0,,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:ki,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,5.0,,,"{panel:bgColor=#e3fcef}
+*GOAL*
+
+*As a…*
+
+*I want…*
+
+*So that…*
+{panel}
+
+{panel:bgColor=#eae6ff}
+*SCOPE*
+
+In scope:
+
+* 
+
+Out of scope:
+
+* 
+{panel}
+
+{panel:bgColor=#deebff}
+*ACCEPTANCE CRITERIA*
+
++*Scenario 1*+
+
+*Given…*
+
+*When…*
+
+*Then…*
+{panel}
+
+{panel:bgColor=#fffae6}
+*TECH CONSIDERATIONS*
+
+* 
+{panel}
+
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13260_*:*_2_*:*_65035565_*|*_13261_*:*_1_*:*_0_*|*_13262_*:*_1_*:*_23162603_*|*_13259_*:*_2_*:*_121970652,,,,,,,,,Done,15/May/24 7:44 PM
+Footer component,ARS-54,72108,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Juan Solano,633409fea84c7f79c38738eb,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,13/May/24 9:21 AM,14/May/24 5:52 PM,16/May/24 2:20 PM,,,0,,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045xw:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -371,7 +1009,7 @@ Out of scope:
 {panel}
 
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,13/May/24 9:21 AM
-Footer component,ARS-54,72108,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,13/May/24 9:21 AM,13/May/24 9:25 AM,14/May/24 2:25 PM,,,0,,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045xw:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
+Navbar component for Landing Page,ARS-53,72107,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,13/May/24 9:21 AM,15/May/24 9:52 AM,16/May/24 2:20 PM,15/May/24 9:52 AM,,0,,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:m,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -411,52 +1049,11 @@ Out of scope:
 * 
 {panel}
 
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,13/May/24 9:21 AM
-Navbar component for Landing Page,ARS-53,72107,Story,In Progress,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Juan Solano,633409fea84c7f79c38738eb,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,13/May/24 9:21 AM,14/May/24 11:18 AM,14/May/24 2:25 PM,,,0,,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j3:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
-*GOAL*
-
-*As a…*
-
-*I want…*
-
-*So that…*
-{panel}
-
-{panel:bgColor=#eae6ff}
-*SCOPE*
-
-In scope:
-
-* 
-
-Out of scope:
-
-* 
-{panel}
-
-{panel:bgColor=#deebff}
-*ACCEPTANCE CRITERIA*
-
-+*Scenario 1*+
-
-*Given…*
-
-*When…*
-
-*Then…*
-{panel}
-
-{panel:bgColor=#fffae6}
-*TECH CONSIDERATIONS*
-
-* 
-{panel}
-
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,14/May/24 10:55 AM
-Prototype BE architecture,ARS-52,72105,Story,In Progress,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,13/May/24 9:10 AM,14/May/24 2:06 PM,14/May/24 2:14 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,ARS-22,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:oi,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71911,Infrastructure,In Progress,14/May/24 2:06 PM
-Create structure for the storage of the different answers for each dimension depending on the stage,ARS-51,72034,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,08/May/24 3:17 PM,08/May/24 3:18 PM,10/May/24 1:25 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045jg:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,ARS Sprint 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71902,Model BE DB,To Do,08/May/24 3:17 PM
-Update User structure with info from Figma,ARS-50,72033,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,08/May/24 3:17 PM,08/May/24 3:17 PM,14/May/24 2:25 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045j8:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,ARS Sprint 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71902,Model BE DB,To Do,08/May/24 3:17 PM
-research connect Contentful to postgreSQL,ARS-49,72030,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Nneka Tielman,6294f4fd1a2bdf0070942111,Nneka Tielman,6294f4fd1a2bdf0070942111,Nneka Tielman,6294f4fd1a2bdf0070942111,08/May/24 2:56 PM,13/May/24 3:50 PM,13/May/24 9:04 AM,13/May/24 3:47 PM,,0,,,Nneka Tielman,,6294f4fd1a2bdf0070942111,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j0:2,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13260_*:*_1_*:*_25006981_*|*_13261_*:*_1_*:*_0_*|*_13262_*:*_1_*:*_57588367_*|*_13259_*:*_1_*:*_92028869,,,,,,,,,Done,15/May/24 9:52 AM
+Prototype BE architecture,ARS-52,72105,Story,In Progress,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,13/May/24 9:10 AM,16/May/24 2:17 PM,16/May/24 2:19 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,ARS-88,ARS-22,,,,,,,,,,,,,,,,,,ARS-76,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:oi,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71911,Infrastructure,In Progress,14/May/24 2:06 PM
+Create structure for the storage of the different answers for each dimension depending on the stage,ARS-51,72034,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,08/May/24 3:17 PM,08/May/24 3:18 PM,10/May/24 1:25 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045jg:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,ARS Sprint 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71902,Model BE DB,To Do,08/May/24 3:17 PM
+Update User structure with info from Figma,ARS-50,72033,Subtask,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,08/May/24 3:17 PM,15/May/24 9:19 AM,16/May/24 2:20 PM,15/May/24 9:19 AM,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045j8:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,ARS Sprint 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13261_*:*_1_*:*_0_*|*_13259_*:*_1_*:*_583362138,,,,,,,71902,Model BE DB,Done,15/May/24 9:19 AM
+research connect Contentful to postgreSQL,ARS-49,72030,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Nneka Tielman,6294f4fd1a2bdf0070942111,Nneka Tielman,6294f4fd1a2bdf0070942111,Nneka Tielman,6294f4fd1a2bdf0070942111,08/May/24 2:56 PM,13/May/24 3:50 PM,13/May/24 9:04 AM,13/May/24 3:47 PM,,0,,,Nneka Tielman,,6294f4fd1a2bdf0070942111,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j0:2,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -509,7 +1106,7 @@ There are number of apps like: [n8n|https://n8n.io/integrations/contentful/and/m
 GraphQL API’s are composable, so one could take multiple GraphQL APIs and unify them into one. Stitching is an approach that let’s you have unified, transparent access to multiple GraphQL APIs. This can make it easier to access data that is split across multiple APIs without understanding where exactly it’s located. If all your APIs use GraphQL it’s possible to [combine everything in one API|https://www.contentful.com/blog/combining-apis-graphql-schema-stitching-part-2/]
 
 *Based on these findings I think approach #1 (accessing Contentful’s CDA API from the BE) is the simplest one to implement*",10/May/24 11:41 AM;6294f4fd1a2bdf0070942111;[~accountid:6347d09a5efe6ce125d88f6f] [~accountid:633409fea84c7f79c38738eb] could you have a look at these findings when you get the chance?,13/May/24 3:50 PM;6294f4fd1a2bdf0070942111;Had a chat with [~accountid:6347d09a5efe6ce125d88f6f] about this ticket. We concluded that using Contentful’s webhooks to update our database will be the best option.,,,,,Done,13/May/24 3:47 PM
-Questions Page - Scroll progress bar,ARS-48,72029,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,08/May/24 2:13 PM,08/May/24 2:13 PM,14/May/24 2:25 PM,,,0,,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045ic:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+Questions Page - Scroll progress bar,ARS-48,72029,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,08/May/24 2:13 PM,08/May/24 2:13 PM,16/May/24 2:20 PM,,,0,,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045ic:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -550,7 +1147,7 @@ Out of scope:
 {panel}
 
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,08/May/24 2:13 PM
-Create View for results of the survey,ARS-47,72028,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,08/May/24 12:51 PM,08/May/24 12:52 PM,09/May/24 9:56 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,ARS-23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045i4:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+Create View for results of the survey,ARS-47,72028,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,08/May/24 12:51 PM,14/May/24 2:56 PM,09/May/24 9:56 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS-23,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044jt:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -591,7 +1188,7 @@ Out of scope:
 {panel}
 
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71899,Back End for Survey,To Do,08/May/24 12:51 PM
-Review Gitlab Pipeline,ARS-45,72003,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,08/May/24 9:34 AM,08/May/24 10:48 AM,08/May/24 9:52 AM,08/May/24 10:48 AM,,0,,,Juan Solano,PAOLO BRUNASTI,633409fea84c7f79c38738eb,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,08/May/24 10:13 AM;633409fea84c7f79c38738eb;Screenshot 2024-05-08 at 11.12.35.png;https://anddigitaltransformation.atlassian.net/rest/api/3/attachment/content/23657,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:kd,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+Review Gitlab Pipeline,ARS-45,72003,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,08/May/24 9:34 AM,08/May/24 10:48 AM,08/May/24 9:52 AM,08/May/24 10:48 AM,,0,,,Juan Solano,PAOLO BRUNASTI,633409fea84c7f79c38738eb,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,08/May/24 10:13 AM;633409fea84c7f79c38738eb;Screenshot 2024-05-08 at 11.12.35.png;https://anddigitaltransformation.atlassian.net/rest/api/3/attachment/content/23657,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:kd,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -638,7 +1235,7 @@ But if the test executes based on build, then is the test that is to be done aft
 
 
 !Screenshot 2024-05-08 at 11.12.35.png|width=969,height=253,alt=""Screenshot 2024-05-08 at 11.12.35.png""!",,,,71911,Infrastructure,Done,08/May/24 10:48 AM
-Typeform Hubspot integration,ARS-44,71988,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,07/May/24 3:40 PM,07/May/24 4:05 PM,08/May/24 9:00 AM,,,0,,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044ki:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+Typeform Hubspot integration,ARS-44,71988,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,07/May/24 3:40 PM,07/May/24 4:05 PM,08/May/24 9:00 AM,,,0,,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044ki:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -673,7 +1270,7 @@ Out of scope:
 
 * some info on the integration with HubSpot [https://www.typeform.com/help/a/hub-spot-integration-installation-and-setup-360029578071/|https://www.typeform.com/help/a/hub-spot-integration-installation-and-setup-360029578071/|smart-link]
 {panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,07/May/24 3:40 PM
-Survey Hubspot integration,ARS-43,71987,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,07/May/24 3:39 PM,09/May/24 9:56 AM,14/May/24 2:25 PM,,,0,,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044kg:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+Survey Hubspot integration,ARS-43,71987,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,07/May/24 3:39 PM,14/May/24 3:18 PM,16/May/24 2:20 PM,,,0,,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS-74,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044kg:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -708,7 +1305,7 @@ Out of scope:
 
 * overview of the similar project Pete Davies mentioned that they are working with a 3rd party (Articulate) and includes hubspot integration - [https://hubs.ly/Q02sJtj30|https://hubs.ly/Q02sJtj30]
 {panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71899,Back End for Survey,To Do,07/May/24 3:39 PM
-Results Page - Personalised Thank you message,ARS-42,71976,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,07/May/24 1:48 PM,07/May/24 2:47 PM,14/May/24 2:25 PM,,,0,The Personalized Thank You Message on Results Page feature enhances user satisfaction by dynamically incorporating the participant's first name into the thank you message displayed on the results page. This customization adds a personal touch to the survey experience and strengthens the connection between the participant and the survey initiative.,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,ARS-4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044kb:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+Results Page - Personalised Thank you message,ARS-42,71976,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,07/May/24 1:48 PM,07/May/24 2:47 PM,16/May/24 2:20 PM,,,0,The Personalized Thank You Message on Results Page feature enhances user satisfaction by dynamically incorporating the participant's first name into the thank you message displayed on the results page. This customization adds a personal touch to the survey experience and strengthens the connection between the participant and the survey initiative.,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,ARS-4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044kb:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*survey user
@@ -746,7 +1343,7 @@ Results Page - Personalised Thank you message,ARS-42,71976,Story,To Do,ARS,AI Re
 {panel:bgColor=#fffae6}
 *TECH CONSIDERATIONS*
 {panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,07/May/24 1:48 PM
-Questions Page - Personalised with company name,ARS-41,71975,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,07/May/24 1:38 PM,08/May/24 10:39 AM,14/May/24 2:25 PM,,,0,The Personalized Survey Questions with Company Name feature enhances user engagement by dynamically replacing generic company references in survey questions with the name provided by the participant on the landing page. This customization creates a more personalized experience for survey participants and increases their sense of relevance and involvement in the survey process.,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,ARS-2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044js:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+Questions Page - Personalised with company name,ARS-41,71975,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,07/May/24 1:38 PM,08/May/24 10:39 AM,16/May/24 2:20 PM,,,0,The Personalized Survey Questions with Company Name feature enhances user engagement by dynamically replacing generic company references in survey questions with the name provided by the participant on the landing page. This customization creates a more personalized experience for survey participants and increases their sense of relevance and involvement in the survey process.,,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,ARS-2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044js:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*survey user
@@ -786,7 +1383,7 @@ Questions Page - Personalised with company name,ARS-41,71975,Story,To Do,ARS,AI 
 {panel:bgColor=#fffae6}
 *TECH CONSIDERATIONS*
 {panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,07/May/24 1:38 PM
-AWS Environment,ARS-40,71941,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 4:43 PM,13/May/24 9:37 AM,07/May/24 10:43 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045yx:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,5.0,,,"{panel:bgColor=#e3fcef}
+AWS Environment,ARS-40,71941,Story,In Progress,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 4:43 PM,15/May/24 10:06 AM,16/May/24 9:47 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j3:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,5.0,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -826,9 +1423,9 @@ Out of scope:
 * 
 {panel}
 
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71911,Infrastructure,To Do,06/May/24 4:43 PM
-Investigate HubSpot integration,ARS-39,71940,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 4:40 PM,06/May/24 4:40 PM,06/May/24 4:40 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i04530:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71834,Email with Results as a pdf,To Do,06/May/24 4:40 PM
-Generate Gitlab Pipeline,ARS-38,71939,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,06/May/24 4:04 PM,08/May/24 10:21 AM,07/May/24 4:16 PM,08/May/24 10:21 AM,,0,,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,ARS-28,,,,,,,,,,ARS-18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:k9,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71911,Infrastructure,In Progress,15/May/24 10:06 AM
+Investigate HubSpot integration,ARS-39,71940,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 4:40 PM,06/May/24 4:40 PM,06/May/24 4:40 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i04530:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71834,Email with Results as a pdf,To Do,06/May/24 4:40 PM
+Generate Gitlab Pipeline,ARS-38,71939,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,06/May/24 4:04 PM,08/May/24 10:21 AM,07/May/24 4:16 PM,08/May/24 10:21 AM,,0,,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,ARS-28,,,,,,,,,,,,,,ARS-18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:k9,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -869,7 +1466,7 @@ Out of scope:
 {panel}
 
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13260_*:*_1_*:*_79254705_*|*_13261_*:*_1_*:*_0_*|*_13262_*:*_1_*:*_72828932_*|*_13259_*:*_1_*:*_102935,,,,,,,,,Done,08/May/24 10:21 AM
-Create Eslint modules,ARS-37,71938,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,06/May/24 4:04 PM,07/May/24 2:45 PM,14/May/24 2:25 PM,07/May/24 1:31 PM,,0,,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,,,,,ARS-18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j0:i,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
+Create Eslint modules,ARS-37,71938,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,06/May/24 4:04 PM,07/May/24 2:45 PM,16/May/24 2:20 PM,07/May/24 1:31 PM,,0,,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS-18,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j0:i,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -910,7 +1507,7 @@ Out of scope:
 {panel}
 
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13260_*:*_1_*:*_74683437_*|*_13261_*:*_1_*:*_0_*|*_13262_*:*_1_*:*_2401253_*|*_13259_*:*_1_*:*_111451,,07/May/24 12:51 PM;633409fea84c7f79c38738eb;[~accountid:6294f4fd1a2bdf0070942111] This ticket is ready for review 🙂 ,,,,,,,Done,07/May/24 1:31 PM
-Landing Page - Input fields Component,ARS-36,71937,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,06/May/24 3:54 PM,14/May/24 10:56 AM,09/May/24 8:44 AM,,,0,"Implementing input fields for user data entry is essential for collecting relevant information from survey participants. By including fields we gather valuable data for analysis and engagement purposes, ultimately enhancing the effectiveness of the survey.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,ARS-1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045xf:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,5.0,,,"{panel:bgColor=#e3fcef}
+Landing Page - Input fields Component,ARS-36,71937,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,06/May/24 3:54 PM,14/May/24 10:56 AM,09/May/24 8:44 AM,,,0,"Implementing input fields for user data entry is essential for collecting relevant information from survey participants. By including fields we gather valuable data for analysis and engagement purposes, ultimately enhancing the effectiveness of the survey.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,ARS-1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045xf:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,5.0,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*possible prospect client
@@ -961,7 +1558,7 @@ Landing Page - Input fields Component,ARS-36,71937,Story,To Do,ARS,AI Readiness 
 {panel:bgColor=#fffae6}
 *TECH CONSIDERATIONS*
 {panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,06/May/24 3:54 PM
-All Survey Pages - Create Theme,ARS-34,71935,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,06/May/24 3:28 PM,14/May/24 8:54 AM,14/May/24 2:25 PM,14/May/24 8:54 AM,,0,"Aligning the survey pages with our company's design system reinforces our brand identity and creates a seamless user experience. By adhering to established design guidelines, we enhance user trust, recognition, and engagement with the AI Readiness Survey, ultimately contributing to the success of our initiative.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045xc:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
+All Survey Pages - Create Theme,ARS-34,71935,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,06/May/24 3:28 PM,14/May/24 8:54 AM,16/May/24 2:20 PM,14/May/24 8:54 AM,,0,"Aligning the survey pages with our company's design system reinforces our brand identity and creates a seamless user experience. By adhering to established design guidelines, we enhance user trust, recognition, and engagement with the AI Readiness Survey, ultimately contributing to the success of our initiative.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045xc:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*user of the survey
@@ -1001,7 +1598,7 @@ All Survey Pages - Create Theme,ARS-34,71935,Story,Done,ARS,AI Readiness survey,
 {panel:bgColor=#fffae6}
 *TECH CONSIDERATIONS*
 {panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13261_*:*_1_*:*_0_*|*_13259_*:*_1_*:*_667595504,,,,,,,,,Done,14/May/24 8:54 AM
-Questions Page - Save Survey Progress,ARS-33,71934,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,06/May/24 3:18 PM,08/May/24 2:49 PM,14/May/24 2:25 PM,,,0,"Offering the ability to save the survey progress addresses the needs of customers who may not have the time to complete the survey in one sitting. By allowing customers to pick up where they left off, we enhance usability and reduce frustration, ultimately increasing survey completion rates and data accuracy.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,ARS-2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044jc:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+Questions Page - Save Survey Progress,ARS-33,71934,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,06/May/24 3:18 PM,08/May/24 2:49 PM,16/May/24 2:20 PM,,,0,"Offering the ability to save the survey progress addresses the needs of customers who may not have the time to complete the survey in one sitting. By allowing customers to pick up where they left off, we enhance usability and reduce frustration, ultimately increasing survey completion rates and data accuracy.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,ARS-2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044jc:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*user that started the survey
@@ -1037,12 +1634,12 @@ Questions Page - Save Survey Progress,ARS-33,71934,Story,To Do,ARS,AI Readiness 
 {panel:bgColor=#fffae6}
 *TECH CONSIDERATIONS*
 {panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,06/May/24 3:18 PM
-Infrastructure,ARS-32,71911,Epic,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:47 AM,08/May/24 9:04 AM,13/May/24 3:50 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,ghx-label-3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yellow,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044ys:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,06/May/24 9:47 AM
-Front End for Survey,ARS-31,71910,Epic,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:47 AM,06/May/24 9:47 AM,06/May/24 9:49 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044yk:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,06/May/24 9:47 AM
-FE Repository,ARS-30,71909,Subtask,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:12 AM,14/May/24 8:51 AM,06/May/24 9:44 AM,14/May/24 8:51 AM,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044yc:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13261_*:*_1_*:*_0_*|*_13262_*:*_1_*:*_677057223_*|*_13259_*:*_1_*:*_12870411,,,,,,,71897,Create Repository,Done,14/May/24 8:51 AM
-CICD Pipeline for BE,ARS-29,71908,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:11 AM,06/May/24 9:11 AM,06/May/24 9:11 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044y4:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71906,Design the CICD Pipeline,To Do,06/May/24 9:11 AM
-CICD Pipeline for FE,ARS-28,71907,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:11 AM,06/May/24 4:42 PM,06/May/24 4:42 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,ARS-38,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044xw:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71906,Design the CICD Pipeline,To Do,06/May/24 9:11 AM
-Design the CICD Pipeline,ARS-27,71906,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:10 AM,13/May/24 9:37 AM,06/May/24 9:10 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j6:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
+Infrastructure,ARS-32,71911,Epic,In Progress,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:47 AM,15/May/24 9:19 AM,15/May/24 2:16 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,ghx-label-3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,yellow,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044ys:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,15/May/24 9:19 AM
+Front End for Survey,ARS-31,71910,Epic,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:47 AM,06/May/24 9:47 AM,06/May/24 9:49 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044yk:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,06/May/24 9:47 AM
+FE Repository,ARS-30,71909,Subtask,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:12 AM,14/May/24 8:51 AM,06/May/24 9:44 AM,14/May/24 8:51 AM,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044yc:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13261_*:*_1_*:*_0_*|*_13262_*:*_1_*:*_677057223_*|*_13259_*:*_1_*:*_12870411,,,,,,,71897,Create Repository,Done,14/May/24 8:51 AM
+CICD Pipeline for BE,ARS-29,71908,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:11 AM,06/May/24 9:11 AM,06/May/24 9:11 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044y4:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71906,Design the CICD Pipeline,To Do,06/May/24 9:11 AM
+CICD Pipeline for FE,ARS-28,71907,Subtask,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:11 AM,15/May/24 9:20 AM,06/May/24 4:42 PM,15/May/24 9:20 AM,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,ARS-38,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044xw:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13261_*:*_1_*:*_0_*|*_13259_*:*_1_*:*_778161841,,,,,,,71906,Design the CICD Pipeline,Done,15/May/24 9:20 AM
+Design the CICD Pipeline,ARS-27,71906,Story,In Progress,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:10 AM,15/May/24 9:20 AM,06/May/24 9:10 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j6:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -1082,15 +1679,15 @@ Out of scope:
 * 
 {panel}
 
-",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71911,Infrastructure,To Do,06/May/24 9:10 AM
-Implement APIs,ARS-26,71905,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Nneka Tielman,6294f4fd1a2bdf0070942111,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:02 AM,14/May/24 1:59 PM,06/May/24 9:20 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,ARS-63,ARS-64,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045yw:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,8.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71899,Back End for Survey,To Do,06/May/24 9:02 AM
-Design APIs,ARS-25,71904,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Nneka Tielman,6294f4fd1a2bdf0070942111,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:02 AM,14/May/24 1:08 PM,13/May/24 9:30 AM,14/May/24 1:08 PM,,0,,,Nneka Tielman,PAOLO BRUNASTI,6294f4fd1a2bdf0070942111,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:o,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,ARS Sprint 2,,,,,,,,,,,,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-05-13 07:50:05.443,13260_*:*_2_*:*_278531612_*|*_13261_*:*_1_*:*_0_*|*_13262_*:*_2_*:*_404139507_*|*_13259_*:*_1_*:*_23312377,,10/May/24 9:06 AM;6347d09a5efe6ce125d88f6f;[~accountid:6294f4fd1a2bdf0070942111]  Is there anything I can look at for feedback?,"13/May/24 8:50 AM;6294f4fd1a2bdf0070942111;[~accountid:6347d09a5efe6ce125d88f6f] yes! I created an MR for it here: 
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71911,Infrastructure,In Progress,15/May/24 9:20 AM
+Implement APIs,ARS-26,71905,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Nneka Tielman,6294f4fd1a2bdf0070942111,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:02 AM,14/May/24 3:52 PM,06/May/24 9:20 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,ARS-63,ARS-64,ARS-67,ARS-72,ARS-73,ARS-74,,,,,,,,,,,ARS-76,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045yw:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71899,Back End for Survey,To Do,06/May/24 9:02 AM
+Design APIs,ARS-25,71904,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Nneka Tielman,6294f4fd1a2bdf0070942111,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:02 AM,14/May/24 1:08 PM,13/May/24 9:30 AM,14/May/24 1:08 PM,,0,,,Nneka Tielman,PAOLO BRUNASTI,6294f4fd1a2bdf0070942111,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:o,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,ARS Sprint 2,,,,,,,,,,,,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-05-13 07:50:05.443,13260_*:*_2_*:*_278531612_*|*_13261_*:*_1_*:*_0_*|*_13262_*:*_2_*:*_404139507_*|*_13259_*:*_1_*:*_23312377,,10/May/24 9:06 AM;6347d09a5efe6ce125d88f6f;[~accountid:6294f4fd1a2bdf0070942111]  Is there anything I can look at for feedback?,"13/May/24 8:50 AM;6294f4fd1a2bdf0070942111;[~accountid:6347d09a5efe6ce125d88f6f] yes! I created an MR for it here: 
 [https://git.core.and-digital.com/aletta/ilab/ars-be-repository/-/merge_requests/1|https://git.core.and-digital.com/aletta/ilab/ars-be-repository/-/merge_requests/1]","13/May/24 7:13 PM;6294f4fd1a2bdf0070942111;[~accountid:6347d09a5efe6ce125d88f6f] I've made the requested changes, please have another look:
 [https://git.core.and-digital.com/aletta/ilab/ars-be-repository/-/merge_requests/1|https://git.core.and-digital.com/aletta/ilab/ars-be-repository/-/merge_requests/1]",,,71899,Back End for Survey,Done,14/May/24 1:08 PM
-DB Connection from Python,ARS-24,71903,Story,In Progress,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:01 AM,14/May/24 2:06 PM,13/May/24 3:49 PM,,,0,,,Nneka Tielman,PAOLO BRUNASTI,6294f4fd1a2bdf0070942111,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j4:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-05-09 16:39:08.56,,,"09/May/24 5:39 PM;6294f4fd1a2bdf0070942111;Peewee is a lightweight and easy to use ORM that may help with this:
+DB Connection from Python,ARS-24,71903,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:01 AM,15/May/24 12:26 PM,13/May/24 3:49 PM,15/May/24 12:26 PM,,0,,,Nneka Tielman,PAOLO BRUNASTI,6294f4fd1a2bdf0070942111,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:l,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-05-09 16:39:08.56,13260_*:*_1_*:*_67539922_*|*_13261_*:*_1_*:*_0_*|*_13262_*:*_1_*:*_12892343_*|*_13259_*:*_1_*:*_709476006,,"09/May/24 5:39 PM;6294f4fd1a2bdf0070942111;Peewee is a lightweight and easy to use ORM that may help with this:
 [https://docs.peewee-orm.com/en/latest/index.html|https://docs.peewee-orm.com/en/latest/index.html|smart-link] ","10/May/24 9:05 AM;6347d09a5efe6ce125d88f6f;Exploring this project for inspiration:
-[https://github.com/AndyPythonCode/FastAPI-crud-with-peewee|https://github.com/AndyPythonCode/FastAPI-crud-with-peewee|smart-link] ",,,,71899,Back End for Survey,In Progress,14/May/24 2:06 PM
-Model BE DB,ARS-23,71902,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:01 AM,14/May/24 2:21 PM,14/May/24 2:19 PM,14/May/24 2:05 PM,,0,,,Nneka Tielman,PAOLO BRUNASTI,6294f4fd1a2bdf0070942111,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,ARS-47,08/May/24 12:21 PM;6347d09a5efe6ce125d88f6f;ARS-db-schema.sql;https://anddigitaltransformation.atlassian.net/rest/api/3/attachment/content/23665,14/May/24 2:21 PM;6347d09a5efe6ce125d88f6f;er_model (664cfa8b-195a-4331-a3e3-4d404d85193d).png;https://anddigitaltransformation.atlassian.net/rest/api/3/attachment/content/23713,08/May/24 12:21 PM;6347d09a5efe6ce125d88f6f;er_model.png;https://anddigitaltransformation.atlassian.net/rest/api/3/attachment/content/23666,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045xd:i,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,ARS Sprint 2,,,,,,,,,,,,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-05-14 12:35:00.402,13260_*:*_2_*:*_613156398_*|*_13261_*:*_1_*:*_0_*|*_13262_*:*_2_*:*_90028430_*|*_13259_*:*_1_*:*_6297199,,"08/May/24 12:21 PM;6347d09a5efe6ce125d88f6f;In attach the ER diagram and the SQL DDL of the corresponding tables.
+[https://github.com/AndyPythonCode/FastAPI-crud-with-peewee|https://github.com/AndyPythonCode/FastAPI-crud-with-peewee|smart-link] ",,,,71899,Back End for Survey,Done,15/May/24 12:26 PM
+Model BE DB,ARS-23,71902,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 9:01 AM,14/May/24 2:21 PM,14/May/24 2:19 PM,14/May/24 2:05 PM,,0,,,Nneka Tielman,PAOLO BRUNASTI,6294f4fd1a2bdf0070942111,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS-47,08/May/24 12:21 PM;6347d09a5efe6ce125d88f6f;ARS-db-schema.sql;https://anddigitaltransformation.atlassian.net/rest/api/3/attachment/content/23665,14/May/24 2:21 PM;6347d09a5efe6ce125d88f6f;er_model (664cfa8b-195a-4331-a3e3-4d404d85193d).png;https://anddigitaltransformation.atlassian.net/rest/api/3/attachment/content/23713,08/May/24 12:21 PM;6347d09a5efe6ce125d88f6f;er_model.png;https://anddigitaltransformation.atlassian.net/rest/api/3/attachment/content/23666,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045xd:i,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,ARS Sprint 2,,,,,,,,,,,,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-05-14 12:35:00.402,13260_*:*_2_*:*_613156398_*|*_13261_*:*_1_*:*_0_*|*_13262_*:*_2_*:*_90028430_*|*_13259_*:*_1_*:*_6297199,,"08/May/24 12:21 PM;6347d09a5efe6ce125d88f6f;In attach the ER diagram and the SQL DDL of the corresponding tables.
 
 
 
@@ -1109,10 +1706,10 @@ User:
         company_name",14/May/24 2:19 PM;6347d09a5efe6ce125d88f6f;I have to regenerate the diagram 😉 ,"14/May/24 2:21 PM;6347d09a5efe6ce125d88f6f;
 
 !er_model (664cfa8b-195a-4331-a3e3-4d404d85193d).png|width=1634,height=1103,alt=""er_model.png""!",14/May/24 2:21 PM;6347d09a5efe6ce125d88f6f;[~accountid:6294f4fd1a2bdf0070942111] Done!,71899,Back End for Survey,Done,14/May/24 2:05 PM
-Define BE architecture,ARS-22,71901,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 8:59 AM,13/May/24 5:49 PM,13/May/24 5:10 PM,13/May/24 5:49 PM,,0,[https://anddigitaltransformation.atlassian.net/wiki/spaces/CAA/pages/4759257125/ARS+-+BackEnd+Architecture|https://anddigitaltransformation.atlassian.net/wiki/spaces/CAA/pages/4759257125/ARS+-+BackEnd+Architecture],,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,ARS-52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j0:1,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13260_*:*_1_*:*_598998269_*|*_13261_*:*_1_*:*_0_*|*_13262_*:*_1_*:*_31188792_*|*_13259_*:*_1_*:*_6363823,,,,,,,71899,Back End for Survey,Done,13/May/24 5:49 PM
-Create GitHub repository for BE,ARS-21,71900,Subtask,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 8:57 AM,06/May/24 4:41 PM,06/May/24 4:41 PM,06/May/24 4:41 PM,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044wc:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13260_*:*_1_*:*_14091591_*|*_13261_*:*_1_*:*_0_*|*_13259_*:*_1_*:*_13778815,,,,,,,71897,Create Repository,Done,06/May/24 4:41 PM
-Back End for Survey,ARS-20,71899,Epic,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 8:56 AM,06/May/24 9:48 AM,13/May/24 3:51 PM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,ghx-label-10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,blue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044w4:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,06/May/24 8:56 AM
-Create NUXT -Vue2 project FE,ARS-19,71898,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,06/May/24 8:54 AM,06/May/24 4:04 PM,14/May/24 2:25 PM,06/May/24 4:04 PM,,0,Generate the project with NUXT and Vue2,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:i,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
+Define BE architecture,ARS-22,71901,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 8:59 AM,13/May/24 5:49 PM,15/May/24 10:05 AM,13/May/24 5:49 PM,,0,[https://anddigitaltransformation.atlassian.net/wiki/spaces/CAA/pages/4759257125/ARS+-+BackEnd+Architecture|https://anddigitaltransformation.atlassian.net/wiki/spaces/CAA/pages/4759257125/ARS+-+BackEnd+Architecture],,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,ARS-52,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j0:1,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13260_*:*_1_*:*_598998269_*|*_13261_*:*_1_*:*_0_*|*_13262_*:*_1_*:*_31188792_*|*_13259_*:*_1_*:*_6363823,,,,,,,71899,Back End for Survey,Done,13/May/24 5:49 PM
+Create GitHub repository for BE,ARS-21,71900,Subtask,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 8:57 AM,06/May/24 4:41 PM,06/May/24 4:41 PM,06/May/24 4:41 PM,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044wc:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13260_*:*_1_*:*_14091591_*|*_13261_*:*_1_*:*_0_*|*_13259_*:*_1_*:*_13778815,,,,,,,71897,Create Repository,Done,06/May/24 4:41 PM
+Back End for Survey,ARS-20,71899,Epic,In Progress,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,06/May/24 8:56 AM,15/May/24 9:19 AM,16/May/24 9:47 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,ghx-label-10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,blue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044w4:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,In Progress,15/May/24 9:19 AM
+Create NUXT -Vue2 project FE,ARS-19,71898,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,06/May/24 8:54 AM,06/May/24 4:04 PM,16/May/24 2:20 PM,06/May/24 4:04 PM,,0,Generate the project with NUXT and Vue2,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:i,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -1153,7 +1750,7 @@ Out of scope:
 {panel}
 
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13260_*:*_1_*:*_20067076_*|*_13261_*:*_1_*:*_0_*|*_13259_*:*_1_*:*_5707352,,,,,,,,,Done,06/May/24 4:04 PM
-Create Repository,ARS-18,71897,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,06/May/24 8:47 AM,06/May/24 4:32 PM,06/May/24 12:46 PM,06/May/24 4:32 PM,,0,Generate the repository for the AI readiness survey codebase. Alignment on using Gitlab or Github,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,ARS-37,ARS-38,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:k,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
+Create Repository,ARS-18,71897,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,06/May/24 8:47 AM,06/May/24 4:32 PM,06/May/24 12:46 PM,06/May/24 4:32 PM,,0,Generate the repository for the AI readiness survey codebase. Alignment on using Gitlab or Github,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,,,,,,,,ARS-37,ARS-38,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:k,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -1194,7 +1791,7 @@ Out of scope:
 {panel}
 
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13260_*:*_1_*:*_20721713_*|*_13261_*:*_1_*:*_0_*|*_13259_*:*_1_*:*_7187734,,,,,,,71911,Infrastructure,Done,06/May/24 4:32 PM
-Generate Content Types GraphQL Queries for Landing Page,ARS-17,71849,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,03/May/24 10:29 AM,14/May/24 11:18 AM,06/May/24 8:43 AM,14/May/24 11:18 AM,,0,,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,,,,,ARS-1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045xd:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,5.0,,,"{panel:bgColor=#e3fcef}
+Generate Content Types GraphQL Queries for Landing Page,ARS-17,71849,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,03/May/24 10:29 AM,14/May/24 11:18 AM,06/May/24 8:43 AM,14/May/24 11:18 AM,,0,,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS-1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045xd:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,5.0,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -1235,7 +1832,7 @@ Out of scope:
 {panel}
 
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13260_*:*_1_*:*_7053392_*|*_13261_*:*_1_*:*_0_*|*_13262_*:*_1_*:*_1563795_*|*_13259_*:*_1_*:*_944734506,,,,,,,,,Done,14/May/24 11:18 AM
-Contentful Content Modeling for Landing Page,ARS-16,71848,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,03/May/24 10:28 AM,13/May/24 2:35 PM,06/May/24 9:59 AM,13/May/24 2:35 PM,,0,,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,,,,,ARS-1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j0:4,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,5.0,,,"{panel:bgColor=#e3fcef}
+Contentful Content Modeling for Landing Page,ARS-16,71848,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,03/May/24 10:28 AM,13/May/24 2:35 PM,06/May/24 9:59 AM,13/May/24 2:35 PM,,0,,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS-1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j0:4,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,5.0,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -1276,7 +1873,7 @@ Out of scope:
 {panel}
 
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13260_*:*_1_*:*_520109529_*|*_13261_*:*_1_*:*_0_*|*_13259_*:*_1_*:*_358757362,,,,,,,,,Done,13/May/24 2:35 PM
-Contentful Integration FE,ARS-15,71847,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,03/May/24 10:26 AM,13/May/24 10:52 AM,14/May/24 2:25 PM,13/May/24 10:52 AM,,0,,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,,,,,ARS-1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j0:9,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
+Contentful Integration FE,ARS-15,71847,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,03/May/24 10:26 AM,13/May/24 10:52 AM,16/May/24 2:20 PM,13/May/24 10:52 AM,,0,,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS-1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j0:9,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -1317,7 +1914,7 @@ Out of scope:
 {panel}
 
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13260_*:*_1_*:*_15793738_*|*_13261_*:*_1_*:*_0_*|*_13262_*:*_1_*:*_421005124_*|*_13259_*:*_1_*:*_428732433,,,,,,,,,Done,13/May/24 10:52 AM
-Set up Contentful Account,ARS-14,71845,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,03/May/24 10:22 AM,07/May/24 11:32 AM,14/May/24 2:25 PM,07/May/24 11:32 AM,,0,,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,,,,,ARS-1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,2.0,,,"{panel:bgColor=#e3fcef}
+Set up Contentful Account,ARS-14,71845,Story,Done,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,Done,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,Juan Solano,633409fea84c7f79c38738eb,03/May/24 10:22 AM,07/May/24 11:32 AM,16/May/24 2:20 PM,07/May/24 11:32 AM,,0,,,Juan Solano,,633409fea84c7f79c38738eb,,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS-1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,,,,,,,,,,,,,2.0,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*
@@ -1358,10 +1955,10 @@ Out of scope:
 {panel}
 
 ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13261_*:*_1_*:*_0_*|*_13259_*:*_1_*:*_349825096,,,,,,,,,Done,07/May/24 11:32 AM
-Activation of the process of generating and sending the email,ARS-13,71843,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,03/May/24 8:45 AM,06/May/24 9:05 AM,03/May/24 9:15 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044lo:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71834,Email with Results as a pdf,To Do,03/May/24 8:45 AM
-Send email to customer with the PDF as attachment,ARS-12,71842,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,03/May/24 8:45 AM,06/May/24 9:55 AM,06/May/24 9:55 AM,,,0,Integrate with HubSpot,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044lg:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71834,Email with Results as a pdf,To Do,03/May/24 8:45 AM
-Generate the PDF with the report for a single survey response,ARS-11,71841,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,03/May/24 8:45 AM,06/May/24 9:05 AM,03/May/24 8:46 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044l8:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71834,Email with Results as a pdf,To Do,03/May/24 8:45 AM
-Customised Survey Landing Page URL,ARS-10,71839,Story,In Progress,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 5:16 PM,14/May/24 10:29 AM,07/May/24 10:26 AM,,,0,"By incorporating the company name into the Survey Landing Page URL, we enhance the perceived credibility of the survey among customers. This customisation reinforces the association between the survey and the company's brand, fostering trust and recognition. Furthermore, it enables easy embedding of the survey landing page within the company website, streamlining access for customers and promoting engagement.",,Inês Abreu,PAOLO BRUNASTI,6177c07cf6da6a006af93d7b,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:p,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,ARS Sprint 2,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+Activation of the process of generating and sending the email,ARS-13,71843,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,03/May/24 8:45 AM,06/May/24 9:05 AM,03/May/24 9:15 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044lo:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71834,Email with Results as a pdf,To Do,03/May/24 8:45 AM
+Send email to customer with the PDF as attachment,ARS-12,71842,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,03/May/24 8:45 AM,06/May/24 9:55 AM,06/May/24 9:55 AM,,,0,Integrate with HubSpot,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044lg:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71834,Email with Results as a pdf,To Do,03/May/24 8:45 AM
+Generate the PDF with the report for a single survey response,ARS-11,71841,Subtask,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,03/May/24 8:45 AM,06/May/24 9:05 AM,03/May/24 8:46 AM,,,0,,,PAOLO BRUNASTI,,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044l8:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71834,Email with Results as a pdf,To Do,03/May/24 8:45 AM
+Customised Survey Landing Page URL,ARS-10,71839,Story,In Progress,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 5:16 PM,15/May/24 10:07 AM,15/May/24 10:07 AM,,,0,"By incorporating the company name into the Survey Landing Page URL, we enhance the perceived credibility of the survey among customers. This customisation reinforces the association between the survey and the company's brand, fostering trust and recognition. Furthermore, it enables easy embedding of the survey landing page within the company website, streamlining access for customers and promoting engagement.",,Inês Abreu,PAOLO BRUNASTI,6177c07cf6da6a006af93d7b,6347d09a5efe6ce125d88f6f,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j1:p,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 1,ARS Sprint 2,,,,,,,,,,,,3.0,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*prospect client that just received a push email to answer the survey
@@ -1417,7 +2014,7 @@ It's a mix of Vue and Python, and we think to deploy in AWS
 
 No worries - thats alright I ask as we have a solution for hosting static websites but it's a full application deployment so this wouldn't be suitable. Once it's deployed if you let me know what domain you want under [and-digital.com|http://and-digital.com/] and the accounts it's in i'm happy to configure the domain and tls certs on it
 ",,,,,71911,Infrastructure,In Progress,07/May/24 8:20 AM
-Results Page - Personalised High-Level Roadmap Component,ARS-9,71838,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 5:06 PM,08/May/24 3:02 PM,14/May/24 2:25 PM,,,0,"The Personalised Roadmap component provides customers with tailored recommendations and next steps based on their survey responses. It adds value to the Results page by offering customers practical guidance and actionable insights derived from their survey responses. By providing personalised recommendations, it empowers customers to take informed actions to enhance their organisation's AI readiness capabilities.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,ARS-4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044ka:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+Results Page - Personalised High-Level Roadmap Component,ARS-9,71838,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 5:06 PM,08/May/24 3:02 PM,16/May/24 2:20 PM,,,0,"The Personalised Roadmap component provides customers with tailored recommendations and next steps based on their survey responses. It adds value to the Results page by offering customers practical guidance and actionable insights derived from their survey responses. By providing personalised recommendations, it empowers customers to take informed actions to enhance their organisation's AI readiness capabilities.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,ARS-4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044ka:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*user that just completed the survey
@@ -1454,7 +2051,7 @@ According to designs attached.
 {panel:bgColor=#fffae6}
 *TECH CONSIDERATIONS*
 {panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,02/May/24 5:06 PM
-Results Page - Scoring Graphic Component,ARS-8,71837,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 4:59 PM,06/May/24 3:43 PM,14/May/24 2:25 PM,,,0,"The Scoring Graphic Component is a visual representation of the customer's survey scoring displayed on the Results page. It enhances the user experience by presenting survey results in a visually appealing format, making it easier for customers to interpret and analyse their performance. By providing a clear visual representation, it helps customers identify areas of strength and areas for improvement in their AI readiness journey.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,ARS-4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044k8:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+Results Page - Scoring Graphic Component,ARS-8,71837,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 4:59 PM,06/May/24 3:43 PM,16/May/24 2:20 PM,,,0,"The Scoring Graphic Component is a visual representation of the customer's survey scoring displayed on the Results page. It enhances the user experience by presenting survey results in a visually appealing format, making it easier for customers to interpret and analyse their performance. By providing a clear visual representation, it helps customers identify areas of strength and areas for improvement in their AI readiness journey.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,ARS-4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044k8:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*user that just completed the survey
@@ -1491,9 +2088,9 @@ According to the design attached.
 {panel:bgColor=#fffae6}
 *TECH CONSIDERATIONS*
 {panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,02/May/24 4:59 PM
-CP AI-Powered Personalised Roadmap Component,ARS-7,71836,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Pablo Uhalte,63c006ad8a7d2f693bf75120,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 4:56 PM,07/May/24 11:22 AM,14/May/24 2:25 PM,,,0,"The AI-Powered Personalized Roadmap Component enhances the Client Partnerships Dashboard by integrating AI capabilities to generate personalized follow-up recommendations for clients. Leveraging AI algorithms and input data from the AI Readiness Survey, this component provides tailored next steps and action plans aligned with client industry, size, and survey results, enhancing the CP team's ability to engage with clients effectively.
+CP AI-Powered Personalised Roadmap Component,ARS-7,71836,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Pablo Uhalte,63c006ad8a7d2f693bf75120,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 4:56 PM,07/May/24 11:22 AM,16/May/24 2:20 PM,,,0,"The AI-Powered Personalized Roadmap Component enhances the Client Partnerships Dashboard by integrating AI capabilities to generate personalized follow-up recommendations for clients. Leveraging AI algorithms and input data from the AI Readiness Survey, this component provides tailored next steps and action plans aligned with client industry, size, and survey results, enhancing the CP team's ability to engage with clients effectively.
 
-By leveraging AI to analyze survey data and generate personalized roadmaps, the CP team can strengthen client relationships, drive value-added conversations, and provide strategic guidance aligned wit",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044ks:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+By leveraging AI to analyze survey data and generate personalized roadmaps, the CP team can strengthen client relationships, drive value-added conversations, and provide strategic guidance aligned wit",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044ks:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*member of the Client Partnerships (CP) team
@@ -1541,7 +2138,7 @@ By leveraging AI to analyze survey data and generate personalized roadmaps, the 
 {panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,02/May/24 4:56 PM
 CP Dashboard for results analysis,ARS-6,71835,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,Pablo Uhalte,63c006ad8a7d2f693bf75120,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 4:56 PM,07/May/24 11:22 AM,06/May/24 9:44 AM,,,0,"The Client Partnerships Dashboard for Survey Results Analysis feature enables members of the CP team to access and analyze AI Readiness Survey results internally. The dashboard provides aggregated data on survey scores per dimension, scores per industry, scores per company size, and other relevant metrics derived from survey input data, facilitating informed decision-making and client engagement strategies.
 
-By leveraging insights from the dashboard, the CP team can tailor engagement strategies, identify opportunities for collaboration, and strengthen client partnerships effectively.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044kk:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+By leveraging insights from the dashboard, the CP team can tailor engagement strategies, identify opportunities for collaboration, and strengthen client partnerships effectively.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044kk:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*member of the Client Partnerships (CP) team
@@ -1590,7 +2187,7 @@ By leveraging insights from the dashboard, the CP team can tailor engagement str
 {panel:bgColor=#fffae6}
 *TECH CONSIDERATIONS*
 {panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,02/May/24 4:56 PM
-Email with Results as a pdf,ARS-5,71834,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 4:46 PM,06/May/24 9:44 AM,06/May/24 4:40 PM,,,0,"The Email with Results Page as PDF enables customers to receive their survey results, including scoring and personalised roadmap, directly in their email inbox as a PDF attachment. This allows customers to access and review their results offline and easily share them with relevant stakeholders within their company.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044kc:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+Email with Results as a pdf,ARS-5,71834,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,PAOLO BRUNASTI,6347d09a5efe6ce125d88f6f,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 4:46 PM,14/May/24 3:24 PM,06/May/24 4:40 PM,,,0,"The Email with Results Page as PDF enables customers to receive their survey results, including scoring and personalised roadmap, directly in their email inbox as a PDF attachment. This allows customers to access and review their results offline and easily share them with relevant stakeholders within their company.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,ARS-74,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044kc:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*user that just completed the AI readiness survey
@@ -1635,7 +2232,7 @@ According to pdf template attached.
 
 * 
 {panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71899,Back End for Survey,To Do,02/May/24 4:46 PM
-Survey Results Page,ARS-4,71832,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 4:16 PM,07/May/24 1:49 PM,14/May/24 2:25 PM,,,0,"The Results page serves as the culmination of the AI Readiness Survey experience, offering customers actionable insights and support to guide their AI adoption journey. By providing visual representations of survey results, along with personalized recommendations and easy access to customer support, we aim to empower customers with the knowledge and resources needed for successful AI implementation.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,ARS-8,ARS-9,,ARS-42,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044jw:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+Survey Results Page,ARS-4,71832,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 4:16 PM,07/May/24 1:49 PM,16/May/24 2:20 PM,,,0,"The Results page serves as the culmination of the AI Readiness Survey experience, offering customers actionable insights and support to guide their AI adoption journey. By providing visual representations of survey results, along with personalized recommendations and easy access to customer support, we aim to empower customers with the knowledge and resources needed for successful AI implementation.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,ARS-8,ARS-9,,,,,,ARS-42,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044jw:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*user that just completed the survey
@@ -1681,9 +2278,9 @@ According to the designs attached.
 {panel:bgColor=#fffae6}
 *TECH CONSIDERATIONS*
 {panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,02/May/24 4:16 PM
-Questions Page - Progress Bar Component,ARS-3,71830,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 3:43 PM,06/May/24 3:45 PM,14/May/24 2:25 PM,,,0,"The progress bar is a visual indicator that accompanies customers throughout the AI Readiness Survey, providing a clear representation of their progress and current position within the survey. It remains visible across all survey sections. 
+Questions Page - Progress Bar Component,ARS-3,71830,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 3:43 PM,06/May/24 3:45 PM,16/May/24 2:20 PM,,,0,"The progress bar is a visual indicator that accompanies customers throughout the AI Readiness Survey, providing a clear representation of their progress and current position within the survey. It remains visible across all survey sections. 
 
-The progress bar enhances the user experience by providing customers with a sense of orientation and progress visibility as they navigate through the survey. By maintaining consistent visibility across all survey sections, it ensures customers remain engaged and motivated to complete the questionnaire.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,ARS-2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044ja:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+The progress bar enhances the user experience by providing customers with a sense of orientation and progress visibility as they navigate through the survey. By maintaining consistent visibility across all survey sections, it ensures customers remain engaged and motivated to complete the questionnaire.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,ARS-2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044ja:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*user of the survey
@@ -1735,7 +2332,7 @@ According to designs attached.
 {panel:bgColor=#fffae6}
 *TECH CONSIDERATIONS*
 {panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,02/May/24 3:43 PM
-Survey Questions Pages,ARS-2,71829,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 3:16 PM,08/May/24 2:52 PM,14/May/24 2:25 PM,,,0,"The Survey Questions Pages provides a structured questionnaire and guides customers through the survey process, allowing customers to progress through the AI Readiness Survey seamlessly.  Customers will be directed to the first section of the survey, where they can answer questions related to the first dimension of AI readiness and from there on till completion. These pages include a progress bar, seven sections corresponding to each dimension, a summary of each dimension, the respective questions, buttons to navigate between sections, error handling for unanswered questions, and a ""See Results"" button at the last section.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,ARS-3,ARS-33,,ARS-41,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j8:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
+Survey Questions Pages,ARS-2,71829,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 3:16 PM,14/May/24 4:52 PM,16/May/24 2:20 PM,,,0,"The Survey Questions Pages provides a structured questionnaire and guides customers through the survey process, allowing customers to progress through the AI Readiness Survey seamlessly.  Customers will be directed to the first section of the survey, where they can answer questions related to the first dimension of AI readiness and from there on till completion. These pages include a progress bar, seven sections corresponding to each dimension, a summary of each dimension, the respective questions, buttons to navigate between sections, error handling for unanswered questions, and a ""See Results"" button at the last section.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,ARS-3,ARS-33,,,,,,ARS-41,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i044j8:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
 *GOAL*
 
 *As a…*user that just came from the survey landing page
@@ -1753,7 +2350,7 @@ Survey Questions Pages,ARS-2,71829,Story,To Do,ARS,AI Readiness survey,software,
 # Implementation of 7 sections corresponding to each dimension of the survey.
 # Each section includes:
 ##  a summary of the dimension (content to be shared)
-## the five related questions. (content of this to be shared) and personalised with company name ([ARS-41|https://anddigitaltransformation.atlassian.net/browse/ARS-41])
+## the five related questions- [content here|https://docs.google.com/spreadsheets/d/1uvIrgFG5_IJtTflKCWOv7W1QagR6S-EqqjD0TfZaBlE/edit#gid=344589132] and personalised with company name ([ARS-41|https://anddigitaltransformation.atlassian.net/browse/ARS-41])
 # Space for visualisation of the Progress bar displaying the customer's progress (developed in [ARS-3|https://anddigitaltransformation.atlassian.net/browse/ARS-3]).
 # Navigation buttons to move between sections or return to the previous section.
 # Error handling to prompt customers to answer questions before proceeding.
@@ -1795,7 +2392,7 @@ All according to the designs attached.
 {panel:bgColor=#fffae6}
 *TECH CONSIDERATIONS*
 {panel}",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,02/May/24 3:16 PM
-Survey Landing Page,ARS-1,71827,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 2:25 PM,14/May/24 10:56 AM,08/May/24 8:59 AM,,,0,"The AI Readiness Survey Landing Page serves as the entry point for users to engage with our AI readiness assessment tool. This landing page will provide high-level information about the purpose of the survey and its expected results. Users will have the ability to input their data, opt in to participate in the survey, and access the survey through a designated button.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,ARS-36,ARS-56,,,ARS-14,ARS-15,ARS-16,ARS-17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All Completed,,,0.0,"# Default checklist
+Survey Landing Page,ARS-1,71827,Story,To Do,ARS,AI Readiness survey,software,Inês Abreu,6177c07cf6da6a006af93d7b,,Medium,,,,Inês Abreu,6177c07cf6da6a006af93d7b,Inês Abreu,6177c07cf6da6a006af93d7b,02/May/24 2:25 PM,14/May/24 10:56 AM,08/May/24 8:59 AM,,,0,"The AI Readiness Survey Landing Page serves as the entry point for users to engage with our AI readiness assessment tool. This landing page will provide high-level information about the purpose of the survey and its expected results. Users will have the ability to input their data, opt in to participate in the survey, and access the survey through a designated button.",,Inês Abreu,,6177c07cf6da6a006af93d7b,,,,,,,,,,,,,,,,ARS-36,ARS-56,,,,,,,ARS-14,ARS-15,ARS-16,ARS-17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All Completed,,,0.0,"# Default checklist
 # Checklist #2","​# Default checklist
 ​# Checklist #2",,,,,,,,,,,,,,,,,,,,,,,,,,,,,https://www.figma.com/design/L0ofcwpAvD4mF2rvxJB6k3/AI-Readiness-Survey?node-id=0%3A1&t=JZw301Af103w0Fcj-1,,,,{},,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2|i045xe:,,,,,,,,,,,,,,,,,,,,,,,,,,,ARS Sprint 2,,,,,,,,,,,,,,,,"{panel:bgColor=#e3fcef}
 *GOAL*
