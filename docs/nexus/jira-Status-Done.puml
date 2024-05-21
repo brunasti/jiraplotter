@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu May 16 15:52:42 CEST 2024
+' Generated at    : Tue May 21 11:41:23 CEST 2024
 
 title Jira Tickets for Status Done
 hide empty members
@@ -10,13 +10,14 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-Done : 28
-In Progress : 1
+Done : 33
+To Do : 1
 ----
 Jira Ticket Types
 ----
-Subtask : 8
-Story : 21
+Spike : 1
+Subtask : 9
+Story : 24
 end legend
 
 
@@ -100,6 +101,15 @@ class "ARS-34" << (S,lightgreen) >> {
 Total  Points : 3
 }
 
+class "ARS-57" << (S,lightgreen) >> {
+ Summary : Banner component
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 3.0
+Total  Points : 3
+}
+
 class "ARS-14" << (S,lightgreen) >> {
  Summary : Set up Contentful Account
  Assigned to : Juan Solano
@@ -130,7 +140,7 @@ Total  Points : 3
 class "ARS-52" << (S,lightgreen) >> {
  Summary : Prototype BE architecture
  Assigned to : PAOLO BRUNASTI
- Status : In Progress
+ Status : Done
  Type : Story
  Points : 5.0
 Total  Points : 5
@@ -187,6 +197,14 @@ class "ARS-28" << (S,lightblue) >> {
 Total  Points : 0
 }
 
+class "ARS-62" << (X,lightblue) >> {
+ Summary : Spike - AI personalised roadmap
+ Assigned to : Pablo Uhalte
+ Status : Done
+ Type : Spike
+Total  Points : 0
+}
+
 class "ARS-84" << (S,lightgreen) >> {
  Summary : Create test data in the DB
  Assigned to : PAOLO BRUNASTI
@@ -222,6 +240,14 @@ class "ARS-24" << (S,lightgreen) >> {
 Total  Points : 3
 }
 
+class "ARS-69" << (S,lightblue) >> {
+ Summary : PDF Library
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Subtask
+Total  Points : 0
+}
+
 class "ARS-25" << (S,lightgreen) >> {
  Summary : Design APIs
  Assigned to : Nneka Tielman
@@ -229,6 +255,15 @@ class "ARS-25" << (S,lightgreen) >> {
  Type : Story
  Points : 5.0
 Total  Points : 5
+}
+
+class "ARS-47" << (S,lightgreen) >> {
+ Summary : Create View for results of the survey
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Story
+ Points : 1.0
+Total  Points : 1
 }
 
 class "ARS-86" << (S,lightblue) >> {
@@ -255,6 +290,15 @@ class "ARS-21" << (S,lightblue) >> {
 Total  Points : 0
 }
 
+class "ARS-88" << (S,lightgreen) >> {
+ Summary : Extends BE architecture
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
 class "ARS-66" << (S,lightblue) >> {
  Summary : DB Connection pooling
  Assigned to : PAOLO BRUNASTI
@@ -277,8 +321,10 @@ Total  Points : 5
 ' Links =======
 "ARS-18" <.. "ARS-37" : Polaris issue link
 "ARS-18" <.. "ARS-38" : Polaris issue link
+"ARS-52" <.. "ARS-88" : Cloners
 "ARS-28" <.. "ARS-38" : Cloners
 "ARS-22" <.. "ARS-52" : Cloners
+"ARS-47" <.. "ARS-23" : Relates
 
 
 @enduml

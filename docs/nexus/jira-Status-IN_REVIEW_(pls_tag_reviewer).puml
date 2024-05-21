@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 14 12:25:21 CEST 2024
+' Generated at    : Fri May 17 15:34:31 CEST 2024
 
 title Jira Tickets for Status IN REVIEW (pls tag reviewer)
 hide empty members
@@ -10,29 +10,22 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-(IN REVIEW (pls tag reviewer)) : 2
+IN REVIEW (pls tag reviewer) : 1
 ----
 Jira Ticket Types
 ----
-(Subtask) : 1
-(Story) : 1
+Story : 1
 end legend
 
 
 ' Tickets =======
-class "ARS-23" << (S,lightgreen) >> {
-  Summary : Model BE DB
-  Assigned to : PAOLO BRUNASTI
-  Status : IN REVIEW (pls tag reviewer)
-  Type : Story
-  Points : 5.0
-}
-
-class "ARS-30" << (S,lightblue) >> {
-  Summary : FE Repository
-  Assigned to : PAOLO BRUNASTI
-  Status : IN REVIEW (pls tag reviewer)
-  Type : Subtask
+class "ARS-57" << (S,lightgreen) >> {
+ Summary : Banner component
+ Assigned to : Juan Solano
+ Status : IN REVIEW (pls tag reviewer)
+ Type : Story
+ Points : 3.0
+Total  Points : 3
 }
 
 

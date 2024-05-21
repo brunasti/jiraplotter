@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu May 16 15:52:42 CEST 2024
+' Generated at    : Tue May 21 11:41:22 CEST 2024
 
 title Jira Tickets for Link Type Cloners
 hide empty members
@@ -10,9 +10,8 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-Done : 3
+Done : 4
 To Do : 1
-In Progress : 1
 ----
 Jira Ticket Types
 ----
@@ -41,7 +40,7 @@ Total  Points : 0
 class "ARS-52" << (S,lightgreen) >> {
  Summary : Prototype BE architecture
  Assigned to : PAOLO BRUNASTI
- Status : In Progress
+ Status : Done
  Type : Story
  Points : 5.0
 Total  Points : 5

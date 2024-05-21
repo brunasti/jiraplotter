@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu May 16 15:52:42 CEST 2024
+' Generated at    : Tue May 21 11:41:23 CEST 2024
 
 title Jira Tickets for Epic Infrastructure
 hide empty members
@@ -10,21 +10,22 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-Done : 9
-To Do : 3
+Done : 11
+To Do : 5
 In Progress : 5
 ----
 Jira Ticket Types
 ----
-Subtask : 10
+Subtask : 13
 Epic : 1
-Story : 6
+Story : 7
 end legend
 
 
 ' Tickets =======
 class "ARS-27" << (S,lightgreen) >> {
  Summary : Design the CICD Pipeline
+ Assigned to : PAOLO BRUNASTI
  Status : In Progress
  Type : Story
  Points : 3.0
@@ -78,6 +79,14 @@ class "ARS-40" << (S,lightgreen) >> {
 Total  Points : 5
 }
 
+class "ARS-90" << (S,lightblue) >> {
+ Summary : Logging system
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Subtask
+Total  Points : 0
+}
+
 class "ARS-45" << (S,lightgreen) >> {
  Summary : Review Gitlab Pipeline
  Assigned to : PAOLO BRUNASTI
@@ -86,10 +95,26 @@ class "ARS-45" << (S,lightgreen) >> {
 Total  Points : 0
 }
 
+class "ARS-89" << (S,lightblue) >> {
+ Summary : Spider Net Graphic
+ Assigned to : PAOLO BRUNASTI
+ Status : In Progress
+ Type : Subtask
+Total  Points : 0
+}
+
+class "ARS-68" << (S,lightblue) >> {
+ Summary : Security
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Subtask
+Total  Points : 0
+}
+
 class "ARS-69" << (S,lightblue) >> {
  Summary : PDF Library
  Assigned to : PAOLO BRUNASTI
- Status : To Do
+ Status : Done
  Type : Subtask
 Total  Points : 0
 }
@@ -97,7 +122,7 @@ Total  Points : 0
 class "ARS-52" << (S,lightgreen) >> {
  Summary : Prototype BE architecture
  Assigned to : PAOLO BRUNASTI
- Status : In Progress
+ Status : Done
  Type : Story
  Points : 5.0
 Total  Points : 5
@@ -124,7 +149,7 @@ class "ARS-32" << (E,green) >> {
  Assigned to : PAOLO BRUNASTI
  Status : In Progress
  Type : Epic
-Total  Points : 19
+Total  Points : 24
 }
 
 class "ARS-10" << (S,lightgreen) >> {
@@ -152,6 +177,15 @@ class "ARS-21" << (S,lightblue) >> {
 Total  Points : 0
 }
 
+class "ARS-88" << (S,lightgreen) >> {
+ Summary : Extends BE architecture
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
 class "ARS-66" << (S,lightblue) >> {
  Summary : DB Connection pooling
  Assigned to : PAOLO BRUNASTI
@@ -169,10 +203,13 @@ Total  Points : 0
 "ARS-27" <|-- "ARS-28"
 "ARS-32" <|-- "ARS-18"
 "ARS-27" <|-- "ARS-29"
-"ARS-52" <|-- "ARS-70"
+"ARS-88" <|-- "ARS-70"
 "ARS-52" <|-- "ARS-71"
 "ARS-32" <|-- "ARS-40"
+"ARS-88" <|-- "ARS-90"
 "ARS-32" <|-- "ARS-45"
+"ARS-88" <|-- "ARS-89"
+"ARS-88" <|-- "ARS-68"
 "ARS-52" <|-- "ARS-69"
 "ARS-32" <|-- "ARS-52"
 "ARS-18" <|-- "ARS-30"
@@ -180,7 +217,10 @@ Total  Points : 0
 "ARS-32" <|-- "ARS-10"
 "ARS-52" <|-- "ARS-65"
 "ARS-18" <|-- "ARS-21"
+"ARS-32" <|-- "ARS-88"
 "ARS-52" <|-- "ARS-66"
+
+"ARS-27" <.. "ARS-18" : Blocks
 
 "ARS-28" <.. "ARS-38" : Cloners
 
@@ -189,6 +229,8 @@ Total  Points : 0
 "ARS-18" <.. "ARS-38" : Polaris issue link
 
 "ARS-52" <.. "ARS-88" : Cloners
+
+"ARS-88" <.. "ARS-52" : Blocks
 
 
 

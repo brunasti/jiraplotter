@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu May 16 15:52:42 CEST 2024
+' Generated at    : Tue May 21 11:41:22 CEST 2024
 
 title Jira Tickets for Link Type Polaris issue link
 hide empty members
@@ -85,6 +85,7 @@ Total  Points : 3
 
 class "ARS-1" << (S,lightgreen) >> {
  Summary : Survey Landing Page
+ Assigned to : Juan Solano
  Status : To Do
  Type : Story
 Total  Points : 0

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu May 16 15:52:42 CEST 2024
+' Generated at    : Tue May 21 11:41:22 CEST 2024
 
 title Jira Tickets for Link Type Blocks
 hide empty members
@@ -10,11 +10,13 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-To Do : 3
+To Do : 5
+Done : 3
+In Progress : 1
 ----
 Jira Ticket Types
 ----
-Story : 3
+Story : 9
 end legend
 
 
@@ -27,6 +29,41 @@ class "ARS-72" << (S,lightgreen) >> {
 Total  Points : 5
 }
 
+class "ARS-27" << (S,lightgreen) >> {
+ Summary : Design the CICD Pipeline
+ Assigned to : PAOLO BRUNASTI
+ Status : In Progress
+ Type : Story
+ Points : 3.0
+Total  Points : 3
+}
+
+class "ARS-18" << (S,lightgreen) >> {
+ Summary : Create Repository
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Story
+ Points : 3.0
+Total  Points : 3
+}
+
+class "ARS-25" << (S,lightgreen) >> {
+ Summary : Design APIs
+ Assigned to : Nneka Tielman
+ Status : Done
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
+class "ARS-26" << (S,lightgreen) >> {
+ Summary : Implement APIs
+ Assigned to : Nneka Tielman
+ Status : To Do
+ Type : Story
+Total  Points : 0
+}
+
 class "ARS-63" << (S,lightgreen) >> {
  Summary : Implement Analytics API - user endpoints
  Assigned to : Nneka Tielman
@@ -36,6 +73,15 @@ class "ARS-63" << (S,lightgreen) >> {
 Total  Points : 3
 }
 
+class "ARS-52" << (S,lightgreen) >> {
+ Summary : Prototype BE architecture
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
 class "ARS-64" << (S,lightgreen) >> {
  Summary : Auth for Analytics API
  Status : To Do
@@ -43,12 +89,27 @@ class "ARS-64" << (S,lightgreen) >> {
 Total  Points : 0
 }
 
+class "ARS-88" << (S,lightgreen) >> {
+ Summary : Extends BE architecture
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
 
 
 ' Links =======
+"ARS-27" <.. "ARS-18" : Blocks
+
+"ARS-26" <.. "ARS-25" : Blocks
+
 "ARS-64" <.. "ARS-72" : Blocks
 
 "ARS-64" <.. "ARS-63" : Blocks
+
+"ARS-88" <.. "ARS-52" : Blocks
 
 
 

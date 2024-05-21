@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu May 16 15:52:42 CEST 2024
+' Generated at    : Tue May 21 11:41:23 CEST 2024
 
 title Jira Tickets for Person PAOLO BRUNASTI
 hide empty members
@@ -10,15 +10,15 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-Done : 15
-To Do : 12
-In Progress : 5
+Done : 18
+To Do : 13
+In Progress : 6
 ----
 Jira Ticket Types
 ----
-Subtask : 14
+Subtask : 15
 Epic : 2
-Story : 16
+Story : 20
 end legend
 
 
@@ -54,7 +54,8 @@ class "ARS-5" << (S,lightgreen) >> {
  Assigned to : PAOLO BRUNASTI
  Status : To Do
  Type : Story
-Total  Points : 0
+ Points : 5.0
+Total  Points : 5
 }
 
 class "ARS-71" << (S,lightblue) >> {
@@ -73,8 +74,17 @@ class "ARS-50" << (S,lightblue) >> {
 Total  Points : 0
 }
 
-class "ARS-51" << (S,lightblue) >> {
+class "ARS-51" << (S,lightgreen) >> {
  Summary : Create structure for the storage of the different answers for each dimension depending on the stage
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Story
+ Points : 1.0
+Total  Points : 1
+}
+
+class "ARS-90" << (S,lightblue) >> {
+ Summary : Logging system
  Assigned to : PAOLO BRUNASTI
  Status : To Do
  Type : Subtask
@@ -109,7 +119,7 @@ Total  Points : 3
 class "ARS-52" << (S,lightgreen) >> {
  Summary : Prototype BE architecture
  Assigned to : PAOLO BRUNASTI
- Status : In Progress
+ Status : Done
  Type : Story
  Points : 5.0
 Total  Points : 5
@@ -131,6 +141,15 @@ class "ARS-30" << (S,lightblue) >> {
 Total  Points : 0
 }
 
+class "ARS-75" << (S,lightgreen) >> {
+ Summary : Generate pdf with spider graph
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Story
+ Points : 8.0
+Total  Points : 8
+}
+
 class "ARS-10" << (S,lightgreen) >> {
  Summary : Customised Survey Landing Page URL
  Assigned to : PAOLO BRUNASTI
@@ -145,7 +164,7 @@ class "ARS-32" << (E,green) >> {
  Assigned to : PAOLO BRUNASTI
  Status : In Progress
  Type : Epic
-Total  Points : 19
+Total  Points : 24
 }
 
 class "ARS-11" << (S,lightblue) >> {
@@ -154,6 +173,15 @@ class "ARS-11" << (S,lightblue) >> {
  Status : To Do
  Type : Subtask
 Total  Points : 0
+}
+
+class "ARS-27" << (S,lightgreen) >> {
+ Summary : Design the CICD Pipeline
+ Assigned to : PAOLO BRUNASTI
+ Status : In Progress
+ Type : Story
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-84" << (S,lightgreen) >> {
@@ -181,6 +209,14 @@ class "ARS-23" << (S,lightgreen) >> {
  Type : Story
  Points : 5.0
 Total  Points : 5
+}
+
+class "ARS-89" << (S,lightblue) >> {
+ Summary : Spider Net Graphic
+ Assigned to : PAOLO BRUNASTI
+ Status : In Progress
+ Type : Subtask
+Total  Points : 0
 }
 
 class "ARS-45" << (S,lightgreen) >> {
@@ -211,7 +247,7 @@ Total  Points : 3
 class "ARS-69" << (S,lightblue) >> {
  Summary : PDF Library
  Assigned to : PAOLO BRUNASTI
- Status : To Do
+ Status : Done
  Type : Subtask
 Total  Points : 0
 }
@@ -219,9 +255,19 @@ Total  Points : 0
 class "ARS-47" << (S,lightgreen) >> {
  Summary : Create View for results of the survey
  Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Story
+ Points : 1.0
+Total  Points : 1
+}
+
+class "ARS-85" << (S,lightgreen) >> {
+ Summary : Security and Configuration : place connection values in a .env file for more security
+ Assigned to : PAOLO BRUNASTI
  Status : To Do
  Type : Story
-Total  Points : 0
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-20" << (E,green) >> {
@@ -229,7 +275,7 @@ class "ARS-20" << (E,green) >> {
  Assigned to : PAOLO BRUNASTI
  Status : In Progress
  Type : Epic
-Total  Points : 52
+Total  Points : 70
 }
 
 class "ARS-86" << (S,lightblue) >> {
@@ -261,7 +307,8 @@ class "ARS-43" << (S,lightgreen) >> {
  Assigned to : PAOLO BRUNASTI
  Status : To Do
  Type : Story
-Total  Points : 0
+ Points : 8.0
+Total  Points : 8
 }
 
 class "ARS-88" << (S,lightgreen) >> {
@@ -299,11 +346,17 @@ Total  Points : 5
 
 "ARS-52" <.. "ARS-88" : Cloners
 
+"ARS-27" <.. "ARS-18" : Blocks
+
 "ARS-22" <.. "ARS-52" : Cloners
 
 "ARS-5" <.. "ARS-74" : Issue split
 
+"ARS-75" <.. "ARS-74" : Issue split
+
 "ARS-47" <.. "ARS-23" : Relates
+
+"ARS-88" <.. "ARS-52" : Blocks
 
 
 

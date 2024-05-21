@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu May 16 15:52:42 CEST 2024
+' Generated at    : Tue May 21 11:41:23 CEST 2024
 
 title Jira Tickets for Epic Back End for Survey
 hide empty members
@@ -10,15 +10,15 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-To Do : 17
-Done : 6
+To Do : 16
+Done : 7
 In Progress : 2
 ----
 Jira Ticket Types
 ----
-Subtask : 6
+Subtask : 5
 Epic : 1
-Story : 18
+Story : 19
 end legend
 
 
@@ -36,7 +36,8 @@ class "ARS-5" << (S,lightgreen) >> {
  Assigned to : PAOLO BRUNASTI
  Status : To Do
  Type : Story
-Total  Points : 0
+ Points : 5.0
+Total  Points : 5
 }
 
 class "ARS-72" << (S,lightgreen) >> {
@@ -55,6 +56,15 @@ class "ARS-50" << (S,lightblue) >> {
 Total  Points : 0
 }
 
+class "ARS-51" << (S,lightgreen) >> {
+ Summary : Create structure for the storage of the different answers for each dimension depending on the stage
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Story
+ Points : 1.0
+Total  Points : 1
+}
+
 class "ARS-73" << (S,lightgreen) >> {
  Summary : Implement FE API - response endpoints
  Assigned to : Nneka Tielman
@@ -62,14 +72,6 @@ class "ARS-73" << (S,lightgreen) >> {
  Type : Story
  Points : 5.0
 Total  Points : 5
-}
-
-class "ARS-51" << (S,lightblue) >> {
- Summary : Create structure for the storage of the different answers for each dimension depending on the stage
- Assigned to : PAOLO BRUNASTI
- Status : To Do
- Type : Subtask
-Total  Points : 0
 }
 
 class "ARS-12" << (S,lightblue) >> {
@@ -98,6 +100,7 @@ Total  Points : 8
 
 class "ARS-75" << (S,lightgreen) >> {
  Summary : Generate pdf with spider graph
+ Assigned to : PAOLO BRUNASTI
  Status : To Do
  Type : Story
  Points : 8.0
@@ -167,9 +170,10 @@ Total  Points : 5
 class "ARS-47" << (S,lightgreen) >> {
  Summary : Create View for results of the survey
  Assigned to : PAOLO BRUNASTI
- Status : To Do
+ Status : Done
  Type : Story
-Total  Points : 0
+ Points : 1.0
+Total  Points : 1
 }
 
 class "ARS-26" << (S,lightgreen) >> {
@@ -191,9 +195,11 @@ Total  Points : 3
 
 class "ARS-85" << (S,lightgreen) >> {
  Summary : Security and Configuration : place connection values in a .env file for more security
+ Assigned to : PAOLO BRUNASTI
  Status : To Do
  Type : Story
-Total  Points : 0
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-20" << (E,green) >> {
@@ -201,7 +207,7 @@ class "ARS-20" << (E,green) >> {
  Assigned to : PAOLO BRUNASTI
  Status : In Progress
  Type : Epic
-Total  Points : 52
+Total  Points : 70
 }
 
 class "ARS-64" << (S,lightgreen) >> {
@@ -216,7 +222,8 @@ class "ARS-43" << (S,lightgreen) >> {
  Assigned to : PAOLO BRUNASTI
  Status : To Do
  Type : Story
-Total  Points : 0
+ Points : 8.0
+Total  Points : 8
 }
 
 class "ARS-22" << (S,lightgreen) >> {
@@ -237,8 +244,8 @@ Total  Points : 5
 "ARS-20" <|-- "ARS-5"
 "ARS-20" <|-- "ARS-72"
 "ARS-23" <|-- "ARS-50"
+"ARS-20" <|-- "ARS-51"
 "ARS-20" <|-- "ARS-73"
-"ARS-23" <|-- "ARS-51"
 "ARS-5" <|-- "ARS-12"
 "ARS-5" <|-- "ARS-13"
 "ARS-20" <|-- "ARS-74"
@@ -279,6 +286,8 @@ Total  Points : 5
 "ARS-67" <.. "ARS-26" : Issue split
 
 "ARS-47" <.. "ARS-23" : Relates
+
+"ARS-26" <.. "ARS-25" : Blocks
 
 "ARS-63" <.. "ARS-26" : Issue split
 
