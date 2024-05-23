@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 21 11:41:22 CEST 2024
+' Generated at    : Thu May 23 13:36:26 CEST 2024
 
 title Jira Tickets for Link Type Relates
 hide empty members
@@ -91,6 +91,8 @@ Total  Points : 5
 
 
 ' Links =======
+"ARS-47" <.. "ARS-23" : Relates
+
 "ARS-74" <.. "ARS-43" : Relates
 
 "ARS-76" <.. "ARS-26" : Relates
@@ -98,8 +100,6 @@ Total  Points : 5
 "ARS-76" <.. "ARS-52" : Relates
 
 "ARS-76" <.. "ARS-88" : Relates
-
-"ARS-47" <.. "ARS-23" : Relates
 
 
 

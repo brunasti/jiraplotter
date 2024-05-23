@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 21 11:41:23 CEST 2024
+' Generated at    : Thu May 23 13:36:26 CEST 2024
 
 title Jira Tickets for Status To Do
 hide empty members
@@ -10,14 +10,15 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-Done : 6
-To Do : 51
+Done : 7
+To Do : 53
+In Progress : 2
 ----
 Jira Ticket Types
 ----
-Subtask : 11
-Epic : 2
-Story : 44
+Subtask : 15
+Epic : 5
+Story : 42
 end legend
 
 
@@ -38,6 +39,15 @@ class "ARS-17" << (S,lightgreen) >> {
  Type : Story
  Points : 5.0
 Total  Points : 5
+}
+
+class "ARS-18" << (S,lightgreen) >> {
+ Summary : Create Repository
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Story
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-92" << (S,lightgreen) >> {
@@ -71,15 +81,6 @@ class "ARS-95" << (S,lightgreen) >> {
 Total  Points : 0
 }
 
-class "ARS-51" << (S,lightgreen) >> {
- Summary : Create structure for the storage of the different answers for each dimension depending on the stage
- Assigned to : PAOLO BRUNASTI
- Status : To Do
- Type : Story
- Points : 1.0
-Total  Points : 1
-}
-
 class "ARS-90" << (S,lightblue) >> {
  Summary : Logging system
  Assigned to : PAOLO BRUNASTI
@@ -96,6 +97,14 @@ class "ARS-91" << (S,lightgreen) >> {
 Total  Points : 5
 }
 
+class "ARS-12" << (S,lightblue) >> {
+ Summary : Send email to customer with the PDF as attachment
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Subtask
+Total  Points : 0
+}
+
 class "ARS-56" << (S,lightgreen) >> {
  Summary : Input Fields Validation
  Assigned to : Juan Solano
@@ -103,14 +112,6 @@ class "ARS-56" << (S,lightgreen) >> {
  Type : Story
  Points : 3.0
 Total  Points : 3
-}
-
-class "ARS-12" << (S,lightblue) >> {
- Summary : Send email to customer with the PDF as attachment
- Assigned to : PAOLO BRUNASTI
- Status : To Do
- Type : Subtask
-Total  Points : 0
 }
 
 class "ARS-13" << (S,lightblue) >> {
@@ -164,6 +165,15 @@ class "ARS-11" << (S,lightblue) >> {
 Total  Points : 0
 }
 
+class "ARS-27" << (S,lightgreen) >> {
+ Summary : Design the CICD Pipeline
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Story
+ Points : 3.0
+Total  Points : 3
+}
+
 class "ARS-29" << (S,lightblue) >> {
  Summary : CICD Pipeline for BE
  Status : To Do
@@ -215,7 +225,7 @@ Total  Points : 0
 class "ARS-63" << (S,lightgreen) >> {
  Summary : Implement Analytics API - user endpoints
  Assigned to : Nneka Tielman
- Status : To Do
+ Status : In Progress
  Type : Story
  Points : 3.0
 Total  Points : 3
@@ -269,19 +279,11 @@ Total  Points : 5
 }
 
 class "ARS-3" << (S,lightgreen) >> {
- Summary : Questions Page - Progress Bar Component on dimensions
+ Summary : Questions Page - Dimensions Progress Bar Component
  Status : To Do
  Type : Story
-Total  Points : 0
-}
-
-class "ARS-73" << (S,lightgreen) >> {
- Summary : Implement FE API - response endpoints
- Assigned to : Nneka Tielman
- Status : To Do
- Type : Story
- Points : 5.0
-Total  Points : 5
+ Points : 8.0
+Total  Points : 8
 }
 
 class "ARS-4" << (S,lightgreen) >> {
@@ -292,7 +294,7 @@ Total  Points : 0
 }
 
 class "ARS-9" << (S,lightgreen) >> {
- Summary : Results Page - Personalised High-Level Roadmap Component
+ Summary : Results Page - Personalised High-Level Roadmap Component with AI
  Status : To Do
  Type : Story
 Total  Points : 0
@@ -320,21 +322,12 @@ class "ARS-79" << (E,green) >> {
 Total  Points : 0
 }
 
-class "ARS-36" << (S,lightgreen) >> {
- Summary : Landing Page - Input fields Component
- Assigned to : Juan Solano
- Status : To Do
- Type : Story
- Points : 5.0
-Total  Points : 5
-}
-
-class "ARS-1" << (S,lightgreen) >> {
+class "ARS-1" << (E,green) >> {
  Summary : Survey Landing Page
  Assigned to : Juan Solano
  Status : To Do
- Type : Story
-Total  Points : 0
+ Type : Epic
+Total  Points : 11
 }
 
 class "ARS-74" << (S,lightgreen) >> {
@@ -345,10 +338,17 @@ class "ARS-74" << (S,lightgreen) >> {
 Total  Points : 8
 }
 
-class "ARS-2" << (S,lightgreen) >> {
+class "ARS-2" << (E,green) >> {
  Summary : Survey Questions Pages
  Status : To Do
- Type : Story
+ Type : Epic
+Total  Points : 26
+}
+
+class "ARS-31" << (E,green) >> {
+ Summary : Front End for Survey
+ Status : To Do
+ Type : Epic
 Total  Points : 0
 }
 
@@ -359,13 +359,6 @@ class "ARS-75" << (S,lightgreen) >> {
  Type : Story
  Points : 8.0
 Total  Points : 8
-}
-
-class "ARS-31" << (E,green) >> {
- Summary : Front End for Survey
- Status : To Do
- Type : Epic
-Total  Points : 0
 }
 
 class "ARS-76" << (S,lightgreen) >> {
@@ -379,6 +372,48 @@ class "ARS-33" << (S,lightgreen) >> {
  Summary : Questions Page - Save Survey Progress
  Status : To Do
  Type : Story
+Total  Points : 0
+}
+
+class "ARS-103" << (S,lightblue) >> {
+ Summary : Connect EC2 to S3
+ Status : To Do
+ Type : Subtask
+Total  Points : 0
+}
+
+class "ARS-102" << (S,lightblue) >> {
+ Summary : Create S3
+ Status : To Do
+ Type : Subtask
+Total  Points : 0
+}
+
+class "ARS-105" << (E,green) >> {
+ Summary : Survey Results Page
+ Status : To Do
+ Type : Epic
+Total  Points : 0
+}
+
+class "ARS-107" << (S,lightgreen) >> {
+ Summary : Error Page
+ Status : To Do
+ Type : Story
+Total  Points : 0
+}
+
+class "ARS-101" << (S,lightblue) >> {
+ Summary : Automate deployment of BE app on EC2
+ Status : To Do
+ Type : Subtask
+Total  Points : 0
+}
+
+class "ARS-100" << (S,lightblue) >> {
+ Summary : Open BE app to FE
+ Status : To Do
+ Type : Subtask
 Total  Points : 0
 }
 
@@ -403,6 +438,15 @@ class "ARS-83" << (S,lightgreen) >> {
 Total  Points : 0
 }
 
+class "ARS-40" << (S,lightgreen) >> {
+ Summary : AWS Environment
+ Assigned to : PAOLO BRUNASTI
+ Status : In Progress
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
 class "ARS-80" << (S,lightgreen) >> {
  Summary : Store the different Dimension Responses for the result in the DB
  Status : To Do
@@ -418,6 +462,13 @@ class "ARS-48" << (S,lightgreen) >> {
 Total  Points : 5
 }
 
+class "ARS-41" << (S,lightgreen) >> {
+ Summary : Questions Page - Personalised with company name
+ Status : To Do
+ Type : Story
+Total  Points : 0
+}
+
 class "ARS-85" << (S,lightgreen) >> {
  Summary : Security and Configuration : place connection values in a .env file for more security
  Assigned to : PAOLO BRUNASTI
@@ -425,13 +476,6 @@ class "ARS-85" << (S,lightgreen) >> {
  Type : Story
  Points : 3.0
 Total  Points : 3
-}
-
-class "ARS-41" << (S,lightgreen) >> {
- Summary : Questions Page - Personalised with company name
- Status : To Do
- Type : Story
-Total  Points : 0
 }
 
 class "ARS-42" << (S,lightgreen) >> {
@@ -466,29 +510,24 @@ class "ARS-88" << (S,lightgreen) >> {
 Total  Points : 5
 }
 
-class "ARS-44" << (S,lightgreen) >> {
- Summary : Typeform Hubspot integration
- Status : To Do
- Type : Story
-Total  Points : 0
-}
-
 
 
 ' Links =======
-"ARS-56" <.. "ARS-1" : Issue split
+"ARS-91" <.. "ARS-2" : Issue split
+"ARS-27" <.. "ARS-18" : Blocks
+"ARS-27" <.. "ARS-40" : Blocks
 "ARS-26" <.. "ARS-25" : Blocks
-"ARS-63" <.. "ARS-26" : Issue split
+"ARS-33" <.. "ARS-2" : Issue split
+"ARS-42" <.. "ARS-4" : Polaris datapoint issue link
+"ARS-56" <.. "ARS-1" : Issue split
 "ARS-64" <.. "ARS-72" : Blocks
 "ARS-64" <.. "ARS-63" : Blocks
 "ARS-64" <.. "ARS-26" : Issue split
 "ARS-5" <.. "ARS-74" : Issue split
 "ARS-72" <.. "ARS-26" : Issue split
 "ARS-3" <.. "ARS-2" : Issue split
-"ARS-73" <.. "ARS-26" : Issue split
 "ARS-9" <.. "ARS-4" : Issue split
 "ARS-8" <.. "ARS-4" : Issue split
-"ARS-36" <.. "ARS-1" : Issue split
 "ARS-74" <.. "ARS-26" : Issue split
 "ARS-74" <.. "ARS-43" : Relates
 "ARS-1" <.. "ARS-14" : Polaris issue link
@@ -496,12 +535,11 @@ Total  Points : 0
 "ARS-1" <.. "ARS-16" : Polaris issue link
 "ARS-1" <.. "ARS-17" : Polaris issue link
 "ARS-75" <.. "ARS-74" : Issue split
+"ARS-2" <.. "ARS-48" : Polaris datapoint issue link
+"ARS-2" <.. "ARS-41" : Polaris datapoint issue link
 "ARS-76" <.. "ARS-26" : Relates
 "ARS-76" <.. "ARS-52" : Relates
 "ARS-76" <.. "ARS-88" : Relates
-"ARS-33" <.. "ARS-2" : Issue split
-"ARS-41" <.. "ARS-2" : Polaris datapoint issue link
-"ARS-42" <.. "ARS-4" : Polaris datapoint issue link
 "ARS-88" <.. "ARS-52" : Blocks
 
 

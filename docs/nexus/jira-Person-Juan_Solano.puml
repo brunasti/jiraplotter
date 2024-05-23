@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 21 11:41:23 CEST 2024
+' Generated at    : Thu May 23 13:36:26 CEST 2024
 
 title Jira Tickets for Person Juan Solano
 hide empty members
@@ -10,13 +10,15 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-Done : 13
-To Do : 3
-In Progress : 2
+Done : 14
+To Do : 2
+PO and DESIGN REVIEW : 1
+In Progress : 1
 ----
 Jira Ticket Types
 ----
-Story : 18
+Epic : 1
+Story : 17
 end legend
 
 
@@ -57,6 +59,15 @@ class "ARS-19" << (S,lightgreen) >> {
 Total  Points : 3
 }
 
+class "ARS-34" << (S,lightgreen) >> {
+ Summary : All Survey Pages - Create Theme
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 3.0
+Total  Points : 3
+}
+
 class "ARS-56" << (S,lightgreen) >> {
  Summary : Input Fields Validation
  Assigned to : Juan Solano
@@ -75,15 +86,6 @@ class "ARS-78" << (S,lightgreen) >> {
 Total  Points : 3
 }
 
-class "ARS-34" << (S,lightgreen) >> {
- Summary : All Survey Pages - Create Theme
- Assigned to : Juan Solano
- Status : Done
- Type : Story
- Points : 3.0
-Total  Points : 3
-}
-
 class "ARS-57" << (S,lightgreen) >> {
  Summary : Banner component
  Assigned to : Juan Solano
@@ -91,15 +93,6 @@ class "ARS-57" << (S,lightgreen) >> {
  Type : Story
  Points : 3.0
 Total  Points : 3
-}
-
-class "ARS-58" << (S,lightgreen) >> {
- Summary : Button components
- Assigned to : Juan Solano
- Status : In Progress
- Type : Story
- Points : 5.0
-Total  Points : 5
 }
 
 class "ARS-14" << (S,lightgreen) >> {
@@ -112,9 +105,18 @@ Total  Points : 2
 }
 
 class "ARS-36" << (S,lightgreen) >> {
- Summary : Landing Page - Input fields Component
+ Summary : Landing Page - Input fields Component and Form
  Assigned to : Juan Solano
- Status : To Do
+ Status : In Progress
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
+class "ARS-58" << (S,lightgreen) >> {
+ Summary : Button components
+ Assigned to : Juan Solano
+ Status : PO and DESIGN REVIEW
  Type : Story
  Points : 5.0
 Total  Points : 5
@@ -138,12 +140,12 @@ class "ARS-37" << (S,lightgreen) >> {
 Total  Points : 3
 }
 
-class "ARS-1" << (S,lightgreen) >> {
+class "ARS-1" << (E,green) >> {
  Summary : Survey Landing Page
  Assigned to : Juan Solano
  Status : To Do
- Type : Story
-Total  Points : 0
+ Type : Epic
+Total  Points : 11
 }
 
 class "ARS-53" << (S,lightgreen) >> {
@@ -158,7 +160,7 @@ Total  Points : 3
 class "ARS-54" << (S,lightgreen) >> {
  Summary : Footer component
  Assigned to : Juan Solano
- Status : In Progress
+ Status : Done
  Type : Story
  Points : 3.0
 Total  Points : 3
@@ -185,9 +187,9 @@ Total  Points : 2
 
 
 ' Links =======
-"ARS-56" <.. "ARS-1" : Issue split
-
 "ARS-36" <.. "ARS-1" : Issue split
+
+"ARS-56" <.. "ARS-1" : Issue split
 
 "ARS-1" <.. "ARS-14" : Polaris issue link
 

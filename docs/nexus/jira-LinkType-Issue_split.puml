@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 21 11:41:22 CEST 2024
+' Generated at    : Thu May 23 13:36:26 CEST 2024
 
 title Jira Tickets for Link Type Issue split
 hide empty members
@@ -10,12 +10,13 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-To Do : 17
-In Progress : 1
+To Do : 15
+In Progress : 4
 ----
 Jira Ticket Types
 ----
-Story : 18
+Epic : 2
+Story : 17
 end legend
 
 
@@ -38,16 +39,17 @@ Total  Points : 5
 }
 
 class "ARS-3" << (S,lightgreen) >> {
- Summary : Questions Page - Progress Bar Component on dimensions
+ Summary : Questions Page - Dimensions Progress Bar Component
  Status : To Do
  Type : Story
-Total  Points : 0
+ Points : 8.0
+Total  Points : 8
 }
 
 class "ARS-73" << (S,lightgreen) >> {
  Summary : Implement FE API - response endpoints
  Assigned to : Nneka Tielman
- Status : To Do
+ Status : In Progress
  Type : Story
  Points : 5.0
 Total  Points : 5
@@ -61,10 +63,18 @@ Total  Points : 0
 }
 
 class "ARS-9" << (S,lightgreen) >> {
- Summary : Results Page - Personalised High-Level Roadmap Component
+ Summary : Results Page - Personalised High-Level Roadmap Component with AI
  Status : To Do
  Type : Story
 Total  Points : 0
+}
+
+class "ARS-91" << (S,lightgreen) >> {
+ Summary : Content Modelling for Questions Page
+ Status : To Do
+ Type : Story
+ Points : 5.0
+Total  Points : 5
 }
 
 class "ARS-8" << (S,lightgreen) >> {
@@ -93,9 +103,9 @@ Total  Points : 3
 }
 
 class "ARS-36" << (S,lightgreen) >> {
- Summary : Landing Page - Input fields Component
+ Summary : Landing Page - Input fields Component and Form
  Assigned to : Juan Solano
- Status : To Do
+ Status : In Progress
  Type : Story
  Points : 5.0
 Total  Points : 5
@@ -109,18 +119,18 @@ class "ARS-26" << (S,lightgreen) >> {
 Total  Points : 0
 }
 
-class "ARS-1" << (S,lightgreen) >> {
+class "ARS-1" << (E,green) >> {
  Summary : Survey Landing Page
  Assigned to : Juan Solano
  Status : To Do
- Type : Story
-Total  Points : 0
+ Type : Epic
+Total  Points : 11
 }
 
 class "ARS-63" << (S,lightgreen) >> {
  Summary : Implement Analytics API - user endpoints
  Assigned to : Nneka Tielman
- Status : To Do
+ Status : In Progress
  Type : Story
  Points : 3.0
 Total  Points : 3
@@ -134,15 +144,15 @@ class "ARS-74" << (S,lightgreen) >> {
 Total  Points : 8
 }
 
-class "ARS-64" << (S,lightgreen) >> {
- Summary : Auth for Analytics API
+class "ARS-2" << (E,green) >> {
+ Summary : Survey Questions Pages
  Status : To Do
- Type : Story
-Total  Points : 0
+ Type : Epic
+Total  Points : 26
 }
 
-class "ARS-2" << (S,lightgreen) >> {
- Summary : Survey Questions Pages
+class "ARS-64" << (S,lightgreen) >> {
+ Summary : Auth for Analytics API
  Status : To Do
  Type : Story
 Total  Points : 0
@@ -167,6 +177,12 @@ Total  Points : 0
 
 
 ' Links =======
+"ARS-91" <.. "ARS-2" : Issue split
+
+"ARS-36" <.. "ARS-1" : Issue split
+
+"ARS-33" <.. "ARS-2" : Issue split
+
 "ARS-56" <.. "ARS-1" : Issue split
 
 "ARS-67" <.. "ARS-26" : Issue split
@@ -187,13 +203,9 @@ Total  Points : 0
 
 "ARS-8" <.. "ARS-4" : Issue split
 
-"ARS-36" <.. "ARS-1" : Issue split
-
 "ARS-74" <.. "ARS-26" : Issue split
 
 "ARS-75" <.. "ARS-74" : Issue split
-
-"ARS-33" <.. "ARS-2" : Issue split
 
 
 

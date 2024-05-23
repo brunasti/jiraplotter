@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 21 11:41:23 CEST 2024
+' Generated at    : Thu May 23 13:36:26 CEST 2024
 
 title Jira Tickets for Status Done
 hide empty members
@@ -10,14 +10,15 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-Done : 33
+Done : 35
 To Do : 1
 ----
 Jira Ticket Types
 ----
 Spike : 1
 Subtask : 9
-Story : 24
+Bug : 1
+Story : 25
 end legend
 
 
@@ -83,8 +84,8 @@ class "ARS-50" << (S,lightblue) >> {
 Total  Points : 0
 }
 
-class "ARS-78" << (S,lightgreen) >> {
- Summary : Create Image Component for Landing Page
+class "ARS-34" << (S,lightgreen) >> {
+ Summary : All Survey Pages - Create Theme
  Assigned to : Juan Solano
  Status : Done
  Type : Story
@@ -92,8 +93,8 @@ class "ARS-78" << (S,lightgreen) >> {
 Total  Points : 3
 }
 
-class "ARS-34" << (S,lightgreen) >> {
- Summary : All Survey Pages - Create Theme
+class "ARS-78" << (S,lightgreen) >> {
+ Summary : Create Image Component for Landing Page
  Assigned to : Juan Solano
  Status : Done
  Type : Story
@@ -163,6 +164,15 @@ class "ARS-53" << (S,lightgreen) >> {
 Total  Points : 3
 }
 
+class "ARS-54" << (S,lightgreen) >> {
+ Summary : Footer component
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 3.0
+Total  Points : 3
+}
+
 class "ARS-55" << (S,lightgreen) >> {
  Summary : Typography component
  Assigned to : Juan Solano
@@ -195,6 +205,15 @@ class "ARS-28" << (S,lightblue) >> {
  Status : Done
  Type : Subtask
 Total  Points : 0
+}
+
+class "ARS-106" << (B,red) >> {
+ Summary : Correct attributes name in tables to match table name
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Bug
+ Points : 2.0
+Total  Points : 2
 }
 
 class "ARS-62" << (X,lightblue) >> {
@@ -240,14 +259,6 @@ class "ARS-24" << (S,lightgreen) >> {
 Total  Points : 3
 }
 
-class "ARS-69" << (S,lightblue) >> {
- Summary : PDF Library
- Assigned to : PAOLO BRUNASTI
- Status : Done
- Type : Subtask
-Total  Points : 0
-}
-
 class "ARS-25" << (S,lightgreen) >> {
  Summary : Design APIs
  Assigned to : Nneka Tielman
@@ -266,8 +277,24 @@ class "ARS-47" << (S,lightgreen) >> {
 Total  Points : 1
 }
 
+class "ARS-69" << (S,lightblue) >> {
+ Summary : PDF Library
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Subtask
+Total  Points : 0
+}
+
 class "ARS-86" << (S,lightblue) >> {
  Summary : Create base data (Language, ..)
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Subtask
+Total  Points : 0
+}
+
+class "ARS-21" << (S,lightblue) >> {
+ Summary : Create GitHub repository for BE
  Assigned to : PAOLO BRUNASTI
  Status : Done
  Type : Subtask
@@ -282,12 +309,13 @@ class "ARS-65" << (S,lightblue) >> {
 Total  Points : 0
 }
 
-class "ARS-21" << (S,lightblue) >> {
- Summary : Create GitHub repository for BE
+class "ARS-22" << (S,lightgreen) >> {
+ Summary : Define BE architecture
  Assigned to : PAOLO BRUNASTI
  Status : Done
- Type : Subtask
-Total  Points : 0
+ Type : Story
+ Points : 5.0
+Total  Points : 5
 }
 
 class "ARS-88" << (S,lightgreen) >> {
@@ -307,24 +335,15 @@ class "ARS-66" << (S,lightblue) >> {
 Total  Points : 0
 }
 
-class "ARS-22" << (S,lightgreen) >> {
- Summary : Define BE architecture
- Assigned to : PAOLO BRUNASTI
- Status : Done
- Type : Story
- Points : 5.0
-Total  Points : 5
-}
-
 
 
 ' Links =======
 "ARS-18" <.. "ARS-37" : Polaris issue link
 "ARS-18" <.. "ARS-38" : Polaris issue link
-"ARS-52" <.. "ARS-88" : Cloners
 "ARS-28" <.. "ARS-38" : Cloners
 "ARS-22" <.. "ARS-52" : Cloners
 "ARS-47" <.. "ARS-23" : Relates
+"ARS-52" <.. "ARS-88" : Cloners
 
 
 @enduml

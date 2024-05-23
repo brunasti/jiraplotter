@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 21 11:41:23 CEST 2024
+' Generated at    : Thu May 23 13:36:26 CEST 2024
 
 title Jira Tickets for Epic Back End for Survey
 hide empty members
@@ -10,15 +10,16 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-To Do : 16
-Done : 7
-In Progress : 2
+To Do : 13
+Done : 8
+In Progress : 4
 ----
 Jira Ticket Types
 ----
 Subtask : 5
 Epic : 1
-Story : 19
+Bug : 1
+Story : 18
 end legend
 
 
@@ -56,19 +57,10 @@ class "ARS-50" << (S,lightblue) >> {
 Total  Points : 0
 }
 
-class "ARS-51" << (S,lightgreen) >> {
- Summary : Create structure for the storage of the different answers for each dimension depending on the stage
- Assigned to : PAOLO BRUNASTI
- Status : To Do
- Type : Story
- Points : 1.0
-Total  Points : 1
-}
-
 class "ARS-73" << (S,lightgreen) >> {
  Summary : Implement FE API - response endpoints
  Assigned to : Nneka Tielman
- Status : To Do
+ Status : In Progress
  Type : Story
  Points : 5.0
 Total  Points : 5
@@ -122,6 +114,15 @@ class "ARS-11" << (S,lightblue) >> {
 Total  Points : 0
 }
 
+class "ARS-106" << (B,red) >> {
+ Summary : Correct attributes name in tables to match table name
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Bug
+ Points : 2.0
+Total  Points : 2
+}
+
 class "ARS-84" << (S,lightgreen) >> {
  Summary : Create test data in the DB
  Assigned to : PAOLO BRUNASTI
@@ -131,15 +132,6 @@ class "ARS-84" << (S,lightgreen) >> {
 Total  Points : 2
 }
 
-class "ARS-67" << (S,lightgreen) >> {
- Summary : Implement FE API - user endpoints
- Assigned to : Nneka Tielman
- Status : In Progress
- Type : Story
- Points : 3.0
-Total  Points : 3
-}
-
 class "ARS-23" << (S,lightgreen) >> {
  Summary : Model BE DB
  Assigned to : PAOLO BRUNASTI
@@ -147,6 +139,15 @@ class "ARS-23" << (S,lightgreen) >> {
  Type : Story
  Points : 5.0
 Total  Points : 5
+}
+
+class "ARS-67" << (S,lightgreen) >> {
+ Summary : Implement FE API - user endpoints
+ Assigned to : Nneka Tielman
+ Status : In Progress
+ Type : Story
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-24" << (S,lightgreen) >> {
@@ -187,7 +188,7 @@ Total  Points : 0
 class "ARS-63" << (S,lightgreen) >> {
  Summary : Implement Analytics API - user endpoints
  Assigned to : Nneka Tielman
- Status : To Do
+ Status : In Progress
  Type : Story
  Points : 3.0
 Total  Points : 3
@@ -207,7 +208,7 @@ class "ARS-20" << (E,green) >> {
  Assigned to : PAOLO BRUNASTI
  Status : In Progress
  Type : Epic
-Total  Points : 70
+Total  Points : 71
 }
 
 class "ARS-64" << (S,lightgreen) >> {
@@ -244,7 +245,6 @@ Total  Points : 5
 "ARS-20" <|-- "ARS-5"
 "ARS-20" <|-- "ARS-72"
 "ARS-23" <|-- "ARS-50"
-"ARS-20" <|-- "ARS-51"
 "ARS-20" <|-- "ARS-73"
 "ARS-5" <|-- "ARS-12"
 "ARS-5" <|-- "ARS-13"
@@ -252,9 +252,10 @@ Total  Points : 5
 "ARS-20" <|-- "ARS-75"
 "ARS-20" <|-- "ARS-76"
 "ARS-5" <|-- "ARS-11"
+"ARS-20" <|-- "ARS-106"
 "ARS-20" <|-- "ARS-84"
-"ARS-20" <|-- "ARS-67"
 "ARS-20" <|-- "ARS-23"
+"ARS-20" <|-- "ARS-67"
 "ARS-20" <|-- "ARS-24"
 "ARS-20" <|-- "ARS-25"
 "ARS-20" <|-- "ARS-47"

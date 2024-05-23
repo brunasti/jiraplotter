@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 21 11:41:22 CEST 2024
+' Generated at    : Thu May 23 13:36:26 CEST 2024
 
 title Jira Tickets for Link Type Blocks
 hide empty members
@@ -12,11 +12,11 @@ Jira Ticket Status
 ----
 To Do : 5
 Done : 3
-In Progress : 1
+In Progress : 2
 ----
 Jira Ticket Types
 ----
-Story : 9
+Story : 10
 end legend
 
 
@@ -29,10 +29,19 @@ class "ARS-72" << (S,lightgreen) >> {
 Total  Points : 5
 }
 
+class "ARS-40" << (S,lightgreen) >> {
+ Summary : AWS Environment
+ Assigned to : PAOLO BRUNASTI
+ Status : In Progress
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
 class "ARS-27" << (S,lightgreen) >> {
  Summary : Design the CICD Pipeline
  Assigned to : PAOLO BRUNASTI
- Status : In Progress
+ Status : To Do
  Type : Story
  Points : 3.0
 Total  Points : 3
@@ -67,7 +76,7 @@ Total  Points : 0
 class "ARS-63" << (S,lightgreen) >> {
  Summary : Implement Analytics API - user endpoints
  Assigned to : Nneka Tielman
- Status : To Do
+ Status : In Progress
  Type : Story
  Points : 3.0
 Total  Points : 3
@@ -102,6 +111,8 @@ Total  Points : 5
 
 ' Links =======
 "ARS-27" <.. "ARS-18" : Blocks
+
+"ARS-27" <.. "ARS-40" : Blocks
 
 "ARS-26" <.. "ARS-25" : Blocks
 

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 21 11:41:22 CEST 2024
+' Generated at    : Thu May 23 13:36:26 CEST 2024
 
 title Jira Tickets for Link Type Polaris datapoint issue link
 hide empty members
@@ -10,10 +10,11 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-To Do : 4
+To Do : 5
 ----
 Jira Ticket Types
 ----
+Epic : 1
 Story : 4
 end legend
 
@@ -26,15 +27,16 @@ class "ARS-4" << (S,lightgreen) >> {
 Total  Points : 0
 }
 
-class "ARS-41" << (S,lightgreen) >> {
- Summary : Questions Page - Personalised with company name
+class "ARS-48" << (S,lightgreen) >> {
+ Summary : Questions Page - Scroll progress bar
  Status : To Do
  Type : Story
-Total  Points : 0
+ Points : 5.0
+Total  Points : 5
 }
 
-class "ARS-2" << (S,lightgreen) >> {
- Summary : Survey Questions Pages
+class "ARS-41" << (S,lightgreen) >> {
+ Summary : Questions Page - Personalised with company name
  Status : To Do
  Type : Story
 Total  Points : 0
@@ -47,12 +49,21 @@ class "ARS-42" << (S,lightgreen) >> {
 Total  Points : 0
 }
 
+class "ARS-2" << (E,green) >> {
+ Summary : Survey Questions Pages
+ Status : To Do
+ Type : Epic
+Total  Points : 26
+}
+
 
 
 ' Links =======
-"ARS-41" <.. "ARS-2" : Polaris datapoint issue link
-
 "ARS-42" <.. "ARS-4" : Polaris datapoint issue link
+
+"ARS-2" <.. "ARS-48" : Polaris datapoint issue link
+
+"ARS-2" <.. "ARS-41" : Polaris datapoint issue link
 
 
 

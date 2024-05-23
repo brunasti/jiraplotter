@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Tue May 21 11:41:23 CEST 2024
+' Generated at    : Thu May 23 13:36:26 CEST 2024
 
 title Jira Tickets for Person PAOLO BRUNASTI
 hide empty members
@@ -10,15 +10,16 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-Done : 18
+Done : 19
 To Do : 13
-In Progress : 6
+In Progress : 4
 ----
 Jira Ticket Types
 ----
 Subtask : 15
 Epic : 2
-Story : 20
+Bug : 1
+Story : 18
 end legend
 
 
@@ -74,15 +75,6 @@ class "ARS-50" << (S,lightblue) >> {
 Total  Points : 0
 }
 
-class "ARS-51" << (S,lightgreen) >> {
- Summary : Create structure for the storage of the different answers for each dimension depending on the stage
- Assigned to : PAOLO BRUNASTI
- Status : To Do
- Type : Story
- Points : 1.0
-Total  Points : 1
-}
-
 class "ARS-90" << (S,lightblue) >> {
  Summary : Logging system
  Assigned to : PAOLO BRUNASTI
@@ -125,20 +117,20 @@ class "ARS-52" << (S,lightgreen) >> {
 Total  Points : 5
 }
 
-class "ARS-74" << (S,lightgreen) >> {
- Summary : Implement FE API - submit survey endpoint
- Status : To Do
- Type : Story
- Points : 8.0
-Total  Points : 8
-}
-
 class "ARS-30" << (S,lightblue) >> {
  Summary : FE Repository
  Assigned to : PAOLO BRUNASTI
  Status : Done
  Type : Subtask
 Total  Points : 0
+}
+
+class "ARS-74" << (S,lightgreen) >> {
+ Summary : Implement FE API - submit survey endpoint
+ Status : To Do
+ Type : Story
+ Points : 8.0
+Total  Points : 8
 }
 
 class "ARS-75" << (S,lightgreen) >> {
@@ -148,15 +140,6 @@ class "ARS-75" << (S,lightgreen) >> {
  Type : Story
  Points : 8.0
 Total  Points : 8
-}
-
-class "ARS-10" << (S,lightgreen) >> {
- Summary : Customised Survey Landing Page URL
- Assigned to : PAOLO BRUNASTI
- Status : In Progress
- Type : Story
- Points : 3.0
-Total  Points : 3
 }
 
 class "ARS-32" << (E,green) >> {
@@ -178,17 +161,17 @@ Total  Points : 0
 class "ARS-27" << (S,lightgreen) >> {
  Summary : Design the CICD Pipeline
  Assigned to : PAOLO BRUNASTI
- Status : In Progress
+ Status : To Do
  Type : Story
  Points : 3.0
 Total  Points : 3
 }
 
-class "ARS-84" << (S,lightgreen) >> {
- Summary : Create test data in the DB
+class "ARS-106" << (B,red) >> {
+ Summary : Correct attributes name in tables to match table name
  Assigned to : PAOLO BRUNASTI
  Status : Done
- Type : Story
+ Type : Bug
  Points : 2.0
 Total  Points : 2
 }
@@ -202,6 +185,15 @@ class "ARS-40" << (S,lightgreen) >> {
 Total  Points : 5
 }
 
+class "ARS-84" << (S,lightgreen) >> {
+ Summary : Create test data in the DB
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Story
+ Points : 2.0
+Total  Points : 2
+}
+
 class "ARS-23" << (S,lightgreen) >> {
  Summary : Model BE DB
  Assigned to : PAOLO BRUNASTI
@@ -209,14 +201,6 @@ class "ARS-23" << (S,lightgreen) >> {
  Type : Story
  Points : 5.0
 Total  Points : 5
-}
-
-class "ARS-89" << (S,lightblue) >> {
- Summary : Spider Net Graphic
- Assigned to : PAOLO BRUNASTI
- Status : In Progress
- Type : Subtask
-Total  Points : 0
 }
 
 class "ARS-45" << (S,lightgreen) >> {
@@ -227,10 +211,10 @@ class "ARS-45" << (S,lightgreen) >> {
 Total  Points : 0
 }
 
-class "ARS-68" << (S,lightblue) >> {
- Summary : Security
+class "ARS-89" << (S,lightblue) >> {
+ Summary : Spider Net Graphic
  Assigned to : PAOLO BRUNASTI
- Status : To Do
+ Status : In Progress
  Type : Subtask
 Total  Points : 0
 }
@@ -244,10 +228,10 @@ class "ARS-24" << (S,lightgreen) >> {
 Total  Points : 3
 }
 
-class "ARS-69" << (S,lightblue) >> {
- Summary : PDF Library
+class "ARS-68" << (S,lightblue) >> {
+ Summary : Security
  Assigned to : PAOLO BRUNASTI
- Status : Done
+ Status : To Do
  Type : Subtask
 Total  Points : 0
 }
@@ -259,6 +243,14 @@ class "ARS-47" << (S,lightgreen) >> {
  Type : Story
  Points : 1.0
 Total  Points : 1
+}
+
+class "ARS-69" << (S,lightblue) >> {
+ Summary : PDF Library
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Subtask
+Total  Points : 0
 }
 
 class "ARS-85" << (S,lightgreen) >> {
@@ -275,19 +267,11 @@ class "ARS-20" << (E,green) >> {
  Assigned to : PAOLO BRUNASTI
  Status : In Progress
  Type : Epic
-Total  Points : 70
+Total  Points : 71
 }
 
 class "ARS-86" << (S,lightblue) >> {
  Summary : Create base data (Language, ..)
- Assigned to : PAOLO BRUNASTI
- Status : Done
- Type : Subtask
-Total  Points : 0
-}
-
-class "ARS-65" << (S,lightblue) >> {
- Summary : ORM definition of User
  Assigned to : PAOLO BRUNASTI
  Status : Done
  Type : Subtask
@@ -311,6 +295,23 @@ class "ARS-43" << (S,lightgreen) >> {
 Total  Points : 8
 }
 
+class "ARS-65" << (S,lightblue) >> {
+ Summary : ORM definition of User
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Subtask
+Total  Points : 0
+}
+
+class "ARS-22" << (S,lightgreen) >> {
+ Summary : Define BE architecture
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
 class "ARS-88" << (S,lightgreen) >> {
  Summary : Extends BE architecture
  Assigned to : PAOLO BRUNASTI
@@ -328,15 +329,6 @@ class "ARS-66" << (S,lightblue) >> {
 Total  Points : 0
 }
 
-class "ARS-22" << (S,lightgreen) >> {
- Summary : Define BE architecture
- Assigned to : PAOLO BRUNASTI
- Status : Done
- Type : Story
- Points : 5.0
-Total  Points : 5
-}
-
 
 
 ' Links =======
@@ -344,17 +336,19 @@ Total  Points : 5
 
 "ARS-18" <.. "ARS-38" : Polaris issue link
 
-"ARS-52" <.. "ARS-88" : Cloners
-
 "ARS-27" <.. "ARS-18" : Blocks
 
+"ARS-27" <.. "ARS-40" : Blocks
+
 "ARS-22" <.. "ARS-52" : Cloners
+
+"ARS-47" <.. "ARS-23" : Relates
+
+"ARS-52" <.. "ARS-88" : Cloners
 
 "ARS-5" <.. "ARS-74" : Issue split
 
 "ARS-75" <.. "ARS-74" : Issue split
-
-"ARS-47" <.. "ARS-23" : Relates
 
 "ARS-88" <.. "ARS-52" : Blocks
 
