@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu May 23 13:36:26 CEST 2024
+' Generated at    : Mon May 27 11:35:03 CEST 2024
 
 title Jira Tickets for Status In Progress
 hide empty members
@@ -10,14 +10,15 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-To Do : 2
-In Progress : 10
+Done : 1
+To Do : 1
+In Progress : 8
 ----
 Jira Ticket Types
 ----
-Subtask : 3
+Subtask : 2
 Epic : 3
-Story : 6
+Story : 5
 end legend
 
 
@@ -31,20 +32,20 @@ class "ARS-40" << (S,lightgreen) >> {
 Total  Points : 5
 }
 
-class "ARS-73" << (S,lightgreen) >> {
- Summary : Implement FE API - response endpoints
- Assigned to : Nneka Tielman
- Status : In Progress
- Type : Story
- Points : 5.0
-Total  Points : 5
-}
-
 class "ARS-104" << (S,lightblue) >> {
  Summary : Connect to EC2 from Internet
  Status : In Progress
  Type : Subtask
 Total  Points : 0
+}
+
+class "ARS-56" << (S,lightgreen) >> {
+ Summary : Input Fields Validation
+ Assigned to : Juan Solano
+ Status : In Progress
+ Type : Story
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-67" << (S,lightgreen) >> {
@@ -54,14 +55,6 @@ class "ARS-67" << (S,lightgreen) >> {
  Type : Story
  Points : 3.0
 Total  Points : 3
-}
-
-class "ARS-89" << (S,lightblue) >> {
- Summary : Spider Net Graphic
- Assigned to : PAOLO BRUNASTI
- Status : In Progress
- Type : Subtask
-Total  Points : 0
 }
 
 class "ARS-36" << (S,lightgreen) >> {
@@ -76,7 +69,7 @@ Total  Points : 5
 class "ARS-26" << (S,lightgreen) >> {
  Summary : Implement APIs
  Assigned to : Nneka Tielman
- Status : To Do
+ Status : Done
  Type : Story
 Total  Points : 0
 }
@@ -89,21 +82,12 @@ class "ARS-1" << (E,green) >> {
 Total  Points : 11
 }
 
-class "ARS-63" << (S,lightgreen) >> {
- Summary : Implement Analytics API - user endpoints
- Assigned to : Nneka Tielman
- Status : In Progress
- Type : Story
- Points : 3.0
-Total  Points : 3
-}
-
 class "ARS-20" << (E,green) >> {
  Summary : Back End for Survey
  Assigned to : PAOLO BRUNASTI
  Status : In Progress
  Type : Epic
-Total  Points : 71
+Total  Points : 84
 }
 
 class "ARS-32" << (E,green) >> {
@@ -125,9 +109,8 @@ Total  Points : 0
 
 ' Links =======
 "ARS-36" <.. "ARS-1" : Issue split
+"ARS-56" <.. "ARS-1" : Issue split
 "ARS-67" <.. "ARS-26" : Issue split
-"ARS-63" <.. "ARS-26" : Issue split
-"ARS-73" <.. "ARS-26" : Issue split
 
 
 @enduml

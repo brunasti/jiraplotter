@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu May 23 13:36:26 CEST 2024
+' Generated at    : Mon May 27 11:35:03 CEST 2024
 
 title Jira Tickets for Person Pablo Uhalte
 hide empty members
@@ -10,14 +10,14 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-To Do : 5
+To Do : 7
 Done : 1
 ----
 Jira Ticket Types
 ----
 Spike : 1
 Subtask : 3
-Story : 2
+Story : 4
 end legend
 
 
@@ -70,9 +70,28 @@ class "ARS-59" << (S,lightblue) >> {
 Total  Points : 0
 }
 
+class "ARS-74" << (S,lightgreen) >> {
+ Summary : Implement FE API - submit survey endpoint
+ Status : To Do
+ Type : Story
+ Points : 8.0
+Total  Points : 8
+}
+
+class "ARS-75" << (S,lightgreen) >> {
+ Summary : Generate pdf with spider graph
+ Assigned to : Pablo Uhalte
+ Status : To Do
+ Type : Story
+ Points : 8.0
+Total  Points : 8
+}
+
 
 
 ' Links =======
+"ARS-75" <.. "ARS-74" : Issue split
+
 
 
 @enduml

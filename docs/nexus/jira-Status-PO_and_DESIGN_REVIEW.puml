@@ -1,0 +1,36 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Thu May 23 13:36:26 CEST 2024
+
+title Jira Tickets for Status PO and DESIGN REVIEW
+hide empty members
+
+legend
+Jira Ticket Status
+----
+PO and DESIGN REVIEW : 1
+----
+Jira Ticket Types
+----
+Story : 1
+end legend
+
+
+' Tickets =======
+class "ARS-58" << (S,lightgreen) >> {
+ Summary : Button components
+ Assigned to : Juan Solano
+ Status : PO and DESIGN REVIEW
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
+
+
+' Links =======
+
+
+@enduml

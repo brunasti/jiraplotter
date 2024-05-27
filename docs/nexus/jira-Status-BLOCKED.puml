@@ -4,34 +4,33 @@
 ' GENERATE CLASS DIAGRAM ===========
 ' Generated at    : Mon May 27 11:35:03 CEST 2024
 
-title Jira Tickets for Epic Front End for Survey
+title Jira Tickets for Status BLOCKED
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-To Do : 1
+BLOCKED : 1
 ----
 Jira Ticket Types
 ----
-Epic : 1
+Story : 1
 end legend
 
 
 ' Tickets =======
-class "ARS-31" << (E,green) >> {
- Summary : Front End for Survey
- Status : To Do
- Type : Epic
-Total  Points : 0
+class "ARS-10" << (S,lightgreen) >> {
+ Summary : Customised Survey Landing Page URL
+ Assigned to : PAOLO BRUNASTI
+ Status : BLOCKED
+ Type : Story
+ Points : 3.0
+Total  Points : 3
 }
 
 
 
 ' Links =======
-
-' Parents =======
-
 
 
 @enduml

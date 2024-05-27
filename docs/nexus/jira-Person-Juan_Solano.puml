@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu May 23 13:36:26 CEST 2024
+' Generated at    : Mon May 27 11:35:03 CEST 2024
 
 title Jira Tickets for Person Juan Solano
 hide empty members
@@ -10,15 +10,14 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-Done : 14
-To Do : 2
-PO and DESIGN REVIEW : 1
-In Progress : 1
+Done : 15
+To Do : 6
+In Progress : 2
 ----
 Jira Ticket Types
 ----
-Epic : 1
-Story : 17
+Epic : 2
+Story : 21
 end legend
 
 
@@ -59,6 +58,42 @@ class "ARS-19" << (S,lightgreen) >> {
 Total  Points : 3
 }
 
+class "ARS-92" << (S,lightgreen) >> {
+ Summary : Integration between BE and FE from the Landing Page
+ Assigned to : Juan Solano
+ Status : To Do
+ Type : Story
+ Points : 3.0
+Total  Points : 3
+}
+
+class "ARS-93" << (S,lightgreen) >> {
+ Summary : Questions Page - Dimension component
+ Assigned to : Juan Solano
+ Status : To Do
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
+class "ARS-94" << (S,lightgreen) >> {
+ Summary : Questions Page - Radio buttons with text
+ Assigned to : Juan Solano
+ Status : To Do
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
+class "ARS-3" << (S,lightgreen) >> {
+ Summary : Questions Page - Dimensions Progress Bar Component
+ Assigned to : Juan Solano
+ Status : To Do
+ Type : Story
+ Points : 8.0
+Total  Points : 8
+}
+
 class "ARS-34" << (S,lightgreen) >> {
  Summary : All Survey Pages - Create Theme
  Assigned to : Juan Solano
@@ -71,7 +106,7 @@ Total  Points : 3
 class "ARS-56" << (S,lightgreen) >> {
  Summary : Input Fields Validation
  Assigned to : Juan Solano
- Status : To Do
+ Status : In Progress
  Type : Story
  Points : 3.0
 Total  Points : 3
@@ -116,7 +151,7 @@ Total  Points : 5
 class "ARS-58" << (S,lightgreen) >> {
  Summary : Button components
  Assigned to : Juan Solano
- Status : PO and DESIGN REVIEW
+ Status : Done
  Type : Story
  Points : 5.0
 Total  Points : 5
@@ -157,6 +192,13 @@ class "ARS-53" << (S,lightgreen) >> {
 Total  Points : 3
 }
 
+class "ARS-2" << (E,green) >> {
+ Summary : Survey Questions Pages
+ Status : To Do
+ Type : Epic
+Total  Points : 28
+}
+
 class "ARS-54" << (S,lightgreen) >> {
  Summary : Footer component
  Assigned to : Juan Solano
@@ -190,6 +232,8 @@ Total  Points : 2
 "ARS-36" <.. "ARS-1" : Issue split
 
 "ARS-56" <.. "ARS-1" : Issue split
+
+"ARS-3" <.. "ARS-2" : Issue split
 
 "ARS-1" <.. "ARS-14" : Polaris issue link
 

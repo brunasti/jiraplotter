@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu May 23 13:36:26 CEST 2024
+' Generated at    : Mon May 27 11:35:03 CEST 2024
 
 title Jira Tickets for Epic Back End for Survey
 hide empty members
@@ -11,8 +11,9 @@ legend
 Jira Ticket Status
 ----
 To Do : 13
-Done : 8
-In Progress : 4
+Done : 9
+In Progress : 2
+TECH REVIEW (pls tag reviewer) : 1
 ----
 Jira Ticket Types
 ----
@@ -60,7 +61,7 @@ Total  Points : 0
 class "ARS-73" << (S,lightgreen) >> {
  Summary : Implement FE API - response endpoints
  Assigned to : Nneka Tielman
- Status : In Progress
+ Status : TECH REVIEW (pls tag reviewer)
  Type : Story
  Points : 5.0
 Total  Points : 5
@@ -92,7 +93,7 @@ Total  Points : 8
 
 class "ARS-75" << (S,lightgreen) >> {
  Summary : Generate pdf with spider graph
- Assigned to : PAOLO BRUNASTI
+ Assigned to : Pablo Uhalte
  Status : To Do
  Type : Story
  Points : 8.0
@@ -101,9 +102,11 @@ Total  Points : 8
 
 class "ARS-76" << (S,lightgreen) >> {
  Summary : Set up Contentful to DB webhook
+ Assigned to : Nneka Tielman
  Status : To Do
  Type : Story
-Total  Points : 0
+ Points : 13.0
+Total  Points : 13
 }
 
 class "ARS-11" << (S,lightblue) >> {
@@ -180,15 +183,14 @@ Total  Points : 1
 class "ARS-26" << (S,lightgreen) >> {
  Summary : Implement APIs
  Assigned to : Nneka Tielman
- Status : To Do
+ Status : Done
  Type : Story
 Total  Points : 0
 }
 
 class "ARS-63" << (S,lightgreen) >> {
  Summary : Implement Analytics API - user endpoints
- Assigned to : Nneka Tielman
- Status : In Progress
+ Status : To Do
  Type : Story
  Points : 3.0
 Total  Points : 3
@@ -208,7 +210,7 @@ class "ARS-20" << (E,green) >> {
  Assigned to : PAOLO BRUNASTI
  Status : In Progress
  Type : Epic
-Total  Points : 71
+Total  Points : 84
 }
 
 class "ARS-64" << (S,lightgreen) >> {

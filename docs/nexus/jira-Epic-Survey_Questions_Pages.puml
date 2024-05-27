@@ -1,0 +1,121 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Mon May 27 11:35:03 CEST 2024
+
+title Jira Tickets for Epic Survey Questions Pages
+hide empty members
+
+legend
+Jira Ticket Status
+----
+To Do : 9
+----
+Jira Ticket Types
+----
+Epic : 1
+Story : 8
+end legend
+
+
+' Tickets =======
+class "ARS-93" << (S,lightgreen) >> {
+ Summary : Questions Page - Dimension component
+ Assigned to : Juan Solano
+ Status : To Do
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
+class "ARS-94" << (S,lightgreen) >> {
+ Summary : Questions Page - Radio buttons with text
+ Assigned to : Juan Solano
+ Status : To Do
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
+class "ARS-3" << (S,lightgreen) >> {
+ Summary : Questions Page - Dimensions Progress Bar Component
+ Assigned to : Juan Solano
+ Status : To Do
+ Type : Story
+ Points : 8.0
+Total  Points : 8
+}
+
+class "ARS-95" << (S,lightgreen) >> {
+ Summary : Questions Page - Previous and Next button
+ Status : To Do
+ Type : Story
+Total  Points : 0
+}
+
+class "ARS-91" << (S,lightgreen) >> {
+ Summary : Content Modelling for Questions Page
+ Assigned to : Nneka Tielman
+ Status : To Do
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
+class "ARS-48" << (S,lightgreen) >> {
+ Summary : Questions Page - Scroll progress bar
+ Status : To Do
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
+class "ARS-41" << (S,lightgreen) >> {
+ Summary : Questions Page - Personalised with company name
+ Status : To Do
+ Type : Story
+Total  Points : 0
+}
+
+class "ARS-2" << (E,green) >> {
+ Summary : Survey Questions Pages
+ Status : To Do
+ Type : Epic
+Total  Points : 28
+}
+
+class "ARS-33" << (S,lightgreen) >> {
+ Summary : Questions Page - Save Survey Progress
+ Status : To Do
+ Type : Story
+Total  Points : 0
+}
+
+
+
+' Links =======
+
+' Parents =======
+"ARS-2" <|-- "ARS-93"
+"ARS-2" <|-- "ARS-94"
+"ARS-2" <|-- "ARS-3"
+"ARS-2" <|-- "ARS-95"
+"ARS-2" <|-- "ARS-91"
+"ARS-2" <|-- "ARS-48"
+"ARS-2" <|-- "ARS-41"
+"ARS-2" <|-- "ARS-33"
+
+"ARS-3" <.. "ARS-2" : Issue split
+
+"ARS-91" <.. "ARS-2" : Issue split
+
+"ARS-2" <.. "ARS-48" : Polaris datapoint issue link
+
+"ARS-2" <.. "ARS-41" : Polaris datapoint issue link
+
+"ARS-33" <.. "ARS-2" : Issue split
+
+
+
+@enduml

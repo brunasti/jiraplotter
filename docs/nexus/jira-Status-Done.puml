@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu May 23 13:36:26 CEST 2024
+' Generated at    : Mon May 27 11:35:03 CEST 2024
 
 title Jira Tickets for Status Done
 hide empty members
@@ -10,15 +10,15 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-Done : 35
+Done : 39
 To Do : 1
 ----
 Jira Ticket Types
 ----
 Spike : 1
-Subtask : 9
+Subtask : 10
 Bug : 1
-Story : 25
+Story : 28
 end legend
 
 
@@ -120,6 +120,15 @@ class "ARS-14" << (S,lightgreen) >> {
 Total  Points : 2
 }
 
+class "ARS-58" << (S,lightgreen) >> {
+ Summary : Button components
+ Assigned to : Juan Solano
+ Status : Done
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
 class "ARS-37" << (S,lightgreen) >> {
  Summary : Create Eslint modules
  Assigned to : Juan Solano
@@ -216,6 +225,13 @@ class "ARS-106" << (B,red) >> {
 Total  Points : 2
 }
 
+class "ARS-81" << (S,lightgreen) >> {
+ Summary : Define the algorithm to compute the results
+ Status : Done
+ Type : Story
+Total  Points : 0
+}
+
 class "ARS-62" << (X,lightblue) >> {
  Summary : Spike - AI personalised roadmap
  Assigned to : Pablo Uhalte
@@ -247,6 +263,14 @@ class "ARS-45" << (S,lightgreen) >> {
  Assigned to : PAOLO BRUNASTI
  Status : Done
  Type : Story
+Total  Points : 0
+}
+
+class "ARS-89" << (S,lightblue) >> {
+ Summary : Spider Net Graphic
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Subtask
 Total  Points : 0
 }
 
@@ -282,6 +306,14 @@ class "ARS-69" << (S,lightblue) >> {
  Assigned to : PAOLO BRUNASTI
  Status : Done
  Type : Subtask
+Total  Points : 0
+}
+
+class "ARS-26" << (S,lightgreen) >> {
+ Summary : Implement APIs
+ Assigned to : Nneka Tielman
+ Status : Done
+ Type : Story
 Total  Points : 0
 }
 
@@ -341,6 +373,7 @@ Total  Points : 0
 "ARS-18" <.. "ARS-37" : Polaris issue link
 "ARS-18" <.. "ARS-38" : Polaris issue link
 "ARS-28" <.. "ARS-38" : Cloners
+"ARS-26" <.. "ARS-25" : Blocks
 "ARS-22" <.. "ARS-52" : Cloners
 "ARS-47" <.. "ARS-23" : Relates
 "ARS-52" <.. "ARS-88" : Cloners

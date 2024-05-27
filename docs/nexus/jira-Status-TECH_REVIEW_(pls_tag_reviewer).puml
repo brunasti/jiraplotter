@@ -1,0 +1,68 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Mon May 27 11:35:03 CEST 2024
+
+title Jira Tickets for Status TECH REVIEW (pls tag reviewer)
+hide empty members
+
+legend
+Jira Ticket Status
+----
+Done : 1
+TECH REVIEW (pls tag reviewer) : 4
+----
+Jira Ticket Types
+----
+Subtask : 3
+Story : 2
+end legend
+
+
+' Tickets =======
+class "ARS-73" << (S,lightgreen) >> {
+ Summary : Implement FE API - response endpoints
+ Assigned to : Nneka Tielman
+ Status : TECH REVIEW (pls tag reviewer)
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
+class "ARS-26" << (S,lightgreen) >> {
+ Summary : Implement APIs
+ Assigned to : Nneka Tielman
+ Status : Done
+ Type : Story
+Total  Points : 0
+}
+
+class "ARS-96" << (S,lightblue) >> {
+ Summary : Create EC2
+ Status : TECH REVIEW (pls tag reviewer)
+ Type : Subtask
+Total  Points : 0
+}
+
+class "ARS-97" << (S,lightblue) >> {
+ Summary : Create RDS
+ Status : TECH REVIEW (pls tag reviewer)
+ Type : Subtask
+Total  Points : 0
+}
+
+class "ARS-98" << (S,lightblue) >> {
+ Summary : Configure EC2 instance for Python
+ Status : TECH REVIEW (pls tag reviewer)
+ Type : Subtask
+Total  Points : 0
+}
+
+
+
+' Links =======
+"ARS-73" <.. "ARS-26" : Issue split
+
+
+@enduml

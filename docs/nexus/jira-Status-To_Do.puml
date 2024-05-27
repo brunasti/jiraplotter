@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu May 23 13:36:26 CEST 2024
+' Generated at    : Mon May 27 11:35:03 CEST 2024
 
 title Jira Tickets for Status To Do
 hide empty members
@@ -11,14 +11,14 @@ legend
 Jira Ticket Status
 ----
 Done : 7
-To Do : 53
-In Progress : 2
+To Do : 55
+In Progress : 1
 ----
 Jira Ticket Types
 ----
-Subtask : 15
+Subtask : 17
 Epic : 5
-Story : 42
+Story : 41
 end legend
 
 
@@ -50,8 +50,25 @@ class "ARS-18" << (S,lightgreen) >> {
 Total  Points : 3
 }
 
+class "ARS-110" << (S,lightgreen) >> {
+ Summary : Content Modelling for Results Page
+ Status : To Do
+ Type : Story
+Total  Points : 0
+}
+
+class "ARS-111" << (S,lightgreen) >> {
+ Summary : Discuss scope and timelines
+ Assigned to : Cees de Gooijer
+ Status : To Do
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
 class "ARS-92" << (S,lightgreen) >> {
  Summary : Integration between BE and FE from the Landing Page
+ Assigned to : Juan Solano
  Status : To Do
  Type : Story
  Points : 3.0
@@ -60,14 +77,16 @@ Total  Points : 3
 
 class "ARS-93" << (S,lightgreen) >> {
  Summary : Questions Page - Dimension component
+ Assigned to : Juan Solano
  Status : To Do
  Type : Story
- Points : 3.0
-Total  Points : 3
+ Points : 5.0
+Total  Points : 5
 }
 
 class "ARS-94" << (S,lightgreen) >> {
  Summary : Questions Page - Radio buttons with text
+ Assigned to : Juan Solano
  Status : To Do
  Type : Story
  Points : 5.0
@@ -91,6 +110,7 @@ Total  Points : 0
 
 class "ARS-91" << (S,lightgreen) >> {
  Summary : Content Modelling for Questions Page
+ Assigned to : Nneka Tielman
  Status : To Do
  Type : Story
  Points : 5.0
@@ -103,15 +123,6 @@ class "ARS-12" << (S,lightblue) >> {
  Status : To Do
  Type : Subtask
 Total  Points : 0
-}
-
-class "ARS-56" << (S,lightgreen) >> {
- Summary : Input Fields Validation
- Assigned to : Juan Solano
- Status : To Do
- Type : Story
- Points : 3.0
-Total  Points : 3
 }
 
 class "ARS-13" << (S,lightblue) >> {
@@ -205,27 +216,17 @@ class "ARS-68" << (S,lightblue) >> {
 Total  Points : 0
 }
 
-class "ARS-25" << (S,lightgreen) >> {
- Summary : Design APIs
- Assigned to : Nneka Tielman
- Status : Done
- Type : Story
- Points : 5.0
-Total  Points : 5
-}
-
 class "ARS-26" << (S,lightgreen) >> {
  Summary : Implement APIs
  Assigned to : Nneka Tielman
- Status : To Do
+ Status : Done
  Type : Story
 Total  Points : 0
 }
 
 class "ARS-63" << (S,lightgreen) >> {
  Summary : Implement Analytics API - user endpoints
- Assigned to : Nneka Tielman
- Status : In Progress
+ Status : To Do
  Type : Story
  Points : 3.0
 Total  Points : 3
@@ -280,6 +281,7 @@ Total  Points : 5
 
 class "ARS-3" << (S,lightgreen) >> {
  Summary : Questions Page - Dimensions Progress Bar Component
+ Assigned to : Juan Solano
  Status : To Do
  Type : Story
  Points : 8.0
@@ -322,14 +324,6 @@ class "ARS-79" << (E,green) >> {
 Total  Points : 0
 }
 
-class "ARS-1" << (E,green) >> {
- Summary : Survey Landing Page
- Assigned to : Juan Solano
- Status : To Do
- Type : Epic
-Total  Points : 11
-}
-
 class "ARS-74" << (S,lightgreen) >> {
  Summary : Implement FE API - submit survey endpoint
  Status : To Do
@@ -338,11 +332,19 @@ class "ARS-74" << (S,lightgreen) >> {
 Total  Points : 8
 }
 
+class "ARS-1" << (E,green) >> {
+ Summary : Survey Landing Page
+ Assigned to : Juan Solano
+ Status : To Do
+ Type : Epic
+Total  Points : 11
+}
+
 class "ARS-2" << (E,green) >> {
  Summary : Survey Questions Pages
  Status : To Do
  Type : Epic
-Total  Points : 26
+Total  Points : 28
 }
 
 class "ARS-31" << (E,green) >> {
@@ -354,7 +356,7 @@ Total  Points : 0
 
 class "ARS-75" << (S,lightgreen) >> {
  Summary : Generate pdf with spider graph
- Assigned to : PAOLO BRUNASTI
+ Assigned to : Pablo Uhalte
  Status : To Do
  Type : Story
  Points : 8.0
@@ -363,9 +365,11 @@ Total  Points : 8
 
 class "ARS-76" << (S,lightgreen) >> {
  Summary : Set up Contentful to DB webhook
+ Assigned to : Nneka Tielman
  Status : To Do
  Type : Story
-Total  Points : 0
+ Points : 13.0
+Total  Points : 13
 }
 
 class "ARS-33" << (S,lightgreen) >> {
@@ -403,6 +407,20 @@ class "ARS-107" << (S,lightgreen) >> {
 Total  Points : 0
 }
 
+class "ARS-109" << (S,lightblue) >> {
+ Summary : Create simple API to test infra
+ Status : To Do
+ Type : Subtask
+Total  Points : 0
+}
+
+class "ARS-108" << (S,lightblue) >> {
+ Summary : Python dependencies
+ Status : To Do
+ Type : Subtask
+Total  Points : 0
+}
+
 class "ARS-101" << (S,lightblue) >> {
  Summary : Automate deployment of BE app on EC2
  Status : To Do
@@ -414,13 +432,6 @@ class "ARS-100" << (S,lightblue) >> {
  Summary : Open BE app to FE
  Status : To Do
  Type : Subtask
-Total  Points : 0
-}
-
-class "ARS-81" << (S,lightgreen) >> {
- Summary : Define the algorithm to compute the results
- Status : To Do
- Type : Story
 Total  Points : 0
 }
 
@@ -516,10 +527,9 @@ Total  Points : 5
 "ARS-91" <.. "ARS-2" : Issue split
 "ARS-27" <.. "ARS-18" : Blocks
 "ARS-27" <.. "ARS-40" : Blocks
-"ARS-26" <.. "ARS-25" : Blocks
 "ARS-33" <.. "ARS-2" : Issue split
 "ARS-42" <.. "ARS-4" : Polaris datapoint issue link
-"ARS-56" <.. "ARS-1" : Issue split
+"ARS-63" <.. "ARS-26" : Issue split
 "ARS-64" <.. "ARS-72" : Blocks
 "ARS-64" <.. "ARS-63" : Blocks
 "ARS-64" <.. "ARS-26" : Issue split

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu May 23 13:36:26 CEST 2024
+' Generated at    : Mon May 27 11:35:03 CEST 2024
 
 title Jira Tickets for Person Nneka Tielman
 hide empty members
@@ -10,13 +10,15 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-Done : 2
-To Do : 1
-In Progress : 3
+Done : 4
+To Do : 4
+In Progress : 1
+TECH REVIEW (pls tag reviewer) : 1
 ----
 Jira Ticket Types
 ----
-Story : 6
+Epic : 1
+Story : 9
 end legend
 
 
@@ -24,7 +26,7 @@ end legend
 class "ARS-73" << (S,lightgreen) >> {
  Summary : Implement FE API - response endpoints
  Assigned to : Nneka Tielman
- Status : In Progress
+ Status : TECH REVIEW (pls tag reviewer)
  Type : Story
  Points : 5.0
 Total  Points : 5
@@ -37,6 +39,15 @@ class "ARS-49" << (S,lightgreen) >> {
  Type : Story
  Points : 3.0
 Total  Points : 3
+}
+
+class "ARS-91" << (S,lightgreen) >> {
+ Summary : Content Modelling for Questions Page
+ Assigned to : Nneka Tielman
+ Status : To Do
+ Type : Story
+ Points : 5.0
+Total  Points : 5
 }
 
 class "ARS-67" << (S,lightgreen) >> {
@@ -60,30 +71,61 @@ Total  Points : 5
 class "ARS-26" << (S,lightgreen) >> {
  Summary : Implement APIs
  Assigned to : Nneka Tielman
- Status : To Do
+ Status : Done
  Type : Story
 Total  Points : 0
 }
 
-class "ARS-63" << (S,lightgreen) >> {
- Summary : Implement Analytics API - user endpoints
- Assigned to : Nneka Tielman
- Status : In Progress
+class "ARS-52" << (S,lightgreen) >> {
+ Summary : Prototype BE architecture
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
  Type : Story
- Points : 3.0
-Total  Points : 3
+ Points : 5.0
+Total  Points : 5
+}
+
+class "ARS-2" << (E,green) >> {
+ Summary : Survey Questions Pages
+ Status : To Do
+ Type : Epic
+Total  Points : 28
+}
+
+class "ARS-76" << (S,lightgreen) >> {
+ Summary : Set up Contentful to DB webhook
+ Assigned to : Nneka Tielman
+ Status : To Do
+ Type : Story
+ Points : 13.0
+Total  Points : 13
+}
+
+class "ARS-88" << (S,lightgreen) >> {
+ Summary : Extends BE architecture
+ Assigned to : PAOLO BRUNASTI
+ Status : To Do
+ Type : Story
+ Points : 5.0
+Total  Points : 5
 }
 
 
 
 ' Links =======
+"ARS-91" <.. "ARS-2" : Issue split
+
 "ARS-26" <.. "ARS-25" : Blocks
 
 "ARS-67" <.. "ARS-26" : Issue split
 
-"ARS-63" <.. "ARS-26" : Issue split
-
 "ARS-73" <.. "ARS-26" : Issue split
+
+"ARS-76" <.. "ARS-26" : Relates
+
+"ARS-76" <.. "ARS-52" : Relates
+
+"ARS-76" <.. "ARS-88" : Relates
 
 
 

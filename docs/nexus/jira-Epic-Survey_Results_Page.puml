@@ -4,7 +4,7 @@
 ' GENERATE CLASS DIAGRAM ===========
 ' Generated at    : Mon May 27 11:35:03 CEST 2024
 
-title Jira Tickets for Link Type Polaris datapoint issue link
+title Jira Tickets for Epic Survey Results Page
 hide empty members
 
 legend
@@ -20,6 +20,13 @@ end legend
 
 
 ' Tickets =======
+class "ARS-105" << (E,green) >> {
+ Summary : Survey Results Page
+ Status : To Do
+ Type : Epic
+Total  Points : 0
+}
+
 class "ARS-4" << (S,lightgreen) >> {
  Summary : Survey Results Page
  Status : To Do
@@ -27,16 +34,15 @@ class "ARS-4" << (S,lightgreen) >> {
 Total  Points : 0
 }
 
-class "ARS-48" << (S,lightgreen) >> {
- Summary : Questions Page - Scroll progress bar
+class "ARS-9" << (S,lightgreen) >> {
+ Summary : Results Page - Personalised High-Level Roadmap Component with AI
  Status : To Do
  Type : Story
- Points : 5.0
-Total  Points : 5
+Total  Points : 0
 }
 
-class "ARS-41" << (S,lightgreen) >> {
- Summary : Questions Page - Personalised with company name
+class "ARS-8" << (S,lightgreen) >> {
+ Summary : Results Page - Scoring Graphic Component
  Status : To Do
  Type : Story
 Total  Points : 0
@@ -49,21 +55,21 @@ class "ARS-42" << (S,lightgreen) >> {
 Total  Points : 0
 }
 
-class "ARS-2" << (E,green) >> {
- Summary : Survey Questions Pages
- Status : To Do
- Type : Epic
-Total  Points : 28
-}
-
 
 
 ' Links =======
+
+' Parents =======
+"ARS-105" <|-- "ARS-4"
+"ARS-105" <|-- "ARS-9"
+"ARS-105" <|-- "ARS-8"
+"ARS-105" <|-- "ARS-42"
+
+"ARS-9" <.. "ARS-4" : Issue split
+
+"ARS-8" <.. "ARS-4" : Issue split
+
 "ARS-42" <.. "ARS-4" : Polaris datapoint issue link
-
-"ARS-2" <.. "ARS-48" : Polaris datapoint issue link
-
-"ARS-2" <.. "ARS-41" : Polaris datapoint issue link
 
 
 

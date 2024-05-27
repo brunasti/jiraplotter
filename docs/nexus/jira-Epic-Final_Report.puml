@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu May 23 13:36:26 CEST 2024
+' Generated at    : Mon May 27 11:35:03 CEST 2024
 
 title Jira Tickets for Epic Final Report
 hide empty members
@@ -10,7 +10,8 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-To Do : 5
+Done : 1
+To Do : 4
 ----
 Jira Ticket Types
 ----
@@ -22,7 +23,7 @@ end legend
 ' Tickets =======
 class "ARS-81" << (S,lightgreen) >> {
  Summary : Define the algorithm to compute the results
- Status : To Do
+ Status : Done
  Type : Story
 Total  Points : 0
 }

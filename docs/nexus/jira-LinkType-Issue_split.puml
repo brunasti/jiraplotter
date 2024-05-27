@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Thu May 23 13:36:26 CEST 2024
+' Generated at    : Mon May 27 11:35:03 CEST 2024
 
 title Jira Tickets for Link Type Issue split
 hide empty members
@@ -10,8 +10,10 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-To Do : 15
-In Progress : 4
+To Do : 14
+Done : 1
+In Progress : 3
+TECH REVIEW (pls tag reviewer) : 1
 ----
 Jira Ticket Types
 ----
@@ -40,6 +42,7 @@ Total  Points : 5
 
 class "ARS-3" << (S,lightgreen) >> {
  Summary : Questions Page - Dimensions Progress Bar Component
+ Assigned to : Juan Solano
  Status : To Do
  Type : Story
  Points : 8.0
@@ -49,7 +52,7 @@ Total  Points : 8
 class "ARS-73" << (S,lightgreen) >> {
  Summary : Implement FE API - response endpoints
  Assigned to : Nneka Tielman
- Status : In Progress
+ Status : TECH REVIEW (pls tag reviewer)
  Type : Story
  Points : 5.0
 Total  Points : 5
@@ -71,6 +74,7 @@ Total  Points : 0
 
 class "ARS-91" << (S,lightgreen) >> {
  Summary : Content Modelling for Questions Page
+ Assigned to : Nneka Tielman
  Status : To Do
  Type : Story
  Points : 5.0
@@ -87,7 +91,7 @@ Total  Points : 0
 class "ARS-56" << (S,lightgreen) >> {
  Summary : Input Fields Validation
  Assigned to : Juan Solano
- Status : To Do
+ Status : In Progress
  Type : Story
  Points : 3.0
 Total  Points : 3
@@ -114,7 +118,7 @@ Total  Points : 5
 class "ARS-26" << (S,lightgreen) >> {
  Summary : Implement APIs
  Assigned to : Nneka Tielman
- Status : To Do
+ Status : Done
  Type : Story
 Total  Points : 0
 }
@@ -129,8 +133,7 @@ Total  Points : 11
 
 class "ARS-63" << (S,lightgreen) >> {
  Summary : Implement Analytics API - user endpoints
- Assigned to : Nneka Tielman
- Status : In Progress
+ Status : To Do
  Type : Story
  Points : 3.0
 Total  Points : 3
@@ -148,7 +151,7 @@ class "ARS-2" << (E,green) >> {
  Summary : Survey Questions Pages
  Status : To Do
  Type : Epic
-Total  Points : 26
+Total  Points : 28
 }
 
 class "ARS-64" << (S,lightgreen) >> {
@@ -160,7 +163,7 @@ Total  Points : 0
 
 class "ARS-75" << (S,lightgreen) >> {
  Summary : Generate pdf with spider graph
- Assigned to : PAOLO BRUNASTI
+ Assigned to : Pablo Uhalte
  Status : To Do
  Type : Story
  Points : 8.0
