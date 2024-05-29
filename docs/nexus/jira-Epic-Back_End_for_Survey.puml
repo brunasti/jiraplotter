@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon May 27 11:35:03 CEST 2024
+' Generated at    : Wed May 29 11:49:43 CEST 2024
 
 title Jira Tickets for Epic Back End for Survey
 hide empty members
@@ -10,27 +10,60 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-To Do : 13
-Done : 9
-In Progress : 2
+To Do : 14
+Done : 11
+In Progress : 3
 TECH REVIEW (pls tag reviewer) : 1
 ----
 Jira Ticket Types
 ----
 Subtask : 5
 Epic : 1
-Bug : 1
-Story : 18
+Bug : 4
+Story : 19
 end legend
 
 
 ' Tickets =======
+class "ARS-115" << (B,red) >> {
+ Summary : Correct the URL of /Admin/post_admin
+ Assigned to : PAOLO BRUNASTI
+ Status : TECH REVIEW (pls tag reviewer)
+ Type : Bug
+ Points : 1.0
+Total  Points : 1
+}
+
+class "ARS-118" << (B,red) >> {
+ Summary : Avoid duplication of users in POST /users execution
+ Status : To Do
+ Type : Bug
+ Points : 3.0
+Total  Points : 3
+}
+
+class "ARS-117" << (S,lightgreen) >> {
+ Summary : Add execution time computing to all endpoints
+ Status : To Do
+ Type : Story
+ Points : 3.0
+Total  Points : 3
+}
+
 class "ARS-39" << (S,lightblue) >> {
  Summary : Investigate HubSpot integration
  Assigned to : PAOLO BRUNASTI
  Status : To Do
  Type : Subtask
 Total  Points : 0
+}
+
+class "ARS-119" << (B,red) >> {
+ Summary : Add endpoints to get the "tables" values
+ Status : To Do
+ Type : Bug
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-5" << (S,lightgreen) >> {
@@ -61,7 +94,7 @@ Total  Points : 0
 class "ARS-73" << (S,lightgreen) >> {
  Summary : Implement FE API - response endpoints
  Assigned to : Nneka Tielman
- Status : TECH REVIEW (pls tag reviewer)
+ Status : Done
  Type : Story
  Points : 5.0
 Total  Points : 5
@@ -94,7 +127,7 @@ Total  Points : 8
 class "ARS-75" << (S,lightgreen) >> {
  Summary : Generate pdf with spider graph
  Assigned to : Pablo Uhalte
- Status : To Do
+ Status : In Progress
  Type : Story
  Points : 8.0
 Total  Points : 8
@@ -103,7 +136,7 @@ Total  Points : 8
 class "ARS-76" << (S,lightgreen) >> {
  Summary : Set up Contentful to DB webhook
  Assigned to : Nneka Tielman
- Status : To Do
+ Status : In Progress
  Type : Story
  Points : 13.0
 Total  Points : 13
@@ -147,7 +180,7 @@ Total  Points : 5
 class "ARS-67" << (S,lightgreen) >> {
  Summary : Implement FE API - user endpoints
  Assigned to : Nneka Tielman
- Status : In Progress
+ Status : Done
  Type : Story
  Points : 3.0
 Total  Points : 3
@@ -210,7 +243,7 @@ class "ARS-20" << (E,green) >> {
  Assigned to : PAOLO BRUNASTI
  Status : In Progress
  Type : Epic
-Total  Points : 84
+Total  Points : 94
 }
 
 class "ARS-64" << (S,lightgreen) >> {
@@ -243,7 +276,11 @@ Total  Points : 5
 ' Links =======
 
 ' Parents =======
+"ARS-20" <|-- "ARS-115"
+"ARS-20" <|-- "ARS-118"
+"ARS-20" <|-- "ARS-117"
 "ARS-5" <|-- "ARS-39"
+"ARS-20" <|-- "ARS-119"
 "ARS-20" <|-- "ARS-5"
 "ARS-20" <|-- "ARS-72"
 "ARS-23" <|-- "ARS-50"

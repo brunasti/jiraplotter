@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon May 27 11:35:03 CEST 2024
+' Generated at    : Wed May 29 11:49:43 CEST 2024
 
 title Jira Tickets for Link Type Issue split
 hide empty members
@@ -10,9 +10,10 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-To Do : 14
-Done : 1
-In Progress : 3
+To Do : 12
+Done : 3
+PO and DESIGN REVIEW : 2
+In Progress : 1
 TECH REVIEW (pls tag reviewer) : 1
 ----
 Jira Ticket Types
@@ -52,7 +53,7 @@ Total  Points : 8
 class "ARS-73" << (S,lightgreen) >> {
  Summary : Implement FE API - response endpoints
  Assigned to : Nneka Tielman
- Status : TECH REVIEW (pls tag reviewer)
+ Status : Done
  Type : Story
  Points : 5.0
 Total  Points : 5
@@ -75,7 +76,7 @@ Total  Points : 0
 class "ARS-91" << (S,lightgreen) >> {
  Summary : Content Modelling for Questions Page
  Assigned to : Nneka Tielman
- Status : To Do
+ Status : TECH REVIEW (pls tag reviewer)
  Type : Story
  Points : 5.0
 Total  Points : 5
@@ -91,7 +92,7 @@ Total  Points : 0
 class "ARS-56" << (S,lightgreen) >> {
  Summary : Input Fields Validation
  Assigned to : Juan Solano
- Status : In Progress
+ Status : PO and DESIGN REVIEW
  Type : Story
  Points : 3.0
 Total  Points : 3
@@ -100,7 +101,7 @@ Total  Points : 3
 class "ARS-67" << (S,lightgreen) >> {
  Summary : Implement FE API - user endpoints
  Assigned to : Nneka Tielman
- Status : In Progress
+ Status : Done
  Type : Story
  Points : 3.0
 Total  Points : 3
@@ -109,7 +110,7 @@ Total  Points : 3
 class "ARS-36" << (S,lightgreen) >> {
  Summary : Landing Page - Input fields Component and Form
  Assigned to : Juan Solano
- Status : In Progress
+ Status : PO and DESIGN REVIEW
  Type : Story
  Points : 5.0
 Total  Points : 5
@@ -164,7 +165,7 @@ Total  Points : 0
 class "ARS-75" << (S,lightgreen) >> {
  Summary : Generate pdf with spider graph
  Assigned to : Pablo Uhalte
- Status : To Do
+ Status : In Progress
  Type : Story
  Points : 8.0
 Total  Points : 8

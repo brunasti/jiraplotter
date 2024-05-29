@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon May 27 11:35:03 CEST 2024
+' Generated at    : Wed May 29 11:49:43 CEST 2024
 
 title Jira Tickets for Person PAOLO BRUNASTI
 hide empty members
@@ -10,21 +10,31 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-Done : 20
-To Do : 12
+Done : 21
+To Do : 10
 BLOCKED : 1
-In Progress : 3
+In Progress : 4
+TECH REVIEW (pls tag reviewer) : 1
 ----
 Jira Ticket Types
 ----
 Subtask : 15
 Epic : 2
-Bug : 1
+Bug : 2
 Story : 18
 end legend
 
 
 ' Tickets =======
+class "ARS-115" << (B,red) >> {
+ Summary : Correct the URL of /Admin/post_admin
+ Assigned to : PAOLO BRUNASTI
+ Status : TECH REVIEW (pls tag reviewer)
+ Type : Bug
+ Points : 1.0
+Total  Points : 1
+}
+
 class "ARS-38" << (S,lightgreen) >> {
  Summary : Generate Gitlab Pipeline
  Assigned to : Juan Solano
@@ -79,7 +89,7 @@ Total  Points : 0
 class "ARS-90" << (S,lightblue) >> {
  Summary : Logging system
  Assigned to : PAOLO BRUNASTI
- Status : To Do
+ Status : Done
  Type : Subtask
 Total  Points : 0
 }
@@ -268,7 +278,7 @@ class "ARS-20" << (E,green) >> {
  Assigned to : PAOLO BRUNASTI
  Status : In Progress
  Type : Epic
-Total  Points : 84
+Total  Points : 94
 }
 
 class "ARS-86" << (S,lightblue) >> {
@@ -316,7 +326,7 @@ Total  Points : 5
 class "ARS-88" << (S,lightgreen) >> {
  Summary : Extends BE architecture
  Assigned to : PAOLO BRUNASTI
- Status : To Do
+ Status : In Progress
  Type : Story
  Points : 5.0
 Total  Points : 5

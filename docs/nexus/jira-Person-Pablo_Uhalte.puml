@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon May 27 11:35:03 CEST 2024
+' Generated at    : Wed May 29 11:49:43 CEST 2024
 
 title Jira Tickets for Person Pablo Uhalte
 hide empty members
@@ -10,8 +10,9 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-To Do : 7
+To Do : 6
 Done : 1
+In Progress : 1
 ----
 Jira Ticket Types
 ----
@@ -81,7 +82,7 @@ Total  Points : 8
 class "ARS-75" << (S,lightgreen) >> {
  Summary : Generate pdf with spider graph
  Assigned to : Pablo Uhalte
- Status : To Do
+ Status : In Progress
  Type : Story
  Points : 8.0
 Total  Points : 8

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon May 27 11:35:03 CEST 2024
+' Generated at    : Wed May 29 11:49:43 CEST 2024
 
 title Jira Tickets for Epic Infrastructure
 hide empty members
@@ -10,21 +10,34 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-Done : 12
-To Do : 12
+To Do : 8
+Done : 21
 BLOCKED : 1
 In Progress : 4
-TECH REVIEW (pls tag reviewer) : 3
 ----
 Jira Ticket Types
 ----
-Subtask : 24
+Subtask : 26
 Epic : 1
 Story : 7
 end legend
 
 
 ' Tickets =======
+class "ARS-114" << (S,lightblue) >> {
+ Summary : Connect Internet Gateway to VPN and EC2 instances
+ Status : To Do
+ Type : Subtask
+Total  Points : 0
+}
+
+class "ARS-113" << (S,lightblue) >> {
+ Summary : Create Internet Gateway
+ Status : To Do
+ Type : Subtask
+Total  Points : 0
+}
+
 class "ARS-18" << (S,lightgreen) >> {
  Summary : Create Repository
  Assigned to : PAOLO BRUNASTI
@@ -52,7 +65,7 @@ Total  Points : 0
 class "ARS-90" << (S,lightblue) >> {
  Summary : Logging system
  Assigned to : PAOLO BRUNASTI
- Status : To Do
+ Status : Done
  Type : Subtask
 Total  Points : 0
 }
@@ -68,7 +81,7 @@ Total  Points : 5
 
 class "ARS-96" << (S,lightblue) >> {
  Summary : Create EC2
- Status : TECH REVIEW (pls tag reviewer)
+ Status : Done
  Type : Subtask
 Total  Points : 0
 }
@@ -83,7 +96,7 @@ Total  Points : 0
 
 class "ARS-97" << (S,lightblue) >> {
  Summary : Create RDS
- Status : TECH REVIEW (pls tag reviewer)
+ Status : Done
  Type : Subtask
 Total  Points : 0
 }
@@ -107,14 +120,14 @@ Total  Points : 3
 
 class "ARS-98" << (S,lightblue) >> {
  Summary : Configure EC2 instance for Python
- Status : TECH REVIEW (pls tag reviewer)
+ Status : Done
  Type : Subtask
 Total  Points : 0
 }
 
 class "ARS-99" << (S,lightblue) >> {
  Summary : Deploy BE app in EC2
- Status : In Progress
+ Status : Done
  Type : Subtask
 Total  Points : 0
 }
@@ -128,14 +141,14 @@ Total  Points : 0
 
 class "ARS-102" << (S,lightblue) >> {
  Summary : Create S3
- Status : To Do
+ Status : Done
  Type : Subtask
 Total  Points : 0
 }
 
 class "ARS-104" << (S,lightblue) >> {
  Summary : Connect to EC2 from Internet
- Status : In Progress
+ Status : Done
  Type : Subtask
 Total  Points : 0
 }
@@ -165,14 +178,14 @@ Total  Points : 0
 
 class "ARS-109" << (S,lightblue) >> {
  Summary : Create simple API to test infra
- Status : To Do
+ Status : Done
  Type : Subtask
 Total  Points : 0
 }
 
 class "ARS-108" << (S,lightblue) >> {
  Summary : Python dependencies
- Status : To Do
+ Status : Done
  Type : Subtask
 Total  Points : 0
 }
@@ -186,7 +199,7 @@ Total  Points : 0
 
 class "ARS-100" << (S,lightblue) >> {
  Summary : Open BE app to FE
- Status : To Do
+ Status : In Progress
  Type : Subtask
 Total  Points : 0
 }
@@ -259,7 +272,7 @@ Total  Points : 0
 class "ARS-88" << (S,lightgreen) >> {
  Summary : Extends BE architecture
  Assigned to : PAOLO BRUNASTI
- Status : To Do
+ Status : In Progress
  Type : Story
  Points : 5.0
 Total  Points : 5
@@ -278,6 +291,8 @@ Total  Points : 0
 ' Links =======
 
 ' Parents =======
+"ARS-40" <|-- "ARS-114"
+"ARS-40" <|-- "ARS-113"
 "ARS-32" <|-- "ARS-18"
 "ARS-88" <|-- "ARS-70"
 "ARS-52" <|-- "ARS-71"

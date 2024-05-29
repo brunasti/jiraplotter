@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon May 27 11:35:03 CEST 2024
+' Generated at    : Wed May 29 11:49:43 CEST 2024
 
 title Jira Tickets general diagram
 hide empty members
@@ -10,23 +10,64 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-Done : 39
-To Do : 55
-BLOCKED : 1
-In Progress : 8
-TECH REVIEW (pls tag reviewer) : 4
+To Do : 49
+Done : 51
+PO and DESIGN REVIEW : 2
+BLOCKED : 2
+In Progress : 9
+TECH REVIEW (pls tag reviewer) : 2
 ----
 Jira Ticket Types
 ----
 Spike : 1
-Subtask : 32
+Subtask : 35
 Epic : 7
-Bug : 1
-Story : 66
+Bug : 4
+Story : 68
 end legend
 
 
 ' Jira Tickets =======
+class "ARS-114" << (S,lightblue) >> {
+ Summary : Connect Internet Gateway to VPN and EC2 instances
+ Status : To Do
+ Type : Subtask
+Total  Points : 0
+}
+
+class "ARS-113" << (S,lightblue) >> {
+ Summary : Create Internet Gateway
+ Status : To Do
+ Type : Subtask
+Total  Points : 0
+}
+
+class "ARS-116" << (S,lightgreen) >> {
+ Summary : Questions Page GraphQL queries
+ Assigned to : Juan Solano
+ Status : In Progress
+ Type : Story
+ Points : 3.0
+Total  Points : 3
+}
+
+class "ARS-115" << (B,red) >> {
+ Summary : Correct the URL of /Admin/post_admin
+ Assigned to : PAOLO BRUNASTI
+ Status : TECH REVIEW (pls tag reviewer)
+ Type : Bug
+ Points : 1.0
+Total  Points : 1
+}
+
+class "ARS-118" << (B,red) >> {
+ Summary : Avoid duplication of users in POST /users execution
+ Status : To Do
+ Type : Bug
+ Points : 3.0
+Total  Points : 3
+}
+
 class "ARS-16" << (S,lightgreen) >> {
  Summary : Contentful Content Modeling for Landing Page
  Assigned to : Juan Solano
@@ -34,6 +75,14 @@ class "ARS-16" << (S,lightgreen) >> {
  Type : Story
  Points : 5.0
 Total  Points : 5
+}
+
+class "ARS-117" << (S,lightgreen) >> {
+ Summary : Add execution time computing to all endpoints
+ Status : To Do
+ Type : Story
+ Points : 3.0
+Total  Points : 3
 }
 
 class "ARS-17" << (S,lightgreen) >> {
@@ -54,6 +103,14 @@ class "ARS-18" << (S,lightgreen) >> {
 Total  Points : 3
 }
 
+class "ARS-119" << (B,red) >> {
+ Summary : Add endpoints to get the "tables" values
+ Status : To Do
+ Type : Bug
+ Points : 3.0
+Total  Points : 3
+}
+
 class "ARS-19" << (S,lightgreen) >> {
  Summary : Create NUXT -Vue2 project FE
  Assigned to : Juan Solano
@@ -70,10 +127,17 @@ class "ARS-110" << (S,lightgreen) >> {
 Total  Points : 0
 }
 
+class "ARS-112" << (S,lightblue) >> {
+ Summary :  Plan session with Max
+ Status : Done
+ Type : Subtask
+Total  Points : 0
+}
+
 class "ARS-111" << (S,lightgreen) >> {
  Summary : Discuss scope and timelines
  Assigned to : Cees de Gooijer
- Status : To Do
+ Status : In Progress
  Type : Story
  Points : 5.0
 Total  Points : 5
@@ -82,7 +146,7 @@ Total  Points : 5
 class "ARS-92" << (S,lightgreen) >> {
  Summary : Integration between BE and FE from the Landing Page
  Assigned to : Juan Solano
- Status : To Do
+ Status : BLOCKED
  Type : Story
  Points : 3.0
 Total  Points : 3
@@ -116,7 +180,7 @@ Total  Points : 0
 class "ARS-90" << (S,lightblue) >> {
  Summary : Logging system
  Assigned to : PAOLO BRUNASTI
- Status : To Do
+ Status : Done
  Type : Subtask
 Total  Points : 0
 }
@@ -124,7 +188,7 @@ Total  Points : 0
 class "ARS-91" << (S,lightgreen) >> {
  Summary : Content Modelling for Questions Page
  Assigned to : Nneka Tielman
- Status : To Do
+ Status : TECH REVIEW (pls tag reviewer)
  Type : Story
  Points : 5.0
 Total  Points : 5
@@ -166,21 +230,21 @@ Total  Points : 3
 
 class "ARS-96" << (S,lightblue) >> {
  Summary : Create EC2
- Status : TECH REVIEW (pls tag reviewer)
+ Status : Done
  Type : Subtask
 Total  Points : 0
 }
 
 class "ARS-97" << (S,lightblue) >> {
  Summary : Create RDS
- Status : TECH REVIEW (pls tag reviewer)
+ Status : Done
  Type : Subtask
 Total  Points : 0
 }
 
 class "ARS-98" << (S,lightblue) >> {
  Summary : Configure EC2 instance for Python
- Status : TECH REVIEW (pls tag reviewer)
+ Status : Done
  Type : Subtask
 Total  Points : 0
 }
@@ -196,7 +260,7 @@ Total  Points : 3
 
 class "ARS-99" << (S,lightblue) >> {
  Summary : Deploy BE app in EC2
- Status : In Progress
+ Status : Done
  Type : Subtask
 Total  Points : 0
 }
@@ -272,7 +336,7 @@ class "ARS-20" << (E,green) >> {
  Assigned to : PAOLO BRUNASTI
  Status : In Progress
  Type : Epic
-Total  Points : 84
+Total  Points : 94
 }
 
 class "ARS-21" << (S,lightblue) >> {
@@ -321,7 +385,7 @@ Total  Points : 3
 class "ARS-36" << (S,lightgreen) >> {
  Summary : Landing Page - Input fields Component and Form
  Assigned to : Juan Solano
- Status : In Progress
+ Status : PO and DESIGN REVIEW
  Type : Story
  Points : 5.0
 Total  Points : 5
@@ -443,7 +507,7 @@ Total  Points : 0
 class "ARS-56" << (S,lightgreen) >> {
  Summary : Input Fields Validation
  Assigned to : Juan Solano
- Status : In Progress
+ Status : PO and DESIGN REVIEW
  Type : Story
  Points : 3.0
 Total  Points : 3
@@ -538,7 +602,7 @@ Total  Points : 0
 class "ARS-67" << (S,lightgreen) >> {
  Summary : Implement FE API - user endpoints
  Assigned to : Nneka Tielman
- Status : In Progress
+ Status : Done
  Type : Story
  Points : 3.0
 Total  Points : 3
@@ -643,7 +707,7 @@ Total  Points : 8
 class "ARS-73" << (S,lightgreen) >> {
  Summary : Implement FE API - response endpoints
  Assigned to : Nneka Tielman
- Status : TECH REVIEW (pls tag reviewer)
+ Status : Done
  Type : Story
  Points : 5.0
 Total  Points : 5
@@ -713,7 +777,7 @@ Total  Points : 11
 class "ARS-75" << (S,lightgreen) >> {
  Summary : Generate pdf with spider graph
  Assigned to : Pablo Uhalte
- Status : To Do
+ Status : In Progress
  Type : Story
  Points : 8.0
 Total  Points : 8
@@ -729,7 +793,7 @@ Total  Points : 28
 class "ARS-76" << (S,lightgreen) >> {
  Summary : Set up Contentful to DB webhook
  Assigned to : Nneka Tielman
- Status : To Do
+ Status : In Progress
  Type : Story
  Points : 13.0
 Total  Points : 13
@@ -753,7 +817,7 @@ Total  Points : 0
 
 class "ARS-102" << (S,lightblue) >> {
  Summary : Create S3
- Status : To Do
+ Status : Done
  Type : Subtask
 Total  Points : 0
 }
@@ -767,7 +831,7 @@ Total  Points : 0
 
 class "ARS-104" << (S,lightblue) >> {
  Summary : Connect to EC2 from Internet
- Status : In Progress
+ Status : Done
  Type : Subtask
 Total  Points : 0
 }
@@ -790,14 +854,14 @@ Total  Points : 2
 
 class "ARS-109" << (S,lightblue) >> {
  Summary : Create simple API to test infra
- Status : To Do
+ Status : Done
  Type : Subtask
 Total  Points : 0
 }
 
 class "ARS-108" << (S,lightblue) >> {
  Summary : Python dependencies
- Status : To Do
+ Status : Done
  Type : Subtask
 Total  Points : 0
 }
@@ -811,7 +875,7 @@ Total  Points : 0
 
 class "ARS-100" << (S,lightblue) >> {
  Summary : Open BE app to FE
- Status : To Do
+ Status : In Progress
  Type : Subtask
 Total  Points : 0
 }
@@ -888,7 +952,7 @@ Total  Points : 0
 class "ARS-88" << (S,lightgreen) >> {
  Summary : Extends BE architecture
  Assigned to : PAOLO BRUNASTI
- Status : To Do
+ Status : In Progress
  Type : Story
  Points : 5.0
 Total  Points : 5
@@ -897,7 +961,14 @@ Total  Points : 5
 
 
 ' Parents =======
+"ARS-40" <|-- "ARS-114"
+"ARS-40" <|-- "ARS-113"
+"ARS-20" <|-- "ARS-115"
+"ARS-20" <|-- "ARS-118"
+"ARS-20" <|-- "ARS-117"
 "ARS-32" <|-- "ARS-18"
+"ARS-20" <|-- "ARS-119"
+"ARS-111" <|-- "ARS-112"
 "ARS-1" <|-- "ARS-92"
 "ARS-2" <|-- "ARS-93"
 "ARS-2" <|-- "ARS-94"

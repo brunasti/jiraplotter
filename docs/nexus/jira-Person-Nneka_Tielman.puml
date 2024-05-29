@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon May 27 11:35:03 CEST 2024
+' Generated at    : Wed May 29 11:49:43 CEST 2024
 
 title Jira Tickets for Person Nneka Tielman
 hide empty members
@@ -10,9 +10,9 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-Done : 4
-To Do : 4
-In Progress : 1
+Done : 6
+To Do : 1
+In Progress : 2
 TECH REVIEW (pls tag reviewer) : 1
 ----
 Jira Ticket Types
@@ -26,7 +26,7 @@ end legend
 class "ARS-73" << (S,lightgreen) >> {
  Summary : Implement FE API - response endpoints
  Assigned to : Nneka Tielman
- Status : TECH REVIEW (pls tag reviewer)
+ Status : Done
  Type : Story
  Points : 5.0
 Total  Points : 5
@@ -44,7 +44,7 @@ Total  Points : 3
 class "ARS-91" << (S,lightgreen) >> {
  Summary : Content Modelling for Questions Page
  Assigned to : Nneka Tielman
- Status : To Do
+ Status : TECH REVIEW (pls tag reviewer)
  Type : Story
  Points : 5.0
 Total  Points : 5
@@ -53,7 +53,7 @@ Total  Points : 5
 class "ARS-67" << (S,lightgreen) >> {
  Summary : Implement FE API - user endpoints
  Assigned to : Nneka Tielman
- Status : In Progress
+ Status : Done
  Type : Story
  Points : 3.0
 Total  Points : 3
@@ -95,7 +95,7 @@ Total  Points : 28
 class "ARS-76" << (S,lightgreen) >> {
  Summary : Set up Contentful to DB webhook
  Assigned to : Nneka Tielman
- Status : To Do
+ Status : In Progress
  Type : Story
  Points : 13.0
 Total  Points : 13
@@ -104,7 +104,7 @@ Total  Points : 13
 class "ARS-88" << (S,lightgreen) >> {
  Summary : Extends BE architecture
  Assigned to : PAOLO BRUNASTI
- Status : To Do
+ Status : In Progress
  Type : Story
  Points : 5.0
 Total  Points : 5

@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon May 27 11:35:03 CEST 2024
+' Generated at    : Wed May 29 11:49:43 CEST 2024
 
 title Jira Tickets for Epic Survey Landing Page
 hide empty members
@@ -10,8 +10,9 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-To Do : 2
-In Progress : 2
+PO and DESIGN REVIEW : 2
+To Do : 1
+BLOCKED : 1
 ----
 Jira Ticket Types
 ----
@@ -24,7 +25,7 @@ end legend
 class "ARS-92" << (S,lightgreen) >> {
  Summary : Integration between BE and FE from the Landing Page
  Assigned to : Juan Solano
- Status : To Do
+ Status : BLOCKED
  Type : Story
  Points : 3.0
 Total  Points : 3
@@ -33,7 +34,7 @@ Total  Points : 3
 class "ARS-56" << (S,lightgreen) >> {
  Summary : Input Fields Validation
  Assigned to : Juan Solano
- Status : In Progress
+ Status : PO and DESIGN REVIEW
  Type : Story
  Points : 3.0
 Total  Points : 3
@@ -42,7 +43,7 @@ Total  Points : 3
 class "ARS-36" << (S,lightgreen) >> {
  Summary : Landing Page - Input fields Component and Form
  Assigned to : Juan Solano
- Status : In Progress
+ Status : PO and DESIGN REVIEW
  Type : Story
  Points : 5.0
 Total  Points : 5

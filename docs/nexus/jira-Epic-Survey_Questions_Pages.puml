@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon May 27 11:35:03 CEST 2024
+' Generated at    : Wed May 29 11:49:43 CEST 2024
 
 title Jira Tickets for Epic Survey Questions Pages
 hide empty members
@@ -10,7 +10,8 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-To Do : 9
+To Do : 8
+TECH REVIEW (pls tag reviewer) : 1
 ----
 Jira Ticket Types
 ----
@@ -57,7 +58,7 @@ Total  Points : 0
 class "ARS-91" << (S,lightgreen) >> {
  Summary : Content Modelling for Questions Page
  Assigned to : Nneka Tielman
- Status : To Do
+ Status : TECH REVIEW (pls tag reviewer)
  Type : Story
  Points : 5.0
 Total  Points : 5

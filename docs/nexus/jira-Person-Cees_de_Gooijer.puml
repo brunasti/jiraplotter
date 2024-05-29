@@ -4,34 +4,33 @@
 ' GENERATE CLASS DIAGRAM ===========
 ' Generated at    : Wed May 29 11:49:43 CEST 2024
 
-title Jira Tickets for Epic Front End for Survey
+title Jira Tickets for Person Cees de Gooijer
 hide empty members
 
 legend
 Jira Ticket Status
 ----
-To Do : 1
+In Progress : 1
 ----
 Jira Ticket Types
 ----
-Epic : 1
+Story : 1
 end legend
 
 
 ' Tickets =======
-class "ARS-31" << (E,green) >> {
- Summary : Front End for Survey
- Status : To Do
- Type : Epic
-Total  Points : 0
+class "ARS-111" << (S,lightgreen) >> {
+ Summary : Discuss scope and timelines
+ Assigned to : Cees de Gooijer
+ Status : In Progress
+ Type : Story
+ Points : 5.0
+Total  Points : 5
 }
 
 
 
 ' Links =======
-
-' Parents =======
-
 
 
 @enduml

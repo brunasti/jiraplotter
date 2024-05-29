@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon May 27 11:35:03 CEST 2024
+' Generated at    : Wed May 29 11:49:43 CEST 2024
 
 title Jira Tickets for Person Juan Solano
 hide empty members
@@ -11,17 +11,28 @@ legend
 Jira Ticket Status
 ----
 Done : 15
-To Do : 6
-In Progress : 2
+To Do : 5
+PO and DESIGN REVIEW : 2
+BLOCKED : 1
+In Progress : 1
 ----
 Jira Ticket Types
 ----
 Epic : 2
-Story : 21
+Story : 22
 end legend
 
 
 ' Tickets =======
+class "ARS-116" << (S,lightgreen) >> {
+ Summary : Questions Page GraphQL queries
+ Assigned to : Juan Solano
+ Status : In Progress
+ Type : Story
+ Points : 3.0
+Total  Points : 3
+}
+
 class "ARS-16" << (S,lightgreen) >> {
  Summary : Contentful Content Modeling for Landing Page
  Assigned to : Juan Solano
@@ -61,7 +72,7 @@ Total  Points : 3
 class "ARS-92" << (S,lightgreen) >> {
  Summary : Integration between BE and FE from the Landing Page
  Assigned to : Juan Solano
- Status : To Do
+ Status : BLOCKED
  Type : Story
  Points : 3.0
 Total  Points : 3
@@ -106,7 +117,7 @@ Total  Points : 3
 class "ARS-56" << (S,lightgreen) >> {
  Summary : Input Fields Validation
  Assigned to : Juan Solano
- Status : In Progress
+ Status : PO and DESIGN REVIEW
  Type : Story
  Points : 3.0
 Total  Points : 3
@@ -142,7 +153,7 @@ Total  Points : 2
 class "ARS-36" << (S,lightgreen) >> {
  Summary : Landing Page - Input fields Component and Form
  Assigned to : Juan Solano
- Status : In Progress
+ Status : PO and DESIGN REVIEW
  Type : Story
  Points : 5.0
 Total  Points : 5

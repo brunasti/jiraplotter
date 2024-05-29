@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon May 27 11:35:03 CEST 2024
+' Generated at    : Wed May 29 11:49:43 CEST 2024
 
 title Jira Tickets for Status BLOCKED
 hide empty members
@@ -10,15 +10,24 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-BLOCKED : 1
+BLOCKED : 2
 ----
 Jira Ticket Types
 ----
-Story : 1
+Story : 2
 end legend
 
 
 ' Tickets =======
+class "ARS-92" << (S,lightgreen) >> {
+ Summary : Integration between BE and FE from the Landing Page
+ Assigned to : Juan Solano
+ Status : BLOCKED
+ Type : Story
+ Points : 3.0
+Total  Points : 3
+}
+
 class "ARS-10" << (S,lightgreen) >> {
  Summary : Customised Survey Landing Page URL
  Assigned to : PAOLO BRUNASTI

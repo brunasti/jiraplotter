@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon May 27 11:35:03 CEST 2024
+' Generated at    : Wed May 29 11:49:43 CEST 2024
 
 title Jira Tickets for Status In Progress
 hide empty members
@@ -10,56 +10,31 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-Done : 1
+Done : 2
 To Do : 1
-In Progress : 8
+In Progress : 9
 ----
 Jira Ticket Types
 ----
-Subtask : 2
-Epic : 3
-Story : 5
+Subtask : 1
+Epic : 2
+Story : 9
 end legend
 
 
 ' Tickets =======
+class "ARS-116" << (S,lightgreen) >> {
+ Summary : Questions Page GraphQL queries
+ Assigned to : Juan Solano
+ Status : In Progress
+ Type : Story
+ Points : 3.0
+Total  Points : 3
+}
+
 class "ARS-40" << (S,lightgreen) >> {
  Summary : AWS Environment
  Assigned to : PAOLO BRUNASTI
- Status : In Progress
- Type : Story
- Points : 5.0
-Total  Points : 5
-}
-
-class "ARS-104" << (S,lightblue) >> {
- Summary : Connect to EC2 from Internet
- Status : In Progress
- Type : Subtask
-Total  Points : 0
-}
-
-class "ARS-56" << (S,lightgreen) >> {
- Summary : Input Fields Validation
- Assigned to : Juan Solano
- Status : In Progress
- Type : Story
- Points : 3.0
-Total  Points : 3
-}
-
-class "ARS-67" << (S,lightgreen) >> {
- Summary : Implement FE API - user endpoints
- Assigned to : Nneka Tielman
- Status : In Progress
- Type : Story
- Points : 3.0
-Total  Points : 3
-}
-
-class "ARS-36" << (S,lightgreen) >> {
- Summary : Landing Page - Input fields Component and Form
- Assigned to : Juan Solano
  Status : In Progress
  Type : Story
  Points : 5.0
@@ -74,12 +49,21 @@ class "ARS-26" << (S,lightgreen) >> {
 Total  Points : 0
 }
 
-class "ARS-1" << (E,green) >> {
- Summary : Survey Landing Page
- Assigned to : Juan Solano
+class "ARS-74" << (S,lightgreen) >> {
+ Summary : Implement FE API - submit survey endpoint
  Status : To Do
- Type : Epic
-Total  Points : 11
+ Type : Story
+ Points : 8.0
+Total  Points : 8
+}
+
+class "ARS-52" << (S,lightgreen) >> {
+ Summary : Prototype BE architecture
+ Assigned to : PAOLO BRUNASTI
+ Status : Done
+ Type : Story
+ Points : 5.0
+Total  Points : 5
 }
 
 class "ARS-20" << (E,green) >> {
@@ -87,7 +71,16 @@ class "ARS-20" << (E,green) >> {
  Assigned to : PAOLO BRUNASTI
  Status : In Progress
  Type : Epic
-Total  Points : 84
+Total  Points : 94
+}
+
+class "ARS-75" << (S,lightgreen) >> {
+ Summary : Generate pdf with spider graph
+ Assigned to : Pablo Uhalte
+ Status : In Progress
+ Type : Story
+ Points : 8.0
+Total  Points : 8
 }
 
 class "ARS-32" << (E,green) >> {
@@ -98,8 +91,35 @@ class "ARS-32" << (E,green) >> {
 Total  Points : 24
 }
 
-class "ARS-99" << (S,lightblue) >> {
- Summary : Deploy BE app in EC2
+class "ARS-76" << (S,lightgreen) >> {
+ Summary : Set up Contentful to DB webhook
+ Assigned to : Nneka Tielman
+ Status : In Progress
+ Type : Story
+ Points : 13.0
+Total  Points : 13
+}
+
+class "ARS-111" << (S,lightgreen) >> {
+ Summary : Discuss scope and timelines
+ Assigned to : Cees de Gooijer
+ Status : In Progress
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
+class "ARS-88" << (S,lightgreen) >> {
+ Summary : Extends BE architecture
+ Assigned to : PAOLO BRUNASTI
+ Status : In Progress
+ Type : Story
+ Points : 5.0
+Total  Points : 5
+}
+
+class "ARS-100" << (S,lightblue) >> {
+ Summary : Open BE app to FE
  Status : In Progress
  Type : Subtask
 Total  Points : 0
@@ -108,9 +128,11 @@ Total  Points : 0
 
 
 ' Links =======
-"ARS-36" <.. "ARS-1" : Issue split
-"ARS-56" <.. "ARS-1" : Issue split
-"ARS-67" <.. "ARS-26" : Issue split
+"ARS-75" <.. "ARS-74" : Issue split
+"ARS-76" <.. "ARS-26" : Relates
+"ARS-76" <.. "ARS-52" : Relates
+"ARS-76" <.. "ARS-88" : Relates
+"ARS-88" <.. "ARS-52" : Blocks
 
 
 @enduml

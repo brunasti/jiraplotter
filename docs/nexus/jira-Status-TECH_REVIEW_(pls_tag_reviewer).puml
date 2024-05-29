@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 ' GENERATE CLASS DIAGRAM ===========
-' Generated at    : Mon May 27 11:35:03 CEST 2024
+' Generated at    : Wed May 29 11:49:43 CEST 2024
 
 title Jira Tickets for Status TECH REVIEW (pls tag reviewer)
 hide empty members
@@ -10,19 +10,29 @@ hide empty members
 legend
 Jira Ticket Status
 ----
-Done : 1
-TECH REVIEW (pls tag reviewer) : 4
+To Do : 1
+TECH REVIEW (pls tag reviewer) : 2
 ----
 Jira Ticket Types
 ----
-Subtask : 3
-Story : 2
+Epic : 1
+Bug : 1
+Story : 1
 end legend
 
 
 ' Tickets =======
-class "ARS-73" << (S,lightgreen) >> {
- Summary : Implement FE API - response endpoints
+class "ARS-115" << (B,red) >> {
+ Summary : Correct the URL of /Admin/post_admin
+ Assigned to : PAOLO BRUNASTI
+ Status : TECH REVIEW (pls tag reviewer)
+ Type : Bug
+ Points : 1.0
+Total  Points : 1
+}
+
+class "ARS-91" << (S,lightgreen) >> {
+ Summary : Content Modelling for Questions Page
  Assigned to : Nneka Tielman
  Status : TECH REVIEW (pls tag reviewer)
  Type : Story
@@ -30,39 +40,17 @@ class "ARS-73" << (S,lightgreen) >> {
 Total  Points : 5
 }
 
-class "ARS-26" << (S,lightgreen) >> {
- Summary : Implement APIs
- Assigned to : Nneka Tielman
- Status : Done
- Type : Story
-Total  Points : 0
-}
-
-class "ARS-96" << (S,lightblue) >> {
- Summary : Create EC2
- Status : TECH REVIEW (pls tag reviewer)
- Type : Subtask
-Total  Points : 0
-}
-
-class "ARS-97" << (S,lightblue) >> {
- Summary : Create RDS
- Status : TECH REVIEW (pls tag reviewer)
- Type : Subtask
-Total  Points : 0
-}
-
-class "ARS-98" << (S,lightblue) >> {
- Summary : Configure EC2 instance for Python
- Status : TECH REVIEW (pls tag reviewer)
- Type : Subtask
-Total  Points : 0
+class "ARS-2" << (E,green) >> {
+ Summary : Survey Questions Pages
+ Status : To Do
+ Type : Epic
+Total  Points : 28
 }
 
 
 
 ' Links =======
-"ARS-73" <.. "ARS-26" : Issue split
+"ARS-91" <.. "ARS-2" : Issue split
 
 
 @enduml
