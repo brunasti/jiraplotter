@@ -462,7 +462,9 @@ public class ParseJiraTicketsCsv {
 
       for (int i = 1; i < r.size(); i++) {
         JiraTicket jiraTicket = new JiraTicket(r.get(i));
-        jiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
+        if (!jiraTicket.issueKey.isEmpty()) {
+          jiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
+        }
       }
 
       // Create link pointers from ticket id

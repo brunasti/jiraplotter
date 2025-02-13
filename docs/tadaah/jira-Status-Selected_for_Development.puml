@@ -1,0 +1,79 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Thu Feb 13 13:30:50 CET 2025
+
+title Jira Tickets for Status Selected for Development
+hide empty members
+
+legend
+Jira Ticket Status
+----
+Selected for Development : 7
+----
+Jira Ticket Types
+----
+Taak : 3
+Story : 4
+end legend
+
+
+' Tickets =======
+class "XXX" << (X,lightblue) >> {
+ Summary : [3338] IBAN change
+ Status : Selected for Development
+ Type : Taak
+Total  Points : 0
+}
+
+class "XXX" << (X,lightblue) >> {
+ Summary : Change IBAN for following freelancers [5099] and [8235]
+ Status : Selected for Development
+ Type : Taak
+Total  Points : 0
+}
+
+class "XXX" << (X,lightblue) >> {
+ Summary : Additional evidence is not visible for organisation
+ Status : Selected for Development
+ Type : Story
+Total  Points : 0
+}
+
+class "XXX" << (X,lightblue) >> {
+ Summary : org. 633 want all mails on flexpool@welschap.nl 
+ Status : Selected for Development
+ Type : Story
+Total  Points : 0
+}
+
+class "XXX" << (X,lightblue) >> {
+ Summary : Payments outside platform
+ Status : Selected for Development
+ Type : Story
+Total  Points : 0
+}
+
+class "Taak" << (T,lightblue) >> {
+ Summary : IBAN changes to be made for freelancers
+ Assigned to : Tanya Lyabik
+ Status : Selected for Development
+ Type : Taak
+Total  Points : 0
+}
+
+class "Story" << (S,lightgreen) >> {
+ Summary : Unjustified invoice - shift and invoice to be changed in status to no show
+ Assigned to : Tanya Lyabik
+ Status : Selected for Development
+ Type : Story
+Total  Points : 0
+}
+
+
+
+' Links =======
+
+
+@enduml

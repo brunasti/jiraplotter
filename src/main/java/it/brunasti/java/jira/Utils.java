@@ -156,7 +156,11 @@ public class Utils {
    * @return header for the Ticket
    */
   public static String createClassHead(JiraTicket jiraTicket) {
-    String type = jiraTicket.issueType.getFirst().toLowerCase();
+    String type = "XXXX";
+    if (!jiraTicket.assignee.isEmpty()) {
+      type = jiraTicket.issueType.getFirst().toLowerCase();
+    }
+
     String header;
 
     switch (type) {
@@ -194,16 +198,25 @@ public class Utils {
               -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE
               + "W" + ParseJiraTicketsConstants.DEFINITION_CLASS_FULL_END;
       default -> {
+        String issueType = "XXX";
+        if (!jiraTicket.assignee.isEmpty()) {
+          issueType = jiraTicket.issueType.getFirst();
+        }
         log.error("createClassHead unknown type [{}] [{}]",
                 type,
-                jiraTicket.issueKey.getFirst());
+                issueType);
         header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE + "X"
                 + ParseJiraTicketsConstants.DEFINITION_CLASS_FULL_END;
       }
     }
 
+
+    String issueType = "XXX";
+    if (!jiraTicket.assignee.isEmpty()) {
+      issueType = jiraTicket.issueType.getFirst();
+    }
     return ParseJiraTicketsConstants.DEFINITION_CLASS_START
-            + jiraTicket.issueKey.getFirst() + header;
+            + issueType + header;
   }
 
   /**

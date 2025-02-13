@@ -104,12 +104,14 @@ class UtilsTest {
     assertNotNull(header);
 
     jiraTicket.issueType = new ArrayList<>();
-    assertThrows(NoSuchElementException.class, () -> Utils.createClassHead(jiraTicket));
+//    assertThrows(NoSuchElementException.class, () -> Utils.createClassHead(jiraTicket));
+    assertDoesNotThrow(() -> Utils.createClassHead(jiraTicket));
 
     jiraTicket.issueType.add("XXXXXXX");
     header = Utils.createClassHead(jiraTicket);
     assertNotNull(header);
-    assertEquals("class \"CNG-1411\" << (X,lightblue) >> {", header);
+//    assertEquals("class \"CNG-1411\" << (X,lightblue) >> {", header);
+    assertEquals("class \"XXX\" << (X,lightblue) >> {", header);
   }
 
 

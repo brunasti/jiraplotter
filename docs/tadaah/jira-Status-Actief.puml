@@ -1,0 +1,101 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Thu Feb 13 13:30:50 CET 2025
+
+title Jira Tickets for Status Actief
+hide empty members
+
+legend
+Jira Ticket Status
+----
+Actief : 9
+----
+Jira Ticket Types
+----
+Taak : 6
+Bug : 2
+Story : 1
+end legend
+
+
+' Tickets =======
+class "Taak" << (T,lightblue) >> {
+ Summary : FL[4565] € in assignment is different from shift since FL asked for other price
+ Assigned to : Tanya Lyabik
+ Status : Actief
+ Type : Taak
+Total  Points : 0
+}
+
+class "Story" << (S,lightgreen) >> {
+ Summary : Export Summary of invoiced freelancer hours per org_id
+ Assigned to : Tanya Lyabik
+ Status : Actief
+ Type : Story
+Total  Points : 0
+}
+
+class "Bug" << (B,red) >> {
+ Summary : FL's who shouldnt see babyshifts
+ Assigned to : Tanya Lyabik
+ Status : Actief
+ Type : Bug
+Total  Points : 0
+}
+
+class "Taak" << (T,lightblue) >> {
+ Summary : [PAUSED] Export payment data from all Blos organisations
+ Assigned to : Tanya Lyabik
+ Status : Actief
+ Type : Taak
+Total  Points : 0
+}
+
+class "Taak" << (T,lightblue) >> {
+ Summary : Organisation adress change org Wasko [560]
+ Assigned to : Tanya Lyabik
+ Status : Actief
+ Type : Taak
+Total  Points : 0
+}
+
+class "Taak" << (T,lightblue) >> {
+ Summary : FL [4446] still can not see KDV shifts
+ Assigned to : Tanya Lyabik
+ Status : Actief
+ Type : Taak
+Total  Points : 0
+}
+
+class "Taak" << (T,lightblue) >> {
+ Summary : Change Diploma Type to Sociaal Pedagogisch Werker 3 for Naima Sayeh FL [1809] 
+ Assigned to : Tanya Lyabik
+ Status : Actief
+ Type : Taak
+Total  Points : 0
+}
+
+class "Bug" << (B,red) >> {
+ Summary : Certificate Type is not available to Add again if Migrated Certificate was deleted
+ Assigned to : Levi van Hoorn | Tadaah
+ Status : Actief
+ Type : Bug
+Total  Points : 0
+}
+
+class "Taak" << (T,lightblue) >> {
+ Summary : FL been waiting months, so please TODAY [5016] Karin Hackfoort VVE title is gone
+ Assigned to : Levi van Hoorn | Tadaah
+ Status : Actief
+ Type : Taak
+Total  Points : 0
+}
+
+
+
+' Links =======
+
+
+@enduml

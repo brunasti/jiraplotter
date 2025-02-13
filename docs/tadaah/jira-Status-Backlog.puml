@@ -1,0 +1,121 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+' GENERATE CLASS DIAGRAM ===========
+' Generated at    : Thu Feb 13 13:30:50 CET 2025
+
+title Jira Tickets for Status Backlog
+hide empty members
+
+legend
+Jira Ticket Status
+----
+Backlog : 12
+----
+Jira Ticket Types
+----
+Taak : 10
+Bug : 1
+Story : 1
+end legend
+
+
+' Tickets =======
+class "XXX" << (X,lightblue) >> {
+ Summary : Question from organisation
+ Status : Backlog
+ Type : Story
+Total  Points : 0
+}
+
+class "Taak" << (T,lightblue) >> {
+ Summary : please change the 'standaard bemiddelingsovereenkomst' for all organisations & freelancers
+ Assigned to : Levi van Hoorn | Tadaah
+ Status : Backlog
+ Type : Taak
+Total  Points : 0
+}
+
+class "Taak" << (T,lightblue) >> {
+ Summary : change email adres [2131]
+ Assigned to : Tanya Lyabik
+ Status : Backlog
+ Type : Taak
+Total  Points : 0
+}
+
+class "Taak" << (T,lightblue) >> {
+ Summary : [2984] is rejected at KYC, but doesn't see Rejection reason and sees Paid On date on her invoice in the App (Ruveyda Kilic)
+ Assigned to : Levi van Hoorn | Tadaah
+ Status : Backlog
+ Type : Taak
+Total  Points : 0
+}
+
+class "Taak" << (T,lightblue) >> {
+ Summary : password reset
+ Assigned to : Levi van Hoorn | Tadaah
+ Status : Backlog
+ Type : Taak
+Total  Points : 0
+}
+
+class "Taak" << (T,lightblue) >> {
+ Summary : Can we add certificate title? FL_issue[5506]
+ Assigned to : Levi van Hoorn | Tadaah
+ Status : Backlog
+ Type : Taak
+Total  Points : 0
+}
+
+class "Taak" << (T,lightblue) >> {
+ Summary : FL doesn't recieve mail when ask for password reset
+ Assigned to : Levi van Hoorn | Tadaah
+ Status : Backlog
+ Type : Taak
+Total  Points : 0
+}
+
+class "Taak" << (T,lightblue) >> {
+ Summary : add info to org. [153] Oase
+ Assigned to : Levi van Hoorn | Tadaah
+ Status : Backlog
+ Type : Taak
+Total  Points : 0
+}
+
+class "Bug" << (B,red) >> {
+ Summary : [3574] button 'certificaten toevoegen' isn't visable
+ Assigned to : Levi van Hoorn | Tadaah
+ Status : Backlog
+ Type : Bug
+Total  Points : 0
+}
+
+class "XXX" << (X,lightblue) >> {
+ Summary : Turn Off OPP for org. [573]
+ Status : Backlog
+ Type : Taak
+Total  Points : 0
+}
+
+class "XXX" << (X,lightblue) >> {
+ Summary : org 556 blocked FL 5016 but FL isnt blocked
+ Status : Backlog
+ Type : Taak
+Total  Points : 0
+}
+
+class "XXX" << (X,lightblue) >> {
+ Summary : [4408] Fatma Polat, payment issue
+ Status : Backlog
+ Type : Taak
+Total  Points : 0
+}
+
+
+
+' Links =======
+
+
+@enduml
