@@ -20,7 +20,7 @@
       <artifactId>Java-Utils</artifactId>
       <version>1.0.0</version>
       <scope>system</scope>
-      <systemPath>/Users/paolobrunasti/Work/Mine/jiraplotter/lib/Java-Utils-1.0.0.jar</systemPath>
+      <systemPath>/Users/paolo/IdeaProjects/mine/jiraplotter/lib/Java-Utils-1.0.0.jar</systemPath>
     </dependency>
 
     <dependency>
@@ -72,5 +72,11 @@
       <artifactId>log4j-core</artifactId>
       <version>2.23.1</version>
     </dependency>
+      <dependency>
+          <groupId>org.junit.jupiter</groupId>
+          <artifactId>junit-jupiter</artifactId>
+          <version>RELEASE</version>
+          <scope>test</scope>
+      </dependency>
   </dependencies>
 </project>

@@ -49,17 +49,23 @@ public class Utils {
     return it.brunasti.java.utils.Utils.extractBracketsContent(name);
   }
 
+  public static String getNameForFile(String name) {
+    String fileName = name.replace(' ', '_');
+    fileName = fileName.replace('/', '_');
+    return fileName;
+  }
+
   public static long countSameFields(String[] fields, String name) {
     return Arrays.stream(fields).filter(field -> field.equals(name)).count();
   }
 
   public static JiraTicket findFromKey(Map<String, JiraTicket> jiraTickets, String key) {
-    log.debug("findFromKey : [{}]", key);
+//    log.debug("findFromKey : [{}]", key);
     return jiraTickets.get(key);
   }
 
   public static JiraTicket findFromId(Map<String, JiraTicket> jiraTickets, String key) {
-    log.debug("findFromId : [{}]", key);
+//    log.debug("findFromId : [{}]", key);
     AtomicReference<JiraTicket> result = new AtomicReference<>();
     jiraTickets.values().forEach(jiraTicket -> {
       if (key.equalsIgnoreCase(jiraTicket.issueId.getFirst())) {
@@ -181,7 +187,7 @@ public class Utils {
       case ParseJiraTicketsConstants.TYPE_SUBTASK
               -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE
               + "S" + ParseJiraTicketsConstants.DEFINITION_CLASS_FULL_END;
-      case ParseJiraTicketsConstants.TYPE_TASK
+      case ParseJiraTicketsConstants.TYPE_TASK, ParseJiraTicketsConstants.TYPE_TASK_NL
               -> header = ParseJiraTicketsConstants.DEFINITION_CLASS_MIDDLE
               + "T" + ParseJiraTicketsConstants.DEFINITION_CLASS_FULL_END;
       case ParseJiraTicketsConstants.TYPE_WORK_REQUEST
@@ -239,7 +245,7 @@ public class Utils {
   public static Map<String, JiraTicket> getEpicTickets(
           final Map<String, JiraTicket>  jiraTickets, String linkKind, JiraTicket epic) {
     // TODO: change to epics
-    log.debug("getEpicTickets ({}) EPIC : ({}) ", linkKind, epic.issueKey.getFirst());
+//    log.debug("getEpicTickets ({}) EPIC : ({}) ", linkKind, epic.issueKey.getFirst());
 
     Map<String, JiraTicket> selectedJiraTickets = new HashMap<>();
     selectedJiraTickets.put(epic.issueKey.getFirst(), epic);
@@ -260,10 +266,10 @@ public class Utils {
     Map<String, JiraTicket> subTickets = new HashMap<>();
     jiraTickets.values().forEach(jiraTicket -> {
       if (!jiraTicket.parent.isEmpty()) {
-        log.debug("getEpicTickets ({}) EPIC : ({}) ({})", epic.issueKey.getFirst(), jiraTicket.issueKey.getFirst(), jiraTicket.parent.getFirst());
+//        log.debug("getEpicTickets ({}) EPIC : ({}) ({})", epic.issueKey.getFirst(), jiraTicket.issueKey.getFirst(), jiraTicket.parent.getFirst());
         JiraTicket parent = findFromId(jiraTickets, jiraTicket.parent.getFirst());
         if ((parent != null) && (selectedJiraTickets.containsKey(parent.issueKey.getFirst()))) {
-          log.debug("getEpicTickets ({}) EPIC : add ({}) ", epic.issueKey.getFirst(), jiraTicket.issueKey.getFirst());
+//          log.debug("getEpicTickets ({}) EPIC : add ({}) ", epic.issueKey.getFirst(), jiraTicket.issueKey.getFirst());
           subTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
         }
       }
@@ -348,7 +354,7 @@ public class Utils {
     jiraTickets.forEach(jiraTicket -> {
       if ((!jiraTicket.assignee.isEmpty())
               && (jiraTicket.assignee.getFirst().equalsIgnoreCase(person))) {
-        log.debug("personHasDependingTickets ({}) -> [{}]", person, jiraTicket.issueKey);
+//        log.debug("personHasDependingTickets ({}) -> [{}]", person, jiraTicket.issueKey);
         selectedJiraTickets.put(jiraTicket.issueKey.getFirst(), jiraTicket);
       }
     });

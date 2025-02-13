@@ -105,4 +105,22 @@ class JiraTicketsPlotterMainTest implements TestConstants {
     assertDoesNotThrow(() -> it.brunasti.java.jira.JiraTicketsPlotterMain.main(fullArgs));
   }
 
+
+  @Test
+  @DisplayName("Call JiraTicketsPlotterMain main with parameters for Tadaah")
+  void testMainTadaah() {
+    System.err.println("JiraTicketsPlotterMain.testMainTadaah");
+    String[] fullArgs = new String[8];
+    fullArgs[0] = "-i";
+    fullArgs[1] = "/Users/paolo/IdeaProjects/mine/jiraplotter/docs/tadaah/jira-tadaah.csv";
+    fullArgs[2] = "-o";
+    fullArgs[3] = "/Users/paolo/IdeaProjects/mine/jiraplotter/docs/tadaah/";
+    fullArgs[4] = "-c";
+    fullArgs[5] = configurationFileName;
+    fullArgs[6] = "-d";
+    fullArgs[7] = "999";
+
+    assertDoesNotThrow(() -> it.brunasti.java.jira.JiraTicketsPlotterMain.main(fullArgs));
+  }
+
 }

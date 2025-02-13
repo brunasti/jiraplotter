@@ -11,19 +11,21 @@ import java.util.concurrent.atomic.AtomicReference;
 public class JiraTicketDescriptor {
   static Logger log = LogManager.getLogger(JiraTicketDescriptor.class);
 
+  // TODO : Reactivate for more complete Jira boards
   static FieldDescriptor assigneeFieldDescriptor;
-  static FieldDescriptor descriptionFieldDescriptor;
+  static FieldDescriptor assigneeIdFieldDescriptor;
+//  static FieldDescriptor descriptionFieldDescriptor;
   static FieldDescriptor issueTypeFieldDescriptor;
   static FieldDescriptor issueIdFieldDescriptor;
   static FieldDescriptor issueKeyFieldDescriptor;
-  static FieldDescriptor parentFieldDescriptor;
-  static FieldDescriptor priorityFieldDescriptor;
+//  static FieldDescriptor parentFieldDescriptor;
+//  static FieldDescriptor priorityFieldDescriptor;
   static FieldDescriptor statusFieldDescriptor;
   static FieldDescriptor summaryFieldDescriptor;
   static FieldDescriptor storyPointsFieldDescriptor;
 
-  static ArrayList<FieldDescriptor> inwardIssueLinkFieldDescriptor;
-  static ArrayList<FieldDescriptor> outwardIssueLinkFieldDescriptor;
+//  static ArrayList<FieldDescriptor> inwardIssueLinkFieldDescriptor;
+//  static ArrayList<FieldDescriptor> outwardIssueLinkFieldDescriptor;
 
   private JiraTicketDescriptor() {
   }
@@ -55,19 +57,23 @@ public class JiraTicketDescriptor {
 
   static void readCSVDefinition(ArrayList<FieldDescriptor> fieldDescriptors) {
     log.debug("readCSVDefinition");
-    assigneeFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_ASSIGNEE);
-    descriptionFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_DESCRIPTION);
+    // TODO : Reactivate for more complete Jira boards
+//  Issuetype,Issuecode,Issue id,Samenvatting,Uitvoerder,Uitvoerder-ID,Status,Aangemaakt,Σ Oorspronkelijke schatting,Σ Bestede tijd
     issueTypeFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_ISSUE_TYPE);
-    issueIdFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_ISSUE_ID);
     issueKeyFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_ISSUE_KEY);
-    parentFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_PARENT);
-    priorityFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_PRIORITY);
-    statusFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_STATUS);
+    issueIdFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_ISSUE_ID);
     summaryFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_SUMMARY);
+    assigneeFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_ASSIGNEE);
+    assigneeIdFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_ASSIGNEE_ID);
+    statusFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_STATUS);
     storyPointsFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_STORY_POINT);
 
-    inwardIssueLinkFieldDescriptor = findLinksFieldDescriptors(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_INWARD_ISSUE_LINK);
-    outwardIssueLinkFieldDescriptor = findLinksFieldDescriptors(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_OUTWARD_ISSUE_LINK);
+//    descriptionFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_DESCRIPTION);
+//    parentFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_PARENT);
+//    priorityFieldDescriptor = findFieldDescriptor(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_PRIORITY);
+//
+//    inwardIssueLinkFieldDescriptor = findLinksFieldDescriptors(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_INWARD_ISSUE_LINK);
+//    outwardIssueLinkFieldDescriptor = findLinksFieldDescriptors(fieldDescriptors, ParseJiraTicketsConstants.FIELD_NAME_OUTWARD_ISSUE_LINK);
   }
 
 

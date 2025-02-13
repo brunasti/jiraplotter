@@ -24,8 +24,8 @@ public class JiraTicket {
   ArrayList<String> summary;
   ArrayList<String> storyPoints;
 
-  ArrayList<JiraTicketLinks> inwardIssueLink;
-  ArrayList<JiraTicketLinks> outwardIssueLink;
+  ArrayList<JiraTicketLinks> inwardIssueLink = new ArrayList<>();
+  ArrayList<JiraTicketLinks> outwardIssueLink = new ArrayList<>();
 
   JiraTicket parentJira;
   int totalstoryPoints = 0;
@@ -65,13 +65,14 @@ public class JiraTicket {
   }
 
   void readFromCSVRow(String[] fields) {
+    // TODO : Reactivate for more complete Jira boards
     assignee = readField(fields, JiraTicketDescriptor.assigneeFieldDescriptor);
-    description = readField(fields, JiraTicketDescriptor.descriptionFieldDescriptor);
+//    description = readField(fields, JiraTicketDescriptor.descriptionFieldDescriptor);
     issueType = readField(fields, JiraTicketDescriptor.issueTypeFieldDescriptor);
     issueId = readField(fields, JiraTicketDescriptor.issueIdFieldDescriptor);
     issueKey = readField(fields, JiraTicketDescriptor.issueKeyFieldDescriptor);
-    parent = readField(fields, JiraTicketDescriptor.parentFieldDescriptor);
-    priority = readField(fields, JiraTicketDescriptor.priorityFieldDescriptor);
+//    parent = readField(fields, JiraTicketDescriptor.parentFieldDescriptor);
+//    priority = readField(fields, JiraTicketDescriptor.priorityFieldDescriptor);
     status = readField(fields, JiraTicketDescriptor.statusFieldDescriptor);
     summary = readField(fields, JiraTicketDescriptor.summaryFieldDescriptor);
     storyPoints = readField(fields, JiraTicketDescriptor.storyPointsFieldDescriptor);
@@ -83,31 +84,33 @@ public class JiraTicket {
       ex.printStackTrace();
     }
 
-    inwardIssueLink = readLinks(fields, JiraTicketDescriptor.inwardIssueLinkFieldDescriptor);
-    outwardIssueLink = readLinks(fields, JiraTicketDescriptor.outwardIssueLinkFieldDescriptor);
+    // TODO : Reactivate for more complete Jira boards
+//    inwardIssueLink = readLinks(fields, JiraTicketDescriptor.inwardIssueLinkFieldDescriptor);
+//    outwardIssueLink = readLinks(fields, JiraTicketDescriptor.outwardIssueLinkFieldDescriptor);
   }
 
 
   void connectLinks(HashMap<String, JiraTicket> jiraTickets) {
-    log.info("Linking : {} - {}", issueKey, issueId);
+//    log.info("Linking : {} - {}", issueKey, issueId);
     if (jiraTickets == null) return;
 
-    if (!parent.isEmpty()) {
-      log.info("Linking to parent : {}", parent.getFirst());
+    if ((parent != null) && (!parent.isEmpty())) {
+//      log.info("Linking to parent : {}", parent.getFirst());
       parentJira = Utils.findFromId(jiraTickets, parent.getFirst());
     }
 
-    inwardIssueLink.forEach(links ->
-      links.getLinks().forEach(link -> {
-        JiraTicket ticket = Utils.findFromKey(jiraTickets, link);
-        if (ticket != null) {
-          links.getJiraTickets().add(ticket);
-        } else {
-          log.error("connectLinks  not possible : [{}] to [{}]", issueKey.getFirst(), link);
-        }
-      })
-    );
-
+    if (inwardIssueLink != null) {
+      inwardIssueLink.forEach(links ->
+              links.getLinks().forEach(link -> {
+                JiraTicket ticket = Utils.findFromKey(jiraTickets, link);
+                if (ticket != null) {
+                  links.getJiraTickets().add(ticket);
+                } else {
+                  log.error("connectLinks  not possible : [{}] to [{}]", issueKey.getFirst(), link);
+                }
+              })
+      );
+    }
   }
 
 }

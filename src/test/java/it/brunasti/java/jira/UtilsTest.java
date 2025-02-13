@@ -18,7 +18,7 @@ class UtilsTest {
   String[] header;
   String[] testRecord;
   String name;
-  String complexName;
+//  String complexName;
 
   @BeforeEach
   void setup() throws IOException, CsvException {
@@ -45,7 +45,7 @@ class UtilsTest {
       testRecord = r.get(1);
     }
 
-    complexName = ParseJiraTicketsConstants.FIELD_NAME_PARENT;
+//    complexName = ParseJiraTicketsConstants.FIELD_NAME_PARENT;
   }
 
 

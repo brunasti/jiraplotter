@@ -115,7 +115,7 @@ public class ParseJiraTicketsCsv {
   private void computeTicketsTotalPoints(final Collection<JiraTicket> jiraTickets) {
     log.info("computeTicketsTotalPoints");
     jiraTickets.forEach(jiraTicket -> {
-      log.info("  Parents for {}", jiraTicket.issueKey);
+//      log.info("  Parents for {}", jiraTicket.issueKey);
       JiraTicket parentJira = jiraTicket.parentJira;
       if (parentJira != null) {
         parentJira.totalstoryPoints = parentJira.totalstoryPoints + jiraTicket.totalstoryPoints;
@@ -185,7 +185,7 @@ public class ParseJiraTicketsCsv {
     output.println();
     output.println("' Parents =======");
     jiraTickets.forEach(jiraTicket -> {
-      log.info("Parents for {}", jiraTicket.issueKey);
+//      log.info("Parents for {}", jiraTicket.issueKey);
       if (jiraTicket.parentJira != null) {
         output.println("\"" + jiraTicket.parentJira.issueKey.getFirst()
                 + "\" <|-- \"" + jiraTicket.issueKey.getFirst() + "\"");
@@ -316,7 +316,7 @@ public class ParseJiraTicketsCsv {
       log.debug("jiraTicketLinkDescriptor : [{}] = {}", jiraTicketLinkDescriptor, ticketsNumber);
       if (ticketsNumber > 0) {
         try {
-          String name = jiraTicketLinkDescriptor.getShortName().replace(' ', '_');
+          String name = Utils.getNameForFile(jiraTicketLinkDescriptor.getShortName());
           FileOutputStream subfile = new FileOutputStream(outputDir + "jira-LinkType-"
                   + name + ParseJiraTicketsConstants.PUML_FILE_EXTENSION);
           output = new PrintStream(subfile, true);
@@ -347,7 +347,7 @@ public class ParseJiraTicketsCsv {
     stata.forEach(status -> {
       log.debug("stata : [{}]", status);
       try {
-        String name = status.replace(' ', '_');
+        String name = Utils.getNameForFile(status);
         FileOutputStream subfile = new FileOutputStream(outputDir
                 + "jira-Status-" + name + ParseJiraTicketsConstants.PUML_FILE_EXTENSION);
         output = new PrintStream(subfile, true);
@@ -374,7 +374,7 @@ public class ParseJiraTicketsCsv {
       log.debug("people : [{}]", person);
       if (Utils.personHasDependingTickets(jiraTickets.values(), person)) {
         try {
-          String name = person.replace(' ', '_');
+          String name = Utils.getNameForFile(person);
           FileOutputStream subfile = new FileOutputStream(outputDir
                   + "jira-Person-" + name + ParseJiraTicketsConstants.PUML_FILE_EXTENSION);
           output = new PrintStream(subfile, true);
@@ -403,7 +403,7 @@ public class ParseJiraTicketsCsv {
       try {
         JiraTicket epicTicket = Utils.findFromId(jiraTickets, epic);
         String epicName = epicTicket.summary.getFirst();
-        String name = epicName.replace(' ', '_');
+        String name = Utils.getNameForFile(epicName);
         log.debug("epicName : [{}]", epicName);
         FileOutputStream subfile = new FileOutputStream(outputDir
                 + "jira-Epic-" + name + ParseJiraTicketsConstants.PUML_FILE_EXTENSION);

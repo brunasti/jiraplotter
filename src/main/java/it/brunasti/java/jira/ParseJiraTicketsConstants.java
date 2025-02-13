@@ -20,20 +20,27 @@ public final class ParseJiraTicketsConstants {
   public static final String DEFINITION_LINK_SIMPLE_END = "\" : ";
 
 
-  static final String FIELD_NAME_ASSIGNEE = "Assignee";
-  static final String FIELD_NAME_DESCRIPTION = "Description";
-  static final String FIELD_NAME_ISSUE_TYPE = "Issue type";
-  static final String FIELD_NAME_ISSUE_ID = "Issue id";
-  static final String FIELD_NAME_ISSUE_KEY = "Issue key";
-  static final String FIELD_NAME_PARENT = "Parent";
-  static final String FIELD_NAME_PRIORITY = "Priority";
-  static final String FIELD_NAME_STATUS = "Status";
-  static final String FIELD_NAME_SUMMARY = "Summary";
-  static final String FIELD_NAME_ORIGINAL_ESTIMATE = "Original estimate";
-  static final String FIELD_NAME_STORY_POINT = "Custom field (Story point estimate)";
+//  Issuetype,Issuecode,Issue id,Samenvatting,Uitvoerder,Uitvoerder-ID,Status,Aangemaakt,Σ Oorspronkelijke schatting,Σ Bestede tijd
 
-  static final String FIELD_NAME_INWARD_ISSUE_LINK = "Inward issue link";
-  static final String FIELD_NAME_OUTWARD_ISSUE_LINK = "Outward issue link";
+  static final String FIELD_NAME_ISSUE_TYPE = "Issuetype";
+  static final String FIELD_NAME_ISSUE_KEY = "Issuecode";
+  static final String FIELD_NAME_ISSUE_ID = "Issue id";
+  static final String FIELD_NAME_SUMMARY = "Samenvatting";
+  static final String FIELD_NAME_ASSIGNEE = "Uitvoerder";
+  static final String FIELD_NAME_ASSIGNEE_ID = "Uitvoerder-ID";
+  static final String FIELD_NAME_STATUS = "Status";
+  static final String FIELD_NAME_CREATOR = "Aangemaakt";
+  static final String FIELD_NAME_STORY_POINT = "Σ Oorspronkelijke schatting";
+  static final String FIELD_NAME_TIME_SPENT = "Σ Bestede tijd";
+
+  // TODO : Reactivate for more complete Jira boards
+//  static final String FIELD_NAME_DESCRIPTION = "Description";
+//  static final String FIELD_NAME_PARENT = "Parent";
+//  static final String FIELD_NAME_PRIORITY = "Priority";
+//  static final String FIELD_NAME_STORY_POINT = "Custom field (Story point estimate)";
+
+//  static final String FIELD_NAME_INWARD_ISSUE_LINK = "Inward issue link";
+//  static final String FIELD_NAME_OUTWARD_ISSUE_LINK = "Outward issue link";
 
 
 
@@ -54,6 +61,7 @@ public final class ParseJiraTicketsConstants {
   public static final String TYPE_REQUEST = "project request package";
   public static final String TYPE_SUBTASK = "subtask";
   public static final String TYPE_TASK = "task";
+  public static final String TYPE_TASK_NL = "taak";
   public static final String TYPE_WORK_REQUEST = "work request";
   
 }

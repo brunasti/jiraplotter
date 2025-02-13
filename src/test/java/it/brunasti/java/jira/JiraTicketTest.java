@@ -16,7 +16,7 @@ class JiraTicketTest {
 
   String[] complexFields;
   String[] testRecord;
-  String complexName;
+//  String complexName;
 
   @BeforeEach
   void setup() throws IOException, CsvException {
@@ -34,7 +34,7 @@ class JiraTicketTest {
       testRecord = r.get(1);
     };
 
-    complexName = ParseJiraTicketsConstants.FIELD_NAME_PARENT;
+//    complexName = ParseJiraTicketsConstants.FIELD_NAME_PARENT;
   }
 
 
