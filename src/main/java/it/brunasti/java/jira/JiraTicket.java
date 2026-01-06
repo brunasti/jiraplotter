@@ -39,7 +39,7 @@ public class JiraTicket {
     ArrayList<JiraTicketLinks> links = new ArrayList<>();
 
     if (fieldDescriptors != null) {
-      fieldDescriptors.forEach(fieldDescriptor -> {
+      fieldDescriptors.forEach((FieldDescriptor fieldDescriptor) -> {
         JiraTicketLinks jiraTicketLinks = new JiraTicketLinks(fieldDescriptor.getName(), readField(fields, fieldDescriptor), new ArrayList<>());
         links.add(jiraTicketLinks);
       });
